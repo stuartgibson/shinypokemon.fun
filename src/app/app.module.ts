@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from '../store/reducers';
+import { CurrentCompetitionComponent } from './current-competition/current-competition.component';
+import { CurrentYearComponent } from './current-year/current-year.component';
+import { PreviousYearsComponent } from './previous-years/previous-years.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CurrentCompetitionComponent,
+    CurrentYearComponent,
+    PreviousYearsComponent
   ],
   imports: [
     BrowserModule,
