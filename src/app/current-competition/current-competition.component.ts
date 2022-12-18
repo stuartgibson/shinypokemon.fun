@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Competition } from 'models/competition.model';
 
 @Component({
   selector: 'sp-current-competition',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./current-competition.component.sass']
 })
 export class CurrentCompetitionComponent {
-
+  currentCompetition = new Competition({
+    description: 'This is a description',
+    endDate: new Date('2023-01-14'),
+    startDate: new Date('2023-01-01'),
+    theme: 'Catch a Pokémon',
+    validPokemonIDs: ['1', '2', '3']
+  });
 }

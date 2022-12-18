@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PreviousYearsComponent } from './previous-years.component';
+import { CatchComponent } from './catch.component';
 
-describe('PreviousYearsComponent', () => {
-  let component: PreviousYearsComponent;
-  let fixture: ComponentFixture<PreviousYearsComponent>;
+describe('CatchComponent', () => {
+  let component: CatchComponent;
+  let fixture: ComponentFixture<CatchComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PreviousYearsComponent ]
+      declarations: [ CatchComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PreviousYearsComponent);
+    fixture = TestBed.createComponent(CatchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
