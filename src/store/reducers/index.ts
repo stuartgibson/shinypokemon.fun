@@ -7,12 +7,12 @@ import {
   MetaReducer
 } from '@ngrx/store';
 
-export interface State {
-
+export interface AppState {
+  years: {}
 }
 
-export const reducers: ActionReducerMap<State> = {
-
+export const reducers: ActionReducerMap<AppState> = {
+  years: (state = {}, action) => state
 };
 
 
