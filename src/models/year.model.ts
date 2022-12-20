@@ -1,15 +1,14 @@
+import { AppModel, IAppModel } from "./base.model";
+
 interface IYear extends IAppModel {
   readonly name:string;
-  readonly competitionIDs:string[];
 }
 
-class Year extends AppModel implements IYear {
+export class Year extends AppModel implements IYear {
   readonly name:string;
-  readonly competitionIDs: string[];
 
-  constructor(values:any) {
-    super(values);
-    this.name = values.name;
-    this.competitionIDs = values.competitionIDs;
+  constructor(data:any) {
+    super(data);
+    this.name = data.attributes.name;
   }
 }

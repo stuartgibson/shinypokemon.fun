@@ -6,13 +6,12 @@ import {
   createSelector,
   MetaReducer
 } from '@ngrx/store';
+import { AppState } from 'store/selectors/app.selectors';
+import { yearsReducer } from './years.reducer';
 
-export interface AppState {
-  years: {}
-}
 
 export const reducers: ActionReducerMap<AppState> = {
-  years: (state = {}, action) => state
+  years: yearsReducer
 };
 
 

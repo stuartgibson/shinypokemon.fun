@@ -5,7 +5,7 @@ export interface IAppModel {
 export class AppModel implements IAppModel {
   readonly id:string;
 
-  constructor(values:any) {
-    this.id = values.id;
+  constructor(data:any) {
+    this.id = data.id;
   }
 }
