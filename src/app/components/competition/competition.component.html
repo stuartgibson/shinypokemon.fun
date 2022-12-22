@@ -1,3 +1,22 @@
-<pre>
-  {{ competition | json }}
-</pre>
+<dl>
+  <div>
+    <dt>Theme:</dt>
+    <dd>{{ competition.theme }}</dd>
+  </div>
+  <div>
+    <dt>Description:</dt>
+    <dd>{{ competition.description }}</dd>
+  </div>
+  <div>
+    <dt>Start Date:</dt>
+    <dd>
+      <sp-date [date]="competition.startDate"></sp-date>
+    </dd>
+  </div>
+  <div>
+    <dt>End Date:</dt>
+    <dd>
+      <sp-date [date]="competition.endDate"></sp-date>
+    </dd>
+  </div>
+</dl>

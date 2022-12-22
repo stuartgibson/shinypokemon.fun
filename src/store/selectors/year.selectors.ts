@@ -18,26 +18,28 @@ export interface YearsState {
   entities: {[id: string]: IYearEntity};
 }
 
-export const selectYear = (id:string) => createSelector(
+export const selectYear = (id:string|null) => createSelector(
   selectFeature,
-  (state: YearsState):Year|null =>
-    state.entities[id] ? new Year(state.entities[id]) : null
+  (state: YearsState):Year|null => {
+    if(!id) return null;
+    return state.entities[id] ? new Year(state.entities[id]) : null
+  }
 );
 
 export const selectYears = createSelector(
   selectFeature,
   (state: YearsState):Year[] => {
-    const years = Object.keys(state.entities).map((key) => new Year(state.entities[key]));
-    return years.sort((a, b) => a.name.localeCompare(b.name));
+    const years = Object.keys(state.entities).map((key) => new Year(state.entities[key].data));
+    return years.sort((a, b) => b.name.localeCompare(a.name));
   }
 );
 
 export const selectCurrentYear = createSelector(
   selectYears,
-  (years: Year[]):Year|null => years[0] || null
+  (years: Year[]):Year|null => years.filter((year) => year.name === new Date().getFullYear().toString())[0]
 );
 
 export const selectPreviousYears = createSelector(
   selectYears,
-  (years: Year[]):Year[] => years.slice(1)
+  (years: Year[]):Year[] => years.filter((year) => year.name < new Date().getFullYear().toString())
 );

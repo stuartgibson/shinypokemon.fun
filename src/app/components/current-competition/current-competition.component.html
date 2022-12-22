@@ -1,1 +1,13 @@
-<sp-competition [competition]="currentCompetition"></sp-competition>
+<h2>Current Competition</h2>
+
+<ng-container *ngrxLet="currentCompetition$ as currentCompetition">
+  <ng-container [ngSwitch]="!!currentCompetition">
+    <div *ngSwitchCase="false">
+      <p>There is no competition currently running.</p>
+    </div>
+
+    <sp-competition
+      *ngSwitchCase="true"
+      [competition]="currentCompetition!">
+    </sp-competition>
+</ng-container>

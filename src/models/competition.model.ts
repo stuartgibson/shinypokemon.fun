@@ -6,6 +6,7 @@ interface ICompetition extends IAppModel{
   readonly startDate:Date;
   readonly theme:string;
   readonly validPokemonIDs:string[];
+  readonly yearID:string|null;
 }
 
 export class Competition extends AppModel implements ICompetition {
@@ -14,13 +15,15 @@ export class Competition extends AppModel implements ICompetition {
   readonly startDate:Date;
   readonly theme:string;
   readonly validPokemonIDs:string[];
+  readonly yearID:string|null;
 
-  constructor(values:any) {
-    super(values);
-    this.description = values.description;
-    this.endDate = values.endDate;
-    this.startDate = values.startDate;
-    this.theme = values.theme;
-    this.validPokemonIDs = values.validPokemonIDs;
+  constructor(data:any) {
+    super(data);
+    this.description = data.attributes.description;
+    this.endDate = new Date(data.attributes.endDate + 'T23:59:59');
+    this.startDate = new Date(data.attributes.startDate);
+    this.theme = data.attributes.theme;
+    this.validPokemonIDs = this.relationshipIDs(data, 'validPokemon');
+    this.yearID = this.relationshipID(data, 'year');
   }
 }

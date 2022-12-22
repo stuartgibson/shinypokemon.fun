@@ -8,4 +8,12 @@ export class AppModel implements IAppModel {
   constructor(data:any) {
     this.id = data.id;
   }
+
+  relationshipID(data:any, relationship:string):string|null {
+    return data?.relationships?.[relationship]?.data?.id;
+  }
+
+  relationshipIDs(data:any, relationship:string):string[] {
+    return data?.relationships?.[relationship]?.map((item:any) => item.data.id) || [];
+  }
 }

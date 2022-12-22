@@ -1,1 +1,9 @@
 <h3>Previous Years</h3>
+
+<ng-container *ngrxLet="yearList$ as yearList">
+  <div *ngFor="let year of yearList">
+    <a [routerLink]="['/years', year.id]">
+      {{ year.name }}
+    </a>
+  </div>
+</ng-container>

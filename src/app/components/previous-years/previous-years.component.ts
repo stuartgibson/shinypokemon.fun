@@ -1,6 +1,8 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { Store } from '@ngrx/store';
+import { Year } from 'models/year.model';
 import { Observable } from 'rxjs';
+import { selectPreviousYears } from 'store/selectors/year.selectors';
 
 @Component({
   selector: 'sp-previous-years',
@@ -9,11 +11,11 @@ import { Observable } from 'rxjs';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PreviousYearsComponent {
-  yearList:Observable<Year[]>;
+  yearList$:Observable<Year[]>;
 
-  constructor(private store:Store) {
-    this.yearList = this.store.select(
-      selectPreviousYearList
+  constructor(public store:Store) {
+    this.yearList$ = this.store.select(
+      selectPreviousYears
     );
   }
 }
