@@ -1,0 +1,54 @@
+// The Smart Layout classes will automatically display items in a flexible
+// layout at larger screen sizes, but stack into a vertical list at small
+// screen sizes. This stops form controls and buttons trying to squeeze
+// into narrow spaces. Variants for start, center, and end will justify the
+// flex items to that position. So for most forms, the cancel and submit button
+// should be smart-layout-end to position them to the right side of the form
+
+.smart-layout
+  @extend .d-grid
+  @extend .d-lg-flex
+  @extend .gap-3
+
+.smart-layout-around
+  @extend .smart-layout
+  @extend .justify-content-lg-around
+
+.smart-layout-between
+  @extend .smart-layout
+  @extend .justify-content-lg-between
+
+.smart-layout-center
+  @extend .smart-layout
+  @extend .justify-content-lg-center
+
+.smart-layout-end
+  @extend .smart-layout
+  @extend .justify-content-lg-end
+
+.smart-layout-evenly
+  @extend .smart-layout
+  @extend .justify-content-lg-evenly
+  & > *
+    flex: 1
+
+.smart-layout-start
+  @extend .smart-layout
+  @extend .justify-content-lg-start
+
+.flex-even
+  flex: 1
+
+@for $i from 1 through 10
+  .flex-grow-#{$i}
+    flex-grow: $i
+
+.sticky-top
+  position: sticky
+  z-index: 5
+  top: 5rem
+
+@for $i from 1 through 10
+  .sticky-top-#{$i}
+    @extend .sticky-top
+    top: #{5 + $i}rem

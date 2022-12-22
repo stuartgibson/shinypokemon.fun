@@ -1,6 +1,7 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
+import { selectRouteParams } from './router.selectors';
 import { selectCurrentYear, selectYear } from './year.selectors';
 
 export const featureKey = 'competitions';
@@ -35,6 +36,13 @@ export const selectCompetition = (id:string) => createSelector(
   selectFeature,
   (state: CompetitionsState):Competition|null =>
     state.entities[id] ? new Competition(state.entities[id]) : null
+);
+
+export const selectRoutedCompetition = createSelector(
+  selectFeature,
+  selectRouteParams,
+  (state: CompetitionsState, { id }):Competition|null =>
+    state.entities[id] ? new Competition(state.entities[id].data) : null
 );
 
 export const selectCompetitions = createSelector(

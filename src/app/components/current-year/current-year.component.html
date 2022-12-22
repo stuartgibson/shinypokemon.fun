@@ -8,9 +8,23 @@
   </ng-container>
 
   <ng-container *ngrxLet="yearCompetitions$ as yearCompetitions">
-    <sp-competition
-      *ngFor="let competition of yearCompetitions"
-      [competition]="competition">
-    </sp-competition>
+    <ol class="list-unstyled">
+      <li
+        *ngFor="let competition of yearCompetitions; last as isLast">
+        <div class="smart-layout-evenly align-items-center">
+          <a
+            [routerLink]="['/competitions', competition.id]"
+            class="flex-grow-2">
+            {{ competition.theme }}
+          </a>
+          <small class="text-muted text-lg-end">
+            <sp-date [date]="competition.startDate"></sp-date>
+            to
+            <sp-date [date]="competition.endDate"></sp-date>
+          </small>
+        </div>
+        <hr *ngIf="!isLast">
+      </li>
+    </ol>
   </ng-container>
 </ng-container>

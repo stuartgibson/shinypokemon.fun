@@ -1,10 +1,12 @@
+import { AppModel, IAppModel } from "./base.model";
+
 interface ICatch extends IAppModel {
   readonly competitionID:string;
   readonly pokemonID:string;
   readonly userID:string;
 }
 
-class Catch extends AppModel implements ICatch {
+export class Catch extends AppModel implements ICatch {
   readonly competitionID:string;
   readonly pokemonID:string;
   readonly userID:string;

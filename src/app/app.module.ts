@@ -1,42 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
 import { LetModule, PushModule } from '@ngrx/component';
 import { StoreModule } from '@ngrx/store';
 import { reducers } from '../store/reducers';
 import { AppRoutingModule } from './app-routing.module';
+import { components } from './components';
 import { AppComponent } from './components/app/app.component';
-import { CatchComponent } from './components/catch/catch.component';
-import { CompetitionNavComponent } from './components/competition-nav/competition-nav.component';
-import { CompetitionComponent } from './components/competition/competition.component';
-import { CurrentCompetitionComponent } from './components/current-competition/current-competition.component';
-import { CurrentYearComponent } from './components/current-year/current-year.component';
-import { HomeComponent } from './components/home/home.component';
-import { PreviousYearsComponent } from './components/previous-years/previous-years.component';
-import { UserComponent } from './components/user/user.component';
-import { YearComponent } from './components/year/year.component';
-import { DateComponent } from './components/_shared/date/date.component';
+import { StoreRouterConnectingModule } from '@ngrx/router-store';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CurrentCompetitionComponent,
-    CurrentYearComponent,
-    DateComponent,
-    PreviousYearsComponent,
-    CompetitionNavComponent,
-    CompetitionComponent,
-    HomeComponent,
-    UserComponent,
-    YearComponent,
-    CatchComponent
+    ...components
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LetModule,
     PushModule,
-    StoreModule.forRoot(reducers)
+    StoreModule.forRoot(reducers),
+    NgbPopoverModule,
+    StoreRouterConnectingModule.forRoot(),
   ],
   providers: [
     LetModule,

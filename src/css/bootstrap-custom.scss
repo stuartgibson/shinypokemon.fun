@@ -1,0 +1,113 @@
+/*!
+ * Bootstrap v5.0.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ *
+ * Bootstrap-Dark (https://vinorodrigues.github.io/bootstrap-dark-5/)
+ * Copyright 2020-2021 Vino Rodrigues
+ * This version is a dual color theme, with the default light mode and the dark
+ * elements optioned in by a `prefers-color-scheme: dark` media query
+ */
+
+// Configuration
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/variables";  // defaults are here
+@import "vendor/bootstrap-dark/variables-alt";  // dark color set is here
+@import "vendor/bootstrap/mixins";
+@import "vendor/bootstrap-dark/mixins";
+@import "vendor/bootstrap/utilities";
+@import "vendor/bootstrap-dark/utilities";
+@import "vendor/bootstrap-dark/patch";  // missing from BS, unsupported patch/hack
+
+// Layout & components
+@import "vendor/bootstrap-dark/color-scheme";
+@import "vendor/bootstrap/root";
+@import "vendor/bootstrap/reboot";
+@import "vendor/bootstrap/type";
+@import "vendor/bootstrap/images";
+@import "vendor/bootstrap/containers";
+@import "vendor/bootstrap/grid";
+// @import "vendor/bootstrap/tables";
+// @import "vendor/bootstrap/forms";
+@import "vendor/bootstrap/buttons";
+@import "vendor/bootstrap/transitions";
+@import "vendor/bootstrap/dropdown";
+@import "vendor/bootstrap/button-group";
+@import "vendor/bootstrap/nav";
+@import "vendor/bootstrap/navbar";
+@import "vendor/bootstrap/card";
+// @import "vendor/bootstrap/accordion";
+// @import "vendor/bootstrap/breadcrumb";
+// @import "vendor/bootstrap/pagination";
+@import "vendor/bootstrap/badge";
+@import "vendor/bootstrap/alert";
+@import "vendor/bootstrap/progress";
+@import "vendor/bootstrap/list-group";
+// @import "vendor/bootstrap/close";
+// @import "vendor/bootstrap/toasts";
+// @import "vendor/bootstrap/modal";
+// @import "vendor/bootstrap/tooltip";
+@import "vendor/bootstrap/popover";
+// @import "vendor/bootstrap/carousel";
+// @import "vendor/bootstrap/spinners";
+// @import "vendor/bootstrap/offcanvas";
+
+// Helpers
+@import "vendor/bootstrap/helpers";
+
+// Utilities
+@import "vendor/bootstrap/utilities/api";
+
+/*
+ * ---------- Dark Mode ------------------------------------------------------
+ */
+
+@include color-scheme-alt(alternative-color-scheme($default-color-scheme)) {
+
+  // stylelint-disable no-invalid-position-at-import-rule
+
+  // Layout & components
+  @import "vendor/bootstrap-dark/root";
+  @import "vendor/bootstrap-dark/reboot";
+  @import "vendor/bootstrap-dark/type";
+  @import "vendor/bootstrap-dark/images";
+  // no colors in containers
+  // no colors in grid
+  // @import "vendor/bootstrap-dark/tables";
+  // @import "vendor/bootstrap-dark/forms";
+  @import "vendor/bootstrap-dark/buttons";
+  // no colors in transitions
+  @import "vendor/bootstrap-dark/dropdown";
+  @import "vendor/bootstrap-dark/button-group";
+  @import "vendor/bootstrap-dark/nav";
+  @import "vendor/bootstrap-dark/navbar";
+  @import "vendor/bootstrap-dark/card";
+  // @import "vendor/bootstrap-dark/accordion";
+  // @import "vendor/bootstrap-dark/breadcrumb";
+  // @import "vendor/bootstrap-dark/pagination";
+  @import "vendor/bootstrap-dark/badge";
+  @import "vendor/bootstrap-dark/alert";
+  @import "vendor/bootstrap-dark/progress";
+  @import "vendor/bootstrap-dark/list-group";
+  // @import "vendor/bootstrap-dark/close";
+  // @import "vendor/bootstrap-dark/toasts";
+  // @import "vendor/bootstrap-dark/modal";
+  // @import "vendor/bootstrap-dark/tooltip";
+  @import "vendor/bootstrap-dark/popover";
+  // @import "vendor/bootstrap-dark/carousel";
+  // // no colors in spinners
+  // @import "vendor/bootstrap-dark/offcanvas";
+
+  // Helpers
+  @import "vendor/bootstrap-dark/helpers";
+
+  // Utilities
+  @import "vendor/bootstrap-dark/utilities/api";
+
+  // Unique to dark-mode
+  @import "vendor/bootstrap-dark/dark";
+}
+
+// Additional Global Utilities
+@import "vendor/bootstrap-dark/utilities/api-all";

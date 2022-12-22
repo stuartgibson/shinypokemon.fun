@@ -13,7 +13,7 @@ import { selectCurrentCompetition } from 'store/selectors/competition.selectors'
 export class CurrentCompetitionComponent {
   currentCompetition$:Observable<Competition|null>;
 
-  constructor(public store:Store) {
+  constructor(private store:Store) {
     this.currentCompetition$ = this.store.select(
       selectCurrentCompetition
     );

@@ -1,17 +1,9 @@
-<nav>
-  <h1>
-    <a routerLink="/">ShinyPokemon.fun</a></h1>
-  <p>
-    A fortnightly Shiny Hunting game on the ISE Slack
-  </p>
-</nav>
+<div class="wrapper">
+  <sp-nav></sp-nav>
 
-<hr>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
 
-<router-outlet></router-outlet>
-
-<hr>
-
-<footer>
-  Created by <a href="https://imetstuart.com">Stuart Gibson</a>
-</footer>
+  <sp-footer></sp-footer>
+</div>

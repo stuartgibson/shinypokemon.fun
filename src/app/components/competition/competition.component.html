@@ -1,22 +1,9 @@
-<dl>
-  <div>
-    <dt>Theme:</dt>
-    <dd>{{ competition.theme }}</dd>
-  </div>
-  <div>
-    <dt>Description:</dt>
-    <dd>{{ competition.description }}</dd>
-  </div>
-  <div>
-    <dt>Start Date:</dt>
-    <dd>
-      <sp-date [date]="competition.startDate"></sp-date>
-    </dd>
-  </div>
-  <div>
-    <dt>End Date:</dt>
-    <dd>
-      <sp-date [date]="competition.endDate"></sp-date>
-    </dd>
-  </div>
-</dl>
+<h4>
+  <a [routerLink]="['/competitions', competition.id]">{{ competition.theme }}</a>
+</h4>
+
+<p>{{ competition.description }}</p>
+
+<sp-date [date]="competition.startDate"></sp-date>
+<span class="text-muted">to </span>
+<sp-date [date]="competition.endDate"></sp-date>
