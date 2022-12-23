@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'sp-catch',
-  templateUrl: './catch.component.html',
-  styleUrls: ['./catch.component.sass'],
+  selector: 'sp-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class CatchComponent {
+export class AboutComponent {
 
 }

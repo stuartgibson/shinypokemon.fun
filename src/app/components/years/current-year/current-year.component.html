@@ -1,0 +1,13 @@
+<ng-container *ngrxLet="currentYear$ as currentYear">
+  <ng-container *ngIf="!!currentYear">
+    <h3>
+      <a [routerLink]="['/years', currentYear.id]">
+        This Year ({{ currentYear.name }})
+      </a>
+    </h3>
+  </ng-container>
+
+  <ng-container *ngrxLet="yearCompetitions$ as yearCompetitions">
+    <sp-competition-list [competitions]="yearCompetitions"></sp-competition-list>
+  </ng-container>
+</ng-container>

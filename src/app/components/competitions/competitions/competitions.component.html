@@ -1,0 +1,13 @@
+<h2>Competitions</h2>
+
+<p>
+  Select a year below to view the competitions for that year.
+</p>
+
+<ng-container *ngrxLet="years$ as years">
+  <ol class="list-unstyled">
+    <li *ngFor="let year of years">
+      <a [routerLink]="['/years', year.id]">{{ year.name }}</a>
+    </li>
+  </ol>
+</ng-container>

@@ -131,7 +131,13 @@ export const competitionsData2022 = {
         validPokemon: [
           {
             data: {
-              id: '1',
+              id: '2d6d959d-d951-464c-8a99-ebbd693ae643',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              id: '90db6ec8-9b0e-4891-acbb-a81ac706ab20',
               type: 'pokemon'
             }
           }

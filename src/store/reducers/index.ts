@@ -5,14 +5,14 @@ import {
   MetaReducer
 } from '@ngrx/store';
 import { AppState } from 'store/selectors/app.selectors';
-import { catchesReducer } from './catches.reducer';
 import { competitionsReducer } from './competitions.reducer';
+import { pointsReducer } from './points.reducer';
 import { pokemonReducer } from './pokemon.reducer';
 import { yearsReducer } from './years.reducer';
 
 export const reducers: ActionReducerMap<AppState> = {
-  catches: catchesReducer,
   competitions: competitionsReducer,
+  points: pointsReducer,
   pokemon: pokemonReducer,
   router: routerReducer,
   years: yearsReducer

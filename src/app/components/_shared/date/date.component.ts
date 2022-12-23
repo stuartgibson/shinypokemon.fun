@@ -5,6 +5,7 @@ import { DateTimeFormatterType } from 'src/app/types/date-time-formatter.types';
 @Component({
   selector: 'sp-date',
   templateUrl: './date.component.html',
+  styleUrls: ['./date.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DateComponent implements OnInit {

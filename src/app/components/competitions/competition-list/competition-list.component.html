@@ -1,0 +1,19 @@
+<ol class="list-unstyled">
+  <li
+    *ngFor="let competition of competitions; last as isLast">
+    <div class="smart-layout-evenly align-items-center">
+      <a
+        [routerLink]="['/competitions', competition.id]"
+        class="flex-grow-1">
+        {{ competition.theme }}
+      </a>
+      <small class="text-muted text-lg-end">
+        <sp-date-range
+          [startDate]="competition.startDate"
+          [endDate]="competition.endDate">
+        </sp-date-range>
+      </small>
+    </div>
+    <hr *ngIf="!isLast">
+  </li>
+</ol>

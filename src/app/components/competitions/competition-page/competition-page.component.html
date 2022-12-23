@@ -1,0 +1,51 @@
+<ng-container *ngrxLet="competition$ as competition">
+  <p *ngIf="!competition">
+    Could not find requested competition.
+  </p>
+
+  <ng-container *ngIf="!!competition">
+    <h2>{{ competition.theme }}</h2>
+
+    <sp-date-range
+      [startDate]="competition.startDate"
+      [endDate]="competition.endDate"
+      class="mb-3">
+    </sp-date-range>
+
+    <p>
+      {{ competition.description }}
+    </p>
+
+    <hr>
+
+    <div class="smart-layout-evenly">
+      <div class="flex-grow-3">
+        <h3>Points</h3>
+
+        <ng-container *ngrxLet="points$ as points">
+          <p *ngIf="points.length === 0">
+            No points have been scored yet.
+          </p>
+          <ol class="list-unstyled">
+            <li *ngFor="let point of points">
+              <sp-point [point]="point"></sp-point>
+            </li>
+          </ol>
+        </ng-container>
+      </div>
+
+      <div>
+        <h3>Valid Pokémon</h3>
+
+        <ng-container *ngrxLet="validPokemon$ as validPokemon">
+          <p *ngIf="validPokemon.length === 0">
+            No valid Pokémon for this competition. This <em>probably</em> means you can catch any Pokémon, but check the rules just in case.
+          </p>
+          <div *ngFor="let pokemon of validPokemon; trackBy: trackByPokemon; last as isLast;">
+            <sp-pokemon [pokemon]="pokemon"></sp-pokemon>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+</ng-container>

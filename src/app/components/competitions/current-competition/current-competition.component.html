@@ -1,0 +1,22 @@
+<h2>Current Competition</h2>
+
+<ng-container *ngrxLet="currentCompetition$ as currentCompetition">
+  <ng-container [ngSwitch]="!!currentCompetition">
+    <div *ngSwitchCase="false">
+      <p>There is no competition currently running.</p>
+    </div>
+
+    <ng-container *ngSwitchCase="true">
+      <sp-competition
+        [competition]="currentCompetition!">
+      </sp-competition>
+
+      <ng-container *ngrxLet="currentPoints$ as currentPoints">
+        <div *ngFor="let point of currentPoints; last as isLast; trackBy: trackByFn;">
+          <sp-point [point]="point"></sp-point>
+          <hr *ngIf="!isLast">
+        </div>
+      </ng-container>
+
+    </ng-container>
+</ng-container>

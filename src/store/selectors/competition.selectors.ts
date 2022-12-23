@@ -2,7 +2,7 @@ import { createFeatureSelector, createSelector } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
 import { selectRouteParams } from './router.selectors';
-import { selectCurrentYear, selectYear } from './year.selectors';
+import { selectCurrentYear, selectRoutedYear, selectYear } from './year.selectors';
 
 export const featureKey = 'competitions';
 export const selectFeature = createFeatureSelector<CompetitionsState>(featureKey);
@@ -32,6 +32,16 @@ export interface CompetitionsState {
   entities: {[id: string]: ICompetitionEntity};
 }
 
+export const selectCompetitions = createSelector(
+  selectFeature,
+  (state: CompetitionsState):Competition[] => {
+    const competitions = Object.keys(state.entities).map((key) => new Competition(state.entities[key].data));
+    return competitions.sort((a:Competition, b:Competition) =>
+      b.startDate.getTime() - a.startDate.getTime()
+    );
+  }
+);
+
 export const selectCompetition = (id:string) => createSelector(
   selectFeature,
   (state: CompetitionsState):Competition|null =>
@@ -43,16 +53,6 @@ export const selectRoutedCompetition = createSelector(
   selectRouteParams,
   (state: CompetitionsState, { id }):Competition|null =>
     state.entities[id] ? new Competition(state.entities[id].data) : null
-);
-
-export const selectCompetitions = createSelector(
-  selectFeature,
-  (state: CompetitionsState):Competition[] => {
-    const competitions = Object.keys(state.entities).map((key) => new Competition(state.entities[key].data));
-    return competitions.sort((a:Competition, b:Competition) =>
-      b.startDate.getTime() - a.startDate.getTime()
-    );
-  }
 );
 
 export const selectCurrentCompetition = createSelector(
@@ -68,6 +68,12 @@ export const selectCompetitionsForYear = (yearID:string|null) => createSelector(
     !year ? [] : competitions.filter((competition) => competition.yearID === year.id)
 );
 
+export const selectCompetitionsForRoutedYear = createSelector(
+  selectRoutedYear,
+  selectCompetitions,
+  (year: Year|null, competitions:Competition[]):Competition[] =>
+    !year ? [] : competitions.filter((competition) => competition.yearID === year.id)
+);
 
 export const selectCompetitionsForCurrentYear = createSelector(
   selectCurrentYear,

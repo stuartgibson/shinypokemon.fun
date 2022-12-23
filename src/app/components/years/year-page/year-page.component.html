@@ -1,0 +1,21 @@
+<ng-container *ngrxLet="year$ as year">
+  <ng-container *ngIf="!year">
+    <h2>Year not found</h2>
+  </ng-container>
+  <ng-container *ngIf="!!year">
+    <h2>{{ year.name }}</h2>
+
+    <div class="smart-layout-evenly">
+      <div class="flex-grow-2">
+        <h3>Scores</h3>
+        USER SCORES
+      </div>
+      <div>
+        <h3>Competitions</h3>
+        <sp-competition-list
+          [competitions]="(competitions$ | ngrxPush) || []">
+        </sp-competition-list>
+      </div>
+    </div>
+  </ng-container>
+</ng-container>
