@@ -12,7 +12,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -40,7 +40,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -68,7 +68,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -96,7 +96,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -124,7 +124,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -158,7 +158,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -186,7 +186,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -214,7 +214,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -242,7 +242,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -270,7 +270,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -298,7 +298,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -326,7 +326,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -354,7 +354,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -382,7 +382,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -410,7 +410,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -438,7 +438,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -466,7 +466,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -494,7 +494,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -522,7 +522,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -550,7 +550,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -578,7 +578,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -606,7 +606,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },
@@ -634,7 +634,7 @@ export const competitionsData2022 = {
       relationships: {
         year: {
           data: {
-            id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+            id: '2022',
             type: 'year'
           }
         },

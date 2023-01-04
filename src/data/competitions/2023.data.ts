@@ -12,7 +12,7 @@ export const competitionsData2023 = {
       relationships: {
         year: {
           data: {
-            id: '04a6f41e-ab0d-4ad1-b909-f462d47778f7',
+            id: '2023',
             type: 'year'
           }
         },

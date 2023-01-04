@@ -1,0 +1,11 @@
+<ng-container *ngrxLet="player$ as player">
+  <ng-container *ngIf="player; else noPlayer">
+    <h2>
+      {{ player.formattedName }}
+    </h2>
+  </ng-container>
+
+  <ng-template #noPlayer>
+    <p>No player found.</p>
+  </ng-template>
+</ng-container>

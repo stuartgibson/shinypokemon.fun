@@ -4,7 +4,8 @@ import { CompetitionsComponent } from "./components/competitions/competitions/co
 import { HomeComponent } from "./components/home/home.component";
 import { AboutComponent } from "./components/pages/about/about.component";
 import { RulesComponent } from "./components/pages/rules/rules.component";
-import { UserComponent } from "./components/user/user.component";
+import { PlayerPageComponent } from "./components/player/player-page/player-page.component";
+import { PlayersComponent } from "./components/player/players/players.component";
 import { YearPageComponent } from "./components/years/year-page/year-page.component";
 
 export const routes: Routes = [
@@ -26,12 +27,16 @@ export const routes: Routes = [
     component: CompetitionPageComponent
   },
   {
-    path: 'rules',
-    component: RulesComponent
+    path: 'players',
+    component: PlayersComponent
   },
   {
-    path: 'users/:id',
-    component: UserComponent
+    path: 'players/:id',
+    component: PlayerPageComponent
+  },
+  {
+    path: 'rules',
+    component: RulesComponent
   },
   {
     path: 'years/:id',

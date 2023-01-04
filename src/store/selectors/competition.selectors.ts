@@ -61,6 +61,12 @@ export const selectCurrentCompetition = createSelector(
     competitions.filter((competition) => competition.startDate <= new Date() && competition.endDate >= new Date())[0]
 );
 
+export const selectNextCompetition = createSelector(
+  selectCompetitions,
+  (competitions: Competition[]):Competition|null =>
+    competitions.filter((competition) => competition.startDate > new Date())[0]
+);
+
 export const selectCompetitionsForYear = (yearID:string|null) => createSelector(
   selectYear(yearID),
   selectCompetitions,

@@ -19,11 +19,11 @@ export class Competition extends AppModel implements ICompetition {
 
   constructor(data:any) {
     super(data);
-    this.description = data.attributes.description;
-    this.endDate = new Date(data.attributes.endDate + 'T23:59:59');
-    this.startDate = new Date(data.attributes.startDate);
-    this.theme = data.attributes.theme;
-    this.validPokemonIDs = this.relationshipIDs(data, 'validPokemon');
-    this.yearID = this.relationshipID(data, 'year');
+    this.description = this.attribute('description');
+    this.endDate = new Date(this.attribute('endDate') + 'T23:59:59');
+    this.startDate = new Date(this.attribute('startDate'));
+    this.theme = this.attribute('theme');
+    this.validPokemonIDs = this.relationshipIDs('validPokemon');
+    this.yearID = this.relationshipID('year');
   }
 }

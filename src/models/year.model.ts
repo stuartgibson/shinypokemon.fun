@@ -9,6 +9,6 @@ export class Year extends AppModel implements IYear {
 
   constructor(data:any) {
     super(data);
-    this.name = data.attributes.name;
+    this.name = this.attribute('name');
   }
 }

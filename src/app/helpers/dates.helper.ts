@@ -1,4 +1,4 @@
-import { DateTimeFormatterType } from "../types/date-time-formatter.types";
+import { DateTimeFormatterType } from "../../types/date-time-formatter.types";
 
 export const MINUTE = 60000;    // 1000 * 60
 export const HOUR = 3600000;    // 1000 * 60 * 60

@@ -1,19 +1,26 @@
 export interface IAppModel {
   readonly id:string;
+  readonly rawData:any;
 }
 
 export class AppModel implements IAppModel {
   readonly id:string;
+  readonly rawData:any;
 
   constructor(data:any) {
+    this.rawData = data;
     this.id = data.id;
   }
 
-  relationshipID(data:any, relationship:string):string|null {
-    return data?.relationships?.[relationship]?.data?.id;
+  attribute(attribute:string):any {
+    return this.rawData?.attributes?.[attribute];
   }
 
-  relationshipIDs(data:any, relationship:string):string[] {
-    return data?.relationships?.[relationship]?.map((item:any) => item.data.id) || [];
+  relationshipID(relationship:string):string|null {
+    return this.rawData?.relationships?.[relationship]?.data?.id;
+  }
+
+  relationshipIDs(relationship:string):string[] {
+    return this.rawData?.relationships?.[relationship]?.map((item:any) => item.data.id) || [];
   }
 }

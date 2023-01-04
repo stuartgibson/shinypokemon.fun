@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { DateTimeFormatterType } from 'src/app/types/date-time-formatter.types';
+import { DateTimeFormatterType } from 'src/types/date-time-formatter.types';
 
 @Component({
   selector: 'sp-date-range',

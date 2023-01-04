@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
 import { formatDateTime } from 'src/app/helpers/dates.helper';
-import { DateTimeFormatterType } from 'src/app/types/date-time-formatter.types';
+import { DateTimeFormatterType } from 'src/types/date-time-formatter.types';
 
 @Component({
   selector: 'sp-date',

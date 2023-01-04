@@ -1,5 +1,20 @@
 <div class="smart-layout-evenly">
-  <sp-current-competition class="flex-grow-2"></sp-current-competition>
+  <div class="flex-grow-2">
+
+    <ng-container *ngrxLet="nextCompetition$ as nextCompetition">
+      <ng-container *ngIf="!!nextCompetition">
+        <h3>Next Competition</h3>
+        <sp-competition
+          [competition]="nextCompetition">
+        </sp-competition>
+        <hr>
+      </ng-container>
+    </ng-container>
+
+    <sp-current-competition></sp-current-competition>
+  </div>
+
+  <hr class="d-lg-none">
 
   <sp-competition-nav></sp-competition-nav>
 </div>

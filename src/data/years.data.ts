@@ -1,35 +1,35 @@
 export const yearsData = {
-  '04a6f41e-ab0d-4ad1-b909-f462d47778f7': {
+  '2023': {
     data: {
       type: 'year',
-      id: '04a6f41e-ab0d-4ad1-b909-f462d47778f7',
+      id: '2023',
       attributes: {
         name: '2023',
       }
     }
   },
-  '20f64faf-8ea5-498f-971d-abaa1c99813c': {
+  '2022': {
     data: {
       type: 'year',
-      id: '20f64faf-8ea5-498f-971d-abaa1c99813c',
+      id: '2022',
       attributes: {
         name: '2022',
       }
     }
   },
-  '6857227f-333d-42c0-855c-5925e521805f': {
+  '2021': {
     data: {
       type: 'year',
-      id: '6857227f-333d-42c0-855c-5925e521805f',
+      id: '2021',
       attributes: {
         name: '2021',
       }
     }
   },
-  'c4fc1857-aa6b-4d32-91da-691538ad3763': {
+  '2020': {
     data: {
       type: 'year',
-      id: 'c4fc1857-aa6b-4d32-91da-691538ad3763',
+      id: '2020',
       attributes: {
         name: '2020',
       }

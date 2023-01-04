@@ -1,0 +1,19 @@
+<h2>Players</h2>
+
+<ng-container *ngrxLet="players$ as players">
+  <ul
+    *ngIf="players.length > 0; else noPlayers"
+    class="list-unstyled">
+    <li
+      *ngFor="let player of players">
+      <a
+        [routerLink]="['/players', player.id]">
+        {{ player.formattedName }}
+      </a>
+    </li>
+  </ul>
+
+  <ng-template #noPlayers>
+    <p>No players found.</p>
+  </ng-template>
+</ng-container>
