@@ -1,1 +1,32 @@
-<p>point works!</p>
+<ng-container *ngIf="!!point">
+  <div class="card">
+    <div class="card-body">
+      <div class="smart-layout-evenly mb-3">
+        <sp-inline-player [id]="point.playerID"></sp-inline-player>
+        <sp-inline-pokemon [id]="point.pokemonID"></sp-inline-pokemon>
+      </div>
+
+      <dl class="smart-layout-evenly">
+        <div>
+          <dt>Date:</dt>
+          <dd><sp-date [date]="point.catchDate"></sp-date></dd>
+        </div>
+
+        <div>
+          <dt>Ball:</dt>
+          <dd>{{ point.ball || "&mdash;" }}</dd>
+        </div>
+
+        <div>
+          <dt>Game:</dt>
+          <dd>{{ point.game || "&mdash;" }}</dd>
+        </div>
+
+        <div>
+          <dt>Method:</dt>
+          <dd>{{ point.method || "&mdash;" }}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</ng-container>

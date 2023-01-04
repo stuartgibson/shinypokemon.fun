@@ -33,7 +33,7 @@ export const selectPlayers = createSelector(
 export const selectPlayer = (id:string) => createSelector(
   selectFeature,
   (state: PlayersState):Player|null =>
-    state.entities[id] ? new Player(state.entities[id]) : null
+    state.entities[id] ? new Player(state.entities[id].data) : null
 );
 
 export const selectRoutedPlayer = createSelector(

@@ -20,17 +20,16 @@
 
     <div class="smart-layout-evenly">
       <div class="flex-grow-3">
-        <h3>Points</h3>
-
         <ng-container *ngrxLet="points$ as points">
           <p *ngIf="points.length === 0">
             No points have been scored yet.
           </p>
-          <ol class="list-unstyled">
-            <li *ngFor="let point of points">
-              <sp-point [point]="point"></sp-point>
-            </li>
-          </ol>
+
+          <sp-point
+            *ngFor="let point of points"
+            [point]="point"
+            class="mb-3">
+          </sp-point>
         </ng-container>
       </div>
 

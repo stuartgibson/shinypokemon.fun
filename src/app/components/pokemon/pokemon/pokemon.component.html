@@ -1,8 +1,24 @@
-<div class="d-flex">
+<div class="d-flex align-items-center">
   <span class="dex-no">
     {{ pokemon.dexNo}}.
   </span>
+
   <span>
     {{ pokemon.name }}
+  </span>
+
+  <span class="ms-auto">
+    <a
+      [href]="pokemon.serebiiLink"
+      target="_blank"
+      title="View Pokémon on Serebii.net">
+      <img src="assets/images/serebii.png" alt="Serebii">
+    </a>
+    <a
+      [href]="pokemon.bulbapediaLink"
+      target="_blank"
+      title="View Pokémon on Bulbapedia">
+      <img src="assets/images/bulbapedia.png" alt="Bulbapedia">
+    </a>
   </span>
 </div>

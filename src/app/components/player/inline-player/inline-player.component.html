@@ -1,0 +1,7 @@
+<ng-container *ngrxLet="player$ as player">
+  <ng-container *ngIf="player">
+    <a [routerLink]="['/players', player.id]">
+      {{ player.formattedName }}
+    </a>
+  </ng-container>
+</ng-container>

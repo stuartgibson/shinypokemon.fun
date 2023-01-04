@@ -25,7 +25,7 @@ export interface PokemonState {
 export const selectPokemon = (id:string) => createSelector(
   selectFeature,
   (state: PokemonState):Pokemon|null =>
-    state.entities[id] ? new Pokemon(state.entities[id]) : null
+    state.entities[id] ? new Pokemon(state.entities[id].data) : null
 );
 
 export const selectAllPokemon = createSelector(

@@ -1,0 +1,13 @@
+<ng-container *ngrxLet="pokemon$ as pokemon">
+  <ng-container *ngIf="!!pokemon">
+    <div class="d-flex align-items-center">
+      <span class="dex-no">
+        {{ pokemon.dexNo}}.
+      </span>
+
+      <span>
+        {{ pokemon.name }}
+      </span>
+    </div>
+  </ng-container>
+</ng-container>

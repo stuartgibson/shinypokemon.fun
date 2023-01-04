@@ -1,11 +1,10 @@
 export interface IAppModel {
   readonly id:string;
-  readonly rawData:any;
 }
 
 export class AppModel implements IAppModel {
   readonly id:string;
-  readonly rawData:any;
+  private readonly rawData:any;
 
   constructor(data:any) {
     this.rawData = data;

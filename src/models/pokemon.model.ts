@@ -5,6 +5,8 @@ export interface IPokemon extends IAppModel {
   readonly forme:string|null;
   readonly generation:number;
   readonly name:string;
+  readonly serebiiLink:string;
+  readonly bulbapediaLink:string;
 }
 
 export class Pokemon extends AppModel implements IPokemon {
@@ -12,6 +14,8 @@ export class Pokemon extends AppModel implements IPokemon {
   readonly forme:string|null;
   readonly generation:number;
   readonly name:string;
+  readonly serebiiLink:string;
+  readonly bulbapediaLink:string;
 
   constructor(data:any) {
     super(data);
@@ -19,5 +23,21 @@ export class Pokemon extends AppModel implements IPokemon {
     this.forme = this.attribute('forme');
     this.generation = this.attribute('generation');
     this.name = this.attribute('name');
+
+    this.serebiiLink = `https://serebii.net/pokemon/${this.formatNameForSerebiiLink()}/`
+    this.bulbapediaLink = `https://bulbapedia.bulbagarden.net/wiki/${this.formatNameForBulbapediaLink()}`
+  }
+
+  private formatNameForSerebiiLink():string {
+    return this
+      .name
+      .toLowerCase()
+      .replace(/ /g, '')
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+  }
+
+  private formatNameForBulbapediaLink():string {
+    return `${this.name}_(Pok%C3%A9mon)`;
   }
 }

@@ -1,6 +1,9 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Point } from 'models/point.model';
+import { BallType } from 'src/types/ball.types';
+import { GameType } from 'src/types/game.types';
+import { MethodType } from 'src/types/method.types';
 import { selectCurrentCompetition, selectRoutedCompetition } from './competition.selectors';
 
 export const featureKey = 'points';
@@ -11,28 +14,28 @@ export interface IPointEntity {
     type: string;
     id: string;
     attributes: {
-      description:string;
-      endDate:string;
-      startDate:string;
-      theme:string;
+      ball:BallType|null;
+      catchDate:string|null;
+      game:GameType|null;
+      method:MethodType|null;
     };
     relationships: {
       competition: {
         data: {
           id: string;
-          type: 'competition';
+          type: string;
         }
       },
       pokemon: {
         data: {
           id: string;
-          type: 'pokemon';
+          type: string;
         }
       },
-      user: {
+      player: {
         data: {
           id: string;
-          type: 'user';
+          type: string;
         }
       }
     }

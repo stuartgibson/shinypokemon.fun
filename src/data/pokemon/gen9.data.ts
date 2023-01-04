@@ -1049,7 +1049,7 @@ export const pokemonDataGen9 = {
       "id": "531c3f97-1e8e-424d-9d64-534d598bbb7c",
       "type": "pokemon",
       "attributes": {
-        "name": "Wo Chien",
+        "name": "Wo-Chien",
         "generation": 9,
         "dexNo": "1001"
       }
@@ -1060,7 +1060,7 @@ export const pokemonDataGen9 = {
       "id": "4442b6c2-ce78-4e81-91a0-6b85900ed5d8",
       "type": "pokemon",
       "attributes": {
-        "name": "Chien Pao",
+        "name": "Chien-Pao",
         "generation": 9,
         "dexNo": "1002"
       }
@@ -1071,7 +1071,7 @@ export const pokemonDataGen9 = {
       "id": "eac6a005-b9bc-46ec-895d-127fcf22d3c6",
       "type": "pokemon",
       "attributes": {
-        "name": "Ting Lu",
+        "name": "Ting-Lu",
         "generation": 9,
         "dexNo": "1003"
       }
@@ -1082,7 +1082,7 @@ export const pokemonDataGen9 = {
       "id": "2a258f57-9268-42d0-8363-35ac72f4575f",
       "type": "pokemon",
       "attributes": {
-        "name": "Chi Yu",
+        "name": "Chi-Yu",
         "generation": 9,
         "dexNo": "1004"
       }
