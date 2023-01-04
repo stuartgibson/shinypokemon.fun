@@ -404,7 +404,7 @@ export const competitionsData2022 = {
       attributes: {
         description: 'n/a',
         endDate: '2022-05-14',
-        startDate: '2022-04-31',
+        startDate: '2022-05-01',
         theme: 'Birds'
       },
       relationships: {
