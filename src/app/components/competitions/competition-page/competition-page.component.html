@@ -12,6 +12,10 @@
       class="mb-3">
     </sp-date-range>
 
+    <div>
+      Theme Chosen by <sp-inline-player [id]="competition.selectedByID"></sp-inline-player>
+    </div>
+
     <p>
       {{ competition.description }}
     </p>
@@ -33,18 +37,25 @@
         </ng-container>
       </div>
 
-      <div>
-        <h3>Valid Pokémon</h3>
+      <ng-container *ngrxLet="validPokemon$ as validPokemon">
+        <div class="card">
+          <div class="card-body">
+            <h3>Valid Pokémon</h3>
 
-        <ng-container *ngrxLet="validPokemon$ as validPokemon">
-          <p *ngIf="validPokemon.length === 0">
-            No valid Pokémon for this competition. This <em>probably</em> means you can catch any Pokémon, but check the rules just in case.
-          </p>
-          <div *ngFor="let pokemon of validPokemon; trackBy: trackByPokemon; last as isLast;">
-            <sp-pokemon [pokemon]="pokemon"></sp-pokemon>
+            <p *ngIf="validPokemon.length === 0">
+              No valid Pokémon for this competition. This <em>probably</em> means you can catch any Pokémon, but check the rules just in case.
+            </p>
           </div>
-        </ng-container>
-      </div>
+
+          <ul class="list-group list-group-flush">
+            <li
+              *ngFor="let pokemon of validPokemon; trackBy: trackByPokemon; last as isLast;"
+              class="list-group-item">
+              <sp-pokemon [pokemon]="pokemon"></sp-pokemon>
+            </li>
+          </ul>
+        </div>
+      </ng-container>
     </div>
   </ng-container>
 </ng-container>
