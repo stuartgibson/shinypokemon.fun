@@ -1027,7 +1027,7 @@ export const pokemonDataGen3 = {
       "id": "f04cfd6f-6779-43b0-8385-df734442989b",
       "type": "pokemon",
       "attributes": {
-        "name": "Lileep~",
+        "name": "Lileep",
         "generation": 3,
         "dexNo": "0345"
       }
@@ -1038,7 +1038,7 @@ export const pokemonDataGen3 = {
       "id": "db8c0d86-b3fe-4f12-9a5e-ce780951b858",
       "type": "pokemon",
       "attributes": {
-        "name": "Cradily~",
+        "name": "Cradily",
         "generation": 3,
         "dexNo": "0346"
       }
@@ -1049,7 +1049,7 @@ export const pokemonDataGen3 = {
       "id": "72b0a709-4c68-4b1d-a423-4e479a4752c6",
       "type": "pokemon",
       "attributes": {
-        "name": "Anorith~",
+        "name": "Anorith",
         "generation": 3,
         "dexNo": "0347"
       }
@@ -1060,7 +1060,7 @@ export const pokemonDataGen3 = {
       "id": "15a40976-502d-405e-81bf-0099d3c95b09",
       "type": "pokemon",
       "attributes": {
-        "name": "Armaldo~",
+        "name": "Armaldo",
         "generation": 3,
         "dexNo": "0348"
       }
