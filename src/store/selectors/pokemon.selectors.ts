@@ -20,6 +20,7 @@ export interface IPokemonEntity {
 
 export interface PokemonState {
   entities: {[id: string]: IPokemonEntity};
+  selectedPokemonIDs: string[];
 }
 
 export const selectPokemon = (id:string) => createSelector(
@@ -32,8 +33,29 @@ export const selectAllPokemon = createSelector(
   selectFeature,
   (state: PokemonState):Pokemon[] => {
     const pokemon = Object.keys(state.entities).map((key) => new Pokemon(state.entities[key].data));
-    return pokemon.sort((a, b) => b.dexNo.localeCompare(a.dexNo));
+    return pokemon.sort((a, b) => a.dexNo.localeCompare(b.dexNo));
   }
+);
+
+export const getSelectedPokemonIDs = createSelector(
+  selectFeature,
+  (state: PokemonState):string[] =>
+    state.selectedPokemonIDs
+
+);
+
+export const getSelectedPokemon = createSelector(
+  getSelectedPokemonIDs,
+  selectAllPokemon,
+  (ids: string[], pokemon:Pokemon[]):Pokemon[] =>
+    pokemon.filter((p) => ids.includes(p.id))
+);
+
+export const getUnselectedPokemon = createSelector(
+  getSelectedPokemonIDs,
+  selectAllPokemon,
+  (ids: string[], pokemon:Pokemon[]):Pokemon[] =>
+    pokemon.filter((p) => !ids.includes(p.id))
 );
 
 export const selectRoutedCompetitionPokemon = createSelector(

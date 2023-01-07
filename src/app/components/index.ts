@@ -1,3 +1,4 @@
+import { GeneratorComponent } from "./admin/generator/generator.component";
 import { AppComponent } from "./app/app.component";
 import { CompetitionListComponent } from "./competitions/competition-list/competition-list.component";
 import { CompetitionNavComponent } from "./competitions/competition-nav/competition-nav.component";
@@ -36,6 +37,7 @@ export const components = [
   DateComponent,
   DateRangeComponent,
   FooterComponent,
+  GeneratorComponent,
   HomeComponent,
   NavComponent,
   PokemonComponent,

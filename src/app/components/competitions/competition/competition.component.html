@@ -2,7 +2,7 @@
   <a [routerLink]="['/competitions', competition.id]">{{ competition.theme }}</a>
 </h4>
 
-<p>{{ competition.description }}</p>
+<p class="preserve-lines">{{ competition.description }}</p>
 
 <sp-date-range
   [startDate]="competition.startDate"

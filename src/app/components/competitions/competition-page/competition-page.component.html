@@ -16,7 +16,7 @@
       Theme Chosen by <sp-inline-player [id]="competition.selectedByID"></sp-inline-player>
     </div>
 
-    <p>
+    <p class="preserve-lines">
       {{ competition.description }}
     </p>
 
@@ -40,7 +40,7 @@
       <ng-container *ngrxLet="validPokemon$ as validPokemon">
         <div class="card">
           <div class="card-body">
-            <h3>Valid Pokémon</h3>
+            <h3>Valid Pokémon ({{ validPokemon.length }})</h3>
 
             <p *ngIf="validPokemon.length === 0">
               No valid Pokémon for this competition. This <em>probably</em> means you can catch any Pokémon, but check the rules just in case.

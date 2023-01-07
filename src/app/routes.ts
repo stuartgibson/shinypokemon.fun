@@ -1,4 +1,5 @@
 import { Routes } from "@angular/router";
+import { GeneratorComponent } from "./components/admin/generator/generator.component";
 import { CompetitionPageComponent } from "./components/competitions/competition-page/competition-page.component";
 import { CompetitionsComponent } from "./components/competitions/competitions/competitions.component";
 import { HomeComponent } from "./components/home/home.component";
@@ -25,6 +26,10 @@ export const routes: Routes = [
   {
     path: 'competitions/:id',
     component: CompetitionPageComponent
+  },
+  {
+    path: 'admin/generator',
+    component: GeneratorComponent
   },
   {
     path: 'players',

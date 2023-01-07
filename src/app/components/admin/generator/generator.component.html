@@ -1,0 +1,42 @@
+<h2>Generator</h2>
+
+<div class="smart-layout-evenly">
+  <div>
+    <pre>
+      <ng-container *ngrxLet="selectedPokemon$ as selectedPokemon">
+[<ng-container *ngFor="let pokemon of selectedPokemon; trackBy: trackBySelected; last as isLast">
+  {{ '{' }}
+    data: {{ '{' }}
+      // {{ pokemon.name }} <a (click)="removePokemon(pokemon)" class="text-danger">remove</a>
+      id: '{{ pokemon.id }}',
+      type: 'pokemon'
+    }
+  }<ng-container *ngIf="!isLast">,</ng-container></ng-container>
+</ng-container>]
+    </pre>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h3>Pokémon</h3>
+    </div>
+    <ng-container *ngrxLet="unselectedPokemon$ as unselectedPokemon">
+      <ul class="list-group list-group-flush">
+        <li
+          *ngFor="let pokemon of unselectedPokemon; trackBy: trackByUnselected;"
+          class="list-group-item d-flex">
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-success me-3"
+            (click)="addPokemon(pokemon)">
+            +
+          </button>
+          <sp-pokemon
+            [pokemon]="pokemon"
+            class="flex-grow-1">
+          </sp-pokemon>
+        </li>
+      </ul>
+    </ng-container>
+  </div>
+</div>
