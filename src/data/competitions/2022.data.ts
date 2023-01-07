@@ -32,7 +32,7 @@ export const competitionsData2022 = {
       type: 'competition',
       id: '74e36491-5507-4961-9eca-b1ffc8eb6107',
       attributes: {
-        description: 'For this theme you can hunt any Pokemon you want… But it can\'t be found from the game you used to get your most recent point.',
+        description: 'For this theme you can hunt any Pokémon you want… But it can\'t be found from the game you used to get your most recent point.',
         endDate: '2022-11-12',
         startDate: '2022-10-30',
         theme: 'Different Game'
@@ -489,7 +489,7 @@ export const competitionsData2022 = {
         description: 'n/a',
         endDate: '2022-04-02',
         startDate: '2022-02-20',
-        theme: '"C" Pokemon'
+        theme: '"C" Pokémon'
       },
       relationships: {
         year: {
