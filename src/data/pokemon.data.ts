@@ -7,6 +7,7 @@ import { pokemonDataGen6 } from "./pokemon/gen6.data";
 import { pokemonDataGen7 } from "./pokemon/gen7.data";
 import { pokemonDataGen8 } from "./pokemon/gen8.data";
 import { pokemonDataGen9 } from "./pokemon/gen9.data";
+import { pokemonDataRegionals } from "./pokemon/regionals.data";
 
 export const pokemonData = {
   ...pokemonDataGen1,
@@ -17,5 +18,6 @@ export const pokemonData = {
   ...pokemonDataGen6,
   ...pokemonDataGen7,
   ...pokemonDataGen8,
-  ...pokemonDataGen9
+  ...pokemonDataGen9,
+  ...pokemonDataRegionals
 }
