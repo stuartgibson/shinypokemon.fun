@@ -2,9 +2,16 @@
   <a [routerLink]="['/competitions', competition.id]">{{ competition.theme }}</a>
 </h4>
 
-<p class="preserve-lines">{{ competition.description }}</p>
-
 <sp-date-range
   [startDate]="competition.startDate"
-  [endDate]="competition.endDate">
+  [endDate]="competition.endDate"
+  class="mb-3 d-block">
 </sp-date-range>
+
+<div class="mb-3">
+  Theme Chosen by <sp-inline-player [id]="competition.selectedByID"></sp-inline-player>
+</div>
+
+<p class="preserve-lines">
+  {{ competition.description }}
+</p>

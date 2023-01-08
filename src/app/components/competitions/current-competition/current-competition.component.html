@@ -8,7 +8,8 @@
 
     <ng-container *ngSwitchCase="true">
       <sp-competition
-        [competition]="currentCompetition!">
+        [competition]="currentCompetition!"
+        class="mb-3">
       </sp-competition>
 
       <ng-container *ngrxLet="currentPoints$ as currentPoints">
@@ -17,6 +18,5 @@
           <hr *ngIf="!isLast">
         </div>
       </ng-container>
-
     </ng-container>
 </ng-container>
