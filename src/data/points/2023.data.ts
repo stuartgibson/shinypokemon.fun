@@ -28,7 +28,7 @@ export const pointsData2023 = {
         },
         pokemon: {
           data: {
-            id: '7af0e968-d555-4acb-b030-8fdd64600615',
+            id: '699b6e0f-4d02-41ff-a2a9-0f562153861e',
             type: 'pokemon'
           }
         }
