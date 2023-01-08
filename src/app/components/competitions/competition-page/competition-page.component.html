@@ -4,26 +4,26 @@
   </p>
 
   <ng-container *ngIf="!!competition">
-    <h2>{{ competition.theme }}</h2>
-
-    <sp-date-range
-      [startDate]="competition.startDate"
-      [endDate]="competition.endDate"
-      class="mb-3">
-    </sp-date-range>
-
-    <div>
-      Theme Chosen by <sp-inline-player [id]="competition.selectedByID"></sp-inline-player>
-    </div>
-
-    <p class="preserve-lines">
-      {{ competition.description }}
-    </p>
-
-    <hr>
-
     <div class="smart-layout-evenly">
       <div class="flex-grow-3">
+        <h2>{{ competition.theme }}</h2>
+
+        <sp-date-range
+          [startDate]="competition.startDate"
+          [endDate]="competition.endDate"
+          class="mb-3">
+        </sp-date-range>
+
+        <div>
+          Theme Chosen by <sp-inline-player [id]="competition.selectedByID"></sp-inline-player>
+        </div>
+
+        <p class="preserve-lines">
+          {{ competition.description }}
+        </p>
+
+        <hr>
+
         <ng-container *ngrxLet="points$ as points">
           <p *ngIf="points.length === 0">
             No points have been scored yet.
@@ -50,7 +50,7 @@
           <ul class="list-group list-group-flush">
             <li
               *ngFor="let pokemon of validPokemon; trackBy: trackByPokemon; last as isLast;"
-              class="list-group-item">
+              class="list-group-item pokemon-entry">
               <sp-pokemon [pokemon]="pokemon"></sp-pokemon>
             </li>
           </ul>
