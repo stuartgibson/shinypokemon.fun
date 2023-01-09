@@ -6,23 +6,10 @@
   <ng-container *ngIf="!!competition">
     <div class="smart-layout-evenly">
       <div class="flex-grow-3">
-        <div class="mb-3">
-          <h2>{{ competition.theme }}</h2>
-
-          <sp-date-range
-            [startDate]="competition.startDate"
-            [endDate]="competition.endDate"
-            class="mb-3 d-block">
-          </sp-date-range>
-
-          <div class="mb-3">
-            Theme Chosen by <sp-inline-player [id]="competition.selectedByID"></sp-inline-player>
-          </div>
-
-          <p class="preserve-lines">
-            {{ competition.description }}
-          </p>
-        </div>
+        <sp-competition
+          [competition]="competition"
+          class="mb-3">
+        </sp-competition>
 
         <ng-container *ngrxLet="points$ as points">
           <p *ngIf="points.length === 0">

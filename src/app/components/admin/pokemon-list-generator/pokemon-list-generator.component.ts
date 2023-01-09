@@ -6,11 +6,12 @@ import { PokemonActions } from 'store/actions';
 import { getSelectedPokemon, getUnselectedPokemon } from 'store/selectors/pokemon.selectors';
 
 @Component({
-  templateUrl: './generator.component.html',
-  styleUrls: ['./generator.component.sass'],
+  selector: 'sp-pokemon-list-generator',
+  templateUrl: './pokemon-list-generator.component.html',
+  styleUrls: ['./pokemon-list-generator.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class GeneratorComponent {
+export class PokemonListGeneratorComponent {
   selectedPokemon$: Observable<Pokemon[]>;
   unselectedPokemon$: Observable<Pokemon[]>;
 

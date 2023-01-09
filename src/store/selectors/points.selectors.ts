@@ -44,6 +44,7 @@ export interface IPointEntity {
 
 export interface PointsState {
   entities: {[id: string]: IPointEntity};
+  newPoints: {[id: string]: IPointEntity};
 }
 
 export const selectPoint = (id:string) => createSelector(
@@ -71,3 +72,9 @@ export const selectRoutedCompetitionPoints = createSelector(
   (competition:Competition|null, points: Point[]):Point[] =>
     !competition ? [] : points.filter((point) => point.competitionID === competition.id)
   );
+
+export const selectNewPoints = createSelector(
+  selectFeature,
+  (state: PointsState):Point[] =>
+    Object.keys(state.newPoints).map((key) => new Point(state.newPoints[key].data))
+);

@@ -1,7 +1,8 @@
-import { NgModule, isDevMode } from '@angular/core';
+import { isDevMode, NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbNavModule, NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
 import { LetModule, PushModule } from '@ngrx/component';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { StoreModule } from '@ngrx/store';
@@ -21,7 +22,9 @@ import { AppComponent } from './components/app/app.component';
     AppRoutingModule,
     LetModule,
     PushModule,
+    ReactiveFormsModule,
     StoreModule.forRoot(reducers),
+    NgbNavModule,
     NgbPopoverModule,
     StoreRouterConnectingModule.forRoot(),
     StoreDevtoolsModule.instrument({
@@ -32,6 +35,7 @@ import { AppComponent } from './components/app/app.component';
       traceLimit: 75, // maximum stack trace frames to be stored (in case trace option was provided as true)
     }),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
+    NgbModule,
   ],
   providers: [
     LetModule,

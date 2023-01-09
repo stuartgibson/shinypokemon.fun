@@ -1,0 +1,32 @@
+<h2>Generator</h2>
+
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+	<li [ngbNavItem]="'points'">
+		<a ngbNavLink>Points</a>
+		<ng-template ngbNavContent>
+			<sp-points-generator
+        [allPokemon]="(allPokemon$ | ngrxPush) || []"
+        [competitions]="(competitions$ | ngrxPush) || []"
+        [currentCompetition]="(currentCompetition$ | ngrxPush) || null"
+        [players]="(players$ | ngrxPush) || []">
+      </sp-points-generator>
+		</ng-template>
+	</li>
+	<li [ngbNavItem]="'competition'">
+		<a ngbNavLink>Competition</a>
+		<ng-template ngbNavContent>
+			<sp-competition-generator></sp-competition-generator>
+		</ng-template>
+	</li>
+	<li [ngbNavItem]="'pokemonList'">
+		<a ngbNavLink>Pokémon List</a>
+		<ng-template ngbNavContent>
+			<sp-pokemon-list-generator></sp-pokemon-list-generator>
+		</ng-template>
+	</li>
+</ul>
+
+<div
+  [ngbNavOutlet]="nav"
+  class="pt-3">
+</div>

@@ -1,5 +1,5 @@
 import { Routes } from "@angular/router";
-import { GeneratorComponent } from "./components/admin/generator/generator.component";
+import { GeneratorsComponent } from "./components/admin/generators/generators.component";
 import { CompetitionPageComponent } from "./components/competitions/competition-page/competition-page.component";
 import { CompetitionsComponent } from "./components/competitions/competitions/competitions.component";
 import { HomeComponent } from "./components/home/home.component";
@@ -28,8 +28,8 @@ export const routes: Routes = [
     component: CompetitionPageComponent
   },
   {
-    path: 'admin/generator',
-    component: GeneratorComponent
+    path: 'admin/generators',
+    component: GeneratorsComponent
   },
   {
     path: 'players',

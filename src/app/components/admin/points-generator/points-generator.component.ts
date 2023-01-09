@@ -1,0 +1,154 @@
+import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
+import { NgbDate } from '@ng-bootstrap/ng-bootstrap';
+import { Store } from '@ngrx/store';
+import { Ball } from 'models/ball.model';
+import { Competition } from 'models/competition.model';
+import { Game } from 'models/game.model';
+import { Method } from 'models/method.model';
+import { Player } from 'models/player.model';
+import { Point } from 'models/point.model';
+import { Pokemon } from 'models/pokemon.model';
+import { debounceTime, map, Observable, OperatorFunction } from 'rxjs';
+import { ballList } from 'src/app/helpers/balls.helper';
+import { gameList } from 'src/app/helpers/games.helper';
+import { methodList } from 'src/app/helpers/methods.helper';
+import { PointActions } from 'store/actions';
+import { IPointEntity, selectNewPoints } from 'store/selectors/points.selectors';
+import { v4 as uuid } from 'uuid';
+
+@Component({
+  selector: 'sp-points-generator',
+  templateUrl: './points-generator.component.html',
+  styleUrls: ['./points-generator.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class PointsGeneratorComponent implements OnInit {
+  @Input() allPokemon:Pokemon[] = [];
+  @Input() competitions: Competition[] = [];
+  @Input() currentCompetition: Competition|null = null;
+  @Input() players: Player[] = [];
+
+  newPoints$: Observable<Point[]>;
+
+  p:Point|null = null;
+
+  ballList:Ball[] = ballList;
+  gameList:Game[] = gameList;
+  methodList:Method[] = methodList;
+
+  pointForm = this.fb.group({
+    ball: [null],
+    catchDate: this.fb.control<NgbDate | null>(null, [Validators.required]),
+    competition: this.fb.control<Competition | null>(null, [Validators.required]),
+    firstCatch: [false],
+    game: [null],
+    method: [null],
+    player: this.fb.control<Player | null>(null, [Validators.required]),
+    pokemon: this.fb.control<Pokemon | null>(null, [Validators.required])
+  });
+
+  constructor(
+    private fb: FormBuilder,
+    private store:Store
+  ){
+    this.newPoints$ = store.select(selectNewPoints);
+  }
+
+  ngOnInit(): void {
+    const date:NgbDate = new NgbDate(new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDate());
+
+    this.pointForm.patchValue({
+      catchDate: date,
+      competition: this.currentCompetition
+    });
+  }
+
+  createPoint() {
+    const point:IPointEntity = this.createPointFromValues();
+
+    this.store.dispatch(
+      PointActions.addPoint({ point })
+    )
+  }
+
+  trackByFn(index: number, point: Point) {
+    return point.id;
+  }
+
+  competitionInputFormatter = (competition:Competition) => competition.theme;
+  competitionSearch: OperatorFunction<string, readonly Competition[]> = (text$: Observable<string>) =>
+		text$.pipe(
+			debounceTime(200),
+			map((term) =>
+				term === ''
+					? this.competitions
+					: this.competitions.filter((competition) => competition.theme.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10),
+			),
+		);
+
+  playerInputFormatter = (player:Player) => player.formattedName;
+  playerSearch: OperatorFunction<string, readonly Player[]> = (text$: Observable<string>) =>
+		text$.pipe(
+			debounceTime(200),
+			map((term) =>
+				term === ''
+					? this.players
+					: this.players.filter((player) => player.formattedName.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10),
+			),
+		);
+
+  pokemonInputFormatter = (pokemon:Pokemon) => pokemon.name;
+  pokemonSearch: OperatorFunction<string, readonly Pokemon[]> = (text$: Observable<string>) =>
+    text$.pipe(
+      debounceTime(200),
+      map((term) =>
+        term === ''
+          ? this.allPokemon
+          : this.allPokemon.filter((pokemon) => pokemon.name.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10),
+      ),
+    );
+
+  private createPointFromValues() {
+    let catchDate:string|null = null;
+    if(this.pointForm.value.catchDate){
+      const year = String(this.pointForm.value.catchDate.year);
+      const month = String(this.pointForm.value.catchDate.month);
+      const day = String(this.pointForm.value.catchDate.day);
+      catchDate = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+    }
+    return {
+      data: {
+        id: uuid(),
+        type: 'point',
+        attributes: {
+          ball: this.pointForm.value.ball || null,
+          catchDate: catchDate,
+          firstCatch: this.pointForm.value.firstCatch,
+          game: this.pointForm.value.game || null,
+          method: this.pointForm.value.method || null,
+        },
+        relationships: {
+          competition: {
+            data: {
+              id: this.pointForm.value.competition!.id,
+              type: 'competition'
+            }
+          },
+          pokemon: {
+            data: {
+              id: this.pointForm.value.pokemon!.id,
+              type: 'competition'
+            }
+          },
+          player: {
+            data: {
+              id: this.pointForm.value.player!.id,
+              type: 'competition'
+            }
+          }
+        }
+      }
+    };
+  }
+}

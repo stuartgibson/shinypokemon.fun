@@ -10,6 +10,7 @@ export const pointsData2023 = {
       attributes: {
         ball: 'luxury' as BallType,
         catchDate: '2023-01-08',
+        firstCatch: true,
         game: 'scarlet' as GameType,
         method: 'sandwich' as MethodType
       },
@@ -189,6 +190,72 @@ export const pointsData2023 = {
         pokemon: {
           data: {
             id: 'b57bc54a-4f8f-4c36-82d5-57493b6fe376',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  '31b8d09e-6e0d-46e0-aff9-b6cf669e16ad': {
+    data: {
+      id: '31b8d09e-6e0d-46e0-aff9-b6cf669e16ad',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-01-08',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9139f8c0-60db-4cf1-9b6c-4125e2568142',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  '1a40568a-d4c7-41a3-971f-42978f3ce401': {
+    data: {
+      id: '1a40568a-d4c7-41a3-971f-42978f3ce401',
+      type: 'point',
+      attributes: {
+        ball: 'net' as BallType,
+        catchDate: '2023-01-09',
+        firstCatch: false,
+        game: null,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
             type: 'pokemon'
           }
         }

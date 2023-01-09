@@ -2,7 +2,14 @@
   <div class="card">
     <div class="card-body">
       <div class="smart-layout-evenly mb-3">
-        <sp-inline-player [id]="point.playerID"></sp-inline-player>
+        <span>
+          <span
+            *ngIf="point.firstCatch"
+            title="First Catch!">🏆
+          </span>
+          <sp-inline-player [id]="point.playerID"></sp-inline-player>
+        </span>
+
         <sp-inline-pokemon [id]="point.pokemonID"></sp-inline-pokemon>
       </div>
 

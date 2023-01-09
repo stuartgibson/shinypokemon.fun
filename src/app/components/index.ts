@@ -1,4 +1,7 @@
-import { GeneratorComponent } from "./admin/generator/generator.component";
+import { CompetitionGeneratorComponent } from "./admin/competition-generator/competition-generator.component";
+import { GeneratorsComponent } from "./admin/generators/generators.component";
+import { PointsGeneratorComponent } from "./admin/points-generator/points-generator.component";
+import { PokemonListGeneratorComponent } from "./admin/pokemon-list-generator/pokemon-list-generator.component";
 import { AppComponent } from "./app/app.component";
 import { CompetitionListComponent } from "./competitions/competition-list/competition-list.component";
 import { CompetitionNavComponent } from "./competitions/competition-nav/competition-nav.component";
@@ -28,6 +31,7 @@ export const components = [
   AppComponent,
   PointComponent,
   CompetitionComponent,
+  CompetitionGeneratorComponent,
   CompetitionListComponent,
   CompetitionNavComponent,
   CompetitionPageComponent,
@@ -37,10 +41,12 @@ export const components = [
   DateComponent,
   DateRangeComponent,
   FooterComponent,
-  GeneratorComponent,
+  GeneratorsComponent,
   HomeComponent,
   NavComponent,
+  PointsGeneratorComponent,
   PokemonComponent,
+  PokemonListGeneratorComponent,
   InlinePokemonComponent,
   PreviousYearsComponent,
   RulesComponent,

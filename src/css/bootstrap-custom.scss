@@ -29,7 +29,7 @@
 @import "vendor/bootstrap/containers";
 @import "vendor/bootstrap/grid";
 // @import "vendor/bootstrap/tables";
-// @import "vendor/bootstrap/forms";
+@import "vendor/bootstrap/forms";
 @import "vendor/bootstrap/buttons";
 @import "vendor/bootstrap/transitions";
 @import "vendor/bootstrap/dropdown";
@@ -75,7 +75,7 @@
   // no colors in containers
   // no colors in grid
   // @import "vendor/bootstrap-dark/tables";
-  // @import "vendor/bootstrap-dark/forms";
+  @import "vendor/bootstrap-dark/forms";
   @import "vendor/bootstrap-dark/buttons";
   // no colors in transitions
   @import "vendor/bootstrap-dark/dropdown";
