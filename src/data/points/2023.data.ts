@@ -237,8 +237,8 @@ export const pointsData2023 = {
         ball: 'net' as BallType,
         catchDate: '2023-01-09',
         firstCatch: false,
-        game: null,
-        method: null
+        game: 'ultraSun' as GameType,
+        method: 'sos' as MethodType
       },
       relationships: {
         competition: {
