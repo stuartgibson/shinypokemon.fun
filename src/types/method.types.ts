@@ -20,4 +20,5 @@ export type MethodType =
   'runaway'               |
   'reset'                 |
   'raid'                  |
+  'sandwich'              |
   'sos'
