@@ -13,10 +13,11 @@
       </sp-competition>
 
       <ng-container *ngrxLet="currentPoints$ as currentPoints">
-        <div *ngFor="let point of currentPoints; last as isLast; trackBy: trackByFn;">
-          <sp-point [point]="point"></sp-point>
-          <hr *ngIf="!isLast">
-        </div>
+        <sp-point
+          *ngFor="let point of currentPoints; last as isLast; trackBy: trackByFn;"
+          [point]="point"
+          class="mb-3">
+        </sp-point>
       </ng-container>
     </ng-container>
 </ng-container>
