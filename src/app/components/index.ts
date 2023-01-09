@@ -23,13 +23,16 @@ import { PokemonComponent } from "./pokemon/pokemon/pokemon.component";
 import { CurrentYearComponent } from "./years/current-year/current-year.component";
 import { PreviousYearsComponent } from "./years/previous-years/previous-years.component";
 import { YearPageComponent } from "./years/year-page/year-page.component";
+import { BallComponent } from "./_shared/ball/ball.component";
 import { DateRangeComponent } from "./_shared/date-range/date-range.component";
 import { DateComponent } from "./_shared/date/date.component";
+import { GameComponent } from "./_shared/game/game.component";
+import { MethodComponent } from "./_shared/method/method.component";
 
 export const components = [
   AboutComponent,
   AppComponent,
-  PointComponent,
+  BallComponent,
   CompetitionComponent,
   CompetitionGeneratorComponent,
   CompetitionListComponent,
@@ -41,9 +44,12 @@ export const components = [
   DateComponent,
   DateRangeComponent,
   FooterComponent,
+  GameComponent,
   GeneratorsComponent,
   HomeComponent,
+  MethodComponent,
   NavComponent,
+  PointComponent,
   PointsGeneratorComponent,
   PokemonComponent,
   PokemonListGeneratorComponent,

@@ -1,0 +1,4 @@
+<ng-container [ngSwitch]="!!game">
+  <span *ngSwitchCase="true">{{ game!.name }}</span>
+  <span *ngSwitchDefault>&mdash;</span>
+</ng-container>

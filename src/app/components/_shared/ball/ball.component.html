@@ -1,0 +1,12 @@
+<ng-container [ngSwitch]="!!ball">
+  <span *ngSwitchCase="true" class="d-flex align-items-center">
+    <span class="img-box">
+      <img
+        src="assets/images/balls.png"
+        alt=""
+        style="object-position: {{ -24 * ball!.xOffset }}px {{ -24 * ball!.yOffset }}px;">
+    </span>
+    {{ ball!.name }}
+  </span>
+  <span *ngSwitchDefault>&mdash;</span>
+</ng-container>

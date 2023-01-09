@@ -21,17 +21,19 @@
 
         <div>
           <dt>Ball:</dt>
-          <dd>{{ point.ball || "&mdash;" }}</dd>
+          <dd>
+            <sp-ball [ballType]="point.ball"></sp-ball>
+          </dd>
         </div>
 
         <div>
           <dt>Game:</dt>
-          <dd>{{ point.game || "&mdash;" }}</dd>
+          <sp-game [gameType]="point.game"></sp-game>
         </div>
 
         <div>
           <dt>Method:</dt>
-          <dd>{{ point.method || "&mdash;" }}</dd>
+          <sp-method [methodType]="point.method"></sp-method>
         </div>
       </dl>
     </div>

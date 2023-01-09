@@ -261,5 +261,38 @@ export const pointsData2023 = {
         }
       }
     }
+  },
+  'd1f4b3e7-c549-4eff-8b87-5e68e2c57795': {
+    data: {
+      id: 'd1f4b3e7-c549-4eff-8b87-5e68e2c57795',
+      type: 'point',
+      attributes: {
+        ball: 'ultraHisui' as BallType,
+        catchDate: '2023-01-09',
+        firstCatch: false,
+        game: 'legendsArceus' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ff71afd8-290b-4522-b4c0-64e34e2bea71',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0ea31ecd-67a0-4f28-8cec-7dd3e4154ed6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
