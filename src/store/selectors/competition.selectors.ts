@@ -45,7 +45,7 @@ export const selectCompetitions = createSelector(
 export const selectCompetition = (id:string) => createSelector(
   selectFeature,
   (state: CompetitionsState):Competition|null =>
-    state.entities[id] ? new Competition(state.entities[id]) : null
+    state.entities[id] ? new Competition(state.entities[id].data) : null
 );
 
 export const selectRoutedCompetition = createSelector(

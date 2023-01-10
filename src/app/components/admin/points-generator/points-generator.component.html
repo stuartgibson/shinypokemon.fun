@@ -2,7 +2,10 @@
   <div>
     <pre>
       <ng-container *ngrxLet="newPoints$ as newPoints">
-{{ '{' }}<ng-container *ngFor="let point of newPoints; trackBy: trackByFn; last as isLast">
+        <ng-container *ngFor="let point of newPoints; trackBy: trackByFn; last as isLast">
+  // <sp-inline-competition [id]="point.competitionID"></sp-inline-competition>
+  // <sp-inline-player [id]="point.playerID"></sp-inline-player>
+  // <sp-inline-pokemon [id]="point.pokemonID"></sp-inline-pokemon>
   '{{ point.id }}': {{ '{' }}
     data: {{ '{' }}
       id: '{{ point.id }}',
@@ -36,7 +39,7 @@
       }
     }
   }<ng-container *ngIf="!isLast">,</ng-container></ng-container>
-</ng-container>}
+</ng-container>
     </pre>
   </div>
 

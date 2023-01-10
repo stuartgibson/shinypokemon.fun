@@ -108,7 +108,7 @@ export const pointsData2023 = {
         ball: 'ultra' as BallType,
         catchDate: '2023-01-08',
         game: 'violet' as GameType,
-        method: null
+        method: 'random' as MethodType
       },
       relationships: {
         competition: {
@@ -205,7 +205,7 @@ export const pointsData2023 = {
         catchDate: '2023-01-08',
         firstCatch: false,
         game: 'violet' as GameType,
-        method: null
+        method: 'sandwich' as MethodType
       },
       relationships: {
         competition: {
@@ -271,7 +271,7 @@ export const pointsData2023 = {
         catchDate: '2023-01-09',
         firstCatch: false,
         game: 'legendsArceus' as GameType,
-        method: null
+        method: 'random' as MethodType
       },
       relationships: {
         competition: {
@@ -289,6 +289,42 @@ export const pointsData2023 = {
         pokemon: {
           data: {
             id: '0ea31ecd-67a0-4f28-8cec-7dd3e4154ed6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  james (@seginus)
+  //  0992. Iron Hands
+  '0defceec-228b-47fa-81a9-c5ea0337bd5b': {
+    data: {
+      id: '0defceec-228b-47fa-81a9-c5ea0337bd5b',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-09',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b9e7c43e-2141-4669-8b3c-a1f367d94c91',
             type: 'pokemon'
           }
         }

@@ -9,6 +9,7 @@ import { CompetitionPageComponent } from "./competitions/competition-page/compet
 import { CompetitionComponent } from "./competitions/competition/competition.component";
 import { CompetitionsComponent } from "./competitions/competitions/competitions.component";
 import { CurrentCompetitionComponent } from "./competitions/current-competition/current-competition.component";
+import { InlineCompetitionComponent } from "./competitions/inline-competition/inline-competition.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeComponent } from "./home/home.component";
 import { NavComponent } from "./nav/nav.component";
@@ -47,16 +48,17 @@ export const components = [
   GameComponent,
   GeneratorsComponent,
   HomeComponent,
+  InlineCompetitionComponent,
+  InlinePlayerComponent,
+  InlinePokemonComponent,
   MethodComponent,
   NavComponent,
   PointComponent,
   PointsGeneratorComponent,
   PokemonComponent,
   PokemonListGeneratorComponent,
-  InlinePokemonComponent,
   PreviousYearsComponent,
   RulesComponent,
-  InlinePlayerComponent,
   PlayerPageComponent,
   PlayersComponent,
   YearPageComponent
