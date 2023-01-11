@@ -510,5 +510,41 @@ export const pointsData2023 = {
         }
       }
     }
+  },
+   //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Al McKinlay (@Al)
+  //  0371. Bagon
+  '55708960-c752-4e4d-9689-28498c424c57': {
+    data: {
+      id: '55708960-c752-4e4d-9689-28498c424c57',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-01-11',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '6aa962cb-3176-426d-9a74-f257c805b641',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
