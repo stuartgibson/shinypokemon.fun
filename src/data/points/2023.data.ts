@@ -330,5 +330,185 @@ export const pointsData2023 = {
         }
       }
     }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0875. Eiscue
+  '7424d0f4-b5d0-48e6-92ff-0c68ed66e483': {
+    data: {
+      id: '7424d0f4-b5d0-48e6-92ff-0c68ed66e483',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-01-10',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8f2a29b1-fefc-46f4-95ef-d9ecca5ff167',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0692. Clauncher
+  '31a6c734-cfc2-4062-b234-d5a18f3a647a': {
+    data: {
+      id: '31a6c734-cfc2-4062-b234-d5a18f3a647a',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-09',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '5ec37ba4-83a7-4d40-bbf6-212d324686fe',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0333. Swablu
+  'b8be1120-4f06-4337-b306-dd39d82ad938': {
+    data: {
+      id: 'b8be1120-4f06-4337-b306-dd39d82ad938',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-08',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9c6a7a1e-296d-447e-9293-713645a435bf',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0966. Revavroom
+  '1db1a354-cd32-4554-9289-e7235e9ec9ab': {
+    data: {
+      id: '1db1a354-cd32-4554-9289-e7235e9ec9ab',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-09',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9139f8c0-60db-4cf1-9b6c-4125e2568142',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+    //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0875. Eiscue
+  'daa6782a-d91d-49a8-94bb-bb2ed896bdad': {
+    data: {
+      id: 'daa6782a-d91d-49a8-94bb-bb2ed896bdad',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-10',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8f2a29b1-fefc-46f4-95ef-d9ecca5ff167',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }

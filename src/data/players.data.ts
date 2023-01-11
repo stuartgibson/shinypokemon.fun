@@ -129,4 +129,14 @@ export const playersData = {
       }
     }
   },
+  '7d054896-a0ea-4368-bff1-856b6abf8419': {
+    data: {
+      type: 'player',
+      id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+      attributes: {
+        realName: 'Lewis Dobie',
+        displayName: 'Lewthelegend'
+      }
+    }
+  },
 }
