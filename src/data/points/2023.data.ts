@@ -546,5 +546,42 @@ export const pointsData2023 = {
         }
       }
     }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Devilish Inferno (@Alex)
+  //  0198. Murkrow
+  '61bd62e9-3567-4538-8ff8-ac29f1330592': {
+    data: {
+      id: '61bd62e9-3567-4538-8ff8-ac29f1330592',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-01-12',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b611b2fa-3178-4735-9891-52d9571058bf',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
