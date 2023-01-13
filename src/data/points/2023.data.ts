@@ -582,6 +582,114 @@ export const pointsData2023 = {
         }
       }
     }
+  },
+    //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0212. Scizor
+  'eeceace9-bfd3-4cef-99de-036987e31126': {
+    data: {
+      id: 'eeceace9-bfd3-4cef-99de-036987e31126',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-11',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0874e9e6-f4a0-4114-83c1-fabc0dfa665c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0123. Scyther
+  'fdb94e50-39d7-4445-ab77-f5b1092bd034': {
+    data: {
+      id: 'fdb94e50-39d7-4445-ab77-f5b1092bd034',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-11',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Stuart (@stuart)
+  //  0919. Nymble
+  '824da438-eb87-4a2f-acb7-1b667c724726': {
+    data: {
+      id: '824da438-eb87-4a2f-acb7-1b667c724726',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-01-13',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0e54499b-23d2-47c2-8d7d-0b764151486e',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 
 }
