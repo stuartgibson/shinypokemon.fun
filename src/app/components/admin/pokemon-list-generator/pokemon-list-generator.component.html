@@ -22,33 +22,17 @@
       <ul class="list-group list-group-flush">
         <li
           *ngFor="let pokemon of unselectedPokemon; trackBy: trackByUnselected;"
-          class="list-group-item d-flex">
+          class="list-group-item d-flex align-items-center">
           <button
             type="button"
             class="btn btn-sm btn-outline-success me-3"
             (click)="addPokemon(pokemon)">
             +
           </button>
-          <div class="flex-grow-1 d-flex align-items-center">
-            <span>
-              {{ pokemon.dexNo}}. {{ pokemon.name }}
-            </span>
-
-            <span class="ms-auto">
-              <a
-                [href]="pokemon.serebiiLink"
-                target="_blank"
-                title="View Pokémon on Serebii.net">
-                <img src="assets/images/serebii.png" alt="Serebii" height="32px" width="32px">
-              </a>
-              <a
-                [href]="pokemon.bulbapediaLink"
-                target="_blank"
-                title="View Pokémon on Bulbapedia">
-                <img src="assets/images/bulbapedia.png" alt="Bulbapedia" height="32px" width="32px">
-              </a>
-            </span>
-          </div>
+          <sp-pokemon
+            [pokemon]="pokemon"
+            class="flex-grow-1">
+          </sp-pokemon>
         </li>
       </ul>
     </ng-container>

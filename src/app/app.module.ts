@@ -1,3 +1,4 @@
+import { NgOptimizedImage } from '@angular/common';
 import { isDevMode, NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -26,6 +27,7 @@ import { AppComponent } from './components/app/app.component';
     StoreModule.forRoot(reducers),
     NgbNavModule,
     NgbPopoverModule,
+    NgOptimizedImage,
     StoreRouterConnectingModule.forRoot(),
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
