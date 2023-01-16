@@ -978,5 +978,41 @@ export const pointsData2023_1 = {
         }
       }
     }
+  },
+    //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Jette (@Jette)
+  //  0334. Altaria
+  'f4435d01-e429-4898-97ed-8bd9e6d7f2ba': {
+    data: {
+      id: 'f4435d01-e429-4898-97ed-8bd9e6d7f2ba',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '58fb2cb0-d32c-4f28-a142-68c74ba71b70',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
