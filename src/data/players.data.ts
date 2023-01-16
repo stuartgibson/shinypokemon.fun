@@ -153,4 +153,15 @@ export const playersData = {
       }
     }
   },
+  // Bev Vazquez (@Bev Vazquez)
+  'aea209b9-978a-4b8e-bdd1-78b01e69433a': {
+    data: {
+      type: 'player',
+      id: 'aea209b9-978a-4b8e-bdd1-78b01e69433a',
+      attributes: {
+        realName: 'Bev Vazquez',
+        displayName: 'Bev Vazquez'
+      }
+    }
+  },
 }

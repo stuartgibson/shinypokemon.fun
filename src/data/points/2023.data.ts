@@ -690,6 +690,294 @@ export const pointsData2023 = {
         }
       }
     }
+  },
+    //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Devilish Inferno (@Alex)
+  //  0833. Chewtle
+  'f2b05633-5291-44d5-a226-2e6c14745983': {
+    data: {
+      id: 'f2b05633-5291-44d5-a226-2e6c14745983',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-13',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'dbed930c-3262-4fff-afca-dd52d4a02bd6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Stuart (@stuart)
+  //  0920. Lokix
+  'cbd10293-8d36-4bd8-8608-51792539dca9': {
+    data: {
+      id: 'cbd10293-8d36-4bd8-8608-51792539dca9',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-13',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3f84d6f5-3171-4e0a-b334-30a188fb1406',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Bev Vazquez (@Bev Vazquez)
+  //  0992. Iron Hands
+  '655d206f-17ca-4bba-abe4-d6c1ceaabb0a': {
+    data: {
+      id: '655d206f-17ca-4bba-abe4-d6c1ceaabb0a',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-13',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'aea209b9-978a-4b8e-bdd1-78b01e69433a',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b9e7c43e-2141-4669-8b3c-a1f367d94c91',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Jette (@Jette)
+  //  0769. Sandygast
+  '45b34581-17a8-4e50-aa23-aafe9db3097b': {
+    data: {
+      id: '45b34581-17a8-4e50-aa23-aafe9db3097b',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-14',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '33cd3f2a-b8cb-48ca-9944-eb6b79418802',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0371. Bagon
+  '27b95a82-4da6-4db2-8c75-9963453b9aba': {
+    data: {
+      id: '27b95a82-4da6-4db2-8c75-9963453b9aba',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-01-14',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '6aa962cb-3176-426d-9a74-f257c805b641',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0354. Banette
+  '8d313aef-8323-4942-953d-07ff1a0c664e': {
+    data: {
+      id: '8d313aef-8323-4942-953d-07ff1a0c664e',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-12',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'fad6a4a7-e572-4f07-86ad-39fe31e1ce76',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0750. Mudsdale
+  'cddec40d-0fab-4218-b67b-69bc7179a0bf': {
+    data: {
+      id: 'cddec40d-0fab-4218-b67b-69bc7179a0bf',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-15',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '2b9a4b10-8459-4015-922f-e183751a0349',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Devilish Inferno (@Alex)
+  //  0854. Sinistea
+  '34d88613-bb09-4810-a1d5-aeb570421138': {
+    data: {
+      id: '34d88613-bb09-4810-a1d5-aeb570421138',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '68847ddd-c418-47b7-ba3a-404f1db5caf2',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 
 }
