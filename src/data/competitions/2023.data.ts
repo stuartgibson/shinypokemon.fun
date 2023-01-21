@@ -2000,5 +2000,397 @@ export const competitionsData2023 = {
         }
       }
     }
+  },
+  'd529e41e-e273-4a6d-9ace-21516a6b8c2d': {
+    data: {
+      type: 'competition',
+      id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+      attributes: {
+        description: '',
+        endDate: '2023-01-28',
+        startDate: '2023-01-22',
+        theme: 'Pokemon with weird evolution methods!!!',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        validPokemon: [
+          {
+            data: {
+              // Primeape remove
+              id: '8b96d379-f31b-4c69-84f0-66f6df3e397f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Slowpoke remove
+              id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Magneton remove
+              id: 'c8f5a634-7717-4355-b995-aeabcad506f5',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Farfetch'd remove
+              id: 'f58c0893-6bb3-4a25-9575-58e62d5d2ccf',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Lickitung remove
+              id: 'cfe0414b-cb76-43dc-ad2b-aac363edc62c',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Tangela remove
+              id: '789dbd72-3aa0-4ee5-a2f6-fb5de2c32f8f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Scyther remove
+              id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Eevee remove
+              id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Aipom remove
+              id: 'b47d4a57-6547-4a1c-a2bc-4e4aca095d46',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Yanma remove
+              id: '123faf97-132f-4a74-b0ad-b5f8aa6b990c',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Girafarig remove
+              id: '3b624d92-9f4e-4611-8f39-43683a1740d1',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Dunsparce remove
+              id: '41115700-66dd-40bf-a5bf-a8b1949b537b',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Qwilfish remove
+              id: 'd9865e99-9f5c-4598-b66e-bc0709208944',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Ursaring remove
+              id: 'a1621c75-95db-477d-9f4e-8c01a287709e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Piloswine remove
+              id: '08acf6f6-9442-4568-8c64-629bf7f4100b',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Stantler remove
+              id: '6931874b-a4ce-4abb-a16c-c6183a1668ab',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Tyrogue remove
+              id: '6c125504-587f-4831-a1e9-e5bb930859eb',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Wurmple remove
+              id: 'c36f780b-5769-407b-9600-921d57ace904',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Nincada remove
+              id: 'af56cc6b-3a28-4867-a156-2345080173ec',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Nosepass remove
+              id: '31ab0073-5e27-4823-962a-4b47ee976efc',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Feebas remove
+              id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Burmy remove
+              id: 'da795e59-6f2e-4311-bbba-7e34db7f81a6',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Bonsly remove
+              id: '507c9298-b5c6-4314-8f49-10dc43e7ba64',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Mime Jr. remove
+              id: '758c86f7-e08f-4aa7-ac55-a345669ad53a',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Mantyke remove
+              id: '843db6b2-bde6-484e-b3fb-0e813d320062',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Basculin remove
+              id: '7411e93e-127f-42ee-99fe-d44f31e7b60a',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Yamask remove
+              id: '385c1179-c8d5-40fa-bacf-0fc1dc0093cc',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Karrablast remove
+              id: 'ea5c17dc-4c66-4ccf-96f7-d7de64844bac',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Shelmet remove
+              id: 'f8cd280f-a0ac-497f-bd72-7fffb4fa07b8',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Bisharp remove
+              id: '699b6e0f-4d02-41ff-a2a9-0f562153861e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Pancham remove
+              id: '30331ad5-c767-4a20-a5c1-cb10c53979c6',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Inkay remove
+              id: 'ad5dbc4a-55a2-4da8-a8c5-8d596a14003d',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Sliggoo remove
+              id: '9623145b-b828-4d6a-8d81-856502affcf7',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Charjabug remove
+              id: '30a00a27-8dea-4bba-9104-287cd00394f8',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Crabrawler remove
+              id: '97bcb939-d1b2-4541-a03f-ef2b6af51ecf',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Rockruff remove
+              id: 'e06311f7-1452-49e3-8660-2c9e4cc98aa9',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Steenee remove
+              id: '79652e74-f9a5-486a-af53-aaec0989354e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Cosmoem remove
+              id: '09144faa-0d83-4276-a7a5-641dfca95c99',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Poipole remove
+              id: '14347d15-749b-4dc8-8a19-71da2eabeeb3',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Meltan remove
+              id: '1b7f2d73-3a74-434a-9c15-b32d3e9229c4',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Applin remove
+              id: '568746c3-51f1-4050-bbe7-66829f09e3df',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Clobbopus remove
+              id: '57535eca-9be6-409c-94b3-7f781a4e2216',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Sinistea remove
+              id: '68847ddd-c418-47b7-ba3a-404f1db5caf2',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Milcery remove
+              id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Kubfu remove
+              id: 'c0e921ba-51a4-49e5-8740-c56ef5e1ebac',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Pawmo remove
+              id: '17441171-60a5-4dc8-b993-15c9101f8143',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Tandemaus remove
+              id: 'f4124e83-411f-4391-84b8-8816a6716f69',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Charcadet remove
+              id: 'cf3736c5-0795-49e3-b1e0-bb464936465d',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Bramblin remove
+              id: '5cd9759a-4605-4bca-a47e-6c2dcb320ed6',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Rellor remove
+              id: '2107fb19-996e-40ad-bae7-55c098ad3857',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Finizen remove
+              id: 'a1209dfd-af3a-46d2-a74e-c8feccf52785',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Gimmighoul remove
+              id: 'd36b8a6b-b5d7-48f5-bf8e-86906194c28d',
+              type: 'pokemon'
+            }
+          }
+        ],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
 }
