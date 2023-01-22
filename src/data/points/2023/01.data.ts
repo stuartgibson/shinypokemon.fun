@@ -1482,5 +1482,77 @@ export const pointsData2023_1 = {
         }
       }
     }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Bee Everfolly (@Bee Everfolly)
+  //  0848. Toxel
+  '2e9f78fc-273a-4c81-ae4b-518459c4032f': {
+    data: {
+      id: '2e9f78fc-273a-4c81-ae4b-518459c4032f',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-20',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '76a86523-df28-4bc2-b3a9-d6fab54ed027',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'fd557cfa-39b0-4fe4-9d39-131beb026c53',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Brandon’s Favourite Pokémon 8 Jan 2023  to 21 Jan 2023
+  //  Bee Everfolly (@Bee Everfolly)
+  //  0333. Swablu
+  'aa823a8d-325e-410d-8e74-1dd712f38be9': {
+    data: {
+      id: 'aa823a8d-325e-410d-8e74-1dd712f38be9',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-01-14',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'outbreakSV' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f0e61570-110a-4413-8c1f-f68beb482279',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '76a86523-df28-4bc2-b3a9-d6fab54ed027',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9c6a7a1e-296d-447e-9293-713645a435bf',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
