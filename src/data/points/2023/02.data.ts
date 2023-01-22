@@ -49,7 +49,7 @@ export const pointsData2023_2 = {
       attributes: {
         ball: 'ultraHisui' as BallType,
         catchDate: '2023-01-22',
-        firstCatch: true,
+        firstCatch: false,
         game: 'legendsArceus' as GameType,
         method: 'outbreakLegendsArceus' as MethodType
       },
