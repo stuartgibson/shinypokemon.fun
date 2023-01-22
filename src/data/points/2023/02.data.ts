@@ -74,6 +74,42 @@ export const pointsData2023_2 = {
         }
       }
     }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 28 Jan 2023
+  //  james (@seginus)
+  //  0216. Teddiursa
+  '6706a4d8-e518-4268-8750-ddc99e0bb4f3': {
+    data: {
+      id: '6706a4d8-e518-4268-8750-ddc99e0bb4f3',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-01-22',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '7d45091a-aba7-4f9e-9109-d5b4ec12229f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 
 }
