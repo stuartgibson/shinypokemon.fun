@@ -343,7 +343,7 @@ export const pointsData2023_1 = {
         catchDate: '2023-01-10',
         firstCatch: false,
         game: 'violet' as GameType,
-        method: null
+        method: 'outbreakSV' as MethodType
       },
       relationships: {
         competition: {
@@ -1387,7 +1387,7 @@ export const pointsData2023_1 = {
         catchDate: '2023-01-20',
         firstCatch: false,
         game: 'scarlet' as GameType,
-        method: '—' as MethodType
+        method: 'sandwich' as MethodType
       },
       relationships: {
         competition: {
@@ -1423,7 +1423,7 @@ export const pointsData2023_1 = {
         catchDate: '2023-01-21',
         firstCatch: false,
         game: 'scarlet' as GameType,
-        method: '—' as MethodType
+        method: 'random' as MethodType
       },
       relationships: {
         competition: {
