@@ -110,6 +110,79 @@ export const pointsData2023_2 = {
         }
       }
     }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 28 Jan 2023
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0193. Yanma
+  '2a061af2-597b-4670-a849-73118dbb9d0c': {
+    data: {
+      id: '2a061af2-597b-4670-a849-73118dbb9d0c',
+      type: 'point',
+      attributes: {
+        ball: 'gigaton' as BallType,
+        catchDate: '2023-01-22',
+        firstCatch: false,
+        game: 'legendsArceus' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '123faf97-132f-4a74-b0ad-b5f8aa6b990c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 28 Jan 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0083. Farfetch'd
+  '158829fc-3ad8-44e2-bf8b-8d26282ccc96': {
+    data: {
+      id: '158829fc-3ad8-44e2-bf8b-8d26282ccc96',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-01-22',
+        firstCatch: false,
+        game: 'letsGoPikachu' as GameType,
+        method: 'chain' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f58c0893-6bb3-4a25-9575-58e62d5d2ccf',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 
 }
