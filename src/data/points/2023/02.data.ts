@@ -183,6 +183,4 @@ export const pointsData2023_2 = {
       }
     }
   }
-
-
 }

@@ -2007,7 +2007,7 @@ export const competitionsData2023 = {
       id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
       attributes: {
         description: '',
-        endDate: '2023-01-28',
+        endDate: '2023-02-04',
         startDate: '2023-01-22',
         theme: 'Pokemon with weird evolution methods!!!',
       },
