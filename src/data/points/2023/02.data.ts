@@ -182,5 +182,150 @@ export const pointsData2023_2 = {
         }
       }
     }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Devilish Inferno (@Alex)
+  //  0133. Eevee
+  '0282d9b0-f43d-4c5f-a1e1-483847202b97': {
+    data: {
+      id: '0282d9b0-f43d-4c5f-a1e1-483847202b97',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-01-26',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Devilish Inferno (@Alex)
+  //  0203. Girafarig
+  'd8e3be55-41e2-45e0-a547-d3907106ee1a': {
+    data: {
+      id: 'd8e3be55-41e2-45e0-a547-d3907106ee1a',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-01-27',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3b624d92-9f4e-4611-8f39-43683a1740d1',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Devilish Inferno (@Alex)
+  //  0081. Magnemite
+  '8554e427-5372-4046-8b25-851465a724a6': {
+    data: {
+      id: '8554e427-5372-4046-8b25-851465a724a6',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-01-28',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Max (@Max)
+  //  0081. Magnemite
+  '8333cbe9-25df-42f8-9d17-dc69fdd48fdf': {
+    data: {
+      id: '8333cbe9-25df-42f8-9d17-dc69fdd48fdf',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-01-29',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ff71afd8-290b-4522-b4c0-64e34e2bea71',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
