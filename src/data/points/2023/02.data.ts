@@ -326,6 +326,41 @@ export const pointsData2023_2 = {
         }
       }
     }
+  },
+    //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Robert Lewis (@A1966Mustang)
+  //  0056. Mankey
+  '97eaaf88-80db-4ffc-ae28-6807e72df5a5': {
+    data: {
+      id: '97eaaf88-80db-4ffc-ae28-6807e72df5a5',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-01-30',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3657e524-63a2-4eb6-b768-c20b104e41a1',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
-
 }
