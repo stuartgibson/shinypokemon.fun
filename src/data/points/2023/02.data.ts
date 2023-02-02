@@ -362,5 +362,113 @@ export const pointsData2023_2 = {
         }
       }
     }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Stuart (@stuart)
+  //  0922. Pawmo
+  '7378d7a9-1dba-4f7f-8026-1f6893795d49': {
+    data: {
+      id: '7378d7a9-1dba-4f7f-8026-1f6893795d49',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-02-01',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '17441171-60a5-4dc8-b993-15c9101f8143',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0854. Sinistea
+  '6c7acd85-bbc0-422c-8dfa-98e27f61f881': {
+    data: {
+      id: '6c7acd85-bbc0-422c-8dfa-98e27f61f881',
+      type: 'point',
+      attributes: {
+        ball: 'dream' as BallType,
+        catchDate: '2023-01-31',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '68847ddd-c418-47b7-ba3a-404f1db5caf2',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 4 Feb 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0920. Lokix
+  'bb2f4acd-fc68-48e6-a634-9eb6bba1607d': {
+    data: {
+      id: 'bb2f4acd-fc68-48e6-a634-9eb6bba1607d',
+      type: 'point',
+      attributes: {
+        ball: 'nest' as BallType,
+        catchDate: '2023-01-31',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3f84d6f5-3171-4e0a-b334-30a188fb1406',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }

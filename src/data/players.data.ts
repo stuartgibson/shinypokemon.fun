@@ -175,4 +175,15 @@ export const playersData = {
       }
     }
   },
+  // Lauren S (@Lauren S)
+  '6a3c8584-d4a7-45b9-8cb5-43f37527f3ba': {
+    data: {
+      type: 'player',
+      id: '6a3c8584-d4a7-45b9-8cb5-43f37527f3ba',
+      attributes: {
+        realName: 'Lauren S',
+        displayName: 'Lauren S'
+      }
+    }
+  },
 }
