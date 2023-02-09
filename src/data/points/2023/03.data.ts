@@ -1,0 +1,330 @@
+import { BallType } from "src/types/ball.types";
+import { GameType } from "src/types/game.types";
+import { MethodType } from "src/types/method.types";
+
+export const pointsData2023_3 = {
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Tone (@Tone)
+  //  0309. Electrike
+  'fdd07fb2-184e-4bc0-a9c6-0674166a27aa': {
+    data: {
+      id: 'fdd07fb2-184e-4bc0-a9c6-0674166a27aa',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-02-05',
+        firstCatch: true,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e78d54a8-71cf-4535-ac32-10a0b8abdaad',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lauren S (@Lauren S)
+  //  0133. Eevee
+  '92682c6d-4b47-496f-87ad-89527c3feab9': {
+    data: {
+      id: '92682c6d-4b47-496f-87ad-89527c3feab9',
+      type: 'point',
+      attributes: {
+        ball: 'moon' as BallType,
+        catchDate: '2023-02-05',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6a3c8584-d4a7-45b9-8cb5-43f37527f3ba',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0403. Shinx
+  'c052b993-73fe-4032-89d1-c0029ac7e24e': {
+    data: {
+      id: 'c052b993-73fe-4032-89d1-c0029ac7e24e',
+      type: 'point',
+      attributes: {
+        ball: 'jet' as BallType,
+        catchDate: '2023-02-05',
+        firstCatch: false,
+        game: 'legendsArceus' as GameType,
+        method: 'outbreakLegendsArceus' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8faec058-51ec-472d-80f5-53b37449795c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0744. Rockruff
+  '91edd9f6-0f63-48b2-a592-4428ec96fa2e': {
+    data: {
+      id: '91edd9f6-0f63-48b2-a592-4428ec96fa2e',
+      type: 'point',
+      attributes: {
+        ball: 'lure' as BallType,
+        catchDate: '2023-02-06',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e06311f7-1452-49e3-8660-2c9e4cc98aa9',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0744. Rockruff
+  'b989dc74-bd5e-42d5-b34f-472ffe68c7c3': {
+    data: {
+      id: 'b989dc74-bd5e-42d5-b34f-472ffe68c7c3',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-02-06',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e06311f7-1452-49e3-8660-2c9e4cc98aa9',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Robert Lewis (@A1966Mustang)
+  //  0133. Eevee
+  '1b1abcd7-5f18-41c5-9e2c-307e0cac3d7a': {
+    data: {
+      id: '1b1abcd7-5f18-41c5-9e2c-307e0cac3d7a',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-02-06',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3657e524-63a2-4eb6-b768-c20b104e41a1',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0133. Eevee
+  '6f3d1730-0be5-44c9-b2ff-aedd0ac6f7a8': {
+    data: {
+      id: '6f3d1730-0be5-44c9-b2ff-aedd0ac6f7a8',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-07',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Bee Everfolly (@Bee Everfolly)
+  //  0942. Maschiff
+  '95e562b4-fa03-4481-826b-efd9681e72d0': {
+    data: {
+      id: '95e562b4-fa03-4481-826b-efd9681e72d0',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-02-08',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '76a86523-df28-4bc2-b3a9-d6fab54ed027',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '6bd0e7ce-85ac-459a-b37d-426a0ffe2dc4',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Stuart (@stuart)
+  //  0517. Munna
+  '60654a78-dfba-4792-9461-94cdc02390ff': {
+    data: {
+      id: '60654a78-dfba-4792-9461-94cdc02390ff',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-09',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '7bf836b2-54e2-456b-9239-08f496fece30',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+}
