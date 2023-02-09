@@ -591,7 +591,7 @@ export const pokemonDataRegionals = {
       "id": "3954858f-5c36-44ad-bb21-6f45febc1821",
       "type": "pokemon",
       "attributes": {
-        "name": "Tauros (Hisuian)",
+        "name": "Tauros (Paldean)",
         "generation": 8,
         "dexNo": "0128"
       }
@@ -602,7 +602,7 @@ export const pokemonDataRegionals = {
       "id": "0af2156b-5af7-4e4d-a527-1c38e6781074",
       "type": "pokemon",
       "attributes": {
-        "name": "Wooper (Hisuian)",
+        "name": "Wooper (Paldean)",
         "generation": 8,
         "dexNo": "0194"
       }
