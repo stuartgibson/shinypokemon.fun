@@ -326,5 +326,114 @@ export const pointsData2023_3 = {
         }
       }
     }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  james (@seginus)
+  //  0203. Girafarig
+  '68605f4c-81b9-4b15-bcaa-f56cd16a249c': {
+    data: {
+      id: '68605f4c-81b9-4b15-bcaa-f56cd16a249c',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-02-06',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3b624d92-9f4e-4611-8f39-43683a1740d1',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lauren S (@Lauren S)
+  //  0403. Shinx
+  '7850b7cf-541e-47de-9c9a-9ec58cc973e0': {
+    data: {
+      id: '7850b7cf-541e-47de-9c9a-9ec58cc973e0',
+      type: 'point',
+      attributes: {
+        ball: 'fast' as BallType,
+        catchDate: '2023-02-11',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6a3c8584-d4a7-45b9-8cb5-43f37527f3ba',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8faec058-51ec-472d-80f5-53b37449795c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Devilish Inferno (@Alex)
+  //  0878. Cufant
+  '2a19d629-38d4-44b9-9a2e-ee33fad3fde3': {
+    data: {
+      id: '2a19d629-38d4-44b9-9a2e-ee33fad3fde3',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-02-09',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c1986420-412e-415d-961c-b57bb6f3245c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
