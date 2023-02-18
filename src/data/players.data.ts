@@ -186,4 +186,15 @@ export const playersData = {
       }
     }
   },
+  // Bobby De Walt (@bobby)
+  'a3abfccd-9cb0-422a-b3f3-aceb26f8b678': {
+    data: {
+      type: 'player',
+      id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+      attributes: {
+        realName: 'Bobby De Walt',
+        displayName: 'Bobby'
+      }
+    }
+  }
 }

@@ -434,6 +434,150 @@ export const pointsData2023_3 = {
         }
       }
     }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Max (@Max)
+  //  0077. Ponyta
+  '963214b1-746b-4e2e-a3ad-b2192e568bf0': {
+    data: {
+      id: '963214b1-746b-4e2e-a3ad-b2192e568bf0',
+      type: 'point',
+      attributes: {
+        ball: 'jet' as BallType,
+        catchDate: '2023-02-18',
+        firstCatch: false,
+        game: 'legendsArceus' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ff71afd8-290b-4522-b4c0-64e34e2bea71',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3a1f8e0e-ad15-49d3-b4fc-ccfffbf2bf2f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Stuart (@stuart)
+  //  0506. Lillipup
+  '07fc1686-36c5-42dc-8e80-5f4d83ad84c7': {
+    data: {
+      id: '07fc1686-36c5-42dc-8e80-5f4d83ad84c7',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c7cf3c2e-8184-44d1-be99-62b89f498865',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Bobby De Walt (@Bobby)
+  //  0179. Mareep
+  '00e80a37-bc90-4b6c-bf9d-d5590558d17b': {
+    data: {
+      id: '00e80a37-bc90-4b6c-bf9d-d5590558d17b',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-15',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '2d3f45a9-8f6b-4540-9171-037c8a0dac74',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lauren S (@Lauren S)
+  //  0053. Persian
+  'bffcf1f5-7a95-412c-ab70-6fa4c9fb6279': {
+    data: {
+      id: 'bffcf1f5-7a95-412c-ab70-6fa4c9fb6279',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-02-14',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6a3c8584-d4a7-45b9-8cb5-43f37527f3ba',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '1f63e1d1-d6ca-49ba-a3fa-bc54678b99bd',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 
 }
