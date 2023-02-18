@@ -3925,7 +3925,7 @@ export const competitionsData2023 = {
       relationships: {
         selectedBy: {
           data: {
-            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
             type: 'player'
           }
         },
