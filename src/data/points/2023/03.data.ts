@@ -578,6 +578,187 @@ export const pointsData2023_3 = {
         }
       }
     }
+  },
+    //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0322. Numel
+  '0ed3270b-fc98-4fbd-b6b2-1c5682c86d65': {
+    data: {
+      id: '0ed3270b-fc98-4fbd-b6b2-1c5682c86d65',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-02-14',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'a409c5b6-da3f-4eaf-9963-ec0b59d5bccd',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0323. Camerupt
+  'eb61da52-995d-4901-9357-005ab1720c34': {
+    data: {
+      id: 'eb61da52-995d-4901-9357-005ab1720c34',
+      type: 'point',
+      attributes: {
+        ball: 'net' as BallType,
+        catchDate: '2023-02-14',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b20ad4e5-9acc-4685-a60c-ae0fad5daf80',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0586. Sawsbuck
+  '00dec3e4-74b5-451a-a38e-5b84e2ab8c64': {
+    data: {
+      id: '00dec3e4-74b5-451a-a38e-5b84e2ab8c64',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-02-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '147eebec-bc96-4ee9-b4dd-3f0a3fc93d91',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0203. Girafarig
+  'e75425a2-cf5c-42ed-a1ea-a8486e344a32': {
+    data: {
+      id: 'e75425a2-cf5c-42ed-a1ea-a8486e344a32',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-02-15',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3b624d92-9f4e-4611-8f39-43683a1740d1',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0322. Numel
+  '1c71fb1d-40ba-415e-8c56-1026298eb055': {
+    data: {
+      id: '1c71fb1d-40ba-415e-8c56-1026298eb055',
+      type: 'point',
+      attributes: {
+        ball: 'repeat' as BallType,
+        catchDate: '2023-02-18',
+        firstCatch: false,
+        game: 'omegaRuby' as GameType,
+        method: 'horde' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '2d92043f-c613-44f4-b8e1-e0564992c806',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'a409c5b6-da3f-4eaf-9963-ec0b59d5bccd',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 
 }
