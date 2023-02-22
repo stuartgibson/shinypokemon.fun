@@ -3,7 +3,7 @@ import { GameType } from "types/game.types";
 import { MethodType } from "types/method.types";
 
 export const pointsData2023_4 = {
- //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
   //  Nama Chibitty (@NamaTheNerd)
   //  0692. Clauncher
   'd8a5ffc7-b4e3-4f0a-bbc7-ec91ced9df18': {
@@ -105,6 +105,114 @@ export const pointsData2023_4 = {
         pokemon: {
           data: {
             id: 'c291dd7a-074f-4a64-831d-e759beedb893',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+   //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0359. Absol
+  'd2e854c7-bafa-4319-9f5d-943b1c6ea4d2': {
+    data: {
+      id: 'd2e854c7-bafa-4319-9f5d-943b1c6ea4d2',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-02-20',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b25d8f50-aa81-42bb-8274-81b65833fa08',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Bobby De Walt (@Bobby)
+  //  0436. Bronzor
+  '4fef9ad6-af88-4cc9-a0f8-39c56a8647f4': {
+    data: {
+      id: '4fef9ad6-af88-4cc9-a0f8-39c56a8647f4',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-20',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '6ec12acc-3259-41f2-b18c-0c7df67af075',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Bee Everfolly (@Bee Everfolly)
+  //  0436. Bronzor
+  '8218c9f2-9a53-48ed-86b5-6de74d1c82e3': {
+    data: {
+      id: '8218c9f2-9a53-48ed-86b5-6de74d1c82e3',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-21',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoEgg' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '76a86523-df28-4bc2-b3a9-d6fab54ed027',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '6ec12acc-3259-41f2-b18c-0c7df67af075',
             type: 'pokemon'
           }
         }
