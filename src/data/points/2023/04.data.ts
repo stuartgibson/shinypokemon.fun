@@ -434,5 +434,509 @@ export const pointsData2023_4 = {
         }
       }
     }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Stuart (@stuart)
+  //  0381. Latios
+  '604f662b-3a4d-419c-9458-d421bb628197': {
+    data: {
+      id: '604f662b-3a4d-419c-9458-d421bb628197',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoResearch' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '631eefb3-d7cd-4f8c-a9f5-f5b8462bd691',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Stuart (@stuart)
+  //  0328. Trapinch
+  '355c3779-dcc0-4cd2-8748-ced40a39b719': {
+    data: {
+      id: '355c3779-dcc0-4cd2-8748-ced40a39b719',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ef0701b3-2577-4444-820d-a6ac2412db63',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Stuart (@stuart)
+  //  0309. Electrike
+  'e5ccbc85-12b1-4e43-b6f9-b6488b3ff416': {
+    data: {
+      id: 'e5ccbc85-12b1-4e43-b6f9-b6488b3ff416',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e78d54a8-71cf-4535-ac32-10a0b8abdaad',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Bev Vazquez (@Bev Vazquez)
+  //  0129. Magikarp
+  '3d3d7c8f-c424-4171-a298-d99458f94b3c': {
+    data: {
+      id: '3d3d7c8f-c424-4171-a298-d99458f94b3c',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'aea209b9-978a-4b8e-bdd1-78b01e69433a',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0996. Frigibax
+  '65181b43-eb22-4566-baf0-0f4093aba066': {
+    data: {
+      id: '65181b43-eb22-4566-baf0-0f4093aba066',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-02-19',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9f8c7a79-1fcc-4c5c-95b5-a6e49d170c5b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0129. Magikarp
+  'c1dd19ca-9d12-421d-aa2f-98e2bc390e92': {
+    data: {
+      id: 'c1dd19ca-9d12-421d-aa2f-98e2bc390e92',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0328. Trapinch
+  'f19f0535-0032-4753-b857-9fb36a6c7a99': {
+    data: {
+      id: 'f19f0535-0032-4753-b857-9fb36a6c7a99',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ef0701b3-2577-4444-820d-a6ac2412db63',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0382. Kyogre
+  '6d5de19c-a87b-4795-b4c1-a9d468ede4b6': {
+    data: {
+      id: '6d5de19c-a87b-4795-b4c1-a9d468ede4b6',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3bb1a893-8647-4227-8624-874b958f7e74',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0381. Latios
+  '0a9a658c-3090-49cf-a8de-50a364cd2366': {
+    data: {
+      id: '0a9a658c-3090-49cf-a8de-50a364cd2366',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '631eefb3-d7cd-4f8c-a9f5-f5b8462bd691',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0349. Feebas
+  '1db3f543-ebfe-46e2-a02a-d1a755872432': {
+    data: {
+      id: '1db3f543-ebfe-46e2-a02a-d1a755872432',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0359. Absol
+  '3c280de3-2e74-4391-9298-6e9a85035517': {
+    data: {
+      id: '3c280de3-2e74-4391-9298-6e9a85035517',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b25d8f50-aa81-42bb-8274-81b65833fa08',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0383. Groudon
+  'b57e9649-88df-435c-a42a-1a85ee0eef2b': {
+    data: {
+      id: 'b57e9649-88df-435c-a42a-1a85ee0eef2b',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'd37e2a0b-a724-4775-bf45-4435055c340f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0349. Feebas
+  '506b4a7a-6905-4cf2-b803-a87e8781a3d7': {
+    data: {
+      id: '506b4a7a-6905-4cf2-b803-a87e8781a3d7',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0328. Trapinch
+  'b30503a0-740f-477c-a954-5e9066dcf680': {
+    data: {
+      id: 'b30503a0-740f-477c-a954-5e9066dcf680',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ef0701b3-2577-4444-820d-a6ac2412db63',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
