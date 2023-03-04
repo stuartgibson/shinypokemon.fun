@@ -1262,5 +1262,41 @@ export const pointsData2023_4 = {
         }
       }
     }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Stuart (@stuart)
+  //  0055. Golduck
+  'd3252926-5073-4bd8-869e-58a2ef570e37': {
+    data: {
+      id: 'd3252926-5073-4bd8-869e-58a2ef570e37',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-03-04',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '5b091d78-f36d-4a2a-8069-d9bfffd0ee92',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
