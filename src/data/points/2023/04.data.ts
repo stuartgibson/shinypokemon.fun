@@ -938,5 +938,329 @@ export const pointsData2023_4 = {
         }
       }
     }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0304. Aron
+  '1bb94387-8064-456c-b8aa-b16f366f2034': {
+    data: {
+      id: '1bb94387-8064-456c-b8aa-b16f366f2034',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-27',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '149b201e-9b77-4c3e-8722-a0be17a89106',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0374. Beldum
+  'f47cc829-0a34-4ae3-b764-5e87f9ecb767': {
+    data: {
+      id: 'f47cc829-0a34-4ae3-b764-5e87f9ecb767',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-26',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'efe1c7a0-9333-40cf-8017-6a04a9a4187d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0299. Nosepass
+  'f5a4c45f-7b28-42be-aec6-4279af31543b': {
+    data: {
+      id: 'f5a4c45f-7b28-42be-aec6-4279af31543b',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-02-26',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '31ab0073-5e27-4823-962a-4b47ee976efc',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Jette (@Jette)
+  //  0443. Gible
+  'bd0cbd4f-8273-4fbb-8eaf-11e850bc2e63': {
+    data: {
+      id: 'bd0cbd4f-8273-4fbb-8eaf-11e850bc2e63',
+      type: 'point',
+      attributes: {
+        ball: 'lure' as BallType,
+        catchDate: '2023-02-28',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Robert Lewis (@A1966Mustang)
+  //  0216. Teddiursa
+  'e37dbc68-1fbe-4369-beed-1f9318171567': {
+    data: {
+      id: 'e37dbc68-1fbe-4369-beed-1f9318171567',
+      type: 'point',
+      attributes: {
+        ball: 'love' as BallType,
+        catchDate: '2023-03-02',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3657e524-63a2-4eb6-b768-c20b104e41a1',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '7d45091a-aba7-4f9e-9109-d5b4ec12229f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0670. Floette
+  '2c176d4c-5f88-4ef9-9678-bb01b056a548': {
+    data: {
+      id: '2c176d4c-5f88-4ef9-9678-bb01b056a548',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-01',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0055. Golduck
+  'ad9387ef-c94a-4323-a2e8-f0897117852a': {
+    data: {
+      id: 'ad9387ef-c94a-4323-a2e8-f0897117852a',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-01',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '5b091d78-f36d-4a2a-8069-d9bfffd0ee92',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Robert Lewis (@A1966Mustang)
+  //  0436. Bronzor
+  '944cfd56-b352-4046-ba5b-6b8c8105024e': {
+    data: {
+      id: '944cfd56-b352-4046-ba5b-6b8c8105024e',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-03-03',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoEgg' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3657e524-63a2-4eb6-b768-c20b104e41a1',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '6ec12acc-3259-41f2-b18c-0c7df67af075',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Bee Everfolly (@Bee Everfolly)
+  //  0498. Tepig
+  '384f1ae0-f11e-4bc8-aae5-658ef0087943': {
+    data: {
+      id: '384f1ae0-f11e-4bc8-aae5-658ef0087943',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-03-03',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '76a86523-df28-4bc2-b3a9-d6fab54ed027',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '6f4622b1-d9c5-41a9-b83b-970743131a7c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }

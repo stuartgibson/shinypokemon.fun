@@ -1,3 +1,4 @@
+
 export const competitionsData2023 = {
   'f0e61570-110a-4413-8c1f-f68beb482279': {
     data: {
