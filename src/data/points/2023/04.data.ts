@@ -1298,5 +1298,41 @@ export const pointsData2023_4 = {
         }
       }
     }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  james (@seginus)
+  //  0551. Sandile
+  '6f71c4c7-957f-453b-820f-28000f25f1fd': {
+    data: {
+      id: '6f71c4c7-957f-453b-820f-28000f25f1fd',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-03-05',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'fbd0d149-dbbe-4a22-a970-5821cb900ccc',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
