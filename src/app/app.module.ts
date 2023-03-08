@@ -8,7 +8,7 @@ import { LetModule, PushModule } from '@ngrx/component';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { reducers } from '../store/reducers';
+import { reducers, Years } from '../store/reducers';
 import { AppRoutingModule } from './app-routing.module';
 import { components } from './components';
 import { AppComponent } from './components/app/app.component';
@@ -25,6 +25,7 @@ import { AppComponent } from './components/app/app.component';
     PushModule,
     ReactiveFormsModule,
     StoreModule.forRoot(reducers),
+    StoreModule.forFeature(Years),
     NgbNavModule,
     NgbPopoverModule,
     NgOptimizedImage,

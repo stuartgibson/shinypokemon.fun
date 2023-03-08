@@ -1,8 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { Year } from 'models/year.model';
-import { Observable } from 'rxjs';
-import { selectYears } from 'store/selectors/year.selectors';
+import { Years } from 'store/reducers';
 
 @Component({
   selector: 'sp-competitions',
@@ -11,11 +9,6 @@ import { selectYears } from 'store/selectors/year.selectors';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CompetitionsComponent {
-  years$:Observable<Year[]>;
-
-  constructor(private store:Store) {
-    this.years$ = store.select(
-      selectYears
-    );
-  }
+  private readonly store = inject(Store);
+  readonly years$ = this.store.select(Years.selectYears);
 }

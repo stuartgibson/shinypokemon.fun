@@ -1,10 +1,7 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { Competition } from 'models/competition.model';
-import { Year } from 'models/year.model';
-import { Observable } from 'rxjs';
+import { Years } from 'store/reducers';
 import { selectCompetitionsForRoutedYear } from 'store/selectors/competition.selectors';
-import { selectRoutedYear } from 'store/selectors/year.selectors';
 
 @Component({
   templateUrl: './year-page.component.html',
@@ -12,14 +9,8 @@ import { selectRoutedYear } from 'store/selectors/year.selectors';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class YearPageComponent {
+  private store = inject(Store);
 
-  year$:Observable<Year|null>;
-  competitions$:Observable<Competition[]>;
-
-  constructor(
-    private store:Store
-  ) {
-    this.year$ = store.select(selectRoutedYear);
-    this.competitions$ = store.select(selectCompetitionsForRoutedYear);
-  }
+  readonly year$ = this.store.select(Years.selectRoutedYear);
+  readonly competitions$ = this.store.select(selectCompetitionsForRoutedYear);
 }

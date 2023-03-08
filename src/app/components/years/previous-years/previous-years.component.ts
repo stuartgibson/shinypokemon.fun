@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Year } from 'models/year.model';
 import { Observable } from 'rxjs';
-import { selectPreviousYears } from 'store/selectors/year.selectors';
+import { selectPreviousYears } from 'store/reducers';
 
 @Component({
   selector: 'sp-previous-years',

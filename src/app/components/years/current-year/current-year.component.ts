@@ -3,8 +3,8 @@ import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
 import { Observable } from 'rxjs';
+import { selectCurrentYear } from 'store/reducers';
 import { selectPreviousCompetitionsForCurrentYear } from 'store/selectors/competition.selectors';
-import { selectCurrentYear } from 'store/selectors/year.selectors';
 
 @Component({
   selector: 'sp-current-year',

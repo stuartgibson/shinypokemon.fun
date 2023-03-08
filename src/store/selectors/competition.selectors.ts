@@ -1,8 +1,8 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
+import { selectCurrentYear, Years } from '../reducers';
 import { selectRouteParams } from './router.selectors';
-import { selectCurrentYear, selectRoutedYear, selectYear } from './year.selectors';
 
 export const featureKey = 'competitions';
 export const selectFeature = createFeatureSelector<CompetitionsState>(featureKey);
@@ -68,14 +68,14 @@ export const selectNextCompetition = createSelector(
 );
 
 export const selectCompetitionsForYear = (yearID:string|null) => createSelector(
-  selectYear(yearID),
+  Years.selectYearByID(yearID),
   selectCompetitions,
   (year: Year|null, competitions:Competition[]):Competition[] =>
     !year ? [] : competitions.filter((competition) => competition.yearID === year.id)
 );
 
 export const selectCompetitionsForRoutedYear = createSelector(
-  selectRoutedYear,
+  Years.selectRoutedYear,
   selectCompetitions,
   (year: Year|null, competitions:Competition[]):Competition[] =>
     !year ? [] : competitions.filter((competition) => competition.yearID === year.id)

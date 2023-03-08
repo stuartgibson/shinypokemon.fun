@@ -9,15 +9,15 @@ import { competitionsReducer } from './competitions.reducer';
 import { playersReducer } from './players.reducer';
 import { pointsReducer } from './points.reducer';
 import { pokemonReducer } from './pokemon.reducer';
-import { yearsReducer } from './years.reducer';
 
 export const reducers: ActionReducerMap<AppState> = {
   competitions: competitionsReducer,
   players: playersReducer,
   points: pointsReducer,
   pokemon: pokemonReducer,
-  router: routerReducer,
-  years: yearsReducer
+  router: routerReducer
 };
+
+export * from './years.reducer';
 
 export const metaReducers: MetaReducer<AppState>[] = isDevMode() ? [] : [];
