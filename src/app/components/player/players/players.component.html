@@ -1,15 +1,29 @@
 <h2>Players</h2>
 
-<ng-container *ngrxLet="players$ as players">
+<hr>
+
+<ng-container *ngrxLet="vm$ as vm">
   <ul
-    *ngIf="players.length > 0; else noPlayers"
+    *ngIf="vm.playersData.length > 0; else noPlayers"
     class="list-unstyled">
     <li
-      *ngFor="let player of players">
-      <a
-        [routerLink]="['/players', player.id]">
-        {{ player.formattedName }}
-      </a>
+      *ngFor="let playerDatum of vm.playersData">
+      <div class="card mb-3">
+        <div class="card-body smart-layout-evenly align-items-center">
+          <sp-inline-player [id]="playerDatum.player.id"></sp-inline-player>
+          <dl class="d-flex">
+            <div class="flex-even text-end">
+              <dt>Lifetime Points</dt>
+              <dd class="mb-0">{{ playerDatum.totalPoints }}</dd>
+            </div>
+
+            <div class="flex-even text-end">
+              <dt>Times Won</dt>
+              <dd class="mb-0">{{ playerDatum.totalWins }}</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
     </li>
   </ul>
 

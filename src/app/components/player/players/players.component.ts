@@ -1,8 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { Player } from 'models/player.model';
 import { Observable } from 'rxjs';
-import { Players } from 'store/reducers';
+import { PlayerDatum, playersPageViewModel } from 'store/view-models/players-page.view-model';
 
 @Component({
   templateUrl: './players.component.html',
@@ -12,5 +11,5 @@ import { Players } from 'store/reducers';
 export class PlayersComponent {
   private readonly store:Store = inject(Store);
 
-  players$:Observable<Player[]> = this.store.select(Players.selectAll);
+  vm$:Observable<{playersData:PlayerDatum[]}> = this.store.select(playersPageViewModel);
 }
