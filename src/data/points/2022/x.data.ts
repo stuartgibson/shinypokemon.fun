@@ -5,7 +5,7 @@ import { MethodType } from "src/types/method.types";
 export const pointsData2022_x = {
   '80c18b4d-8793-4bf6-889a-d33eb624ed07': {
     data: {
-      type: 'point',
+      type: 'point' as 'point',
       id: '80c18b4d-8793-4bf6-889a-d33eb624ed07',
       attributes: {
         ball: 'pokeball' as BallType,

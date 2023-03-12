@@ -1,8 +1,8 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
 import { Observable } from 'rxjs';
-import { selectPokemon } from 'store/selectors/pokemon.selectors';
+import { Pokemons } from 'store/reducers';
 
 @Component({
   selector: 'sp-inline-pokemon',
@@ -13,16 +13,15 @@ import { selectPokemon } from 'store/selectors/pokemon.selectors';
 export class InlinePokemonComponent implements OnInit {
   @Input() id!:string|null;
 
-  pokemon$!:Observable<Pokemon|null>;
+  private readonly store:Store = inject(Store);
 
-  constructor(private store:Store) {
-  }
+  pokemon$!:Observable<Pokemon|null>;
 
   ngOnInit():void {
     if(!this.id) return;
 
     this.pokemon$ = this.store.select(
-      selectPokemon(this.id)
+      Pokemons.selectByID(this.id)
     );
   }
 }

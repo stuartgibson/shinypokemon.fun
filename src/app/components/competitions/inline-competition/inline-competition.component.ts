@@ -1,8 +1,8 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Observable } from 'rxjs';
-import { selectCompetition } from 'store/selectors/competition.selectors';
+import { Competitions } from 'store/reducers/competitions.reducer';
 
 @Component({
   selector: 'sp-inline-competition',
@@ -13,16 +13,15 @@ import { selectCompetition } from 'store/selectors/competition.selectors';
 export class InlineCompetitionComponent implements OnInit {
   @Input() id!:string|null;
 
-  competition$!:Observable<Competition|null>;
+  private readonly store:Store = inject(Store);
 
-  constructor(private store:Store) {
-  }
+  competition$!:Observable<Competition|null>;
 
   ngOnInit():void {
     if(!this.id) return;
 
     this.competition$ = this.store.select(
-      selectCompetition(this.id)
+      Competitions.selectByID(this.id)
     );
   }
 }

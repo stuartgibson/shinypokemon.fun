@@ -1,9 +1,9 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
 import { Observable } from 'rxjs';
 import { PokemonActions } from 'store/actions';
-import { getSelectedPokemon, getUnselectedPokemon } from 'store/selectors/pokemon.selectors';
+import { Pokemons } from 'store/reducers';
 
 @Component({
   selector: 'sp-pokemon-list-generator',
@@ -12,25 +12,20 @@ import { getSelectedPokemon, getUnselectedPokemon } from 'store/selectors/pokemo
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PokemonListGeneratorComponent {
-  selectedPokemon$: Observable<Pokemon[]>;
-  unselectedPokemon$: Observable<Pokemon[]>;
+  private readonly store:Store = inject(Store);
 
-  constructor(
-    private store:Store
-  ){
-    this.selectedPokemon$ = store.select(getSelectedPokemon);
-    this.unselectedPokemon$ = store.select(getUnselectedPokemon);
-  }
+  selectedPokemon$:Observable<Pokemon[]> = this.store.select(Pokemons.selectSelectedPokemon);
+  unselectedPokemon$:Observable<Pokemon[]> = this.store.select(Pokemons.selectUnselectedPokemon);
 
   addPokemon(pokemon: Pokemon) {
     this.store.dispatch(
-      PokemonActions.selectPokemon({ pokemon })
+      PokemonActions.select({ pokemon })
     );
   }
 
   removePokemon(pokemon: Pokemon) {
     this.store.dispatch(
-      PokemonActions.unselectPokemon({ pokemon })
+      PokemonActions.unselect({ pokemon })
     );
   }
 

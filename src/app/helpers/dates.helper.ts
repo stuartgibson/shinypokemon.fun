@@ -8,8 +8,11 @@ export const WEEK = 604800000;  // 1000 * 60 * 60 * 24 * 7
 export const dateTimeFormats:{[key in DateTimeFormatterType]: Intl.DateTimeFormatOptions} = {
   date: {day: 'numeric', month: 'short', year: 'numeric'},
   time: {hour: 'numeric', minute: '2-digit', hour12: true},
-  dateTime: {day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true }
+  dateTime: {day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true },
 }
+
+export const databaseString = (date:Date|null):string =>
+  !date ? '' : date.toISOString().slice(0, 10)
 
 export const formatDateTime = (date:Date|null, format:DateTimeFormatterType = 'date'):string =>
   !date ? '' : new Intl.DateTimeFormat([], dateTimeFormats[format]).format(date)

@@ -1,10 +1,10 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Point } from 'models/point.model';
 import { Observable } from 'rxjs';
-import { selectCurrentCompetition } from 'store/selectors/competition.selectors';
-import { selectCurrentPoints } from 'store/selectors/points.selectors';
+import { Competitions } from 'store/reducers/competitions.reducer';
+import { Points } from 'store/reducers/points.reducer';
 
 @Component({
   selector: 'sp-current-competition',
@@ -13,17 +13,12 @@ import { selectCurrentPoints } from 'store/selectors/points.selectors';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CurrentCompetitionComponent {
-  currentCompetition$:Observable<Competition|null>;
-  currentPoints$:Observable<Point[]>;
+  private readonly store:Store = inject(Store);
 
-  constructor(private store:Store) {
-    this.currentCompetition$ = this.store.select(
-      selectCurrentCompetition
-    );
-    this.currentPoints$ = this.store.select(
-      selectCurrentPoints
-    );
-  }
+  currentCompetition$:Observable<Competition|null> =
+    this.store.select(Competitions.selectCurrentCompetition);
+  currentPoints$:Observable<Point[]> =
+    this.store.select(Points.selectCurrentPoints);
 
   trackByFn(index:number, item:Point):string {
     return item.id;

@@ -1,8 +1,8 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Observable } from 'rxjs';
-import { selectNextCompetition } from 'store/selectors/competition.selectors';
+import { Competitions } from 'store/reducers/competitions.reducer';
 
 @Component({
   selector: 'sp-home',
@@ -11,12 +11,8 @@ import { selectNextCompetition } from 'store/selectors/competition.selectors';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomeComponent {
-  nextCompetition$:Observable<Competition|null>;
+  private readonly store:Store = inject(Store);
 
-  constructor(private store:Store) {
-    this.nextCompetition$ = this.store.select(
-      selectNextCompetition
-    );
-  }
-
+  nextCompetition$:Observable<Competition|null> =
+    this.store.select(Competitions.selectNextCompetition);
 }

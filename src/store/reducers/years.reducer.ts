@@ -1,11 +1,12 @@
 import { createFeature, createReducer, createSelector } from '@ngrx/store';
 import { Year } from 'models/year.model';
 import { yearsData } from 'src/data/years.data';
+import { IJsonApiEntity } from 'src/interfaces/json-api.interfaces';
 import { selectRouteParams } from 'store/selectors/router.selectors';
 
-interface IYearEntity {
+interface IYearEntity extends IJsonApiEntity {
   data: {
-    type: string;
+    type: 'year';
     id: string;
     attributes: {
       name: string;
@@ -13,11 +14,15 @@ interface IYearEntity {
   }
 }
 
-interface YearsState {
-  entities: {[id: string]: IYearEntity};
+interface IYearEntities {
+  [id: string]: IYearEntity;
 }
 
-export const initialState:YearsState = {
+interface YearsState {
+  entities: IYearEntities;
+}
+
+const initialState:YearsState = {
   entities: yearsData
 }
 
@@ -26,34 +31,44 @@ export const Years = createFeature({
   reducer: createReducer(
     initialState
   ),
-  extraSelectors: ({selectYearsState}) => ({
+  extraSelectors: ({selectEntities}) => ({
     selectYears: createSelector(
-      selectYearsState,
-      (state:YearsState):Year[] =>
+      selectEntities,
+      (entities:IYearEntities):Year[] =>
         Object
-          .keys(state.entities)
-          .map((key) => new Year(state.entities[key].data))
+          .keys(entities)
+          .map((key) => new Year(entities[key].data))
           .sort((a, b) => b.name.localeCompare(a.name))
     ),
-    selectYearByID: (id:string|null) => createSelector(
-      selectYearsState,
-      (state:YearsState):Year|null =>
-        !!id ? (state.entities[id] ? new Year(state.entities[id]) : null) : null
-    ),
-    selectRoutedYear: createSelector(
-      selectYearsState,
-      selectRouteParams,
-      (state:YearsState, {id}):Year|null =>
-        state.entities[id] ? new Year(state.entities[id].data) : null
-    )
 
+    selectYearByID: (id:string|null) => createSelector(
+      selectEntities,
+      (entities:IYearEntities):Year|null =>
+        !!id ? (entities[id] ? new Year(entities[id]) : null) : null
+    ),
+
+    selectRoutedYear: createSelector(
+      selectEntities,
+      selectRouteParams,
+      (entities:IYearEntities, {id}):Year|null =>
+        entities[id] ? new Year(entities[id].data) : null
+    ),
+
+    selectCurrentYear: createSelector(
+      selectEntities,
+      (entities:IYearEntities):Year|null => {
+        const currentYear = new Date().getFullYear().toString();
+
+        const yearEntity = Object
+          .values(entities)
+          .filter((entity) => entity.data.attributes.name === currentYear)[0]
+
+        return yearEntity ? new Year(yearEntity.data) : null;
+      }
+    )
   })
 });
 
-export const selectCurrentYear = createSelector(
-  Years.selectYears,
-  (years: Year[]):Year|null => years.filter((year) => year.name === new Date().getFullYear().toString())[0]
-);
 
 export const selectPreviousYears = createSelector(
   Years.selectYears,

@@ -1,8 +1,8 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Player } from 'models/player.model';
 import { Observable } from 'rxjs';
-import { selectPlayers } from 'store/selectors/player.selectors';
+import { Players } from 'store/reducers';
 
 @Component({
   templateUrl: './players.component.html',
@@ -10,11 +10,7 @@ import { selectPlayers } from 'store/selectors/player.selectors';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PlayersComponent {
-  players$:Observable<Player[]>;
+  private readonly store:Store = inject(Store);
 
-  constructor(private store:Store) {
-    this.players$ = store.select(
-      selectPlayers
-    );
-  }
+  players$:Observable<Player[]> = this.store.select(Players.selectAll);
 }

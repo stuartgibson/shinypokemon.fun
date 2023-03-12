@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { NgbDate } from '@ng-bootstrap/ng-bootstrap';
 import { Store } from '@ngrx/store';
@@ -14,7 +14,7 @@ import { ballList } from 'src/app/helpers/balls.helper';
 import { gameList } from 'src/app/helpers/games.helper';
 import { methodList } from 'src/app/helpers/methods.helper';
 import { PointActions } from 'store/actions';
-import { IPointEntity, selectNewPoints } from 'store/selectors/points.selectors';
+import { IPointEntity, Points } from 'store/reducers/points.reducer';
 import { v4 as uuid } from 'uuid';
 
 @Component({
@@ -29,7 +29,10 @@ export class PointsGeneratorComponent implements OnInit {
   @Input() currentCompetition: Competition|null = null;
   @Input() players: Player[] = [];
 
-  newPoints$: Observable<Point[]>;
+  private readonly store:Store = inject(Store);
+  private readonly fb:FormBuilder = inject(FormBuilder);
+
+  newPoints$: Observable<Point[]> = this.store.select(Points.selectPendingPoints);
 
   p:Point|null = null;
 
@@ -48,13 +51,6 @@ export class PointsGeneratorComponent implements OnInit {
     pokemon: this.fb.control<Pokemon | null>(null, [Validators.required])
   });
 
-  constructor(
-    private fb: FormBuilder,
-    private store:Store
-  ){
-    this.newPoints$ = store.select(selectNewPoints);
-  }
-
   ngOnInit(): void {
     const date:NgbDate = new NgbDate(new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDate());
 
@@ -68,7 +64,7 @@ export class PointsGeneratorComponent implements OnInit {
     const point:IPointEntity = this.createPointFromValues();
 
     this.store.dispatch(
-      PointActions.addPoint({ point })
+      PointActions.add({ point })
     )
   }
 
@@ -120,7 +116,7 @@ export class PointsGeneratorComponent implements OnInit {
     return {
       data: {
         id: uuid(),
-        type: 'point',
+        type: 'point' as 'point',
         attributes: {
           ball: this.pointForm.value.ball || null,
           catchDate: catchDate,

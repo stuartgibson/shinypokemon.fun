@@ -1,8 +1,9 @@
+import { ICompetitionEntity } from "store/reducers/competitions.reducer";
 
-export const competitionsData2023 = {
+export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
   'f0e61570-110a-4413-8c1f-f68beb482279': {
     data: {
-      type: 'competition',
+      type: 'competition' as 'competition',
       id: 'f0e61570-110a-4413-8c1f-f68beb482279',
       attributes: {
         description: '“Every Pokémon that I have fond memories of, really like their design, slot them onto a team, or just make me happy inside.”\r\n\r\nFor this theme the pokémon caught do have to be the specific regional form.',
@@ -2004,7 +2005,7 @@ export const competitionsData2023 = {
   },
   'd529e41e-e273-4a6d-9ace-21516a6b8c2d': {
     data: {
-      type: 'competition',
+      type: 'competition' as 'competition',
       id: 'd529e41e-e273-4a6d-9ace-21516a6b8c2d',
       attributes: {
         description: '',
@@ -2396,7 +2397,7 @@ export const competitionsData2023 = {
   },
   '2d92043f-c613-44f4-b8e1-e0564992c806': {
     data: {
-      type: 'competition',
+      type: 'competition' as 'competition',
       id: '2d92043f-c613-44f4-b8e1-e0564992c806',
       attributes: {
         description: 'Pokémon with the quadruped body type in Pokémon Home (plus Paldean ones we decide)',
@@ -3915,7 +3916,7 @@ export const competitionsData2023 = {
   },
   '1cf610c6-c557-4ae5-9493-83a25187ecee': {
     data: {
-      type: 'competition',
+      type: 'competition' as 'competition',
       id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
       attributes: {
         description: 'Pokémon with a base stat total of 500 or higher. A Pokémon counts if it has the potential to reach 500, including Megas.',
@@ -8143,7 +8144,7 @@ export const competitionsData2023 = {
   },
   '88110ed9-d8ca-4f5f-865d-8086b9349e29': {
     data: {
-      type: 'competition',
+      type: 'competition' as 'competition',
       id: '88110ed9-d8ca-4f5f-865d-8086b9349e29',
       attributes: {
         description: 'Bonus points available for certain TCG Live/Online pulls. Boosted Hitmon* line on Sunday 5th March do not count.',

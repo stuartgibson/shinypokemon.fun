@@ -1,27 +1,105 @@
-import { createReducer, on } from '@ngrx/store';
+import { createFeature, createReducer, createSelector, on } from '@ngrx/store';
+import { Competition } from 'models/competition.model';
+import { Point } from 'models/point.model';
 import { pointsData } from 'src/data/points.data';
+import { IJsonApiEntity, IJsonApiRelationship } from 'src/interfaces/json-api.interfaces';
 import { PointActions } from 'store/actions';
-import { PointsState } from 'store/selectors/points.selectors';
+import { BallType } from 'types/ball.types';
+import { GameType } from 'types/game.types';
+import { MethodType } from 'types/method.types';
+import { Competitions } from './competitions.reducer';
+
+export interface IPointEntity extends IJsonApiEntity {
+  data: {
+    type: 'point';
+    id: string;
+    attributes: {
+      ball:BallType|null;
+      catchDate:string|null;
+      game:GameType|null;
+      method:MethodType|null;
+    };
+    relationships: {
+      competition: IJsonApiRelationship
+      pokemon: IJsonApiRelationship,
+      player: IJsonApiRelationship
+    }
+  }
+}
+
+export interface IPointEntities {
+  [id: string]: IPointEntity;
+}
+
+export interface PointsState {
+  entities: IPointEntities;
+  newPoints: IPointEntities;
+}
 
 export const initialState:PointsState = {
   entities: pointsData,
   newPoints: {}
 }
 
-export const pointsReducer = createReducer(
-  initialState,
-
-  on(
-    PointActions.addPoint,
-    (state:PointsState, { point }) => {
-
-      return {
-        ...state,
-        newPoints: {
-          ...state.newPoints,
-          [point.data.id]: point
+export const Points = createFeature({
+  name: 'points',
+  reducer: createReducer(
+    initialState,
+    on(
+      PointActions.add,
+      (state:PointsState, { point }) => (
+        {
+          ...state,
+          newPoints: {
+            ...state.newPoints,
+            [point.data.id]: point
+          }
         }
-      }
-    }
+      )
+    )
   ),
-);
+  extraSelectors: ({selectEntities, selectNewPoints}) => ({
+    selectAll: createSelector(
+      selectEntities,
+      (entities:IPointEntities):Point[] =>
+        Object.keys(entities).map((key) => new Point(entities[key].data))
+    ),
+
+    selectByID: (id:string) => createSelector(
+      selectEntities,
+      (entities:IPointEntities):Point|null =>
+        entities[id] ? new Point(entities[id]) : null
+    ),
+
+    selectCurrentPoints: createSelector(
+      Competitions.selectCurrentCompetition,
+      selectEntities,
+      (competition:Competition|null, entities:IPointEntities):Point[] => {
+        if( !competition ) return [];
+
+        return Object
+          .values(entities)
+          .filter((point) => point.data.relationships.competition.data.id === competition.id)
+          .map((point) => new Point(point.data))
+    }),
+
+    selectRoutedCompetitionPoints: createSelector(
+      Competitions.selectRoutedCompetition,
+      selectEntities,
+      (competition:Competition|null, entities:IPointEntities):Point[] => {
+        if( !competition ) return [];
+
+        return Object
+          .values(entities)
+          .filter((point) => point.data.relationships.competition.data.id === competition.id)
+          .map((point) => new Point(point.data))
+      }
+    ),
+
+    selectPendingPoints: createSelector(
+      selectNewPoints,
+      (entities:IPointEntities):Point[] =>
+        Object.keys(entities).map((key) => new Point(entities[key].data))
+    )
+  })
+});

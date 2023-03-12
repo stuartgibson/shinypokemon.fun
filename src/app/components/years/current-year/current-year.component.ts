@@ -1,10 +1,10 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
 import { Observable } from 'rxjs';
-import { selectCurrentYear } from 'store/reducers';
-import { selectPreviousCompetitionsForCurrentYear } from 'store/selectors/competition.selectors';
+import { Years } from 'store/reducers';
+import { Competitions } from 'store/reducers/competitions.reducer';
 
 @Component({
   selector: 'sp-current-year',
@@ -13,15 +13,10 @@ import { selectPreviousCompetitionsForCurrentYear } from 'store/selectors/compet
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CurrentYearComponent {
-  currentYear$:Observable<Year|null>;
-  yearCompetitions$:Observable<Competition[]>;
+  private readonly store:Store = inject(Store);
 
-  constructor(public store:Store) {
-    this.currentYear$ = this.store.select(
-      selectCurrentYear
-    );
-    this.yearCompetitions$ = this.store.select(
-      selectPreviousCompetitionsForCurrentYear
-    )
-  }
+  currentYear$:Observable<Year|null> =
+    this.store.select(Years.selectCurrentYear);
+  yearCompetitions$:Observable<Competition[]> =
+    this.store.select(Competitions.selectPreviousCompetitionsForCurrentYear)
 }

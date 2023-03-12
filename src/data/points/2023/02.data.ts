@@ -9,7 +9,7 @@ export const pointsData2023_2 = {
   '99c4e6e2-819a-438f-b2e1-cefdd3f3adee': {
     data: {
       id: '99c4e6e2-819a-438f-b2e1-cefdd3f3adee',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'premier' as BallType,
         catchDate: '2023-01-22',
@@ -45,7 +45,7 @@ export const pointsData2023_2 = {
   '5c6c24c2-7046-4a43-9ace-14ffbf7c0db2': {
     data: {
       id: '5c6c24c2-7046-4a43-9ace-14ffbf7c0db2',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'ultraHisui' as BallType,
         catchDate: '2023-01-22',
@@ -81,7 +81,7 @@ export const pointsData2023_2 = {
   '6706a4d8-e518-4268-8750-ddc99e0bb4f3': {
     data: {
       id: '6706a4d8-e518-4268-8750-ddc99e0bb4f3',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'premier' as BallType,
         catchDate: '2023-01-22',
@@ -117,7 +117,7 @@ export const pointsData2023_2 = {
   '2a061af2-597b-4670-a849-73118dbb9d0c': {
     data: {
       id: '2a061af2-597b-4670-a849-73118dbb9d0c',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'gigaton' as BallType,
         catchDate: '2023-01-22',
@@ -153,7 +153,7 @@ export const pointsData2023_2 = {
   '158829fc-3ad8-44e2-bf8b-8d26282ccc96': {
     data: {
       id: '158829fc-3ad8-44e2-bf8b-8d26282ccc96',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'ultra' as BallType,
         catchDate: '2023-01-22',
@@ -189,7 +189,7 @@ export const pointsData2023_2 = {
   '0282d9b0-f43d-4c5f-a1e1-483847202b97': {
     data: {
       id: '0282d9b0-f43d-4c5f-a1e1-483847202b97',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'pokeball' as BallType,
         catchDate: '2023-01-26',
@@ -225,7 +225,7 @@ export const pointsData2023_2 = {
   'd8e3be55-41e2-45e0-a547-d3907106ee1a': {
     data: {
       id: 'd8e3be55-41e2-45e0-a547-d3907106ee1a',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'luxury' as BallType,
         catchDate: '2023-01-27',
@@ -261,7 +261,7 @@ export const pointsData2023_2 = {
   '8554e427-5372-4046-8b25-851465a724a6': {
     data: {
       id: '8554e427-5372-4046-8b25-851465a724a6',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'pokeball' as BallType,
         catchDate: '2023-01-28',
@@ -297,7 +297,7 @@ export const pointsData2023_2 = {
   '8333cbe9-25df-42f8-9d17-dc69fdd48fdf': {
     data: {
       id: '8333cbe9-25df-42f8-9d17-dc69fdd48fdf',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'ultra' as BallType,
         catchDate: '2023-01-29',
@@ -333,7 +333,7 @@ export const pointsData2023_2 = {
   '97eaaf88-80db-4ffc-ae28-6807e72df5a5': {
     data: {
       id: '97eaaf88-80db-4ffc-ae28-6807e72df5a5',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'quick' as BallType,
         catchDate: '2023-01-30',
@@ -369,7 +369,7 @@ export const pointsData2023_2 = {
   '7378d7a9-1dba-4f7f-8026-1f6893795d49': {
     data: {
       id: '7378d7a9-1dba-4f7f-8026-1f6893795d49',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'heal' as BallType,
         catchDate: '2023-02-01',
@@ -405,7 +405,7 @@ export const pointsData2023_2 = {
   '6c7acd85-bbc0-422c-8dfa-98e27f61f881': {
     data: {
       id: '6c7acd85-bbc0-422c-8dfa-98e27f61f881',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'dream' as BallType,
         catchDate: '2023-01-31',
@@ -441,7 +441,7 @@ export const pointsData2023_2 = {
   'bb2f4acd-fc68-48e6-a634-9eb6bba1607d': {
     data: {
       id: 'bb2f4acd-fc68-48e6-a634-9eb6bba1607d',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'nest' as BallType,
         catchDate: '2023-01-31',

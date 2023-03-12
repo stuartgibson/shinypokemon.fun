@@ -9,7 +9,7 @@ export const pointsData2023_5 = {
   '8b2cfe7f-9061-4c45-bc1f-612ed8e57e35': {
     data: {
       id: '8b2cfe7f-9061-4c45-bc1f-612ed8e57e35',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'premier' as BallType,
         catchDate: '2023-03-05',
@@ -45,7 +45,7 @@ export const pointsData2023_5 = {
   'fdfe99f0-9153-4114-b58b-d50f1b9957b8': {
     data: {
       id: 'fdfe99f0-9153-4114-b58b-d50f1b9957b8',
-      type: 'point',
+      type: 'point' as 'point',
       attributes: {
         ball: 'gigaton' as BallType,
         catchDate: '2023-03-07',

@@ -1,48 +1,62 @@
-<ng-container *ngrxLet="competition$ as competition">
-  <p *ngIf="!competition">
+<ng-container *ngrxLet="vm$ as vm">
+  <p *ngIf="!vm.competition">
     Could not find requested competition.
   </p>
 
-  <ng-container *ngIf="!!competition">
+  <ng-container *ngIf="!!vm.competition">
     <div class="smart-layout-evenly">
       <div class="flex-grow-3">
         <sp-competition
-          [competition]="competition"
+          [competition]="vm.competition"
           class="mb-3">
         </sp-competition>
 
-        <ng-container *ngrxLet="points$ as points">
-          <p *ngIf="points.length === 0">
-            No points have been scored yet.
-          </p>
+        <p *ngIf="vm.points.length === 0">
+          No points have been scored yet.
+        </p>
 
-          <sp-point
-            *ngFor="let point of points"
-            [point]="point"
-            class="mb-3">
-          </sp-point>
-        </ng-container>
+        <sp-point
+          *ngFor="let point of vm.points"
+          [point]="point"
+          class="mb-3">
+        </sp-point>
       </div>
 
-      <ng-container *ngrxLet="validPokemon$ as validPokemon">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="mb-0">Valid Pokémon ({{ validPokemon.length }})</h3>
+      <div class="card align-self-start">
+        <div class="card-body">
+          <h3 class="mb-3">Valid Pokémon ({{ vm.validPokemon.length }})</h3>
+          <input
+            autocomplete="off"
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            (keyup)="filterPokemon($event)" />
 
-            <p *ngIf="validPokemon.length === 0">
+
+          <ng-container *ngIf="vm.validPokemon.length === 0">
+            <p
+              *ngIf="vm.searchQuery.length === 0"
+              class="mt-3 mb-0">
               No valid Pokémon for this competition. This <em>probably</em> means you can catch any Pokémon, but check the rules just in case.
             </p>
-          </div>
 
-          <ul class="list-group list-group-flush">
-            <li
-              *ngFor="let pokemon of validPokemon; trackBy: trackByPokemon; last as isLast;"
-              class="list-group-item pokemon-entry">
-              <sp-pokemon [pokemon]="pokemon"></sp-pokemon>
-            </li>
-          </ul>
+            <p
+              *ngIf="vm.searchQuery.length > 0"
+              class="mt-3 mb-0">
+              No Pokémon match “{{ vm.searchQuery }}”.
+            </p>
+          </ng-container>
         </div>
-      </ng-container>
+
+        <ul class="list-group list-group-flush">
+          <li
+            *ngFor="let pokemon of vm.validPokemon; trackBy: trackByPokemon; last as isLast;"
+            class="list-group-item pokemon-entry">
+            <sp-pokemon [pokemon]="pokemon"></sp-pokemon>
+          </li>
+        </ul>
+      </div>
+
     </div>
   </ng-container>
 </ng-container>

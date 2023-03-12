@@ -1,8 +1,8 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Player } from 'models/player.model';
 import { Observable } from 'rxjs';
-import { selectPlayer } from 'store/selectors/player.selectors';
+import { Players } from 'store/reducers';
 
 @Component({
   selector: 'sp-inline-player',
@@ -13,16 +13,15 @@ import { selectPlayer } from 'store/selectors/player.selectors';
 export class InlinePlayerComponent implements OnInit {
   @Input() id!:string|null;
 
-  player$!:Observable<Player|null>;
+  private readonly store:Store = inject(Store);
 
-  constructor(private store:Store) {
-  }
+  player$!:Observable<Player|null>;
 
   ngOnInit():void {
     if(!this.id) return;
 
     this.player$ = this.store.select(
-      selectPlayer(this.id)
+      Players.selectByID(this.id)
     );
   }
 }

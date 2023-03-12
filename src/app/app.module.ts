@@ -8,7 +8,9 @@ import { LetModule, PushModule } from '@ngrx/component';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { reducers, Years } from '../store/reducers';
+import { Competitions } from 'store/reducers/competitions.reducer';
+import { Players } from 'store/reducers/players.reducer';
+import { Points, Pokemons, reducers, Years } from '../store/reducers';
 import { AppRoutingModule } from './app-routing.module';
 import { components } from './components';
 import { AppComponent } from './components/app/app.component';
@@ -25,6 +27,10 @@ import { AppComponent } from './components/app/app.component';
     PushModule,
     ReactiveFormsModule,
     StoreModule.forRoot(reducers),
+    StoreModule.forFeature(Competitions),
+    StoreModule.forFeature(Players),
+    StoreModule.forFeature(Points),
+    StoreModule.forFeature(Pokemons),
     StoreModule.forFeature(Years),
     NgbNavModule,
     NgbPopoverModule,
