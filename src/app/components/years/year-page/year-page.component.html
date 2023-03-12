@@ -19,18 +19,18 @@
                     <dd><sp-inline-player [id]="yearPointsDatum.player.id"></sp-inline-player></dd>
                   </div>
 
-                  <div class="text-end">
-                    <dt>Total Points</dt>
-                    <dd>{{ yearPointsDatum.totalPoints }}</dd>
-                  </div>
+                  <div class="d-flex">
+                    <div class="text-end flex-even">
+                      <dt>Total Points</dt>
+                      <dd>{{ yearPointsDatum.totalPoints }}</dd>
+                    </div>
 
-                  <div class="text-end">
-                    <dt>Successful Hunts</dt>
-                    <dd>{{ yearPointsDatum.successfulHuntsCount }}/{{ vm.competitionCount }}</dd>
+                    <div class="text-end flex-even">
+                      <dt>Successful Hunts</dt>
+                      <dd>{{ yearPointsDatum.successfulHuntsCount }}/{{ vm.competitionCount }}</dd>
+                    </div>
                   </div>
                 </dl>
-
-
               </div>
             </div>
           </li>
