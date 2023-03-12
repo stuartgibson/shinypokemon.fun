@@ -17,7 +17,7 @@ export class Competition extends AppModel implements ICompetition {
   readonly startDate:Date;
   readonly theme:string;
   readonly validPokemonIDs:string[];
-  readonly yearID:string|null;
+  readonly yearID:string;
 
   constructor(data:any) {
     super(data);
@@ -27,6 +27,6 @@ export class Competition extends AppModel implements ICompetition {
     this.startDate = new Date(this.attribute('startDate'));
     this.theme = this.attribute('theme');
     this.validPokemonIDs = this.relationshipIDs('validPokemon');
-    this.yearID = this.relationshipID('year');
+    this.yearID = this.relationshipID('year')!;
   }
 }

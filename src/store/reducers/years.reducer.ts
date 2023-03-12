@@ -32,7 +32,7 @@ export const Years = createFeature({
     initialState
   ),
   extraSelectors: ({selectEntities}) => ({
-    selectYears: createSelector(
+    selectAll: createSelector(
       selectEntities,
       (entities:IYearEntities):Year[] =>
         Object
@@ -71,6 +71,6 @@ export const Years = createFeature({
 
 
 export const selectPreviousYears = createSelector(
-  Years.selectYears,
+  Years.selectAll,
   (years: Year[]):Year[] => years.filter((year) => year.name < new Date().getFullYear().toString())
 );

@@ -4,10 +4,22 @@
   Select a year below to view the competitions for that year.
 </p>
 
-<ng-container *ngrxLet="years$ as years">
+<ng-container *ngrxLet="vm$ as vm">
   <ol class="list-unstyled">
-    <li *ngFor="let year of years">
-      <a [routerLink]="['/years', year.id]">{{ year.name }}</a>
+    <li *ngFor="let yearDatum of vm.yearsData">
+      <div class="card mb-3">
+        <div class="card-body d-flex">
+          <a
+            [routerLink]="['/years', yearDatum.year.id]"
+            class="flex-even">
+            {{ yearDatum.year.name }}
+          </a>
+
+          <span>
+            {{ yearDatum.competitionCount }} competition{{ yearDatum.competitionCount === 1 ? '' : 's' }}
+          </span>
+        </div>
+      </div>
     </li>
   </ol>
 </ng-container>

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { Years } from 'store/reducers';
+import { competitionsPageViewModel } from 'store/view-models/competitions-page.view-model';
 
 @Component({
   selector: 'sp-competitions',
@@ -10,5 +10,5 @@ import { Years } from 'store/reducers';
 })
 export class CompetitionsComponent {
   private readonly store = inject(Store);
-  readonly years$ = this.store.select(Years.selectYears);
+  readonly vm$ = this.store.select(competitionsPageViewModel);
 }
