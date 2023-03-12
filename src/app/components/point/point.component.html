@@ -1,5 +1,6 @@
 <ng-container *ngIf="!!point">
   <div class="card">
+    <div class="bg-image" [ngStyle]="{'background-image': (pokemon$ | ngrxPush)?.artwork}"></div>
     <div class="card-body">
       <div class="d-flex mb-3 gap-1">
           <span

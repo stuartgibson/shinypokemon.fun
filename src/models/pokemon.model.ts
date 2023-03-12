@@ -1,6 +1,7 @@
 import { AppModel, IAppModel } from "./base.model";
 
 export interface IPokemon extends IAppModel {
+  readonly artwork:string;
   readonly dexNo:string;
   readonly forme:string|null;
   readonly generation:number;
@@ -10,6 +11,7 @@ export interface IPokemon extends IAppModel {
 }
 
 export class Pokemon extends AppModel implements IPokemon {
+  readonly artwork:string;
   readonly dexNo:string;
   readonly forme:string|null;
   readonly generation:number;
@@ -24,6 +26,7 @@ export class Pokemon extends AppModel implements IPokemon {
     this.generation = this.attribute('generation');
     this.name = this.attribute('name');
 
+    this.artwork = `url('/assets/images/pokemon/artwork/${this.dexNo}.png')`;
     this.serebiiLink = `https://serebii.net/pokemon/${this.formatNameForSerebiiLink()}/`
     this.bulbapediaLink = `https://bulbapedia.bulbagarden.net/wiki/${this.formatNameForBulbapediaLink()}`
   }
