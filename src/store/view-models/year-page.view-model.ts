@@ -20,7 +20,6 @@ export type YearPageViewModel = {
   yearPointsData: YearPointsDatum[];
 }
 
-
 export const yearPageViewModel = createSelector(
   Competitions.selectCompetitionsForRoutedYear,
   Players.selectAll,

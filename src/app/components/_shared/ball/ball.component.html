@@ -3,10 +3,9 @@
     <span class="img-box">
       <img
         src="assets/images/balls.png"
-        alt=""
+        [alt]="ball!.name"
         style="object-position: {{ -24 * ball!.xOffset }}px {{ -24 * ball!.yOffset }}px;">
     </span>
-    {{ ball!.name }}
   </span>
   <span *ngSwitchDefault>&mdash;</span>
 </ng-container>
