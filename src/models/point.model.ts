@@ -5,34 +5,34 @@ import { AppModel, IAppModel } from "./base.model";
 
 interface IPoint extends IAppModel {
   readonly ball:BallType|null;
-  readonly catchDate:Date|null;
-  readonly competitionID:string|null;
+  readonly catchDate:Date;
+  readonly competitionID:string;
   readonly firstCatch:boolean;
   readonly game:GameType|null;
   readonly method:MethodType|null;
-  readonly pokemonID:string|null;
-  readonly playerID:string|null;
+  readonly pokemonID:string;
+  readonly playerID:string;
 }
 
 export class Point extends AppModel implements IPoint {
   readonly ball:BallType|null;
-  readonly catchDate:Date|null;
-  readonly competitionID:string|null;
+  readonly catchDate:Date;
+  readonly competitionID:string;
   readonly firstCatch:boolean;
   readonly game:GameType|null;
   readonly method:MethodType|null;
-  readonly pokemonID:string|null;
-  readonly playerID:string|null;
+  readonly pokemonID:string;
+  readonly playerID:string;
 
   constructor(data:any) {
     super(data);
     this.ball = this.attribute('ball');
-    this.competitionID = this.relationshipID('competition');
-    this.catchDate = this.attribute('catchDate') ? new Date(this.attribute('catchDate')) : null;
+    this.competitionID = this.relationshipID('competition')!;
+    this.catchDate = new Date(this.attribute('catchDate'));
     this.firstCatch = !!this.attribute('firstCatch');
     this.game = this.attribute('game');
     this.method = this.attribute('method');
-    this.pokemonID = this.relationshipID('pokemon');
-    this.playerID = this.relationshipID('player');
+    this.pokemonID = this.relationshipID('pokemon')!;
+    this.playerID = this.relationshipID('player')!;
   }
 }

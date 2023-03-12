@@ -1,19 +1,46 @@
-<ng-container *ngrxLet="year$ as year">
-  <ng-container *ngIf="!year">
+<ng-container *ngrxLet="vm$ as vm">
+  <ng-container *ngIf="!vm.year">
     <h2>Year not found</h2>
   </ng-container>
-  <ng-container *ngIf="!!year">
-    <h2>{{ year.name }}</h2>
+
+  <ng-container *ngIf="!!vm.year">
+    <h2>{{ vm.year.name }}</h2>
 
     <div class="smart-layout-evenly">
       <div class="flex-grow-2">
         <h3>Scores</h3>
-        PLAYER SCORES
+        <ol class="list-unstyled">
+          <li *ngFor="let yearPointsDatum of vm.yearPointsData">
+            <div class="card mb-3">
+              <div class="card-body">
+                <dl class="smart-layout-evenly">
+                  <div>
+                    <dt>Player</dt>
+                    <dd><sp-inline-player [id]="yearPointsDatum.player.id"></sp-inline-player></dd>
+                  </div>
+
+                  <div class="text-end">
+                    <dt>Total Points</dt>
+                    <dd>{{ yearPointsDatum.totalPoints }}</dd>
+                  </div>
+
+                  <div class="text-end">
+                    <dt>Successful Hunts</dt>
+                    <dd>{{ yearPointsDatum.successfulHuntsCount }}/{{ vm.competitionCount }}</dd>
+                  </div>
+                </dl>
+
+
+              </div>
+            </div>
+          </li>
+        </ol>
       </div>
+
       <div>
         <h3>Competitions</h3>
         <sp-competition-list
-          [competitions]="(competitions$ | ngrxPush) || []">
+          [competitions]="vm.competitions">
         </sp-competition-list>
       </div>
     </div>
