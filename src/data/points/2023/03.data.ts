@@ -1,8 +1,9 @@
 import { BallType } from "src/types/ball.types";
 import { GameType } from "src/types/game.types";
 import { MethodType } from "src/types/method.types";
+import { IPointEntities } from "store/reducers";
 
-export const pointsData2023_3 = {
+export const pointsData2023_3:IPointEntities = {
   //  Quadruped Pokémon 5 Feb 2023  to 18 Feb 2023
   //  Tone (@Tone)
   //  0309. Electrike

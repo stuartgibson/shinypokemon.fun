@@ -1,8 +1,9 @@
 import { BallType } from "src/types/ball.types";
 import { GameType } from "src/types/game.types";
 import { MethodType } from "src/types/method.types";
+import { IPointEntities } from "store/reducers";
 
-export const pointsData2023_1 = {
+export const pointsData2023_1:IPointEntities = {
   'c9d83409-7878-4f03-8c3a-1595f909b023': {
     data: {
       type: 'point' as 'point',
@@ -43,6 +44,7 @@ export const pointsData2023_1 = {
       attributes: {
         ball: 'ultra' as BallType,
         catchDate: '2023-01-08',
+        firstCatch: false,
         game: 'pogo' as GameType,
         method: 'pogoRandom' as MethodType
       },
@@ -75,6 +77,7 @@ export const pointsData2023_1 = {
       attributes: {
         ball: 'luxury' as BallType,
         catchDate: '2023-01-08',
+        firstCatch: false,
         game: 'violet' as GameType,
         method: 'sandwich' as MethodType
       },
@@ -107,6 +110,7 @@ export const pointsData2023_1 = {
       attributes: {
         ball: 'ultra' as BallType,
         catchDate: '2023-01-08',
+        firstCatch: false,
         game: 'violet' as GameType,
         method: 'random' as MethodType
       },
@@ -139,6 +143,7 @@ export const pointsData2023_1 = {
       attributes: {
         ball: 'premier' as BallType,
         catchDate: '2023-01-08',
+        firstCatch: false,
         game: 'violet' as GameType,
         method: null
       },
@@ -171,6 +176,7 @@ export const pointsData2023_1 = {
       attributes: {
         ball: 'luxury' as BallType,
         catchDate: '2023-01-08',
+        firstCatch: false,
         game: 'scarlet' as GameType,
         method: 'sandwich' as MethodType
       },

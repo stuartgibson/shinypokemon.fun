@@ -16,6 +16,7 @@ export interface IPointEntity extends IJsonApiEntity {
     attributes: {
       ball:BallType|null;
       catchDate:string|null;
+      firstCatch:boolean;
       game:GameType|null;
       method:MethodType|null;
     };

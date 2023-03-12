@@ -120,7 +120,7 @@ export class PointsGeneratorComponent implements OnInit {
         attributes: {
           ball: this.pointForm.value.ball || null,
           catchDate: catchDate,
-          firstCatch: this.pointForm.value.firstCatch,
+          firstCatch: !!this.pointForm.value.firstCatch,
           game: this.pointForm.value.game || null,
           method: this.pointForm.value.method || null,
         },

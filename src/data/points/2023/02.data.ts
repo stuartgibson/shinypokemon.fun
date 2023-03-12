@@ -1,8 +1,9 @@
 import { BallType } from "src/types/ball.types";
 import { GameType } from "src/types/game.types";
 import { MethodType } from "src/types/method.types";
+import { IPointEntities } from "store/reducers";
 
-export const pointsData2023_2 = {
+export const pointsData2023_2:IPointEntities = {
   //  Pokemon with weird evolution methods!!! 22 Jan 2023  to 28 Jan 2023
   //  Kathryn (@SteeleTheWin)
   //  0206. Dunsparce

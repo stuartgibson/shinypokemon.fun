@@ -1,8 +1,9 @@
+import { IPointEntities } from "store/reducers";
 import { BallType } from "types/ball.types";
 import { GameType } from "types/game.types";
 import { MethodType } from "types/method.types";
 
-export const pointsData2023_4 = {
+export const pointsData2023_4:IPointEntities = {
   //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
   //  Nama Chibitty (@NamaTheNerd)
   //  0692. Clauncher
@@ -1334,5 +1335,42 @@ export const pointsData2023_4 = {
         }
       }
     }
+  },
+  //  Base Stats Over 500 19 Feb 2023  to 4 Mar 2023
+  //  Devilish Inferno (@Alex)
+  //  0745. Lycanroc
+  '4ff7180a-340a-4db7-9be8-046861ea8932': {
+    data: {
+      id: '4ff7180a-340a-4db7-9be8-046861ea8932',
+      type: 'point',
+      attributes: {
+        ball: 'great' as BallType,
+        catchDate: '2023-03-04',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1cf610c6-c557-4ae5-9493-83a25187ecee',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '46b781dd-5818-48df-ad45-dad290fadcc8',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
