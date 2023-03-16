@@ -219,5 +219,150 @@ export const pointsData2023_5:IPointEntities = {
         }
       }
     }
+  },
+  //  Pokémon that have been on a fighting type TCG card 5 Mar 2023  to 18 Mar 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0194. Wooper (Paldean)
+  '0eb1a67e-1ec5-4a05-bf37-8fdbd9cf2534': {
+    data: {
+      id: '0eb1a67e-1ec5-4a05-bf37-8fdbd9cf2534',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-13',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '88110ed9-d8ca-4f5f-865d-8086b9349e29',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0af2156b-5af7-4e4d-a527-1c38e6781074',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokémon that have been on a fighting type TCG card 5 Mar 2023  to 18 Mar 2023
+  //  Robert Lewis (@A1966Mustang)
+  //  0207. Gligar
+  'ffcc14a0-811a-4a60-9f61-79dd264b79f5': {
+    data: {
+      id: 'ffcc14a0-811a-4a60-9f61-79dd264b79f5',
+      type: 'point',
+      attributes: {
+        ball: 'jet' as BallType,
+        catchDate: '2023-03-12',
+        firstCatch: false,
+        game: 'legendsArceus' as GameType,
+        method: 'outbreakLegendsArceus' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '88110ed9-d8ca-4f5f-865d-8086b9349e29',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3657e524-63a2-4eb6-b768-c20b104e41a1',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8d04330d-3e11-4191-ab8d-9a5137f8e659',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokémon that have been on a fighting type TCG card 5 Mar 2023  to 18 Mar 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0083. Farfetch’d (Galarian)
+  'd27dbe82-b96c-4d5d-934a-ccaf0a3954f6': {
+    data: {
+      id: 'd27dbe82-b96c-4d5d-934a-ccaf0a3954f6',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-03-12',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '88110ed9-d8ca-4f5f-865d-8086b9349e29',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b6af61b9-ea70-4cd5-9c39-b901a94ced0c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokémon that have been on a fighting type TCG card 5 Mar 2023  to 18 Mar 2023
+  //  Stuart (@stuart)
+  //  0950. Klawf
+  '3f78f7e4-2fbe-40b6-a1d7-0e5f77ce5bbf': {
+    data: {
+      id: '3f78f7e4-2fbe-40b6-a1d7-0e5f77ce5bbf',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-03-15',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '88110ed9-d8ca-4f5f-865d-8086b9349e29',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '454e6e19-6c37-44d9-9bb5-c6051c76ffbc',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
