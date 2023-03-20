@@ -9702,7 +9702,7 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
       id: '4c08c4e6-8137-4761-b844-9c0c2d38ab2d',
       attributes: {
         description: 'Any poison type, any game',
-        endDate: '2023-01-01',
+        endDate: '2023-04-01',
         startDate: '2023-03-19',
         theme: 'Poison',
       },
