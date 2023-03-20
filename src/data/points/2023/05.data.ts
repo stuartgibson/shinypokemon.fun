@@ -363,6 +363,78 @@ export const pointsData2023_5:IPointEntities = {
         }
       }
     }
+  },
+    //  Pokémon that have been on a fighting type TCG card 5 Mar 2023  to 18 Mar 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0106. Hitmonlee
+  '1ec2c035-bb3b-40d3-9391-ac2ce138d449': {
+    data: {
+      id: '1ec2c035-bb3b-40d3-9391-ac2ce138d449',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-03-17',
+        firstCatch: false,
+        game: 'letsGoPikachu' as GameType,
+        method: 'chain' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '88110ed9-d8ca-4f5f-865d-8086b9349e29',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '89c759ee-3cda-416b-91de-a8360da73bb3',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Pokémon that have been on a fighting type TCG card 5 Mar 2023  to 18 Mar 2023
+  //  Jette (@Jette)
+  //  0106. Hitmonlee
+  'afad7f2b-944d-4116-96a5-34b7c6d5b0e4': {
+    data: {
+      id: 'afad7f2b-944d-4116-96a5-34b7c6d5b0e4',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-03-18',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: 'dynamaxAdventure' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '88110ed9-d8ca-4f5f-865d-8086b9349e29',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '89c759ee-3cda-416b-91de-a8360da73bb3',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 
 }
