@@ -134,13 +134,13 @@ export class PointsGeneratorComponent implements OnInit {
           pokemon: {
             data: {
               id: this.pointForm.value.pokemon!.id,
-              type: 'competition'
+              type: 'pokemon'
             }
           },
           player: {
             data: {
               id: this.pointForm.value.player!.id,
-              type: 'competition'
+              type: 'player'
             }
           }
         }

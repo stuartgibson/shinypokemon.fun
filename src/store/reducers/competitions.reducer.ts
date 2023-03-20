@@ -32,11 +32,13 @@ interface ICompetitionEntities {
 
 export interface CompetitionsState {
   entities: ICompetitionEntities;
+  newCompetition:ICompetitionEntity|null;
   searchQuery: string;
 }
 
 const initialState:CompetitionsState = {
   entities: competitionsData,
+  newCompetition: null,
   searchQuery: ''
 }
 
@@ -44,6 +46,15 @@ export const Competitions = createFeature({
   name: 'competitions',
   reducer: createReducer(
     initialState,
+    on(
+      CompetitionActions.add,
+      (state:CompetitionsState, { competition }) => (
+        {
+          ...state,
+          newCompetition: competition,
+        }
+      )
+    ),
     on(
       CompetitionActions.filter,
       (state:CompetitionsState, {query}) => ({...state, searchQuery: query})
@@ -53,7 +64,11 @@ export const Competitions = createFeature({
       (state:CompetitionsState) => ({...state, searchQuery: ''})
     )
   ),
-  extraSelectors: ({selectEntities}) => ({
+  extraSelectors: ({selectCompetitionsState, selectEntities}) => ({
+    selectNewCompetition: createSelector(
+      selectCompetitionsState,
+      (state:CompetitionsState) => state.newCompetition ? new Competition(state.newCompetition.data) : null
+    ),
     selectAll: createSelector(
       selectEntities,
       (entities:ICompetitionEntities):Competition[] =>

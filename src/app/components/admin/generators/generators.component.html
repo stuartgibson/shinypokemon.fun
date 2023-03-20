@@ -12,13 +12,17 @@
       </sp-points-generator>
 		</ng-template>
 	</li>
+
 	<li [ngbNavItem]="'competition'">
 		<a ngbNavLink>Competition</a>
 		<ng-template ngbNavContent>
-			<sp-competition-generator></sp-competition-generator>
+			<sp-competition-generator
+      [players]="(players$ | ngrxPush) || []">
+      </sp-competition-generator>
 		</ng-template>
 	</li>
-	<li [ngbNavItem]="'pokemonList'">
+
+  <li [ngbNavItem]="'pokemonList'">
 		<a ngbNavLink>Pokémon List</a>
 		<ng-template ngbNavContent>
 			<sp-pokemon-list-generator></sp-pokemon-list-generator>
