@@ -10346,5 +10346,32 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
         }
       }
     }
+  },
+  '4e1a2095-e7ac-4cd4-ba39-026599c7102b': {
+    data: {
+      type: 'competition',
+      id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+      attributes: {
+        description: 'To celebrate Ash leaving the anime, the theme is any Pokémon Ash has had. Must be the specific regional variation.',
+        endDate: '2023-04-15',
+        startDate: '2023-04-02',
+        theme: 'Ash\'s Pokémon',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
 }
