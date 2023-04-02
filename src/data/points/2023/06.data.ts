@@ -435,5 +435,222 @@ export const pointsData2023_6:IPointEntities = {
         }
       }
     }
+  },
+  //  Poison 19 Mar 2023  to 1 Apr 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0945. Grafaiai
+  'bd04d141-389a-4a17-af38-505884ce9878': {
+    data: {
+      id: 'bd04d141-389a-4a17-af38-505884ce9878',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-26',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c08c4e6-8137-4761-b844-9c0c2d38ab2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b26bad43-0180-44d5-809a-fac35f92c24f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Poison 19 Mar 2023  to 1 Apr 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0073. Tentacruel
+  '9891c80b-4b75-418a-90e0-483b04257baa': {
+    data: {
+      id: '9891c80b-4b75-418a-90e0-483b04257baa',
+      type: 'point',
+      attributes: {
+        ball: 'nest' as BallType,
+        catchDate: '2023-03-27',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: 'dynamaxAdventure' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c08c4e6-8137-4761-b844-9c0c2d38ab2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '13633ad8-e514-4b85-90d3-5ffa01093eec',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Poison 19 Mar 2023  to 1 Apr 2023
+  //  Stuart (@stuart)
+  //  0965. Varoom
+  'eb4c9d3a-90be-4f79-8831-886d2db13939': {
+    data: {
+      id: 'eb4c9d3a-90be-4f79-8831-886d2db13939',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-30',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c08c4e6-8137-4761-b844-9c0c2d38ab2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '95a16623-843f-4696-abd8-3c72f24e24d1',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Poison 19 Mar 2023  to 1 Apr 2023
+  //  Devilish Inferno (@Alex)
+  //  0194. Wooper (Paldean)
+  '7d757624-d5cc-475f-88da-eea48211f0a7': {
+    data: {
+      id: '7d757624-d5cc-475f-88da-eea48211f0a7',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-25',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c08c4e6-8137-4761-b844-9c0c2d38ab2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0af2156b-5af7-4e4d-a527-1c38e6781074',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Poison 19 Mar 2023  to 1 Apr 2023
+  //  Devilish Inferno (@Alex)
+  //  0848. Toxel
+  '3f84352b-7e10-4b52-9796-21fb3d753f11': {
+    data: {
+      id: '3f84352b-7e10-4b52-9796-21fb3d753f11',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-25',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c08c4e6-8137-4761-b844-9c0c2d38ab2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'fd557cfa-39b0-4fe4-9d39-131beb026c53',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Poison 19 Mar 2023  to 1 Apr 2023
+  //  Devilish Inferno (@Alex)
+  //  0757. Salandit
+  'a8a2bb42-88ce-4433-985c-759caafad81e': {
+    data: {
+      id: 'a8a2bb42-88ce-4433-985c-759caafad81e',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-03-25',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c08c4e6-8137-4761-b844-9c0c2d38ab2d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '1cd76c6a-7326-44ea-ab7f-5f366c03712d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
