@@ -110,6 +110,41 @@ export const pointsData2023_8:IPointEntities = {
         }
       }
     }
+  },
+  //  Pokémon on Switch for the First Time 16 Apr 2023  to 29 Apr 2023
+  //  Padukes (@Padukes)
+  //  1005. Roaring Moon
+  '14400b7c-3a95-4bb5-8071-0657eae98d17': {
+    data: {
+      id: '14400b7c-3a95-4bb5-8071-0657eae98d17',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-04-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'a77269b3-f326-4609-b44b-a804ef7a9f34',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c291dd7a-074f-4a64-831d-e759beedb893',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
-
 }
