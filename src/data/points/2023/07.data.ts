@@ -255,6 +255,150 @@ export const pointsData2023_7:IPointEntities = {
         }
       }
     }
+  },
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  james (@seginus)
+  //  0214. Heracross
+  'dd2a3d87-4949-47f1-977a-bb0dc95a1949': {
+    data: {
+      id: 'dd2a3d87-4949-47f1-977a-bb0dc95a1949',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-04-03',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ca1230a9-d936-4410-a015-7fac682cf2cf',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0495. Snivy
+  '7a2f5a14-481f-4318-97cc-cc53cf9f2e07': {
+    data: {
+      id: '7a2f5a14-481f-4318-97cc-cc53cf9f2e07',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-04-04',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '343d9e67-1f1e-4de6-966f-89bfec09fffd',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  Stuart (@stuart)
+  //  0361. Snorunt
+  '8c505b4e-fe5d-400c-9a83-471cb85daab7': {
+    data: {
+      id: '8c505b4e-fe5d-400c-9a83-471cb85daab7',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-04-10',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  Robert Lewis (@A1966Mustang)
+  //  0092. Gastly
+  '784d9477-7bd1-454c-807e-14ae83c83f6d': {
+    data: {
+      id: '784d9477-7bd1-454c-807e-14ae83c83f6d',
+      type: 'point',
+      attributes: {
+        ball: 'jet' as BallType,
+        catchDate: '2023-04-12',
+        firstCatch: false,
+        game: 'legendsArceus' as GameType,
+        method: 'outbreakLegendsArceus' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3657e524-63a2-4eb6-b768-c20b104e41a1',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c0a46fea-95bc-4747-bb39-7f1479ba7456',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 
 }
