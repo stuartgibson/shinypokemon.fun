@@ -4,7 +4,7 @@ import { GameType } from "types/game.types";
 import { MethodType } from "types/method.types";
 
 export const pointsData2023_7:IPointEntities = {
-//  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
   //  Al McKinlay (@Al)
   //  0231. Phanpy
   '60e5ceaf-f6d5-444e-b830-5a6a320399eb': {
@@ -147,5 +147,114 @@ export const pointsData2023_7:IPointEntities = {
         }
       }
     }
+  },
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0246. Larvitar
+  '5f1ea9c2-2284-4350-9e9b-a5a4b0ce5a82': {
+    data: {
+      id: '5f1ea9c2-2284-4350-9e9b-a5a4b0ce5a82',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-04-10',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '14338c64-e7d5-4cfb-8719-bb5f4b1ebace',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0501. Oshawott
+  '10a9d292-c698-4c91-a4df-bad344cad9be': {
+    data: {
+      id: '10a9d292-c698-4c91-a4df-bad344cad9be',
+      type: 'point',
+      attributes: {
+        ball: 'great' as BallType,
+        catchDate: '2023-04-13',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '1bf76a95-4044-4689-bc8b-d587c347126a',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Ash's Pokémon 2 Apr 2023  to 15 Apr 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0163. Hoothoot
+  'd9c43460-7e5a-487f-b9e8-ab41d60c80ad': {
+    data: {
+      id: 'd9c43460-7e5a-487f-b9e8-ab41d60c80ad',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-04-15',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4e1a2095-e7ac-4cd4-ba39-026599c7102b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'bad16e91-df23-422a-a31c-085f9ae09365',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }

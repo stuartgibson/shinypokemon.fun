@@ -198,5 +198,16 @@ export const playersData:IPlayerEntities = {
         displayName: 'Bobby'
       }
     }
+  },
+  // Bobby De Walt (@bobby)
+  '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0': {
+    data: {
+      type: 'player' as 'player',
+      id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+      attributes: {
+        realName: 'Padukes',
+        displayName: 'Padukes'
+      }
+    }
   }
 }
