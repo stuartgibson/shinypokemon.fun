@@ -11193,5 +11193,32 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
         }
       }
     }
+  },
+  'a77269b3-f326-4609-b44b-a804ef7a9f34': {
+    data: {
+      type: 'competition',
+      id: 'a77269b3-f326-4609-b44b-a804ef7a9f34',
+      attributes: {
+        description: 'Pokémon that were not available on a Switch game prior to Scarlet and Violet',
+        endDate: '2023-04-29',
+        startDate: '2023-04-16',
+        theme: 'Pokémon on Switch for the First Time',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player'
+          }
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
 }
