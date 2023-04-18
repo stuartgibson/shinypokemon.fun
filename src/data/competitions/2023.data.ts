@@ -12107,6 +12107,69 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
               id: '8c839b31-a8b3-4612-8cb3-bea16316cd6c',
               type: 'pokemon'
             }
+          },
+          {
+            data: {
+              // Chespin remove
+              id: '87b11db9-8aeb-44d3-80e1-dd4716d0b705',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Quilladin remove
+              id: '3e8065f7-1785-4754-b728-f0ec7e6bb094',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Chesnaught remove
+              id: '61feae49-3687-451e-92ae-1af275750112',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Fennekin remove
+              id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Braixen remove
+              id: '254366c1-a942-4bd9-8c12-7bd6a1e1b44e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Delphox remove
+              id: 'a2416331-b97d-49d5-84ca-758cfbd9f74e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Froakie remove
+              id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Frogadier remove
+              id: 'ad445bbf-ec67-4ded-a608-6a6720d89e61',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Greninja remove
+              id: '4a62e4ad-cfaf-414e-9a45-4d50502aa57b',
+              type: 'pokemon'
+            }
           }
         ],
         year: {
