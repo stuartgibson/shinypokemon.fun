@@ -6,6 +6,7 @@ import { pointsData2023_5 } from "./2023/05.data";
 import { pointsData2023_6 } from "./2023/06.data";
 import { pointsData2023_7 } from "./2023/07.data";
 import { pointsData2023_8 } from "./2023/08.data";
+import { pointsData2023_9 } from "./2023/09.data";
 
 export const pointsData2023 = {
   ...pointsData2023_1,
@@ -15,5 +16,6 @@ export const pointsData2023 = {
   ...pointsData2023_5,
   ...pointsData2023_6,
   ...pointsData2023_7,
-  ...pointsData2023_8
+  ...pointsData2023_8,
+  ...pointsData2023_9
 }
