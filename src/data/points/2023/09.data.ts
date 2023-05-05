@@ -471,5 +471,42 @@ export const pointsData2023_9:IPointEntities = {
         }
       }
     }
+  },
+    //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0165. Ledyba
+  '8687fb7e-e5b0-4752-9be6-4f4d6b335739': {
+    data: {
+      id: '8687fb7e-e5b0-4752-9be6-4f4d6b335739',
+      type: 'point',
+      attributes: {
+        ball: 'great' as BallType,
+        catchDate: '2023-05-04',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '87e6d3f7-97a0-4117-ada9-4dcb9d718b6f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
