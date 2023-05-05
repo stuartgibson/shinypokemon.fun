@@ -209,5 +209,16 @@ export const playersData:IPlayerEntities = {
         displayName: 'Padukes'
       }
     }
+  },
+  // Jordan Sargent (@Jordan (FUMES))
+  'b33bfd9b-46a1-4bd9-903d-c2159bc72dce': {
+    data: {
+      type: 'player' as 'player',
+      id: 'b33bfd9b-46a1-4bd9-903d-c2159bc72dce',
+      attributes: {
+        realName: 'Jordan Sargent',
+        displayName: 'Jordan (FUMES)'
+      }
+    }
   }
 }
