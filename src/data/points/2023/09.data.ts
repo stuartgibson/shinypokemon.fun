@@ -399,6 +399,77 @@ export const pointsData2023_9:IPointEntities = {
         }
       }
     }
+  },
+    //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Jordan Sargent (@Jordan (FUMES))
+  //  0649. Genesect
+  'b6ca01b0-2f6c-4361-8989-509f53ec7f9a': {
+    data: {
+      id: 'b6ca01b0-2f6c-4361-8989-509f53ec7f9a',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-05-03',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'b33bfd9b-46a1-4bd9-903d-c2159bc72dce',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '5a304b6a-7ceb-4063-bd14-5a7d4cae5812',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Jordan Sargent (@Jordan (FUMES))
+  //  0616. Shelmet
+  '1d47507d-75e0-436f-b78a-d40c1f8149df': {
+    data: {
+      id: '1d47507d-75e0-436f-b78a-d40c1f8149df',
+      type: 'point',
+      attributes: {
+        ball: 'great' as BallType,
+        catchDate: '2023-05-02',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'b33bfd9b-46a1-4bd9-903d-c2159bc72dce',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f8cd280f-a0ac-497f-bd72-7fffb4fa07b8',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
-
 }
