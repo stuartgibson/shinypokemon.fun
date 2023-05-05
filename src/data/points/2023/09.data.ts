@@ -291,5 +291,114 @@ export const pointsData2023_9:IPointEntities = {
         }
       }
     }
+  },
+    //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0165. Ledyba
+  '86d9fb80-6483-4ea5-9c26-5d27fee965cf': {
+    data: {
+      id: '86d9fb80-6483-4ea5-9c26-5d27fee965cf',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-05-03',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '87e6d3f7-97a0-4117-ada9-4dcb9d718b6f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Tone (@Tone)
+  //  0015. Beedrill
+  '13e60bc4-42ad-4e8b-935e-72c8cd6501f8': {
+    data: {
+      id: '13e60bc4-42ad-4e8b-935e-72c8cd6501f8',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-05-03',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '491bb3c9-59bc-430b-915a-1751e297fa41',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0649. Genesect
+  '8d920758-5666-4c07-a62c-ff4ad076e874': {
+    data: {
+      id: '8d920758-5666-4c07-a62c-ff4ad076e874',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-05-02',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '5a304b6a-7ceb-4063-bd14-5a7d4cae5812',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
