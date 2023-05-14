@@ -13147,6 +13147,13 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
           },
           {
             data: {
+              // Snivy remove
+              id: '343d9e67-1f1e-4de6-966f-89bfec09fffd',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
               // Servine remove
               id: 'e0358ec5-8afc-478c-b3fa-0ef934854ccd',
               type: 'pokemon'
@@ -13198,13 +13205,6 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
             data: {
               // Samurott remove
               id: '700a899a-f2af-4066-aff2-23603db8c2f9',
-              type: 'pokemon'
-            }
-          },
-          {
-            data: {
-              // Patrat remove
-              id: 'b139d84a-aff0-4c49-abc7-c59372cfaab8',
               type: 'pokemon'
             }
           },
