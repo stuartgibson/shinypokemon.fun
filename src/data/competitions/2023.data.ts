@@ -13273,6 +13273,69 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
           },
           {
             data: {
+              // Rowlet remove
+              id: 'b5e001d3-94f1-4b6f-b7b7-d7a9ebb20ee1',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Dartrix remove
+              id: '05f0c8f1-d3bc-41ba-9e5d-ca1a03dbb3c0',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Decidueye remove
+              id: '675d9a60-4172-41d7-bc8f-46292bbe62dd',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Litten remove
+              id: '1034a515-8e78-4846-8f20-42fcf9bfca6b',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Torracat remove
+              id: '5840a187-de17-4471-b244-d01d6450fac1',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Incineroar remove
+              id: 'a2af4292-af32-4d85-a791-2cec9601726b',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Popplio remove
+              id: '631a2c39-6231-45b3-807c-cd365c5bf995',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Brionne remove
+              id: 'dd947474-1775-416c-829a-197aef7b2f48',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Primarina remove
+              id: 'f82418ad-7080-4dc7-9036-2ec54cf50a6f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
               // Grookey remove
               id: '3ca532e9-3cb5-44f4-b157-08ce4b3bf578',
               type: 'pokemon'
