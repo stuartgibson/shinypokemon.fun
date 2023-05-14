@@ -13462,6 +13462,13 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
           },
           {
             data: {
+              // Pichu remove
+              id: '8664bc55-da05-4069-9e68-7512901224ac',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
               // Pikachu remove
               id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
               type: 'pokemon'
