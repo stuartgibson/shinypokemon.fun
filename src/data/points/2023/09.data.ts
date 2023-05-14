@@ -507,6 +507,295 @@ export const pointsData2023_9:IPointEntities = {
         }
       }
     }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Devilish Inferno (@Alex)
+  //  0953. Rellor
+  '0cb6f7bd-a822-4ac5-b208-bac849931cd9': {
+    data: {
+      id: '0cb6f7bd-a822-4ac5-b208-bac849931cd9',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-05-03',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '2107fb19-996e-40ad-bae7-55c098ad3857',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Jordan Sargent (@Jordan (FUMES))
+  //  0900. Kleavor
+  '5b02d7d3-de20-4247-98c3-f10188fe09ac': {
+    data: {
+      id: '5b02d7d3-de20-4247-98c3-f10188fe09ac',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-05-06',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'b33bfd9b-46a1-4bd9-903d-c2159bc72dce',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0133e319-db94-4eff-a3ec-2cedea69a1d3',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0900. Kleavor
+  '3a03c753-84d7-4798-8bee-2698c192a6a1': {
+    data: {
+      id: '3a03c753-84d7-4798-8bee-2698c192a6a1',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-05-06',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0133e319-db94-4eff-a3ec-2cedea69a1d3',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Stuart (@stuart)
+  //  0010. Caterpie
+  '2bfddb41-0683-4151-ae9d-09145d090414': {
+    data: {
+      id: '2bfddb41-0683-4151-ae9d-09145d090414',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-05-08',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '2558897e-fbf9-462e-b298-99d41d104263',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Devilish Inferno (@Alex)
+  //  0213. Shuckle
+  '173fb429-85b6-468f-91fc-95a60f218a5e': {
+    data: {
+      id: '173fb429-85b6-468f-91fc-95a60f218a5e',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-05-10',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'a9056e67-acfe-4264-9f78-06098b5e10dd',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0900. Kleavor
+  'e11b8525-fbfc-4564-b937-f58ee5c343fc': {
+    data: {
+      id: 'e11b8525-fbfc-4564-b937-f58ee5c343fc',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-05-06',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0133e319-db94-4eff-a3ec-2cedea69a1d3',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0953. Rellor
+  '7cbf0c35-f654-4eb9-84ff-9ee910fe211f': {
+    data: {
+      id: '7cbf0c35-f654-4eb9-84ff-9ee910fe211f',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-05-11',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '2107fb19-996e-40ad-bae7-55c098ad3857',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Bugs! 30 Apr 2023  to 13 May 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0401. Kricketot
+  '253154aa-7541-415b-9acc-9c74a7c95195': {
+    data: {
+      id: '253154aa-7541-415b-9acc-9c74a7c95195',
+      type: 'point',
+      attributes: {
+        ball: 'timer' as BallType,
+        catchDate: '2023-05-11',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3f3707d8-d907-49d5-9ba8-7fd0b1a04617',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '507242bb-e2ae-4035-ad7e-c181a256fd6d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 
 }
