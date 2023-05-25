@@ -147,5 +147,41 @@ export const pointsData2023_10:IPointEntities = {
         }
       }
     }
+  },
+   //  Starters 14 May 2023  to 27 May 2023
+  //  Padukes (@Padukes)
+  //  0657. Frogadier
+  'd0bc2b64-ec92-4366-b1ba-b0a4a016a16d': {
+    data: {
+      id: 'd0bc2b64-ec92-4366-b1ba-b0a4a016a16d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-05-16',
+        firstCatch: false,
+        game: 'x' as GameType,
+        method: 'friendSafari' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '041c4b7b-850c-46d6-8c94-0e179ee00ff3',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ad445bbf-ec67-4ded-a608-6a6720d89e61',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
