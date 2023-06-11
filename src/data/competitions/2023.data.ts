@@ -14148,6 +14148,33 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
         }
       }
     }
+  },
+  '708cb059-1edb-4275-a582-77ec1164c2e3': {
+    data: {
+      type: 'competition',
+      id: '708cb059-1edb-4275-a582-77ec1164c2e3',
+      attributes: {
+        description: 'Pink, white, or blue shinies. Whole line counts.',
+        endDate: '2023-06-24',
+        startDate: '2023-06-11',
+        theme: 'Trans Flag Colours 🏳️‍⚧️',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
 
 }

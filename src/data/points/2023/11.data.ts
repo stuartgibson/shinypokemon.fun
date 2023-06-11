@@ -255,5 +255,114 @@ export const pointsData2023_11:IPointEntities = {
         }
       }
     }
+  },
+  //  Fairy Type 28 May 2023  to 10 Jun 2023
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0303. Mawile
+  'b3480970-35f7-42f5-9693-363037331e60': {
+    data: {
+      id: 'b3480970-35f7-42f5-9693-363037331e60',
+      type: 'point',
+      attributes: {
+        ball: 'love' as BallType,
+        catchDate: '2023-06-01',
+        firstCatch: false,
+        game: null,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '360a64b3-d4df-496b-9935-6c6ac28e5bf9',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '963e95c9-a4b8-45a7-bdc3-4c4e56e6b307',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Fairy Type 28 May 2023  to 10 Jun 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  1006. Iron Valiant
+  '339569dd-aeea-443e-9040-5989f3e81f44': {
+    data: {
+      id: '339569dd-aeea-443e-9040-5989f3e81f44',
+      type: 'point',
+      attributes: {
+        ball: 'timer' as BallType,
+        catchDate: '2023-06-01',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '360a64b3-d4df-496b-9935-6c6ac28e5bf9',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'cbd0b155-20c3-4d26-9350-5c590f17c39d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Fairy Type 28 May 2023  to 10 Jun 2023
+  //  Devilish Inferno (@Alex)
+  //  0926. Fidough
+  'fec103dc-1f16-4313-addb-e46b94609952': {
+    data: {
+      id: 'fec103dc-1f16-4313-addb-e46b94609952',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-06-09',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '360a64b3-d4df-496b-9935-6c6ac28e5bf9',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'd55926ec-f0f9-478b-858a-83fe3a68be4d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
