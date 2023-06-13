@@ -62,7 +62,7 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'id': '85969679-9e0c-459a-a9aa-4b7cbcebedce',
       'type': 'pokemon' as 'pokemon',
       'attributes': {
-        'name': 'Vukpix (Alolan)',
+        'name': 'Vulpix (Alolan)',
         'generation': 7,
         'dexNo': '0037'
       }
