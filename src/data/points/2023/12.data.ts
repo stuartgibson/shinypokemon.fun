@@ -291,7 +291,185 @@ export const pointsData2023_12:IPointEntities = {
         }
       }
     }
+  },
+    //  Trans Flag Colours 🏳️‍⚧️ 11 Jun 2023  to 24 Jun 2023
+  //  Devilish Inferno (@Alex)
+  //  0263. Zigzagoon (Galarian)
+  'df22350b-8179-468c-8975-a734a8557f16': {
+    data: {
+      id: 'df22350b-8179-468c-8975-a734a8557f16',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-06-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '708cb059-1edb-4275-a582-77ec1164c2e3',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Trans Flag Colours 🏳️‍⚧️ 11 Jun 2023  to 24 Jun 2023
+  //  james (@seginus)
+  //  0859. Impidimp
+  '0b70c198-1daa-48d6-9840-9e7b63cd0e7d': {
+    data: {
+      id: '0b70c198-1daa-48d6-9840-9e7b63cd0e7d',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-06-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '708cb059-1edb-4275-a582-77ec1164c2e3',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '54deb667-a45a-4afc-898e-392d98b33e33',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Trans Flag Colours 🏳️‍⚧️ 11 Jun 2023  to 24 Jun 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0079. Slowpoke
+  'fb539f6c-df27-4873-8507-60017e00cb5f': {
+    data: {
+      id: 'fb539f6c-df27-4873-8507-60017e00cb5f',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-06-18',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '708cb059-1edb-4275-a582-77ec1164c2e3',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Trans Flag Colours 🏳️‍⚧️ 11 Jun 2023  to 24 Jun 2023
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0201. Unown
+  '63561900-17e6-45ba-b86f-8d19d6f8bc87': {
+    data: {
+      id: '63561900-17e6-45ba-b86f-8d19d6f8bc87',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-06-20',
+        firstCatch: false,
+        game: 'legendsArceus' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '708cb059-1edb-4275-a582-77ec1164c2e3',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Trans Flag Colours 🏳️‍⚧️ 11 Jun 2023  to 24 Jun 2023
+  //  Stuart (@stuart)
+  //  0949. Toedscruel
+  'aadc0ab7-c7c5-496f-9941-e81855b8a7ca': {
+    data: {
+      id: 'aadc0ab7-c7c5-496f-9941-e81855b8a7ca',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-06-21',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '708cb059-1edb-4275-a582-77ec1164c2e3',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'af471216-7337-4bb7-9a9a-8813d20503e2',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
-
-
 }
