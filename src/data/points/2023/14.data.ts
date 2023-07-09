@@ -14,7 +14,7 @@ export const pointsData2023_14:IPointEntities = {
       attributes: {
         ball: 'dive' as BallType,
         catchDate: '2023-07-09',
-        firstCatch: false,
+        firstCatch: true,
         game: 'violet' as GameType,
         method: 'sandwich' as MethodType
       },
