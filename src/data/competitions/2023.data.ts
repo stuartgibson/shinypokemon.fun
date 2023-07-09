@@ -19090,5 +19090,33 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
         }
       }
     }
+  },
+  '9c7535c6-7bf5-4c7b-b687-53b4e81f92dd': {
+    data: {
+      type: 'competition',
+      id: '9c7535c6-7bf5-4c7b-b687-53b4e81f92dd',
+      attributes: {
+        description: 'Pokémon with no hands or feet, only those in the list count.',
+        endDate: '2023-07-22',
+        startDate: '2023-07-09',
+        theme: 'No Hands or Feet',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player'
+          }
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
+
 }
