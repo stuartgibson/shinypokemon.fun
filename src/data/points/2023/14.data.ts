@@ -183,5 +183,42 @@ export const pointsData2023_14:IPointEntities = {
         }
       }
     }
+  },
+  //  No Hands or Feet 9 Jul 2023  to 22 Jul 2023
+  //  Stuart (@stuart)
+  //  0872. Snom
+  '5233d843-0f8d-42a0-bb5d-50bce87018db': {
+    data: {
+      id: '5233d843-0f8d-42a0-bb5d-50bce87018db',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-07-22',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9c7535c6-7bf5-4c7b-b687-53b4e81f92dd',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '1a26f50f-4b43-4e37-81cf-c10d3f0c0126',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }

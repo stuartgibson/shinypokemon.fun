@@ -19433,6 +19433,299 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
         }
       }
     }
+  },
+  '0656ed76-6283-4794-8208-56680c117f98': {
+    data: {
+      type: 'competition',
+      id: '0656ed76-6283-4794-8208-56680c117f98',
+      attributes: {
+        description: 'Pokémon that learn Rest/Snore/Sleep talk by level up',
+        endDate: '2023-08-05',
+        startDate: '2023-07-23',
+        theme: 'Sleeping Mon',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        validPokemon: [
+          {
+            data: {
+              // Jigglypuff remove
+              id: 'f250f876-d7b7-4c70-96db-736582008619',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Wigglytuff remove
+              id: '8bcaf26c-feb0-45db-b688-0a427b7e7a7f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Igglybuff remove
+              id: 'acc70f99-f706-45c5-8a58-989969a970a4',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Tauros remove
+              id: '993d34d3-86e0-4f00-9e9f-ceffc57736f6',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Tauros (Paldean) remove
+              id: '3954858f-5c36-44ad-bb21-6f45febc1821',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Teddiursa remove
+              id: '7d45091a-aba7-4f9e-9109-d5b4ec12229f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Ursaring remove
+              id: 'a1621c75-95db-477d-9f4e-8c01a287709e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Ursaluna remove
+              id: 'd13169de-e586-48d3-abec-d35a59a9328a',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Spoink remove
+              id: '032e251c-554a-4ee0-ac29-ccee98d5b32d',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Grumpig remove
+              id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Barboach remove
+              id: '8dce1004-e075-4ae7-abbe-7a3075864173',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Whiscash remove
+              id: 'bc9c4657-6a0e-43ae-a220-94f8c3fb75da',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Groudon remove
+              id: 'd37e2a0b-a724-4775-bf45-4435055c340f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Rayquaza remove
+              id: '0171898c-529c-4d3c-8be2-54c578cd54f9',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Hippopotas remove
+              id: '1a0682c6-6045-4a09-8ced-17c4a60211b0',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Hippowdon remove
+              id: '490929b2-9162-4bef-ad11-e84a8b3ba91c',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Uxie remove
+              id: 'da1d58bf-7628-4951-bea4-afff5003bf2f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Mesprit remove
+              id: '6a34bf43-21f4-4f6b-84f1-4aec0940a2e5',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Azelf remove
+              id: '6bdec89a-de2c-455e-aefd-a84ce5db4947',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Cubchoo remove
+              id: '9219d4f4-2bd8-4568-a1d0-1f4f12fe6cbd',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Beartic remove
+              id: 'a1bb598f-7991-4bfe-b0c1-da273b4304bb',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Dedenne remove
+              id: '55cf5dc5-d8cd-4a8f-a278-7b5eb0d691d6',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Yungoos remove
+              id: 'd1185462-764d-4cd3-90cb-932c34cca0e8',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Gumshoos remove
+              id: '35349d75-66ef-4220-bce0-b60524c29373',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Skwovet remove
+              id: '2d6d959d-d951-464c-8a99-ebbd693ae643',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Greedent remove
+              id: '90db6ec8-9b0e-4891-acbb-a81ac706ab20',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Cetoddle remove
+              id: 'ffdb809b-c0f9-4f09-8e72-2f3ca45fa74f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Cetitan remove
+              id: 'e8f00ab7-bdbc-43a6-9acb-064315e7f97e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Dondozo remove
+              id: 'eede505c-d4c0-41a8-93c2-34ec4913ad3b',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Scream Tail remove
+              id: '191d3a48-0697-4a8c-9f20-25d0de2e1e05',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Snorlax remove
+              id: '27194e95-3472-4247-8cc2-6dfa1eb42e46',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Munchlax remove
+              id: '0bed20f5-2f40-4dc6-b81b-a7d0bd019133',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Whismur remove
+              id: '2b445179-b69f-4052-9b3e-496b7d9bb203',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Loudred remove
+              id: '6f645e2e-98e1-448e-b05f-7d6ba8d24e89',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Exploud remove
+              id: 'a6b4632a-11eb-4a38-9f5e-1abdad5781a8',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Spheal remove
+              id: '63e50f1c-ae9d-4b7b-932d-17f9bafee222',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Sealeo remove
+              id: '414129cc-0302-4d8d-86a0-53dd80451bb2',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Walrein remove
+              id: '0a3776f1-3b80-478a-aa9f-47c207c94378',
+              type: 'pokemon'
+            }
+          }
+        ],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
-
 }
