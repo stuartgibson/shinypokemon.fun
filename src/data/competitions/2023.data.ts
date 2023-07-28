@@ -19717,6 +19717,20 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
               id: '0a3776f1-3b80-478a-aa9f-47c207c94378',
               type: 'pokemon'
             }
+          },
+          {
+            data: {
+              // Greavard remove
+              id: 'cc565cf4-fd40-4f76-accb-bcf8cd051fdc',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Houndstone remove
+              id: '88183b39-8f47-4cb5-aef0-a60aff9aad59',
+              type: 'pokemon'
+            }
           }
         ],
         year: {
