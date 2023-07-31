@@ -183,6 +183,78 @@ export const pointsData2023_15:IPointEntities = {
         }
       }
     }
+  },
+  //  Sleeping Mon 23 Jul 2023  to 5 Aug 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0263. Zigzagoon (Galarian)
+  '4e891b60-0d05-4677-bafc-00297faec387': {
+    data: {
+      id: '4e891b60-0d05-4677-bafc-00297faec387',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-07-27',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0656ed76-6283-4794-8208-56680c117f98',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Sleeping Mon 23 Jul 2023  to 5 Aug 2023
+  //  Devilish Inferno (@Alex)
+  //  0971. Greavard
+  '36d3e86e-4dd8-401e-bf29-aa9da5c6cf9e': {
+    data: {
+      id: '36d3e86e-4dd8-401e-bf29-aa9da5c6cf9e',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-07-29',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0656ed76-6283-4794-8208-56680c117f98',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'cc565cf4-fd40-4f76-accb-bcf8cd051fdc',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 
 }

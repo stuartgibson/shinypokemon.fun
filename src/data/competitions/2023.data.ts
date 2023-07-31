@@ -19731,6 +19731,111 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
               id: '88183b39-8f47-4cb5-aef0-a60aff9aad59',
               type: 'pokemon'
             }
+          },
+          {
+            data: {
+              // Seel remove
+              id: '3a3d7a26-b94e-49e6-98d7-3d4ba82fb7da',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Dewgong remove
+              id: 'abc737b7-7b49-41d8-881d-7bb7dcfa3f8f',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Sentret remove
+              id: 'b29bd872-719d-4138-be4f-3d839f2496b1',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Furret remove
+              id: 'c29bab69-d99f-40e4-b0a6-cd66bf642472',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Shuckle remove
+              id: 'a9056e67-acfe-4264-9f78-06098b5e10dd',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Zigzagoon remove
+              id: '05c19863-5bea-446d-8516-f68935e2bdd3',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Linoone remove
+              id: '4f4b586f-7e77-4f68-b8bb-b3b623d90ff9',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Zigzagoon (Galarian) remove
+              id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Linoone (Galarian) remove
+              id: '17b37f43-5176-466a-8795-7840cefdfd6e',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Nosepass remove
+              id: '31ab0073-5e27-4823-962a-4b47ee976efc',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Probopass remove
+              id: 'dd4e7387-f636-47c8-9eee-062f1d8b4eeb',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Relicanth remove
+              id: 'd6a1a76f-7eb4-4b14-80d6-8978d4080889',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Jirachi remove
+              id: 'd81fc796-f8c1-4919-a286-d0d7ceafa0f7',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Wailmer remove
+              id: 'd8332cfc-5694-4ab2-9f85-bd3e0e44241b',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Wailord remove
+              id: '07ff75e6-351d-46d2-9c12-50fc64cf9854',
+              type: 'pokemon'
+            }
           }
         ],
         year: {
