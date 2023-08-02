@@ -255,6 +255,41 @@ export const pointsData2023_15:IPointEntities = {
         }
       }
     }
+  },
+  //  Sleeping Mon 23 Jul 2023  to 5 Aug 2023
+  //  Stuart (@stuart)
+  //  0974. Cetoddle
+  '729f95a5-ffa7-4d17-8dbf-3197def388d1': {
+    data: {
+      id: '729f95a5-ffa7-4d17-8dbf-3197def388d1',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-08-01',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'breedMasuda' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0656ed76-6283-4794-8208-56680c117f98',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ffdb809b-c0f9-4f09-8e72-2f3ca45fa74f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
-
 }
