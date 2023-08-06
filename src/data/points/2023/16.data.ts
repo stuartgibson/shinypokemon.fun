@@ -48,7 +48,7 @@ export const pointsData2023_16:IPointEntities = {
       id: '42b843c7-7203-46f7-b78c-b52a7e491865',
       type: 'point',
       attributes: {
-        ball: 'lure' as BallType,
+        ball: 'luxury' as BallType,
         catchDate: '2023-08-06',
         firstCatch: false,
         game: 'scarlet' as GameType,
