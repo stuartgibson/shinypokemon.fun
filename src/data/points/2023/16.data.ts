@@ -75,5 +75,41 @@ export const pointsData2023_16:IPointEntities = {
         }
       }
     }
+  },
+    //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  Stuart (@stuart)
+  //  0187. Hoppip
+  '4a392f20-8b5d-4a10-9d2e-5987365495dc': {
+    data: {
+      id: '4a392f20-8b5d-4a10-9d2e-5987365495dc',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-08-06',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '45458f0f-3118-4b87-a148-bee667717bc2',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
