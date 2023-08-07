@@ -111,5 +111,41 @@ export const pointsData2023_16:IPointEntities = {
         }
       }
     }
+  },
+    //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  Padukes (@Padukes)
+  //  0755. Morelull
+  '50579751-5472-403a-903a-7df537731483': {
+    data: {
+      id: '50579751-5472-403a-903a-7df537731483',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-08-06',
+        firstCatch: false,
+        game: null,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '56832305-894d-487e-99a5-493f7e97961b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
