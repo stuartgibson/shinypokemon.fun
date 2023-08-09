@@ -147,5 +147,78 @@ export const pointsData2023_16:IPointEntities = {
         }
       }
     }
+  },
+    //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  Tone (@Tone)
+  //  0762. Steenee
+  'bebc49f3-11b2-4dcc-9b62-c9a01b83936d': {
+    data: {
+      id: 'bebc49f3-11b2-4dcc-9b62-c9a01b83936d',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-08-07',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '79652e74-f9a5-486a-af53-aaec0989354e',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0043. Oddish
+  '54a0611d-7fb4-42b2-b91e-4e817fa72859': {
+    data: {
+      id: '54a0611d-7fb4-42b2-b91e-4e817fa72859',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-08-07',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '639f5cf6-3c4c-410e-abe6-5fda5c9cc39b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
