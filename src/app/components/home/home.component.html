@@ -4,11 +4,11 @@
 
     <ng-container *ngrxLet="nextCompetition$ as nextCompetition">
       <ng-container *ngIf="!!nextCompetition">
+        <hr>
         <h3>Next Competition</h3>
         <sp-competition
           [competition]="nextCompetition">
         </sp-competition>
-        <hr>
       </ng-container>
     </ng-container>
   </div>
