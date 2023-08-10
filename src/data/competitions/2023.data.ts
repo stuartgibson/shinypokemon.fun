@@ -21885,6 +21885,14 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
               // Avalugg (Hisuian) remove
               id: 'aa2f0102-1198-44ea-a665-207887d20052',
               type: 'pokemon'
+            },
+
+          },
+          {
+            data: {
+              // Walking Wake remove
+              id: '19d3cce3-44e6-420f-be43-2c2d06b790ab',
+              type: 'pokemon'
             }
           }
         ],
