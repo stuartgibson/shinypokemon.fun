@@ -1133,5 +1133,27 @@ export const pokemonDataGen9:IPokemonEntities = {
         'dexNo': '1008'
       }
     }
+  },
+  '19d3cce3-44e6-420f-be43-2c2d06b790ab': {
+    'data': {
+      'id': '19d3cce3-44e6-420f-be43-2c2d06b790ab',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Walking Wake',
+        'generation': 9,
+        'dexNo': '1009'
+      }
+    }
+  },
+  '90b67db6-f398-4b51-a950-0c4b096ac88f': {
+    'data': {
+      'id': '90b67db6-f398-4b51-a950-0c4b096ac88f',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Iron Leaves',
+        'generation': 9,
+        'dexNo': '1010'
+      }
+    }
   }
 }
