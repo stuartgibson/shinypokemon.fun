@@ -219,6 +219,41 @@ export const pointsData2023_16:IPointEntities = {
         }
       }
     }
+  },
+   //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  Devilish Inferno (@Alex)
+  //  0840. Applin
+  'e44fcbb2-7517-4739-bc48-7f7b1cf9e415': {
+    data: {
+      id: 'e44fcbb2-7517-4739-bc48-7f7b1cf9e415',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-08-10',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '568746c3-51f1-4050-bbe7-66829f09e3df',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
-
 }
