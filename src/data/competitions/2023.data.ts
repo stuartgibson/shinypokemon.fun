@@ -21761,11 +21761,17 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
               id: 'fe70d5fb-ba60-4278-aa9e-a5d4b89eaa9c',
               type: 'pokemon'
             }
+          },{
+            data: {
+              // Sneasel (Hisuian) remove
+              id: '7e9b1bed-13c0-42fd-9da3-93757d8b8e4a',
+              type: 'pokemon'
+            }
           },
           {
             data: {
-              // Sneasel remove
-              id: '230e56ee-3f9e-4cc5-8b71-f192068fc1cd',
+              // Samurott (Hisuian) remove
+              id: 'a48d213f-9d60-4e56-8386-65a68a3da15c',
               type: 'pokemon'
             }
           },
@@ -21871,6 +21877,13 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
             data: {
               // Lunatone remove
               id: 'bf708485-a15c-4b56-9c9a-e93731114db0',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Avalugg (Hisuian) remove
+              id: 'aa2f0102-1198-44ea-a665-207887d20052',
               type: 'pokemon'
             }
           }
