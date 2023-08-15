@@ -255,5 +255,77 @@ export const pointsData2023_16:IPointEntities = {
         }
       }
     }
+  },
+    //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  james (@seginus)
+  //  0928. Smoliv
+  '912bff0a-ff8f-4623-ada7-a8914dbc59b0': {
+    data: {
+      id: '912bff0a-ff8f-4623-ada7-a8914dbc59b0',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-08-13',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '31b03b29-3173-4950-91e9-0e8aeb568952',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0761. Bounsweet
+  '6291f361-bba4-42f2-b055-4dbf50944422': {
+    data: {
+      id: '6291f361-bba4-42f2-b055-4dbf50944422',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-08-13',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '07011066-6ca4-49cf-b3b1-aa3866480ef7',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
