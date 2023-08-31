@@ -327,5 +327,42 @@ export const pointsData2023_16:IPointEntities = {
         }
       }
     }
+  },
+    //  Fruit & Veg 6 Aug 2023  to 19 Aug 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0069. Bellsprout
+  'c585ed4e-c047-49ce-8fea-d50231390ff7': {
+    data: {
+      id: 'c585ed4e-c047-49ce-8fea-d50231390ff7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-08-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '9962c05a-7cb0-4d1a-9cae-02731d8aeac2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'dc8312f8-9340-414d-a8eb-7e9c6016b715',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
