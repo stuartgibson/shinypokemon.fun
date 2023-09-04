@@ -255,5 +255,77 @@ export const pointsData2023_17:IPointEntities = {
         }
       }
     }
+  },
+    //  Blue Moon 20 Aug 2023  to 2 Sep 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0032. Nidoran♂
+  'baa06542-fa3f-41e2-b05e-89e3338f0338': {
+    data: {
+      id: 'baa06542-fa3f-41e2-b05e-89e3338f0338',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-09-01',
+        firstCatch: false,
+        game: null,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '529fa7eb-f97c-44a4-b169-8c35151b8faf',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'bdfe11f4-c8ee-4445-90b5-ea86ac6a4c85',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Blue Moon 20 Aug 2023  to 2 Sep 2023
+  //  Stuart (@stuart)
+  //  0977. Dondozo
+  '13b787d5-c976-44a3-a45b-30d581b2f32c': {
+    data: {
+      id: '13b787d5-c976-44a3-a45b-30d581b2f32c',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-09-02',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '529fa7eb-f97c-44a4-b169-8c35151b8faf',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'eede505c-d4c0-41a8-93c2-34ec4913ad3b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
