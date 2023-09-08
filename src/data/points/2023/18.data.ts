@@ -183,6 +183,113 @@ export const pointsData2023_18:IPointEntities = {
         }
       }
     }
+  },
+    //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0613. Cubchoo
+  '43633221-7f4d-4f13-9ddf-9660936925a7': {
+    data: {
+      id: '43633221-7f4d-4f13-9ddf-9660936925a7',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-09-03',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9219d4f4-2bd8-4568-a1d0-1f4f12fe6cbd',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  james (@seginus)
+  //  0636. Larvesta
+  '0ff16c55-5e39-43a2-a0de-bce35e437431': {
+    data: {
+      id: '0ff16c55-5e39-43a2-a0de-bce35e437431',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-09-07',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f3f2667e-99f3-4b9f-ba31-61c03aceb378',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0618. Stunfisk (Galarian)
+  '77c55438-1b60-47f3-b1b4-2a873c9667d5': {
+    data: {
+      id: '77c55438-1b60-47f3-b1b4-2a873c9667d5',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-09-07',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3c64e523-a068-49e0-9b62-4cb9c4400965',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
-
 }
