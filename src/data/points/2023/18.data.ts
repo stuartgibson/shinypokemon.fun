@@ -291,5 +291,113 @@ export const pointsData2023_18:IPointEntities = {
         }
       }
     }
+  },
+    //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  Tone (@Tone)
+  //  0585. Deerling
+  'e7820325-1b2c-407b-8e0c-210c7857188c': {
+    data: {
+      id: 'e7820325-1b2c-407b-8e0c-210c7857188c',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-09-10',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  Tone (@Tone)
+  //  0585. Deerling
+  'ffd6ce94-89a1-47ab-a6f0-c3019410f285': {
+    data: {
+      id: 'ffd6ce94-89a1-47ab-a6f0-c3019410f285',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-09-10',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  Stuart (@stuart)
+  //  0586. Sawsbuck
+  '07341dd5-fcbe-4e35-9fa7-1e02dd82f3e4': {
+    data: {
+      id: '07341dd5-fcbe-4e35-9fa7-1e02dd82f3e4',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-09-13',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '147eebec-bc96-4ee9-b4dd-3f0a3fc93d91',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
