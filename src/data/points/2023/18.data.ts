@@ -399,5 +399,77 @@ export const pointsData2023_18:IPointEntities = {
         }
       }
     }
+  },
+    //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  Stuart (@stuart)
+  //  0636. Larvesta
+  'fec0e436-49ac-4e28-b775-91cdb928c484': {
+    data: {
+      id: 'fec0e436-49ac-4e28-b775-91cdb928c484',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-09-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f3f2667e-99f3-4b9f-ba31-61c03aceb378',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Unova 3 Sep 2023  to 16 Sep 2023
+  //  Jette (@Jette)
+  //  0636. Larvesta
+  '0c907e3c-084f-437c-9295-b5dfb80247b6': {
+    data: {
+      id: '0c907e3c-084f-437c-9295-b5dfb80247b6',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-09-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5df27819-b946-4a6e-ac9f-5a08b19ec822',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f3f2667e-99f3-4b9f-ba31-61c03aceb378',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
