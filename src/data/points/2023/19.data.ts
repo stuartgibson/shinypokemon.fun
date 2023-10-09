@@ -687,5 +687,149 @@ export const pointsData2023_19:IPointEntities = {
         }
       }
     }
+  },
+    //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Padukes (@Padukes)
+  //  0035. Clefairy
+  'a69fd0d8-bfa9-4086-ad61-96c10a25eabc': {
+    data: {
+      id: 'a69fd0d8-bfa9-4086-ad61-96c10a25eabc',
+      type: 'point',
+      attributes: {
+        ball: 'dusk' as BallType,
+        catchDate: '2023-09-30',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0c1c04e3-9b9a-4b08-a167-516eb398ccc4',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Padukes (@Padukes)
+  //  0035. Clefairy
+  'd0785cac-eb18-412a-853f-c151ec6664d0': {
+    data: {
+      id: 'd0785cac-eb18-412a-853f-c151ec6664d0',
+      type: 'point',
+      attributes: {
+        ball: 'dusk' as BallType,
+        catchDate: '2023-09-30',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0c1c04e3-9b9a-4b08-a167-516eb398ccc4',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Tone (@Tone)
+  //  0035. Clefairy
+  'ec747e38-0af2-41ce-9cdc-a05c12dfe5e2': {
+    data: {
+      id: 'ec747e38-0af2-41ce-9cdc-a05c12dfe5e2',
+      type: 'point',
+      attributes: {
+        ball: 'dusk' as BallType,
+        catchDate: '2023-09-30',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0c1c04e3-9b9a-4b08-a167-516eb398ccc4',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Tone (@Tone)
+  //  0035. Clefairy
+  '0a020b31-2508-4b3a-992c-8ebb5602a7d7': {
+    data: {
+      id: '0a020b31-2508-4b3a-992c-8ebb5602a7d7',
+      type: 'point',
+      attributes: {
+        ball: 'dusk' as BallType,
+        catchDate: '2023-09-30',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0c1c04e3-9b9a-4b08-a167-516eb398ccc4',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
