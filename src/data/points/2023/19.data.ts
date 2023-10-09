@@ -831,5 +831,329 @@ export const pointsData2023_19:IPointEntities = {
         }
       }
     }
+  },
+    //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0736. Grubbin
+  '7cdbe01b-6ed3-4019-9dc2-f23fa336fec0': {
+    data: {
+      id: '7cdbe01b-6ed3-4019-9dc2-f23fa336fec0',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-22',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '509fa83d-48c9-441f-9896-143a602e2454',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0342. Crawdaunt
+  'f7f8f577-fef2-48ea-8069-9d180b6cc746': {
+    data: {
+      id: 'f7f8f577-fef2-48ea-8069-9d180b6cc746',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-22',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'a36715dd-fc85-4bb0-a9fb-e6ef4eb09a2c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0540. Sewaddle
+  '2f9385b7-c5bf-4bb4-8d83-9893b5e4c70e': {
+    data: {
+      id: '2f9385b7-c5bf-4bb4-8d83-9893b5e4c70e',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-23',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'dc27c553-3e13-4dc5-b6d6-241335e5f8d9',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0540. Sewaddle
+  'ac0438ad-d3e4-4af8-9b22-bd5f52423cee': {
+    data: {
+      id: 'ac0438ad-d3e4-4af8-9b22-bd5f52423cee',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-23',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'dc27c553-3e13-4dc5-b6d6-241335e5f8d9',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0532. Timburr
+  'ed0f6fcd-a443-46a0-bc14-0974eba5e1e8': {
+    data: {
+      id: 'ed0f6fcd-a443-46a0-bc14-0974eba5e1e8',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-24',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0532. Timburr
+  '45fd0ade-9a8a-4ab7-a0e3-d566cbbd71c2': {
+    data: {
+      id: '45fd0ade-9a8a-4ab7-a0e3-d566cbbd71c2',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-24',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0532. Timburr
+  '67426220-8421-4517-993b-8aa7e73b191b': {
+    data: {
+      id: '67426220-8421-4517-993b-8aa7e73b191b',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-24',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0035. Clefairy
+  'dd312d77-15f3-4f73-8f71-5710588e1944': {
+    data: {
+      id: 'dd312d77-15f3-4f73-8f71-5710588e1944',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-29',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0c1c04e3-9b9a-4b08-a167-516eb398ccc4',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Devilish Inferno (@Alex)
+  //  0035. Clefairy
+  '0afc5bd6-53e6-4493-868e-3ceffc167899': {
+    data: {
+      id: '0afc5bd6-53e6-4493-868e-3ceffc167899',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-30',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0c1c04e3-9b9a-4b08-a167-516eb398ccc4',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
