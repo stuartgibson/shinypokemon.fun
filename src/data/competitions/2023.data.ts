@@ -25737,6 +25737,48 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
               id: '97157714-21db-4cde-8e19-bf2cbd11f91a',
               type: 'pokemon'
             }
+          },
+          {
+            data: {
+              // Dipplin remove
+              id: 'dfe7efd2-4df9-4ea7-bad4-e3efc621a36a',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Poltchageist remove
+              id: '1e1957a8-49bd-49e6-ab63-0ce298dabaca',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Sinistcha remove
+              id: 'd0f63092-256c-4175-925f-3b98acc308e2',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Okidogi remove
+              id: '64427af3-0c69-4499-baa3-4612595fa5a1',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Munkidori remove
+              id: '16706316-ea5d-46d7-9200-af7da0f0d265',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Fezandipiti remove
+              id: 'd405890a-bf71-4e65-916d-d404c827e792',
+              type: 'pokemon'
+            }
           }
         ],
         year: {
