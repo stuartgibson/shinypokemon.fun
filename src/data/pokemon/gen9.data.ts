@@ -1155,5 +1155,82 @@ export const pokemonDataGen9:IPokemonEntities = {
         'dexNo': '1010'
       }
     }
+  },
+  'dfe7efd2-4df9-4ea7-bad4-e3efc621a36a': {
+    'data': {
+      'id': 'dfe7efd2-4df9-4ea7-bad4-e3efc621a36a',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Dipplin',
+        'generation': 9,
+        'dexNo': '1011'
+      }
+    }
+  },
+  '1e1957a8-49bd-49e6-ab63-0ce298dabaca': {
+    'data': {
+      'id': '1e1957a8-49bd-49e6-ab63-0ce298dabaca',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Poltchageist',
+        'generation': 9,
+        'dexNo': '1012'
+      }
+    }
+  },
+  'd0f63092-256c-4175-925f-3b98acc308e2': {
+    'data': {
+      'id': 'd0f63092-256c-4175-925f-3b98acc308e2',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Sinistcha',
+        'generation': 9,
+        'dexNo': '1013'
+      }
+    }
+  },
+  '64427af3-0c69-4499-baa3-4612595fa5a1': {
+    'data': {
+      'id': '64427af3-0c69-4499-baa3-4612595fa5a1',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Okidogi',
+        'generation': 9,
+        'dexNo': '1014'
+      }
+    }
+  },
+  '16706316-ea5d-46d7-9200-af7da0f0d265': {
+    'data': {
+      'id': '16706316-ea5d-46d7-9200-af7da0f0d265',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Munkidori',
+        'generation': 9,
+        'dexNo': '1015'
+      }
+    }
+  },
+  'd405890a-bf71-4e65-916d-d404c827e792': {
+    'data': {
+      'id': 'd405890a-bf71-4e65-916d-d404c827e792',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Fezandipiti',
+        'generation': 9,
+        'dexNo': '1016'
+      }
+    }
+  },
+  '6788b790-7a6b-4162-8677-6c27290f24de': {
+    'data': {
+      'id': '6788b790-7a6b-4162-8677-6c27290f24de',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Ogerpon',
+        'generation': 9,
+        'dexNo': '1017'
+      }
+    }
   }
 }

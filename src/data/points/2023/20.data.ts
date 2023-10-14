@@ -1,5 +1,6 @@
 import { IPointEntities } from "store/reducers";
 import { BallType } from "types/ball.types";
+import { GameType } from "types/game.types";
 import { MethodType } from "types/method.types";
 
 export const pointsData2023_20:IPointEntities = {
@@ -69,6 +70,114 @@ export const pointsData2023_20:IPointEntities = {
         pokemon: {
           data: {
             id: '79fbda43-7ad3-4907-a8ba-0af028f4ae5b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+    //  Fossils 1 Oct 2023  to 14 Oct 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0564. Tirtouga
+  '8687e963-4629-4a35-aa78-3d9c945133ef': {
+    data: {
+      id: '8687e963-4629-4a35-aa78-3d9c945133ef',
+      type: 'point',
+      attributes: {
+        ball: 'lure' as BallType,
+        catchDate: '2023-10-12',
+        firstCatch: false,
+        game: null,
+        method: 'random' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '91828fa9-3e04-4bed-8924-466c7ba8bda2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '1c53ded7-feab-4825-9621-7135c85ec23f',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Fossils 1 Oct 2023  to 14 Oct 2023
+  //  Tone (@Tone)
+  //  0347. Anorith
+  'cabb78d1-7b55-4de0-a073-959fb6091828': {
+    data: {
+      id: 'cabb78d1-7b55-4de0-a073-959fb6091828',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-10-13',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '91828fa9-3e04-4bed-8924-466c7ba8bda2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '72b0a709-4c68-4b1d-a423-4e479a4752c6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Fossils 1 Oct 2023  to 14 Oct 2023
+  //  Stuart (@stuart)
+  //  0564. Tirtouga
+  'e75747e0-abb1-4638-ae40-80f615eea5b5': {
+    data: {
+      id: 'e75747e0-abb1-4638-ae40-80f615eea5b5',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-10-14',
+        firstCatch: false,
+        game: 'sword' as GameType,
+        method: 'breedMasuda' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '91828fa9-3e04-4bed-8924-466c7ba8bda2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '1c53ded7-feab-4825-9621-7135c85ec23f',
             type: 'pokemon'
           }
         }
