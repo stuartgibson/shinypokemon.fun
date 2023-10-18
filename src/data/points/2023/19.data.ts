@@ -1155,5 +1155,41 @@ export const pointsData2023_19:IPointEntities = {
         }
       }
     }
+  },
+    //  Teal Mask Returns 17 Sep 2023  to 30 Sep 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0164. Noctowl
+  '548fa139-7b89-4a3d-8e62-a1bcb6988e4f': {
+    data: {
+      id: '548fa139-7b89-4a3d-8e62-a1bcb6988e4f',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-09-21',
+        firstCatch: false,
+        game: null,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '58948eac-c6b9-42aa-8696-5e30586c5a6b',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3dcca20d-cdd6-4855-b12b-34796c3ac420',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
