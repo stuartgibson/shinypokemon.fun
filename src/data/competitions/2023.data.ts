@@ -25779,6 +25779,20 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
               id: 'd405890a-bf71-4e65-916d-d404c827e792',
               type: 'pokemon'
             }
+          },
+          {
+            data: {
+              // Drifloon remove
+              id: '279b1e2e-4145-4829-9f39-d5e8d2e25a31',
+              type: 'pokemon'
+            }
+          },
+          {
+            data: {
+              // Drifblim remove
+              id: '38e9e1c0-2a92-4ab9-ab1c-aabfb75f8fed',
+              type: 'pokemon'
+            }
           }
         ],
         year: {

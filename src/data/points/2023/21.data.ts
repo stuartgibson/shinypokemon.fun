@@ -615,5 +615,149 @@ export const pointsData2023_21:IPointEntities = {
         }
       }
     }
+  },
+    //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Stuart (@stuart)
+  //  0708. Phantump
+  'f1fbffe9-2f31-41d7-a6e4-d2e261e10221': {
+    data: {
+      id: 'f1fbffe9-2f31-41d7-a6e4-d2e261e10221',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-19',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoResearch' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '4bd98ba2-8bc2-4336-b96a-f4565bc34cc6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Stuart (@stuart)
+  //  0744. Rockruff
+  '5ba7fd2a-5427-477d-8aa4-2321a2c4834e': {
+    data: {
+      id: '5ba7fd2a-5427-477d-8aa4-2321a2c4834e',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-10-19',
+        firstCatch: false,
+        game: 'ultraSun' as GameType,
+        method: 'sos' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e06311f7-1452-49e3-8660-2c9e4cc98aa9',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Tone (@Tone)
+  //  0041. Zubat
+  'c1506e9b-c181-4c98-956c-520273ffdec9': {
+    data: {
+      id: 'c1506e9b-c181-4c98-956c-520273ffdec9',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-20',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '7702c983-82e2-4133-b77f-720fdd1a3187',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Tone (@Tone)
+  //  0425. Drifloon
+  '0b6e1b6d-4358-4e14-8118-477132ad65e5': {
+    data: {
+      id: '0b6e1b6d-4358-4e14-8118-477132ad65e5',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-19',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '279b1e2e-4145-4829-9f39-d5e8d2e25a31',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
