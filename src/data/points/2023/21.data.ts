@@ -759,5 +759,77 @@ export const pointsData2023_21:IPointEntities = {
         }
       }
     }
+  },
+    //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Devilish Inferno (@Alex)
+  //  0708. Phantump
+  '225da360-5294-4fb3-bd56-ed9f61dac222': {
+    data: {
+      id: '225da360-5294-4fb3-bd56-ed9f61dac222',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-10-21',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '4bd98ba2-8bc2-4336-b96a-f4565bc34cc6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Stuart (@stuart)
+  //  0261. Poochyena
+  '9561d086-beb7-4845-8542-d9d950b4bce1': {
+    data: {
+      id: '9561d086-beb7-4845-8542-d9d950b4bce1',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-21',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ed1552a1-de0a-4799-87e1-ee0c43ce765d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
