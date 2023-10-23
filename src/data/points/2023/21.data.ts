@@ -831,5 +831,41 @@ export const pointsData2023_21:IPointEntities = {
         }
       }
     }
+  },
+    //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Stuart (@stuart)
+  //  0200. Misdreavus
+  '844c1033-56d8-4018-8350-5ae01ee4779b': {
+    data: {
+      id: '844c1033-56d8-4018-8350-5ae01ee4779b',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-23',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c01cf54a-6bcd-43dc-ab72-2f215e20a269',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
