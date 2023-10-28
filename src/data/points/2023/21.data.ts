@@ -1263,5 +1263,41 @@ export const pointsData2023_21:IPointEntities = {
         }
       }
     }
+  },
+    //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Tone (@Tone)
+  //  0302. Sableye
+  '5590884e-be2f-42ee-bbe2-17fa7ca2503c': {
+    data: {
+      id: '5590884e-be2f-42ee-bbe2-17fa7ca2503c',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-28',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '660c3b60-e28f-4639-be49-39889334c531',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
