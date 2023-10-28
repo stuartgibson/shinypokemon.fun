@@ -832,7 +832,7 @@ export const pointsData2023_21:IPointEntities = {
       }
     }
   },
-    //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
   //  Stuart (@stuart)
   //  0200. Misdreavus
   '844c1033-56d8-4018-8350-5ae01ee4779b': {
@@ -862,6 +862,402 @@ export const pointsData2023_21:IPointEntities = {
         pokemon: {
           data: {
             id: 'c01cf54a-6bcd-43dc-ab72-2f215e20a269',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+    //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0425. Drifloon
+  '00ccfbca-4c01-454a-9305-5e12f92e84a6': {
+    data: {
+      id: '00ccfbca-4c01-454a-9305-5e12f92e84a6',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-23',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '279b1e2e-4145-4829-9f39-d5e8d2e25a31',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Padukes (@Padukes)
+  //  0491. Darkrai
+  'bcf467f3-cfc8-499c-b5e0-63fcf0018de2': {
+    data: {
+      id: 'bcf467f3-cfc8-499c-b5e0-63fcf0018de2',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-10-24',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8a625456-e3af-4a2e-b0ce-0baea8bd4fcb',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0708. Phantump
+  'fd0bf866-6adb-40bd-af36-de8209ad64a0': {
+    data: {
+      id: 'fd0bf866-6adb-40bd-af36-de8209ad64a0',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-24',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '4bd98ba2-8bc2-4336-b96a-f4565bc34cc6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0491. Darkrai
+  '6e579355-eb3f-4a73-ba9c-e0a31338a1ac': {
+    data: {
+      id: '6e579355-eb3f-4a73-ba9c-e0a31338a1ac',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-10-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8a625456-e3af-4a2e-b0ce-0baea8bd4fcb',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Padukes (@Padukes)
+  //  0757. Salandit
+  '07863f12-ebc0-4edc-afef-ae1e020f90b4': {
+    data: {
+      id: '07863f12-ebc0-4edc-afef-ae1e020f90b4',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-10-25',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '1cd76c6a-7326-44ea-ab7f-5f366c03712d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Padukes (@Padukes)
+  //  0110. Weezing
+  'bbb72a9e-a679-4fa3-9e16-3cea124a7c17': {
+    data: {
+      id: 'bbb72a9e-a679-4fa3-9e16-3cea124a7c17',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-10-25',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c5884c42-d169-4c42-b24a-cd35d9ee482a',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Padukes (@Padukes)
+  //  0200. Misdreavus
+  '5c8a415a-22b2-4ade-afb7-07670db55219': {
+    data: {
+      id: '5c8a415a-22b2-4ade-afb7-07670db55219',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-10-25',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c01cf54a-6bcd-43dc-ab72-2f215e20a269',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Padukes (@Padukes)
+  //  0302. Sableye
+  '0e812b20-6f8c-4c5c-8625-4eae24ca0dc9': {
+    data: {
+      id: '0e812b20-6f8c-4c5c-8625-4eae24ca0dc9',
+      type: 'point',
+      attributes: {
+        ball: 'ultra' as BallType,
+        catchDate: '2023-10-27',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '660c3b60-e28f-4639-be49-39889334c531',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Stuart (@stuart)
+  //  0302. Sableye
+  '0481ade6-3f9f-4255-beef-1883a14d0b47': {
+    data: {
+      id: '0481ade6-3f9f-4255-beef-1883a14d0b47',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-26',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '660c3b60-e28f-4639-be49-39889334c531',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  james (@seginus)
+  //  0570. Zorua
+  '613dcdec-7a2c-486d-a579-ec2f04b7f3c7': {
+    data: {
+      id: '613dcdec-7a2c-486d-a579-ec2f04b7f3c7',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-10-27',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3f78fb44-c9a4-4ab6-bf7f-5cd6ae492fd2',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0425. Drifloon
+  'bca0b623-e39d-462c-8a57-c87eaf2661f0': {
+    data: {
+      id: 'bca0b623-e39d-462c-8a57-c87eaf2661f0',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-10-27',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '279b1e2e-4145-4829-9f39-d5e8d2e25a31',
             type: 'pokemon'
           }
         }
