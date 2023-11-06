@@ -1299,5 +1299,42 @@ export const pointsData2023_21:IPointEntities = {
         }
       }
     }
+  },
+  //  Halloween 15 Oct 2023  to 28 Oct 2023
+  //  Devilish Inferno (@Alex)
+  //  0562. Yamask (Galarian)
+  'cc2cf22d-33b9-4dfc-8b03-79a633540cc4': {
+    data: {
+      id: 'cc2cf22d-33b9-4dfc-8b03-79a633540cc4',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-10-27',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '10a0c458-69c7-4d5c-a12a-3b78a58c2d4a',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'acc5d5b0-04bf-40e9-9636-80c7fd7a44da',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
+
 }
