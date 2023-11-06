@@ -78,42 +78,6 @@ export const pointsData2023_22:IPointEntities = {
   },
   //  Grey 29 Oct 2023  to 11 Nov 2023
   //  Padukes (@Padukes)
-  //  0246. Larvitar
-  '0382c7db-a5a2-41b7-bd2f-b78eaad4001d': {
-    data: {
-      id: '0382c7db-a5a2-41b7-bd2f-b78eaad4001d',
-      type: 'point',
-      attributes: {
-        ball: 'luxury' as BallType,
-        catchDate: '2023-10-29',
-        firstCatch: false,
-        game: 'scarlet' as GameType,
-        method: 'sandwich' as MethodType
-      },
-      relationships: {
-        competition: {
-          data: {
-            id: '15586172-7eec-468a-be03-417768218554',
-            type: 'competition'
-          }
-        },
-        player: {
-          data: {
-            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
-            type: 'player'
-          }
-        },
-        pokemon: {
-          data: {
-            id: '14338c64-e7d5-4cfb-8719-bb5f4b1ebace',
-            type: 'pokemon'
-          }
-        }
-      }
-    }
-  },
-  //  Grey 29 Oct 2023  to 11 Nov 2023
-  //  Padukes (@Padukes)
   //  0506. Lillipup
   '195cb2c8-ee98-4985-8710-733007d2b0d3': {
     data: {
