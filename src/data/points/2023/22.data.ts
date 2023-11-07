@@ -183,5 +183,149 @@ export const pointsData2023_22:IPointEntities = {
         }
       }
     }
+  },
+    //  Grey 29 Oct 2023  to 11 Nov 2023
+  //  Stuart (@stuart)
+  //  0506. Lillipup
+  '25856c00-1195-4aec-8359-7b7f1f0e3c26': {
+    data: {
+      id: '25856c00-1195-4aec-8359-7b7f1f0e3c26',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-11-06',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '15586172-7eec-468a-be03-417768218554',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'c7cf3c2e-8184-44d1-be99-62b89f498865',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Grey 29 Oct 2023  to 11 Nov 2023
+  //  Devilish Inferno (@Alex)
+  //  0703. Carbink
+  '4f009509-3147-4b63-8f59-a59e2e7d05db': {
+    data: {
+      id: '4f009509-3147-4b63-8f59-a59e2e7d05db',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-11-06',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '15586172-7eec-468a-be03-417768218554',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e11410e2-245b-431c-8ff1-5a6088cf1699',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Grey 29 Oct 2023  to 11 Nov 2023
+  //  Al McKinlay (@Al)
+  //  0081. Magnemite
+  'af8c2884-4dab-4336-bbfa-0d81fdf23bd3': {
+    data: {
+      id: 'af8c2884-4dab-4336-bbfa-0d81fdf23bd3',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-11-07',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '15586172-7eec-468a-be03-417768218554',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Grey 29 Oct 2023  to 11 Nov 2023
+  //  Stuart (@stuart)
+  //  0992. Iron Hands
+  '41b1bdbd-4ae3-4f00-adb7-023a440a81c3': {
+    data: {
+      id: '41b1bdbd-4ae3-4f00-adb7-023a440a81c3',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-11-07',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '15586172-7eec-468a-be03-417768218554',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b9e7c43e-2141-4669-8b3c-a1f367d94c91',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
