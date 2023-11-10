@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "shinypokemon.fun:build:production"
+              "buildTarget": "shinypokemon.fun:build:production"
             },
             "development": {
-              "browserTarget": "shinypokemon.fun:build:development"
+              "buildTarget": "shinypokemon.fun:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "shinypokemon.fun:build"
+            "buildTarget": "shinypokemon.fun:build"
           }
         },
         "test": {
