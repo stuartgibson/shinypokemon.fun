@@ -1,7 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
-import { Observable } from 'rxjs';
 import { PokemonActions } from 'store/actions';
 import { Pokemons } from 'store/reducers';
 
@@ -14,8 +13,8 @@ import { Pokemons } from 'store/reducers';
 export class PokemonListGeneratorComponent {
   private readonly store:Store = inject(Store);
 
-  selectedPokemon$:Observable<Pokemon[]> = this.store.select(Pokemons.selectSelectedPokemon);
-  unselectedPokemon$:Observable<Pokemon[]> = this.store.select(Pokemons.selectUnselectedPokemon);
+  selectedPokemon:Signal<Pokemon[]> = this.store.selectSignal(Pokemons.selectSelectedPokemon);
+  unselectedPokemon:Signal<Pokemon[]> = this.store.selectSignal(Pokemons.selectUnselectedPokemon);
 
   addPokemon(pokemon: Pokemon) {
     this.store.dispatch(
@@ -27,13 +26,5 @@ export class PokemonListGeneratorComponent {
     this.store.dispatch(
       PokemonActions.unselect({ pokemon })
     );
-  }
-
-  trackBySelected(index: number, pokemon: Pokemon) {
-    return pokemon.id;
-  }
-
-  trackByUnselected(index: number, pokemon: Pokemon) {
-    return pokemon.id;
   }
 }

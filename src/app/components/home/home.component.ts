@@ -1,7 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
-import { Observable } from 'rxjs';
 import { Competitions } from 'store/reducers/competitions.reducer';
 
 @Component({
@@ -13,6 +12,6 @@ import { Competitions } from 'store/reducers/competitions.reducer';
 export class HomeComponent {
   private readonly store:Store = inject(Store);
 
-  nextCompetition$:Observable<Competition|null> =
-    this.store.select(Competitions.selectNextCompetition);
+  nextCompetition:Signal<Competition|null> =
+    this.store.selectSignal(Competitions.selectNextCompetition);
 }

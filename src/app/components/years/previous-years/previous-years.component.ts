@@ -1,7 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Year } from 'models/year.model';
-import { Observable } from 'rxjs';
 import { selectPreviousYears } from 'store/reducers';
 
 @Component({
@@ -11,11 +10,6 @@ import { selectPreviousYears } from 'store/reducers';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PreviousYearsComponent {
-  yearList$:Observable<Year[]>;
-
-  constructor(public store:Store) {
-    this.yearList$ = this.store.select(
-      selectPreviousYears
-    );
-  }
+  store:Store = inject(Store);
+  yearList:Signal<Year[]> = this.store.selectSignal(selectPreviousYears);
 }

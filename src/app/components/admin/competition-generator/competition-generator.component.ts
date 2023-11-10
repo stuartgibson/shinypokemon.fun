@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, Signal } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { NgbDate } from '@ng-bootstrap/ng-bootstrap';
 import { Store } from '@ngrx/store';
@@ -21,7 +21,7 @@ export class CompetitionGeneratorComponent {
   private readonly store:Store = inject(Store);
   private readonly fb:FormBuilder = inject(FormBuilder);
 
-  newCompetition$: Observable<Competition|null> = this.store.select(Competitions.selectNewCompetition);
+  newCompetition:Signal<Competition|null> = this.store.selectSignal(Competitions.selectNewCompetition);
 
   competitionForm = this.fb.group({
     description: [''],

@@ -1,7 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit, Signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Player } from 'models/player.model';
-import { Observable } from 'rxjs';
 import { Players } from 'store/reducers';
 
 @Component({
@@ -15,12 +14,12 @@ export class InlinePlayerComponent implements OnInit {
 
   private readonly store:Store = inject(Store);
 
-  player$!:Observable<Player|null>;
+  player!:Signal<Player|null>;
 
   ngOnInit():void {
     if(!this.id) return;
 
-    this.player$ = this.store.select(
+    this.player = this.store.selectSignal(
       Players.selectByID(this.id)
     );
   }

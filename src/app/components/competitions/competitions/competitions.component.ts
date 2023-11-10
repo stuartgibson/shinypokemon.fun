@@ -1,6 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { competitionsPageViewModel } from 'store/view-models/competitions-page.view-model';
+import { CompetitionsPageViewModel, competitionsPageViewModel } from 'store/view-models/competitions-page.view-model';
 
 @Component({
   selector: 'sp-competitions',
@@ -10,5 +10,5 @@ import { competitionsPageViewModel } from 'store/view-models/competitions-page.v
 })
 export class CompetitionsComponent {
   private readonly store = inject(Store);
-  readonly vm$ = this.store.select(competitionsPageViewModel);
+  readonly vm:Signal<CompetitionsPageViewModel> = this.store.selectSignal(competitionsPageViewModel);
 }

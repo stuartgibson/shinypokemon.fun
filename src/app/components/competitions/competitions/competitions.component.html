@@ -4,9 +4,10 @@
   Select a year below to view the competitions for that year.
 </p>
 
-<ng-container *ngrxLet="vm$ as vm">
-  <ol class="list-unstyled">
-    <li *ngFor="let yearDatum of vm.yearsData">
+
+<ol class="list-unstyled">
+  @for (yearDatum of vm().yearsData; track yearDatum.year.id) {
+    <li>
       <div class="card mb-3">
         <div class="card-body d-flex">
           <a
@@ -21,5 +22,5 @@
         </div>
       </div>
     </li>
-  </ol>
-</ng-container>
+  }
+</ol>

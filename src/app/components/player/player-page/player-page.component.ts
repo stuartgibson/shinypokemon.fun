@@ -1,7 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Player } from 'models/player.model';
-import { Observable } from 'rxjs';
 import { Players } from 'store/reducers';
 
 @Component({
@@ -12,5 +11,5 @@ import { Players } from 'store/reducers';
 export class PlayerPageComponent {
   private readonly store:Store = inject(Store);
 
-  player$:Observable<Player|null> = this.store.select(Players.selectRoutedPlayer);
+  player:Signal<Player|null> = this.store.selectSignal(Players.selectRoutedPlayer);
 }

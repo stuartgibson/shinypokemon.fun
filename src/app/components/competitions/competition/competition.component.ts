@@ -9,5 +9,4 @@ import { Competition } from 'models/competition.model';
 })
 export class CompetitionComponent {
   @Input() competition!:Competition;
-
 }

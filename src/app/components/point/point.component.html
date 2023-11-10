@@ -1,13 +1,12 @@
-<ng-container *ngIf="!!point">
+@if (!!point) {
   <div class="card">
-    <div class="bg-image" [ngStyle]="{'background-image': (pokemon$ | ngrxPush)?.artwork}"></div>
+    <div class="bg-image" [ngStyle]="{'background-image': pokemon()?.artwork}"></div>
     <div class="card-body">
       <div class="d-flex mb-3 gap-1">
-          <span
-            *ngIf="point.firstCatch"
-            title="First Catch!">🏆
-          </span>
-          <sp-inline-player [id]="point.playerID"></sp-inline-player>
+          @if (point.firstCatch) {
+            <span title="First Catch!">🏆</span>
+          }
+          <sp-inline-player [id]="point.playerID" />
       </div>
 
       <div class="d-flex flex-wrap">
@@ -15,28 +14,28 @@
           <div class="flex-even">
             <dt>Pokémon:</dt>
             <dd class="d-flex gap-1">
-              <sp-ball [ballType]="point.ball"></sp-ball>
-              <sp-inline-pokemon [id]="point.pokemonID"></sp-inline-pokemon>
+              <sp-ball [ballType]="point.ball" />
+              <sp-inline-pokemon [id]="point.pokemonID" />
             </dd>
           </div>
           <div class="flex-even">
             <dt>Date:</dt>
-            <dd><sp-date [date]="point.catchDate" class="flex-even"></sp-date></dd>
+            <dd><sp-date [date]="point.catchDate" class="flex-even" /></dd>
           </div>
         </dl>
 
         <dl class="d-flex flex-even" style="flex-basis: 15rem">
           <div class="flex-even">
             <dt>Game:</dt>
-            <sp-game [gameType]="point.game"></sp-game>
+            <sp-game [gameType]="point.game" />
           </div>
 
           <div class="flex-even">
             <dt>Method:</dt>
-            <sp-method [methodType]="point.method"></sp-method>
+            <sp-method [methodType]="point.method" />
           </div>
         </dl>
       </div>
     </div>
   </div>
-</ng-container>
+}

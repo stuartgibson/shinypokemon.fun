@@ -1,7 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit, Signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
-import { Observable } from 'rxjs';
 import { Pokemons } from 'store/reducers';
 
 @Component({
@@ -15,12 +14,12 @@ export class InlinePokemonComponent implements OnInit {
 
   private readonly store:Store = inject(Store);
 
-  pokemon$!:Observable<Pokemon|null>;
+  pokemon!:Signal<Pokemon|null>;
 
   ngOnInit():void {
     if(!this.id) return;
 
-    this.pokemon$ = this.store.select(
+    this.pokemon = this.store.selectSignal(
       Pokemons.selectByID(this.id)
     );
   }

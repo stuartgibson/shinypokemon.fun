@@ -1,10 +1,7 @@
-<ng-container *ngrxLet="player$ as player">
-  <ng-container *ngIf="player; else noPlayer">
-    <a [routerLink]="['/players', player.id]">
-      {{ player.formattedName }}
-    </a>
-  </ng-container>
-  <ng-template #noPlayer>
-    &mdash;
-  </ng-template>
-</ng-container>
+@if (player()) {
+  <a [routerLink]="['/players', player()!.id]">
+    {{ player()!.formattedName }}
+  </a>
+} @else {
+  &mdash;
+}

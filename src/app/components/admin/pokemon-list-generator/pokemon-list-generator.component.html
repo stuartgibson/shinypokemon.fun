@@ -1,16 +1,18 @@
 <div class="smart-layout-evenly">
   <div>
     <pre>
-      <ng-container *ngrxLet="selectedPokemon$ as selectedPokemon">
-[<ng-container *ngFor="let pokemon of selectedPokemon; trackBy: trackBySelected; last as isLast">
+[@for (pokemon of selectedPokemon(); track pokemon.id; let isLast = $last) {
+
   {{ '{' }}
     data: {{ '{' }}
       // {{ pokemon.name }} <a (click)="removePokemon(pokemon)" class="text-danger">remove</a>
       id: '{{ pokemon.id }}',
       type: 'pokemon'
     &#125;
-  &#125;<ng-container *ngIf="!isLast">,</ng-container></ng-container>
-</ng-container>]
+  &#125;@if (!isLast) {
+,
+}
+}]
     </pre>
   </div>
 
@@ -18,11 +20,9 @@
     <div class="card-body">
       <h3>Pokémon</h3>
     </div>
-    <ng-container *ngrxLet="unselectedPokemon$ as unselectedPokemon">
-      <ul class="list-group list-group-flush">
-        <li
-          *ngFor="let pokemon of unselectedPokemon; trackBy: trackByUnselected;"
-          class="list-group-item d-flex align-items-center">
+    <ul class="list-group list-group-flush">
+      @for (pokemon of unselectedPokemon(); track pokemon.id) {
+        <li class="list-group-item d-flex align-items-center">
           <button
             type="button"
             class="btn btn-sm btn-outline-success me-3"
@@ -34,7 +34,7 @@
             class="flex-grow-1">
           </sp-pokemon>
         </li>
-      </ul>
-    </ng-container>
+      }
+    </ul>
   </div>
 </div>

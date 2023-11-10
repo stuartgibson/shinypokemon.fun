@@ -14,8 +14,6 @@ export class BallComponent implements OnChanges {
 
   ball:Ball|null = null;
 
-  constructor() {}
-
   ngOnChanges(changes: SimpleChanges): void {
     if( this.ballType ) {
       this.ball = getBall(this.ballType);

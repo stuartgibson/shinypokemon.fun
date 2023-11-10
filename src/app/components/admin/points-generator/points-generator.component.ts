@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit, Signal } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { NgbDate } from '@ng-bootstrap/ng-bootstrap';
 import { Store } from '@ngrx/store';
@@ -32,7 +32,7 @@ export class PointsGeneratorComponent implements OnInit {
   private readonly store:Store = inject(Store);
   private readonly fb:FormBuilder = inject(FormBuilder);
 
-  newPoints$: Observable<Point[]> = this.store.select(Points.selectPendingPoints);
+  newPoints:Signal<Point[]> = this.store.selectSignal(Points.selectPendingPoints);
 
   p:Point|null = null;
 

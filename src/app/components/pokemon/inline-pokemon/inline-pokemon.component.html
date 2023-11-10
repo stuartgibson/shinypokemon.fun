@@ -1,5 +1,5 @@
-<ng-container *ngrxLet="pokemon$ as pokemon">
-  <span *ngIf="!!pokemon">
-    {{ pokemon.dexNo}}. {{ pokemon.name }}
+@if(!!pokemon()) {
+  <span>
+    {{ pokemon()!.dexNo}}. {{ pokemon()!.name }}
   </span>
-</ng-container>
+}

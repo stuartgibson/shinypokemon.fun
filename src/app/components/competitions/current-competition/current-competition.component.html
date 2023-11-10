@@ -1,23 +1,18 @@
 <h2>Current Competition</h2>
 
-<ng-container *ngrxLet="currentCompetition$ as currentCompetition">
-  <ng-container [ngSwitch]="!!currentCompetition">
-    <div *ngSwitchCase="false">
-      <p>There is no competition currently running.</p>
-    </div>
+@if(!!currentCompetition()) {
+  <div>
+    <p>There is no competition currently running.</p>
+  </div>
+} @else {
+  <sp-competition
+    [competition]="currentCompetition()!"
+    class="mb-3">
+  </sp-competition>
 
-    <ng-container *ngSwitchCase="true">
-      <sp-competition
-        [competition]="currentCompetition!"
-        class="mb-3">
-      </sp-competition>
-
-      <ng-container *ngrxLet="currentPoints$ as currentPoints">
-        <sp-point
-          *ngFor="let point of currentPoints; last as isLast; trackBy: trackByFn;"
-          [point]="point"
-          class="mb-3">
-        </sp-point>
-      </ng-container>
-    </ng-container>
-</ng-container>
+  @for(point of currentPoints(); track point.id) {
+    <sp-point
+      [point]="point"
+      class="mb-3" />
+  }
+}

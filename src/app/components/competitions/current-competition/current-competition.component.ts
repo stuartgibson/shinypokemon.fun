@@ -1,8 +1,7 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Point } from 'models/point.model';
-import { Observable } from 'rxjs';
 import { Competitions } from 'store/reducers/competitions.reducer';
 import { Points } from 'store/reducers/points.reducer';
 
@@ -15,12 +14,8 @@ import { Points } from 'store/reducers/points.reducer';
 export class CurrentCompetitionComponent {
   private readonly store:Store = inject(Store);
 
-  currentCompetition$:Observable<Competition|null> =
-    this.store.select(Competitions.selectCurrentCompetition);
-  currentPoints$:Observable<Point[]> =
-    this.store.select(Points.selectCurrentPoints);
-
-  trackByFn(index:number, item:Point):string {
-    return item.id;
-  }
+  currentCompetition:Signal<Competition|null> =
+    this.store.selectSignal(Competitions.selectCurrentCompetition);
+  currentPoints:Signal<Point[]> =
+    this.store.selectSignal(Points.selectCurrentPoints);
 }

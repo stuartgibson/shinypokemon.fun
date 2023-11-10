@@ -1,4 +1,4 @@
-<ng-container [ngSwitch]="!!method">
-  <span *ngSwitchCase="true">{{ method!.name }}</span>
-  <span *ngSwitchDefault>&mdash;</span>
-</ng-container>
+<span>
+  @if(!!method) { {{ method!.name }} }
+  @else { &mdash; }
+</span>

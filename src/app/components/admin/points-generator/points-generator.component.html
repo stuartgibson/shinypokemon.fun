@@ -1,8 +1,7 @@
 <div class="smart-layout-evenly align-items-start">
   <div>
     <pre>
-      <ng-container *ngrxLet="newPoints$ as newPoints">
-        <ng-container *ngFor="let point of newPoints; trackBy: trackByFn; last as isLast">
+        @for(point of newPoints(); track point.id; let isLast = $last) {
   // <sp-inline-competition [id]="point.competitionID"></sp-inline-competition>
   // <sp-inline-player [id]="point.playerID"></sp-inline-player>
   // <sp-inline-pokemon [id]="point.pokemonID"></sp-inline-pokemon>
@@ -38,8 +37,10 @@
         &#125;
       &#125;
     &#125;
-  &#125;<ng-container *ngIf="!isLast">,</ng-container></ng-container>
-</ng-container>
+  &#125;@if (!isLast) {
+,
+}
+}
     </pre>
   </div>
 
@@ -116,11 +117,11 @@
               formControlName="ball"
               class="form-select">
               <option selected>&mdash;</option>
-              <option
-                *ngFor="let ball of ballList"
-                [value]="ball.id">
-                {{ ball.name }}
-              </option>
+              @for (ball of ballList; track ball.id) {
+                <option [value]="ball.id">
+                  {{ ball.name }}
+                </option>
+              }
             </select>
           </div>
 
@@ -134,11 +135,11 @@
               formControlName="game"
               class="form-select">
               <option selected>&mdash;</option>
-              <option
-                *ngFor="let game of gameList"
-                [value]="game.id">
-                {{ game.name }}
-              </option>
+              @for (game of gameList; track game.id) {
+                <option [value]="game.id">
+                  {{ game.name }}
+                </option>
+              }
             </select>
           </div>
 
@@ -152,11 +153,11 @@
               formControlName="method"
               class="form-select">
               <option selected>&mdash;</option>
-              <option
-                *ngFor="let method of methodList"
-                [value]="method.id">
-                {{ method.name }}
-              </option>
+              @for (method of methodList; track method.id) {
+                <option [value]="method.id">
+                  {{ method.name }}
+                </option>
+              }
             </select>
           </div>
         </div>

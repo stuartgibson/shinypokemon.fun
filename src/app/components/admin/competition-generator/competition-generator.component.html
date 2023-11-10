@@ -1,37 +1,35 @@
 <div class="smart-layout-evenly align-items-start">
   <div>
     <pre>
-      <ng-container *ngrxLet="newCompetition$ as newCompetition">
-        <ng-container *ngIf="!!newCompetition">
-  '{{ newCompetition.id }}': {{ '{' }}
+        @if (newCompetition()) {
+  '{{ newCompetition()!.id }}': {{ '{' }}
     data: {{ '{' }}
       type: 'competition',
-      id: '{{ newCompetition.id }}',
+      id: '{{ newCompetition()!.id }}',
       attributes: {{ '{' }}
-        description: '{{ newCompetition.description }}',
-        endDate: '{{ newCompetition.endDate!.toISOString().split('T')[0] }}',
-        startDate: '{{ newCompetition.startDate!.toISOString().split('T')[0] }}',
-        theme: '{{ newCompetition.theme }}',
+        description: '{{ newCompetition()!.description }}',
+        endDate: '{{ newCompetition()!.endDate!.toISOString().split('T')[0] }}',
+        startDate: '{{ newCompetition()!.startDate!.toISOString().split('T')[0] }}',
+        theme: '{{ newCompetition()!.theme }}',
       &#125;,
       relationships: {{ '{' }}
         selectedBy: {{ '{' }}
           data: {{ '{' }}
-            id: '{{ newCompetition.selectedByID }}',
+            id: '{{ newCompetition()!.selectedByID }}',
             type: 'player'
           &#125;
         &#125;,
         validPokemon: [],
         year: {{ '{' }}
           data: {{ '{' }}
-            id: '{{ newCompetition.yearID }}',
+            id: '{{ newCompetition()!.yearID }}',
             type: 'year'
           &#125;
         &#125;
       &#125;
     &#125;
   &#125;
-</ng-container>
-      </ng-container>
+}
     </pre>
   </div>
 

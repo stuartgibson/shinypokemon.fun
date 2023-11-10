@@ -1,7 +1,5 @@
-import { ChangeDetectionStrategy, Component, inject, OnDestroy } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnDestroy, Signal } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { Pokemon } from 'models/pokemon.model';
-import { Observable } from 'rxjs';
 import { CompetitionActions } from 'store/actions/competition.actions';
 import { competitionPageViewModel, CompetitionPageViewModel } from 'store/view-models/competition-page.view-model';
 
@@ -15,16 +13,12 @@ export class CompetitionPageComponent implements OnDestroy {
 
   private readonly store:Store = inject(Store);
 
-  vm$: Observable<CompetitionPageViewModel> = this.store.select(competitionPageViewModel);
+  vm:Signal<CompetitionPageViewModel> = this.store.selectSignal(competitionPageViewModel);
 
   filterPokemon(event:any):void {
     this.store.dispatch(
       CompetitionActions.filter({query: event.target.value})
     );
-  }
-
-  trackByPokemon(index:number, pokemon:Pokemon):string {
-    return pokemon.id;
   }
 
   ngOnDestroy():void {

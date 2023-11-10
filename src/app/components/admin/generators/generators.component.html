@@ -5,10 +5,10 @@
 		<a ngbNavLink>Points</a>
 		<ng-template ngbNavContent>
 			<sp-points-generator
-        [allPokemon]="(allPokemon$ | ngrxPush) || []"
-        [competitions]="(competitions$ | ngrxPush) || []"
-        [currentCompetition]="(currentCompetition$ | ngrxPush) || null"
-        [players]="(players$ | ngrxPush) || []">
+        [allPokemon]="allPokemon() || []"
+        [competitions]="competitions() || []"
+        [currentCompetition]="currentCompetition() || null"
+        [players]="players() || []">
       </sp-points-generator>
 		</ng-template>
 	</li>
@@ -17,7 +17,7 @@
 		<a ngbNavLink>Competition</a>
 		<ng-template ngbNavContent>
 			<sp-competition-generator
-      [players]="(players$ | ngrxPush) || []">
+      [players]="players() || []">
       </sp-competition-generator>
 		</ng-template>
 	</li>

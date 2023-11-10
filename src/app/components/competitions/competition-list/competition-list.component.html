@@ -1,26 +1,25 @@
-<ng-container *ngIf="competitions.length; else noCompetitions">
-
+@if (competitions.length) {
   <ol class="list-unstyled">
-    <li
-      *ngFor="let competition of competitions; last as isLast">
-      <div class="smart-layout-evenly align-items-center">
-        <a
-          [routerLink]="['/competitions', competition.id]"
-          class="flex-grow-1">
-          {{ competition.theme }}
-        </a>
-        <small class="text-muted text-lg-end">
-          <sp-date-range
-            [startDate]="competition.startDate"
-            [endDate]="competition.endDate">
-          </sp-date-range>
-        </small>
-      </div>
-      <hr *ngIf="!isLast">
-    </li>
-  </ol>
-</ng-container>
+    @for (competition of competitions; track competition; let isLast = $last) {
+      <li>
+        <div class="smart-layout-evenly align-items-center">
+          <a
+            [routerLink]="['/competitions', competition.id]"
+            class="flex-grow-1">
+            {{ competition.theme }}
+          </a>
+          <small class="text-muted text-lg-end">
+            <sp-date-range
+              [startDate]="competition.startDate"
+              [endDate]="competition.endDate">
+            </sp-date-range>
+          </small>
+        </div>
 
-<ng-template #noCompetitions>
+        @if (!isLast) { <hr> }
+      </li>
+    }
+  </ol>
+} @else {
   <p>No competitions found.</p>
-</ng-template>
+}

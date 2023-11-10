@@ -1,7 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit, Signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
-import { Observable } from 'rxjs';
 import { Competitions } from 'store/reducers/competitions.reducer';
 
 @Component({
@@ -15,12 +14,12 @@ export class InlineCompetitionComponent implements OnInit {
 
   private readonly store:Store = inject(Store);
 
-  competition$!:Observable<Competition|null>;
+  competition!:Signal<Competition|null>;
 
   ngOnInit():void {
     if(!this.id) return;
 
-    this.competition$ = this.store.select(
+    this.competition = this.store.selectSignal(
       Competitions.selectByID(this.id)
     );
   }

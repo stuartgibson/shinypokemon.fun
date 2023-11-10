@@ -2,32 +2,29 @@
 
 <hr>
 
-<ng-container *ngrxLet="vm$ as vm">
-  <ul
-    *ngIf="vm.playersData.length > 0; else noPlayers"
-    class="list-unstyled">
-    <li
-      *ngFor="let playerDatum of vm.playersData">
-      <div class="card mb-3">
-        <div class="card-body smart-layout-evenly align-items-center">
-          <sp-inline-player [id]="playerDatum.player.id"></sp-inline-player>
-          <dl class="d-flex">
-            <div class="flex-even text-end">
-              <dt>Lifetime Points</dt>
-              <dd class="mb-0">{{ playerDatum.totalPoints }}</dd>
-            </div>
+@if (vm().playersData.length > 0) {
+  <ul class="list-unstyled">
+    @for(playerDatum of vm().playersData; track playerDatum.player.id) {
+      <li>
+        <div class="card mb-3">
+          <div class="card-body smart-layout-evenly align-items-center">
+            <sp-inline-player [id]="playerDatum.player.id" />
+            <dl class="d-flex">
+              <div class="flex-even text-end">
+                <dt>Lifetime Points</dt>
+                <dd class="mb-0">{{ playerDatum.totalPoints }}</dd>
+              </div>
 
-            <div class="flex-even text-end">
-              <dt>Times Won</dt>
-              <dd class="mb-0">{{ playerDatum.totalWins }}</dd>
-            </div>
-          </dl>
+              <div class="flex-even text-end">
+                <dt>Times Won</dt>
+                <dd class="mb-0">{{ playerDatum.totalWins }}</dd>
+              </div>
+            </dl>
+          </div>
         </div>
-      </div>
-    </li>
+      </li>
+    }
   </ul>
-
-  <ng-template #noPlayers>
-    <p>No players found.</p>
-  </ng-template>
-</ng-container>
+} @else {
+  <p>No players found.</p>
+}

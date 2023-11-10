@@ -1,6 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { yearPageViewModel } from 'store/view-models/year-page.view-model';
+import { YearPageViewModel, yearPageViewModel } from 'store/view-models/year-page.view-model';
 
 @Component({
   templateUrl: './year-page.component.html',
@@ -9,6 +9,5 @@ import { yearPageViewModel } from 'store/view-models/year-page.view-model';
 })
 export class YearPageComponent {
   private store = inject(Store);
-
-  readonly vm$ = this.store.select(yearPageViewModel);
+  readonly vm:Signal<YearPageViewModel> = this.store.selectSignal(yearPageViewModel);
 }
