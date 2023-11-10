@@ -327,5 +327,77 @@ export const pointsData2023_22:IPointEntities = {
         }
       }
     }
+  },
+    //  Grey 29 Oct 2023  to 11 Nov 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0081. Magnemite
+  '3147227e-c6ed-439b-a76e-6126590ae083': {
+    data: {
+      id: '3147227e-c6ed-439b-a76e-6126590ae083',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-11-07',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '15586172-7eec-468a-be03-417768218554',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Grey 29 Oct 2023  to 11 Nov 2023
+  //  Devilish Inferno (@Alex)
+  //  0081. Magnemite
+  '305510b0-2821-4bd2-92ce-7857496f5499': {
+    data: {
+      id: '305510b0-2821-4bd2-92ce-7857496f5499',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-11-07',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '15586172-7eec-468a-be03-417768218554',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
