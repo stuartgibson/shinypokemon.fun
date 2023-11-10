@@ -16,29 +16,29 @@
         firstCatch: {{ point.firstCatch }},
         game: {{ point.game ? '\'' + point.game + '\' as GameType' : 'null' }},
         method: {{ point.method ? '\'' + point.method + '\' as MethodType' : 'null' }}
-      },
+      &#125;,
       relationships: {{ '{' }}
         competition: {{ '{' }}
           data: {{ '{' }}
             id: '{{ point.competitionID }}',
             type: 'competition'
-          }
-        },
+          &#125;
+        &#125;,
         player: {{ '{' }}
           data: {{ '{' }}
             id: '{{ point.playerID }}',
             type: 'player'
-          }
-        },
+          &#125;
+        &#125;,
         pokemon: {{ '{' }}
           data: {{ '{' }}
             id: '{{ point.pokemonID }}',
             type: 'pokemon'
-          }
-        }
-      }
-    }
-  }<ng-container *ngIf="!isLast">,</ng-container></ng-container>
+          &#125;
+        &#125;
+      &#125;
+    &#125;
+  &#125;<ng-container *ngIf="!isLast">,</ng-container></ng-container>
 </ng-container>
     </pre>
   </div>
