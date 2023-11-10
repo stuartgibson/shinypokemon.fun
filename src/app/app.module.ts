@@ -4,7 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { NgbModule, NgbNavModule, NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
-import { LetModule, PushModule } from '@ngrx/component';
+import { LetModule, LetDirective, PushModule, PushPipe } from '@ngrx/component';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
@@ -23,8 +23,8 @@ import { AppComponent } from './components/app/app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LetModule,
-    PushModule,
+    LetDirective,
+    PushPipe,
     ReactiveFormsModule,
     StoreModule.forRoot(reducers),
     StoreModule.forFeature(Competitions),
