@@ -4,12 +4,16 @@ import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
 import { Years } from 'store/reducers';
 import { Competitions } from 'store/reducers/competitions.reducer';
+import { CompetitionListComponent } from '../../competitions/competition-list/competition-list.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'sp-current-year',
-  templateUrl: './current-year.component.html',
-  styleUrls: ['./current-year.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-current-year',
+    templateUrl: './current-year.component.html',
+    styleUrls: ['./current-year.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true,
+    imports: [RouterLink, CompetitionListComponent]
 })
 export class CurrentYearComponent {
   private readonly store:Store = inject(Store);

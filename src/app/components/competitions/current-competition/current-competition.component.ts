@@ -4,12 +4,16 @@ import { Competition } from 'models/competition.model';
 import { Point } from 'models/point.model';
 import { Competitions } from 'store/reducers/competitions.reducer';
 import { Points } from 'store/reducers/points.reducer';
+import { PointComponent } from '../../point/point.component';
+import { CompetitionComponent } from '../competition/competition.component';
 
 @Component({
-  selector: 'sp-current-competition',
-  templateUrl: './current-competition.component.html',
-  styleUrls: ['./current-competition.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-current-competition',
+    templateUrl: './current-competition.component.html',
+    styleUrls: ['./current-competition.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true,
+    imports: [CompetitionComponent, PointComponent]
 })
 export class CurrentCompetitionComponent {
   private readonly store:Store = inject(Store);

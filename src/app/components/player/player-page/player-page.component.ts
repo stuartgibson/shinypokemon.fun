@@ -4,9 +4,10 @@ import { Player } from 'models/player.model';
 import { Players } from 'store/reducers';
 
 @Component({
-  templateUrl: './player-page.component.html',
-  styleUrls: ['./player-page.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    templateUrl: './player-page.component.html',
+    styleUrls: ['./player-page.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true
 })
 export class PlayerPageComponent {
   private readonly store:Store = inject(Store);

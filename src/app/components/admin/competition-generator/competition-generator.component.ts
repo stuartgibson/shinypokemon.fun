@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, inject, Input, Signal } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
-import { NgbDate } from '@ng-bootstrap/ng-bootstrap';
+import { FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
+import { NgbDate, NgbTypeahead, NgbInputDatepicker } from '@ng-bootstrap/ng-bootstrap';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Player } from 'models/player.model';
@@ -10,10 +10,12 @@ import { Competitions, ICompetitionEntity } from 'store/reducers';
 import { v4 as uuid } from 'uuid';
 
 @Component({
-  selector: 'sp-competition-generator',
-  templateUrl: './competition-generator.component.html',
-  styleUrls: ['./competition-generator.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-competition-generator',
+    templateUrl: './competition-generator.component.html',
+    styleUrls: ['./competition-generator.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true,
+    imports: [ReactiveFormsModule, NgbTypeahead, NgbInputDatepicker]
 })
 export class CompetitionGeneratorComponent {
   @Input() players: Player[] = [];

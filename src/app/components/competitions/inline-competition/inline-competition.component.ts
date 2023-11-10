@@ -2,12 +2,15 @@ import { ChangeDetectionStrategy, Component, inject, Input, OnInit, Signal } fro
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Competitions } from 'store/reducers/competitions.reducer';
+import { DateRangeComponent } from '../../_shared/date-range/date-range.component';
 
 @Component({
-  selector: 'sp-inline-competition',
-  templateUrl: './inline-competition.component.html',
-  styleUrls: ['./inline-competition.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-inline-competition',
+    templateUrl: './inline-competition.component.html',
+    styleUrls: ['./inline-competition.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true,
+    imports: [DateRangeComponent]
 })
 export class InlineCompetitionComponent implements OnInit {
   @Input() id!:string|null;

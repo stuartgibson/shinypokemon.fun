@@ -4,10 +4,11 @@ import { getMethod } from 'src/app/helpers/methods.helper';
 import { MethodType } from 'types/method.types';
 
 @Component({
-  selector: 'sp-method',
-  templateUrl: './method.component.html',
-  styleUrls: ['./method.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-method',
+    templateUrl: './method.component.html',
+    styleUrls: ['./method.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true
 })
 export class MethodComponent implements OnChanges {
   @Input() methodType:MethodType|null = null;

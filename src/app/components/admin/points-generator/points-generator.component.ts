@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, inject, Input, OnInit, Signal } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
-import { NgbDate } from '@ng-bootstrap/ng-bootstrap';
+import { FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
+import { NgbDate, NgbTypeahead, NgbInputDatepicker } from '@ng-bootstrap/ng-bootstrap';
 import { Store } from '@ngrx/store';
 import { Ball } from 'models/ball.model';
 import { Competition } from 'models/competition.model';
@@ -16,12 +16,18 @@ import { methodList } from 'src/app/helpers/methods.helper';
 import { PointActions } from 'store/actions';
 import { IPointEntity, Points } from 'store/reducers/points.reducer';
 import { v4 as uuid } from 'uuid';
+import { DateRangeComponent } from '../../_shared/date-range/date-range.component';
+import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-pokemon.component';
+import { InlinePlayerComponent } from '../../player/inline-player/inline-player.component';
+import { InlineCompetitionComponent } from '../../competitions/inline-competition/inline-competition.component';
 
 @Component({
-  selector: 'sp-points-generator',
-  templateUrl: './points-generator.component.html',
-  styleUrls: ['./points-generator.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-points-generator',
+    templateUrl: './points-generator.component.html',
+    styleUrls: ['./points-generator.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true,
+    imports: [InlineCompetitionComponent, InlinePlayerComponent, InlinePokemonComponent, ReactiveFormsModule, NgbTypeahead, NgbInputDatepicker, DateRangeComponent]
 })
 export class PointsGeneratorComponent implements OnInit {
   @Input() allPokemon:Pokemon[] = [];

@@ -4,10 +4,11 @@ import { getGame } from 'src/app/helpers/games.helper';
 import { GameType } from 'types/game.types';
 
 @Component({
-  selector: 'sp-game',
-  templateUrl: './game.component.html',
-  styleUrls: ['./game.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-game',
+    templateUrl: './game.component.html',
+    styleUrls: ['./game.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true
 })
 export class GameComponent implements OnChanges {
   @Input() gameType:GameType|null = null;

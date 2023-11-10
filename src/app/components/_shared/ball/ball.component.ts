@@ -4,10 +4,11 @@ import { getBall } from 'src/app/helpers/balls.helper';
 import { BallType } from 'types/ball.types';
 
 @Component({
-  selector: 'sp-ball',
-  templateUrl: './ball.component.html',
-  styleUrls: ['./ball.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'sp-ball',
+    templateUrl: './ball.component.html',
+    styleUrls: ['./ball.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true
 })
 export class BallComponent implements OnChanges {
   @Input() ballType:BallType|null = null;

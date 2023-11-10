@@ -5,11 +5,17 @@ import { Player } from 'models/player.model';
 import { Pokemon } from 'models/pokemon.model';
 import { Players, Pokemons } from 'store/reducers';
 import { Competitions } from 'store/reducers/competitions.reducer';
+import { PokemonListGeneratorComponent } from '../pokemon-list-generator/pokemon-list-generator.component';
+import { CompetitionGeneratorComponent } from '../competition-generator/competition-generator.component';
+import { PointsGeneratorComponent } from '../points-generator/points-generator.component';
+import { NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavContent, NgbNavOutlet } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  templateUrl: './generators.component.html',
-  styleUrls: ['./generators.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    templateUrl: './generators.component.html',
+    styleUrls: ['./generators.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true,
+    imports: [NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavContent, PointsGeneratorComponent, CompetitionGeneratorComponent, PokemonListGeneratorComponent, NgbNavOutlet]
 })
 export class GeneratorsComponent {
 

@@ -1,14 +1,13 @@
 <h2>Current Competition</h2>
 
-@if(!!currentCompetition()) {
+@if(!currentCompetition()) {
   <div>
     <p>There is no competition currently running.</p>
   </div>
 } @else {
   <sp-competition
     [competition]="currentCompetition()!"
-    class="mb-3">
-  </sp-competition>
+    class="mb-3" />
 
   @for(point of currentPoints(); track point.id) {
     <sp-point
