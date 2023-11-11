@@ -22,7 +22,7 @@ bootstrapApplication(
     providers: [
       ...stateProviders,
       provideAnimations(),
-      provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: 'disabled'})),
+      provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: 'enabled'})),
       provideRouterStore(),
       provideStore({router: routerReducer}),
       provideStoreDevtools({
