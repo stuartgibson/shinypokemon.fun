@@ -1,56 +1,39 @@
 
 
-import { NgOptimizedImage } from '@angular/common';
-import { importProvidersFrom, isDevMode } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
-import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
-import { provideRouter, withInMemoryScrolling, withViewTransitions } from '@angular/router';
-import { NgbModule, NgbNavModule, NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
-import { LetDirective, PushPipe } from '@ngrx/component';
-import { StoreRouterConnectingModule } from '@ngrx/router-store';
-import { StoreModule } from '@ngrx/store';
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { Competitions } from 'store/reducers/competitions.reducer';
-import { Players } from 'store/reducers/players.reducer';
+import { enableProdMode } from '@angular/core';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { provideRouter, withInMemoryScrolling } from '@angular/router';
+import { provideRouterStore, routerReducer } from '@ngrx/router-store';
+import { provideStore } from '@ngrx/store';
+import { provideStoreDevtools } from '@ngrx/store-devtools';
 import { AppComponent } from './app/components/app/app.component';
 import { routes } from './app/routes';
-import { Points, Pokemons, Years, reducers } from './store/reducers';
+import { environment } from './environments/environment';
+import { stateProviders } from './store';
+
+if (environment.production) {
+  enableProdMode();
+}
 
 bootstrapApplication(
   AppComponent,
   {
     providers: [
-      provideRouter(
-        routes,
-        withInMemoryScrolling({ scrollPositionRestoration: 'disabled'}),
-        withViewTransitions()
-      ),
-      importProvidersFrom(
-        BrowserModule,
-        LetDirective,
-        PushPipe,
-        ReactiveFormsModule,
-        StoreModule.forRoot(reducers),
-        StoreModule.forFeature(Competitions),
-        StoreModule.forFeature(Players),
-        StoreModule.forFeature(Points),
-        StoreModule.forFeature(Pokemons),
-        StoreModule.forFeature(Years),
-        NgbNavModule,
-        NgbPopoverModule,
-        NgOptimizedImage,
-        StoreRouterConnectingModule.forRoot(),
-        StoreDevtoolsModule.instrument({
-          maxAge: 25,
-          logOnly: !isDevMode(),
-          autoPause: true,
-          trace: false,
-          traceLimit: 75,
-          connectInZone: true
-        }),
-        StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode(), connectInZone: true }),
-        NgbModule
-      )
+      ...stateProviders,
+      provideAnimations(),
+      provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: 'disabled'})),
+      provideRouterStore(),
+      provideStore({router: routerReducer}),
+      provideStoreDevtools({
+        maxAge: 25,
+        logOnly: environment.production,
+        autoPause: false,
+        trace: true,
+        traceLimit: 75
+      })
     ]
 })
 .catch(err => console.error(err));
+function provideAnimations(): import("@angular/core").Provider | import("@angular/core").EnvironmentProviders {
+  throw new Error('Function not implemented.');
+}

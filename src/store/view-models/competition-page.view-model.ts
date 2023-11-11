@@ -21,14 +21,11 @@ export const competitionPageViewModel = createSelector(
     competition: Competition|null,
     searchQuery: string,
     points: Point[],
-    pokemon: Pokemon[]
-  ):CompetitionPageViewModel => {
-
-    return {
-      competition: competition,
-      points: points,
-      validPokemon: pokemon,
-      searchQuery: searchQuery
-    }
-  }
+    validPokemon: Pokemon[]
+  ):CompetitionPageViewModel => ({
+    competition,
+    points,
+    validPokemon,
+    searchQuery
+  })
 );
