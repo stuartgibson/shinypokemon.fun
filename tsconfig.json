@@ -20,8 +20,9 @@
     "module": "ES2022",
     "useDefineForClassFields": false,
     "lib": [
-      "ES2022",
-      "dom"
+      "es2022",
+      "dom",
+      "es2017.object"
     ],
     "types": [
       "@angular/localize"
@@ -40,6 +41,7 @@
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
+    "experimentalDecorators": true,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
