@@ -2,6 +2,7 @@
 
 import { enableProdMode } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
+import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideRouter, withInMemoryScrolling } from '@angular/router';
 import { provideRouterStore, routerReducer } from '@ngrx/router-store';
 import { provideStore } from '@ngrx/store';
@@ -34,6 +35,3 @@ bootstrapApplication(
     ]
 })
 .catch(err => console.error(err));
-function provideAnimations(): import("@angular/core").Provider | import("@angular/core").EnvironmentProviders {
-  throw new Error('Function not implemented.');
-}
