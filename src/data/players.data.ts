@@ -220,5 +220,16 @@ export const playersData:IPlayerEntities = {
         displayName: 'Jordan (FUMES)'
       }
     }
+  },
+  // sam (treecko) (@treeckonian)
+  '68fca39c-6481-479b-9ec7-0dcb994ac4fd': {
+    data: {
+      type: 'player' as 'player',
+      id: '68fca39c-6481-479b-9ec7-0dcb994ac4fd',
+      attributes: {
+        realName: 'sam (treecko)',
+        displayName: 'treeckonian'
+      }
+    }
   }
 }
