@@ -153,5 +153,153 @@ export const pointsData2023_23:IPointEntities = {
         }
       }
     }
+  },
+    //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
+  //  sam (treecko) (@treeckonian)
+  //  0877. Morpeko
+  '399e2108-a515-457f-8a71-c79bb3eee8fa': {
+    data: {
+      id: '399e2108-a515-457f-8a71-c79bb3eee8fa',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-11-16',
+        firstCatch: false,
+        game: null,
+        method: null
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cadbff42-1bf0-4ccf-9890-f7d283286b5e',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '68fca39c-6481-479b-9ec7-0dcb994ac4fd',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '2ede5b2f-253d-49e8-ba06-e00a412dc250',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
+  //  Devilish Inferno (@Alex)
+  //  0877. Morpeko
+  'b4e0fbda-0d17-4818-8027-67b99ef32fa2': {
+    data: {
+      id: 'b4e0fbda-0d17-4818-8027-67b99ef32fa2',
+      type: 'point',
+      attributes: {
+        ball: 'moon' as BallType,
+        catchDate: '2023-11-16',
+        firstCatch: false,
+        game: null,
+        method: 'breedMasuda' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cadbff42-1bf0-4ccf-9890-f7d283286b5e',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '2ede5b2f-253d-49e8-ba06-e00a412dc250',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
+  //  Kathryn (@SteeleTheWin)
+  //  0172. Pichu
+  'd6fefe1d-8f8e-48c1-bc2a-1e90b19a97b3': {
+    data: {
+      id: 'd6fefe1d-8f8e-48c1-bc2a-1e90b19a97b3',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-11-19',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoEgg' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cadbff42-1bf0-4ccf-9890-f7d283286b5e',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8664bc55-da05-4069-9e68-7512901224ac',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
+  //  Lewis Dobie (@Lewthelegend)
+  //  0155. Cyndaquil
+  '8ce3d1d2-c3e1-4278-87cf-dc63f6bfe149': {
+    data: {
+      id: '8ce3d1d2-c3e1-4278-87cf-dc63f6bfe149',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-11-21',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cadbff42-1bf0-4ccf-9890-f7d283286b5e',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ae25232c-f906-4cbb-b8f9-da3a67345154',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
