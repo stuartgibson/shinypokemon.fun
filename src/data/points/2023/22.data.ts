@@ -399,5 +399,41 @@ export const pointsData2023_22:IPointEntities = {
         }
       }
     }
+  },
+  //  Grey 29 Oct 2023  to 11 Nov 2023
+  //  Tone (@Tone)
+  //  0081. Magnemite
+  '0a47ca8b-6f22-4f62-be30-76d173863b5f': {
+    data: {
+      id: '0a47ca8b-6f22-4f62-be30-76d173863b5f',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-11-11',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '15586172-7eec-468a-be03-417768218554',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
