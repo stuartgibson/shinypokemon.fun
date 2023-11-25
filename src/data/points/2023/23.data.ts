@@ -39,9 +39,7 @@ export const pointsData2023_23:IPointEntities = {
         }
       }
     }
-  }
-,
-
+  },
   //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
   //  Padukes (@Padukes)
   //  0050. Diglett (Alolan)
@@ -77,9 +75,7 @@ export const pointsData2023_23:IPointEntities = {
         }
       }
     }
-  }
-,
-
+  },
   //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
   //  Lewis Dobie (@Lewthelegend)
   //  0029. Nidoran♀
@@ -115,9 +111,7 @@ export const pointsData2023_23:IPointEntities = {
         }
       }
     }
-  }
-,
-
+  },
   //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
   //  Padukes (@Padukes)
   //  0924. Tandemaus
@@ -225,9 +219,7 @@ export const pointsData2023_23:IPointEntities = {
         }
       }
     }
-  }
-,
-
+  },
   //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
   //  Kathryn (@SteeleTheWin)
   //  0172. Pichu
@@ -263,9 +255,7 @@ export const pointsData2023_23:IPointEntities = {
         }
       }
     }
-  }
-,
-
+  },
   //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
   //  Lewis Dobie (@Lewthelegend)
   //  0155. Cyndaquil
@@ -296,6 +286,114 @@ export const pointsData2023_23:IPointEntities = {
         pokemon: {
           data: {
             id: 'ae25232c-f906-4cbb-b8f9-da3a67345154',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
+  //  james (@seginus)
+  //  0161. Sentret
+  '147c1767-a9d1-4dbd-945c-fc5207511961': {
+    data: {
+      id: '147c1767-a9d1-4dbd-945c-fc5207511961',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-11-12',
+        firstCatch: false,
+        game: null,
+        method: '—' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cadbff42-1bf0-4ccf-9890-f7d283286b5e',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'b29bd872-719d-4138-be4f-3d839f2496b1',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
+  //  Stuart (@stuart)
+  //  0184. Azumarill
+  '1668ea63-f695-4175-a311-97bc8ac68be6': {
+    data: {
+      id: '1668ea63-f695-4175-a311-97bc8ac68be6',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-11-25',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cadbff42-1bf0-4ccf-9890-f7d283286b5e',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '40302532-8dc3-4a8b-9669-5c6f19ae7290',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+  //  Rodent Pokémon 12 Nov 2023  to 25 Nov 2023
+  //  Stuart (@stuart)
+  //  0183. Marill
+  '0513d829-c4f7-4a41-866c-4d3d4f398213': {
+    data: {
+      id: '0513d829-c4f7-4a41-866c-4d3d4f398213',
+      type: 'point',
+      attributes: {
+        ball: 'dusk' as BallType,
+        catchDate: '2023-11-25',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cadbff42-1bf0-4ccf-9890-f7d283286b5e',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ed377739-ba16-43b7-9292-399ba1dd7d29',
             type: 'pokemon'
           }
         }
