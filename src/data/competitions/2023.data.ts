@@ -27098,5 +27098,32 @@ export const competitionsData2023:{[id:string]:ICompetitionEntity} = {
         }
       }
     }
+  },
+  '66e585bc-b75a-47e7-aa88-28ce03a1b4c2': {
+    data: {
+      type: 'competition',
+      id: '66e585bc-b75a-47e7-aa88-28ce03a1b4c2',
+      attributes: {
+        description: 'All the lucky Pokémon Brittany and Lewis have collectively in Pokémon Go. (Theme delegated by Tone)',
+        endDate: '2023-12-09',
+        startDate: '2023-11-26',
+        theme: 'Brittany & Lewis’ Lucky Pokémon',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
 }
