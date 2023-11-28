@@ -342,5 +342,156 @@ export const pointsData2023_24:IPointEntities = {
         }
       }
     }
+  },
+
+    //  Brittany & Lewis’ Lucky Pokémon 26 Nov 2023  to 9 Dec 2023
+  //  Padukes (@Padukes)
+  //  0662. Fletchinder
+  'b191e00f-603a-4940-ad6c-5e6f7a99b29f': {
+    data: {
+      id: 'b191e00f-603a-4940-ad6c-5e6f7a99b29f',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-11-27',
+        firstCatch: false,
+        game: null,
+        method: 'sandwich' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '66e585bc-b75a-47e7-aa88-28ce03a1b4c2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'dea6547f-a748-4f0d-bdce-28db80bca139',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Brittany & Lewis’ Lucky Pokémon 26 Nov 2023  to 9 Dec 2023
+  //  Padukes (@Padukes)
+  //  0137. Porygon
+  'fde996e1-629d-4790-8737-9ebb13277747': {
+    data: {
+      id: 'fde996e1-629d-4790-8737-9ebb13277747',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-11-27',
+        firstCatch: false,
+        game: null,
+        method: 'chain' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '66e585bc-b75a-47e7-aa88-28ce03a1b4c2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '32db34f7-0c11-401c-8504-d399aa98e376',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Brittany & Lewis’ Lucky Pokémon 26 Nov 2023  to 9 Dec 2023
+  //  Tone (@Tone)
+  //  0263. Zigzagoon (Galarian)
+  'ab07d6c6-ad5b-4039-b56f-76ea6aa2fb7d': {
+    data: {
+      id: 'ab07d6c6-ad5b-4039-b56f-76ea6aa2fb7d',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-11-28',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '66e585bc-b75a-47e7-aa88-28ce03a1b4c2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Brittany & Lewis’ Lucky Pokémon 26 Nov 2023  to 9 Dec 2023
+  //  Tone (@Tone)
+  //  0037. Vulpix
+  '82dd20a3-2122-4fac-88d1-2b2b8bb639d6': {
+    data: {
+      id: '82dd20a3-2122-4fac-88d1-2b2b8bb639d6',
+      type: 'point',
+      attributes: {
+        ball: '—' as BallType,
+        catchDate: '2023-11-28',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRandom' as MethodType
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '66e585bc-b75a-47e7-aa88-28ce03a1b4c2',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '27c9fadf-f8cd-4b42-857a-987113ebaec5',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
   }
 }
