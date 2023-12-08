@@ -31189,5 +31189,32 @@ export const competitionsData2023: { [id: string]: ICompetitionEntity } = {
         }
       }
     }
+  },
+  'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db': {
+    data: {
+      type: 'competition',
+      id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+      attributes: {
+        description: 'The last hunt of the year! Any shiny counts (usual exception that you can only have as many as could be individual evolutions)',
+        endDate: '2023-12-23',
+        startDate: '2023-12-10',
+        theme: 'Anything Goes',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player'
+          }
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2023',
+            type: 'year'
+          }
+        }
+      }
+    }
   }
 }
