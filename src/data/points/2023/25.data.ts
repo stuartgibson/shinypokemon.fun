@@ -3713,4 +3713,472 @@ export const pointsData2023_25: IPointEntities = {
       },
     },
   },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0130. Gyarados
+  '709ce816-1027-43c9-bfdc-fcc6e0a90462': {
+    data: {
+      id: '709ce816-1027-43c9-bfdc-fcc6e0a90462',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-10',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'random' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9ee2c16a-577f-4cc8-8839-1a4116c7480b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0672. Skiddo
+  '6804b31e-dbe5-40b2-94df-fbb2c0a2f1b8': {
+    data: {
+      id: '6804b31e-dbe5-40b2-94df-fbb2c0a2f1b8',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-18',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'random' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a099e42-ba65-4365-90d9-2a2bb4966efc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0670. Floette
+  '37c1d1b4-4c3b-4931-a643-82962b3fa392': {
+    data: {
+      id: '37c1d1b4-4c3b-4931-a643-82962b3fa392',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0669. Flabébé
+  '895db812-dca6-401c-82c6-1e0b87c5e6e4': {
+    data: {
+      id: '895db812-dca6-401c-82c6-1e0b87c5e6e4',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-11',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0671. Florges
+  '645a186c-1d6a-4180-a349-65128965d4f8': {
+    data: {
+      id: '645a186c-1d6a-4180-a349-65128965d4f8',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-11',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0669. Flabébé
+  'f15ed528-e5c0-45f1-bf9e-843587120bc5': {
+    data: {
+      id: 'f15ed528-e5c0-45f1-bf9e-843587120bc5',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-10',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0669. Flabébé
+  'b89dc844-656f-4317-a34c-2d02f26ab3be': {
+    data: {
+      id: 'b89dc844-656f-4317-a34c-2d02f26ab3be',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0671. Florges
+  'b3ea01a4-1392-4538-8eb4-ba0f10dcb9ba': {
+    data: {
+      id: 'b3ea01a4-1392-4538-8eb4-ba0f10dcb9ba',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0670. Floette
+  '77e714b8-1e21-4328-88c2-2635a96f3548': {
+    data: {
+      id: '77e714b8-1e21-4328-88c2-2635a96f3548',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0669. Flabébé
+  '18350b70-5f22-4e38-b10f-4bcc2b1d8a7f': {
+    data: {
+      id: '18350b70-5f22-4e38-b10f-4bcc2b1d8a7f',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0671. Florges
+  'b1caddd4-4bf8-4388-9a10-dcbf2df2193e': {
+    data: {
+      id: 'b1caddd4-4bf8-4388-9a10-dcbf2df2193e',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-18',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0671. Florges
+  '747b75ff-c1c7-4480-8f0f-f2cee4dbaeab': {
+    data: {
+      id: '747b75ff-c1c7-4480-8f0f-f2cee4dbaeab',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Al McKinlay (@Al)
+  //  0868. Milcery
+  'a40f97c3-a929-400c-88c5-ab01b6dab458': {
+    data: {
+      id: 'a40f97c3-a929-400c-88c5-ab01b6dab458',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
