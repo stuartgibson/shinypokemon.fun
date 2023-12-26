@@ -4181,4 +4181,3604 @@ export const pointsData2023_25: IPointEntities = {
       },
     },
   },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0079. Slowpoke (Galarian)
+  '1b813ba5-93e2-41fc-9016-1f5e4c05af44': {
+    data: {
+      id: '1b813ba5-93e2-41fc-9016-1f5e4c05af44',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '11bb00ef-40ed-47ae-9b04-e543c60e48fc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0532. Timburr
+  'dd271805-b110-4482-af6f-f86a5cfc5e37': {
+    data: {
+      id: 'dd271805-b110-4482-af6f-f86a5cfc5e37',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0650. Chespin
+  '75242e0c-75db-4708-89aa-dc8ee62615f9': {
+    data: {
+      id: '75242e0c-75db-4708-89aa-dc8ee62615f9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '87b11db9-8aeb-44d3-80e1-dd4716d0b705',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0176. Togetic
+  'ad5083dc-05b3-4c34-9c11-f0d2385b8fd8': {
+    data: {
+      id: 'ad5083dc-05b3-4c34-9c11-f0d2385b8fd8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f56b3b40-1d5c-4115-90e2-c438d4b89c3e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0176. Togetic
+  '49a76d2d-a80c-4e38-aa1f-8f8ed77901e1': {
+    data: {
+      id: '49a76d2d-a80c-4e38-aa1f-8f8ed77901e1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f56b3b40-1d5c-4115-90e2-c438d4b89c3e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0714. Noibat
+  '1f7774aa-cd6c-44d8-93d0-94db43e728d0': {
+    data: {
+      id: '1f7774aa-cd6c-44d8-93d0-94db43e728d0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '187dfec5-b0cb-4157-a4aa-4738241e0864',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0714. Noibat
+  '4b03bd30-611f-4a1b-9ec2-11706d6e011b': {
+    data: {
+      id: '4b03bd30-611f-4a1b-9ec2-11706d6e011b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '187dfec5-b0cb-4157-a4aa-4738241e0864',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0653. Fennekin
+  '2e196341-9908-4ab7-9aa9-d5a107a83e16': {
+    data: {
+      id: '2e196341-9908-4ab7-9aa9-d5a107a83e16',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0653. Fennekin
+  '49d46ecd-d271-4c3c-ac42-09441a11dabf': {
+    data: {
+      id: '49d46ecd-d271-4c3c-ac42-09441a11dabf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0650. Chespin
+  'c737d7e0-45eb-4ec4-b640-13ce57b7f19a': {
+    data: {
+      id: 'c737d7e0-45eb-4ec4-b640-13ce57b7f19a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '87b11db9-8aeb-44d3-80e1-dd4716d0b705',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0074. Geodude (Alolan)
+  'f44d3ac7-0f01-4050-81f4-e61d5776c2ca': {
+    data: {
+      id: 'f44d3ac7-0f01-4050-81f4-e61d5776c2ca',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'df82c137-ce8e-45ec-9856-3ba2854d3e3f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0079. Slowpoke
+  'bea59fee-0c35-4a13-9070-88e3414470a7': {
+    data: {
+      id: 'bea59fee-0c35-4a13-9070-88e3414470a7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0653. Fennekin
+  '8966d880-c768-42d8-945a-60ae30a5ee6a': {
+    data: {
+      id: '8966d880-c768-42d8-945a-60ae30a5ee6a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0610. Axew
+  '0ed28306-9126-466c-b497-64c135753323': {
+    data: {
+      id: '0ed28306-9126-466c-b497-64c135753323',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7d854347-2b2c-48b2-9e9e-3ae1f97fea86',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0532. Timburr
+  '13573c9d-5441-4860-93f5-e471c939af63': {
+    data: {
+      id: '13573c9d-5441-4860-93f5-e471c939af63',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0610. Axew
+  '594a98fa-aa88-4db6-8601-8598dfe42b64': {
+    data: {
+      id: '594a98fa-aa88-4db6-8601-8598dfe42b64',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7d854347-2b2c-48b2-9e9e-3ae1f97fea86',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0656. Froakie
+  '8ebfcfd9-e32f-4dff-aa13-b44f043fca65': {
+    data: {
+      id: '8ebfcfd9-e32f-4dff-aa13-b44f043fca65',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0610. Axew
+  'd4520a94-0b01-44a7-965d-3a7998e6ea32': {
+    data: {
+      id: 'd4520a94-0b01-44a7-965d-3a7998e6ea32',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7d854347-2b2c-48b2-9e9e-3ae1f97fea86',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0194. Wooper
+  '4e0b9e5d-e708-43a6-aa29-bed7085a8079': {
+    data: {
+      id: '4e0b9e5d-e708-43a6-aa29-bed7085a8079',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6c0bcd91-3e28-4ac2-b0a7-d1c7fde3c87e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0656. Froakie
+  '4519388b-2cd9-4b74-ad18-a2793824a141': {
+    data: {
+      id: '4519388b-2cd9-4b74-ad18-a2793824a141',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0194. Wooper (Paldean)
+  'cf722815-707f-45b0-863b-a884b5bacad4': {
+    data: {
+      id: 'cf722815-707f-45b0-863b-a884b5bacad4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0af2156b-5af7-4e4d-a527-1c38e6781074',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0060. Poliwag
+  '85268dfa-df4f-4504-a212-99be9f245bdb': {
+    data: {
+      id: '85268dfa-df4f-4504-a212-99be9f245bdb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0060. Poliwag
+  '3419e77a-9de2-4d1b-91b4-953e7eddacc8': {
+    data: {
+      id: '3419e77a-9de2-4d1b-91b4-953e7eddacc8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0656. Froakie
+  '31c6da3a-53dd-4da6-8a89-299c5eb1b133': {
+    data: {
+      id: '31c6da3a-53dd-4da6-8a89-299c5eb1b133',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0060. Poliwag
+  '5116ddfa-c758-4618-8308-e3309b30cd7d': {
+    data: {
+      id: '5116ddfa-c758-4618-8308-e3309b30cd7d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0194. Wooper (Paldean)
+  'e61fafac-a5b3-44e9-873e-bfde111f1436': {
+    data: {
+      id: 'e61fafac-a5b3-44e9-873e-bfde111f1436',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0af2156b-5af7-4e4d-a527-1c38e6781074',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0060. Poliwag
+  'ab7be893-fdd8-40dc-8a13-04596ddd44de': {
+    data: {
+      id: 'ab7be893-fdd8-40dc-8a13-04596ddd44de',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0459. Snover
+  '67f88a36-4245-4f29-a46e-f48ffbd191cf': {
+    data: {
+      id: '67f88a36-4245-4f29-a46e-f48ffbd191cf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fd2affc4-e41b-418e-a559-62741f95da21',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0712. Bergmite
+  'ee145913-f202-4ba0-a840-b603583d74ec': {
+    data: {
+      id: 'ee145913-f202-4ba0-a840-b603583d74ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  '2fdccb34-66c3-4ee5-ad73-01fd74d1cb83': {
+    data: {
+      id: '2fdccb34-66c3-4ee5-ad73-01fd74d1cb83',
+      type: 'point',
+      attributes: {
+        ball: 'great' as BallType,
+        catchDate: '2023-12-22',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  'a6d68367-063e-4c22-bc67-408d9b42ad5c': {
+    data: {
+      id: 'a6d68367-063e-4c22-bc67-408d9b42ad5c',
+      type: 'point',
+      attributes: {
+        ball: 'pokeball' as BallType,
+        catchDate: '2023-12-22',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  '0096f9d1-1da2-4fb6-a3b3-d988cad0ffe1': {
+    data: {
+      id: '0096f9d1-1da2-4fb6-a3b3-d988cad0ffe1',
+      type: 'point',
+      attributes: {
+        ball: 'dusk' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  '39a94f41-4997-4357-807f-171ace4afab5': {
+    data: {
+      id: '39a94f41-4997-4357-807f-171ace4afab5',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  '0981d329-9794-45d6-bba7-9a49cc30456a': {
+    data: {
+      id: '0981d329-9794-45d6-bba7-9a49cc30456a',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  '5ce76b5c-dbd8-42c7-886b-0529588f18fe': {
+    data: {
+      id: '5ce76b5c-dbd8-42c7-886b-0529588f18fe',
+      type: 'point',
+      attributes: {
+        ball: 'timer' as BallType,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  '2fb62294-7ded-4d6e-9f42-cef177aa9bb1': {
+    data: {
+      id: '2fb62294-7ded-4d6e-9f42-cef177aa9bb1',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-18',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  '50e5abf9-fa0c-46e1-9001-ea9b3814c69d': {
+    data: {
+      id: '50e5abf9-fa0c-46e1-9001-ea9b3814c69d',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-14',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0868. Milcery
+  'd23acfb8-9751-4dfe-9878-2808f59cd864': {
+    data: {
+      id: 'd23acfb8-9751-4dfe-9878-2808f59cd864',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0225. Delibird
+  '7dd1a1c1-9b5d-4518-9675-b24c5c4be589': {
+    data: {
+      id: '7dd1a1c1-9b5d-4518-9675-b24c5c4be589',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-12-22',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3852ccba-90fe-496f-91dd-f1f104d7a0e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0328. Trapinch
+  'f8926293-7efc-4fa3-822d-ed6f0b13e254': {
+    data: {
+      id: 'f8926293-7efc-4fa3-822d-ed6f0b13e254',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ef0701b3-2577-4444-820d-a6ac2412db63',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0671. Florges
+  '0eee7cca-ff5d-4198-b1b9-aaff32981083': {
+    data: {
+      id: '0eee7cca-ff5d-4198-b1b9-aaff32981083',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-15',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0670. Floette
+  'a4b80c53-58a6-459e-8cff-df994a0cd439': {
+    data: {
+      id: 'a4b80c53-58a6-459e-8cff-df994a0cd439',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0671. Florges
+  '5dd8c110-909a-4a24-b805-b274b53c991c': {
+    data: {
+      id: '5dd8c110-909a-4a24-b805-b274b53c991c',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0670. Floette
+  '9fd7b482-e1bd-46ae-bebe-ec1aa3d1e4af': {
+    data: {
+      id: '9fd7b482-e1bd-46ae-bebe-ec1aa3d1e4af',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  '859d67c2-042d-44b1-97a7-6fb82a949560': {
+    data: {
+      id: '859d67c2-042d-44b1-97a7-6fb82a949560',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-15',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0671. Florges
+  'ba923e9e-2cfb-42b1-8cb1-0df9865e8fb8': {
+    data: {
+      id: 'ba923e9e-2cfb-42b1-8cb1-0df9865e8fb8',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-11',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0670. Floette
+  'e4df8021-d459-42f9-bb01-456d920248b9': {
+    data: {
+      id: 'e4df8021-d459-42f9-bb01-456d920248b9',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-15',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  'aec3223c-f236-419c-b107-7f33f7afe92b': {
+    data: {
+      id: 'aec3223c-f236-419c-b107-7f33f7afe92b',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0671. Florges
+  '1705cbcd-e4be-44c2-9753-eb7258e0c81e': {
+    data: {
+      id: '1705cbcd-e4be-44c2-9753-eb7258e0c81e',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0670. Floette
+  '1a7bb355-4322-42b3-8e3a-07bdc2d1bba0': {
+    data: {
+      id: '1a7bb355-4322-42b3-8e3a-07bdc2d1bba0',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  'b981e7c3-b944-4b19-b652-1ba1872d5b7f': {
+    data: {
+      id: 'b981e7c3-b944-4b19-b652-1ba1872d5b7f',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0671. Florges
+  '8254347d-3cf3-4ab8-a69f-fa5163233fe6': {
+    data: {
+      id: '8254347d-3cf3-4ab8-a69f-fa5163233fe6',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  '5db02f93-7dcd-41ee-8cb2-89e204ca24d5': {
+    data: {
+      id: '5db02f93-7dcd-41ee-8cb2-89e204ca24d5',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'violet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Devilish Inferno (@Alex)
+  //  0187. Hoppip
+  '5ca2952c-5909-4a3f-920a-4b4ff66cabd4': {
+    data: {
+      id: '5ca2952c-5909-4a3f-920a-4b4ff66cabd4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '45458f0f-3118-4b87-a148-bee667717bc2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Devilish Inferno (@Alex)
+  //  0203. Girafarig
+  '597d25ca-fd5f-4532-8806-6aee13616e4c': {
+    data: {
+      id: '597d25ca-fd5f-4532-8806-6aee13616e4c',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-23',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3b624d92-9f4e-4611-8f39-43683a1740d1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Devilish Inferno (@Alex)
+  //  0669. Flabébé
+  '2f8daa20-59ac-4cb4-9486-ec4f67765485': {
+    data: {
+      id: '2f8daa20-59ac-4cb4-9486-ec4f67765485',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-22',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Devilish Inferno (@Alex)
+  //  0225. Delibird
+  '27979aa6-dcc3-4a0d-abdf-38cf7a63f820': {
+    data: {
+      id: '27979aa6-dcc3-4a0d-abdf-38cf7a63f820',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-12-22',
+        firstCatch: false,
+        game: '—' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3852ccba-90fe-496f-91dd-f1f104d7a0e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Stuart (@stuart)
+  //  0899. Wyrdeer
+  'ee0f9565-9b58-4734-8caa-9aaa8907f048': {
+    data: {
+      id: 'ee0f9565-9b58-4734-8caa-9aaa8907f048',
+      type: 'point',
+      attributes: {
+        ball: 'premier' as BallType,
+        catchDate: '2023-12-23',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: 'pogoRaid' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7cc18c1e-e04d-41fc-8321-f5097db20580',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0079. Slowpoke (Galarian)
+  '7f92408f-525a-460c-a4ba-b52c0bd392f1': {
+    data: {
+      id: '7f92408f-525a-460c-a4ba-b52c0bd392f1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '11bb00ef-40ed-47ae-9b04-e543c60e48fc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0079. Slowpoke
+  'b828a189-0694-4666-9ed5-b8c3344656e0': {
+    data: {
+      id: 'b828a189-0694-4666-9ed5-b8c3344656e0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0650. Chespin
+  '004a167a-7b3b-4e81-813d-66473eed42c0': {
+    data: {
+      id: '004a167a-7b3b-4e81-813d-66473eed42c0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '87b11db9-8aeb-44d3-80e1-dd4716d0b705',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0176. Togetic
+  '16c16205-bef8-4c90-b866-2dbec77d9384': {
+    data: {
+      id: '16c16205-bef8-4c90-b866-2dbec77d9384',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f56b3b40-1d5c-4115-90e2-c438d4b89c3e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0653. Fennekin
+  '4ca57698-7e3b-4961-b286-826d1adb7ec3': {
+    data: {
+      id: '4ca57698-7e3b-4961-b286-826d1adb7ec3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0176. Togetic
+  '4b569626-d289-45f8-8585-15259a3037cc': {
+    data: {
+      id: '4b569626-d289-45f8-8585-15259a3037cc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f56b3b40-1d5c-4115-90e2-c438d4b89c3e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0079. Slowpoke
+  '866974ec-a604-4b80-8056-375cc7e7f19d': {
+    data: {
+      id: '866974ec-a604-4b80-8056-375cc7e7f19d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0653. Fennekin
+  '40661685-e046-498c-8d92-320e2e700ed0': {
+    data: {
+      id: '40661685-e046-498c-8d92-320e2e700ed0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0650. Chespin
+  'da462a98-2f96-4b3c-82c0-5f9aeb38be4e': {
+    data: {
+      id: 'da462a98-2f96-4b3c-82c0-5f9aeb38be4e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '87b11db9-8aeb-44d3-80e1-dd4716d0b705',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0653. Fennekin
+  '52d5cfd1-0bce-4d9b-8277-26d9745d9648': {
+    data: {
+      id: '52d5cfd1-0bce-4d9b-8277-26d9745d9648',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0220. Swinub
+  'a0d99ff1-232c-4b1c-a5f8-f855be264479': {
+    data: {
+      id: 'a0d99ff1-232c-4b1c-a5f8-f855be264479',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9dfb92df-d030-412c-9833-d5406c3051e3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0004. Charmander
+  'b7a88ae4-04e3-4407-8614-c2f73ed895b6': {
+    data: {
+      id: 'b7a88ae4-04e3-4407-8614-c2f73ed895b6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '558462e3-65d4-4440-9617-63fae7d395e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0060. Poliwag
+  'a2f88f92-6b54-47a7-91e9-38bc9e7c95ec': {
+    data: {
+      id: 'a2f88f92-6b54-47a7-91e9-38bc9e7c95ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'pogo' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0868. Milcery
+  '45e457cf-3142-4eb2-8cbf-f90f91b8b7c3': {
+    data: {
+      id: '45e457cf-3142-4eb2-8cbf-f90f91b8b7c3',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-15',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0868. Milcery
+  '882ad4fe-2ed6-4602-af28-c5a89df51911': {
+    data: {
+      id: '882ad4fe-2ed6-4602-af28-c5a89df51911',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-15',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: 'outbreakSV' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0498. Tepig
+  '5e0ffa5a-4e2a-4ca8-906e-b71925a7400e': {
+    data: {
+      id: '5e0ffa5a-4e2a-4ca8-906e-b71925a7400e',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-15',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6f4622b1-d9c5-41a9-b83b-970743131a7c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0501. Oshawott
+  '7260a7a6-ecd7-45fa-88fc-e61f58a67def': {
+    data: {
+      id: '7260a7a6-ecd7-45fa-88fc-e61f58a67def',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1bf76a95-4044-4689-bc8b-d587c347126a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0868. Milcery
+  '895d8271-6009-435a-9e4f-3dbc7d6188e3': {
+    data: {
+      id: '895d8271-6009-435a-9e4f-3dbc7d6188e3',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0328. Trapinch
+  '064156ea-bd5f-4587-a20d-dbe6e61510fa': {
+    data: {
+      id: '064156ea-bd5f-4587-a20d-dbe6e61510fa',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ef0701b3-2577-4444-820d-a6ac2412db63',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0868. Milcery
+  '8f820e4f-a952-4398-b020-e470a7d59f81': {
+    data: {
+      id: '8f820e4f-a952-4398-b020-e470a7d59f81',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0868. Milcery
+  '4099f6e9-b729-4115-ba5e-f382bf8bcd8e': {
+    data: {
+      id: '4099f6e9-b729-4115-ba5e-f382bf8bcd8e',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '487c56e5-9319-46a0-81bb-1666d9219e45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0235. Smeargle
+  '7fa5092d-9917-4ec0-a9e0-4085f991e1e8': {
+    data: {
+      id: '7fa5092d-9917-4ec0-a9e0-4085f991e1e8',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd19a4e77-6a74-496b-b7f7-9ad96e80d6e7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0501. Oshawott
+  'f4d73065-2102-4821-a6d0-cd73f0cdfe23': {
+    data: {
+      id: 'f4d73065-2102-4821-a6d0-cd73f0cdfe23',
+      type: 'point',
+      attributes: {
+        ball: 'quick' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1bf76a95-4044-4689-bc8b-d587c347126a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0330. Flygon
+  '68cb3182-37b0-48b5-ab42-8888661805bc': {
+    data: {
+      id: '68cb3182-37b0-48b5-ab42-8888661805bc',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-16',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cfd51894-9021-49d2-85a0-48436a5030bb',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0055. Golduck
+  'c12f7f2e-f33a-4a23-a768-4c62bcc39287': {
+    data: {
+      id: 'c12f7f2e-f33a-4a23-a768-4c62bcc39287',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-17',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5b091d78-f36d-4a2a-8069-d9bfffd0ee92',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0117. Seadra
+  '51a9eb94-e04d-47e6-8cad-ed3bcfb4ace2': {
+    data: {
+      id: '51a9eb94-e04d-47e6-8cad-ed3bcfb4ace2',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-12-19',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '93c3d7dc-9647-46c9-b957-8d90affc6d09',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0103. Exeggutor (Alolan)
+  'ae705286-8f29-4a94-b06f-8cadc7d3fa2f': {
+    data: {
+      id: 'ae705286-8f29-4a94-b06f-8cadc7d3fa2f',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-18',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4008313c-b38d-41c8-a8e1-7b9e5514ca73',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0498. Tepig
+  '1bdcb816-9dd2-486f-a093-0201ca5341e4': {
+    data: {
+      id: '1bdcb816-9dd2-486f-a093-0201ca5341e4',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6f4622b1-d9c5-41a9-b83b-970743131a7c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0498. Tepig
+  '5f63f4f5-a1ee-4585-9e28-202c3cd3c9f5': {
+    data: {
+      id: '5f63f4f5-a1ee-4585-9e28-202c3cd3c9f5',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6f4622b1-d9c5-41a9-b83b-970743131a7c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0728. Popplio
+  '64fb64c7-e0dc-47fa-b5f3-9e844438c89f': {
+    data: {
+      id: '64fb64c7-e0dc-47fa-b5f3-9e844438c89f',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '631a2c39-6231-45b3-807c-cd365c5bf995',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0728. Popplio
+  '942b63ec-3ad5-4895-9130-ceba4e35b2e4': {
+    data: {
+      id: '942b63ec-3ad5-4895-9130-ceba4e35b2e4',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '631a2c39-6231-45b3-807c-cd365c5bf995',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0728. Popplio
+  'a03f1950-a6c4-4f29-aae5-dd1a6f34ec32': {
+    data: {
+      id: 'a03f1950-a6c4-4f29-aae5-dd1a6f34ec32',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-12-20',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: '—' as MethodType,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '631a2c39-6231-45b3-807c-cd365c5bf995',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0810. Grookey
+  '67c9791a-4f67-4916-b9fc-033e4ccf147f': {
+    data: {
+      id: '67c9791a-4f67-4916-b9fc-033e4ccf147f',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3ca532e9-3cb5-44f4-b157-08ce4b3bf578',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0810. Grookey
+  '38bdfb82-f3cb-4ad4-b437-fed59f84b006': {
+    data: {
+      id: '38bdfb82-f3cb-4ad4-b437-fed59f84b006',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3ca532e9-3cb5-44f4-b157-08ce4b3bf578',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0182. Bellossom
+  '3541919b-4f46-4e03-afcc-67eeb9d9835d': {
+    data: {
+      id: '3541919b-4f46-4e03-afcc-67eeb9d9835d',
+      type: 'point',
+      attributes: {
+        ball: 'safari' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a02e9412-2687-4900-a640-74aacf037e1f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0113. Chansey
+  '36531a6f-8b2c-4305-a29d-f05b4c3f0788': {
+    data: {
+      id: '36531a6f-8b2c-4305-a29d-f05b4c3f0788',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0225. Delibird
+  '1be85275-33eb-40d4-ba4e-11140a407e6c': {
+    data: {
+      id: '1be85275-33eb-40d4-ba4e-11140a407e6c',
+      type: 'point',
+      attributes: {
+        ball: 'heal' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3852ccba-90fe-496f-91dd-f1f104d7a0e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0810. Grookey
+  '6bf559a9-f54c-40c0-a5a2-f220124e9501': {
+    data: {
+      id: '6bf559a9-f54c-40c0-a5a2-f220124e9501',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3ca532e9-3cb5-44f4-b157-08ce4b3bf578',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0594. Alomomola
+  '9ebf686c-ec5c-484a-bc77-47beb404f94d': {
+    data: {
+      id: '9ebf686c-ec5c-484a-bc77-47beb404f94d',
+      type: 'point',
+      attributes: {
+        ball: 'dive' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8499b2ba-b86c-4584-8acc-a2703eee467d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0252. Treecko
+  'dac11b26-70dd-4faf-8476-e306a187f958': {
+    data: {
+      id: 'dac11b26-70dd-4faf-8476-e306a187f958',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fb117d92-c93d-4a16-ad9f-ac2062325fa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0252. Treecko
+  '04b3302f-fe15-40ed-be93-5400d7eab0d2': {
+    data: {
+      id: '04b3302f-fe15-40ed-be93-5400d7eab0d2',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-21',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fb117d92-c93d-4a16-ad9f-ac2062325fa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Anything Goes 10 Dec 2023  to 23 Dec 2023
+  //  Padukes (@Padukes)
+  //  0669. Flabébé
+  '73eaa493-e5c1-4d3a-8803-7c70e86e1c07': {
+    data: {
+      id: '73eaa493-e5c1-4d3a-8803-7c70e86e1c07',
+      type: 'point',
+      attributes: {
+        ball: 'luxury' as BallType,
+        catchDate: '2023-12-09',
+        firstCatch: false,
+        game: 'scarlet' as GameType,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ba3335b5-dfdf-44c6-82ab-1f7f8dd1f0db',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
