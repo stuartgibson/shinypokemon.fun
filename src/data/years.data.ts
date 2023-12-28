@@ -1,4 +1,13 @@
 export const yearsData = {
+  '2024': {
+    data: {
+      type: 'year' as 'year',
+      id: '2024',
+      attributes: {
+        name: '2024',
+      }
+    }
+  },
   '2023': {
     data: {
       type: 'year' as 'year',
