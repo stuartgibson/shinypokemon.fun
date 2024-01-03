@@ -231,5 +231,16 @@ export const playersData:IPlayerEntities = {
         displayName: 'treeckonian'
       }
     }
-  }
+  },
+  // Níck Mārsh (@Citizen)
+  '61199295-67ee-46c8-baf8-42b51f83860a': {
+    data: {
+      type: 'player' as 'player',
+      id: '61199295-67ee-46c8-baf8-42b51f83860a',
+      attributes: {
+        realName: 'Níck Mārsh',
+        displayName: 'Citizen'
+      }
+    }
+  },
 }
