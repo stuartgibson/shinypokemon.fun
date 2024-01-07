@@ -1232,5 +1232,82 @@ export const pokemonDataGen9:IPokemonEntities = {
         'dexNo': '1017'
       }
     }
+  },
+  '748e2503-99c6-4c50-83fb-a87517b07b9a': {
+    'data': {
+      'id': '748e2503-99c6-4c50-83fb-a87517b07b9a',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Archaludon',
+        'generation': 9,
+        'dexNo': '1018'
+      }
+    }
+  },
+  '6e0ef545-2fca-4a75-b56c-eea58a86cc13': {
+    'data': {
+      'id': '6e0ef545-2fca-4a75-b56c-eea58a86cc13',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Hydrapple',
+        'generation': 9,
+        'dexNo': '1019'
+      }
+    }
+  },
+  '26aba993-9076-47e0-b47d-0c1a725fae77': {
+    'data': {
+      'id': '26aba993-9076-47e0-b47d-0c1a725fae77',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Gouging Fire',
+        'generation': 9,
+        'dexNo': '1020'
+      }
+    }
+  },
+  '06aee43b-21ca-4a0a-ad5c-e20cb52035d7': {
+    'data': {
+      'id': '06aee43b-21ca-4a0a-ad5c-e20cb52035d7',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Raging Bolt',
+        'generation': 9,
+        'dexNo': '1021'
+      }
+    }
+  },
+  '9aa67ef5-1d68-48c7-9a3c-64ea0a3981df': {
+    'data': {
+      'id': '9aa67ef5-1d68-48c7-9a3c-64ea0a3981df',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Iron Boulder',
+        'generation': 9,
+        'dexNo': '1022'
+      }
+    }
+  },
+  '0fb5b891-5a8c-40de-a064-8b178fb7bc08': {
+    'data': {
+      'id': '0fb5b891-5a8c-40de-a064-8b178fb7bc08',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Iron Crown',
+        'generation': 9,
+        'dexNo': '1023'
+      }
+    }
+  },
+  '847aef18-fc51-4894-927e-f8348dc8773f': {
+    'data': {
+      'id': '847aef18-fc51-4894-927e-f8348dc8773f',
+      'type': 'pokemon' as 'pokemon',
+      'attributes': {
+        'name': 'Terapagos',
+        'generation': 9,
+        'dexNo': '1024'
+      }
+    }
   }
 }
