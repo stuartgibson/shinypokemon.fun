@@ -3,10 +3,10 @@
     <div class="bg-image" [ngStyle]="{'background-image': pokemon()?.artwork}"></div>
     <div class="card-body">
       <div class="d-flex mb-3 gap-1">
-          @if (point.firstCatch) {
-            <span title="First Catch!">🏆</span>
-          }
-          <sp-inline-player [id]="point.playerID" />
+        @if (point.firstCatch) {
+          <span title="First Catch!">🏆</span>
+        }
+        <sp-inline-player [id]="point.playerID" />
       </div>
 
       <div class="d-flex flex-wrap">
