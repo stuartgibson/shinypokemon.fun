@@ -14,25 +14,8 @@
           <div class="flex-even">
             <dt>Pokémon:</dt>
             <dd class="d-flex gap-1">
-              <sp-ball [ballType]="point.ball" />
               <sp-inline-pokemon [id]="point.pokemonID" />
             </dd>
-          </div>
-          <div class="flex-even">
-            <dt>Date:</dt>
-            <dd><sp-date [date]="point.catchDate" class="flex-even" /></dd>
-          </div>
-        </dl>
-
-        <dl class="d-flex flex-even" style="flex-basis: 15rem">
-          <div class="flex-even">
-            <dt>Game:</dt>
-            <sp-game [gameType]="point.game" />
-          </div>
-
-          <div class="flex-even">
-            <dt>Method:</dt>
-            <sp-method [methodType]="point.method" />
           </div>
         </dl>
       </div>
