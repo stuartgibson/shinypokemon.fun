@@ -2,10 +2,10 @@
 import { ICompetitionEntity } from "store/reducers/competitions.reducer";
 
 export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
-'991c3bc0-bceb-430d-87e5-7af17467b095': {
+'2963c964-87b3-4b78-9224-2900f49e9644': {
   data: {
     type: 'competition',
-    id: '991c3bc0-bceb-430d-87e5-7af17467b095',
+    id: '2963c964-87b3-4b78-9224-2900f49e9644',
     attributes: {
       description: 'https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_that_are_not_part_of_an_evolutionary_line',
       endDate: '2020-01-18',
@@ -19,7 +19,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -28,10 +28,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'694c7ae0-d91b-4ad3-a262-bcc67d3c0de5': {
+'a665ba10-5341-4157-a213-a4db2f8a6acf': {
   data: {
     type: 'competition',
-    id: '694c7ae0-d91b-4ad3-a262-bcc67d3c0de5',
+    id: 'a665ba10-5341-4157-a213-a4db2f8a6acf',
     attributes: {
       description: 'https://docs.google.com/document/d/14FYNULhkwgSjQWO8BFW8_JJBXiPVj8ewSYh4GXaK3gA/',
       endDate: '2020-02-01',
@@ -45,7 +45,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -54,10 +54,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'e06a20cd-1f67-4ef0-8308-2b528cccb099': {
+'88518b90-60ef-42ff-9bd1-ff13b98fa601': {
   data: {
     type: 'competition',
-    id: 'e06a20cd-1f67-4ef0-8308-2b528cccb099',
+    id: '88518b90-60ef-42ff-9bd1-ff13b98fa601',
     attributes: {
       description: 'n/a',
       endDate: '2020-02-15',
@@ -71,7 +71,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -80,10 +80,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'b4d40573-2ba4-4ea3-a55b-f094b501e11a': {
+'71284cf5-082b-4fd6-b479-518eeb9a8da1': {
   data: {
     type: 'competition',
-    id: 'b4d40573-2ba4-4ea3-a55b-f094b501e11a',
+    id: '71284cf5-082b-4fd6-b479-518eeb9a8da1',
     attributes: {
       description: 'https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_name',
       endDate: '2020-02-29',
@@ -97,7 +97,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -106,10 +106,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'9f0bdec9-531e-470c-9a1a-291e5f69fdf6': {
+'59ac338e-4f7a-4b3b-b2a7-5f7f1f9438bc': {
   data: {
     type: 'competition',
-    id: '9f0bdec9-531e-470c-9a1a-291e5f69fdf6',
+    id: '59ac338e-4f7a-4b3b-b2a7-5f7f1f9438bc',
     attributes: {
       description: 'https://pastebin.com/2G8YXJEQ',
       endDate: '2020-03-14',
@@ -123,7 +123,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -132,10 +132,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'ef5f6ee7-3dd1-47dc-b1f7-207775132f70': {
+'dc7c06ee-9296-4d58-ac92-31e5efa03bca': {
   data: {
     type: 'competition',
-    id: 'ef5f6ee7-3dd1-47dc-b1f7-207775132f70',
+    id: 'dc7c06ee-9296-4d58-ac92-31e5efa03bca',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1-fg1b90cBQCQcbWRN7Qv73zcHNSm2Zc0aXSNi3yhkUc/edit?usp=sharing',
       endDate: '2020-03-28',
@@ -149,7 +149,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -158,10 +158,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'78d3ff15-5daa-4aeb-b9f7-90a771cdc4ed': {
+'4e227cf3-3990-4a93-af98-b7f627dfd2f4': {
   data: {
     type: 'competition',
-    id: '78d3ff15-5daa-4aeb-b9f7-90a771cdc4ed',
+    id: '4e227cf3-3990-4a93-af98-b7f627dfd2f4',
     attributes: {
       description: 'https://i.imgur.com/Dwb85bX.jpg',
       endDate: '2020-04-11',
@@ -175,7 +175,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -184,10 +184,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'7d152466-fc6b-4c28-bb27-6ad800970aee': {
+'06656a44-c7b8-4a0f-902b-bb2325496ada': {
   data: {
     type: 'competition',
-    id: '7d152466-fc6b-4c28-bb27-6ad800970aee',
+    id: '06656a44-c7b8-4a0f-902b-bb2325496ada',
     attributes: {
       description: 'https://pastebin.com/wqZxbb1a',
       endDate: '2020-04-25',
@@ -201,7 +201,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -210,10 +210,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'225ead31-f915-4655-be12-772690b610d7': {
+'550ac1b4-5f37-4b1b-ba9d-d402d6e9e2f3': {
   data: {
     type: 'competition',
-    id: '225ead31-f915-4655-be12-772690b610d7',
+    id: '550ac1b4-5f37-4b1b-ba9d-d402d6e9e2f3',
     attributes: {
       description: 'https://www.instagram.com/p/B8hiEKKhFhd/?igshid=1c7mtoo4nro8j',
       endDate: '2020-05-09',
@@ -227,7 +227,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -236,10 +236,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'fd23a421-9d56-4f06-a1c9-731cacf5f38f': {
+'f57624c4-ec73-4752-84b0-5daeab5c2431': {
   data: {
     type: 'competition',
-    id: 'fd23a421-9d56-4f06-a1c9-731cacf5f38f',
+    id: 'f57624c4-ec73-4752-84b0-5daeab5c2431',
     attributes: {
       description: 'n/a',
       endDate: '2020-05-23',
@@ -253,7 +253,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -262,10 +262,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'419ef4cd-e4e8-40f6-9571-968baeef6479': {
+'6d0c66a4-3be6-4ae8-9442-80eb206f2c9f': {
   data: {
     type: 'competition',
-    id: '419ef4cd-e4e8-40f6-9571-968baeef6479',
+    id: '6d0c66a4-3be6-4ae8-9442-80eb206f2c9f',
     attributes: {
       description: 'https://docs.google.com/document/d/1e3MvT5bXPuMJzzY2iOzKiZlEsLQx1aFhhV3PvKA1TfM/edit?usp=sharing',
       endDate: '2020-06-06',
@@ -279,7 +279,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -288,10 +288,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'bed3d738-067b-4fc3-a21b-60094781d5c2': {
+'73a2a954-d17e-43b5-953e-3d2fc3245045': {
   data: {
     type: 'competition',
-    id: 'bed3d738-067b-4fc3-a21b-60094781d5c2',
+    id: '73a2a954-d17e-43b5-953e-3d2fc3245045',
     attributes: {
       description: 'n/a',
       endDate: '2020-06-20',
@@ -305,7 +305,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -314,10 +314,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'5de0fcf8-3958-4adf-9cc3-6ae0c41e2147': {
+'bf1a5f2b-a142-44bc-97a6-69f203f35a67': {
   data: {
     type: 'competition',
-    id: '5de0fcf8-3958-4adf-9cc3-6ae0c41e2147',
+    id: 'bf1a5f2b-a142-44bc-97a6-69f203f35a67',
     attributes: {
       description: 'n/a',
       endDate: '2020-07-04',
@@ -331,7 +331,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -340,10 +340,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'055bff65-ea0b-4ceb-8960-5160a605eed8': {
+'589e2245-8994-4ab7-b603-522403bd2137': {
   data: {
     type: 'competition',
-    id: '055bff65-ea0b-4ceb-8960-5160a605eed8',
+    id: '589e2245-8994-4ab7-b603-522403bd2137',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1mT-CCPC6sHFH_xHOKS_oYD4K9-oqCQh43_LsHp57S7M/edit#gid=0',
       endDate: '2020-07-18',
@@ -357,7 +357,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -366,10 +366,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'de1c40cd-a491-4b2c-a090-f97747d673ce': {
+'6bc524e8-9354-4927-99f2-ac2198c7bc94': {
   data: {
     type: 'competition',
-    id: 'de1c40cd-a491-4b2c-a090-f97747d673ce',
+    id: '6bc524e8-9354-4927-99f2-ac2198c7bc94',
     attributes: {
       description: 'https://docs.google.com/document/d/1im0pRUYmRFOJiT_wRV5lVZf4kzKH-kv4xO2padIWJP4/',
       endDate: '2020-08-02',
@@ -383,7 +383,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -392,10 +392,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'d27e20b0-748a-4e56-ab1e-b4af12370a26': {
+'83a28340-3b9d-4a83-a752-7f5cd6a3ad8e': {
   data: {
     type: 'competition',
-    id: 'd27e20b0-748a-4e56-ab1e-b4af12370a26',
+    id: '83a28340-3b9d-4a83-a752-7f5cd6a3ad8e',
     attributes: {
       description: 'https://bulbapedia.bulbagarden.net/wiki/Schoolkid_(Trainer_class)#Trainer_list',
       endDate: '2020-08-15',
@@ -409,7 +409,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -418,10 +418,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'c352986c-86b2-4f2f-8c6b-03e9f5c9dc65': {
+'135d94ae-c9e0-42ed-9b0c-1d966ad5a8cb': {
   data: {
     type: 'competition',
-    id: 'c352986c-86b2-4f2f-8c6b-03e9f5c9dc65',
+    id: '135d94ae-c9e0-42ed-9b0c-1d966ad5a8cb',
     attributes: {
       description: 'https://justpaste.it/6ud0l',
       endDate: '2020-08-29',
@@ -435,7 +435,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -444,10 +444,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'213b11c4-8fb1-4b8f-986b-68454c4aa7c7': {
+'2e0cf103-f9cc-4efe-8812-3e3f352ef6ca': {
   data: {
     type: 'competition',
-    id: '213b11c4-8fb1-4b8f-986b-68454c4aa7c7',
+    id: '2e0cf103-f9cc-4efe-8812-3e3f352ef6ca',
     attributes: {
       description: 'n/a',
       endDate: '2020-09-12',
@@ -461,7 +461,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -470,10 +470,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'19298477-9baa-4099-be3b-497a6c13b8dc': {
+'13f113ec-f51b-48d5-8f02-041aac0f3778': {
   data: {
     type: 'competition',
-    id: '19298477-9baa-4099-be3b-497a6c13b8dc',
+    id: '13f113ec-f51b-48d5-8f02-041aac0f3778',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1-_1AdfHHwmzHphqijWXtjotI23aXxXM6Bqp5nZh78RA/edit',
       endDate: '2020-09-26',
@@ -487,7 +487,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -496,10 +496,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'8888c5a1-7329-4fd9-8031-fcc1e6ef5b62': {
+'a33df920-739f-4d60-a10d-0b7424a44119': {
   data: {
     type: 'competition',
-    id: '8888c5a1-7329-4fd9-8031-fcc1e6ef5b62',
+    id: 'a33df920-739f-4d60-a10d-0b7424a44119',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1cGnpbIw0Yb0stRsLSbMOTIFq84i4b0-LRuGLmGyzPZY/edit#gid=0',
       endDate: '2020-10-09',
@@ -513,7 +513,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -522,10 +522,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'2e96049e-9c5d-4f9e-a13b-88172c8eea7f': {
+'b2e3f263-5a5e-4038-a836-54163c2c5c63': {
   data: {
     type: 'competition',
-    id: '2e96049e-9c5d-4f9e-a13b-88172c8eea7f',
+    id: 'b2e3f263-5a5e-4038-a836-54163c2c5c63',
     attributes: {
       description: 'https://m.bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Alola_Pok%C3%A9dex_number_(Ultra_Sun_and_Ultra_Moon)',
       endDate: '2020-10-24',
@@ -539,7 +539,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -548,10 +548,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'7aeccf12-f127-4e00-b502-facc03c6261a': {
+'b8bdd2a1-c127-4b64-bbbe-6b82cd65b3f4': {
   data: {
     type: 'competition',
-    id: '7aeccf12-f127-4e00-b502-facc03c6261a',
+    id: 'b8bdd2a1-c127-4b64-bbbe-6b82cd65b3f4',
     attributes: {
       description: 'https://pastebin.com/h2FX1P9R',
       endDate: '2020-11-07',
@@ -565,7 +565,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -574,10 +574,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'68c811e0-7f15-4699-bcfa-c768174ce5b1': {
+'99f0450e-1ad4-48b5-b3f9-5888d6bba579': {
   data: {
     type: 'competition',
-    id: '68c811e0-7f15-4699-bcfa-c768174ce5b1',
+    id: '99f0450e-1ad4-48b5-b3f9-5888d6bba579',
     attributes: {
       description: 'https://www.serebii.net/swordshield/dynamaxadventurespokemon.shtml',
       endDate: '2020-11-21',
@@ -591,7 +591,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -600,10 +600,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'94ec2cce-52f3-46d4-b969-03ff9c9431bd': {
+'d948f2d4-2573-42a6-b8a6-e8701014f98b': {
   data: {
     type: 'competition',
-    id: '94ec2cce-52f3-46d4-b969-03ff9c9431bd',
+    id: 'd948f2d4-2573-42a6-b8a6-e8701014f98b',
     attributes: {
       description: 'https://m.bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_color',
       endDate: '2020-12-05',
@@ -617,7 +617,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -626,10 +626,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'c4065c9e-3f5c-47ef-ae18-25642e68b8c6': {
+'1ce0e430-3550-4ab6-9b72-fa2994935660': {
   data: {
     type: 'competition',
-    id: 'c4065c9e-3f5c-47ef-ae18-25642e68b8c6',
+    id: '1ce0e430-3550-4ab6-9b72-fa2994935660',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1ovwQNsEXAGPe9Tph9UuiUDFQAqX5C5lbzaXwMcjdflk/',
       endDate: '2020-12-19',
@@ -643,7 +643,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -652,10 +652,10 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'321cfaea-14fe-4005-9a98-ee723b6ece91': {
+'e8e06d40-7ea9-4191-8133-1f2d88d02649': {
   data: {
     type: 'competition',
-    id: '321cfaea-14fe-4005-9a98-ee723b6ece91',
+    id: 'e8e06d40-7ea9-4191-8133-1f2d88d02649',
     attributes: {
       description: 'n/a',
       endDate: '2020-12-31',
@@ -669,7 +669,7 @@ export const competitionsData2020: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }

@@ -4,21 +4,22 @@ import { MethodType } from "src/types/method.types";
 import { IPointEntities } from "store/reducers";
 
 export const pointsData2017_9:IPointEntities = {
-  '71f64b54-7057-49b3-be4c-850ac24f3696': {
+  '1da076ac-5004-471e-9774-a8fa8160e0c8': {
   data: {
-    id: '71f64b54-7057-49b3-be4c-850ac24f3696',
+    id: '1da076ac-5004-471e-9774-a8fa8160e0c8',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: '82c9bae9-dc66-4939-a840-11523a7cfcbd',
+          id: '8747fcc1-1b22-4be4-8137-a6660bcae823',
           type: 'competition'
         }
       },
@@ -26,26 +27,27 @@ export const pointsData2017_9:IPointEntities = {
         data: { id: 'ff4976ce-1519-4ad6-a124-eef49565fc58', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3', type: 'pokemon' }
       }
     }
   }
 },
-  '118bdc12-5ff2-4873-a61b-12eb635363d2': {
+  'a249fb7b-88df-4f8f-a06e-065b5b107e72': {
   data: {
-    id: '118bdc12-5ff2-4873-a61b-12eb635363d2',
+    id: 'a249fb7b-88df-4f8f-a06e-065b5b107e72',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: '82c9bae9-dc66-4939-a840-11523a7cfcbd',
+          id: '8747fcc1-1b22-4be4-8137-a6660bcae823',
           type: 'competition'
         }
       },
@@ -53,26 +55,27 @@ export const pointsData2017_9:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3', type: 'pokemon' }
       }
     }
   }
 },
-  '36986c97-d7f9-4ecb-9f56-c4ab01d9a0ba': {
+  'c43593fd-054d-4515-b1a7-65d4ce43bebb': {
   data: {
-    id: '36986c97-d7f9-4ecb-9f56-c4ab01d9a0ba',
+    id: 'c43593fd-054d-4515-b1a7-65d4ce43bebb',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: '82c9bae9-dc66-4939-a840-11523a7cfcbd',
+          id: '8747fcc1-1b22-4be4-8137-a6660bcae823',
           type: 'competition'
         }
       },
@@ -80,26 +83,27 @@ export const pointsData2017_9:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3', type: 'pokemon' }
       }
     }
   }
 },
-  'd350c1dc-0a04-4fcd-8d55-0cf3661e4895': {
+  '1b00e025-b3ea-45d1-9041-37724b5626cf': {
   data: {
-    id: 'd350c1dc-0a04-4fcd-8d55-0cf3661e4895',
+    id: '1b00e025-b3ea-45d1-9041-37724b5626cf',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: '82c9bae9-dc66-4939-a840-11523a7cfcbd',
+          id: '8747fcc1-1b22-4be4-8137-a6660bcae823',
           type: 'competition'
         }
       },
@@ -107,7 +111,7 @@ export const pointsData2017_9:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3', type: 'pokemon' }
       }
     }
   }

@@ -2,10 +2,10 @@
 import { ICompetitionEntity } from "store/reducers/competitions.reducer";
 
 export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
-'4a45df30-9687-41a9-8b57-ee8af4a4804f': {
+'16fbc2a3-ac2c-43da-9685-5fd5c37a6d06': {
   data: {
     type: 'competition',
-    id: '4a45df30-9687-41a9-8b57-ee8af4a4804f',
+    id: '16fbc2a3-ac2c-43da-9685-5fd5c37a6d06',
     attributes: {
       description: 'https://pastebin.com/kYqJ2qiw',
       endDate: '2022-01-22',
@@ -19,7 +19,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -28,10 +28,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'31fbb86c-2f2d-44e1-b047-287e52bd5658': {
+'2b124b50-43b6-445e-9c3e-a458119804d4': {
   data: {
     type: 'competition',
-    id: '31fbb86c-2f2d-44e1-b047-287e52bd5658',
+    id: '2b124b50-43b6-445e-9c3e-a458119804d4',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1YjNz7ny--Asrjl82L9YImoggEpO97XGcczN0ugw8yGY/edit?usp=drivesdk',
       endDate: '2022-02-05',
@@ -45,7 +45,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -54,10 +54,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'42bba818-a3b8-4612-8294-2f7bb38360ac': {
+'59d2b244-a5c2-4d6f-9cd0-b5a5000f28c1': {
   data: {
     type: 'competition',
-    id: '42bba818-a3b8-4612-8294-2f7bb38360ac',
+    id: '59d2b244-a5c2-4d6f-9cd0-b5a5000f28c1',
     attributes: {
       description: 'https://www.serebii.net/legendsarceus/hisuipokedex.shtml',
       endDate: '2022-02-19',
@@ -71,7 +71,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -80,10 +80,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'0473288b-31c2-45ec-8046-5c62243d497a': {
+'57f96399-4c8a-484e-a433-c4039066c922': {
   data: {
     type: 'competition',
-    id: '0473288b-31c2-45ec-8046-5c62243d497a',
+    id: '57f96399-4c8a-484e-a433-c4039066c922',
     attributes: {
       description: 'n/a',
       endDate: '2022-03-05',
@@ -97,7 +97,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -106,10 +106,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'5aa8a0f8-c462-4832-9ccd-771c66bd8137': {
+'0bfee8bd-e897-4517-a436-a69d73b3e5fb': {
   data: {
     type: 'competition',
-    id: '5aa8a0f8-c462-4832-9ccd-771c66bd8137',
+    id: '0bfee8bd-e897-4517-a436-a69d73b3e5fb',
     attributes: {
       description: 'n/a',
       endDate: '2022-03-19',
@@ -123,7 +123,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -132,10 +132,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'1f38d522-cfbc-4193-8f07-62f9ae3e8863': {
+'80d1ec0e-4e6b-4c9f-8add-f7d3ed3c6956': {
   data: {
     type: 'competition',
-    id: '1f38d522-cfbc-4193-8f07-62f9ae3e8863',
+    id: '80d1ec0e-4e6b-4c9f-8add-f7d3ed3c6956',
     attributes: {
       description: 'n/a',
       endDate: '2022-04-02',
@@ -149,7 +149,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -158,10 +158,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'5760acb6-23d7-4de6-98a2-24235fe78395': {
+'abae0467-c086-4c7e-bc34-156e5d280b30': {
   data: {
     type: 'competition',
-    id: '5760acb6-23d7-4de6-98a2-24235fe78395',
+    id: 'abae0467-c086-4c7e-bc34-156e5d280b30',
     attributes: {
       description: 'n/a',
       endDate: '2022-04-16',
@@ -175,7 +175,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -184,10 +184,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'d4a04be1-79df-4b1a-83b9-0fe75f28b784': {
+'69be78c0-02af-435f-a7ee-f940e9e71c46': {
   data: {
     type: 'competition',
-    id: 'd4a04be1-79df-4b1a-83b9-0fe75f28b784',
+    id: '69be78c0-02af-435f-a7ee-f940e9e71c46',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/12_OcVljw2Ytq6YkIRDiDfuK5OTKrhL4muLHVnK_Fop4/edit?usp=sharing',
       endDate: '2022-04-30',
@@ -201,7 +201,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -210,10 +210,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'28aac9c2-1660-4934-8ce8-452125454bad': {
+'37ac51fd-b82d-445b-a82d-bb4a100b3cff': {
   data: {
     type: 'competition',
-    id: '28aac9c2-1660-4934-8ce8-452125454bad',
+    id: '37ac51fd-b82d-445b-a82d-bb4a100b3cff',
     attributes: {
       description: 'https://gameinstants.com/bird-pokemon/#Bird_Pokemon_List',
       endDate: '2022-05-14',
@@ -227,7 +227,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -236,10 +236,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'7869bc83-db33-43c5-bf7d-3fcca4a5a632': {
+'06b08d93-3df6-460a-bd23-612feb9f10d6': {
   data: {
     type: 'competition',
-    id: '7869bc83-db33-43c5-bf7d-3fcca4a5a632',
+    id: '06b08d93-3df6-460a-bd23-612feb9f10d6',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1gH07hlodLMUea_eFkB4Q5qRqC_kaT4YnF41F-2bSZqc/edit?usp=sharing',
       endDate: '2022-05-28',
@@ -253,7 +253,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -262,10 +262,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'edd7e8e9-f2bf-405a-9ed3-7150525f4a7a': {
+'fbcce85c-6413-465f-ac41-cc8fd13922eb': {
   data: {
     type: 'competition',
-    id: 'edd7e8e9-f2bf-405a-9ed3-7150525f4a7a',
+    id: 'fbcce85c-6413-465f-ac41-cc8fd13922eb',
     attributes: {
       description: 'https://pastebin.com/D5UPENLL',
       endDate: '2022-06-11',
@@ -279,7 +279,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -288,10 +288,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'7c4dc05c-b35e-48ac-baf4-072b6aa7f190': {
+'7d08921d-decf-495e-b273-8179db4c689d': {
   data: {
     type: 'competition',
-    id: '7c4dc05c-b35e-48ac-baf4-072b6aa7f190',
+    id: '7d08921d-decf-495e-b273-8179db4c689d',
     attributes: {
       description: 'https://m.bulbapedia.bulbagarden.net/wiki/List_of_Goh%27s_Pok%C3%A9mon',
       endDate: '2022-06-25',
@@ -305,7 +305,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -314,10 +314,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'206f7924-3d56-404a-9b83-03da816809fc': {
+'7a089faf-ecb0-498b-a47b-fb673d2ac13e': {
   data: {
     type: 'competition',
-    id: '206f7924-3d56-404a-9b83-03da816809fc',
+    id: '7a089faf-ecb0-498b-a47b-fb673d2ac13e',
     attributes: {
       description: 'https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_height#0.2700.22_-_0.2708.22_.280.0_m_-_0.2_m.29',
       endDate: '2022-07-09',
@@ -331,7 +331,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -340,10 +340,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'99af5686-74e0-4372-b7c1-bf63b8d69256': {
+'82c09900-cc61-4027-a14c-4815ebc1616a': {
   data: {
     type: 'competition',
-    id: '99af5686-74e0-4372-b7c1-bf63b8d69256',
+    id: '82c09900-cc61-4027-a14c-4815ebc1616a',
     attributes: {
       description: 'https://www.serebii.net/card/dex/artist/tomokazukomiya.shtml',
       endDate: '2022-07-23',
@@ -357,7 +357,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -366,10 +366,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'6adfd2a9-5517-4c9e-ae05-f0cf16e340e4': {
+'d2172370-ab43-4853-b102-c1de65996761': {
   data: {
     type: 'competition',
-    id: '6adfd2a9-5517-4c9e-ae05-f0cf16e340e4',
+    id: 'd2172370-ab43-4853-b102-c1de65996761',
     attributes: {
       description: 'n/a',
       endDate: '2022-08-06',
@@ -383,7 +383,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -392,10 +392,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'2009a4d5-0ea5-41e3-9d12-d4a5ccee8a94': {
+'9907460a-4285-4a66-befb-74b70f6a387a': {
   data: {
     type: 'competition',
-    id: '2009a4d5-0ea5-41e3-9d12-d4a5ccee8a94',
+    id: '9907460a-4285-4a66-befb-74b70f6a387a',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/1KwcPK9aYouXoTMyPdqI4vP8KiIdtxStMpYFLjYx4BmQ/edit?usp=sharing',
       endDate: '2022-08-20',
@@ -409,7 +409,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -418,10 +418,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'c4eacf70-10f7-4f72-85ba-80f727970850': {
+'c62d558c-feea-47d1-a360-84bccbf60e08': {
   data: {
     type: 'competition',
-    id: 'c4eacf70-10f7-4f72-85ba-80f727970850',
+    id: 'c62d558c-feea-47d1-a360-84bccbf60e08',
     attributes: {
       description: 'https://www.serebii.net/pokemonmasters/pokemon.shtml',
       endDate: '2022-09-03',
@@ -435,7 +435,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -444,10 +444,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'f4592185-7418-4070-9014-c24a23316947': {
+'729fdf32-c66c-4b26-8eda-8232138ba43e': {
   data: {
     type: 'competition',
-    id: 'f4592185-7418-4070-9014-c24a23316947',
+    id: '729fdf32-c66c-4b26-8eda-8232138ba43e',
     attributes: {
       description: 'https://www.serebii.net/attackdex-swsh/absorb.shtml',
       endDate: '2022-09-17',
@@ -461,7 +461,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -470,10 +470,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'401a2b7c-466a-4588-936d-9048ef4df186': {
+'3560126e-7661-49f5-a855-98d8623acec4': {
   data: {
     type: 'competition',
-    id: '401a2b7c-466a-4588-936d-9048ef4df186',
+    id: '3560126e-7661-49f5-a855-98d8623acec4',
     attributes: {
       description: 'https://docs.google.com/spreadsheets/d/11cqF-EsuBskk_rV4HOeKZmqbQNnILFhOrSpMmUA3N2o/edit?usp=drivesdk',
       endDate: '2022-10-01',
@@ -487,7 +487,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -496,10 +496,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'a9bfe174-b80a-401c-bb99-a33f9b8fe82f': {
+'a503b3dc-e62f-4c13-9a7d-31e3cee2a51a': {
   data: {
     type: 'competition',
-    id: 'a9bfe174-b80a-401c-bb99-a33f9b8fe82f',
+    id: 'a503b3dc-e62f-4c13-9a7d-31e3cee2a51a',
     attributes: {
       description: 'http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number?wprov=sfla1',
       endDate: '2022-10-15',
@@ -513,7 +513,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -522,10 +522,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'3db7a77b-c21f-489d-8a8f-543f78a82afa': {
+'3570c0a0-2df4-4ee2-976a-03553c7c2648': {
   data: {
     type: 'competition',
-    id: '3db7a77b-c21f-489d-8a8f-543f78a82afa',
+    id: '3570c0a0-2df4-4ee2-976a-03553c7c2648',
     attributes: {
       description: 'n/a',
       endDate: '2022-10-29',
@@ -539,7 +539,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -548,10 +548,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'2915b51b-23ba-4712-86f4-10e4e96bb0b2': {
+'3e4afdf4-8ca3-45a2-b37e-8fa2181bc1b6': {
   data: {
     type: 'competition',
-    id: '2915b51b-23ba-4712-86f4-10e4e96bb0b2',
+    id: '3e4afdf4-8ca3-45a2-b37e-8fa2181bc1b6',
     attributes: {
       description: "For this theme you can hunt any Pokemon you want.... But it can't be found from the game you used to get your most recent point.",
       endDate: '2022-11-12',
@@ -565,7 +565,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }
@@ -574,10 +574,10 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
     }
   }
 },
-'c15b1212-3a9a-4403-8f8b-21024f2beab2': {
+'1850d245-863a-4608-9402-b54a32c37760': {
   data: {
     type: 'competition',
-    id: 'c15b1212-3a9a-4403-8f8b-21024f2beab2',
+    id: '1850d245-863a-4608-9402-b54a32c37760',
     attributes: {
       description: 'n/a',
       endDate: '2022-12-31',
@@ -591,7 +591,7 @@ export const competitionsData2022: { [id: string]: ICompetitionEntity } = {
       validPokemon: [
         {
           data: {
-            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
             type: 'pokemon'
           }
         }

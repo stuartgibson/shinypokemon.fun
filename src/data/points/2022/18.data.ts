@@ -4,21 +4,22 @@ import { MethodType } from "src/types/method.types";
 import { IPointEntities } from "store/reducers";
 
 export const pointsData2022_18:IPointEntities = {
-  'b34a9c33-5f91-4bd5-8dab-df927a4a9165': {
+  '48babde3-14cc-46f9-95ce-4965bfa75fcf': {
   data: {
-    id: 'b34a9c33-5f91-4bd5-8dab-df927a4a9165',
+    id: '48babde3-14cc-46f9-95ce-4965bfa75fcf',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: true,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: 'f4592185-7418-4070-9014-c24a23316947',
+          id: '729fdf32-c66c-4b26-8eda-8232138ba43e',
           type: 'competition'
         }
       },
@@ -26,26 +27,27 @@ export const pointsData2022_18:IPointEntities = {
         data: { id: '1e665730-88cd-4ca3-b03c-961c3a71e749', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: '286b3fa7-8124-41ba-88b9-210b1d135d55', type: 'pokemon' }
       }
     }
   }
 },
-  '3a275f98-41f0-4ffd-aa17-546299e9f4a3': {
+  '6d11c88b-e8da-4481-b65e-91aad2a6731f': {
   data: {
-    id: '3a275f98-41f0-4ffd-aa17-546299e9f4a3',
+    id: '6d11c88b-e8da-4481-b65e-91aad2a6731f',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: 'f4592185-7418-4070-9014-c24a23316947',
+          id: '729fdf32-c66c-4b26-8eda-8232138ba43e',
           type: 'competition'
         }
       },
@@ -53,26 +55,27 @@ export const pointsData2022_18:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: 'c7ffe447-807d-4a54-8358-3e50a066430c', type: 'pokemon' }
       }
     }
   }
 },
-  '19704064-6b31-4a9a-9790-1721f2271699': {
+  '0b958c65-673e-4e81-8a0f-b5d4e1815be9': {
   data: {
-    id: '19704064-6b31-4a9a-9790-1721f2271699',
+    id: '0b958c65-673e-4e81-8a0f-b5d4e1815be9',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: 'f4592185-7418-4070-9014-c24a23316947',
+          id: '729fdf32-c66c-4b26-8eda-8232138ba43e',
           type: 'competition'
         }
       },
@@ -80,26 +83,27 @@ export const pointsData2022_18:IPointEntities = {
         data: { id: '7d054896-a0ea-4368-bff1-856b6abf8419', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: '7af0e968-d555-4acb-b030-8fdd64600615', type: 'pokemon' }
       }
     }
   }
 },
-  'f6c34fbb-329d-4ec4-b68b-2375d1ce091a': {
+  '17658d3e-e12c-4b3e-8841-bbd667806ade': {
   data: {
-    id: 'f6c34fbb-329d-4ec4-b68b-2375d1ce091a',
+    id: '17658d3e-e12c-4b3e-8841-bbd667806ade',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: 'f4592185-7418-4070-9014-c24a23316947',
+          id: '729fdf32-c66c-4b26-8eda-8232138ba43e',
           type: 'competition'
         }
       },
@@ -107,26 +111,27 @@ export const pointsData2022_18:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: '3bd8dcbc-9969-4ce1-830c-bfa707d2d9e1', type: 'pokemon' }
       }
     }
   }
 },
-  '770bad7e-4cfc-4098-9a30-3e5f38de5b6c': {
+  '0cb9b702-d557-4ad8-993d-ce254a12be34': {
   data: {
-    id: '770bad7e-4cfc-4098-9a30-3e5f38de5b6c',
+    id: '0cb9b702-d557-4ad8-993d-ce254a12be34',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: 'f4592185-7418-4070-9014-c24a23316947',
+          id: '729fdf32-c66c-4b26-8eda-8232138ba43e',
           type: 'competition'
         }
       },
@@ -134,26 +139,27 @@ export const pointsData2022_18:IPointEntities = {
         data: { id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: 'c7ffe447-807d-4a54-8358-3e50a066430c', type: 'pokemon' }
       }
     }
   }
 },
-  '2a1a48ca-2e57-4c51-b69b-dc2647d85eca': {
+  '3f7d22e3-350e-4730-822b-eae900e2e946': {
   data: {
-    id: '2a1a48ca-2e57-4c51-b69b-dc2647d85eca',
+    id: '3f7d22e3-350e-4730-822b-eae900e2e946',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: false,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: 'f4592185-7418-4070-9014-c24a23316947',
+          id: '729fdf32-c66c-4b26-8eda-8232138ba43e',
           type: 'competition'
         }
       },
@@ -161,7 +167,7 @@ export const pointsData2022_18:IPointEntities = {
         data: { id: '598cdb35-d004-4ddd-b81d-a50e2894c622', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: '509aa4ab-b4b6-4d73-a7f2-211f66aa3649', type: 'pokemon' }
       }
     }
   }

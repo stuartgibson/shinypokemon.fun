@@ -4,21 +4,22 @@ import { MethodType } from "src/types/method.types";
 import { IPointEntities } from "store/reducers";
 
 export const pointsData2019_20:IPointEntities = {
-  '6c034bc7-9817-4bb0-a5f8-18cd7417ced6': {
+  '638aacfa-e280-4f87-b96b-5b45fcc4baf5': {
   data: {
-    id: '6c034bc7-9817-4bb0-a5f8-18cd7417ced6',
+    id: '638aacfa-e280-4f87-b96b-5b45fcc4baf5',
     type: 'point',
     attributes: {
       ball: null,
       catchDate: null,
       firstCatch: true,
       game: null,
-      method: null
+      method: null,
+      oldSystemPoint: true
     },
     relationships: {
       competition: {
         data: {
-          id: 'b01b1bce-a2f1-405b-9e4a-9ffed74253d1',
+          id: 'f695d6b1-a0ee-4479-b1ca-1668a8ce4e79',
           type: 'competition'
         }
       },
@@ -26,7 +27,7 @@ export const pointsData2019_20:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff', type: 'pokemon' }
+        data: { id: '2b3bdf14-d2fe-491b-857b-b6b973cc5d27', type: 'pokemon' }
       }
     }
   }
