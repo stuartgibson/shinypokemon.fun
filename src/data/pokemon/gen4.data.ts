@@ -1150,7 +1150,7 @@ export const pokemonDataGen4:IPokemonEntities = {
       'id': '8a625456-e3af-4a2e-b0ce-0baea8bd4fcb',
       'type': 'pokemon' as 'pokemon',
       'attributes': {
-        'name': 'Darkrai ',
+        'name': 'Darkrai',
         'generation': 4,
         'dexNo': '0491'
       }
