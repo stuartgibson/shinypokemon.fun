@@ -14,7 +14,8 @@
         catchDate: '{{ point.catchDate!.toISOString().split('T')[0] }}',
         firstCatch: {{ point.firstCatch }},
         game: {{ point.game ? '\'' + point.game + '\' as GameType' : 'null' }},
-        method: {{ point.method ? '\'' + point.method + '\' as MethodType' : 'null' }}
+        method: {{ point.method ? '\'' + point.method + '\' as MethodType' : 'null' }},
+        oldSystemPoint: false
       &#125;,
       relationships: {{ '{' }}
         competition: {{ '{' }}
@@ -48,15 +49,9 @@
     <div class="card-body">
       <h3>Create Point</h3>
 
-      <form
-        [formGroup]="pointForm"
-        (ngSubmit)="createPoint()">
+      <form [formGroup]="pointForm" (ngSubmit)="createPoint()">
         <div class="mb-3">
-          <label
-            for="competition"
-            class="form-label">
-            Competition:
-          </label>
+          <label for="competition" class="form-label"> Competition: </label>
           <input
             container="body"
             [editable]="false"
@@ -66,15 +61,12 @@
             formControlName="competition"
             [ngbTypeahead]="competitionSearch"
             [inputFormatter]="competitionInputFormatter"
-            [resultTemplate]="competitionTemplate">
+            [resultTemplate]="competitionTemplate"
+          />
         </div>
 
         <div class="mb-3">
-          <label
-            for="player"
-            class="form-label">
-            Player:
-          </label>
+          <label for="player" class="form-label"> Player: </label>
           <input
             autofocus
             container="body"
@@ -85,15 +77,12 @@
             formControlName="player"
             [ngbTypeahead]="playerSearch"
             [inputFormatter]="playerInputFormatter"
-            [resultTemplate]="playerTemplate">
+            [resultTemplate]="playerTemplate"
+          />
         </div>
 
         <div class="mb-3">
-          <label
-            for="pokemon"
-            class="form-label">
-            Pokémon:
-          </label>
+          <label for="pokemon" class="form-label"> Pokémon: </label>
           <input
             container="body"
             [editable]="false"
@@ -103,60 +92,43 @@
             formControlName="pokemon"
             [ngbTypeahead]="pokemonSearch"
             [inputFormatter]="pokemonInputFormatter"
-            [resultTemplate]="pokemonTemplate">
+            [resultTemplate]="pokemonTemplate"
+          />
         </div>
 
         <div class="smart-layout-evenly">
           <div class="mb-3">
-            <label
-              for="ball"
-              class="form-label">
-              Ball:
-            </label>
-            <select
-              formControlName="ball"
-              class="form-select">
+            <label for="ball" class="form-label"> Ball: </label>
+            <select formControlName="ball" class="form-select">
               <option selected>&mdash;</option>
               @for (ball of ballList; track ball.id) {
-                <option [value]="ball.id">
-                  {{ ball.name }}
-                </option>
+              <option [value]="ball.id">
+                {{ ball.name }}
+              </option>
               }
             </select>
           </div>
 
           <div class="mb-3">
-            <label
-              for="game"
-              class="form-label">
-              Game:
-            </label>
-            <select
-              formControlName="game"
-              class="form-select">
+            <label for="game" class="form-label"> Game: </label>
+            <select formControlName="game" class="form-select">
               <option selected>&mdash;</option>
               @for (game of gameList; track game.id) {
-                <option [value]="game.id">
-                  {{ game.name }}
-                </option>
+              <option [value]="game.id">
+                {{ game.name }}
+              </option>
               }
             </select>
           </div>
 
           <div class="mb-3">
-            <label
-              for="method"
-              class="form-label">
-              Method:
-            </label>
-            <select
-              formControlName="method"
-              class="form-select">
+            <label for="method" class="form-label"> Method: </label>
+            <select formControlName="method" class="form-select">
               <option selected>&mdash;</option>
               @for (method of methodList; track method.id) {
-                <option [value]="method.id">
-                  {{ method.name }}
-                </option>
+              <option [value]="method.id">
+                {{ method.name }}
+              </option>
               }
             </select>
           </div>
@@ -164,11 +136,7 @@
 
         <div class="smart-layout-evenly">
           <div class="mb-3">
-            <label
-              for="catchDate"
-              class="form-label">
-              Date:
-            </label>
+            <label for="catchDate" class="form-label"> Date: </label>
             <div class="input-group">
               <input
                 class="form-control"
@@ -176,8 +144,13 @@
                 name="dp"
                 formControlName="catchDate"
                 ngbDatepicker
-                #d="ngbDatepicker">
-              <button class="btn btn-outline-secondary" (click)="d.toggle()" type="button">
+                #d="ngbDatepicker"
+              />
+              <button
+                class="btn btn-outline-secondary"
+                (click)="d.toggle()"
+                type="button"
+              >
                 D
               </button>
             </div>
@@ -185,7 +158,12 @@
 
           <div class="mb-3">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" formControlName="firstCatch" id="first-catch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                formControlName="firstCatch"
+                id="first-catch"
+              />
               <label class="form-check-label" for="first-catch">
                 First Catch?
               </label>
@@ -197,7 +175,8 @@
           <button
             type="submit"
             class="btn btn-outline-success"
-            [disabled]="pointForm.invalid">
+            [disabled]="pointForm.invalid"
+          >
             Add Point
           </button>
         </div>
@@ -206,18 +185,20 @@
   </div>
 </div>
 
-
 <ng-template #competitionTemplate let-r="result" let-t="term">
-	{{ r.theme }}<br>
+  {{ r.theme }}<br />
   <small>
-    <sp-date-range [startDate]="r.startDate" [endDate]="r.endDate"></sp-date-range>
+    <sp-date-range
+      [startDate]="r.startDate"
+      [endDate]="r.endDate"
+    ></sp-date-range>
   </small>
 </ng-template>
 
 <ng-template #playerTemplate let-r="result" let-t="term">
-	{{ r.formattedName }}
+  {{ r.formattedName }}
 </ng-template>
 
 <ng-template #pokemonTemplate let-r="result" let-t="term">
-	{{ r.dexNo }}. {{ r.name }}
+  {{ r.dexNo }}. {{ r.name }}
 </ng-template>

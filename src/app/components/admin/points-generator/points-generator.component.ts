@@ -129,6 +129,7 @@ export class PointsGeneratorComponent implements OnInit {
           firstCatch: !!this.pointForm.value.firstCatch,
           game: this.pointForm.value.game || null,
           method: this.pointForm.value.method || null,
+          oldSystemPoint: false
         },
         relationships: {
           competition: {

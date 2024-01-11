@@ -21,6 +21,7 @@ export interface IPointEntity extends IJsonApiEntity {
       firstCatch:boolean;
       game:GameType|null;
       method:MethodType|null;
+      oldSystemPoint?:boolean;
     };
     relationships: {
       competition: IJsonApiRelationship
