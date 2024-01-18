@@ -1009,4 +1009,40 @@ export const pointsData2024_1: IPointEntities = {
       },
     },
   },
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Sujeethan (@Suj aka profgetrekt)
+  //  0052. Meowth (Alolan)
+  '6f1feeac-e76c-420a-8c1d-90bb0d979517': {
+    data: {
+      id: '6f1feeac-e76c-420a-8c1d-90bb0d979517',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'db6f2d6c-a9df-4dde-8ef0-a3ebeda4b050',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '52a6f371-58db-451b-bcad-414fbda4ae75',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
