@@ -243,4 +243,15 @@ export const playersData:IPlayerEntities = {
       }
     }
   },
+  // Sujeethan (@Suj aka profgetrekt)
+  'db6f2d6c-a9df-4dde-8ef0-a3ebeda4b050': {
+    data: {
+      type: 'player' as 'player',
+      id: 'db6f2d6c-a9df-4dde-8ef0-a3ebeda4b050',
+      attributes: {
+        realName: 'Sujeethan',
+        displayName: 'Suj aka profgetrekt'
+      }
+    }
+  },
 }
