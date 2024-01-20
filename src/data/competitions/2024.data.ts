@@ -1505,7 +1505,7 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
       type: 'competition',
       id: '3be27f11-188f-413e-a064-cc31a75d9e19',
       attributes: {
-        description: '',
+        description: 'Water Taruos Only',
         endDate: '2024-02-03',
         startDate: '2024-01-21',
         theme: 'Water Pokémon With Feet',
