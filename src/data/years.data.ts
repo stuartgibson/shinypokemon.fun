@@ -43,5 +43,32 @@ export const yearsData = {
         name: '2020',
       }
     }
+  },
+  '2019': {
+    data: {
+      type: 'year' as 'year',
+      id: '2019',
+      attributes: {
+        name: '2019',
+      }
+    }
+  },
+  '2018': {
+    data: {
+      type: 'year' as 'year',
+      id: '2018',
+      attributes: {
+        name: '2018',
+      }
+    }
+  },
+  '2017': {
+    data: {
+      type: 'year' as 'year',
+      id: '2017',
+      attributes: {
+        name: '2017',
+      }
+    }
   }
 }

@@ -12,6 +12,7 @@ interface IPoint extends IAppModel {
   readonly method:MethodType|null;
   readonly pokemonID:string;
   readonly playerID:string;
+  readonly oldSystemPoint?:boolean;
 }
 
 export class Point extends AppModel implements IPoint {
@@ -23,6 +24,7 @@ export class Point extends AppModel implements IPoint {
   readonly method:MethodType|null;
   readonly pokemonID:string;
   readonly playerID:string;
+  readonly oldSystemPoint:boolean;
 
   constructor(data:any) {
     super(data);
@@ -34,5 +36,6 @@ export class Point extends AppModel implements IPoint {
     this.method = this.attribute('method');
     this.pokemonID = this.relationshipID('pokemon')!;
     this.playerID = this.relationshipID('player')!;
+    this.oldSystemPoint = this.attribute('oldSystemPoint') || false;
   }
 }

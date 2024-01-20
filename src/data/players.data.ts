@@ -199,7 +199,7 @@ export const playersData:IPlayerEntities = {
       }
     }
   },
-  // Bobby De Walt (@bobby)
+  // Padukes (@Padukes)
   '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0': {
     data: {
       type: 'player' as 'player',
@@ -251,6 +251,578 @@ export const playersData:IPlayerEntities = {
       attributes: {
         realName: 'Sujeethan',
         displayName: 'Suj aka profgetrekt'
+      }
+    }
+  },
+    // Coalchaser (@Coalchaser)
+  'e6f1bc63-842c-4927-afc8-65195e80300b': {
+    data: {
+      type: 'player' as 'player',
+      id: 'e6f1bc63-842c-4927-afc8-65195e80300b',
+      attributes: {
+        realName: 'Coalchaser',
+        displayName: 'Coalchaser'
+      }
+    }
+  },
+    // Russell Holman (@Russell Holman)
+  'df6041b3-7498-45ed-af96-a2bcfe200658': {
+    data: {
+      type: 'player' as 'player',
+      id: 'df6041b3-7498-45ed-af96-a2bcfe200658',
+      attributes: {
+        realName: 'Russell Holman',
+        displayName: 'Russell Holman'
+      }
+    }
+  },
+    // Raf (@Raf)
+  '4771a069-caee-43af-bc7e-2ed2faed1cae': {
+    data: {
+      type: 'player' as 'player',
+      id: '4771a069-caee-43af-bc7e-2ed2faed1cae',
+      attributes: {
+        realName: 'Raf',
+        displayName: 'RifRafLagu'
+      }
+    }
+  },
+    // Jamesdj91 (@Jamesdj91)
+  '598cdb35-d004-4ddd-b81d-a50e2894c622': {
+    data: {
+      type: 'player' as 'player',
+      id: '598cdb35-d004-4ddd-b81d-a50e2894c622',
+      attributes: {
+        realName: 'Jamesdj91',
+        displayName: 'Jamesdj91'
+      }
+    }
+  },
+    // YB (@YB)
+  '7c117b87-de0c-44fa-bffa-aade67120eb2': {
+    data: {
+      type: 'player' as 'player',
+      id: '7c117b87-de0c-44fa-bffa-aade67120eb2',
+      attributes: {
+        realName: 'YB',
+        displayName: 'YB'
+      }
+    }
+  },
+    // Arafaf (@Arafaf)
+  'aa771ef8-e928-49b9-bfc9-1799a592859a': {
+    data: {
+      type: 'player' as 'player',
+      id: 'aa771ef8-e928-49b9-bfc9-1799a592859a',
+      attributes: {
+        realName: 'Arafaf',
+        displayName: 'Arafaf'
+      }
+    }
+  },
+    // Drew (@Drew)
+  '77f7c559-3061-464e-aceb-b6e0e46209ae': {
+    data: {
+      type: 'player' as 'player',
+      id: '77f7c559-3061-464e-aceb-b6e0e46209ae',
+      attributes: {
+        realName: 'Drew',
+        displayName: 'Drew'
+      }
+    }
+  },
+    // Kyle Johnson (@Kyle Johnson)
+  'ef280c22-30f9-4afc-ab79-b881df19a00f': {
+    data: {
+      type: 'player' as 'player',
+      id: 'ef280c22-30f9-4afc-ab79-b881df19a00f',
+      attributes: {
+        realName: 'Kyle Johnson',
+        displayName: 'kyle'
+      }
+    }
+  },
+    // Jonathan (@Jonathan)
+  'f038b11b-539a-4850-ad61-19e4fce64c43': {
+    data: {
+      type: 'player' as 'player',
+      id: 'f038b11b-539a-4850-ad61-19e4fce64c43',
+      attributes: {
+        realName: 'Jonathan',
+        displayName: 'kinoko Nelson'
+      }
+    }
+  },
+    // Cole (@Cole)
+  'e57150b0-3052-4ee8-919b-ae1e3054cab1': {
+    data: {
+      type: 'player' as 'player',
+      id: 'e57150b0-3052-4ee8-919b-ae1e3054cab1',
+      attributes: {
+        realName: 'Cole',
+        displayName: 'Chatot'
+      }
+    }
+  },
+    // Steven (@Steven)
+  'e5af3fa8-0198-40df-8ce3-5370499ea7c1': {
+    data: {
+      type: 'player' as 'player',
+      id: 'e5af3fa8-0198-40df-8ce3-5370499ea7c1',
+      attributes: {
+        realName: 'Steven',
+        displayName: 'TeensTeven'
+      }
+    }
+  },
+    // Alex (@Alex)
+  '238a9a85-7020-480f-bb8b-b0d4278b52b7': {
+    data: {
+      type: 'player' as 'player',
+      id: '238a9a85-7020-480f-bb8b-b0d4278b52b7',
+      attributes: {
+        realName: 'Alex',
+        displayName: 'Template'
+      }
+    }
+  },
+    // Fiona (@Fiona)
+  'd7d1107a-326f-4cff-9251-f44e259883c3': {
+    data: {
+      type: 'player' as 'player',
+      id: 'd7d1107a-326f-4cff-9251-f44e259883c3',
+      attributes: {
+        realName: 'Fiona',
+        displayName: 'theflyingfiona'
+      }
+    }
+  },
+    // Mia (@Mia)
+  '5962020d-0386-4350-8eff-89953210abb9': {
+    data: {
+      type: 'player' as 'player',
+      id: '5962020d-0386-4350-8eff-89953210abb9',
+      attributes: {
+        realName: 'Mia',
+        displayName: 'mia'
+      }
+    }
+  },
+    // Zachary (@Zachary)
+  '9e413531-b5d5-4ade-989a-f20f971bd02c': {
+    data: {
+      type: 'player' as 'player',
+      id: '9e413531-b5d5-4ade-989a-f20f971bd02c',
+      attributes: {
+        realName: 'Zachary',
+        displayName: 'Zachary Ptacek'
+      }
+    }
+  },
+    // Codey (@Codey)
+  '3ff8faa9-e2e6-4895-bd67-5a14f5ca7ead': {
+    data: {
+      type: 'player' as 'player',
+      id: '3ff8faa9-e2e6-4895-bd67-5a14f5ca7ead',
+      attributes: {
+        realName: 'Codey',
+        displayName: 'codey.mathis'
+      }
+    }
+  },
+    // Brandon (@Brandon)
+  '938a3ab8-2b5a-4666-bc53-5e6c284ec323': {
+    data: {
+      type: 'player' as 'player',
+      id: '938a3ab8-2b5a-4666-bc53-5e6c284ec323',
+      attributes: {
+        realName: 'Brandon',
+        displayName: 'brandonweisner'
+      }
+    }
+  },
+    // Derek (@Derek)
+  'b977ef18-feea-41cb-8fd6-67512595ec32': {
+    data: {
+      type: 'player' as 'player',
+      id: 'b977ef18-feea-41cb-8fd6-67512595ec32',
+      attributes: {
+        realName: 'Derek',
+        displayName: 'DerekRed'
+      }
+    }
+  },
+    // Wesley (@Wesley)
+  'e4bd5ce2-115d-488a-b63c-07d0e34de752': {
+    data: {
+      type: 'player' as 'player',
+      id: 'e4bd5ce2-115d-488a-b63c-07d0e34de752',
+      attributes: {
+        realName: 'Wesley',
+        displayName: 'WesleytheBestley'
+      }
+    }
+  },
+    // Jack (@Jack)
+  '136dffcb-c364-4d04-96f7-e59d54eb88fb': {
+    data: {
+      type: 'player' as 'player',
+      id: '136dffcb-c364-4d04-96f7-e59d54eb88fb',
+      attributes: {
+        realName: 'Jack',
+        displayName: 'JackMeek'
+      }
+    }
+  },
+    // T.C. Clockworth (@T.C. Clockworth)
+  '2c15c3ea-cef1-4fd3-9506-6a6533ebbe75': {
+    data: {
+      type: 'player' as 'player',
+      id: '2c15c3ea-cef1-4fd3-9506-6a6533ebbe75',
+      attributes: {
+        realName: 'T.C. Clockworth',
+        displayName: 'T.C. Clockworth'
+      }
+    }
+  },
+    // Steve (@Steve)
+  'dc7bd870-037f-45d8-bf8d-3e98a361cf49': {
+    data: {
+      type: 'player' as 'player',
+      id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+      attributes: {
+        realName: 'Steve',
+        displayName: 'sbj'
+      }
+    }
+  },
+    // Matt (@Matt)
+  '2f7c0a2c-f08d-4f17-bdb0-3a6fab1961cd': {
+    data: {
+      type: 'player' as 'player',
+      id: '2f7c0a2c-f08d-4f17-bdb0-3a6fab1961cd',
+      attributes: {
+        realName: 'Matt',
+        displayName: 'sneakydreepy'
+      }
+    }
+  },
+    // Levi (@Levi)
+  '05265aad-2f6e-43c9-aee8-21eef8c44ca2': {
+    data: {
+      type: 'player' as 'player',
+      id: '05265aad-2f6e-43c9-aee8-21eef8c44ca2',
+      attributes: {
+        realName: 'Levi',
+        displayName: 'Levi Hiatt'
+      }
+    }
+  },
+    // Kasey (@Kasey)
+  '6399a15d-3b68-4481-8cc0-f89ea6c40afd': {
+    data: {
+      type: 'player' as 'player',
+      id: '6399a15d-3b68-4481-8cc0-f89ea6c40afd',
+      attributes: {
+        realName: 'Kasey',
+        displayName: 'ceratops'
+      }
+    }
+  },
+    // Stephen Decker (@Stephen Decker)
+  '7acf5596-0ed0-49b3-8241-1daf82694eff': {
+    data: {
+      type: 'player' as 'player',
+      id: '7acf5596-0ed0-49b3-8241-1daf82694eff',
+      attributes: {
+        realName: 'Stephen Decker',
+        displayName: 'stephen'
+      }
+    }
+  },
+    // Franco (@Franco)
+  '02907e2a-e824-4b5c-98db-ef0726905b67': {
+    data: {
+      type: 'player' as 'player',
+      id: '02907e2a-e824-4b5c-98db-ef0726905b67',
+      attributes: {
+        realName: 'Franco',
+        displayName: 'fresh'
+      }
+    }
+  },
+    // Jason (@Jason)
+  '0a5dd7d1-79a7-4d86-b620-09b437065519': {
+    data: {
+      type: 'player' as 'player',
+      id: '0a5dd7d1-79a7-4d86-b620-09b437065519',
+      attributes: {
+        realName: 'Jason',
+        displayName: 'marshtomp'
+      }
+    }
+  },
+    // Riley (@Riley)
+  'fd81057e-5b85-45f9-9cc3-b6d38393a62f': {
+    data: {
+      type: 'player' as 'player',
+      id: 'fd81057e-5b85-45f9-9cc3-b6d38393a62f',
+      attributes: {
+        realName: 'Riley',
+        displayName: 'secretnumel'
+      }
+    }
+  },
+    // Caitlin (@Caitlin)
+  'e6e7abe7-3982-4624-b5ab-dc550b2e8905': {
+    data: {
+      type: 'player' as 'player',
+      id: 'e6e7abe7-3982-4624-b5ab-dc550b2e8905',
+      attributes: {
+        realName: 'Caitlin',
+        displayName: 'xlilcubbie25'
+      }
+    }
+  },
+    // hissingshrimp (@hissingshrimp)
+  '701a84d4-ddce-4036-ab2c-87a631679e8b': {
+    data: {
+      type: 'player' as 'player',
+      id: '701a84d4-ddce-4036-ab2c-87a631679e8b',
+      attributes: {
+        realName: 'hissingshrimp',
+        displayName: 'hissingshrimp'
+      }
+    }
+  },
+    // wroyce (@wroyce)
+  '50029136-4d47-43f3-aaf2-9f290f60fd26': {
+    data: {
+      type: 'player' as 'player',
+      id: '50029136-4d47-43f3-aaf2-9f290f60fd26',
+      attributes: {
+        realName: 'wroyce',
+        displayName: 'wroyce'
+      }
+    }
+  },
+    // marshmallowloaf (@marshmallowloaf)
+  '744c63bb-f0a2-4080-a4bb-e5166d4122b3': {
+    data: {
+      type: 'player' as 'player',
+      id: '744c63bb-f0a2-4080-a4bb-e5166d4122b3',
+      attributes: {
+        realName: 'marshmallowloaf',
+        displayName: 'marshmallowloaf'
+      }
+    }
+  },
+    // ice_up_s0n (@ice_up_s0n)
+  '6bdcf395-b644-4b98-95f6-c7240a478c95': {
+    data: {
+      type: 'player' as 'player',
+      id: '6bdcf395-b644-4b98-95f6-c7240a478c95',
+      attributes: {
+        realName: 'ice_up_s0n',
+        displayName: 'ice_up_s0n'
+      }
+    }
+  },
+    // dexter0846 (@dexter0846)
+  'bdf0c732-eec9-43be-891f-57bee8c2c27b': {
+    data: {
+      type: 'player' as 'player',
+      id: 'bdf0c732-eec9-43be-891f-57bee8c2c27b',
+      attributes: {
+        realName: 'dexter0846',
+        displayName: 'dexter0846'
+      }
+    }
+  },
+    // Unicycle (@Unicycle)
+  '00c45113-78d8-4361-8be4-aa18428cd829': {
+    data: {
+      type: 'player' as 'player',
+      id: '00c45113-78d8-4361-8be4-aa18428cd829',
+      attributes: {
+        realName: 'Unicycle',
+        displayName: 'Unicycle'
+      }
+    }
+  },
+    // Cole Reveal (@Cole Reveal)
+  'a9aa3932-e81f-4b8b-8b25-cd085339836b': {
+    data: {
+      type: 'player' as 'player',
+      id: 'a9aa3932-e81f-4b8b-8b25-cd085339836b',
+      attributes: {
+        realName: 'Cole Reveal',
+        displayName: 'Cole Reveal'
+      }
+    }
+  },
+    // flswitch (@flswitch)
+  '2e27852c-5a81-4b6c-b7f2-38bb094ac439': {
+    data: {
+      type: 'player' as 'player',
+      id: '2e27852c-5a81-4b6c-b7f2-38bb094ac439',
+      attributes: {
+        realName: 'flswitch',
+        displayName: 'flswitch'
+      }
+    }
+  },
+    // Bailey Wilson (@Bailey Wilson)
+  '58f5ec21-7e18-457f-a1c5-7738c1788da5': {
+    data: {
+      type: 'player' as 'player',
+      id: '58f5ec21-7e18-457f-a1c5-7738c1788da5',
+      attributes: {
+        realName: 'Bailey Wilson',
+        displayName: 'Bailey Wilson'
+      }
+    }
+  },
+    // frozzensolid (@frozzensolid)
+  '96b4ef7c-947b-4766-84b3-5157cd37e844': {
+    data: {
+      type: 'player' as 'player',
+      id: '96b4ef7c-947b-4766-84b3-5157cd37e844',
+      attributes: {
+        realName: 'frozzensolid',
+        displayName: 'frozzensolid'
+      }
+    }
+  },
+    // slobrotrainer (@slobrotrainer)
+  '2927f590-a019-4a7c-92c6-f29e23de281d': {
+    data: {
+      type: 'player' as 'player',
+      id: '2927f590-a019-4a7c-92c6-f29e23de281d',
+      attributes: {
+        realName: 'slobrotrainer',
+        displayName: 'slobrotrainer'
+      }
+    }
+  },
+    // zekey (@zekey)
+  'c16472d9-da61-49a9-9d99-22808be5397c': {
+    data: {
+      type: 'player' as 'player',
+      id: 'c16472d9-da61-49a9-9d99-22808be5397c',
+      attributes: {
+        realName: 'zekey',
+        displayName: 'zekey'
+      }
+    }
+  },
+    // nickoswar (@nickoswar)
+  'cf1f9615-051e-419c-8a57-f0d5467eeb17': {
+    data: {
+      type: 'player' as 'player',
+      id: 'cf1f9615-051e-419c-8a57-f0d5467eeb17',
+      attributes: {
+        realName: 'nickoswar',
+        displayName: 'nickoswar'
+      }
+    }
+  },
+    // wafflesoup (@wafflesoup)
+  '4f32fb37-69d6-4de4-b1c5-2922b6d2ba4c': {
+    data: {
+      type: 'player' as 'player',
+      id: '4f32fb37-69d6-4de4-b1c5-2922b6d2ba4c',
+      attributes: {
+        realName: 'wafflesoup',
+        displayName: 'wafflesoup'
+      }
+    }
+  },
+    // missdellaney (@missdellaney)
+  'ae919727-3af6-4aab-8420-8acdfecf8cd0': {
+    data: {
+      type: 'player' as 'player',
+      id: 'ae919727-3af6-4aab-8420-8acdfecf8cd0',
+      attributes: {
+        realName: 'missdellaney',
+        displayName: 'missdellaney'
+      }
+    }
+  },
+    // pkmnbrawler (@pkmnbrawler)
+  '2eccc33b-6aa0-402a-928d-b8c864b16eab': {
+    data: {
+      type: 'player' as 'player',
+      id: '2eccc33b-6aa0-402a-928d-b8c864b16eab',
+      attributes: {
+        realName: 'pkmnbrawler',
+        displayName: 'pkmnbrawler'
+      }
+    }
+  },
+    // xXDeathReaper19 (@xXDeathReaper19)
+  '99b16983-8829-4e1f-b62f-c6034db0fccc': {
+    data: {
+      type: 'player' as 'player',
+      id: '99b16983-8829-4e1f-b62f-c6034db0fccc',
+      attributes: {
+        realName: 'xXDeathReaper19',
+        displayName: 'xXDeathReaper19'
+      }
+    }
+  },
+    // Theme (@Theme)
+  'c58a0147-b359-4031-900b-f0fdf85c99bf': {
+    data: {
+      type: 'player' as 'player',
+      id: 'c58a0147-b359-4031-900b-f0fdf85c99bf',
+      attributes: {
+        realName: 'Theme',
+        displayName: 'Theme'
+      }
+    }
+  },
+    // Clara Johansson (@Clara Johansson)
+  '39e79433-2e7a-490e-ac86-26f076d64a5d': {
+    data: {
+      type: 'player' as 'player',
+      id: '39e79433-2e7a-490e-ac86-26f076d64a5d',
+      attributes: {
+        realName: 'Clara Johansson',
+        displayName: 'clarajohansson'
+      }
+    }
+  },
+    // Damekage the Insane (@Damekage the Insane)
+  '7f91b6ab-1ced-4885-9577-4f039d4ad0f8': {
+    data: {
+      type: 'player' as 'player',
+      id: '7f91b6ab-1ced-4885-9577-4f039d4ad0f8',
+      attributes: {
+        realName: 'Damekage the Insane',
+        displayName: 'damekage'
+      }
+    }
+  },
+    // Michelle Cooney (@Michelle Cooney)
+  'cd05d8f6-d48f-4bce-a738-3724bbd3599e': {
+    data: {
+      type: 'player' as 'player',
+      id: 'cd05d8f6-d48f-4bce-a738-3724bbd3599e',
+      attributes: {
+        realName: 'Michelle Cooney',
+        displayName: 'cooneyms'
+      }
+    }
+  },
+    // Kevin Soria (@Kevin Soria)
+  '641bd7e8-7b07-42f7-b06f-1328e47b2be7': {
+    data: {
+      type: 'player' as 'player',
+      id: '641bd7e8-7b07-42f7-b06f-1328e47b2be7',
+      attributes: {
+        realName: 'Kevin Soria',
+        displayName: 'koopaprez'
       }
     }
   },
