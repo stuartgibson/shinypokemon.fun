@@ -1045,4 +1045,184 @@ export const pointsData2024_1: IPointEntities = {
       },
     },
   },
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Devilish Inferno (@Alex)
+  //  0157. Typhlosion (Hisuian)
+  '7cf62078-01ba-42b6-ae52-260a41eb212f': {
+    data: {
+      id: '7cf62078-01ba-42b6-ae52-260a41eb212f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b4815779-2e56-405d-99ef-04258d643f47',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Padukes (@Padukes)
+  //  0202. Wobbuffet
+  'd233bfe1-821f-4d6b-81f0-2feebd597914': {
+    data: {
+      id: 'd233bfe1-821f-4d6b-81f0-2feebd597914',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7c8faea8-5ba1-4c3c-9867-f8f3d9defcd7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Padukes (@Padukes)
+  //  0628. Braviary (Hisuian)
+  '2f2e679c-40b9-466b-9258-abab6557b2db': {
+    data: {
+      id: '2f2e679c-40b9-466b-9258-abab6557b2db',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '231a876e-de35-4b38-bcfe-81a878016610',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Devilish Inferno (@Alex)
+  //  0194. Wooper
+  '86b3e50a-15ad-49c1-a2dc-524af9f83713': {
+    data: {
+      id: '86b3e50a-15ad-49c1-a2dc-524af9f83713',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6c0bcd91-3e28-4ac2-b0a7-d1c7fde3c87e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0133. Eevee
+  '435fa804-fa0e-4595-a6b1-e24a17288938': {
+    data: {
+      id: '435fa804-fa0e-4595-a6b1-e24a17288938',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
