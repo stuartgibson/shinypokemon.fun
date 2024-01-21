@@ -1225,7 +1225,7 @@ export const pointsData2024_1: IPointEntities = {
       },
     },
   },
-    //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
   //  Padukes (@Padukes)
   //  0108. Lickitung
   'f4a606c0-72ca-4bcf-a2f5-a0c163f37a75': {
@@ -1238,28 +1238,65 @@ export const pointsData2024_1: IPointEntities = {
         firstCatch: false,
         game: null,
         method: null,
-        oldSystemPoint: false
+        oldSystemPoint: false,
       },
       relationships: {
         competition: {
           data: {
             id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
-            type: 'competition'
-          }
+            type: 'competition',
+          },
         },
         player: {
           data: {
             id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
-            type: 'player'
-          }
+            type: 'player',
+          },
         },
         pokemon: {
           data: {
             id: 'cfe0414b-cb76-43dc-ad2b-aac363edc62c',
-            type: 'pokemon'
-          }
-        }
-      }
-    }
-  }
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Chris Mize (@chrismize)
+  //  0183. Marill
+  'd53d95ee-dd5b-4ddc-b70d-4faac51e947d': {
+    data: {
+      id: 'd53d95ee-dd5b-4ddc-b70d-4faac51e947d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '830c3a93-b737-426e-b307-4af048660e62',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ed377739-ba16-43b7-9292-399ba1dd7d29',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
