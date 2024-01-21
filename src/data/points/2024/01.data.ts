@@ -1225,4 +1225,41 @@ export const pointsData2024_1: IPointEntities = {
       },
     },
   },
+    //  Cross-Generational Evolution Families 7 Jan 2024  to 20 Jan 2024
+  //  Padukes (@Padukes)
+  //  0108. Lickitung
+  'f4a606c0-72ca-4bcf-a2f5-a0c163f37a75': {
+    data: {
+      id: 'f4a606c0-72ca-4bcf-a2f5-a0c163f37a75',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ee547f89-c68f-410e-b288-6f2c8db40e83',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'cfe0414b-cb76-43dc-ad2b-aac363edc62c',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
 };

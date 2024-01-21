@@ -826,4 +826,15 @@ export const playersData:IPlayerEntities = {
       }
     }
   },
+  // Chris Mize (@chrismize)
+  '830c3a93-b737-426e-b307-4af048660e62': {
+    data: {
+      type: 'player' as 'player',
+      id: '830c3a93-b737-426e-b307-4af048660e62',
+      attributes: {
+        realName: 'Chris Mize',
+        displayName: 'chrismize'
+      }
+    }
+  },
 }
