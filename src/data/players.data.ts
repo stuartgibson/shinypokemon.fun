@@ -837,4 +837,15 @@ export const playersData:IPlayerEntities = {
       }
     }
   },
+  // Keagan (@Keagan)
+  '1cf8acbd-c839-4319-9be7-3b7e8659bdf2': {
+    data: {
+      type: 'player' as 'player',
+      id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+      attributes: {
+        realName: 'Keagan',
+        displayName: 'Keagan'
+      }
+    }
+  },
 }
