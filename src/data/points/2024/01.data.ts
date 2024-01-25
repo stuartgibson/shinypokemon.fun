@@ -1595,4 +1595,78 @@ export const pointsData2024_1: IPointEntities = {
       },
     },
   },
+  //  Water Pokémon With Feet 21 Jan 2024  to 3 Feb 2024
+  //  Keagan (@Keagan)
+  //  0270. Lotad
+  '8f77a310-9992-4621-b4c4-b86f6e7dc465': {
+    data: {
+      id: '8f77a310-9992-4621-b4c4-b86f6e7dc465',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3be27f11-188f-413e-a064-cc31a75d9e19',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7f1a5f65-a490-4ef6-9add-b4774f56bc84',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Water Pokémon With Feet 21 Jan 2024  to 3 Feb 2024
+  //  Keagan (@Keagan)
+  //  0270. Lotad
+  'd3b9db7d-cfdd-4227-87e7-01344c32705e': {
+    data: {
+      id: 'd3b9db7d-cfdd-4227-87e7-01344c32705e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-01-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3be27f11-188f-413e-a064-cc31a75d9e19',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7f1a5f65-a490-4ef6-9add-b4774f56bc84',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
