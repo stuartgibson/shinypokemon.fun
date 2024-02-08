@@ -1000,4 +1000,41 @@ export const pointsData2024_2: IPointEntities = {
       },
     },
   },
+  //  Water Pokémon With Feet 21 Jan 2024  to 3 Feb 2024
+  //  james (@seginus)
+  //  0656. Froakie
+  '862b7e23-46c3-4475-9dc1-abbc3f71c67b': {
+    data: {
+      id: '862b7e23-46c3-4475-9dc1-abbc3f71c67b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3be27f11-188f-413e-a064-cc31a75d9e19',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
