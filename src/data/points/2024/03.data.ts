@@ -408,4 +408,263 @@ export const pointsData2024_3: IPointEntities = {
       },
     },
   },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Devilish Inferno (@Alex)
+  //  0780. Drampa
+  'dda35d2c-d506-4270-8156-69e1736bff03': {
+    data: {
+      id: 'dda35d2c-d506-4270-8156-69e1736bff03',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c838491d-62e3-4f89-bb2f-b5e15b23065d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Kathryn (@SteeleTheWin)
+  //  0780. Drampa
+  '4eeb9ebb-d6ce-42e8-abc1-7b1d6103c0a6': {
+    data: {
+      id: '4eeb9ebb-d6ce-42e8-abc1-7b1d6103c0a6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c838491d-62e3-4f89-bb2f-b5e15b23065d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0690. Skrelp
+  '254bccf1-1e26-48aa-b1c4-b537a5f63967': {
+    data: {
+      id: '254bccf1-1e26-48aa-b1c4-b537a5f63967',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0b4905b3-bd2f-4714-bbdb-c88474d52b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Keagan (@Keagan)
+  //  0371. Bagon
+  'f6918506-fe75-454e-a454-b15518273447': {
+    data: {
+      id: 'f6918506-fe75-454e-a454-b15518273447',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6aa962cb-3176-426d-9a74-f257c805b641',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Bobby De Walt (@Bobby)
+  //  0443. Gible
+  '741a0c22-4783-4297-bef4-1b6bd18c5e0f': {
+    data: {
+      id: '741a0c22-4783-4297-bef4-1b6bd18c5e0f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0443. Gible
+  '39f27f0f-de1b-4d31-ae7e-9304654b198f': {
+    data: {
+      id: '39f27f0f-de1b-4d31-ae7e-9304654b198f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Stuart (@stuart)
+  //  0443. Gible
+  'c0ed8ff1-cb50-4c24-ac86-f6f6c700bfd5': {
+    data: {
+      id: 'c0ed8ff1-cb50-4c24-ac86-f6f6c700bfd5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
