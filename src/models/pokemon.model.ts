@@ -26,7 +26,7 @@ export class Pokemon extends AppModel implements IPokemon {
     this.generation = this.attribute('generation');
     this.name = this.attribute('name');
 
-    this.artwork = `url('/assets/images/pokemon/artwork/${this.dexNo}.png')`;
+    this.artwork = `url('/assets/images/pokemon/shiny-artwork/${this.dexNo}${!!this.forme ? ('-' + this.forme) : ''}.png')`;
     this.serebiiLink = `https://serebii.net/pokemon/${this.formatNameForSerebiiLink()}/`
     this.bulbapediaLink = `https://bulbapedia.bulbagarden.net/wiki/${this.formatNameForBulbapediaLink()}`
   }

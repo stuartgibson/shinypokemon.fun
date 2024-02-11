@@ -14,6 +14,7 @@ export interface IPokemonEntity extends IJsonApiEntity {
       dexNo: string;
       generation: number;
       name: string;
+      forme?: string;
     }
   }
 }

@@ -9,7 +9,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Ratatta (Alolan)',
         'generation': 7,
-        'dexNo': '0019'
+        'dexNo': '0019',
+        'forme': 'alolan'
       }
     }
   },
@@ -20,7 +21,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Raticate (Alolan)',
         'generation': 7,
-        'dexNo': '0020'
+        'dexNo': '0020',
+        'forme': 'alolan'
       }
     }
   },
@@ -31,7 +33,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Raichu (Alolan)',
         'generation': 7,
-        'dexNo': '0026'
+        'dexNo': '0026',
+        'forme': 'alolan'
       }
     }
   },
@@ -42,7 +45,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Sandshrew (Alolan)',
         'generation': 7,
-        'dexNo': '0027'
+        'dexNo': '0027',
+        'forme': 'alolan'
       }
     }
   },
@@ -53,7 +57,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Sandslash (Alolan)',
         'generation': 7,
-        'dexNo': '0028'
+        'dexNo': '0028',
+        'forme': 'alolan'
       }
     }
   },
@@ -64,7 +69,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Vulpix (Alolan)',
         'generation': 7,
-        'dexNo': '0037'
+        'dexNo': '0037',
+        'forme': 'alolan'
       }
     }
   },
@@ -75,7 +81,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Ninetales (Alolan)',
         'generation': 7,
-        'dexNo': '0038'
+        'dexNo': '0038',
+        'forme': 'alolan'
       }
     }
   },
@@ -86,7 +93,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Diglett (Alolan)',
         'generation': 7,
-        'dexNo': '0050'
+        'dexNo': '0050',
+        'forme': 'alolan'
       }
     }
   },
@@ -97,7 +105,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Dugtrio (Alolan)',
         'generation': 7,
-        'dexNo': '0051'
+        'dexNo': '0051',
+        'forme': 'alolan'
       }
     }
   },
@@ -108,7 +117,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Meowth (Alolan)',
         'generation': 7,
-        'dexNo': '0052'
+        'dexNo': '0052',
+        'forme': 'alolan'
       }
     }
   },
@@ -119,7 +129,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Persian (Alolan)',
         'generation': 7,
-        'dexNo': '0053'
+        'dexNo': '0053',
+        'forme': 'alolan'
       }
     }
   },
@@ -130,7 +141,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Geodude (Alolan)',
         'generation': 7,
-        'dexNo': '0074'
+        'dexNo': '0074',
+        'forme': 'alolan'
       }
     }
   },
@@ -141,7 +153,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Graveller (Alolan)',
         'generation': 7,
-        'dexNo': '0075'
+        'dexNo': '0075',
+        'forme': 'alolan'
       }
     }
   },
@@ -152,7 +165,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Golem (Alolan)',
         'generation': 7,
-        'dexNo': '0076'
+        'dexNo': '0076',
+        'forme': 'alolan'
       }
     }
   },
@@ -163,7 +177,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Grimer (Alolan)',
         'generation': 7,
-        'dexNo': '0088'
+        'dexNo': '0088',
+        'forme': 'alolan'
       }
     }
   },
@@ -174,7 +189,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Muk (Alolan)',
         'generation': 7,
-        'dexNo': '0089'
+        'dexNo': '0089',
+        'forme': 'alolan'
       }
     }
   },
@@ -185,7 +201,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Exeggutor (Alolan)',
         'generation': 7,
-        'dexNo': '0103'
+        'dexNo': '0103',
+        'forme': 'alolan'
       }
     }
   },
@@ -196,7 +213,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Marowak (Alolan)',
         'generation': 7,
-        'dexNo': '0105'
+        'dexNo': '0105',
+        'forme': 'alolan'
       }
     }
   },
@@ -208,7 +226,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Meowth (Galarian)',
         'generation': 8,
-        'dexNo': '0052'
+        'dexNo': '0052',
+        'forme': 'galarian'
       }
     }
   },
@@ -219,7 +238,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Ponyta (Galarian)',
         'generation': 8,
-        'dexNo': '0077'
+        'dexNo': '0077',
+        'forme': 'galarian'
       }
     }
   },
@@ -230,7 +250,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Rapidash (Galarian)',
         'generation': 8,
-        'dexNo': '0078'
+        'dexNo': '0078',
+        'forme': 'galarian'
       }
     }
   },
@@ -241,7 +262,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Farfetch’d (Galarian)',
         'generation': 8,
-        'dexNo': '0083'
+        'dexNo': '0083',
+        'forme': 'galarian'
       }
     }
   },
@@ -252,7 +274,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Weezing (Galarian)',
         'generation': 8,
-        'dexNo': '0110'
+        'dexNo': '0110',
+        'forme': 'galarian'
       }
     }
   },
@@ -263,7 +286,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Mr. Mime (Galarian)',
         'generation': 8,
-        'dexNo': '0122'
+        'dexNo': '0122',
+        'forme': 'galarian'
       }
     }
   },
@@ -274,7 +298,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Corsola (Galarian)',
         'generation': 8,
-        'dexNo': '0222'
+        'dexNo': '0222',
+        'forme': 'galarian'
       }
     }
   },
@@ -285,7 +310,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Zigzagoon (Galarian)',
         'generation': 8,
-        'dexNo': '0263'
+        'dexNo': '0263',
+        'forme': 'galarian'
       }
     }
   },
@@ -296,7 +322,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Linoone (Galarian)',
         'generation': 8,
-        'dexNo': '0264'
+        'dexNo': '0264',
+        'forme': 'galarian'
       }
     }
   },
@@ -307,7 +334,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Darumaka (Galarian)',
         'generation': 8,
-        'dexNo': '0052'
+        'dexNo': '0554',
+        'forme': 'galarian'
       }
     }
   },
@@ -318,7 +346,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Darmanitan (Galarian)',
         'generation': 8,
-        'dexNo': '0052'
+        'dexNo': '0555',
+        'forme': 'galarian'
       }
     }
   },
@@ -329,7 +358,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Yamask (Galarian)',
         'generation': 8,
-        'dexNo': '0562'
+        'dexNo': '0562',
+        'forme': 'galarian'
       }
     }
   },
@@ -340,7 +370,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Stunfisk (Galarian)',
         'generation': 8,
-        'dexNo': '0618'
+        'dexNo': '0618',
+        'forme': 'galarian'
       }
     }
   },
@@ -351,7 +382,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Slowpoke (Galarian)',
         'generation': 8,
-        'dexNo': '0079'
+        'dexNo': '0079',
+        'forme': 'galarian'
       }
     }
   },
@@ -362,7 +394,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Slowbro (Galarian)',
         'generation': 8,
-        'dexNo': '0080'
+        'dexNo': '0080',
+        'forme': 'galarian'
       }
     }
   },
@@ -373,7 +406,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Articuno (Galarian)',
         'generation': 8,
-        'dexNo': '0144'
+        'dexNo': '0144',
+        'forme': 'galarian'
       }
     }
   },
@@ -384,7 +418,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Zapdos (Galarian)',
         'generation': 8,
-        'dexNo': '0145'
+        'dexNo': '0145',
+        'forme': 'galarian'
       }
     }
   },
@@ -395,7 +430,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Moltres (Galarian)',
         'generation': 8,
-        'dexNo': '0146'
+        'dexNo': '0146',
+        'forme': 'galarian'
       }
     }
   },
@@ -406,7 +442,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Slowking (Galarian)',
         'generation': 8,
-        'dexNo': '0199'
+        'dexNo': '0199',
+        'forme': 'galarian'
       }
     }
   },
@@ -418,7 +455,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Growlithe (Hisuian)',
         'generation': 8,
-        'dexNo': '0058'
+        'dexNo': '0058',
+        'forme': 'hisuian'
       }
     }
   },
@@ -429,7 +467,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Arcanine (Hisuian)',
         'generation': 8,
-        'dexNo': '0059'
+        'dexNo': '0059',
+        'forme': 'hisuian'
       }
     }
   },
@@ -440,7 +479,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Voltorb (Hisuian)',
         'generation': 8,
-        'dexNo': '0100'
+        'dexNo': '0100',
+        'forme': 'hisuian'
       }
     }
   },
@@ -451,7 +491,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Electrode (Hisuian)',
         'generation': 8,
-        'dexNo': '0101'
+        'dexNo': '0101',
+        'forme': 'hisuian'
       }
     }
   },
@@ -462,7 +503,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Typhlosion (Hisuian)',
         'generation': 8,
-        'dexNo': '0157'
+        'dexNo': '0157',
+        'forme': 'hisuian'
       }
     }
   },
@@ -473,7 +515,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Qwilfish (Hisuian)',
         'generation': 8,
-        'dexNo': '0211'
+        'dexNo': '0211',
+        'forme': 'hisuian'
       }
     }
   },
@@ -484,7 +527,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Sneasel (Hisuian)',
         'generation': 8,
-        'dexNo': '0215'
+        'dexNo': '0215',
+        'forme': 'hisuian'
       }
     }
   },
@@ -495,7 +539,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Samurott (Hisuian)',
         'generation': 8,
-        'dexNo': '0503'
+        'dexNo': '0503',
+        'forme': 'hisuian'
       }
     }
   },
@@ -506,7 +551,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Lilligant (Hisuian)',
         'generation': 8,
-        'dexNo': '0549'
+        'dexNo': '0549',
+        'forme': 'hisuian'
       }
     }
   },
@@ -517,7 +563,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Zorua (Hisuian)',
         'generation': 8,
-        'dexNo': '0570'
+        'dexNo': '0570',
+        'forme': 'hisuian'
       }
     }
   },
@@ -528,7 +575,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Zoroark (Hisuian)',
         'generation': 8,
-        'dexNo': '0571'
+        'dexNo': '0571',
+        'forme': 'hisuian'
       }
     }
   },
@@ -539,7 +587,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Braviary (Hisuian)',
         'generation': 8,
-        'dexNo': '0628'
+        'dexNo': '0628',
+        'forme': 'hisuian'
       }
     }
   },
@@ -550,7 +599,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Sliggoo (Hisuian)',
         'generation': 8,
-        'dexNo': '0705'
+        'dexNo': '0705',
+        'forme': 'hisuian'
       }
     }
   },
@@ -561,7 +611,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Goodra (Hisuian)',
         'generation': 8,
-        'dexNo': '0706'
+        'dexNo': '0706',
+        'forme': 'hisuian'
       }
     }
   },
@@ -572,7 +623,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Avalugg (Hisuian)',
         'generation': 8,
-        'dexNo': '0713'
+        'dexNo': '0713',
+        'forme': 'hisuian'
       }
     }
   },
@@ -583,7 +635,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Decidueye (Hisuian)',
         'generation': 8,
-        'dexNo': '0724'
+        'dexNo': '0724',
+        'forme': 'hisuian'
       }
     }
   },
@@ -595,7 +648,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Tauros (Paldean)',
         'generation': 8,
-        'dexNo': '0128'
+        'dexNo': '0128',
+        'forme': 'paldean'
       }
     }
   },
@@ -606,7 +660,8 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'attributes': {
         'name': 'Wooper (Paldean)',
         'generation': 8,
-        'dexNo': '0194'
+        'dexNo': '0194',
+        'forme': 'paldean'
       }
     }
   },
