@@ -667,4 +667,596 @@ export const pointsData2024_3: IPointEntities = {
       },
     },
   },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Chris Mize (@chrismize)
+  //  0443. Gible
+  '21707642-1fc1-4f75-bc01-7d2132a8492e': {
+    data: {
+      id: '21707642-1fc1-4f75-bc01-7d2132a8492e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '830c3a93-b737-426e-b307-4af048660e62',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Keagan (@Keagan)
+  //  0102. Exeggcute
+  'b9edc27c-4e51-4909-88d1-c3c2cbe1f619': {
+    data: {
+      id: 'b9edc27c-4e51-4909-88d1-c3c2cbe1f619',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4eca9e98-13d2-4dba-bcc9-14678e906303',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Padukes (@Padukes)
+  //  0882. Dracovish
+  '3c228595-17be-4ada-8233-398cbdcae810': {
+    data: {
+      id: '3c228595-17be-4ada-8233-398cbdcae810',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'aa85175c-0613-4d07-a465-7b068c3f82ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Stuart (@stuart)
+  //  0610. Axew
+  'f47d5d99-6b95-4d08-8b55-441829b2bfb4': {
+    data: {
+      id: 'f47d5d99-6b95-4d08-8b55-441829b2bfb4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7d854347-2b2c-48b2-9e9e-3ae1f97fea86',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  james (@seginus)
+  //  0381. Latios
+  'df1c11e0-329f-4d20-b72c-afa62cb6cd4e': {
+    data: {
+      id: 'df1c11e0-329f-4d20-b72c-afa62cb6cd4e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '631eefb3-d7cd-4f8c-a9f5-f5b8462bd691',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0443. Gible
+  '7625960a-33a8-4ed5-97bb-32a36d793218': {
+    data: {
+      id: '7625960a-33a8-4ed5-97bb-32a36d793218',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0443. Gible
+  'fda0f214-5c4d-4311-8547-5081cbc1748d': {
+    data: {
+      id: 'fda0f214-5c4d-4311-8547-5081cbc1748d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0696. Tyrunt
+  '8c5cedbc-0eb1-4582-b221-cbb74c112c07': {
+    data: {
+      id: '8c5cedbc-0eb1-4582-b221-cbb74c112c07',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28eb08d-4823-4019-bb92-3a0dde9e0e98',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Níck Mārsh (@Citizen)
+  //  0621. Druddigon
+  'f88c8557-f96d-444d-9239-224a74578298': {
+    data: {
+      id: 'f88c8557-f96d-444d-9239-224a74578298',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0baa377e-800e-4313-aa01-c0d510fa8508',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Padukes (@Padukes)
+  //  0443. Gible
+  'fbf54386-8dfc-4cfc-85d3-aae61d40372c': {
+    data: {
+      id: 'fbf54386-8dfc-4cfc-85d3-aae61d40372c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Keagan (@Keagan)
+  //  0334. Altaria
+  '4fad4f40-3913-44c5-9e62-52a7fafdd0ff': {
+    data: {
+      id: '4fad4f40-3913-44c5-9e62-52a7fafdd0ff',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '58fb2cb0-d32c-4f28-a142-68c74ba71b70',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  james (@seginus)
+  //  0644. Zekrom
+  'bb5eaf41-712d-47c7-9545-a0979b17f1c4': {
+    data: {
+      id: 'bb5eaf41-712d-47c7-9545-a0979b17f1c4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b97a6f9-2db7-4887-9f18-fe13945392a9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Al McKinlay (@Al)
+  //  0484. Palkia
+  '7a5be7c2-5545-4b56-a957-e0b34151c32f': {
+    data: {
+      id: '7a5be7c2-5545-4b56-a957-e0b34151c32f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2cba6507-318a-4559-ab8d-b28f19303ee6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Tone (@Tone)
+  //  0690. Skrelp
+  '8669e08a-c545-427a-bc56-e649a93211b5': {
+    data: {
+      id: '8669e08a-c545-427a-bc56-e649a93211b5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0b4905b3-bd2f-4714-bbdb-c88474d52b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Tone (@Tone)
+  //  0371. Bagon
+  'f4643d8f-399f-43bc-ba27-e6d4ce594701': {
+    data: {
+      id: 'f4643d8f-399f-43bc-ba27-e6d4ce594701',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6aa962cb-3176-426d-9a74-f257c805b641',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Tone (@Tone)
+  //  0484. Palkia
+  '69a1b276-9801-4881-a3af-17a619be9005': {
+    data: {
+      id: '69a1b276-9801-4881-a3af-17a619be9005',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2cba6507-318a-4559-ab8d-b28f19303ee6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
