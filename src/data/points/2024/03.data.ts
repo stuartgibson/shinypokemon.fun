@@ -1259,4 +1259,41 @@ export const pointsData2024_3: IPointEntities = {
       },
     },
   },
+  //  Year of the Dragon 4 Feb 2024  to 17 Feb 2024
+  //  Al McKinlay (@Al)
+  //  0483. Dialga
+  '1ca63332-8152-465a-899e-79014881a0ec': {
+    data: {
+      id: '1ca63332-8152-465a-899e-79014881a0ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7aece422-3591-4447-a5ae-60681535e63d',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'ae79d2b8-50fa-4ddb-ac8b-42c2563ba265',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
 };
