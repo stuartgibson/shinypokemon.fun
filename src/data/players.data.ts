@@ -848,4 +848,15 @@ export const playersData:IPlayerEntities = {
       }
     }
   },
+  // Chris Bargeron (@Bargie)
+  '68f15f9d-af59-43fd-ac1e-b360b3c5c9c1': {
+    data: {
+      type: 'player' as 'player',
+      id: '68f15f9d-af59-43fd-ac1e-b360b3c5c9c1',
+      attributes: {
+        realName: 'Chris Bargeron',
+        displayName: 'Bargie'
+      }
+    }
+  },
 }
