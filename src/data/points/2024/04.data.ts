@@ -5366,4 +5366,41 @@ export const pointsData2024_4: IPointEntities = {
       },
     },
   },
+  //  Sinnoh 18 Feb 2024  to 2 Mar 2024
+  //  james (@seginus)
+  //  0480. Uxie
+  '62215509-f915-4ed7-b1bb-656a91e186af': {
+    data: {
+      id: '62215509-f915-4ed7-b1bb-656a91e186af',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f45add0b-8cf5-45d3-8933-67796520da5f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da1d58bf-7628-4951-bea4-afff5003bf2f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
