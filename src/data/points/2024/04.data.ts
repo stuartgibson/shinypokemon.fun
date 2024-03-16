@@ -5403,4 +5403,78 @@ export const pointsData2024_4: IPointEntities = {
       },
     },
   },
+  //  Sinnoh 18 Feb 2024  to 2 Mar 2024
+  //  Bobby De Walt (@Bobby)
+  //  0100. Voltorb (Hisuian)
+  'e4e87977-d2d2-41f8-9c98-b81151838e70': {
+    data: {
+      id: 'e4e87977-d2d2-41f8-9c98-b81151838e70',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f45add0b-8cf5-45d3-8933-67796520da5f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d19eebb-82df-4e1f-a74b-590583c1ae92',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Sinnoh 18 Feb 2024  to 2 Mar 2024
+  //  Bobby De Walt (@Bobby)
+  //  0100. Voltorb (Hisuian)
+  '98d6e06e-3ca4-4aab-884a-40b4544e2a53': {
+    data: {
+      id: '98d6e06e-3ca4-4aab-884a-40b4544e2a53',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f45add0b-8cf5-45d3-8933-67796520da5f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d19eebb-82df-4e1f-a74b-590583c1ae92',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
