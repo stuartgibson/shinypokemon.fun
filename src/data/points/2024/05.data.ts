@@ -706,10 +706,10 @@ export const pointsData2024_5: IPointEntities = {
   },
   //  Justice for Unova 3 Mar 2024  to 16 Mar 2024
   //  sam (treecko) (@treeckonian)
-  //  0643. Reshiram
-  '1bb1c470-741e-4e3e-bb9c-d80cf522e912': {
+  //  0546. Cottonee
+  '0baf80fb-868c-43c1-80b5-2c6074795c77': {
     data: {
-      id: '1bb1c470-741e-4e3e-bb9c-d80cf522e912',
+      id: '0baf80fb-868c-43c1-80b5-2c6074795c77',
       type: 'point',
       attributes: {
         ball: null,
@@ -734,7 +734,7 @@ export const pointsData2024_5: IPointEntities = {
         },
         pokemon: {
           data: {
-            id: '9c2bb690-dbf9-441b-9d38-8d4c094b6650',
+            id: 'f9a9813e-75ba-4cfb-a30c-632826b4cdf1',
             type: 'pokemon',
           },
         },
