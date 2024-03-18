@@ -889,4 +889,41 @@ export const pointsData2024_5: IPointEntities = {
       },
     },
   },
+  //  Justice for Unova 3 Mar 2024  to 16 Mar 2024
+  //  Padukes (@Padukes)
+  //  0522. Blitzle
+  'cd45fb25-fffc-4321-9f6b-f1c9c8d25ea6': {
+    data: {
+      id: 'cd45fb25-fffc-4321-9f6b-f1c9c8d25ea6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '87cee6e3-9728-4ccd-a15b-6c56df466f67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '39056528-fc4f-4e93-b266-35babab9d386',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
