@@ -1037,4 +1037,41 @@ export const pointsData2024_6: IPointEntities = {
       },
     },
   },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0168. Ariados
+  '28b57df9-979d-4a37-94e0-4356c2df59f0': {
+    data: {
+      id: '28b57df9-979d-4a37-94e0-4356c2df59f0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '291f1a5f-0754-42d4-a21c-286883f9f642',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
