@@ -1074,4 +1074,226 @@ export const pointsData2024_6: IPointEntities = {
       },
     },
   },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Padukes (@Padukes)
+  //  0152. Chikorita
+  'aecd5bff-1d6d-42a1-abcb-89aebfb7d421': {
+    data: {
+      id: 'aecd5bff-1d6d-42a1-abcb-89aebfb7d421',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dc94125e-f13c-48f0-a142-c01e7df4147f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Keagan (@Keagan)
+  //  0387. Turtwig
+  '47bb0086-0de2-4286-92cf-e34ad83c350d': {
+    data: {
+      id: '47bb0086-0de2-4286-92cf-e34ad83c350d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '744a3eb6-8697-4e2d-a813-27ef655491c0',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Keagan (@Keagan)
+  //  0388. Grotle
+  'a3cc7edd-7a3c-45de-821d-83ff98cde968': {
+    data: {
+      id: 'a3cc7edd-7a3c-45de-821d-83ff98cde968',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '259a773b-f770-47ec-9459-59bd20cc2711',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Keagan (@Keagan)
+  //  0389. Torterra
+  'f750cd68-fcb2-41a5-ab04-0eefd46c0a09': {
+    data: {
+      id: 'f750cd68-fcb2-41a5-ab04-0eefd46c0a09',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '16089a5e-4004-4c13-96ad-64197b0b35d6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Devilish Inferno (@Alex)
+  //  0732. Trumbeak
+  '6edcbab7-8c3d-45be-80a4-83a00dbe500e': {
+    data: {
+      id: '6edcbab7-8c3d-45be-80a4-83a00dbe500e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8bcf47d2-19f3-4949-bbb5-fbdb7630e665',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Devilish Inferno (@Alex)
+  //  0733. Toucannon
+  '39414a88-3838-452c-92c9-d8ab5b8ab6d7': {
+    data: {
+      id: '39414a88-3838-452c-92c9-d8ab5b8ab6d7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d94cb81-1be2-4395-bb50-a5b80614ce8b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
