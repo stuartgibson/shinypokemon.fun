@@ -1074,4 +1074,152 @@ export const pointsData2024_6: IPointEntities = {
       },
     },
   },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Stuart (@stuart)
+  //  0446. Munchlax
+  '43644b0a-20c2-49a3-81f2-709690f6206b': {
+    data: {
+      id: '43644b0a-20c2-49a3-81f2-709690f6206b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0bed20f5-2f40-4dc6-b81b-a7d0bd019133',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Stuart (@stuart)
+  //  0446. Munchlax
+  '8b1d0a88-1d5c-4bf9-a884-6622b14056a7': {
+    data: {
+      id: '8b1d0a88-1d5c-4bf9-a884-6622b14056a7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0bed20f5-2f40-4dc6-b81b-a7d0bd019133',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Padukes (@Padukes)
+  //  0417. Pachirisu
+  '8321c79d-f69f-4d49-8b3a-65e82e335d79': {
+    data: {
+      id: '8321c79d-f69f-4d49-8b3a-65e82e335d79',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b15f85e1-4bb3-41e4-a6eb-0e3ee82a4910',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Jungle Pokémon 17 Mar 2024  to 30 Mar 2024
+  //  Bobby De Walt (@Bobby)
+  //  0163. Hoothoot
+  'f340d17e-91ed-4a6c-b7b7-5f917c4e3d89': {
+    data: {
+      id: 'f340d17e-91ed-4a6c-b7b7-5f917c4e3d89',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c01a83b-e1fc-4dd9-834b-388a104a3ffb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'bad16e91-df23-422a-a31c-085f9ae09365',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
