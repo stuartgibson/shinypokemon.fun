@@ -8337,7 +8337,7 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
       id: '00be27f5-9358-42dc-85e5-18206ff5f366',
       attributes: {
         description:
-          'As this competition will include May the 4th, we will be hunting Pokémon that are, at least, tangentially related to the stars.',
+          'As this competition will include May the 4th, we will be hunting Pokémon that are, at least tangentially, related to the stars.',
         endDate: '2024-05-11',
         startDate: '2024-04-28',
         theme: 'Spaceish Pokémon',
