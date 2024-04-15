@@ -1296,4 +1296,559 @@ export const pointsData2024_7: IPointEntities = {
       },
     },
   },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0209. Snubbull
+  'a4fd2f79-0cb5-4656-881e-c62f5a44b800': {
+    data: {
+      id: 'a4fd2f79-0cb5-4656-881e-c62f5a44b800',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b46b92fc-56f5-4196-bf35-0d7c2e06c9ef',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0050. Diglett
+  'dccc62dc-af34-4899-b188-3cfa1ba5ac98': {
+    data: {
+      id: 'dccc62dc-af34-4899-b188-3cfa1ba5ac98',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4adf53ab-0de1-4238-9ddf-ed3f53451967',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0321. Wailord
+  'c3b9f972-c92a-4473-b723-c6941614ab2e': {
+    data: {
+      id: 'c3b9f972-c92a-4473-b723-c6941614ab2e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '07ff75e6-351d-46d2-9c12-50fc64cf9854',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0743. Ribombee
+  '1b1149a9-6869-44ad-9abc-bd5da3269067': {
+    data: {
+      id: '1b1149a9-6869-44ad-9abc-bd5da3269067',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '989bd543-5276-41ac-80c5-004d42bae3d8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0371. Bagon
+  '0a81f457-511b-45ad-bbee-1fb5631d7156': {
+    data: {
+      id: '0a81f457-511b-45ad-bbee-1fb5631d7156',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6aa962cb-3176-426d-9a74-f257c805b641',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0371. Bagon
+  '307ae2be-0c53-487b-b7c6-87e540ac084b': {
+    data: {
+      id: '307ae2be-0c53-487b-b7c6-87e540ac084b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6aa962cb-3176-426d-9a74-f257c805b641',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0320. Wailmer
+  '3edecce3-7fac-4f14-b899-be5838580dcf': {
+    data: {
+      id: '3edecce3-7fac-4f14-b899-be5838580dcf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd8332cfc-5694-4ab2-9f85-bd3e0e44241b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0447. Riolu
+  '6681e168-b009-4f46-a941-c44dd16325c8': {
+    data: {
+      id: '6681e168-b009-4f46-a941-c44dd16325c8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3063a957-dd1c-4941-8b37-d0984899515b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0041. Zubat
+  '05f26a93-9276-4f2a-956d-72bd938e28f8': {
+    data: {
+      id: '05f26a93-9276-4f2a-956d-72bd938e28f8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7702c983-82e2-4133-b77f-720fdd1a3187',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0129. Magikarp
+  'b9717fe7-e743-4a17-b489-5b7a00720813': {
+    data: {
+      id: 'b9717fe7-e743-4a17-b489-5b7a00720813',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0320. Wailmer
+  '6874c790-5b9c-4539-a9e4-a51f6419aa70': {
+    data: {
+      id: '6874c790-5b9c-4539-a9e4-a51f6419aa70',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd8332cfc-5694-4ab2-9f85-bd3e0e44241b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0128. Tauros
+  'ef91de0d-ee52-4f24-8769-4f4311373576': {
+    data: {
+      id: 'ef91de0d-ee52-4f24-8769-4f4311373576',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '993d34d3-86e0-4f00-9e9f-ceffc57736f6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Devilish Inferno (@Alex)
+  //  0742. Cutiefly
+  '5087a0ec-9fdb-40b4-9738-795d714bde07': {
+    data: {
+      id: '5087a0ec-9fdb-40b4-9738-795d714bde07',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f590d249-312f-409a-b606-bbadf1228aa2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Tone (@Tone)
+  //  0214. Heracross
+  'b20f307b-8353-4e57-b24e-51b24f19e321': {
+    data: {
+      id: 'b20f307b-8353-4e57-b24e-51b24f19e321',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ca1230a9-d936-4410-a015-7fac682cf2cf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  SOS 31 Mar 2024  to 13 Apr 2024
+  //  Padukes (@Padukes)
+  //  0215. Sneasel
+  'ab985cfe-7888-43e8-9d58-3c208f06c3e6': {
+    data: {
+      id: 'ab985cfe-7888-43e8-9d58-3c208f06c3e6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-04-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '893f5e53-b0cb-4990-9296-df74e8112fb5',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230e56ee-3f9e-4cc5-8b71-f192068fc1cd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
