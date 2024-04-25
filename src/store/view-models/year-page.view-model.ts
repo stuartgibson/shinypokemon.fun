@@ -20,6 +20,8 @@ export type YearPageViewModel = {
   yearPointsData: YearPointsDatum[];
 }
 
+const competitionHasStarted = (competition: Competition) => competition.startDate < new Date
+
 export const yearPageViewModel = createSelector(
   Competitions.selectCompetitionsForRoutedYear,
   Players.selectAll,
@@ -52,7 +54,7 @@ export const yearPageViewModel = createSelector(
 
     return {
       competitions: competitions,
-      competitionCount: competitions.length,
+      competitionCount: competitions.filter(competitionHasStarted).length,
       year: year,
       yearPointsData: Object.values(yearPointsData).sort((a, b) => b.totalPoints - a.totalPoints)
     }
