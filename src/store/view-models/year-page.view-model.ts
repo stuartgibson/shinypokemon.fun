@@ -20,7 +20,7 @@ export type YearPageViewModel = {
   yearPointsData: YearPointsDatum[];
 }
 
-const competitionHasStarted = (competition: Competition) => competition.startDate < new Date
+const competitionHasStarted = (competition: Competition) => competition.startDate <= new Date
 
 export const yearPageViewModel = createSelector(
   Competitions.selectCompetitionsForRoutedYear,
