@@ -168,7 +168,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -205,7 +205,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -242,7 +242,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -279,7 +279,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -316,7 +316,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -353,7 +353,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -390,7 +390,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -427,7 +427,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -464,7 +464,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
@@ -501,7 +501,7 @@ export const pointsData2024_8: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: '53e9f2bd-F412-4c14-9477-9b60d1e5ea01',
+            id: '53e9f2bd-f412-4c14-9477-9b60d1e5ea01',
             type: 'competition',
           },
         },
