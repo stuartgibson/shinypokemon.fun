@@ -1000,4 +1000,263 @@ export const pointsData2024_9: IPointEntities = {
       },
     },
   },
+  //  Spaceish Pokémon 28 Apr 2024  to 11 May 2024
+  //  james (@seginus)
+  //  0484. Palkia
+  '20115df7-5262-4f04-9b86-5a6997cbc56f': {
+    data: {
+      id: '20115df7-5262-4f04-9b86-5a6997cbc56f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '00be27f5-9358-42dc-85e5-18206ff5f366',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2cba6507-318a-4559-ab8d-b28f19303ee6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spaceish Pokémon 28 Apr 2024  to 11 May 2024
+  //  Chris Bargeron (@Bargie)
+  //  0194. Wooper
+  'b560d432-e981-4bd9-b321-aa65e78eb051': {
+    data: {
+      id: 'b560d432-e981-4bd9-b321-aa65e78eb051',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '00be27f5-9358-42dc-85e5-18206ff5f366',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '68f15f9d-af59-43fd-ac1e-b360b3c5c9c1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6c0bcd91-3e28-4ac2-b0a7-d1c7fde3c87e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spaceish Pokémon 28 Apr 2024  to 11 May 2024
+  //  Keagan (@Keagan)
+  //  0990. Iron Treads
+  '6cc41266-a23e-4148-9fe2-ca5dc5b0f544': {
+    data: {
+      id: '6cc41266-a23e-4148-9fe2-ca5dc5b0f544',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '00be27f5-9358-42dc-85e5-18206ff5f366',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '47c4097f-f029-4b07-913e-d1eb482a4824',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spaceish Pokémon 28 Apr 2024  to 11 May 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0195. Quagsire
+  '15436038-4353-4d4f-8757-f43ebe9b49ec': {
+    data: {
+      id: '15436038-4353-4d4f-8757-f43ebe9b49ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '00be27f5-9358-42dc-85e5-18206ff5f366',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '90753663-6eaf-460f-b3df-a56773333783',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spaceish Pokémon 28 Apr 2024  to 11 May 2024
+  //  Al McKinlay (@Al)
+  //  0325. Spoink
+  '524a7b85-50bb-4b34-87de-d610b4ad1bab': {
+    data: {
+      id: '524a7b85-50bb-4b34-87de-d610b4ad1bab',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '00be27f5-9358-42dc-85e5-18206ff5f366',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '032e251c-554a-4ee0-ac29-ccee98d5b32d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spaceish Pokémon 28 Apr 2024  to 11 May 2024
+  //  Stuart (@stuart)
+  //  0774. Minior
+  '5556d12b-4a68-4fcc-ac24-8806e2b55fb9': {
+    data: {
+      id: '5556d12b-4a68-4fcc-ac24-8806e2b55fb9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '00be27f5-9358-42dc-85e5-18206ff5f366',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e78e09d4-43d3-44bb-9c87-d2ff0e469e2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spaceish Pokémon 28 Apr 2024  to 11 May 2024
+  //  Níck Mārsh (@Citizen)
+  //  0218. Slugma
+  'd0c88478-7bac-41be-b199-359a3dcaca4f': {
+    data: {
+      id: 'd0c88478-7bac-41be-b199-359a3dcaca4f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '00be27f5-9358-42dc-85e5-18206ff5f366',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d362a45-b7ce-4a05-9d88-90b330422ab2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
