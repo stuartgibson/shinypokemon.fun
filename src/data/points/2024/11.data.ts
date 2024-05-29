@@ -297,4 +297,78 @@ export const pointsData2024_11: IPointEntities = {
       },
     },
   },
+  //  Tone's 40 Wanted Shinies 26 May 2024  to 8 Jun 2024
+  //  Charon (@AdeptCharon)
+  //  0944. Shroodle
+  '92a54ae1-4d5f-44e5-a99c-06abe10284de': {
+    data: {
+      id: '92a54ae1-4d5f-44e5-a99c-06abe10284de',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b1b75bae-0d10-48e4-958b-abe08c70f194',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61de2bd9-57b0-479d-8910-7e617e99bbf3',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '45f04ea0-98db-471f-bdb9-c96ccbd16bb1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Tone's 40 Wanted Shinies 26 May 2024  to 8 Jun 2024
+  //  Charon (@AdeptCharon)
+  //  0944. Shroodle
+  '007e195e-bc43-4919-a562-10fdc25cc058': {
+    data: {
+      id: '007e195e-bc43-4919-a562-10fdc25cc058',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b1b75bae-0d10-48e4-958b-abe08c70f194',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61de2bd9-57b0-479d-8910-7e617e99bbf3',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '45f04ea0-98db-471f-bdb9-c96ccbd16bb1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
