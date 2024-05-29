@@ -889,4 +889,300 @@ export const pointsData2024_10: IPointEntities = {
       },
     },
   },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  Chris Bargeron (@Bargie)
+  //  0821. Rookidee
+  '6fbe80af-033b-479d-9bbe-45ddc39dcc02': {
+    data: {
+      id: '6fbe80af-033b-479d-9bbe-45ddc39dcc02',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '68f15f9d-af59-43fd-ac1e-b360b3c5c9c1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f52a7d08-b297-4564-89a7-a9548f2a00c3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  Al McKinlay (@Al)
+  //  0741. Oricorio
+  'c9dda21e-ded9-4787-aa3e-2fe00ae8430c': {
+    data: {
+      id: 'c9dda21e-ded9-4787-aa3e-2fe00ae8430c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ded7e96b-b368-4269-aeb9-22934ffe30c9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0146. Moltres
+  '3b865083-faa1-4493-9fd0-93b24436c194': {
+    data: {
+      id: '3b865083-faa1-4493-9fd0-93b24436c194',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dcc2697f-e855-43bc-bd4b-082e484b0605',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  Bobby De Walt (@Bobby)
+  //  0164. Noctowl
+  '4517cbae-e1d9-4ef7-9c68-d19d837b8449': {
+    data: {
+      id: '4517cbae-e1d9-4ef7-9c68-d19d837b8449',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3dcca20d-cdd6-4855-b12b-34796c3ac420',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0458. Mantyke
+  'c025a2ec-4872-4eec-a1fb-520096775981': {
+    data: {
+      id: 'c025a2ec-4872-4eec-a1fb-520096775981',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '843db6b2-bde6-484e-b3fb-0e813d320062',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  Keagan (@Keagan)
+  //  0627. Rufflet
+  'ce325238-a4f4-4a96-986f-ea92487b2b4d': {
+    data: {
+      id: 'ce325238-a4f4-4a96-986f-ea92487b2b4d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '01346e6f-94e0-41a3-8248-3e6b7f784a04',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  james (@seginus)
+  //  0641. Tornadus
+  '792ed5a3-05c9-4972-b71f-9de779a2c418': {
+    data: {
+      id: '792ed5a3-05c9-4972-b71f-9de779a2c418',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5fba772a-8abf-4c0d-9955-9544ff27a2d9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Flying 12 May 2024  to 25 May 2024
+  //  james (@seginus)
+  //  0642. Thundurus
+  '5ca93d44-2a8b-45a4-9df9-8d55a90b82f9': {
+    data: {
+      id: '5ca93d44-2a8b-45a4-9df9-8d55a90b82f9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-05-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e302c6e9-c58f-4fdf-9f1b-d53bba3f29f0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b6cc1169-cc23-491f-982d-0071d6d02d10',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
