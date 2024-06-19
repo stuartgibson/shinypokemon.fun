@@ -8,6 +8,7 @@ import { RulesComponent } from "./components/pages/rules/rules.component";
 import { PlayerPageComponent } from "./components/player/player-page/player-page.component";
 import { PlayersComponent } from "./components/player/players/players.component";
 import { YearPageComponent } from "./components/years/year-page/year-page.component";
+import { CurrentCompetitionGuard } from "./current-competition-guard";
 
 export const routes: Routes = [
   {
@@ -21,6 +22,11 @@ export const routes: Routes = [
   },
   {
     path: 'competitions',
+    component: CompetitionsComponent
+  },
+  {
+    path: 'competitions/current',
+    canActivate: [CurrentCompetitionGuard],
     component: CompetitionsComponent
   },
   {
@@ -48,3 +54,4 @@ export const routes: Routes = [
     component: YearPageComponent
   }
 ];
+
