@@ -1000,4 +1000,226 @@ export const pointsData2024_12: IPointEntities = {
       },
     },
   },
+  //  It's a Boy! 9 Jun 2024  to 22 Jun 2024
+  //  Stuart (@stuart)
+  //  0175. Togepi
+  'ba5ca870-e64c-48c7-98a4-28bbd72fcaae': {
+    data: {
+      id: 'ba5ca870-e64c-48c7-98a4-28bbd72fcaae',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-06-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'df1b50a0-c694-4861-83da-970769d54404',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '04f14ad6-a318-420b-8191-c8133e21b5b1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's a Boy! 9 Jun 2024  to 22 Jun 2024
+  //  Keagan (@Keagan)
+  //  0068. Machamp
+  '879db8ef-9d6f-4494-9706-c3f50e72cf10': {
+    data: {
+      id: '879db8ef-9d6f-4494-9706-c3f50e72cf10',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-06-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'df1b50a0-c694-4861-83da-970769d54404',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c63df320-d4ce-4df6-9f54-f35d079ed19f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's a Boy! 9 Jun 2024  to 22 Jun 2024
+  //  Padukes (@Padukes)
+  //  0063. Abra
+  '9065bb30-28db-42de-84ec-d2893222a2c9': {
+    data: {
+      id: '9065bb30-28db-42de-84ec-d2893222a2c9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-06-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'df1b50a0-c694-4861-83da-970769d54404',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c6423ee0-03a5-4202-ab14-eea098c00593',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's a Boy! 9 Jun 2024  to 22 Jun 2024
+  //  Tone (@Tone)
+  //  0066. Machop
+  'ba51516e-9c4d-480f-8d09-830c0c3ed779': {
+    data: {
+      id: 'ba51516e-9c4d-480f-8d09-830c0c3ed779',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-06-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'df1b50a0-c694-4861-83da-970769d54404',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a890ca5-12f0-4d54-b1bd-70fe694ea803',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's a Boy! 9 Jun 2024  to 22 Jun 2024
+  //  Tone (@Tone)
+  //  0066. Machop
+  'a64434c2-4a4b-4bda-a595-39385a26cb79': {
+    data: {
+      id: 'a64434c2-4a4b-4bda-a595-39385a26cb79',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-06-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'df1b50a0-c694-4861-83da-970769d54404',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a890ca5-12f0-4d54-b1bd-70fe694ea803',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's a Boy! 9 Jun 2024  to 22 Jun 2024
+  //  Keagan (@Keagan)
+  //  0133. Eevee
+  '853cb14d-6225-42d0-b3f7-30b91ffe2e36': {
+    data: {
+      id: '853cb14d-6225-42d0-b3f7-30b91ffe2e36',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-06-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'df1b50a0-c694-4861-83da-970769d54404',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
