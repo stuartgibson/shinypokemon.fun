@@ -12297,22 +12297,8 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Gastly remove
-              id: 'c0a46fea-95bc-4747-bb39-7f1479ba7456',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Haunter remove
               id: 'f63c9faf-ed25-468a-8808-f7a6e319cd04',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Slowpoke remove
-              id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
               type: 'pokemon',
             },
           },
@@ -12367,13 +12353,6 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Beldum remove
-              id: 'efe1c7a0-9333-40cf-8017-6a04a9a4187d',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Metang remove
               id: '92ceeed3-7543-4241-9a5f-eac4f97fbb75',
               type: 'pokemon',
@@ -12395,13 +12374,6 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Bronzor remove
-              id: '6ec12acc-3259-41f2-b18c-0c7df67af075',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Bronzong remove
               id: '83bbb185-e67b-43ca-90f2-01ff86bc5b8a',
               type: 'pokemon',
@@ -12409,29 +12381,8 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Magneton remove
-              id: 'c8f5a634-7717-4355-b995-aeabcad506f5',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Magnezone remove
               id: '4e822cc9-7022-464f-aecd-e88716ad4943',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Porygon remove
-              id: '32db34f7-0c11-401c-8504-d399aa98e376',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Porygon2 remove
-              id: '7fa95f76-105b-45bf-9d9a-00f20329bee3',
               type: 'pokemon',
             },
           },
@@ -12451,13 +12402,6 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Dusclops remove
-              id: '3bd8dcbc-9969-4ce1-830c-bfa707d2d9e1',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Froslass remove
               id: 'a560acfd-f044-4804-a740-7479789f9bd7',
               type: 'pokemon',
@@ -12465,22 +12409,8 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Snorunt remove
-              id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Phione remove
               id: '3c1ff9c9-4164-48b4-9f45-f87abdf0f3aa',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Sewaddle remove
-              id: 'dc27c553-3e13-4dc5-b6d6-241335e5f8d9',
               type: 'pokemon',
             },
           },
@@ -12507,29 +12437,8 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Solosis remove
-              id: '164b8dbb-dc4b-4855-bdc9-ae5702ed1bba',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Duosion remove
-              id: '8b5eb318-9fdc-4c69-bfaf-bb0ce21489f6',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Reuniclus remove
               id: 'd5aedfb0-d771-4bb3-891f-745a7eee67eb',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Karrablast remove
-              id: 'ea5c17dc-4c66-4ccf-96f7-d7de64844bac',
               type: 'pokemon',
             },
           },
@@ -12556,13 +12465,6 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Litwick remove
-              id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Lampent remove
               id: 'a45ed20d-d26d-4f3b-97f4-385648af42b3',
               type: 'pokemon',
@@ -12572,13 +12474,6 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
             data: {
               // Chandelure remove
               id: 'dc11989f-1d37-4101-860e-9d18863fbeef',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Shelmet remove
-              id: 'f8cd280f-a0ac-497f-bd72-7fffb4fa07b8',
               type: 'pokemon',
             },
           },
@@ -12698,20 +12593,6 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
             data: {
               // Cursola remove
               id: '7fcac9cf-39aa-41d0-b652-5d1cd636c25f',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Corsola (Galarian) remove
-              id: '171176ae-9298-4fa3-9e93-5d208ca61a72',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Dreepy remove
-              id: '090f5294-3e36-4eb7-a049-a4238f7cfc58',
               type: 'pokemon',
             },
           },
