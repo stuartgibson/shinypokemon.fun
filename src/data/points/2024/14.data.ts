@@ -445,4 +445,226 @@ export const pointsData2024_14: IPointEntities = {
       },
     },
   },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  james (@seginus)
+  //  0669. Flabébé
+  'ada08f94-bfc5-4b61-8976-789a95680589': {
+    data: {
+      id: 'ada08f94-bfc5-4b61-8976-789a95680589',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0081. Magnemite
+  '3841e88d-f984-4f74-811b-2cb5a2654500': {
+    data: {
+      id: '3841e88d-f984-4f74-811b-2cb5a2654500',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0462. Magnezone
+  'aef1f7f8-440f-40d9-9574-1e68c1bb2dba': {
+    data: {
+      id: 'aef1f7f8-440f-40d9-9574-1e68c1bb2dba',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4e822cc9-7022-464f-aecd-e88716ad4943',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0074. Geodude (Alolan)
+  '913eebfa-af81-41ee-b5dd-2326425e3027': {
+    data: {
+      id: '913eebfa-af81-41ee-b5dd-2326425e3027',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'df82c137-ce8e-45ec-9856-3ba2854d3e3f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0079. Slowpoke
+  '1dfcd77e-9bcc-4299-ba8a-b201a6c459e1': {
+    data: {
+      id: '1dfcd77e-9bcc-4299-ba8a-b201a6c459e1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Padukes (@Padukes)
+  //  0088. Grimer (Alolan)
+  'f2ca5a3f-d323-470b-b1ee-ceacad397ac7': {
+    data: {
+      id: 'f2ca5a3f-d323-470b-b1ee-ceacad397ac7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '37ea2628-3ebc-4a61-a93b-c5bf024db889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
