@@ -667,4 +667,596 @@ export const pointsData2024_14: IPointEntities = {
       },
     },
   },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Tone (@Tone)
+  //  0577. Solosis
+  'b22ed030-2786-4fc2-b326-de9e2f648e88': {
+    data: {
+      id: 'b22ed030-2786-4fc2-b326-de9e2f648e88',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '164b8dbb-dc4b-4855-bdc9-ae5702ed1bba',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0864. Cursola
+  '7258e549-5c6d-47d2-9148-7da48a6632fb': {
+    data: {
+      id: '7258e549-5c6d-47d2-9148-7da48a6632fb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7fcac9cf-39aa-41d0-b652-5d1cd636c25f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0708. Phantump
+  'e262792c-f880-44b8-881d-6959ebb171f4': {
+    data: {
+      id: 'e262792c-f880-44b8-881d-6959ebb171f4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4bd98ba2-8bc2-4336-b96a-f4565bc34cc6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Níck Mārsh (@Citizen)
+  //  0800. Necrozma
+  '27dd62e3-5113-4a59-bfb8-26189a196504': {
+    data: {
+      id: '27dd62e3-5113-4a59-bfb8-26189a196504',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Al McKinlay (@Al)
+  //  0800. Necrozma
+  '70cd505f-1822-4a73-8edf-47abd9402bb2': {
+    data: {
+      id: '70cd505f-1822-4a73-8edf-47abd9402bb2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0800. Necrozma
+  '074cbb5c-f9f9-4827-ad82-53f0e44d6c30': {
+    data: {
+      id: '074cbb5c-f9f9-4827-ad82-53f0e44d6c30',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Kathryn (@SteeleTheWin)
+  //  0800. Necrozma
+  '324f33f9-7a37-48d8-b12e-7b534894989a': {
+    data: {
+      id: '324f33f9-7a37-48d8-b12e-7b534894989a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ec689f25-fffe-4249-b89d-603d574bacee',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Keagan (@Keagan)
+  //  0800. Necrozma
+  'f2b68a59-5f77-4159-9175-a8134f4bc50e': {
+    data: {
+      id: 'f2b68a59-5f77-4159-9175-a8134f4bc50e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Keagan (@Keagan)
+  //  0608. Lampent
+  '2111b524-47b5-4680-a8ac-90faa93e889b': {
+    data: {
+      id: '2111b524-47b5-4680-a8ac-90faa93e889b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a45ed20d-d26d-4f3b-97f4-385648af42b3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Devilish Inferno (@Alex)
+  //  0800. Necrozma
+  'ea57fd07-bdf3-43bf-8a22-4e64a3cfc31a': {
+    data: {
+      id: 'ea57fd07-bdf3-43bf-8a22-4e64a3cfc31a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Padukes (@Padukes)
+  //  0800. Necrozma
+  '37ec8b59-c143-4255-8328-ec370cd2a728': {
+    data: {
+      id: '37ec8b59-c143-4255-8328-ec370cd2a728',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Tone (@Tone)
+  //  0800. Necrozma
+  'd20a24cd-f11e-4821-8fd6-b595d438072c': {
+    data: {
+      id: 'd20a24cd-f11e-4821-8fd6-b595d438072c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Tone (@Tone)
+  //  0708. Phantump
+  '2ac6c3d2-ed81-4b09-8e3d-889fe927bebd': {
+    data: {
+      id: '2ac6c3d2-ed81-4b09-8e3d-889fe927bebd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4bd98ba2-8bc2-4336-b96a-f4565bc34cc6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0800. Necrozma
+  'facb1bef-fe18-4327-b328-a82492dee7fd': {
+    data: {
+      id: 'facb1bef-fe18-4327-b328-a82492dee7fd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0800. Necrozma
+  '0f67530f-9e50-4cec-8ce8-266e3005c671': {
+    data: {
+      id: '0f67530f-9e50-4cec-8ce8-266e3005c671',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '037ae34f-ac34-4619-a37f-8b6e1adb08ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0708. Phantump
+  '0bd19d7f-c738-4628-b10b-ee87b56fee68': {
+    data: {
+      id: '0bd19d7f-c738-4628-b10b-ee87b56fee68',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4bd98ba2-8bc2-4336-b96a-f4565bc34cc6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
