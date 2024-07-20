@@ -1407,4 +1407,115 @@ export const pointsData2024_14: IPointEntities = {
       },
     },
   },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0093. Haunter
+  '6e6be097-4e3d-47ce-b40d-50933ef749a8': {
+    data: {
+      id: '6e6be097-4e3d-47ce-b40d-50933ef749a8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f63c9faf-ed25-468a-8808-f7a6e319cd04',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0325. Spoink
+  'f76fd530-a8e4-4f48-b859-55ac0bd25910': {
+    data: {
+      id: 'f76fd530-a8e4-4f48-b859-55ac0bd25910',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '032e251c-554a-4ee0-ac29-ccee98d5b32d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokemon Consisting Of A Head And Arm 7 Jul 2024  to 20 Jul 2024
+  //  Stuart (@stuart)
+  //  0436. Bronzor
+  '4b9a2b18-7781-498b-aaf0-c82b3150200f': {
+    data: {
+      id: '4b9a2b18-7781-498b-aaf0-c82b3150200f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'fd7fb68c-cf45-4f31-832e-a7b953d480e6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6ec12acc-3259-41f2-b18c-0c7df67af075',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
