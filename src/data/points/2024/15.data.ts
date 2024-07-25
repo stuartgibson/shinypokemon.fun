@@ -741,4 +741,41 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0703. Carbink
+  'c10e466d-bbd4-4d21-82af-62bde77b2195': {
+    data: {
+      id: 'c10e466d-bbd4-4d21-82af-62bde77b2195',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e11410e2-245b-431c-8ff1-5a6088cf1699',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
