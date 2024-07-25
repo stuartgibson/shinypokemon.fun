@@ -334,4 +334,337 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Keagan (@Keagan)
+  //  0984. Great Tusk
+  'bc9d8376-cdad-4e26-bcb1-eb2a567db22a': {
+    data: {
+      id: 'bc9d8376-cdad-4e26-bcb1-eb2a567db22a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f773ab0-6d6f-4853-a4a4-e174c167286f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Níck Mārsh (@Citizen)
+  //  0337. Lunatone
+  '22b4fc09-2011-4f42-b4b4-b935d9021db2': {
+    data: {
+      id: '22b4fc09-2011-4f42-b4b4-b935d9021db2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'bf708485-a15c-4b56-9c9a-e93731114db0',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0984. Great Tusk
+  '9c7c1103-9f2d-4d40-ac6b-a70c521cef44': {
+    data: {
+      id: '9c7c1103-9f2d-4d40-ac6b-a70c521cef44',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f773ab0-6d6f-4853-a4a4-e174c167286f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0985. Scream Tail
+  'e23f58eb-dd23-4cd0-80b5-78bd7575badc': {
+    data: {
+      id: 'e23f58eb-dd23-4cd0-80b5-78bd7575badc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '191d3a48-0697-4a8c-9f20-25d0de2e1e05',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0986. Brute Bonnet
+  '74cc00b3-6680-4958-b4a0-587907ec1df2': {
+    data: {
+      id: '74cc00b3-6680-4958-b4a0-587907ec1df2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '049b64b0-42a8-47b0-983b-a0bddbac6e03',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0987. Flutter Mane
+  '1c5bac58-041f-4969-9429-f84a12880f9f': {
+    data: {
+      id: '1c5bac58-041f-4969-9429-f84a12880f9f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a711e10f-5109-43b8-8991-b826dcf1ce58',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0988. Slither Wing
+  '87386eff-fcc9-45af-be41-e24c06cfd91b': {
+    data: {
+      id: '87386eff-fcc9-45af-be41-e24c06cfd91b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '96348370-cf6d-4674-8c33-d310f34a8708',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0989. Sandy Shocks
+  '584bdacf-9f16-4243-b366-12e3e7ca398d': {
+    data: {
+      id: '584bdacf-9f16-4243-b366-12e3e7ca398d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '97fcd9cb-845a-4c0a-9e42-192be7012d96',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  1005. Roaring Moon
+  'bee9222c-a925-4dba-aacf-7fb0edddf90b': {
+    data: {
+      id: 'bee9222c-a925-4dba-aacf-7fb0edddf90b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c291dd7a-074f-4a64-831d-e759beedb893',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
