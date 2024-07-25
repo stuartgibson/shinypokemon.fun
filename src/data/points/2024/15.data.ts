@@ -778,4 +778,78 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0924. Tandemaus
+  '506a178d-ed8e-43cc-8541-f52f5fe7b00c': {
+    data: {
+      id: '506a178d-ed8e-43cc-8541-f52f5fe7b00c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f4124e83-411f-4391-84b8-8816a6716f69',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0925. Maushold
+  '7d46ff8b-ce79-4d47-8030-07e32a9695ee': {
+    data: {
+      id: '7d46ff8b-ce79-4d47-8030-07e32a9695ee',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c3512215-48bc-4b64-97e6-2849cce0b1eb',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
