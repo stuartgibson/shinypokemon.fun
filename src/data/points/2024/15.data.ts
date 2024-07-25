@@ -667,4 +667,78 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0854. Sinistea
+  'df247038-c33b-4254-b71f-0eb0d8309683': {
+    data: {
+      id: 'df247038-c33b-4254-b71f-0eb0d8309683',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '68847ddd-c418-47b7-ba3a-404f1db5caf2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0855. Polteageist
+  '71ef976f-aa80-4b79-886d-0a1a52f5bd1b': {
+    data: {
+      id: '71ef976f-aa80-4b79-886d-0a1a52f5bd1b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8f964492-a6ad-4157-991c-abd964de54d3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
