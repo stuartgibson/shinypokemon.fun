@@ -852,4 +852,41 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0870. Falinks
+  'ee173932-b30e-4bc0-b956-0b1fafa3f66f': {
+    data: {
+      id: 'ee173932-b30e-4bc0-b956-0b1fafa3f66f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a47be34b-890b-4260-b54f-565162e3300d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
