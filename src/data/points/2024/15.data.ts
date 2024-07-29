@@ -1555,4 +1555,152 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Keagan (@Keagan)
+  //  0985. Scream Tail
+  'c17675ad-3257-4623-9589-f29a27f25a36': {
+    data: {
+      id: 'c17675ad-3257-4623-9589-f29a27f25a36',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '191d3a48-0697-4a8c-9f20-25d0de2e1e05',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Keagan (@Keagan)
+  //  0989. Sandy Shocks
+  'f5751382-c1bc-4dda-af25-d5716fc84217': {
+    data: {
+      id: 'f5751382-c1bc-4dda-af25-d5716fc84217',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '97fcd9cb-845a-4c0a-9e42-192be7012d96',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Keagan (@Keagan)
+  //  0988. Slither Wing
+  'dc8c1051-4584-4ba7-b5e4-e8d3ea41921c': {
+    data: {
+      id: 'dc8c1051-4584-4ba7-b5e4-e8d3ea41921c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '96348370-cf6d-4674-8c33-d310f34a8708',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Keagan (@Keagan)
+  //  0986. Brute Bonnet
+  '1704433f-deaf-48e1-b238-b9f8f952e4a4': {
+    data: {
+      id: '1704433f-deaf-48e1-b238-b9f8f952e4a4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '049b64b0-42a8-47b0-983b-a0bddbac6e03',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
