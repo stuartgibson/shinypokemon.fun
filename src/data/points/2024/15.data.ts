@@ -1481,4 +1481,78 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0622. Golett
+  '7d1d3265-5003-42cf-831c-380ca483835c': {
+    data: {
+      id: '7d1d3265-5003-42cf-831c-380ca483835c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4e5fc61f-4be5-4088-985f-5d8529e70b44',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0623. Golurk
+  'dd98fca6-60a7-4eb4-9ce5-c3b63189f639': {
+    data: {
+      id: 'dd98fca6-60a7-4eb4-9ce5-c3b63189f639',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '47d44ab9-e67c-4ae0-a975-2396c9ec8793',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
