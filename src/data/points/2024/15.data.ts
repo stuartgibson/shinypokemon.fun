@@ -1703,4 +1703,300 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  james (@seginus)
+  //  0379. Registeel
+  '9b347da7-4a5c-4533-bbda-323e4f6fe5d9': {
+    data: {
+      id: '9b347da7-4a5c-4533-bbda-323e4f6fe5d9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dd83ad95-5524-4d5c-9a9b-dce9210777b0',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  james (@seginus)
+  //  0243. Raikou
+  '6eb83313-228e-4054-8000-6ee7205c2b6d': {
+    data: {
+      id: '6eb83313-228e-4054-8000-6ee7205c2b6d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd35f25f0-1bd7-4e77-98ea-79b6058568e9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0374. Beldum
+  'ccbfef10-e4d9-4006-8eae-9c8b768c0e6c': {
+    data: {
+      id: 'ccbfef10-e4d9-4006-8eae-9c8b768c0e6c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'efe1c7a0-9333-40cf-8017-6a04a9a4187d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0137. Porygon
+  '278d22a6-0051-4705-b6c1-fd286c45bbe4': {
+    data: {
+      id: '278d22a6-0051-4705-b6c1-fd286c45bbe4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '32db34f7-0c11-401c-8504-d399aa98e376',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0233. Porygon2
+  'e674bbdd-6672-4589-b908-1249cbe6e5f9': {
+    data: {
+      id: 'e674bbdd-6672-4589-b908-1249cbe6e5f9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7fa95f76-105b-45bf-9d9a-00f20329bee3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0474. Porygon-Z
+  '70bb47c3-75c8-49de-8d38-fb329f79f40c': {
+    data: {
+      id: '70bb47c3-75c8-49de-8d38-fb329f79f40c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '55eeff70-26ed-49ec-bcbc-06445a241da7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0100. Voltorb
+  '9ccd5236-bdb8-4be7-b988-5b143fe43c5d': {
+    data: {
+      id: '9ccd5236-bdb8-4be7-b988-5b143fe43c5d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a7ea779c-7360-4fae-a051-3db40f8cbf45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Stuart (@stuart)
+  //  0101. Electrode
+  '47a9774d-8d7b-4c1c-a559-73ced75e631e': {
+    data: {
+      id: '47a9774d-8d7b-4c1c-a559-73ced75e631e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0a3ba008-f8b7-46e4-884c-058c94d9bcf6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
