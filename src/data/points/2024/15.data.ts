@@ -1999,4 +1999,78 @@ export const pointsData2024_15: IPointEntities = {
       },
     },
   },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Keagan (@Keagan)
+  //  0993. Iron Jugulis
+  '5cc52742-737f-42c4-b58a-5ed0ed819013': {
+    data: {
+      id: '5cc52742-737f-42c4-b58a-5ed0ed819013',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-07-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4aeca7cb-0977-46ae-8269-282e1783eae1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's an Enby! 21 Jul 2024  to 3 Aug 2024
+  //  Devilish Inferno (@Alex)
+  //  0201. Unown
+  '3ae477a6-1507-420c-8730-d71f6d9c5868': {
+    data: {
+      id: '3ae477a6-1507-420c-8730-d71f6d9c5868',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4ef332a9-9a95-4f59-9789-7e705b3396a9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
