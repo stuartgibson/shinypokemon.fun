@@ -13733,4 +13733,32 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
+  '537a93cd-19f4-4fdc-829a-185a96c5982f': {
+    data: {
+      type: 'competition',
+      id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+      attributes: {
+        description:
+          'With Worlds coming up, most featured Pokemon in the top 8 of the 2023-2024 VGC.\r\n\r\nMale Indeedee counts, and any form of Paldean Tauros counts.',
+        endDate: '2024-08-17',
+        startDate: '2024-08-04',
+        theme: "World's Top 8",
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2024',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };
