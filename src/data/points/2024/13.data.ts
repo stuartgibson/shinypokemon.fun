@@ -2,6 +2,43 @@ import { IPointEntities } from 'store/reducers';
 
 export const pointsData2024_13: IPointEntities = {
   //  It's a Girl! 23 Jun 2024  to 6 Jul 2024
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0173. Cleffa
+  '5ca011e5-8aa9-43ac-bfc1-ea05d1292a14': {
+    data: {
+      id: '5ca011e5-8aa9-43ac-bfc1-ea05d1292a14',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-06-24',
+        firstCatch: true,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b0cae72d-57d1-45d7-876e-ef1095b4fae1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c40c9353-5437-43c0-ba7c-07abc32b7074',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  It's a Girl! 23 Jun 2024  to 6 Jul 2024
   //  Tone (@Tone)
   //  0576. Gothitelle
   '8f0ab5ac-f518-4b5c-bce2-e6cb9a28c705': {
