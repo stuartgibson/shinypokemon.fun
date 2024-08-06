@@ -556,4 +556,115 @@ export const pointsData2024_16: IPointEntities = {
       },
     },
   },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0625. Bisharp
+  'd23472d0-b3fd-4399-9b37-cbdb62358d80': {
+    data: {
+      id: 'd23472d0-b3fd-4399-9b37-cbdb62358d80',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '699b6e0f-4d02-41ff-a2a9-0f562153861e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0885. Dreepy
+  'bee910c8-9480-43e5-a2d6-3bdd3cbc98d2': {
+    data: {
+      id: 'bee910c8-9480-43e5-a2d6-3bdd3cbc98d2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '090f5294-3e36-4eb7-a049-a4238f7cfc58',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0996. Frigibax
+  '86c5c4d4-f27c-40fa-a9b3-f4f7a0728b3b': {
+    data: {
+      id: '86c5c4d4-f27c-40fa-a9b3-f4f7a0728b3b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9f8c7a79-1fcc-4c5c-95b5-a6e49d170c5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
