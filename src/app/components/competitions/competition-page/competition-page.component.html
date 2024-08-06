@@ -27,6 +27,12 @@
       <div class="card-body">
         <h3 class="mb-3">Valid Pokémon ({{ vm().validPokemon.length }})</h3>
 
+        <p>
+          <a [routerLink]="['./infographic']">
+            View as Infographic
+          </a>
+        </p>
+
         <input
           autocomplete="off"
           type="text"

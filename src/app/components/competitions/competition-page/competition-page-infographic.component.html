@@ -1,0 +1,32 @@
+@if(!vm().competition) {
+  <p>
+    Could not find requested competition.
+  </p>
+} @else {
+  <sp-competition
+    [competition]="vm().competition!"
+    class="mb-3" />
+
+  <a [routerLink]="['/competitions', vm().competition!.id]">
+    View List and points
+  </a>
+
+  <hr>
+
+  <div class="pokemon-box-wrapper d-flex flex-wrap gap-2">
+    @for (pokemon of vm().validPokemon; track pokemon.id) {
+      <div class="pokemon-box card">
+        <div class="card-body d-flex flex-column align-items-middle justify-content-between">
+          <div class="pokemon-image bg-image flex-grow-1" [ngStyle]="{'background-image': pokemon.artwork}">
+
+          </div>
+          <span class="pokemon-name align-self-center">
+            {{ pokemon.name }}
+          </span>
+        </div>
+      </div>
+    }
+  </div>
+
+
+}
