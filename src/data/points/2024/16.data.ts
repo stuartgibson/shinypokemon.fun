@@ -667,4 +667,411 @@ export const pointsData2024_16: IPointEntities = {
       },
     },
   },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0963. Finizen
+  '78a97552-b11b-4373-9a66-773ac97891f0': {
+    data: {
+      id: '78a97552-b11b-4373-9a66-773ac97891f0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a1209dfd-af3a-46d2-a74e-c8feccf52785',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0460. Abomasnow
+  '04dc146b-0f96-4f72-8aa1-27361fbb7bda': {
+    data: {
+      id: '04dc146b-0f96-4f72-8aa1-27361fbb7bda',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1ca9d7e2-e4e6-4080-92cc-8751529f4d87',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Tone (@Tone)
+  //  0970. Glimmora
+  'b04eed55-7606-43dc-baca-d25dee2f7f21': {
+    data: {
+      id: 'b04eed55-7606-43dc-baca-d25dee2f7f21',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '94e3ad92-d4e9-4e65-9165-b5b6d7eabfcd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Tone (@Tone)
+  //  0987. Flutter Mane
+  '526de584-8260-4016-88f3-0909529c7765': {
+    data: {
+      id: '526de584-8260-4016-88f3-0909529c7765',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a711e10f-5109-43b8-8991-b826dcf1ce58',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Tone (@Tone)
+  //  0985. Scream Tail
+  '26066196-7b9b-460b-ad73-55502e31723b': {
+    data: {
+      id: '26066196-7b9b-460b-ad73-55502e31723b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '191d3a48-0697-4a8c-9f20-25d0de2e1e05',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Tone (@Tone)
+  //  0984. Great Tusk
+  'abfbc9af-24d4-46e5-8317-4a6995a71acd': {
+    data: {
+      id: 'abfbc9af-24d4-46e5-8317-4a6995a71acd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f773ab0-6d6f-4853-a4a4-e174c167286f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Tone (@Tone)
+  //  0998. Baxcalibur
+  '08731f36-071e-4cbf-860c-50d7ffb6533b': {
+    data: {
+      id: '08731f36-071e-4cbf-860c-50d7ffb6533b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f612cbe0-8b28-4f51-9822-7969c039038d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0924. Tandemaus
+  'e57df01d-34e3-4811-a32a-825f86f0fe2e': {
+    data: {
+      id: 'e57df01d-34e3-4811-a32a-825f86f0fe2e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f4124e83-411f-4391-84b8-8816a6716f69',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0745. Lycanroc
+  '5ef41bed-b289-4e77-8422-e9370a420c17': {
+    data: {
+      id: '5ef41bed-b289-4e77-8422-e9370a420c17',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '46b781dd-5818-48df-ad45-dad290fadcc8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0745. Lycanroc
+  '9770ddd1-4601-402c-953e-db506d24b380': {
+    data: {
+      id: '9770ddd1-4601-402c-953e-db506d24b380',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '46b781dd-5818-48df-ad45-dad290fadcc8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0745. Lycanroc
+  'a3807692-11fa-493b-8fdd-0fec85fc6979': {
+    data: {
+      id: 'a3807692-11fa-493b-8fdd-0fec85fc6979',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '46b781dd-5818-48df-ad45-dad290fadcc8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
