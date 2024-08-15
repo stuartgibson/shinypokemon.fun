@@ -14546,20 +14546,6 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
-              // Swalot remove
-              id: 'ab2974ee-a499-423b-95b2-1237e6b420dd',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
-              // Mudsdale remove
-              id: '2b9a4b10-8459-4015-922f-e183751a0349',
-              type: 'pokemon',
-            },
-          },
-          {
-            data: {
               // Umbreon remove
               id: '23fe166f-e2f6-4e22-8682-ba01a4ffcac5',
               type: 'pokemon',
