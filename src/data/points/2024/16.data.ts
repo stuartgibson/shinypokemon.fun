@@ -1074,4 +1074,115 @@ export const pointsData2024_16: IPointEntities = {
       },
     },
   },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0123. Scyther
+  'c21d3ea4-96ad-4120-9bd0-79888ce3199b': {
+    data: {
+      id: 'c21d3ea4-96ad-4120-9bd0-79888ce3199b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0861. Grimmsnarl
+  '74e4d42e-66a9-4ad6-982a-c489ce632dcc': {
+    data: {
+      id: '74e4d42e-66a9-4ad6-982a-c489ce632dcc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f47e8fa-7a54-4ed1-bf39-ce20e4fdaf3e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0286. Breloom
+  'abcdd26c-2a12-44c4-abc2-658a93420c53': {
+    data: {
+      id: 'abcdd26c-2a12-44c4-abc2-658a93420c53',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '697d384b-63a8-48dc-8722-387534e52750',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
