@@ -1185,4 +1185,115 @@ export const pointsData2024_16: IPointEntities = {
       },
     },
   },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Devilish Inferno (@Alex)
+  //  0999. Gimmighoul
+  '62a304b2-a3e1-4303-a6ac-7b3044297557': {
+    data: {
+      id: '62a304b2-a3e1-4303-a6ac-7b3044297557',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd36b8a6b-b5d7-48f5-bf8e-86906194c28d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  Stuart (@stuart)
+  //  0663. Talonflame
+  'fc49cc0f-e210-4ed9-af4c-ca5ca25d451c': {
+    data: {
+      id: 'fc49cc0f-e210-4ed9-af4c-ca5ca25d451c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ea5ad89e-aa20-40e3-89a3-291a753b290f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World's Top 8 4 Aug 2024  to 17 Aug 2024
+  //  james (@seginus)
+  //  0991. Iron Bundle
+  '495178bf-6694-45cc-8aba-29403235b443': {
+    data: {
+      id: '495178bf-6694-45cc-8aba-29403235b443',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '537a93cd-19f4-4fdc-829a-185a96c5982f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd067ea89-4cef-4a4e-9331-2d031120a807',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
