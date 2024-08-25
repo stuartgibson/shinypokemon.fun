@@ -1666,4 +1666,41 @@ export const pointsData2024_16: IPointEntities = {
       },
     },
   },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Padukes (@Padukes)
+  //  0349. Feebas
+  '44512fb5-3914-4f6f-a13c-fae3bb5e58e3': {
+    data: {
+      id: '44512fb5-3914-4f6f-a13c-fae3bb5e58e3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
