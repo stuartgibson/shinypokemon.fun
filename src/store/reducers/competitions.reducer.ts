@@ -26,7 +26,7 @@ export interface ICompetitionEntity extends IJsonApiEntity {
   }
 }
 
-interface ICompetitionEntities {
+export interface ICompetitionEntities {
   [id: string]: ICompetitionEntity;
 }
 

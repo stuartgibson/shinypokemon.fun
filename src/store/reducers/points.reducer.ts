@@ -9,7 +9,9 @@ import { BallType } from 'types/ball.types';
 import { GameType } from 'types/game.types';
 import { MethodType } from 'types/method.types';
 import { Competitions } from './competitions.reducer';
+import { Players } from './players.reducer';
 import { Years } from './years.reducer';
+import { Player } from 'models/player.model';
 
 export interface IPointEntity extends IJsonApiEntity {
   data: {
@@ -118,8 +120,20 @@ export const Points = createFeature({
 
     selectPendingPoints: createSelector(
       selectNewPoints,
-      (entities:IPointEntities):Point[] =>
+      (entities:IPointEntities):Point[] => 
         Object.keys(entities).map((key) => new Point(entities[key].data))
+    ),
+
+    selectRoutedPlayerPoints: createSelector(
+      Players.selectRoutedPlayer,
+      selectEntities,
+      (player: Player|null, entities:IPointEntities):Point[] =>  {
+        if (!player) return [];
+
+        return Object.values(entities)
+          .filter((point) => point.data.relationships.player.data.id == player.id)
+          .map((point) => new Point(point.data));
+      }
     )
   })
 });
