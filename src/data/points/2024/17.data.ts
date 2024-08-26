@@ -556,4 +556,115 @@ export const pointsData2024_17: IPointEntities = {
       },
     },
   },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Padukes (@Padukes)
+  //  0027. Sandshrew (Alolan)
+  '0fdc87e1-32c6-4145-82ff-d3a4e4faea13': {
+    data: {
+      id: '0fdc87e1-32c6-4145-82ff-d3a4e4faea13',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1dc0b2ae-31d4-4759-9908-28efae57fc79',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0704. Goomy
+  '44da8bde-1331-415c-ba1a-38a4444bc25b': {
+    data: {
+      id: '44da8bde-1331-415c-ba1a-38a4444bc25b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '56c95763-648b-4526-a580-e5f4487c0665',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Stuart (@stuart)
+  //  0952. Scovillain
+  'd927af72-9679-41b6-acee-4d11e2cb9627': {
+    data: {
+      id: 'd927af72-9679-41b6-acee-4d11e2cb9627',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2e5a63fd-d522-467e-8991-b99f548aba04',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
