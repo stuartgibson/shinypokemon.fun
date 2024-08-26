@@ -1,7 +1,49 @@
-@if (player() ) {
-  <h2>
-    {{ player()!.formattedName }}
-  </h2>
+@if (vm().player ) {
+<h2>
+  {{ vm().player?.formattedName }}
+</h2>
+@if (vm().data.length > 0) {
+<ul class="list-unstyled">
+  @for(datum of vm().data; track datum.point.id) {
+  <li>
+    <div class="card mb-3">
+      <div
+        class="bg-image"
+        [ngStyle]="{ 'background-image': datum.pokemon.artwork }"
+      ></div>
+      <div class="card-body">
+        <dl class="smart-layout-evenly">
+          <div>
+            <dt>Competion</dt>
+            <dd>
+              <a href="/competitions/{{ datum.competition.id }}">{{
+                datum.competition.theme
+              }}</a>
+              <sp-date-range
+                [startDate]="datum.competition.startDate"
+                [endDate]="datum.competition.endDate"
+                class="mb-3 d-block"
+              />
+            </dd>
+          </div>
+
+          <div class="">
+            <dt>Pokemon</dt>
+            <dd>{{ datum.pokemon.name }}</dd>
+          </div>
+
+          <div class="">
+            <dt>Catch Date</dt>
+            <dd>{{ dateFormatted(datum.point.catchDate) }}</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </li>
+  }
+</ul>
 } @else {
-  <p>No player found.</p>
+<p>No points found.</p>
+} } @else {
+<p>No player found.</p>
 }
