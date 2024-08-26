@@ -667,4 +667,41 @@ export const pointsData2024_17: IPointEntities = {
       },
     },
   },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Stuart (@stuart)
+  //  0770. Palossand
+  'f6354f25-5b23-4f4a-a501-62b7b044b2ae': {
+    data: {
+      id: 'f6354f25-5b23-4f4a-a501-62b7b044b2ae',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c7ffe447-807d-4a54-8358-3e50a066430c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
