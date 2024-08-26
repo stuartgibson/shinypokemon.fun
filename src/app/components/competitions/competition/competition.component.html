@@ -7,6 +7,11 @@
   [endDate]="competition.endDate"
   class="mb-3 d-block" />
 
+<a [routerLink]="['/years', competition.yearID]">
+  ({{ competition.yearID }})
+</a>
+
+
 <div class="mb-3">
   Theme Chosen by <sp-inline-player [id]="competition.selectedByID"></sp-inline-player>
 </div>
