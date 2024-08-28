@@ -704,4 +704,41 @@ export const pointsData2024_17: IPointEntities = {
       },
     },
   },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Padukes (@Padukes)
+  //  0456. Finneon
+  '520ef6d2-45f2-4eb3-8f9d-4894be794400': {
+    data: {
+      id: '520ef6d2-45f2-4eb3-8f9d-4894be794400',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dae80cde-8a92-4a23-b9fb-9b0218b34b51',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
