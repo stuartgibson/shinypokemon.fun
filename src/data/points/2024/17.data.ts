@@ -741,4 +741,226 @@ export const pointsData2024_17: IPointEntities = {
       },
     },
   },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Padukes (@Padukes)
+  //  0229. Houndoom
+  '9d4bd831-93fa-4d80-b576-29a570b1d15a': {
+    data: {
+      id: '9d4bd831-93fa-4d80-b576-29a570b1d15a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '843f6c5b-322d-43da-8faa-845a8af16009',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Al McKinlay (@Al)
+  //  0996. Frigibax
+  '51455996-56d0-4bd9-a16e-92a42daab5a1': {
+    data: {
+      id: '51455996-56d0-4bd9-a16e-92a42daab5a1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9f8c7a79-1fcc-4c5c-95b5-a6e49d170c5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0951. Capsakid
+  '5f5ec200-3a3c-42c0-bfe6-39ee2c9a6ddf': {
+    data: {
+      id: '5f5ec200-3a3c-42c0-bfe6-39ee2c9a6ddf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a387d04d-c518-4e1f-821d-aca25f301019',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Tone (@Tone)
+  //  0586. Sawsbuck
+  '310d28a7-e7b6-40a2-b4af-cae511a54d33': {
+    data: {
+      id: '310d28a7-e7b6-40a2-b4af-cae511a54d33',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '147eebec-bc96-4ee9-b4dd-3f0a3fc93d91',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Tone (@Tone)
+  //  0349. Feebas
+  '60abdfaa-fd06-4aa5-b450-739559bf3e57': {
+    data: {
+      id: '60abdfaa-fd06-4aa5-b450-739559bf3e57',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Tone (@Tone)
+  //  0969. Glimmet
+  '10067a0b-e3d3-4cd1-8da7-a5bcff7a59c0': {
+    data: {
+      id: '10067a0b-e3d3-4cd1-8da7-a5bcff7a59c0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '448daffc-668f-4476-b6e4-19111c496573',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
