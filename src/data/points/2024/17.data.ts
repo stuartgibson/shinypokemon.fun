@@ -963,4 +963,41 @@ export const pointsData2024_17: IPointEntities = {
       },
     },
   },
+  //  Back to School 18 Aug 2024  to 31 Aug 2024
+  //  Tone (@Tone)
+  //  0750. Mudsdale
+  '5c0f01ee-04dc-42a2-8d3d-9ce32e5d4ae3': {
+    data: {
+      id: '5c0f01ee-04dc-42a2-8d3d-9ce32e5d4ae3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-08-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6919af48-3b6d-4e82-9648-e11cfd6604c1',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b9a4b10-8459-4015-922f-e183751a0349',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
