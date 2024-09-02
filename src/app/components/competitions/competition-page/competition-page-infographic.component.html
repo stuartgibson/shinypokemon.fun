@@ -20,8 +20,24 @@
           <div class="pokemon-image bg-image flex-grow-1" [ngStyle]="{'background-image': pokemon.artwork}">
 
           </div>
-          <span class="pokemon-name align-self-center">
+          <span class="pokemon-name align-self-center text-center">
             {{ pokemon.name }}
+          </span>
+          <span class="d-flex align-items-center justify-content-center">
+            <a
+              [href]="pokemon.serebiiLink"
+              target="_blank"
+              title="View Pokémon on Serebii.net"
+              class="image-link serebii-link">
+              <span class="visually-hidden">Serebii.net</span>
+            </a>
+            <a
+              [href]="pokemon.bulbapediaLink"
+              target="_blank"
+              title="View Pokémon on Bulbapedia"
+              class="image-link bulbapedia-link">
+              <span class="visually-hidden">Bulbapedia</span>
+            </a>
           </span>
         </div>
       </div>
