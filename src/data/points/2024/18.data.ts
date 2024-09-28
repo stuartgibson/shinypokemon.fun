@@ -1370,4 +1370,300 @@ export const pointsData2024_18: IPointEntities = {
       },
     },
   },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Padukes (@Padukes)
+  //  0361. Snorunt
+  '53e88abc-4f98-4fcf-b1ff-769ab3584cbc': {
+    data: {
+      id: '53e88abc-4f98-4fcf-b1ff-769ab3584cbc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Tone (@Tone)
+  //  0595. Joltik
+  'e9c33332-7eac-4208-8d7f-8f02d69ef667': {
+    data: {
+      id: 'e9c33332-7eac-4208-8d7f-8f02d69ef667',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '71c6b9df-1cdb-49e2-b157-a3df7bcf68ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Devilish Inferno (@Alex)
+  //  0795. Pheromosa
+  '56cfca14-c0a8-46d4-9f43-d4c3e6a7b168': {
+    data: {
+      id: '56cfca14-c0a8-46d4-9f43-d4c3e6a7b168',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5999866a-9753-4d47-a267-01751c3617c7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0324. Torkoal
+  '691f3005-cd2b-4742-9c5a-58165316cac9': {
+    data: {
+      id: '691f3005-cd2b-4742-9c5a-58165316cac9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e93f217e-55a5-484f-8ec8-43d507a4a0bb',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0482. Azelf
+  '7bbecacd-f42d-40f5-b1e8-938dec259500': {
+    data: {
+      id: '7bbecacd-f42d-40f5-b1e8-938dec259500',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6bdec89a-de2c-455e-aefd-a84ce5db4947',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0839. Coalossal
+  'd362c082-dbb8-4800-aa35-f5b993af5ed6': {
+    data: {
+      id: 'd362c082-dbb8-4800-aa35-f5b993af5ed6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '10b5a001-5bd8-4b31-a03a-823be1ffa0ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0134. Vaporeon
+  'c642409f-e29f-4555-a10f-46d44f23740d': {
+    data: {
+      id: 'c642409f-e29f-4555-a10f-46d44f23740d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd008fb97-c343-4f85-86ce-7bd7dcf27094',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Shiny Hunting Classic: Dynamax 1 Sep 2024  to 14 Sep 2024
+  //  Tone (@Tone)
+  //  0113. Chansey
+  '68221692-feba-47a6-9b78-b35c7bd8d67a': {
+    data: {
+      id: '68221692-feba-47a6-9b78-b35c7bd8d67a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ddd62904-b0df-4191-a784-1aba70ed6bac',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
