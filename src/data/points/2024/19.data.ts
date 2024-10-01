@@ -667,4 +667,41 @@ export const pointsData2024_19: IPointEntities = {
       },
     },
   },
+  //  Going Mach Speed! 15 Sep 2024  to 28 Sep 2024
+  //  Níck Mārsh (@Citizen)
+  //  0886. Drakloak
+  'c984a222-fa1d-407e-a1b4-6d06be93cc9c': {
+    data: {
+      id: 'c984a222-fa1d-407e-a1b4-6d06be93cc9c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-09-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e8569eb9-aea1-4a8e-ae09-437876ea6e99',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6041715b-b9ff-4fbe-99c9-c6cab724effe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
