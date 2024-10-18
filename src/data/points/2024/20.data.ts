@@ -815,4 +815,41 @@ export const pointsData2024_20: IPointEntities = {
       },
     },
   },
+  //  Paldea 29 Sep 2024  to 12 Oct 2024
+  //  Níck Mārsh (@Citizen)
+  //  0943. Mabosstiff
+  'c8cbeda2-e30d-4272-aab4-6c87b2431de0': {
+    data: {
+      id: 'c8cbeda2-e30d-4272-aab4-6c87b2431de0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b9d07633-4984-440f-93c8-746455e504bb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd186901b-7433-45ec-abf6-2b4e6cd748c1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
