@@ -1222,4 +1222,559 @@ export const pointsData2024_21: IPointEntities = {
       },
     },
   },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Stuart (@stuart)
+  //  0022. Fearow
+  '9bb9894f-c297-4e4a-a8e6-2e3745688d37': {
+    data: {
+      id: '9bb9894f-c297-4e4a-a8e6-2e3745688d37',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2c7aaaeb-3f85-4c13-a2af-b0bb988fc102',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Stuart (@stuart)
+  //  0021. Spearow
+  'dc8c5de3-3414-46a8-8172-717575597e82': {
+    data: {
+      id: 'dc8c5de3-3414-46a8-8172-717575597e82',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c60b77ae-8db9-4caf-8ec7-bfa52862f6cd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Devilish Inferno (@Alex)
+  //  0710. Pumpkaboo
+  'a5a7c448-05b2-4058-9c0c-7378b49cf187': {
+    data: {
+      id: 'a5a7c448-05b2-4058-9c0c-7378b49cf187',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '92f1c2b5-7a27-41e3-98f5-ae7f8ca98d2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Devilish Inferno (@Alex)
+  //  0066. Machop
+  'b1f9d2ab-f50b-493f-b875-cc226f5495dc': {
+    data: {
+      id: 'b1f9d2ab-f50b-493f-b875-cc226f5495dc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a890ca5-12f0-4d54-b1bd-70fe694ea803',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Padukes (@Padukes)
+  //  0420. Cherubi
+  '024c0023-fb19-411c-b102-79a13b002da5': {
+    data: {
+      id: '024c0023-fb19-411c-b102-79a13b002da5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '19618a6b-e347-49ad-a5d5-08582c8bf817',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Níck Mārsh (@Citizen)
+  //  0359. Absol
+  '96c6e302-963e-424a-a357-3bd18d217d14': {
+    data: {
+      id: '96c6e302-963e-424a-a357-3bd18d217d14',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b25d8f50-aa81-42bb-8274-81b65833fa08',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Tone (@Tone)
+  //  0016. Pidgey
+  'e59b1d01-d695-437e-9c62-2062687bbebd': {
+    data: {
+      id: 'e59b1d01-d695-437e-9c62-2062687bbebd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d2eb67b-06bb-41a3-936c-654a2fa1e475',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Tone (@Tone)
+  //  0018. Pidgeot
+  '300e8e3d-db2d-4eb4-b5b2-afd5350e699e': {
+    data: {
+      id: '300e8e3d-db2d-4eb4-b5b2-afd5350e699e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '49b6173d-48a0-4ed2-b15f-3db4ad2058ba',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Stuart (@stuart)
+  //  0019. Rattata
+  '5b76b5c5-1d20-40d9-ac7d-ba0694f140d0': {
+    data: {
+      id: '5b76b5c5-1d20-40d9-ac7d-ba0694f140d0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a522c362-5189-4346-8947-4598b390affa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Stuart (@stuart)
+  //  0020. Raticate
+  '4da75db8-a9aa-4f2c-9785-ade93ea1ad77': {
+    data: {
+      id: '4da75db8-a9aa-4f2c-9785-ade93ea1ad77',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dbaea5f9-d1d4-434b-9437-42753792b3d2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Padukes (@Padukes)
+  //  0201. Unown
+  'e09d495d-b9a1-48c4-a5dc-00bd4e2b9d6c': {
+    data: {
+      id: 'e09d495d-b9a1-48c4-a5dc-00bd4e2b9d6c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Padukes (@Padukes)
+  //  0104. Cubone
+  'b3a4b8d8-2124-48f3-9e13-22e66d13f57d': {
+    data: {
+      id: 'b3a4b8d8-2124-48f3-9e13-22e66d13f57d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7dde59c9-3d22-4062-b6fb-b62dc3286abe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Stuart (@stuart)
+  //  0046. Paras
+  'af5d2f53-e236-4974-bae9-70d51c75838c': {
+    data: {
+      id: 'af5d2f53-e236-4974-bae9-70d51c75838c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd5a53a34-f2a8-4ba9-af97-005b34807cb6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Níck Mārsh (@Citizen)
+  //  0016. Pidgey
+  '8cad3574-1528-42b5-be28-f866fadea74e': {
+    data: {
+      id: '8cad3574-1528-42b5-be28-f866fadea74e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d2eb67b-06bb-41a3-936c-654a2fa1e475',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Not Paldea 13 Oct 2024  to 26 Oct 2024
+  //  Padukes (@Padukes)
+  //  0369. Relicanth
+  '19fb5cb5-2a9c-4326-91dd-59111da3a0d6': {
+    data: {
+      id: '19fb5cb5-2a9c-4326-91dd-59111da3a0d6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-10-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '69dd126e-00e2-4b73-932c-53840927e081',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd6a1a76f-7eb4-4b14-80d6-8978d4080889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
