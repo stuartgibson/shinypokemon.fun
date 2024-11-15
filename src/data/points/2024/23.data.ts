@@ -741,4 +741,226 @@ export const pointsData2024_23: IPointEntities = {
       },
     },
   },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0774. Minior
+  'b1460445-399a-49ce-b2ca-1fdb0cbe7b08': {
+    data: {
+      id: 'b1460445-399a-49ce-b2ca-1fdb0cbe7b08',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e78e09d4-43d3-44bb-9c87-d2ff0e469e2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0173. Cleffa
+  'dcbfde58-b9f3-468c-85c9-9f81c30b534d': {
+    data: {
+      id: 'dcbfde58-b9f3-468c-85c9-9f81c30b534d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c40c9353-5437-43c0-ba7c-07abc32b7074',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0122. Mr. Mime (Galarian)
+  'bf7414ab-a011-4166-a49a-71216348e48f': {
+    data: {
+      id: 'bf7414ab-a011-4166-a49a-71216348e48f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '98edd436-162e-4e9d-ab09-2657ed54052d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Lewis Dobie (@Lewthelegend)
+  //  0204. Pineco
+  '095a7ea5-9960-410d-a41c-29dbc5c1b7bb': {
+    data: {
+      id: '095a7ea5-9960-410d-a41c-29dbc5c1b7bb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da602af9-4a1d-40bf-9042-f943f7241a9d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Padukes (@Padukes)
+  //  0585. Deerling
+  '4d6e8d5e-b05d-4354-a140-9cd82a94cb1c': {
+    data: {
+      id: '4d6e8d5e-b05d-4354-a140-9cd82a94cb1c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Padukes (@Padukes)
+  //  0203. Girafarig
+  '77001d73-4773-4699-b4b9-cc78925920f8': {
+    data: {
+      id: '77001d73-4773-4699-b4b9-cc78925920f8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3b624d92-9f4e-4611-8f39-43683a1740d1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
