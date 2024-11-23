@@ -963,4 +963,1151 @@ export const pointsData2024_23: IPointEntities = {
       },
     },
   },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Stuart (@stuart)
+  //  0948. Toedscool
+  'b446b104-096b-4444-8362-9d2e0fcddab1': {
+    data: {
+      id: 'b446b104-096b-4444-8362-9d2e0fcddab1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6b57b43b-60e3-44e8-b740-0635e8e899ab',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Padukes (@Padukes)
+  //  0165. Ledyba
+  'd46c740c-ffe2-4889-ac72-c79596e1fa1e': {
+    data: {
+      id: 'd46c740c-ffe2-4889-ac72-c79596e1fa1e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '87e6d3f7-97a0-4117-ada9-4dcb9d718b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Padukes (@Padukes)
+  //  0165. Ledyba
+  '3213e327-2664-410d-8f33-88e6bdbd4a3a': {
+    data: {
+      id: '3213e327-2664-410d-8f33-88e6bdbd4a3a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '87e6d3f7-97a0-4117-ada9-4dcb9d718b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Devilish Inferno (@Alex)
+  //  0113. Chansey
+  '5c3fe0ee-9cd7-4ca1-8359-165f047866f5': {
+    data: {
+      id: '5c3fe0ee-9cd7-4ca1-8359-165f047866f5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0072. Tentacool
+  '7855975a-8ce4-473b-9587-d2e18b4f0f98': {
+    data: {
+      id: '7855975a-8ce4-473b-9587-d2e18b4f0f98',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0045. Vileplume
+  'd38f549c-feba-4747-a5e3-240a1b35399e': {
+    data: {
+      id: 'd38f549c-feba-4747-a5e3-240a1b35399e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '98547c35-7602-4b40-b88a-31e7cf88fee7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0948. Toedscool
+  '07447b4d-26f7-4ded-8328-424fcb4dfd09': {
+    data: {
+      id: '07447b4d-26f7-4ded-8328-424fcb4dfd09',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6b57b43b-60e3-44e8-b740-0635e8e899ab',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0793. Nihilego
+  '0e59f1d2-4c12-453d-a86a-3c3d6ab64c53': {
+    data: {
+      id: '0e59f1d2-4c12-453d-a86a-3c3d6ab64c53',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '069b5315-2193-45b1-b5b7-94964232e3ce',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0218. Slugma
+  '22f54f62-3cb7-4dd5-a31e-86d704f5c975': {
+    data: {
+      id: '22f54f62-3cb7-4dd5-a31e-86d704f5c975',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d362a45-b7ce-4a05-9d88-90b330422ab2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0143. Snorlax
+  'c41d96f9-c90d-45fc-8dcb-158739ef5c87': {
+    data: {
+      id: 'c41d96f9-c90d-45fc-8dcb-158739ef5c87',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '27194e95-3472-4247-8cc2-6dfa1eb42e46',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Stuart (@stuart)
+  //  0309. Electrike
+  'c837a240-67c2-43d1-b51e-bbf28ae9ba58': {
+    data: {
+      id: 'c837a240-67c2-43d1-b51e-bbf28ae9ba58',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e78d54a8-71cf-4535-ac32-10a0b8abdaad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Stuart (@stuart)
+  //  0143. Snorlax
+  '46ef8e14-0735-445f-b0c6-4cecb4f5763d': {
+    data: {
+      id: '46ef8e14-0735-445f-b0c6-4cecb4f5763d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '27194e95-3472-4247-8cc2-6dfa1eb42e46',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Stuart (@stuart)
+  //  0310. Manectric
+  '8ca05339-5917-4670-ae85-44662b4b1b89': {
+    data: {
+      id: '8ca05339-5917-4670-ae85-44662b4b1b89',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3e6d63f4-d3bf-4a3c-838b-72d1df53ec0a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0309. Electrike
+  '4a0eeb24-62c6-4e47-b0f0-5c817189908c': {
+    data: {
+      id: '4a0eeb24-62c6-4e47-b0f0-5c817189908c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e78d54a8-71cf-4535-ac32-10a0b8abdaad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Chris Mize (@chrismize)
+  //  0081. Magnemite
+  'd05a96b1-f62d-4f86-a878-19fa1613e7d4': {
+    data: {
+      id: 'd05a96b1-f62d-4f86-a878-19fa1613e7d4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '830c3a93-b737-426e-b307-4af048660e62',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Stuart (@stuart)
+  //  0069. Bellsprout
+  'e9f5f5b1-8631-4868-a9bc-80b0864cc7af': {
+    data: {
+      id: 'e9f5f5b1-8631-4868-a9bc-80b0864cc7af',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dc8312f8-9340-414d-a8eb-7e9c6016b715',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0081. Magnemite
+  'e2b03bac-efd6-4405-86b5-cc33f52be005': {
+    data: {
+      id: 'e2b03bac-efd6-4405-86b5-cc33f52be005',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0125. Electabuzz
+  '0d421381-21dc-4370-a321-d0074ab4a08e': {
+    data: {
+      id: '0d421381-21dc-4370-a321-d0074ab4a08e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '38bb56ef-f998-44fd-9382-0b2ccc42f18e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Al McKinlay (@Al)
+  //  0100. Voltorb
+  '6f4ab776-a97e-456e-a151-ea3b2031efd4': {
+    data: {
+      id: '6f4ab776-a97e-456e-a151-ea3b2031efd4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a7ea779c-7360-4fae-a051-3db40f8cbf45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Al McKinlay (@Al)
+  //  0522. Blitzle
+  '0f6fdfbf-441b-4b08-a65d-3935f8d1b75f': {
+    data: {
+      id: '0f6fdfbf-441b-4b08-a65d-3935f8d1b75f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '39056528-fc4f-4e93-b266-35babab9d386',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Al McKinlay (@Al)
+  //  0595. Joltik
+  '89bb318a-90d7-40e8-a5c3-6e066b6e93a5': {
+    data: {
+      id: '89bb318a-90d7-40e8-a5c3-6e066b6e93a5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '71c6b9df-1cdb-49e2-b157-a3df7bcf68ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Chris Mize (@chrismize)
+  //  0100. Voltorb (Hisuian)
+  '7bb9a577-fb7b-4968-80b9-4b84f645aec0': {
+    data: {
+      id: '7bb9a577-fb7b-4968-80b9-4b84f645aec0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '830c3a93-b737-426e-b307-4af048660e62',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d19eebb-82df-4e1f-a74b-590583c1ae92',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0072. Tentacool
+  'd9318542-be86-431c-a9c6-42707537ae66': {
+    data: {
+      id: 'd9318542-be86-431c-a9c6-42707537ae66',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0072. Tentacool
+  '729e7cf4-e4ae-41fd-8554-d40507390ba7': {
+    data: {
+      id: '729e7cf4-e4ae-41fd-8554-d40507390ba7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0403. Shinx
+  '7122bf68-c252-4286-8cbc-3b71c97328ec': {
+    data: {
+      id: '7122bf68-c252-4286-8cbc-3b71c97328ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8faec058-51ec-472d-80f5-53b37449795c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0403. Shinx
+  '93c7978b-efb5-46c7-b5ef-c3178c029b9c': {
+    data: {
+      id: '93c7978b-efb5-46c7-b5ef-c3178c029b9c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8faec058-51ec-472d-80f5-53b37449795c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0081. Magnemite
+  '4c342dad-8c4b-47c4-8f55-31e76b98d916': {
+    data: {
+      id: '4c342dad-8c4b-47c4-8f55-31e76b98d916',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0595. Joltik
+  'c7e40ef1-c9dc-40f4-bb3f-7be3632c7b30': {
+    data: {
+      id: 'c7e40ef1-c9dc-40f4-bb3f-7be3632c7b30',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '71c6b9df-1cdb-49e2-b157-a3df7bcf68ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0309. Electrike
+  '896ce67f-3b87-4390-afcb-0ddb6ae73ba4': {
+    data: {
+      id: '896ce67f-3b87-4390-afcb-0ddb6ae73ba4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e78d54a8-71cf-4535-ac32-10a0b8abdaad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0100. Voltorb
+  '99876144-0b37-44de-bc5d-ac482276958a': {
+    data: {
+      id: '99876144-0b37-44de-bc5d-ac482276958a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a7ea779c-7360-4fae-a051-3db40f8cbf45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Tone (@Tone)
+  //  0100. Voltorb
+  '011624d5-26a0-4ad7-a62e-8193915a27f4': {
+    data: {
+      id: '011624d5-26a0-4ad7-a62e-8193915a27f4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a7ea779c-7360-4fae-a051-3db40f8cbf45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
