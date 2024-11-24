@@ -2110,4 +2110,152 @@ export const pointsData2024_23: IPointEntities = {
       },
     },
   },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0001. Bulbasaur
+  '958ed31b-4d2b-4e2a-b669-ef4f22cb5f93': {
+    data: {
+      id: '958ed31b-4d2b-4e2a-b669-ef4f22cb5f93',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64201a6d-a65c-4ada-8fb9-90c2ba65b294',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Keagan (@Keagan)
+  //  0125. Electabuzz
+  'bd633bba-7bd4-4d87-9211-f656077f8210': {
+    data: {
+      id: 'bd633bba-7bd4-4d87-9211-f656077f8210',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '38bb56ef-f998-44fd-9382-0b2ccc42f18e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Devilish Inferno (@Alex)
+  //  0001. Bulbasaur
+  '262f4cb0-09dd-4fd4-a7f8-dca7cb600e18': {
+    data: {
+      id: '262f4cb0-09dd-4fd4-a7f8-dca7cb600e18',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64201a6d-a65c-4ada-8fb9-90c2ba65b294',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Support Pokemon 10 Nov 2024  to 23 Nov 2024
+  //  Jette (@Jette)
+  //  0080. Slowbro
+  'b5532a25-79c5-4a5c-97d9-9afb1df9054e': {
+    data: {
+      id: 'b5532a25-79c5-4a5c-97d9-9afb1df9054e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'e9a58415-8ad4-4981-a83a-6a9753faa120',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
