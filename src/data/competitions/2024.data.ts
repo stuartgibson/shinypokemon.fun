@@ -24733,4 +24733,31 @@ export const competitionsData2024: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
+  '49f902a5-38ac-448e-bd19-f9b02a6b0ca9': {
+    data: {
+      type: 'competition',
+      id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+      attributes: {
+        description: 'End of year free for all. Every unique shiny counts.',
+        endDate: '2024-12-21',
+        startDate: '2024-12-08',
+        theme: 'Free For All 2024',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2024',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };
