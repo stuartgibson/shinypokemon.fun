@@ -1518,4 +1518,337 @@ export const pointsData2024_25: IPointEntities = {
       },
     },
   },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Keagan (@Keagan)
+  //  0178. Xatu
+  'e5ad51b6-ccee-48ca-aa96-740f8a8789d2': {
+    data: {
+      id: 'e5ad51b6-ccee-48ca-aa96-740f8a8789d2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6a6d96c4-2935-4fba-9c40-0809aa1858be',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Stuart (@stuart)
+  //  0957. Tinkatink
+  '315fe618-d366-4394-a36a-8796a0276853': {
+    data: {
+      id: '315fe618-d366-4394-a36a-8796a0276853',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9e8605f4-17fc-4649-ad7a-d9e9a009336f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Stuart (@stuart)
+  //  0958. Tinkatuff
+  'c44794d7-d2ef-44b5-8b26-12b8833b762b': {
+    data: {
+      id: 'c44794d7-d2ef-44b5-8b26-12b8833b762b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8b3edd23-8250-4258-bb59-4f8b3c940585',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Stuart (@stuart)
+  //  0959. Tinkaton
+  'e054e302-d227-4766-90a4-0e8e23d1c084': {
+    data: {
+      id: 'e054e302-d227-4766-90a4-0e8e23d1c084',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '95876c88-3045-42a2-9151-c3724a3053b4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Stuart (@stuart)
+  //  0179. Mareep
+  '70fb1711-2a25-46e6-baa8-d271b965236c': {
+    data: {
+      id: '70fb1711-2a25-46e6-baa8-d271b965236c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2d3f45a9-8f6b-4540-9171-037c8a0dac74',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0128. Tauros (Paldean)
+  '946069ef-a1cf-4a40-9755-3f1651714aa1': {
+    data: {
+      id: '946069ef-a1cf-4a40-9755-3f1651714aa1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3954858f-5c36-44ad-bb21-6f45febc1821',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0935. Charcadet
+  '81b8635c-371b-4a19-9a86-58663b7c680b': {
+    data: {
+      id: '81b8635c-371b-4a19-9a86-58663b7c680b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cf3736c5-0795-49e3-b1e0-bb464936465d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0995. Iron Thorns
+  'bdddb4ae-1739-47ea-a612-cc4429209487': {
+    data: {
+      id: 'bdddb4ae-1739-47ea-a612-cc4429209487',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e49ae428-49a7-4980-846d-ba20013867dc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0922. Pawmo
+  '27040edc-69e2-4e66-894e-9a85d5d36d48': {
+    data: {
+      id: '27040edc-69e2-4e66-894e-9a85d5d36d48',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '17441171-60a5-4dc8-b993-15c9101f8143',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
