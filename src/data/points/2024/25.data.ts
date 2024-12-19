@@ -1851,4 +1851,448 @@ export const pointsData2024_25: IPointEntities = {
       },
     },
   },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Stuart (@stuart)
+  //  0921. Pawmi
+  '668b27cd-86ac-476e-9bb2-fb3964630e8b': {
+    data: {
+      id: '668b27cd-86ac-476e-9bb2-fb3964630e8b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '73f482cc-0ea4-4c43-bd42-43ad868cf90a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0056. Mankey
+  '8d15c914-a72d-4e39-b11e-d1befd8acdba': {
+    data: {
+      id: '8d15c914-a72d-4e39-b11e-d1befd8acdba',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0831. Wooloo
+  'd3f5f8e0-cb4d-4972-8297-56d3339a393f': {
+    data: {
+      id: 'd3f5f8e0-cb4d-4972-8297-56d3339a393f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '82296f48-2914-4e67-8538-8b9c68158cd2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Keagan (@Keagan)
+  //  0326. Grumpig
+  '883e4daf-8264-4dd2-be28-cb8871b0b557': {
+    data: {
+      id: '883e4daf-8264-4dd2-be28-cb8871b0b557',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0322. Numel
+  '0095222c-de9f-4585-bfe9-e1a734811849': {
+    data: {
+      id: '0095222c-de9f-4585-bfe9-e1a734811849',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a409c5b6-da3f-4eaf-9963-ec0b59d5bccd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0459. Snover
+  'd5086b6b-28fa-4607-9a37-6dc6b3d0240a': {
+    data: {
+      id: 'd5086b6b-28fa-4607-9a37-6dc6b3d0240a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fd2affc4-e41b-418e-a559-62741f95da21',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0993. Iron Jugulis
+  '0967df10-6b9f-44bc-914d-75931a1034dc': {
+    data: {
+      id: '0967df10-6b9f-44bc-914d-75931a1034dc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4aeca7cb-0977-46ae-8269-282e1783eae1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Tone (@Tone)
+  //  0990. Iron Treads
+  'e0326ddb-420f-41f7-b7f9-a359735840c1': {
+    data: {
+      id: 'e0326ddb-420f-41f7-b7f9-a359735840c1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '47c4097f-f029-4b07-913e-d1eb482a4824',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Keagan (@Keagan)
+  //  0745. Lycanroc
+  '9a3bf520-ac66-4692-b18b-55ac30592fdc': {
+    data: {
+      id: '9a3bf520-ac66-4692-b18b-55ac30592fdc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '46b781dd-5818-48df-ad45-dad290fadcc8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  james (@seginus)
+  //  0106. Hitmonlee
+  'c3fa4d4d-f11e-451a-8d58-8592825126e8': {
+    data: {
+      id: 'c3fa4d4d-f11e-451a-8d58-8592825126e8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c159b074-9e9f-4e1b-889f-a64dd78598a6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '89c759ee-3cda-416b-91de-a8360da73bb3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Keagan (@Keagan)
+  //  0074. Geodude (Alolan)
+  'b906d7d1-8a70-42d4-a5ed-6cd7c2061d75': {
+    data: {
+      id: 'b906d7d1-8a70-42d4-a5ed-6cd7c2061d75',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'df82c137-ce8e-45ec-9856-3ba2854d3e3f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Keagan (@Keagan)
+  //  0075. Graveller (Alolan)
+  '060aa456-e220-4e40-bd7b-5d2f093d3806': {
+    data: {
+      id: '060aa456-e220-4e40-bd7b-5d2f093d3806',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64be93c6-3d42-4ec5-a5f7-90e0345eb6ba',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
