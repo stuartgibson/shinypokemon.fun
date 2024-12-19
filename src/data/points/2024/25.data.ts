@@ -2222,11 +2222,11 @@ export const pointsData2024_25: IPointEntities = {
     },
   },
   //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
-  //  Keagan (@Keagan)
+  //  Padukes (@Padukes)
   //  0074. Geodude (Alolan)
-  'b906d7d1-8a70-42d4-a5ed-6cd7c2061d75': {
+  '0fc461f1-0656-4afb-abbe-fcfa9fff62fe': {
     data: {
-      id: 'b906d7d1-8a70-42d4-a5ed-6cd7c2061d75',
+      id: '0fc461f1-0656-4afb-abbe-fcfa9fff62fe',
       type: 'point',
       attributes: {
         ball: null,
@@ -2245,7 +2245,7 @@ export const pointsData2024_25: IPointEntities = {
         },
         player: {
           data: {
-            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
             type: 'player',
           },
         },
@@ -2259,15 +2259,52 @@ export const pointsData2024_25: IPointEntities = {
     },
   },
   //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
-  //  Keagan (@Keagan)
+  //  Padukes (@Padukes)
   //  0075. Graveller (Alolan)
-  '060aa456-e220-4e40-bd7b-5d2f093d3806': {
+  '14e784e0-1b78-4562-93c8-92205d99f5b1': {
     data: {
-      id: '060aa456-e220-4e40-bd7b-5d2f093d3806',
+      id: '14e784e0-1b78-4562-93c8-92205d99f5b1',
       type: 'point',
       attributes: {
         ball: null,
         catchDate: '2024-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64be93c6-3d42-4ec5-a5f7-90e0345eb6ba',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Keagan (@Keagan)
+  //  0380. Latias
+  '72e79a5d-5948-4d69-a567-2c4587b21081': {
+    data: {
+      id: '72e79a5d-5948-4d69-a567-2c4587b21081',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-19',
         firstCatch: false,
         game: null,
         method: null,
@@ -2288,7 +2325,7 @@ export const pointsData2024_25: IPointEntities = {
         },
         pokemon: {
           data: {
-            id: '64be93c6-3d42-4ec5-a5f7-90e0345eb6ba',
+            id: '7cf0d871-ba20-4ba1-a530-8145903c07c1',
             type: 'pokemon',
           },
         },
