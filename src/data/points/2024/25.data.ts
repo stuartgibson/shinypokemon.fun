@@ -3442,4 +3442,41 @@ export const pointsData2024_25: IPointEntities = {
       },
     },
   },
+  //  Free For All 2024 8 Dec 2024  to 21 Dec 2024
+  //  Stuart (@stuart)
+  //  0384. Rayquaza
+  '6f4208d2-0472-4f42-9448-2eee3c0887ea': {
+    data: {
+      id: '6f4208d2-0472-4f42-9448-2eee3c0887ea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-12-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '49f902a5-38ac-448e-bd19-f9b02a6b0ca9',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0171898c-529c-4d3c-8be2-54c578cd54f9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
