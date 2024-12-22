@@ -741,4 +741,41 @@ export const pointsData2024_22: IPointEntities = {
       },
     },
   },
+  //  Shiny Max Raid Events! 27 Oct 2024  to 9 Nov 2024
+  //  Níck Mārsh (@Citizen)
+  //  0710. Pumpkaboo
+  '4a21855a-3aa3-41c9-a713-d309860ffdfc': {
+    data: {
+      id: '4a21855a-3aa3-41c9-a713-d309860ffdfc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2024-11-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'a883a72f-138d-4d54-aab0-c53db86a543f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61199295-67ee-46c8-baf8-42b51f83860a',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '92f1c2b5-7a27-41e3-98f5-ae7f8ca98d2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
