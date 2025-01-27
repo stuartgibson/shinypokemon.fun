@@ -1851,4 +1851,411 @@ export const pointsData2025_01: IPointEntities = {
       },
     },
   },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Padukes (@Padukes)
+  //  0386. Deoxys
+  '6ea57225-0847-4f2b-b45b-86bd06c7f37c': {
+    data: {
+      id: '6ea57225-0847-4f2b-b45b-86bd06c7f37c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3f3c455d-707a-4212-a5d1-c0e743bbd970',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Keagan (@Keagan)
+  //  0948. Toedscool
+  'e4b9fb7e-3bd2-4d05-ae6d-fc32f25b21d2': {
+    data: {
+      id: 'e4b9fb7e-3bd2-4d05-ae6d-fc32f25b21d2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6b57b43b-60e3-44e8-b740-0635e8e899ab',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Keagan (@Keagan)
+  //  0949. Toedscruel
+  '5fccc3c6-56de-4062-8f2d-3869125e89b4': {
+    data: {
+      id: '5fccc3c6-56de-4062-8f2d-3869125e89b4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'af471216-7337-4bb7-9a9a-8813d20503e2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Nama Chibitty (@NamaTheNerd)
+  //  0358. Chimecho
+  '8959eea1-b804-45d7-b67d-cc4377e5e26d': {
+    data: {
+      id: '8959eea1-b804-45d7-b67d-cc4377e5e26d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1b2d34e5-43cb-4b4e-ab6d-a876c8b038f1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Jette (@Jette)
+  //  0023. Ekans
+  'a865fa4a-f144-4468-a653-0bba49ad699c': {
+    data: {
+      id: 'a865fa4a-f144-4468-a653-0bba49ad699c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c4908eda-0b33-4bbb-9501-e545a408c38c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Jette (@Jette)
+  //  0024. Arbok
+  'fd0bc7a2-2f73-485a-a799-fd5c940e5524': {
+    data: {
+      id: 'fd0bc7a2-2f73-485a-a799-fd5c940e5524',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '170e3e80-c88f-4f17-bb00-79079a7548ae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Jette (@Jette)
+  //  0336. Seviper
+  '654960fe-87ff-40ce-a9ce-d2d8ea402fe7': {
+    data: {
+      id: '654960fe-87ff-40ce-a9ce-d2d8ea402fe7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a84bf904-f147-4e6e-9053-245d8c95bb7b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cad9deea-0d7d-4932-ab18-4c9e699079f6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Keagan (@Keagan)
+  //  0960. Wiglett
+  '0254a518-ad6f-433f-bb54-dfd31652c62b': {
+    data: {
+      id: '0254a518-ad6f-433f-bb54-dfd31652c62b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b64a786c-16b2-49b4-a507-5debb67a8ae5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Keagan (@Keagan)
+  //  0961. Wugtrio
+  '43a4dbd5-a801-44a3-afbe-05076dbcdd7c': {
+    data: {
+      id: '43a4dbd5-a801-44a3-afbe-05076dbcdd7c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e6f7da52-7388-4412-80c9-29c2fe1d1a9a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Keagan (@Keagan)
+  //  0108. Lickitung
+  '744d699f-fb14-42d7-9319-5c7f660cb7f2': {
+    data: {
+      id: '744d699f-fb14-42d7-9319-5c7f660cb7f2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cfe0414b-cb76-43dc-ad2b-aac363edc62c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon that learn the move Wrap 5 Jan 2025  to 18 Jan 2025
+  //  Keagan (@Keagan)
+  //  0386. Deoxys
+  'bd7ea451-7a68-4d85-92d2-7b1ed86f6e98': {
+    data: {
+      id: 'bd7ea451-7a68-4d85-92d2-7b1ed86f6e98',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '84b3ffba-08d6-4901-8bcf-0be050ef429f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3f3c455d-707a-4212-a5d1-c0e743bbd970',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
