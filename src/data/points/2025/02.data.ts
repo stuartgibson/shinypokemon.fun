@@ -741,4 +741,374 @@ export const pointsData2025_02: IPointEntities = {
       },
     },
   },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Keagan (@Keagan)
+  //  0134. Vaporeon
+  '5acd2d28-4a94-4d41-a703-e5254c2aab34': {
+    data: {
+      id: '5acd2d28-4a94-4d41-a703-e5254c2aab34',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd008fb97-c343-4f85-86ce-7bd7dcf27094',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Stuart (@stuart)
+  //  0119. Seaking
+  'd985de4b-a9d5-43ae-b9dd-3834eecc0662': {
+    data: {
+      id: 'd985de4b-a9d5-43ae-b9dd-3834eecc0662',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3992362d-ae97-4949-8efc-c4e53483718b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Keagan (@Keagan)
+  //  0127. Pinsir
+  '4b9af5bd-9abb-450f-96a1-4396c4cbe26e': {
+    data: {
+      id: '4b9af5bd-9abb-450f-96a1-4396c4cbe26e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fd80cbeb-5aa9-4176-8252-fc90c499626d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Stuart (@stuart)
+  //  0118. Goldeen
+  'da655831-b28a-45bb-a151-7a098574e539': {
+    data: {
+      id: 'da655831-b28a-45bb-a151-7a098574e539',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ae0de176-5c64-4406-b3ba-1b2ef55c6150',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Keagan (@Keagan)
+  //  0102. Exeggcute
+  '9d35cc6a-a673-4af5-9eee-56707eff72f7': {
+    data: {
+      id: '9d35cc6a-a673-4af5-9eee-56707eff72f7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4eca9e98-13d2-4dba-bcc9-14678e906303',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0447. Riolu
+  '373540c4-38cc-4cb1-abf6-23b80557cceb': {
+    data: {
+      id: '373540c4-38cc-4cb1-abf6-23b80557cceb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-01-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3063a957-dd1c-4941-8b37-d0984899515b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Al McKinlay (@Al)
+  //  1006. Iron Valiant
+  '7366cff6-4952-44ed-a4f6-bb4e7ebfe6e0': {
+    data: {
+      id: '7366cff6-4952-44ed-a4f6-bb4e7ebfe6e0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cbd0b155-20c3-4d26-9350-5c590f17c39d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Tone (@Tone)
+  //  0206. Dunsparce
+  'f6ff39be-f8fd-4b08-846d-7daa46a7c347': {
+    data: {
+      id: 'f6ff39be-f8fd-4b08-846d-7daa46a7c347',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '41115700-66dd-40bf-a5bf-a8b1949b537b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Keagan (@Keagan)
+  //  0682. Spritzee
+  'be4a7efd-dead-458a-b995-8eff6c250107': {
+    data: {
+      id: 'be4a7efd-dead-458a-b995-8eff6c250107',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d449555-1595-4472-91db-6752abd6722f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Prismatic Evolutions 19 Jan 2025  to 1 Feb 2025
+  //  Tone (@Tone)
+  //  0026. Raichu (Alolan)
+  '42ab7329-211d-4f3a-9e44-9a76962b6215': {
+    data: {
+      id: '42ab7329-211d-4f3a-9e44-9a76962b6215',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b5f85b51-e48f-4ca6-96ba-fdc2f343df69',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6ad9fd99-caf8-4209-8d27-c594f71a4016',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
