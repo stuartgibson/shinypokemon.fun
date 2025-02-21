@@ -10,6 +10,7 @@ import { PlayerPageComponent } from './components/player/player-page/player-page
 import { PlayersComponent } from './components/player/players/players.component';
 import { YearPageComponent } from './components/years/year-page/year-page.component';
 import { CurrentCompetitionGuard } from './current-competition-guard';
+import { TriviaComponent } from './components/trivia/trivia.component';
 
 export const routes: Routes = [
   {
@@ -53,6 +54,10 @@ export const routes: Routes = [
   {
     path: 'rules',
     component: RulesComponent,
+  },
+  {
+    path: 'trivia',
+    component: TriviaComponent,
   },
   {
     path: 'years/:id',

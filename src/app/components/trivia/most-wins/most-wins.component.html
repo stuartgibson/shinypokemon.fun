@@ -1,0 +1,23 @@
+<h2>Most Wins</h2>
+
+@if (players.length > 0) {
+  <ul class="list-unstyled">
+    @for(playerDatum of players; track playerDatum.player.id) {
+      <li>
+        <div class="card mb-3">
+          <div class="card-body smart-layout-evenly align-items-center">
+            <sp-inline-player [id]="playerDatum.player.id" />
+            <dl class="d-flex">
+              <div class="flex-even text-end">
+                <dt>Times Won</dt>
+                <dd class="mb-0">{{ playerDatum.totalWins }}</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </li>
+    }
+  </ul>
+} @else {
+  <p>No players found.</p>
+}
