@@ -892,4 +892,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Jacob K (CarChaser) (@Jacob K)
+  '82313de1-b54b-44b5-831d-0c66e3522af1': {
+    data: {
+      type: 'player' as 'player',
+      id: '82313de1-b54b-44b5-831d-0c66e3522af1',
+      attributes: {
+        realName: 'Jacob K (CarChaser)',
+        displayName: 'Jacob K',
+      },
+    },
+  },
 };
