@@ -870,4 +870,26 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Joanna Ollikainen (@Joanna Ollikainen)
+  '94956159-03c6-419f-9381-9ca6cbcfcf66': {
+    data: {
+      type: 'player' as 'player',
+      id: '94956159-03c6-419f-9381-9ca6cbcfcf66',
+      attributes: {
+        realName: 'Joanna Ollikainen',
+        displayName: 'Joanna Ollikainen',
+      },
+    },
+  },
+  // Morgan (Leaf) (@Leaf)
+  'fa7f7600-5379-4166-8e3f-5ccfe683bd91': {
+    data: {
+      type: 'player' as 'player',
+      id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+      attributes: {
+        realName: 'Morgan (Leaf)',
+        displayName: 'Leaf',
+      },
+    },
+  },
 };
