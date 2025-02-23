@@ -20,6 +20,7 @@ import { DateRangeComponent } from '../../_shared/date-range/date-range.componen
 import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-pokemon.component';
 import { InlinePlayerComponent } from '../../player/inline-player/inline-player.component';
 import { InlineCompetitionComponent } from '../../competitions/inline-competition/inline-competition.component';
+import { CopyToClipboardComponent } from "../../_shared/copy-to-clipboard/copy-to-clipboard.component";
 
 @Component({
     selector: 'sp-points-generator',
@@ -27,7 +28,7 @@ import { InlineCompetitionComponent } from '../../competitions/inline-competitio
     styleUrls: ['./points-generator.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: true,
-    imports: [InlineCompetitionComponent, InlinePlayerComponent, InlinePokemonComponent, ReactiveFormsModule, NgbTypeahead, NgbInputDatepicker, DateRangeComponent]
+    imports: [InlineCompetitionComponent, InlinePlayerComponent, InlinePokemonComponent, ReactiveFormsModule, NgbTypeahead, NgbInputDatepicker, DateRangeComponent, CopyToClipboardComponent]
 })
 export class PointsGeneratorComponent implements OnInit {
   @Input() allPokemon:Pokemon[] = [];
