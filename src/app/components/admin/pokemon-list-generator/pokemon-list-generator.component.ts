@@ -30,4 +30,10 @@ export class PokemonListGeneratorComponent {
       PokemonActions.unselect({ pokemon })
     );
   }
+
+  filterPokemon(event: any): void {
+    this.store.dispatch(
+      PokemonActions.filter({ query: event.target.value })
+    );
+  }
 }

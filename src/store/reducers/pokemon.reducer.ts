@@ -26,11 +26,13 @@ export interface IPokemonEntities {
 export interface PokemonState {
   entities: IPokemonEntities;
   selectedPokemonIDs: string[];
+  searchQuery: string;
 }
 
 const initialState:PokemonState = {
   entities: pokemonData,
-  selectedPokemonIDs: []
+  selectedPokemonIDs: [],
+  searchQuery: ''
 }
 
 export const Pokemons = createFeature({
@@ -55,9 +57,15 @@ export const Pokemons = createFeature({
           selectedPokemonIDs: newIDs
         }
       }
-    )
+    ),
+
+    on(
+      PokemonActions.filter,
+      (state:PokemonState, {query}) => ({...state, searchQuery: query})
+    ),
+
   ),
-  extraSelectors: ({selectEntities, selectSelectedPokemonIDs}) => ({
+  extraSelectors: ({selectEntities, selectSelectedPokemonIDs, selectSearchQuery}) => ({
     selectAll: createSelector(
       selectEntities,
       (entities: IPokemonEntities):Pokemon[] => {
@@ -82,10 +90,15 @@ export const Pokemons = createFeature({
     selectUnselectedPokemon: createSelector(
       selectSelectedPokemonIDs,
       selectEntities,
-      (ids: string[], entities: IPokemonEntities):Pokemon[] =>
-        Object.keys(entities)
+      selectSearchQuery,
+      (ids: string[], entities: IPokemonEntities, query: string):Pokemon[] => {
+        const filter = createPokemonFilter(query);
+        
+        return Object.keys(entities)
           .filter((id) => !ids.includes(id))
           .map((id) => new Pokemon(entities[id].data))
+          .filter(filter);
+      }
     ),
 
     selectFilteredRoutedCompetitionPokemon: createSelector(
@@ -95,19 +108,12 @@ export const Pokemons = createFeature({
       (competition:Competition|null, query:string, entities: IPokemonEntities):Pokemon[] => {
         if (!competition){ return [] };
 
-        const normalizedQuery = query.trim().toLowerCase();
+        const filter = createPokemonFilter(query);
         const pokemonList:Pokemon[] =
           competition
             .validPokemonIDs
             .map((id) => new Pokemon(entities[id].data))
-            .filter((pokemon) =>
-              (pokemon
-                .name
-                .toLowerCase()
-                .includes(normalizedQuery) ||
-              pokemon
-                .dexNo
-                .includes(normalizedQuery)))
+            .filter(filter);
 
         return sortPokemon(pokemonList);
       }
@@ -117,3 +123,16 @@ export const Pokemons = createFeature({
 
 const sortPokemon = (pokemon:Pokemon[]):Pokemon[] =>
   pokemon.sort((a, b) => a.dexNo.localeCompare(b.dexNo))
+
+const createPokemonFilter = (query : string) : (pokemon: Pokemon) => boolean => {
+  const normalizedQuery = query.trim().toLowerCase();
+
+  return (pokemon: Pokemon) : boolean => 
+    (pokemon
+      .name
+      .toLowerCase()
+      .includes(normalizedQuery) ||
+    pokemon
+      .dexNo
+      .includes(normalizedQuery));
+}
