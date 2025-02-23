@@ -256,4 +256,38 @@ export const pointsData2018_18:IPointEntities = {
     }
   }
 },
+'bcbb004f-0d62-439a-af80-01da5e60a0ed': {
+    data: {
+      id: 'bcbb004f-0d62-439a-af80-01da5e60a0ed',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '528d8774-e285-4501-8041-fd012d7fbc95',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '50029136-4d47-43f3-aaf2-9f290f60fd26',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '7cf0d871-ba20-4ba1-a530-8145903c07c1',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
 }
