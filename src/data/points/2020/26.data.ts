@@ -167,7 +167,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Tentacool remove
+          id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -195,7 +199,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Woobat remove
+          id: '90e005cf-a344-477c-974d-a7b9c4888ddb',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -223,7 +231,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Slowpoke remove
+          id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -251,7 +263,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Torchic remove
+          id: 'da4d8b9a-edbc-4521-a783-ce83551a912e',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -279,7 +295,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Eevee remove
+          id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -307,7 +327,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Snover remove
+          id: 'fd2affc4-e41b-418e-a559-62741f95da21',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -335,7 +359,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Abomasnow remove
+          id: '1ca9d7e2-e4e6-4080-92cc-8751529f4d87',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -363,7 +391,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Regice remove
+          id: 'bc9d6986-f768-4988-a37c-f7437709c9d8',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -391,7 +423,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Snorunt remove
+          id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -419,7 +455,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Cubchoo remove
+          id: '9219d4f4-2bd8-4568-a1d0-1f4f12fe6cbd',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -447,7 +487,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Delibird remove
+          id: '3852ccba-90fe-496f-91dd-f1f104d7a0e8',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -475,7 +519,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Skarmory remove
+          id: '60aa4fc8-6cd1-47f3-af8e-480c7a7c28ff',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -503,7 +551,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Beartic remove
+          id: 'a1bb598f-7991-4bfe-b0c1-da273b4304bb',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -531,7 +583,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Registeel remove
+          id: 'dd83ad95-5524-4d5c-9a9b-dce9210777b0',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -559,7 +615,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Swanna remove
+          id: 'f677f96c-df1d-414d-8040-3c286aecc7cd',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -587,7 +647,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
       },
       pokemon: {
-        data: { id: 'e97d06b9-8dee-4dc6-a78b-e8949982cc58', type: 'pokemon' }
+        data: {
+          // Cubchoo remove
+          id: '9219d4f4-2bd8-4568-a1d0-1f4f12fe6cbd',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -615,7 +679,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Oricorio remove
+          id: 'ded7e96b-b368-4269-aeb9-22934ffe30c9',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -643,7 +711,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Oricorio remove
+          id: 'ded7e96b-b368-4269-aeb9-22934ffe30c9',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -671,7 +743,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Oricorio remove
+          id: 'ded7e96b-b368-4269-aeb9-22934ffe30c9',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -699,7 +775,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Oricorio remove
+          id: 'ded7e96b-b368-4269-aeb9-22934ffe30c9',
+          type: 'pokemon'
+        }        
       }
     }
   }
@@ -727,7 +807,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Flabébé remove
+          id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -755,7 +839,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Floette remove
+          id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -783,7 +871,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Florges remove
+          id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -811,7 +903,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Elgyem remove
+          id: '82035b6b-77a1-40d6-9b33-da4de9ba6537',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -839,7 +935,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad', type: 'pokemon' }
+        data: {
+          // Snorunt remove
+          id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -867,7 +967,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Wooloo remove
+          id: '82296f48-2914-4e67-8538-8b9c68158cd2',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -895,7 +999,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Dubwool remove
+          id: '7ca0dfe1-0af3-4a55-b38a-7f6ec0466432',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -923,7 +1031,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Drapion remove
+          id: 'f8a1d155-1048-4d0a-b977-028d056fde1b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -951,7 +1063,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Nuzleaf remove
+          id: '986c888a-af44-475a-b4c0-98ae73d9c48d',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -979,7 +1095,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Magcargo remove
+          id: '26ed7ddd-adce-4e8b-9036-942fe295b8ae',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1007,7 +1127,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Munna remove
+          id: '7bf836b2-54e2-456b-9239-08f496fece30',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1035,7 +1159,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Musharna remove
+          id: '48d09eed-1a6a-4faa-b2ce-7b5438e3606c',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1063,7 +1191,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Scraggy remove
+          id: '3b77cf43-32e8-4e19-96ec-00a6afd6906f',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1091,7 +1223,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Blipbug remove
+          id: '5da2230d-4843-47e8-8ac0-f877f1814a58',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1119,7 +1255,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Venipede remove
+          id: 'aef1ff76-200a-4e31-b4fb-eb1d5815a3c7',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1147,7 +1287,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Karrablast remove
+          id: 'ea5c17dc-4c66-4ccf-96f7-d7de64844bac',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1175,7 +1319,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Nincada remove
+          id: 'af56cc6b-3a28-4867-a156-2345080173ec',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1203,7 +1351,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Ninjask remove
+          id: '26c3c20a-6d0d-474d-8e84-54a8889b4ec2',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1231,7 +1383,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Shedinja remove
+          id: '91299325-9853-42fe-9042-3d293409638d',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1259,7 +1415,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Barbaracle remove
+          id: '382c0c1b-2a77-4d7c-bed3-78aa53adb6b6',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1287,7 +1447,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: {
+          // Audino remove
+          id: '93e005fa-ae64-4232-8cd7-898d5b46a827',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1315,7 +1479,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '7d054896-a0ea-4368-bff1-856b6abf8419', type: 'player' }
       },
       pokemon: {
-        data: { id: '6931874b-a4ce-4abb-a16c-c6183a1668ab', type: 'pokemon' }
+        data: {
+          // Stantler remove
+          id: '6931874b-a4ce-4abb-a16c-c6183a1668ab',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1343,7 +1511,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '7d054896-a0ea-4368-bff1-856b6abf8419', type: 'player' }
       },
       pokemon: {
-        data: { id: '6931874b-a4ce-4abb-a16c-c6183a1668ab', type: 'pokemon' }
+        data: {
+          // Litwick remove
+          id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1371,7 +1543,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '7d054896-a0ea-4368-bff1-856b6abf8419', type: 'player' }
       },
       pokemon: {
-        data: { id: '6931874b-a4ce-4abb-a16c-c6183a1668ab', type: 'pokemon' }
+        data: {
+          // Smoochum remove
+          id: 'fe4377b2-be91-4308-9401-9d337624ad45',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1399,7 +1575,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '7d054896-a0ea-4368-bff1-856b6abf8419', type: 'player' }
       },
       pokemon: {
-        data: { id: '6931874b-a4ce-4abb-a16c-c6183a1668ab', type: 'pokemon' }
+        data: {
+          // Rotom remove
+          id: '4e276445-bb68-41ef-9de2-4bd0bd7a6f0c',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1427,7 +1607,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '7d054896-a0ea-4368-bff1-856b6abf8419', type: 'player' }
       },
       pokemon: {
-        data: { id: '6931874b-a4ce-4abb-a16c-c6183a1668ab', type: 'pokemon' }
+        data: {
+          // Vulpix (Alolan) remove
+          id: '85969679-9e0c-459a-a9aa-4b7cbcebedce',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1455,7 +1639,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: '7d054896-a0ea-4368-bff1-856b6abf8419', type: 'player' }
       },
       pokemon: {
-        data: { id: '6931874b-a4ce-4abb-a16c-c6183a1668ab', type: 'pokemon' }
+        data: {
+          // Ninetales (Alolan) remove
+          id: 'fac6c3a8-996e-49ed-ba3e-50b028e169ef',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1483,7 +1671,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
       },
       pokemon: {
-        data: { id: '3a3d7a26-b94e-49e6-98d7-3d4ba82fb7da', type: 'pokemon' }
+        data: {
+          // Cubchoo remove
+          id: '9219d4f4-2bd8-4568-a1d0-1f4f12fe6cbd',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1511,7 +1703,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
       },
       pokemon: {
-        data: { id: '3a3d7a26-b94e-49e6-98d7-3d4ba82fb7da', type: 'pokemon' }
+        data: {
+          // Seel remove
+          id: '3a3d7a26-b94e-49e6-98d7-3d4ba82fb7da',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1539,7 +1735,11 @@ export const pointsData2020_26:IPointEntities = {
         data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
       },
       pokemon: {
-        data: { id: '3a3d7a26-b94e-49e6-98d7-3d4ba82fb7da', type: 'pokemon' }
+        data: {
+          // Snover remove
+          id: 'fd2affc4-e41b-418e-a559-62741f95da21',
+          type: 'pokemon'
+        }
       }
     }
   }
