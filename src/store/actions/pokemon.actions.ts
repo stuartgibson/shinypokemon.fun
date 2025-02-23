@@ -5,6 +5,7 @@ export const PokemonActions = createActionGroup({
   source: 'Pokemon',
   events: {
     'Select': props<{ pokemon: Pokemon }>(),
-    'Unselect': props<{ pokemon: Pokemon }>()
+    'Unselect': props<{ pokemon: Pokemon }>(),
+    'Filter': props<{ query:string }>()
   }
 })

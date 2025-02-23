@@ -1,4 +1,4 @@
-<div class="smart-layout-evenly">
+<div class="smart-layout-evenly align-items-start">
   <div>
     <pre>
 [@for (pokemon of selectedPokemon(); track pokemon.id; let isLast = $last) {
@@ -20,7 +20,17 @@
     <div class="card-body">
       <h3>Pokémon</h3>
     </div>
-    <ul class="list-group list-group-flush">
+
+    <div class="mx-3 mb-3">
+      <input
+            autocomplete="off"
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            (keyup)="filterPokemon($event)" />
+    </div>
+
+      <ul class="list-group list-group-flush">
       @for (pokemon of unselectedPokemon(); track pokemon.id) {
         <li class="list-group-item d-flex align-items-center">
           <button
