@@ -16,36 +16,117 @@
 }]
     </pre>
   </div>
-
-  <div class="card">
-    <div class="card-body">
-      <h3>Pokémon</h3>
+  <div>
+    <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+      <li [ngbNavItem]="'single'">
+        <a ngbNavLink>Single Import</a>
+        <ng-template ngbNavContent>
+          <div class="card">
+            <div class="card-body">
+              <h3>Pokémon</h3>
+            </div>
+        
+            <div class="mx-3 mb-3">
+              <input
+                    autocomplete="off"
+                    type="text"
+                    class="form-control"
+                    placeholder="Search"
+                    (keyup)="filterPokemon($event)" />
+            </div>
+        
+              <ul class="list-group list-group-flush">
+              @for (pokemon of unselectedPokemon(); track pokemon.id) {
+                <li class="list-group-item d-flex align-items-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-success me-3"
+                    (click)="addPokemon(pokemon)">
+                    +
+                  </button>
+                  <sp-pokemon
+                    [pokemon]="pokemon"
+                    class="flex-grow-1">
+                  </sp-pokemon>
+                </li>
+              }
+            </ul>
+          </div>
+        
+        </ng-template>
+      </li>
+    
+      <li [ngbNavItem]="'bulk'">
+        <a ngbNavLink>Bulk Import</a>
+        <ng-template ngbNavContent>
+          <div class="card">
+            <div class="card-body">
+              <h3>Bulk Import</h3>
+            </div>
+        
+            <div class="mx-3 mb-3">
+              <textarea #pokemonTextArea class="form-control" placeholder="Paste Pokemon Here"></textarea>
+            </div>
+        
+            <div class="mx-3 mb-3">
+              <button
+                (click)="onParse()"
+                class="btn btn-outline-success me-3">
+                Parse
+              </button>
+        
+              <button
+                (click)="addAll()"
+                class="btn btn-outline-success">
+                Add All
+              </button>
+            </div>
+        
+        
+            <div class="mx-3 mb-3" #result>
+              <h4>Result</h4>
+        
+              <ul class="list-group list-group-flush">
+                @for (parsedPokemon of parsedPokemon(); track parsedPokemon.text) {
+                  <li class="list-group-item d-flex flex-row">
+                    <span class="pe-5">
+                      <input 
+                        type="text" 
+                        [value]=parsedPokemon.text 
+                        style="width: 10em"
+                        (input)="onKeyPress($event, parsedPokemon)"
+                        />
+                    </span>
+                    <span class="flex-grow-1">
+                      @if (parsedPokemon.pokemon) {
+                        <div class="d-flex">
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-outline-success me-3"
+                            (click)="addPokemon(parsedPokemon.pokemon)">
+                            +
+                          </button>
+                          <sp-pokemon
+                            [pokemon]="parsedPokemon.pokemon"
+                            class="flex-grow-1">
+                          </sp-pokemon>
+                        </div>
+                      }
+                    </span>            
+                </li>
+                }
+              </ul>
+          
+            </div>     
+          </div>
+        </ng-template>
+      </li>
+    
+    </ul>  
+    <div
+      [ngbNavOutlet]="nav"
+      class="">
     </div>
-
-    <div class="mx-3 mb-3">
-      <input
-            autocomplete="off"
-            type="text"
-            class="form-control"
-            placeholder="Search"
-            (keyup)="filterPokemon($event)" />
-    </div>
-
-      <ul class="list-group list-group-flush">
-      @for (pokemon of unselectedPokemon(); track pokemon.id) {
-        <li class="list-group-item d-flex align-items-center">
-          <button
-            type="button"
-            class="btn btn-sm btn-outline-success me-3"
-            (click)="addPokemon(pokemon)">
-            +
-          </button>
-          <sp-pokemon
-            [pokemon]="pokemon"
-            class="flex-grow-1">
-          </sp-pokemon>
-        </li>
-      }
-    </ul>
   </div>
+
 </div>
