@@ -3595,4 +3595,33 @@ export const competitionsData2025: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
+
+  'baab4caa-cf5d-4791-bff3-424c8777e8a3': {
+    data: {
+      type: 'competition',
+      id: 'baab4caa-cf5d-4791-bff3-424c8777e8a3',
+      attributes: {
+        description:
+          'In honor of the recent Legends: Z-A trailer, this theme includes all Gen 2 Pokémon, except for fire types, and Tepig.',
+        endDate: '2025-03-15',
+        startDate: '2025-03-02',
+        theme: '2/3rds Johto (and Tepig)',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2025',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };
