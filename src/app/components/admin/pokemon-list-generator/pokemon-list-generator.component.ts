@@ -1,39 +1,43 @@
-import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  Signal,
+  inject,
+} from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
 import { PokemonActions } from 'store/actions';
 import { Pokemons } from 'store/reducers';
+import { CopyToClipboardComponent } from '../../_shared/copy-to-clipboard/copy-to-clipboard.component';
 import { PokemonComponent } from '../../pokemon/pokemon/pokemon.component';
 
 @Component({
-    selector: 'sp-pokemon-list-generator',
-    templateUrl: './pokemon-list-generator.component.html',
-    styleUrls: ['./pokemon-list-generator.component.sass'],
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
-    imports: [PokemonComponent]
+  selector: 'sp-pokemon-list-generator',
+  templateUrl: './pokemon-list-generator.component.html',
+  styleUrls: ['./pokemon-list-generator.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  standalone: true,
+  imports: [PokemonComponent, CopyToClipboardComponent],
 })
 export class PokemonListGeneratorComponent {
-  private readonly store:Store = inject(Store);
+  private readonly store: Store = inject(Store);
 
-  selectedPokemon:Signal<Pokemon[]> = this.store.selectSignal(Pokemons.selectSelectedPokemon);
-  unselectedPokemon:Signal<Pokemon[]> = this.store.selectSignal(Pokemons.selectUnselectedPokemon);
+  selectedPokemon: Signal<Pokemon[]> = this.store.selectSignal(
+    Pokemons.selectSelectedPokemon
+  );
+  unselectedPokemon: Signal<Pokemon[]> = this.store.selectSignal(
+    Pokemons.selectUnselectedPokemon
+  );
 
   addPokemon(pokemon: Pokemon) {
-    this.store.dispatch(
-      PokemonActions.select({ pokemon })
-    );
+    this.store.dispatch(PokemonActions.select({ pokemon }));
   }
 
   removePokemon(pokemon: Pokemon) {
-    this.store.dispatch(
-      PokemonActions.unselect({ pokemon })
-    );
+    this.store.dispatch(PokemonActions.unselect({ pokemon }));
   }
 
   filterPokemon(event: any): void {
-    this.store.dispatch(
-      PokemonActions.filter({ query: event.target.value })
-    );
+    this.store.dispatch(PokemonActions.filter({ query: event.target.value }));
   }
 }
