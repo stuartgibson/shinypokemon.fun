@@ -8,6 +8,7 @@ import { debounceTime, map, Observable, OperatorFunction } from 'rxjs';
 import { CompetitionActions } from 'store/actions/competition.actions';
 import { Competitions, ICompetitionEntity } from 'store/reducers';
 import { v4 as uuid } from 'uuid';
+import { CopyToClipboardComponent } from "../../_shared/copy-to-clipboard/copy-to-clipboard.component";
 
 @Component({
     selector: 'sp-competition-generator',
@@ -15,7 +16,7 @@ import { v4 as uuid } from 'uuid';
     styleUrls: ['./competition-generator.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: true,
-    imports: [ReactiveFormsModule, NgbTypeahead, NgbInputDatepicker]
+    imports: [ReactiveFormsModule, NgbTypeahead, NgbInputDatepicker, CopyToClipboardComponent]
 })
 export class CompetitionGeneratorComponent {
   @Input() players: Player[] = [];

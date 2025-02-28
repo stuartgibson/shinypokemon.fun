@@ -4,6 +4,7 @@ import { Pokemon } from 'models/pokemon.model';
 import { PokemonActions } from 'store/actions';
 import { Pokemons } from 'store/reducers';
 import { PokemonComponent } from '../../pokemon/pokemon/pokemon.component';
+import { CopyToClipboardComponent } from "../../_shared/copy-to-clipboard/copy-to-clipboard.component";
 
 @Component({
     selector: 'sp-pokemon-list-generator',
@@ -11,7 +12,7 @@ import { PokemonComponent } from '../../pokemon/pokemon/pokemon.component';
     styleUrls: ['./pokemon-list-generator.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
     standalone: true,
-    imports: [PokemonComponent]
+    imports: [PokemonComponent, CopyToClipboardComponent]
 })
 export class PokemonListGeneratorComponent {
   private readonly store:Store = inject(Store);

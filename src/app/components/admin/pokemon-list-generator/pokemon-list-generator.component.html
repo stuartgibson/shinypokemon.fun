@@ -1,6 +1,7 @@
 <div class="smart-layout-evenly align-items-start">
   <div>
-    <pre>
+    <sp-copy-to-clipboard [sourceElement]=pokemonCode/>
+    <pre #pokemonCode>
 [@for (pokemon of selectedPokemon(); track pokemon.id; let isLast = $last) {
 
   {{ '{' }}
