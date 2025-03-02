@@ -22,44 +22,44 @@
     <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
       <li [ngbNavItem]="'single'">
         <a ngbNavLink>Single Import</a>
+
         <ng-template ngbNavContent>
           <div class="card">
             <div class="card-body">
               <h3>Pokémon</h3>
-            </div>
 
-            <div class="mx-3 mb-3">
               <input
-                    autocomplete="off"
-                    type="text"
-                    class="form-control"
-                    placeholder="Search"
-                    (keyup)="filterPokemon($event)" />
-            </div>
+                autocomplete="off"
+                type="text"
+                class="form-control mb-3"
+                placeholder="Search"
+                (keyup)="filterPokemon($event)" />
 
               <ul class="list-group list-group-flush">
-              @for (pokemon of unselectedPokemon(); track pokemon.id) {
-                <li class="list-group-item d-flex align-items-center">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-success me-3"
-                    (click)="addPokemon(pokemon)">
-                    +
-                  </button>
-                  <sp-pokemon
-                    [pokemon]="pokemon"
-                    class="flex-grow-1">
-                  </sp-pokemon>
-                </li>
-              }
-            </ul>
-          </div>
+                @for (pokemon of unselectedPokemon(); track pokemon.id) {
+                  <li class="list-group-item d-flex align-items-center">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-success me-3"
+                      (click)="addPokemon(pokemon)">
+                      +
+                    </button>
 
+                    <sp-pokemon
+                      [pokemon]="pokemon"
+                      class="flex-grow-1">
+                    </sp-pokemon>
+                  </li>
+                }
+              </ul>
+            </div>
+          </div>
         </ng-template>
       </li>
 
       <li [ngbNavItem]="'bulk'">
         <a ngbNavLink>Bulk Import</a>
+
         <ng-template ngbNavContent>
           <div class="card">
             <div class="card-body">
@@ -90,7 +90,7 @@
 
                 <ul class="list-group list-group-flush">
                   @for (parsedPokemon of parsedPokemon(); track parsedPokemon.text) {
-                    <li class="list-group-item d-flex flex-row">
+                    <li class="list-group-item d-flex">
                       <span class="pe-5">
                         <input
                           style="width: 10em"
@@ -98,6 +98,7 @@
                           [value]="parsedPokemon.text"
                           (input)="onKeyPress($event, parsedPokemon)" />
                       </span>
+
                       <span class="flex-grow-1">
                         @if (parsedPokemon.pokemon) {
                           <div class="d-flex">
