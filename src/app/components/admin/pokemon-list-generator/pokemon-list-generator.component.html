@@ -3,20 +3,18 @@
     <div class="smart-layout-end mb-3">
       <sp-copy-to-clipboard [sourceElement]="pokemonCode" />
     </div>
+
     <pre #pokemonCode>
 [@for (pokemon of selectedPokemon(); track pokemon.id; let isLast = $last) {
-
   {{ '{' }}
     data: {{ '{' }}
       // {{ pokemon.name }} <a (click)="removePokemon(pokemon)" class="text-danger">remove</a>
       id: '{{ pokemon.id }}',
       type: 'pokemon'
     &#125;
-  &#125;@if (!isLast) {
-,
+  &#125;@if (!isLast) {,}
 }
-}]
-    </pre>
+]</pre>
   </div>
   <div>
     <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
@@ -90,31 +88,28 @@
 
                 <ul class="list-group list-group-flush">
                   @for (parsedPokemon of parsedPokemon(); track parsedPokemon.text) {
-                    <li class="list-group-item d-flex">
-                      <span class="pe-5">
-                        <input
-                          style="width: 10em"
-                          type="text"
-                          [value]="parsedPokemon.text"
-                          (input)="onKeyPress($event, parsedPokemon)" />
-                      </span>
+                    <li class="list-group-item smart-layout-evenly align-items-center">
+                      <input
+                        class="form-control"
+                        type="text"
+                        [value]="parsedPokemon.text"
+                        (input)="onKeyPress($event, parsedPokemon)" />
 
-                      <span class="flex-grow-1">
-                        @if (parsedPokemon.pokemon) {
-                          <div class="d-flex">
-                            <button
-                              type="button"
-                              class="btn btn-sm btn-outline-success me-3"
-                              (click)="addPokemon(parsedPokemon.pokemon)">
-                              +
-                            </button>
-                            <sp-pokemon
-                              [pokemon]="parsedPokemon.pokemon"
-                              class="flex-grow-1">
-                            </sp-pokemon>
-                          </div>
-                        }
-                      </span>
+                      @if (parsedPokemon.pokemon) {
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-success flex-grow-0"
+                          (click)="addPokemon(parsedPokemon.pokemon)">
+                          +
+                        </button>
+
+                        <sp-pokemon [pokemon]="parsedPokemon.pokemon" />
+                      } @else {
+                        <button class="btn btn-sm btn-invisible flex-grow-0">
+                          +
+                        </button>
+                        <span></span>
+                      }
                   </li>
                   }
                 </ul>
@@ -123,12 +118,11 @@
           </div>
         </ng-template>
       </li>
-
     </ul>
+
     <div
       [ngbNavOutlet]="nav"
       class="">
     </div>
   </div>
-
 </div>
