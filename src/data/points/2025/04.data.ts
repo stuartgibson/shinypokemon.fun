@@ -3813,4 +3813,1078 @@ export const pointsData2025_04: IPointEntities = {
       },
     },
   },
+
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0644. Zekrom
+  '7f9394dc-dba7-42c0-8f19-19e6be0997d1': {
+    data: {
+      id: '7f9394dc-dba7-42c0-8f19-19e6be0997d1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b97a6f9-2db7-4887-9f18-fe13945392a9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0646. Kyurem
+  '52306c93-7b2d-49d6-9a79-7fd6f9f824bd': {
+    data: {
+      id: '52306c93-7b2d-49d6-9a79-7fd6f9f824bd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f991c065-2012-4e0e-9b29-ba9d140bebbe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0627. Rufflet
+  '49e40f2c-deac-452f-a666-04b442c7bba2': {
+    data: {
+      id: '49e40f2c-deac-452f-a666-04b442c7bba2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '01346e6f-94e0-41a3-8248-3e6b7f784a04',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0618. Stunfisk
+  '92ea3fbb-ace2-420d-b4b9-8c540340f944': {
+    data: {
+      id: '92ea3fbb-ace2-420d-b4b9-8c540340f944',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '93ed080d-1513-49b7-9347-5a031b49b90d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0592. Frillish
+  '1e5b52ff-2add-4389-bc63-a90bcc79490f': {
+    data: {
+      id: '1e5b52ff-2add-4389-bc63-a90bcc79490f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '57c806ec-5047-47ae-be92-d57ac98903b8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0571. Zoroark
+  '003a35d2-9c7e-4bfe-89b4-76bc76a6d082': {
+    data: {
+      id: '003a35d2-9c7e-4bfe-89b4-76bc76a6d082',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '25500aa7-0741-4de8-b1ef-296347e8e391',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0570. Zorua
+  '996c46ef-3b71-4f7f-8eb9-8f4147aaabd8': {
+    data: {
+      id: '996c46ef-3b71-4f7f-8eb9-8f4147aaabd8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3f78fb44-c9a4-4ab6-bf7f-5cd6ae492fd2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0555. Darmanitan
+  '21d6ec85-7c92-4d5c-b176-66f1c86098da': {
+    data: {
+      id: '21d6ec85-7c92-4d5c-b176-66f1c86098da',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7b16a8cc-41ec-41d5-b04e-69e77765777e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0554. Darumaka
+  '423a1ffe-4c7f-4406-b99a-020ce2ad371e': {
+    data: {
+      id: '423a1ffe-4c7f-4406-b99a-020ce2ad371e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1bbbb3da-d90e-4cbe-83f1-807358a6d35c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0550. Basculin
+  'add6a6bb-a469-49b8-a892-1af2a328685c': {
+    data: {
+      id: 'add6a6bb-a469-49b8-a892-1af2a328685c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7411e93e-127f-42ee-99fe-d44f31e7b60a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0550. Basculin
+  '7dc11feb-1c1c-4a84-9371-bdcb184298c4': {
+    data: {
+      id: '7dc11feb-1c1c-4a84-9371-bdcb184298c4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7411e93e-127f-42ee-99fe-d44f31e7b60a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0201. Unown
+  '784adb91-b9f1-49f3-9d3f-c7bad507fd46': {
+    data: {
+      id: '784adb91-b9f1-49f3-9d3f-c7bad507fd46',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0027. Sandshrew
+  '996d824b-7f03-4400-afdd-ec1c5642eadc': {
+    data: {
+      id: '996d824b-7f03-4400-afdd-ec1c5642eadc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '42a44470-6736-437f-86fe-049202943956',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0025. Pikachu
+  'f169adf8-a70d-48a1-9ec7-f9559821741a': {
+    data: {
+      id: 'f169adf8-a70d-48a1-9ec7-f9559821741a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0025. Pikachu
+  'f50f4e70-c58c-420e-96d7-daae5c157b32': {
+    data: {
+      id: 'f50f4e70-c58c-420e-96d7-daae5c157b32',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Keagan (@Keagan)
+  //  0501. Oshawott
+  'a24562bc-9a61-41ae-855a-81f21e091c10': {
+    data: {
+      id: 'a24562bc-9a61-41ae-855a-81f21e091c10',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1bf76a95-4044-4689-bc8b-d587c347126a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Joanna Ollikainen (@Joanna Ollikainen)
+  //  0585. Deerling
+  'c0959767-84e0-4233-8ebb-9a0126673121': {
+    data: {
+      id: 'c0959767-84e0-4233-8ebb-9a0126673121',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '94956159-03c6-419f-9381-9ca6cbcfcf66',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Devilish Inferno (@Alex)
+  //  0322. Numel
+  '65a98386-6089-426e-9525-498008080599': {
+    data: {
+      id: '65a98386-6089-426e-9525-498008080599',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-02-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a409c5b6-da3f-4eaf-9963-ec0b59d5bccd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Stuart (@stuart)
+  //  0646. Kyurem
+  '16867731-5881-4b62-ad34-9559e817015c': {
+    data: {
+      id: '16867731-5881-4b62-ad34-9559e817015c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f991c065-2012-4e0e-9b29-ba9d140bebbe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Al McKinlay (@Al)
+  //  0646. Kyurem
+  '6d3f5e21-2b88-40a6-9d95-5cdc8476d8a4': {
+    data: {
+      id: '6d3f5e21-2b88-40a6-9d95-5cdc8476d8a4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f991c065-2012-4e0e-9b29-ba9d140bebbe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Al McKinlay (@Al)
+  //  0643. Reshiram
+  '81e4c86a-6cc8-4d0c-b2f6-487cc5773950': {
+    data: {
+      id: '81e4c86a-6cc8-4d0c-b2f6-487cc5773950',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9c2bb690-dbf9-441b-9d38-8d4c094b6650',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Al McKinlay (@Al)
+  //  0644. Zekrom
+  '9d6390fa-0a9f-483c-ac6b-9fe0c9a75ac4': {
+    data: {
+      id: '9d6390fa-0a9f-483c-ac6b-9fe0c9a75ac4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b97a6f9-2db7-4887-9f18-fe13945392a9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Stuart (@stuart)
+  //  0550. Basculin
+  'b20d9e24-34ca-482c-900d-a5a80fac138f': {
+    data: {
+      id: 'b20d9e24-34ca-482c-900d-a5a80fac138f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7411e93e-127f-42ee-99fe-d44f31e7b60a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Tone (@Tone)
+  //  0585. Deerling
+  '622a7100-2d8a-4015-93dd-faf910dc1d20': {
+    data: {
+      id: '622a7100-2d8a-4015-93dd-faf910dc1d20',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Tone (@Tone)
+  //  0585. Deerling
+  '1fbd0b19-dfc1-4ab5-af5a-82c001915a37': {
+    data: {
+      id: '1fbd0b19-dfc1-4ab5-af5a-82c001915a37',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Tone (@Tone)
+  //  0585. Deerling
+  'a60c6c9f-bd7f-411d-ab6a-fb093d9a7dba': {
+    data: {
+      id: 'a60c6c9f-bd7f-411d-ab6a-fb093d9a7dba',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Tone (@Tone)
+  //  0585. Deerling
+  '90100052-9a29-4051-a9a0-afaa7ad10b1e': {
+    data: {
+      id: '90100052-9a29-4051-a9a0-afaa7ad10b1e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Chris Mize (@chrismize)
+  //  0585. Deerling
+  'ae0aa19f-f371-469c-9433-669db2dde4a6': {
+    data: {
+      id: 'ae0aa19f-f371-469c-9433-669db2dde4a6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '830c3a93-b737-426e-b307-4af048660e62',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Appreciating Differences 16 Feb 2025  to 1 Mar 2025
+  //  Keagan (@Keagan)
+  //  0586. Sawsbuck
+  'ed5ab251-c31b-484d-8edc-7c9a992847de': {
+    data: {
+      id: 'ed5ab251-c31b-484d-8edc-7c9a992847de',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '23ae85fa-706c-4561-afa3-82b14a2b5b81',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '147eebec-bc96-4ee9-b4dd-3f0a3fc93d91',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
