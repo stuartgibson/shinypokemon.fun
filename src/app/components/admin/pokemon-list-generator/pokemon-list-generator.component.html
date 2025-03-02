@@ -65,14 +65,17 @@
             <div class="card-body">
               <h3>Bulk Import</h3>
 
-              <div class="mb-3">
-                <textarea #pokemonTextArea class="form-control" placeholder="Paste Pokemon Here"></textarea>
-              </div>
+              <textarea
+                class="form-control mb-3"
+                placeholder="Paste Pokemon Here"
+                #pokemonTextArea
+                rows="10">
+              </textarea>
 
               <div class="smart-layout-end mb-3">
                 <button
                   (click)="onParse()"
-                  class="btn btn-outline-success me-3">
+                  class="btn btn-outline-success">
                   Parse
                 </button>
 
