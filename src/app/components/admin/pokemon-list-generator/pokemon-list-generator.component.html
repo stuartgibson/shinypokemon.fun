@@ -93,9 +93,10 @@
                   <li class="list-group-item d-flex flex-row">
                     <span class="pe-5">
                       <input
-                        type="text"
-                        [value]=parsedPokemon.text
+                        rows="10"
                         style="width: 10em"
+                        type="text"
+                        [value]="parsedPokemon.text"
                         (input)="onKeyPress($event, parsedPokemon)"
                         />
                     </span>

@@ -56,47 +56,44 @@
         <div class="mb-3">
           <label for="competition" class="form-label"> Competition: </label>
           <input
+            class="form-control"
             container="body"
             [editable]="false"
-            id="competition"
-            type="text"
-            class="form-control"
             formControlName="competition"
-            [ngbTypeahead]="competitionSearch"
+            id="competition"
             [inputFormatter]="competitionInputFormatter"
+            [ngbTypeahead]="competitionSearch"
             [resultTemplate]="competitionTemplate"
-          />
+            type="text" />
         </div>
 
         <div class="mb-3">
           <label for="player" class="form-label"> Player: </label>
           <input
             autofocus
+            class="form-control"
             container="body"
             [editable]="false"
-            id="player"
-            type="text"
-            class="form-control"
             formControlName="player"
-            [ngbTypeahead]="playerSearch"
+            id="player"
             [inputFormatter]="playerInputFormatter"
+            [ngbTypeahead]="playerSearch"
             [resultTemplate]="playerTemplate"
-          />
+            type="text" />
         </div>
 
         <div class="mb-3">
           <label for="pokemon" class="form-label"> Pokémon: </label>
           <input
+            class="form-control"
             container="body"
             [editable]="false"
-            id="pokemon"
-            type="text"
-            class="form-control"
             formControlName="pokemon"
-            [ngbTypeahead]="pokemonSearch"
+            id="pokemon"
             [inputFormatter]="pokemonInputFormatter"
+            [ngbTypeahead]="pokemonSearch"
             [resultTemplate]="pokemonTemplate"
-          />
+            type="text" />
         </div>
 
         <div class="smart-layout-evenly">
@@ -105,17 +102,15 @@
             <div class="input-group">
               <input
                 class="form-control"
-                placeholder="yyyy-mm-dd"
-                name="dp"
-                formControlName="catchDate"
-                ngbDatepicker
                 #d="ngbDatepicker"
-              />
+                formControlName="catchDate"
+                name="dp"
+                ngbDatepicker
+                placeholder="yyyy-mm-dd" />
               <button
                 class="btn btn-outline-secondary"
                 (click)="d.toggle()"
-                type="button"
-              >
+                type="button">
                 D
               </button>
             </div>
@@ -125,10 +120,9 @@
             <div class="form-check">
               <input
                 class="form-check-input"
-                type="checkbox"
                 formControlName="firstCatch"
                 id="first-catch"
-              />
+                type="checkbox" />
               <label class="form-check-label" for="first-catch">
                 First Catch?
               </label>
@@ -140,8 +134,7 @@
           <button
             type="submit"
             class="btn btn-outline-success"
-            [disabled]="pointForm.invalid"
-          >
+            [disabled]="pointForm.invalid">
             Add Point
           </button>
         </div>
