@@ -1,6 +1,8 @@
 <div class="smart-layout-evenly align-items-start">
   <div>
-    <sp-copy-to-clipboard [sourceElement]="competitionCode" />
+    <div class="smart-layout-end mb-3">
+      <sp-copy-to-clipboard [sourceElement]="competitionCode" />
+    </div>
     <pre #competitionCode>
         @if (newCompetition()) {
   '{{ newCompetition()!.id }}': {{ '{' }}

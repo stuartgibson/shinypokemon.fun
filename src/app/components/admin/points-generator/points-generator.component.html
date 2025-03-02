@@ -1,6 +1,8 @@
 <div class="smart-layout-evenly align-items-start">
   <div>
-    <sp-copy-to-clipboard [sourceElement]="pointsCode" />
+    <div class="smart-layout-end mb-3">
+      <sp-copy-to-clipboard [sourceElement]="pointsCode" />
+    </div>
     <pre #pointsCode>
         @for(point of newPoints(); track point.id; let isLast = $last) {
   // <sp-inline-competition [id]="point.competitionID"></sp-inline-competition>
