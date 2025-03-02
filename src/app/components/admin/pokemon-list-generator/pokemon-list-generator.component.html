@@ -33,9 +33,9 @@
                 placeholder="Search"
                 (keyup)="filterPokemon($event)" />
 
-              <ul class="list-group list-group-flush">
+              <ul class="list-unstyled">
                 @for (pokemon of unselectedPokemon(); track pokemon.id) {
-                  <li class="list-group-item d-flex align-items-center">
+                  <li class="d-flex align-items-center">
                     <button
                       type="button"
                       class="btn btn-sm btn-outline-success me-3"
@@ -48,6 +48,7 @@
                       class="flex-grow-1">
                     </sp-pokemon>
                   </li>
+                  @if (!$last) {<hr class="my-1">}
                 }
               </ul>
             </div>
