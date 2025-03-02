@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FooterComponent } from '../footer/footer.component';
 import { NavComponent } from '../nav/nav.component';
 
 @Component({
@@ -9,9 +8,7 @@ import { NavComponent } from '../nav/nav.component';
   styleUrls: ['./app.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
-  imports: [
-    FooterComponent, NavComponent, RouterOutlet,
-  ]
+  imports: [NavComponent, RouterOutlet],
 })
 export class AppComponent {
   title = 'shinypokemon.fun';
