@@ -86,9 +86,9 @@
               <div class="mb-3" #result>
                 <h4>Result</h4>
 
-                <ul class="list-group list-group-flush">
+                <ul class="list-unstyled">
                   @for (parsedPokemon of parsedPokemon(); track parsedPokemon.text) {
-                    <li class="list-group-item smart-layout-evenly align-items-center">
+                    <li class="smart-layout-evenly align-items-center">
                       <input
                         class="form-control"
                         type="text"
@@ -110,7 +110,8 @@
                         </button>
                         <span></span>
                       }
-                  </li>
+                    </li>
+                    @if (!$last) {<hr class="my-1">}
                   }
                 </ul>
               </div>
