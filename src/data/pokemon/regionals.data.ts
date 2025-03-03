@@ -7,7 +7,7 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'id': '1a636f2b-e354-496d-9ae1-07de7d69ec7e',
       'type': 'pokemon' as 'pokemon',
       'attributes': {
-        'name': 'Ratatta (Alolan)',
+        'name': 'Rattata (Alolan)',
         'generation': 7,
         'dexNo': '0019',
         'forme': 'alolan'
@@ -260,7 +260,7 @@ export const pokemonDataRegionals:IPokemonEntities = {
       'id': 'b6af61b9-ea70-4cd5-9c39-b901a94ced0c',
       'type': 'pokemon' as 'pokemon',
       'attributes': {
-        'name': 'Farfetch’d (Galarian)',
+        'name': 'Farfetch\'d (Galarian)',
         'generation': 8,
         'dexNo': '0083',
         'forme': 'galarian'

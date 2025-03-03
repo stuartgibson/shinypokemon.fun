@@ -46,7 +46,7 @@ export class PokemonListGeneratorComponent {
 
 
   parse(parsedPokemon : ParsedPokemon) : void {
-    const normalizedText = parsedPokemon.text.replace(/[^a-zA-Z\s♀♂().-\\']/g,'').trim().toLowerCase();
+    const normalizedText = parsedPokemon.text.replace(/[^a-zA-Z\s♀♂().\-\\']/g,'').trim().toLowerCase();
     if (!normalizedText) {
       return;
     }
