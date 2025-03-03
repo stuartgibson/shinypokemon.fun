@@ -11,7 +11,7 @@ export const pointsData2022_20:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
