@@ -224,14 +224,7 @@ export const competitionsData2017: { [id: string]: ICompetitionEntity } = {
       selectedBy: {
         data: { id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2', type: 'player' }
       },
-      validPokemon: [
-        {
-          data: {
-            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
-            type: 'pokemon'
-          }
-        }
-      ],
+      validPokemon: [],
       year: { data: { id: '2017', type: 'year' } }
     }
   }

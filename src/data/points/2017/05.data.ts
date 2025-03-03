@@ -32,34 +32,6 @@ export const pointsData2017_5:IPointEntities = {
     }
   }
 },
-  '0e68e4e1-640a-4f56-9fd9-d3b6111ba300': {
-  data: {
-    id: '0e68e4e1-640a-4f56-9fd9-d3b6111ba300',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '68d90ecc-b5fa-4080-8705-e3c6f06606ae',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: '938a3ab8-2b5a-4666-bc53-5e6c284ec323', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '138e873d-db9b-4f2b-bd9a-59757b9282e8', type: 'pokemon' }
-      }
-    }
-  }
-},
   'ecfea6c7-b3bd-4c88-be68-43e028bb4cbf': {
   data: {
     id: 'ecfea6c7-b3bd-4c88-be68-43e028bb4cbf',
@@ -123,63 +95,7 @@ export const pointsData2017_5:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '68d90ecc-b5fa-4080-8705-e3c6f06606ae',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '758c86f7-e08f-4aa7-ac55-a345669ad53a', type: 'pokemon' }
-      }
-    }
-  }
-},
-  '3d166d39-830d-427f-aa78-07e494157acc': {
-  data: {
-    id: '3d166d39-830d-427f-aa78-07e494157acc',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '68d90ecc-b5fa-4080-8705-e3c6f06606ae',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '758c86f7-e08f-4aa7-ac55-a345669ad53a', type: 'pokemon' }
-      }
-    }
-  }
-},
-  '93332c3b-79ea-40db-ad69-49bd293de6a8': {
-  data: {
-    id: '93332c3b-79ea-40db-ad69-49bd293de6a8',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
+      firstCatch: true,
       game: null,
       method: null,
       oldSystemPoint: true

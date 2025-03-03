@@ -11,7 +11,7 @@ export const pointsData2019_22:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -83,7 +83,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: '136dffcb-c364-4d04-96f7-e59d54eb88fb', type: 'player' }
       },
       pokemon: {
-        data: { id: 'fd68bfbd-da6e-4df4-9d00-e549d1638fd3', type: 'pokemon' }
+        data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
@@ -139,7 +139,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '7b16a8cc-41ec-41d5-b04e-69e77765777e', type: 'pokemon' }
+        data: { id: 'aa85175c-0613-4d07-a465-7b068c3f82ad', type: 'pokemon' }
       }
     }
   }
@@ -167,7 +167,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '7b16a8cc-41ec-41d5-b04e-69e77765777e', type: 'pokemon' }
+        data: { id: '393d6b71-0af9-4876-b37c-e2470ea37f3c', type: 'pokemon' }
       }
     }
   }
@@ -195,7 +195,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '7b16a8cc-41ec-41d5-b04e-69e77765777e', type: 'pokemon' }
+        data: { id: '45608793-1fd4-4596-8fa8-51d8ab0205d9', type: 'pokemon' }
       }
     }
   }
@@ -223,7 +223,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '7b16a8cc-41ec-41d5-b04e-69e77765777e', type: 'pokemon' }
+        data: { id: 'a24b0474-d65d-4601-824f-7f2cefbf52d9', type: 'pokemon' }
       }
     }
   }
@@ -251,7 +251,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '7b16a8cc-41ec-41d5-b04e-69e77765777e', type: 'pokemon' }
+        data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
@@ -279,7 +279,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: '7b16a8cc-41ec-41d5-b04e-69e77765777e', type: 'pokemon' }
+        data: { id: '9ee2c16a-577f-4cc8-8839-1a4116c7480b', type: 'pokemon' }
       }
     }
   }
@@ -363,7 +363,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: '238a9a85-7020-480f-bb8b-b0d4278b52b7', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: { id: '7ca0dfe1-0af3-4a55-b38a-7f6ec0466432', type: 'pokemon' }
       }
     }
   }
@@ -391,7 +391,7 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: '238a9a85-7020-480f-bb8b-b0d4278b52b7', type: 'player' }
       },
       pokemon: {
-        data: { id: '82296f48-2914-4e67-8538-8b9c68158cd2', type: 'pokemon' }
+        data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
@@ -447,487 +447,669 @@ export const pointsData2019_22:IPointEntities = {
         data: { id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678', type: 'player' }
       },
       pokemon: {
-        data: { id: '9219d4f4-2bd8-4568-a1d0-1f4f12fe6cbd', type: 'pokemon' }
-      }
-    }
-  }
-},
-  'ba0263f4-41f8-4f59-bdfd-328e72f8dbe4': {
-  data: {
-    id: 'ba0263f4-41f8-4f59-bdfd-328e72f8dbe4',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85', type: 'pokemon' }
-      }
-    }
-  }
-},
-  '5e2fb801-62fc-4453-bf46-ad2cafb25539': {
-  data: {
-    id: '5e2fb801-62fc-4453-bf46-ad2cafb25539',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85', type: 'pokemon' }
-      }
-    }
-  }
-},
-  'bfac46b1-6e9f-45f5-a704-61059006e991': {
-  data: {
-    id: 'bfac46b1-6e9f-45f5-a704-61059006e991',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85', type: 'pokemon' }
-      }
-    }
-  }
-},
-  'e6879810-c5de-4ce3-be7a-3a2bd198766f': {
-  data: {
-    id: 'e6879810-c5de-4ce3-be7a-3a2bd198766f',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85', type: 'pokemon' }
-      }
-    }
-  }
-},
-  '5aaa23fb-cd23-46eb-a669-588ab6af629a': {
-  data: {
-    id: '5aaa23fb-cd23-46eb-a669-588ab6af629a',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85', type: 'pokemon' }
-      }
-    }
-  }
-},
-  'c112169d-ce6b-46df-be76-5b1da2028084': {
-  data: {
-    id: 'c112169d-ce6b-46df-be76-5b1da2028084',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85', type: 'pokemon' }
-      }
-    }
-  }
-},
-  '9c7f3d02-6d9f-4814-93ca-f0980a0ef67d': {
-  data: {
-    id: '9c7f3d02-6d9f-4814-93ca-f0980a0ef67d',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85', type: 'pokemon' }
-      }
-    }
-  }
-},
-  'dbe15d76-c258-4fc8-adfb-922199aec051': {
-  data: {
-    id: 'dbe15d76-c258-4fc8-adfb-922199aec051',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
-      },
-      pokemon: {
         data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
 },
-  'd8c30606-f123-4429-9d02-a18cc90a1e1c': {
-  data: {
-    id: 'd8c30606-f123-4429-9d02-a18cc90a1e1c',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+ //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Nama Chibitty (@NamaTheNerd) 
+  //  0326. Grumpig 
+  '5499b2b4-e9c4-443d-b152-8260e73f9b2d': {
+    data: {
+      id: '5499b2b4-e9c4-443d-b152-8260e73f9b2d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'fa009529-a4e8-43fc-ad1f-f3dacc7a5e85',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
-},
-  'c8474384-dcc3-42f4-871d-16cd88331e5f': {
-  data: {
-    id: 'c8474384-dcc3-42f4-871d-16cd88331e5f',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Nama Chibitty (@NamaTheNerd) 
+  //  0195. Quagsire 
+  '1ce4be1a-9243-4ef0-9ec2-5646902a86dd': {
+    data: {
+      id: '1ce4be1a-9243-4ef0-9ec2-5646902a86dd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '90753663-6eaf-460f-b3df-a56773333783',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
-},
-  'be5fb641-268e-4b16-af50-d219f6968682': {
-  data: {
-    id: 'be5fb641-268e-4b16-af50-d219f6968682',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Nama Chibitty (@NamaTheNerd) 
+  //  0419. Floatzel 
+  'adf72639-5cb6-4148-8a4c-63ad26bcc09a': {
+    data: {
+      id: 'adf72639-5cb6-4148-8a4c-63ad26bcc09a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'a64b7e5c-daa7-47b1-8db8-7db7e4ed91fd',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
-},
-  'e1e854dd-2e54-4edf-b3e9-ba5be2090796': {
-  data: {
-    id: 'e1e854dd-2e54-4edf-b3e9-ba5be2090796',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Nama Chibitty (@NamaTheNerd) 
+  //  0334. Altaria 
+  '3b290637-3f6d-4d59-a476-90fca0539450': {
+    data: {
+      id: '3b290637-3f6d-4d59-a476-90fca0539450',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '58fb2cb0-d32c-4f28-a142-68c74ba71b70',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '494c864d-773a-4707-8aec-a26e87c8f3a6', type: 'pokemon' }
       }
     }
   }
-},
-  '6f43a69b-6ac7-44a5-9c3b-a6f130b910c8': {
-  data: {
-    id: '6f43a69b-6ac7-44a5-9c3b-a6f130b910c8',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Nama Chibitty (@NamaTheNerd) 
+  //  0277. Swellow 
+  'dbdd42a1-4893-443c-95de-11071af682cf': {
+    data: {
+      id: 'dbdd42a1-4893-443c-95de-11071af682cf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9adfc810-90e2-47c0-af33-e11897395efd',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71', type: 'pokemon' }
       }
     }
   }
-},
-  '2571a532-ec11-400a-b5d0-308d71b81ede': {
-  data: {
-    id: '2571a532-ec11-400a-b5d0-308d71b81ede',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Nama Chibitty (@NamaTheNerd) 
+  //  0077. Ponyta 
+  '704cb142-2e5f-4436-8a1b-a22df64367ef': {
+    data: {
+      id: '704cb142-2e5f-4436-8a1b-a22df64367ef',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '3a1f8e0e-ad15-49d3-b4fc-ccfffbf2bf2f',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71', type: 'pokemon' }
       }
     }
   }
-},
-  '23363d20-1ced-4a1e-8143-8dd885af569e': {
-  data: {
-    id: '23363d20-1ced-4a1e-8143-8dd885af569e',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Nama Chibitty (@NamaTheNerd) 
+  //  0078. Rapidash 
+  'fbc724cd-4c3d-42d2-aa41-98580cef3809': {
+    data: {
+      id: 'fbc724cd-4c3d-42d2-aa41-98580cef3809',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '46667a68-d44d-4e3c-9822-d3a8e38157a7',
+            type: 'pokemon'
+          }
         }
+      }
+    }
+  },
+       
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Devilish Inferno (@Alex) 
+  //  0129. Magikarp 
+  '559c7c87-4635-4d93-8704-98a34e27c647': {
+    data: {
+      id: '559c7c87-4635-4d93-8704-98a34e27c647',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
       },
-      player: {
-        data: { id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71', type: 'pokemon' }
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+            type: 'pokemon'
+          }
+        }
       }
     }
   }
-},
-  '9ab541bf-b158-42d1-bbfc-d3477f12e417': {
-  data: {
-    id: '9ab541bf-b158-42d1-bbfc-d3477f12e417',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Devilish Inferno (@Alex) 
+  //  0813. Scorbunny 
+  'bcbde81f-30fa-400a-b0f6-1cca4e89482d': {
+    data: {
+      id: 'bcbde81f-30fa-400a-b0f6-1cca4e89482d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '04182a98-03e1-4072-84c5-e3c84a6891dd',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71', type: 'pokemon' }
       }
     }
   }
-},
-  '71c0bf33-c682-43a0-88c0-e9b08d7601cc': {
-  data: {
-    id: '71c0bf33-c682-43a0-88c0-e9b08d7601cc',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
-          type: 'competition'
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Devilish Inferno (@Alex) 
+  //  0835. Yamper 
+  'f51c1740-e084-4af9-94dc-1a79ecc37359': {
+    data: {
+      id: 'f51c1740-e084-4af9-94dc-1a79ecc37359',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e6a04cee-d60c-4e0e-9306-eafc52020b62',
+            type: 'pokemon'
+          }
         }
-      },
-      player: {
-        data: { id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49', type: 'player' }
-      },
-      pokemon: {
-        data: { id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71', type: 'pokemon' }
       }
     }
   }
-},
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Devilish Inferno (@Alex) 
+  //  0679. Honedge 
+  '7c6d94d8-140a-4479-abee-2d03367326eb': {
+    data: {
+      id: '7c6d94d8-140a-4479-abee-2d03367326eb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '0633d25c-8f26-4049-8403-407ff49b7a1d',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Devilish Inferno (@Alex) 
+  //  0130. Gyarados 
+  '9d32f8e4-9245-459e-a21f-23ab397d0bf8': {
+    data: {
+      id: '9d32f8e4-9245-459e-a21f-23ab397d0bf8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9ee2c16a-577f-4cc8-8839-1a4116c7480b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
+//  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Steve (@sbj) 
+  //  0607. Litwick 
+  '8c3e0dbc-7aae-48fc-8a42-865c9310cd0d': {
+    data: {
+      id: '8c3e0dbc-7aae-48fc-8a42-865c9310cd0d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Steve (@sbj) 
+  //  0608. Lampent 
+  '6cc9b83f-a43d-458c-adb3-209559bae628': {
+    data: {
+      id: '6cc9b83f-a43d-458c-adb3-209559bae628',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'a45ed20d-d26d-4f3b-97f4-385648af42b3',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Steve (@sbj) 
+  //  0609. Chandelure 
+  'dfea46e5-1fa5-456f-89e8-d089fb55b401': {
+    data: {
+      id: 'dfea46e5-1fa5-456f-89e8-d089fb55b401',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: 'dc11989f-1d37-4101-860e-9d18863fbeef',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Steve (@sbj) 
+  //  0129. Magikarp 
+  '709a8ea7-175d-4cc9-ade0-834739476fef': {
+    data: {
+      id: '709a8ea7-175d-4cc9-ade0-834739476fef',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  }
+,
+
+  //  Catch 'em All Dec 14, 2019 to Dec 31, 2019
+  //  Steve (@sbj) 
+  //  0130. Gyarados 
+  'fcb54aac-11a6-4ded-936b-de50dd175875': {
+    data: {
+      id: 'fcb54aac-11a6-4ded-936b-de50dd175875',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2019-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: true
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76545ac2-64f6-413d-9fa1-3cc8c5809d76',
+            type: 'competition'
+          }
+        },
+        player: {
+          data: {
+            id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+            type: 'player'
+          }
+        },
+        pokemon: {
+          data: {
+            id: '9ee2c16a-577f-4cc8-8839-1a4116c7480b',
+            type: 'pokemon'
+          }
+        }
+      }
+    }
+  },
   '3826309f-4ac6-4350-ad18-ce1a2faad221': {
   data: {
     id: '3826309f-4ac6-4350-ad18-ce1a2faad221',

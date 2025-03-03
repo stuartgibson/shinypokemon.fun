@@ -528,7 +528,7 @@ export const competitionsData2018: { [id: string]: ICompetitionEntity } = {
     id: 'f2ac64fe-a439-46fe-97af-bd10b1e09fd3',
     attributes: {
       description: 'n/a',
-      endDate: '2018-11-27',
+      endDate: '2018-10-27',
       startDate: '2018-10-13',
       theme: 'Spooky'
     },
@@ -554,8 +554,8 @@ export const competitionsData2018: { [id: string]: ICompetitionEntity } = {
     id: '6bedf793-7fd6-4d55-8fe6-b9b080dc60a2',
     attributes: {
       description: 'n/a',
-      endDate: '2018-12-14',
-      startDate: '2018-11-28',
+      endDate: '2018-11-10',
+      startDate: '2018-10-28',
       theme: 'Human-like'
     },
     relationships: {
@@ -640,14 +640,7 @@ export const competitionsData2018: { [id: string]: ICompetitionEntity } = {
       selectedBy: {
         data: { id: 'cfedba07-3cbe-4825-8c40-8623c2b89e31', type: 'player' }
       },
-      validPokemon: [
-        {
-          data: {
-            id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
-            type: 'pokemon'
-          }
-        }
-      ],
+      validPokemon: [],
       year: { data: { id: '2018', type: 'year' } }
     }
   }

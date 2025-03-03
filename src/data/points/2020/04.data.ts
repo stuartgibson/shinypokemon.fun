@@ -39,7 +39,7 @@ export const pointsData2020_4:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -252,34 +252,6 @@ export const pointsData2020_4:IPointEntities = {
       },
       pokemon: {
         data: { id: '1f8758c3-7a15-4661-9519-c151b4fe6dae', type: 'pokemon' }
-      }
-    }
-  }
-},
-  'cb0712f0-c288-48c2-a6bf-1d95a88732f2': {
-  data: {
-    id: 'cb0712f0-c288-48c2-a6bf-1d95a88732f2',
-    type: 'point',
-    attributes: {
-      ball: null,
-      catchDate: null,
-      firstCatch: false,
-      game: null,
-      method: null,
-      oldSystemPoint: true
-    },
-    relationships: {
-      competition: {
-        data: {
-          id: '71284cf5-082b-4fd6-b479-518eeb9a8da1',
-          type: 'competition'
-        }
-      },
-      player: {
-        data: { id: 'e4bd5ce2-115d-488a-b63c-07d0e34de752', type: 'player' }
-      },
-      pokemon: {
-        data: { id: '6cbfb9db-915f-4874-879a-e4a49ca6144c', type: 'pokemon' }
       }
     }
   }

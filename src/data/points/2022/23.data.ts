@@ -11,7 +11,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -39,7 +39,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -67,7 +67,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -95,7 +95,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -123,7 +123,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -151,7 +151,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -179,7 +179,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -207,7 +207,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -235,7 +235,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -263,7 +263,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -291,7 +291,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -319,7 +319,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -347,7 +347,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -375,7 +375,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -403,7 +403,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -431,7 +431,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -459,7 +459,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -487,7 +487,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -515,7 +515,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -543,7 +543,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -571,7 +571,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -599,7 +599,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -627,7 +627,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -655,7 +655,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -683,7 +683,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -711,7 +711,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -739,7 +739,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -767,7 +767,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -795,7 +795,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -823,7 +823,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -851,7 +851,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -879,7 +879,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -907,7 +907,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -935,7 +935,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -963,7 +963,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -991,7 +991,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1019,7 +1019,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1047,7 +1047,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1075,7 +1075,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1103,7 +1103,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1131,7 +1131,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1159,7 +1159,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1187,7 +1187,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1215,7 +1215,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1243,7 +1243,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1271,7 +1271,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1299,7 +1299,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1327,7 +1327,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1355,7 +1355,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1383,7 +1383,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1411,7 +1411,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1439,7 +1439,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1467,7 +1467,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1495,7 +1495,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1523,7 +1523,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1551,7 +1551,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1579,7 +1579,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1607,7 +1607,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1635,7 +1635,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1663,7 +1663,7 @@ export const pointsData2022_23:IPointEntities = {
     attributes: {
       ball: null,
       catchDate: null,
-      firstCatch: true,
+      firstCatch: false,
       game: null,
       method: null,
       oldSystemPoint: true
@@ -1707,7 +1707,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Tadbulb remove
+          id: 'f524419c-0643-4277-a890-a0901271dd4b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1735,7 +1739,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Magnezone remove
+          id: '4e822cc9-7022-464f-aecd-e88716ad4943',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1763,7 +1771,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Charcadet remove
+          id: 'cf3736c5-0795-49e3-b1e0-bb464936465d',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1791,7 +1803,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Pawmot remove
+          id: 'c5ee9920-eaae-4713-93f4-2586a68b4f84',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1819,7 +1835,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Pawmo remove
+          id: '17441171-60a5-4dc8-b993-15c9101f8143',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1847,7 +1867,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Pawmi remove
+          id: '73f482cc-0ea4-4c43-bd42-43ad868cf90a',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1875,7 +1899,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Bellibolt remove
+          id: '7d2e460b-6d0d-4bab-88c8-b45ef086049b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1903,7 +1931,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Frigibax remove
+          id: '9f8c7a79-1fcc-4c5c-95b5-a6e49d170c5b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1931,7 +1963,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Drednaw remove
+          id: '112a03cb-fe37-4aa4-9b7a-920a8b246339',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1959,7 +1995,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Chewtle remove
+          id: 'dbed930c-3262-4fff-afca-dd52d4a02bd6',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -1987,7 +2027,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Ceruledge remove
+          id: 'adf10d91-040a-4dad-87c1-d8e66259ad30',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2015,7 +2059,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Armarouge remove
+          id: 'd54d9dc3-e2be-4e94-92fe-ef99ccfcc073',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2043,7 +2091,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Makuhita remove
+          id: '40d7919e-766c-4109-a5d1-82444c0b63ed',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2071,7 +2123,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Toedscool remove
+          id: '6b57b43b-60e3-44e8-b740-0635e8e899ab',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2099,7 +2155,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Pyroar remove
+          id: 'bad0a7ce-7718-40d9-8b65-5a43b397794b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2127,7 +2187,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Litleo remove
+          id: '283dccaf-97bb-446f-997b-5b74b380a626',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2155,7 +2219,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Mareanie remove
+          id: '77f390a4-0d38-434e-af28-8c858e060b3c',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2183,7 +2251,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Pelipper remove
+          id: '8d36fc6e-c19c-41de-a990-02e218113832',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2211,7 +2283,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Wingull remove
+          id: 'e50b840e-2e3f-4ace-971e-b76e332b1857',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2239,7 +2315,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Dondozo remove
+          id: 'eede505c-d4c0-41a8-93c2-34ec4913ad3b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2267,7 +2347,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Skiddo remove
+          id: '8a099e42-ba65-4365-90d9-2a2bb4966efc',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2295,7 +2379,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Sinistea remove
+          id: '68847ddd-c418-47b7-ba3a-404f1db5caf2',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2323,7 +2411,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Komala remove
+          id: '360c0865-0bfc-46dd-807d-2532ddfab4dd',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2351,7 +2443,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Klawf remove
+          id: '454e6e19-6c37-44d9-9bb5-c6051c76ffbc',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2379,7 +2475,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Slowbro remove
+          id: '24e010f3-7f1e-49c0-a63f-5e1605d5b8ff',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2407,7 +2507,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Slowpoke remove
+          id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2435,7 +2539,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Annihilape remove
+          id: '8833b9a4-399e-4a43-a864-3e1b0393fd01',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2463,7 +2571,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Mankey remove
+          id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2491,7 +2603,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Hippopotas remove
+          id: '1a0682c6-6045-4a09-8ced-17c4a60211b0',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2519,7 +2635,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Growlithe remove
+          id: 'ceabbc48-23a8-45a8-be14-959184bfbb0b',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2547,7 +2667,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Polteageist remove
+          id: '8f964492-a6ad-4157-991c-abd964de54d3',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2575,7 +2699,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Cyclizar remove
+          id: 'c14ee623-1853-4da3-9021-f55805c1bc71',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2603,7 +2731,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Sandile remove
+          id: 'fbd0d149-dbbe-4a22-a970-5821cb900ccc',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2631,7 +2763,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Volcarona remove
+          id: '149043bb-0730-4320-bdc6-fa219e308223',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2659,7 +2795,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Larvesta remove
+          id: 'f3f2667e-99f3-4b9f-ba31-61c03aceb378',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2687,7 +2827,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Hoppip remove
+          id: '45458f0f-3118-4b87-a148-bee667717bc2',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2715,7 +2859,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Avalugg remove
+          id: '06e87530-bdd5-41cd-8a70-197d8f70035a',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -2743,7 +2891,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: 'ec689f25-fffe-4249-b89d-603d574bacee', type: 'player' }
       },
       pokemon: {
-        data: { id: 'f524419c-0643-4277-a890-a0901271dd4b', type: 'pokemon' }
+        data: {
+          // Makuhita remove
+          id: '40d7919e-766c-4109-a5d1-82444c0b63ed',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -4535,7 +4687,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb', type: 'pokemon' }
+        data: {
+          // Bergmite remove
+          id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -4563,7 +4719,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb', type: 'pokemon' }
+        data: {
+          // Avalugg remove
+          id: '06e87530-bdd5-41cd-8a70-197d8f70035a',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -4591,7 +4751,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb', type: 'pokemon' }
+        data: {
+          // Delibird remove
+          id: '3852ccba-90fe-496f-91dd-f1f104d7a0e8',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -4619,7 +4783,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb', type: 'pokemon' }
+        data: {
+          // Scream Tail remove
+          id: '191d3a48-0697-4a8c-9f20-25d0de2e1e05',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -4647,7 +4815,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb', type: 'pokemon' }
+        data: {
+          // Eevee remove
+          id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -4675,7 +4847,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb', type: 'pokemon' }
+        data: {
+          // Pidgey remove
+          id: '9d2eb67b-06bb-41a3-936c-654a2fa1e475',
+          type: 'pokemon'
+        }
       }
     }
   }
@@ -4703,7 +4879,11 @@ export const pointsData2022_23:IPointEntities = {
         data: { id: '3657e524-63a2-4eb6-b768-c20b104e41a1', type: 'player' }
       },
       pokemon: {
-        data: { id: '05b64ab2-3b50-4730-800d-48a8d9b1e5cb', type: 'pokemon' }
+        data: {
+          // MissingNo remove
+          id: 'f77b6663-537d-469c-bd2f-0e4347bb5ca3',
+          type: 'pokemon'
+        }
       }
     }
   }
