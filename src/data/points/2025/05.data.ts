@@ -38,7 +38,6 @@ export const pointsData2025_05: IPointEntities = {
       },
     },
   },
-
   //  2/3rds Johto (and Tepig) 2 Mar 2025  to 15 Mar 2025
   //  Keagan (@Keagan)
   //  0202. Wobbuffet
