@@ -705,4 +705,190 @@ export const pointsData2025_05: IPointEntities = {
       },
     },
   },
+
+  //  2/3rds Johto (and Tepig) 2 Mar 2025  to 15 Mar 2025
+  //  Keagan (@Keagan)
+  //  0161. Sentret
+  '11fd4158-c294-4cee-bfca-7071250d7c49': {
+    data: {
+      id: '11fd4158-c294-4cee-bfca-7071250d7c49',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'baab4caa-cf5d-4791-bff3-424c8777e8a3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b29bd872-719d-4138-be4f-3d839f2496b1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  2/3rds Johto (and Tepig) 2 Mar 2025  to 15 Mar 2025
+  //  Al McKinlay (@Al)
+  //  0193. Yanma
+  '86f29a03-c120-4255-ac29-a993a76434ac': {
+    data: {
+      id: '86f29a03-c120-4255-ac29-a993a76434ac',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'baab4caa-cf5d-4791-bff3-424c8777e8a3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'ff4976ce-1519-4ad6-a124-eef49565fc58',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '123faf97-132f-4a74-b0ad-b5f8aa6b990c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  2/3rds Johto (and Tepig) 2 Mar 2025  to 15 Mar 2025
+  //  Keagan (@Keagan)
+  //  0183. Marill
+  '2c6f09b1-03b8-48fb-9c3f-afc1ddc3cd61': {
+    data: {
+      id: '2c6f09b1-03b8-48fb-9c3f-afc1ddc3cd61',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'baab4caa-cf5d-4791-bff3-424c8777e8a3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ed377739-ba16-43b7-9292-399ba1dd7d29',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  2/3rds Johto (and Tepig) 2 Mar 2025  to 15 Mar 2025
+  //  Keagan (@Keagan)
+  //  0060. Poliwag
+  'be2cc554-2c55-496f-8c78-d3f6f73bb952': {
+    data: {
+      id: 'be2cc554-2c55-496f-8c78-d3f6f73bb952',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'baab4caa-cf5d-4791-bff3-424c8777e8a3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  2/3rds Johto (and Tepig) 2 Mar 2025  to 15 Mar 2025
+  //  Tone (@Tone)
+  //  0190. Aipom
+  '5013c2d4-33fa-4e1a-883a-030cae0f0bd6': {
+    data: {
+      id: '5013c2d4-33fa-4e1a-883a-030cae0f0bd6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'baab4caa-cf5d-4791-bff3-424c8777e8a3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b47d4a57-6547-4a1c-a2bc-4e4aca095d46',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
