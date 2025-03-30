@@ -594,4 +594,375 @@ export const pointsData2025_06: IPointEntities = {
       },
     },
   },
+
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Keagan (@Keagan)
+  //  0643. Reshiram
+  '55ff9898-a23f-4848-973a-f610608a59e2': {
+    data: {
+      id: '55ff9898-a23f-4848-973a-f610608a59e2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9c2bb690-dbf9-441b-9d38-8d4c094b6650',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Keagan (@Keagan)
+  //  0941. Kilowattrel
+  '2ad888da-43c7-4ad4-953e-fc105b9e5b4d': {
+    data: {
+      id: '2ad888da-43c7-4ad4-953e-fc105b9e5b4d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d3f6d4c-c7d0-42e3-8d4c-52335c153444',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Padukes (@Padukes)
+  //  0599. Klink
+  '91be9b50-f805-4309-affc-d0ba4bf94768': {
+    data: {
+      id: '91be9b50-f805-4309-affc-d0ba4bf94768',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1ca0b66b-2791-41c2-bf6d-aeabae1cfdb0',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4427bad2-356f-49ea-ade9-9c20ebd9a17b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0764. Comfey
+  '41689ec0-920c-4585-b8c1-c70f149f3fd1': {
+    data: {
+      id: '41689ec0-920c-4585-b8c1-c70f149f3fd1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'aeb2a45e-fe56-4891-94df-960a3f257bd9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Keagan (@Keagan)
+  //  0570. Zorua (Hisuian)
+  '0df8892c-ac7a-405f-8c32-48ecb10c4786': {
+    data: {
+      id: '0df8892c-ac7a-405f-8c32-48ecb10c4786',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c5a38b5b-c735-48cb-a50a-e5e5349d2fe5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0100. Voltorb
+  '65d47932-3131-420e-9b91-d380a5fc01be': {
+    data: {
+      id: '65d47932-3131-420e-9b91-d380a5fc01be',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a7ea779c-7360-4fae-a051-3db40f8cbf45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Devilish Inferno (@Alex)
+  //  0561. Sigilyph
+  'bbc4a829-1bfb-4a28-bba3-fe2bd643101c': {
+    data: {
+      id: 'bbc4a829-1bfb-4a28-bba3-fe2bd643101c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b3bdf14-d2fe-491b-857b-b6b973cc5d27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Tone (@Tone)
+  //  0938. Tadbulb
+  '39c372da-3c8b-4b42-9a11-856d25a9c893': {
+    data: {
+      id: '39c372da-3c8b-4b42-9a11-856d25a9c893',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f524419c-0643-4277-a890-a0901271dd4b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Keagan (@Keagan)
+  //  0143. Snorlax
+  '7e28bffb-ed1a-4563-a377-4d8074a31413': {
+    data: {
+      id: '7e28bffb-ed1a-4563-a377-4d8074a31413',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '27194e95-3472-4247-8cc2-6dfa1eb42e46',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Owner‘s Pokémon 16 Mar 2025  to 29 Mar 2025
+  //  Bobby De Walt (@Bobby)
+  //  0941. Kilowattrel
+  '7a3b738f-e9a9-496a-9141-96cfea58de7c': {
+    data: {
+      id: '7a3b738f-e9a9-496a-9141-96cfea58de7c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '542bcd0a-f47d-4d8f-952f-f4fdffd7fc3f',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'a3abfccd-9cb0-422a-b3f3-aceb26f8b678',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d3f6d4c-c7d0-42e3-8d4c-52335c153444',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

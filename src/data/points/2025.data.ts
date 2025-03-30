@@ -3,7 +3,7 @@ import { pointsData2025_02 } from './2025/02.data';
 import { pointsData2025_03 } from './2025/03.data';
 import { pointsData2025_04 } from './2025/04.data';
 import { pointsData2025_05 } from './2025/05.data';
-import { pointsData2025_06 } from './2025/06.data';
+import { pointsData2025_07 } from './2025/07.data';
 
 export const pointsData2025 = {
   ...pointsData2025_01,
@@ -11,5 +11,5 @@ export const pointsData2025 = {
   ...pointsData2025_03,
   ...pointsData2025_04,
   ...pointsData2025_05,
-  ...pointsData2025_06,
+  ...pointsData2025_07,
 };
