@@ -521,4 +521,42 @@ export const pointsData2025_07: IPointEntities = {
       },
     },
   },
+
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  AverageSiege (@AverageSiege)
+  //  0737. Charjabug
+  'ea5e204e-9291-4ad0-835c-cac3dc3df6a0': {
+    data: {
+      id: 'ea5e204e-9291-4ad0-835c-cac3dc3df6a0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '70dac14a-0f44-42a1-afb2-1846a6663d0c',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30a00a27-8dea-4bba-9104-287cd00394f8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
