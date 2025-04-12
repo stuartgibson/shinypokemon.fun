@@ -62,7 +62,7 @@ export const routes: Routes = [
   },
   {
     path: 'trophy-competitions',
-    component: CompetitionsComponent,
+    component: TrophyCompetitionsComponent,
   },
   {
     path: 'trophy-seasons/:id',
