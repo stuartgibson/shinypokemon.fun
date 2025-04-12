@@ -1,0 +1,25 @@
+@if (competitions.length) {
+  <ol class="list-unstyled">
+    @for (competition of competitions; track competition; let isLast = $last) {
+      <li>
+        <div class="smart-layout-evenly align-items-center">
+          <a
+            [routerLink]="['/competitions', competition.id]"
+            class="flex-grow-1">
+            {{ competition.theme }}
+          </a>
+          <small class="text-muted text-lg-end">
+            <sp-date-range
+              [startDate]="competition.startDate"
+              [endDate]="competition.endDate">
+            </sp-date-range>
+          </small>
+        </div>
+
+        @if (!isLast) { <hr> }
+      </li>
+    }
+  </ol>
+} @else {
+  <p>No competitions found.</p>
+}

@@ -1,0 +1,9 @@
+@if (!!currentYear()) {
+  <h3>
+    <a [routerLink]="['/years', currentYear()!.id]">
+      This Year ({{ currentYear()!.name }})
+    </a>
+  </h3>
+}
+
+<sp-competition-list [competitions]="yearCompetitions()" />

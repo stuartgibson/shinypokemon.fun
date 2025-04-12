@@ -8,9 +8,10 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { RulesComponent } from './components/pages/rules/rules.component';
 import { PlayerPageComponent } from './components/player/player-page/player-page.component';
 import { PlayersComponent } from './components/player/players/players.component';
+import { TriviaComponent } from './components/trivia/trivia.component';
+import { TrophySeasonPageComponent } from './components/trophy-seasons/trophy-season-page/trophy-season-page.component';
 import { YearPageComponent } from './components/years/year-page/year-page.component';
 import { CurrentCompetitionGuard } from './current-competition-guard';
-import { TriviaComponent } from './components/trivia/trivia.component';
 
 export const routes: Routes = [
   {
@@ -58,6 +59,14 @@ export const routes: Routes = [
   {
     path: 'trivia',
     component: TriviaComponent,
+  },
+  {
+    path: 'trophy-competitions',
+    component: CompetitionsComponent,
+  },
+  {
+    path: 'trophy-seasons/:id',
+    component: TrophySeasonPageComponent,
   },
   {
     path: 'years/:id',

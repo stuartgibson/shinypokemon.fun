@@ -1,14 +1,20 @@
-export type ModelType = 'competition' | 'point' | 'pokemon' | 'player' | 'year';
+export type ModelType =
+  | 'competition'
+  | 'point'
+  | 'pokemon'
+  | 'player'
+  | 'trophySeason'
+  | 'year';
 
 export interface IJsonApiRelationship {
   data: {
     id: string;
     type: string;
-  }
+  };
 }
 
 export interface IJsonApiRelationships {
-  [key:string]: IJsonApiRelationship|IJsonApiRelationship[]
+  [key: string]: IJsonApiRelationship | IJsonApiRelationship[];
 }
 
 export interface IJsonApiEntity {
@@ -16,10 +22,10 @@ export interface IJsonApiEntity {
     type: ModelType;
     id: string;
     attributes: {
-      [key:string]: any;
+      [key: string]: any;
     };
     relationships?: {
-      [key:string]: IJsonApiRelationship|IJsonApiRelationship[]
-    }
-  }
+      [key: string]: IJsonApiRelationship | IJsonApiRelationship[];
+    };
+  };
 }

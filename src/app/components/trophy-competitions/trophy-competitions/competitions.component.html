@@ -1,0 +1,26 @@
+<h2>Competitions</h2>
+
+<p>
+  Select a year below to view the competitions for that year.
+</p>
+
+
+<ol class="list-unstyled">
+  @for (yearDatum of vm().yearsData; track yearDatum.year.id) {
+    <li>
+      <div class="card mb-3">
+        <div class="card-body d-flex">
+          <a
+            [routerLink]="['/years', yearDatum.year.id]"
+            class="flex-even">
+            {{ yearDatum.year.name }}
+          </a>
+
+          <span>
+            {{ yearDatum.competitionCount }} competition{{ yearDatum.competitionCount === 1 ? '' : 's' }}
+          </span>
+        </div>
+      </div>
+    </li>
+  }
+</ol>
