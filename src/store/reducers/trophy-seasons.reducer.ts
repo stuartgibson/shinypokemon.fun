@@ -1,25 +1,11 @@
 import { createFeature, createReducer, createSelector } from '@ngrx/store';
-import { TrophySeason } from 'models/trophy-season.model';
+import { Year } from 'models/year.model';
 import { trophySeasonsData } from 'src/data/tophy-seasons.data';
-import { IJsonApiEntity } from 'src/interfaces/json-api.interfaces';
 import { selectRouteParams } from 'store/selectors/router.selectors';
-
-interface ITrophySeasonEntity extends IJsonApiEntity {
-  data: {
-    type: 'trophySeason';
-    id: string;
-    attributes: {
-      name: string;
-    };
-  };
-}
-
-interface ITrophySeasonEntities {
-  [id: string]: ITrophySeasonEntity;
-}
+import { IYearEntities } from './years.reducer';
 
 interface TrophySeasonsState {
-  entities: ITrophySeasonEntities;
+  entities: IYearEntities;
 }
 
 const initialState: TrophySeasonsState = {
@@ -32,47 +18,35 @@ export const TrophySeasons = createFeature({
   extraSelectors: ({ selectEntities }) => ({
     selectAll: createSelector(
       selectEntities,
-      (entities: ITrophySeasonEntities): TrophySeason[] =>
+      (entities: IYearEntities): Year[] =>
         Object.keys(entities)
-          .map((key) => new TrophySeason(entities[key].data))
+          .map((key) => new Year(entities[key].data))
           .sort((a, b) => b.name.localeCompare(a.name))
     ),
 
     selectTrophySeasonByID: (id: string | null) =>
-      createSelector(
-        selectEntities,
-        (entities: ITrophySeasonEntities): TrophySeason | null =>
-          !!id ? (entities[id] ? new TrophySeason(entities[id]) : null) : null
+      createSelector(selectEntities, (entities: IYearEntities): Year | null =>
+        !!id ? (entities[id] ? new Year(entities[id]) : null) : null
       ),
 
     selectRoutedTrophySeason: createSelector(
       selectEntities,
       selectRouteParams,
-      (entities: ITrophySeasonEntities, { id }): TrophySeason | null =>
-        entities[id] ? new TrophySeason(entities[id].data) : null
+      (entities: IYearEntities, { id }): Year | null =>
+        entities[id] ? new Year(entities[id].data) : null
     ),
 
     selectCurrentTrophySeason: createSelector(
       selectEntities,
-      (entities: ITrophySeasonEntities): TrophySeason | null => {
+      (entities: IYearEntities): Year | null => {
         const currentTrophySeason = new Date().getFullYear().toString();
 
         const trophySeasonEntity = Object.values(entities).filter(
           (entity) => entity.data.attributes.name === currentTrophySeason
         )[0];
 
-        return trophySeasonEntity
-          ? new TrophySeason(trophySeasonEntity.data)
-          : null;
+        return trophySeasonEntity ? new Year(trophySeasonEntity.data) : null;
       }
     ),
   }),
 });
-
-export const selectPreviousTrophySeasons = createSelector(
-  TrophySeasons.selectAll,
-  (trophySeasons: TrophySeason[]): TrophySeason[] =>
-    trophySeasons.filter(
-      (trophySeason) => trophySeason.name < new Date().getFullYear().toString()
-    )
-);

@@ -10,6 +10,7 @@ import { PlayerPageComponent } from './components/player/player-page/player-page
 import { PlayersComponent } from './components/player/players/players.component';
 import { TriviaComponent } from './components/trivia/trivia.component';
 import { TrophySeasonPageComponent } from './components/trophy-seasons/trophy-season-page/trophy-season-page.component';
+import { TrophySeasonsComponent } from './components/trophy-seasons/trophy-seasons-page/trophy-seasons.component';
 import { YearPageComponent } from './components/years/year-page/year-page.component';
 import { CurrentCompetitionGuard } from './current-competition-guard';
 
@@ -61,8 +62,8 @@ export const routes: Routes = [
     component: TriviaComponent,
   },
   {
-    path: 'trophy-competitions',
-    component: TrophyCompetitionsComponent,
+    path: 'trophy-seasons',
+    component: TrophySeasonsComponent,
   },
   {
     path: 'trophy-seasons/:id',

@@ -1,0 +1,22 @@
+<h2>Trophy Competitions</h2>
+
+<p>
+  Select a season below to view details.
+</p>
+
+
+<ol class="list-unstyled">
+  @for (trophySeasons of vm().trophySeasons; track trophySeasons.id) {
+    <li>
+      <div class="card mb-3">
+        <div class="card-body d-flex">
+          <a
+            [routerLink]="['./', trophySeasons.id]"
+            class="flex-even">
+            {{ trophySeasons.name }}
+          </a>
+        </div>
+      </div>
+    </li>
+  }
+</ol>

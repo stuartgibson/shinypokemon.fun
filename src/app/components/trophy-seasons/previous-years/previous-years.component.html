@@ -1,9 +1,0 @@
-<h3>Previous Years</h3>
-
-@for (year of yearList(); track year.id) {
-  <div>
-    <a [routerLink]="['/years', year.id]">
-      {{ year.name }}
-    </a>
-  </div>
-}
