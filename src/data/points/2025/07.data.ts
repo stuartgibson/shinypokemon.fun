@@ -708,4 +708,79 @@ export const pointsData2025_07: IPointEntities = {
       },
     },
   },
+
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Keagan (@Keagan)
+  //  0741. Oricorio
+  'a602711d-6aa0-401b-a8e2-ac88848e45cd': {
+    data: {
+      id: 'a602711d-6aa0-401b-a8e2-ac88848e45cd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ded7e96b-b368-4269-aeb9-22934ffe30c9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Keagan (@Keagan)
+  //  0992. Iron Hands
+  'f562e13b-69ee-42e1-990e-62ff938e8094': {
+    data: {
+      id: 'f562e13b-69ee-42e1-990e-62ff938e8094',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b9e7c43e-2141-4669-8b3c-a1f367d94c91',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
