@@ -298,4 +298,414 @@ export const pointsData2025_07: IPointEntities = {
       },
     },
   },
+
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Keagan (@Keagan)
+  //  0628. Braviary (Hisuian)
+  '416a7f32-380d-4baa-befa-9035f2eeb07d': {
+    data: {
+      id: '416a7f32-380d-4baa-befa-9035f2eeb07d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '231a876e-de35-4b38-bcfe-81a878016610',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0128. Tauros (Paldean)
+  '6e9e7d4d-922f-43af-bfe6-41632606eeb4': {
+    data: {
+      id: '6e9e7d4d-922f-43af-bfe6-41632606eeb4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3954858f-5c36-44ad-bb21-6f45febc1821',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0414. Mothim
+  'f21aecb0-15a5-40ea-9dc5-fb7280b4a63d': {
+    data: {
+      id: 'f21aecb0-15a5-40ea-9dc5-fb7280b4a63d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd7ac1ca8-8090-4f7b-a598-afc6f0849443',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Keagan (@Keagan)
+  //  0996. Frigibax
+  '993d00f3-7e3c-4d09-a0b0-dd31b5ba5662': {
+    data: {
+      id: '993d00f3-7e3c-4d09-a0b0-dd31b5ba5662',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9f8c7a79-1fcc-4c5c-95b5-a6e49d170c5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Keagan (@Keagan)
+  //  0998. Baxcalibur
+  '310853c4-80d8-4205-a822-ba421c0a1ec5': {
+    data: {
+      id: '310853c4-80d8-4205-a822-ba421c0a1ec5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f612cbe0-8b28-4f51-9822-7969c039038d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0969. Glimmet
+  'a79b90f3-852b-4d8f-9e80-6c70166340fb': {
+    data: {
+      id: 'a79b90f3-852b-4d8f-9e80-6c70166340fb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '448daffc-668f-4476-b6e4-19111c496573',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  AverageSiege (@AverageSiege)
+  //  0737. Charjabug
+  'ea5e204e-9291-4ad0-835c-cac3dc3df6a0': {
+    data: {
+      id: 'ea5e204e-9291-4ad0-835c-cac3dc3df6a0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '70dac14a-0f44-42a1-afb2-1846a6663d0c',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30a00a27-8dea-4bba-9104-287cd00394f8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Keagan (@Keagan)
+  //  0737. Charjabug
+  '77ba265d-2085-42b9-be84-959130d6459a': {
+    data: {
+      id: '77ba265d-2085-42b9-be84-959130d6459a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30a00a27-8dea-4bba-9104-287cd00394f8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Stuart (@stuart)
+  //  0128. Tauros (Paldean)
+  '09ef0cd0-618a-4b22-9b02-e41b81507a40': {
+    data: {
+      id: '09ef0cd0-618a-4b22-9b02-e41b81507a40',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3954858f-5c36-44ad-bb21-6f45febc1821',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Keagan (@Keagan)
+  //  0442. Spiritomb
+  '956f7663-78d4-4a02-a4b8-6d086c806c2e': {
+    data: {
+      id: '956f7663-78d4-4a02-a4b8-6d086c806c2e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2c8d8545-a6b0-4b95-8870-210410e4be8a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  I Just Think They’re Neat 🥔 30 Mar 2025  to 12 Apr 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0996. Frigibax
+  '07dfd3f6-03d9-4258-ac7d-39eccc00cdf1': {
+    data: {
+      id: '07dfd3f6-03d9-4258-ac7d-39eccc00cdf1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '3b5c9708-9b64-4154-928a-a57f9fbf8f8e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9f8c7a79-1fcc-4c5c-95b5-a6e49d170c5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

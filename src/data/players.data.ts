@@ -903,4 +903,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // AverageSiege (@AverageSiege)
+  '70dac14a-0f44-42a1-afb2-1846a6663d0c': {
+    data: {
+      type: 'player' as 'player',
+      id: '70dac14a-0f44-42a1-afb2-1846a6663d0c',
+      attributes: {
+        realName: 'AverageSiege',
+        displayName: 'AverageSiege',
+      },
+    },
+  },
 };
