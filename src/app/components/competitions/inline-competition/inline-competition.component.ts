@@ -9,7 +9,6 @@ import { DateRangeComponent } from '../../_shared/date-range/date-range.componen
     templateUrl: './inline-competition.component.html',
     styleUrls: ['./inline-competition.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [DateRangeComponent]
 })
 export class InlineCompetitionComponent implements OnInit {

@@ -11,7 +11,6 @@ import { InlinePokemonComponent } from "../../pokemon/inline-pokemon/inline-poke
     templateUrl: './pokemon-stat.component.html',
     styleUrls: ['./pokemon-stat.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgStyle, InlinePokemonComponent]
 })
 export class PokemonStatComponent implements OnInit {

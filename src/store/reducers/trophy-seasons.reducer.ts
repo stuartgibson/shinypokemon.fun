@@ -35,18 +35,5 @@ export const TrophySeasons = createFeature({
       (entities: IYearEntities, { id }): Year | null =>
         entities[id] ? new Year(entities[id].data) : null
     ),
-
-    selectCurrentTrophySeason: createSelector(
-      selectEntities,
-      (entities: IYearEntities): Year | null => {
-        const currentTrophySeason = new Date().getFullYear().toString();
-
-        const trophySeasonEntity = Object.values(entities).filter(
-          (entity) => entity.data.attributes.name === currentTrophySeason
-        )[0];
-
-        return trophySeasonEntity ? new Year(trophySeasonEntity.data) : null;
-      }
-    ),
   }),
 });

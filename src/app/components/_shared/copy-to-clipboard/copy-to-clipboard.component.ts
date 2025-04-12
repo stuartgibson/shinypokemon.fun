@@ -11,11 +11,10 @@ const COPY_TEXT = 'Copy To Clipboard';
 const COPIED_TEXT = '✓ Copied!';
 
 @Component({
-  selector: 'sp-copy-to-clipboard',
-  templateUrl: './copy-to-clipboard.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [],
+    selector: 'sp-copy-to-clipboard',
+    templateUrl: './copy-to-clipboard.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: []
 })
 export class CopyToClipboardComponent {
   @Input() sourceElement!: HTMLElement;

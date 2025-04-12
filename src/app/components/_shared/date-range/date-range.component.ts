@@ -7,7 +7,6 @@ import { DateComponent } from '../date/date.component';
     templateUrl: './date-range.component.html',
     styleUrls: ['./date-range.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [DateComponent]
 })
 export class DateRangeComponent {

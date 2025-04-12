@@ -6,7 +6,6 @@ import { NgbPopover } from '@ng-bootstrap/ng-bootstrap';
     templateUrl: './rules.component.html',
     styleUrls: ['./rules.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgbPopover]
 })
 export class RulesComponent {

@@ -1,12 +1,14 @@
-@if(!vm().competition) {
+@let competition = vm().trophyCompetition;
+
+@if(!competition) {
   <p>
     Could not find requested competition.
   </p>
 } @else {
   <div class="smart-layout-evenly">
     <div class="flex-grow-3">
-      <sp-competition
-        [competition]="vm().competition!"
+      <sp-trophy-competition
+        [trophyCompetition]="competition"
         class="mb-3" />
 
 

@@ -21,17 +21,16 @@ import { v4 as uuid } from 'uuid';
 import { CopyToClipboardComponent } from '../../_shared/copy-to-clipboard/copy-to-clipboard.component';
 
 @Component({
-  selector: 'sp-competition-generator',
-  templateUrl: './competition-generator.component.html',
-  styleUrls: ['./competition-generator.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [
-    ReactiveFormsModule,
-    NgbTypeahead,
-    NgbInputDatepicker,
-    CopyToClipboardComponent,
-  ],
+    selector: 'sp-competition-generator',
+    templateUrl: './competition-generator.component.html',
+    styleUrls: ['./competition-generator.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [
+        ReactiveFormsModule,
+        NgbTypeahead,
+        NgbInputDatepicker,
+        CopyToClipboardComponent,
+    ]
 })
 export class CompetitionGeneratorComponent {
   @Input() players: Player[] = [];

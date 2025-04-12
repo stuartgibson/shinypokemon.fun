@@ -12,7 +12,6 @@ import { RouterLink } from '@angular/router';
     templateUrl: './current-year.component.html',
     styleUrls: ['./current-year.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [RouterLink, CompetitionListComponent]
 })
 export class CurrentYearComponent {

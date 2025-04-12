@@ -16,7 +16,6 @@ import { NgStyle } from '@angular/common';
     templateUrl: './point.component.html',
     styleUrls: ['./point.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgStyle, InlinePlayerComponent, BallComponent, InlinePokemonComponent, DateComponent, GameComponent, MethodComponent]
 })
 export class PointComponent implements OnInit {

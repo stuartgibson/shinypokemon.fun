@@ -1,7 +1,9 @@
 import { createFeature, createReducer, createSelector } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
-import { competitionsData } from 'src/data/competitions.data';
+import { databaseString } from 'src/app/helpers/dates.helper';
+import { trophyCompetitionsData } from 'src/data/trophy-competitions.data';
+import { selectRouteParams } from 'store/selectors/router.selectors';
 import {
   ICompetitionEntities,
   ICompetitionEntity,
@@ -13,7 +15,7 @@ export interface TrophyCompetitionsState {
 }
 
 const initialState: TrophyCompetitionsState = {
-  entities: competitionsData,
+  entities: trophyCompetitionsData,
 };
 
 export const TrophyCompetitions = createFeature({
@@ -33,6 +35,29 @@ export const TrophyCompetitions = createFeature({
         );
         return instantiateEntities(filteredEntities);
       }
+    ),
+
+    selectCurrentCompetition: createSelector(
+      selectEntities,
+      (entities: ICompetitionEntities): Competition | null => {
+        const currentDate = databaseString(new Date());
+        const sortedCompetitions = sortCompetitionsByDate(entities);
+        const competitionEntity = sortedCompetitions.filter(
+          (competition) =>
+            competition.data.attributes.startDate <= currentDate &&
+            competition.data.attributes.endDate >= currentDate
+        )[0];
+        return competitionEntity
+          ? new Competition(competitionEntity.data)
+          : null;
+      }
+    ),
+
+    selectRoutedTrophyCompetition: createSelector(
+      selectEntities,
+      selectRouteParams,
+      (entities: ICompetitionEntities, { id }): Competition | null =>
+        entities[id] ? new Competition(entities[id].data) : null
     ),
   }),
 });

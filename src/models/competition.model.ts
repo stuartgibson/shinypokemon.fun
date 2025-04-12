@@ -32,4 +32,10 @@ export class Competition extends AppModel implements ICompetition {
     this.validPokemonIDs = this.relationshipIDs('validPokemon');
     this.yearID = this.relationshipID('year')!;
   }
+
+  get link(): string {
+    return this.trophyCompetition
+      ? `/competitions/${this.id}`
+      : `/trophy-competitions/${this.id}`;
+  }
 }

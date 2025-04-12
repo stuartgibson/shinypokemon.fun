@@ -1,13 +1,15 @@
-@if(!vm().competition) {
+@let competition = vm().trophyCompetition;
+
+@if(!competition) {
   <p>
     Could not find requested competition.
   </p>
 } @else {
-  <sp-competition
-    [competition]="vm().competition!"
+  <sp-trophy-competition
+    [trophyCompetition]="competition!"
     class="mb-3" />
 
-  <a [routerLink]="['/competitions', vm().competition!.id]">
+  <a [routerLink]="[competition.link]">
     View List and points
   </a>
 

@@ -9,19 +9,14 @@ export type TrophySeasonPageViewModel = {
   trophySeason: Year | null;
 };
 
-// const competitionHasStarted = (competition: Competition) =>
-//   competition.startDate <= new Date();
-
 export const trophySeasonPageViewModel = createSelector(
   TrophyCompetitions.selectCompetitionsForRoutedSeason,
   TrophySeasons.selectRoutedTrophySeason,
   (
     competitions: Competition[],
     trophySeason: Year | null
-  ): TrophySeasonPageViewModel => {
-    return {
-      competitions: competitions,
-      trophySeason: trophySeason,
-    };
-  }
+  ): TrophySeasonPageViewModel => ({
+    competitions,
+    trophySeason,
+  })
 );

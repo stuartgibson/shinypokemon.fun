@@ -6,7 +6,6 @@ import { RouterLink } from '@angular/router';
     templateUrl: './nav.component.html',
     styleUrls: ['./nav.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [RouterLink]
 })
 export class NavComponent {

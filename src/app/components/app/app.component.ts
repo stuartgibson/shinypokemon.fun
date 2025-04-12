@@ -3,12 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { NavComponent } from '../nav/nav.component';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [NavComponent, RouterOutlet],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [NavComponent, RouterOutlet]
 })
 export class AppComponent {
   title = 'shinypokemon.fun';

@@ -1,5 +1,5 @@
 export const trophySeasonsData = {
-  trophy_2025_01: {
+  'spring-2025': {
     data: {
       type: 'year' as 'year',
       id: 'spring-2025',

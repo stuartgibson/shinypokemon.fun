@@ -16,7 +16,6 @@ import {
   templateUrl: './trophy-seasons.component.html',
   styleUrls: ['./trophy-seasons.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [RouterLink],
 })
 export class TrophySeasonsComponent {

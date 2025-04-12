@@ -14,7 +14,6 @@ import { NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavC
     templateUrl: './generators.component.html',
     styleUrls: ['./generators.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavContent, PointsGeneratorComponent, CompetitionGeneratorComponent, PokemonListGeneratorComponent, NgbNavOutlet]
 })
 export class GeneratorsComponent {

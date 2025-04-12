@@ -9,26 +9,31 @@ import { RouterLink } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { CompetitionActions } from 'store/actions/competition.actions';
 import {
-  competitionPageViewModel,
-  CompetitionPageViewModel,
-} from 'store/view-models/competition-page.view-model';
+  TrophyCompetitionPageViewModel,
+  trophyCompetitionPageViewModel,
+} from 'store/view-models/trophy-competition-page.view-model';
 import { PointComponent } from '../../point/point.component';
 import { PokemonComponent } from '../../pokemon/pokemon/pokemon.component';
-import { CompetitionComponent } from '../trophy-competition/competition.component';
+import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competition.component';
 
 @Component({
-  selector: 'sp-competition-page',
-  templateUrl: './competition-page.component.html',
-  styleUrls: ['./competition-page.component.sass'],
+  selector: 'sp-trophy-competition-page',
+  templateUrl: './trophy-competition-page.component.html',
+  styleUrls: ['./trophy-competition-page.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
-  imports: [CompetitionComponent, PointComponent, PokemonComponent, RouterLink],
+  imports: [
+    TrophyCompetitionComponent,
+    PointComponent,
+    PokemonComponent,
+    RouterLink,
+  ],
 })
-export class CompetitionPageComponent implements OnDestroy {
+export class TrophyCompetitionPageComponent implements OnDestroy {
   private readonly store: Store = inject(Store);
 
-  vm: Signal<CompetitionPageViewModel> = this.store.selectSignal(
-    competitionPageViewModel
+  vm: Signal<TrophyCompetitionPageViewModel> = this.store.selectSignal(
+    trophyCompetitionPageViewModel
   );
 
   filterPokemon(event: any): void {

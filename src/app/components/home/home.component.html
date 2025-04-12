@@ -1,3 +1,30 @@
+@let ctc = currentTrophyCompetition();
+
+@if (ctc) {
+  <div class="card card-warning mb-3">
+    <div class="card-body">
+      <h3 class="mb-3 text-uppercase text-warning">A trophy competition is currently in progress!</h3>
+
+      <div class="d-flex gap-3 align-items-center">
+        <h1 class="m-0">
+          🏆
+        </h1>
+        <div class="flex-grow-1">
+          <a [routerLink]="[ctc.link]">
+            <h4 class="m-0">
+              {{ ctc.theme }}
+            </h4>
+          </a>
+
+          <p class="m-0">
+            Trophy Competitions are occasional special competitions officially endorsed by the ISE Podcast. The winner of a trophy competition season receives a physical trophy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+}
+
 <div class="smart-layout-evenly">
   <div class="flex-grow-2">
     <sp-current-competition />

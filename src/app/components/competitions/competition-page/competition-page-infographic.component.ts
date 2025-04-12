@@ -14,12 +14,11 @@ import {
 import { CompetitionComponent } from '../competition/competition.component';
 
 @Component({
-  selector: 'sp-competition-page-infographic',
-  templateUrl: './competition-page-infographic.component.html',
-  styleUrls: ['./competition-page-infographic.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [CommonModule, CompetitionComponent, RouterLink],
+    selector: 'sp-competition-page-infographic',
+    templateUrl: './competition-page-infographic.component.html',
+    styleUrls: ['./competition-page-infographic.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [CommonModule, CompetitionComponent, RouterLink]
 })
 export class CompetitionPageInfographicComponent {
   private readonly store: Store = inject(Store);

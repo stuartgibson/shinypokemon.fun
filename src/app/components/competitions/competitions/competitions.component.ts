@@ -8,7 +8,6 @@ import { RouterLink } from '@angular/router';
     templateUrl: './competitions.component.html',
     styleUrls: ['./competitions.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [RouterLink]
 })
 export class CompetitionsComponent {

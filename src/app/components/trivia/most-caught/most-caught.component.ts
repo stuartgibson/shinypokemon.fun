@@ -8,7 +8,6 @@ import { PokemonCaughtDatum, pokemonCaughtViewModel, PokemonCaughtViewModel } fr
     templateUrl: './most-caught.component.html',
     styleUrls: ['./most-caught.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PokemonStatComponent]
 })
 export class MostCaughtComponent implements OnInit{

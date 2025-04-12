@@ -1,6 +1,6 @@
 import { ICompetitionEntity } from 'store/reducers/competitions.reducer';
 
-export const trophyCompetitionsData2025_1: {
+export const trophyCompetitionsDataSpring2025: {
   [id: string]: ICompetitionEntity;
 } = {
   'f507698b-f438-4e76-8252-abe87de4fc0c': {
@@ -10,7 +10,7 @@ export const trophyCompetitionsData2025_1: {
       attributes: {
         description: 'Details for the first fortnight',
         endDate: '2025-04-27',
-        startDate: '2025-04-14',
+        startDate: '2025-04-11',
         theme: 'Spring 2025 01',
       },
       relationships: {
@@ -23,7 +23,7 @@ export const trophyCompetitionsData2025_1: {
         validPokemon: [],
         year: {
           data: {
-            id: '2025_1',
+            id: 'spring-2025',
             type: 'year',
           },
         },

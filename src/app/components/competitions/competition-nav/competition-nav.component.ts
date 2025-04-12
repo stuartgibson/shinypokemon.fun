@@ -7,7 +7,6 @@ import { CurrentYearComponent } from '../../years/current-year/current-year.comp
     templateUrl: './competition-nav.component.html',
     styleUrls: ['./competition-nav.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [CurrentYearComponent, PreviousYearsComponent]
 })
 export class CompetitionNavComponent {

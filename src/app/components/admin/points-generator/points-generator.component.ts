@@ -34,21 +34,20 @@ import { InlinePlayerComponent } from '../../player/inline-player/inline-player.
 import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-pokemon.component';
 
 @Component({
-  selector: 'sp-points-generator',
-  templateUrl: './points-generator.component.html',
-  styleUrls: ['./points-generator.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [
-    InlineCompetitionComponent,
-    InlinePlayerComponent,
-    InlinePokemonComponent,
-    ReactiveFormsModule,
-    NgbTypeahead,
-    NgbInputDatepicker,
-    DateRangeComponent,
-    CopyToClipboardComponent,
-  ],
+    selector: 'sp-points-generator',
+    templateUrl: './points-generator.component.html',
+    styleUrls: ['./points-generator.component.sass'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    imports: [
+        InlineCompetitionComponent,
+        InlinePlayerComponent,
+        InlinePokemonComponent,
+        ReactiveFormsModule,
+        NgbTypeahead,
+        NgbInputDatepicker,
+        DateRangeComponent,
+        CopyToClipboardComponent,
+    ]
 })
 export class PointsGeneratorComponent implements OnInit {
   @Input() allPokemon: Pokemon[] = [];
