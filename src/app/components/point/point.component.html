@@ -9,16 +9,21 @@
         <sp-inline-player [id]="point.playerID" />
       </div>
 
-      <div class="d-flex flex-wrap">
-        <dl class="d-flex flex-even" style="flex-basis: 15rem">
-          <div class="flex-even">
-            <dt>Pokémon:</dt>
-            <dd class="d-flex gap-1">
-              <sp-inline-pokemon [id]="point.pokemonID" />
-            </dd>
-          </div>
-        </dl>
-      </div>
+      <dl>
+        <div class="d-flex align-items-center gap-3">
+          <dt>Pokémon:</dt>
+          <dd class="m-0">
+            <sp-inline-pokemon [id]="point.pokemonID" />
+          </dd>
+        </div>
+
+        <div class="d-flex align-items-center gap-3">
+          <dt>Points:</dt>
+          <dd class="m-0">
+            {{ point.value}}
+          </dd>
+        </div>
+      </dl>
     </div>
   </div>
 }

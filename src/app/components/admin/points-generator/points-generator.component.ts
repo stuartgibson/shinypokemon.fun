@@ -34,20 +34,20 @@ import { InlinePlayerComponent } from '../../player/inline-player/inline-player.
 import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-pokemon.component';
 
 @Component({
-    selector: 'sp-points-generator',
-    templateUrl: './points-generator.component.html',
-    styleUrls: ['./points-generator.component.sass'],
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    imports: [
-        InlineCompetitionComponent,
-        InlinePlayerComponent,
-        InlinePokemonComponent,
-        ReactiveFormsModule,
-        NgbTypeahead,
-        NgbInputDatepicker,
-        DateRangeComponent,
-        CopyToClipboardComponent,
-    ]
+  selector: 'sp-points-generator',
+  templateUrl: './points-generator.component.html',
+  styleUrls: ['./points-generator.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [
+    InlineCompetitionComponent,
+    InlinePlayerComponent,
+    InlinePokemonComponent,
+    ReactiveFormsModule,
+    NgbTypeahead,
+    NgbInputDatepicker,
+    DateRangeComponent,
+    CopyToClipboardComponent,
+  ],
 })
 export class PointsGeneratorComponent implements OnInit {
   @Input() allPokemon: Pokemon[] = [];
@@ -79,6 +79,7 @@ export class PointsGeneratorComponent implements OnInit {
     method: [null],
     player: this.fb.control<Player | null>(null, [Validators.required]),
     pokemon: this.fb.control<Pokemon | null>(null, [Validators.required]),
+    value: this.fb.control<number>(1, [Validators.required]),
   });
 
   ngOnInit(): void {
@@ -180,6 +181,7 @@ export class PointsGeneratorComponent implements OnInit {
           game: this.pointForm.value.game || null,
           method: this.pointForm.value.method || null,
           oldSystemPoint: false,
+          value: this.pointForm.value.value ?? 1,
         },
         relationships: {
           competition: {

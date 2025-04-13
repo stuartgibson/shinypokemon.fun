@@ -1,32 +1,34 @@
-import { BallType } from "src/types/ball.types";
-import { GameType } from "src/types/game.types";
-import { MethodType } from "src/types/method.types";
-import { AppModel, IAppModel } from "./base.model";
+import { BallType } from 'src/types/ball.types';
+import { GameType } from 'src/types/game.types';
+import { MethodType } from 'src/types/method.types';
+import { AppModel, IAppModel } from './base.model';
 
 interface IPoint extends IAppModel {
-  readonly ball:BallType|null;
-  readonly catchDate:Date;
-  readonly competitionID:string;
-  readonly firstCatch:boolean;
-  readonly game:GameType|null;
-  readonly method:MethodType|null;
-  readonly pokemonID:string;
-  readonly playerID:string;
-  readonly oldSystemPoint?:boolean;
+  readonly ball: BallType | null;
+  readonly catchDate: Date;
+  readonly competitionID: string;
+  readonly firstCatch: boolean;
+  readonly game: GameType | null;
+  readonly method: MethodType | null;
+  readonly pokemonID: string;
+  readonly playerID: string;
+  readonly oldSystemPoint?: boolean;
+  readonly value?: number;
 }
 
 export class Point extends AppModel implements IPoint {
-  readonly ball:BallType|null;
-  readonly catchDate:Date;
-  readonly competitionID:string;
-  readonly firstCatch:boolean;
-  readonly game:GameType|null;
-  readonly method:MethodType|null;
-  readonly pokemonID:string;
-  readonly playerID:string;
-  readonly oldSystemPoint:boolean;
+  readonly ball: BallType | null;
+  readonly catchDate: Date;
+  readonly competitionID: string;
+  readonly firstCatch: boolean;
+  readonly game: GameType | null;
+  readonly method: MethodType | null;
+  readonly pokemonID: string;
+  readonly playerID: string;
+  readonly oldSystemPoint: boolean;
+  readonly value?: number;
 
-  constructor(data:any) {
+  constructor(data: any) {
     super(data);
     this.ball = this.attribute('ball');
     this.competitionID = this.relationshipID('competition')!;
@@ -37,5 +39,6 @@ export class Point extends AppModel implements IPoint {
     this.pokemonID = this.relationshipID('pokemon')!;
     this.playerID = this.relationshipID('player')!;
     this.oldSystemPoint = this.attribute('oldSystemPoint') || false;
+    this.value = this.attribute('value') || 1;
   }
 }

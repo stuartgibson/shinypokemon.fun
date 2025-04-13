@@ -1,16 +1,16 @@
-import { createSelector } from "@ngrx/store";
-import { Competition } from "models/competition.model";
-import { Point } from "models/point.model";
-import { Pokemon } from "models/pokemon.model";
-import { Points, Pokemons } from "store/reducers";
-import { Competitions } from "store/reducers/competitions.reducer";
+import { createSelector } from '@ngrx/store';
+import { Competition } from 'models/competition.model';
+import { Point } from 'models/point.model';
+import { Pokemon } from 'models/pokemon.model';
+import { Points, Pokemons } from 'store/reducers';
+import { Competitions } from 'store/reducers/competitions.reducer';
 
 export type CompetitionPageViewModel = {
-  competition: Competition|null;
+  competition: Competition | null;
   points: Point[];
   validPokemon: Pokemon[];
   searchQuery: string;
-}
+};
 
 export const competitionPageViewModel = createSelector(
   Competitions.selectRoutedCompetition,
@@ -18,14 +18,14 @@ export const competitionPageViewModel = createSelector(
   Points.selectRoutedCompetitionPoints,
   Pokemons.selectFilteredRoutedCompetitionPokemon,
   (
-    competition: Competition|null,
+    competition: Competition | null,
     searchQuery: string,
     points: Point[],
     validPokemon: Pokemon[]
-  ):CompetitionPageViewModel => ({
+  ): CompetitionPageViewModel => ({
     competition,
     points,
     validPokemon,
-    searchQuery
+    searchQuery,
   })
 );

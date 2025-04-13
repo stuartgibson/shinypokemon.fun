@@ -10,6 +10,8 @@ export * from './competitions.reducer';
 export * from './players.reducer';
 export * from './points.reducer';
 export * from './pokemon.reducer';
+export * from './trophy-competitions.reducer';
+export * from './trophy-points.reducer';
 export * from './trophy-seasons.reducer';
 export * from './years.reducer';
 

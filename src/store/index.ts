@@ -4,6 +4,7 @@ import {
   Players,
   Points,
   Pokemons,
+  TrophyPoints,
   TrophySeasons,
   Years,
 } from './reducers';
@@ -17,6 +18,7 @@ export const featureReducers = [
   StoreModule.forFeature(Points),
   StoreModule.forFeature(Pokemons),
   StoreModule.forFeature(TrophyCompetitions),
+  StoreModule.forFeature(TrophyPoints),
   StoreModule.forFeature(TrophySeasons),
   StoreModule.forFeature(Years),
 ];
@@ -27,6 +29,7 @@ export const stateProviders = [
   provideState(Points),
   provideState(Pokemons),
   provideState(TrophyCompetitions),
+  provideState(TrophyPoints),
   provideState(TrophySeasons),
   provideState(Years),
 ];

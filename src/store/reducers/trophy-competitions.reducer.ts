@@ -1,8 +1,9 @@
-import { createFeature, createReducer, createSelector } from '@ngrx/store';
+import { createFeature, createReducer, createSelector, on } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
 import { databaseString } from 'src/app/helpers/dates.helper';
 import { trophyCompetitionsData } from 'src/data/trophy-competitions.data';
+import { TrophyCompetitionActions } from 'store/actions';
 import { selectRouteParams } from 'store/selectors/router.selectors';
 import {
   ICompetitionEntities,
@@ -12,15 +13,30 @@ import { TrophySeasons } from './trophy-seasons.reducer';
 
 export interface TrophyCompetitionsState {
   entities: ICompetitionEntities;
+  searchQuery: string;
 }
 
 const initialState: TrophyCompetitionsState = {
   entities: trophyCompetitionsData,
+  searchQuery: '',
 };
 
 export const TrophyCompetitions = createFeature({
   name: 'trophyCompetitions',
-  reducer: createReducer(initialState),
+  reducer: createReducer(
+    initialState,
+    on(
+      TrophyCompetitionActions.filter,
+      (state: TrophyCompetitionsState, { query }) => ({
+        ...state,
+        searchQuery: query,
+      })
+    ),
+    on(TrophyCompetitionActions.clear, (state: TrophyCompetitionsState) => ({
+      ...state,
+      searchQuery: '',
+    }))
+  ),
   extraSelectors: ({ selectTrophyCompetitionsState, selectEntities }) => ({
     selectCompetitionsForRoutedSeason: createSelector(
       TrophySeasons.selectRoutedTrophySeason,

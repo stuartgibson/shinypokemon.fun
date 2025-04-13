@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Store } from '@ngrx/store';
-import { CompetitionActions } from 'store/actions/competition.actions';
+import { TrophyCompetitionActions } from 'store/actions';
 import {
   TrophyCompetitionPageViewModel,
   trophyCompetitionPageViewModel,
@@ -38,11 +38,11 @@ export class TrophyCompetitionPageComponent implements OnDestroy {
 
   filterPokemon(event: any): void {
     this.store.dispatch(
-      CompetitionActions.filter({ query: event.target.value })
+      TrophyCompetitionActions.filter({ query: event.target.value })
     );
   }
 
   ngOnDestroy(): void {
-    this.store.dispatch(CompetitionActions.clear());
+    this.store.dispatch(TrophyCompetitionActions.clear());
   }
 }
