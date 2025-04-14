@@ -9,7 +9,7 @@ export const trophyCompetitionsDataSpring2025: {
       id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
       attributes: {
         description:
-          'Female Pokémon only.\r\n\r\nMaximum of five catches per person.\r\nSpecial Bonus Points: +1 for Latias and Cresselia. +1 if the Pokémon has a Personality Mark.',
+          'Female Pokémon only.\r\n\r\nEach Pokémon is worth base 1 point and you can only catch 5 a week.\r\nBONUS: Cresselia and Latias will give +1 bonus point, meaning you could end the week with 7 total points (assuming you caught both)\r\nCHALLENGE: First person to catch Pokémon listed this week with a Prideful, Thorny, or Slump Mark will get +3 bonus points.\r\n\r\nBONUS will only be valid for that said week of the competition.\r\nCHALLENGES will last the entire tournament until ONE person meets it to score these points, then a new CHALLENGE will start.',
         endDate: '2025-04-20',
         startDate: '2025-04-14',
         theme: 'Spring 2025 01',
