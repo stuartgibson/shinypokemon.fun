@@ -9,7 +9,6 @@ import { RouterLink } from '@angular/router';
     templateUrl: './inline-player.component.html',
     styleUrls: ['./inline-player.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [RouterLink]
 })
 export class InlinePlayerComponent implements OnInit {

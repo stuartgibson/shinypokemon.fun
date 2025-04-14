@@ -1,26 +1,27 @@
-import { createSelector } from "@ngrx/store";
-import { Competition } from "models/competition.model";
-import { Player } from "models/player.model";
-import { Point } from "models/point.model";
-import { Year } from "models/year.model";
-import { Players, Points, Years } from "store/reducers";
-import { Competitions } from "store/reducers/competitions.reducer";
+import { createSelector } from '@ngrx/store';
+import { Competition } from 'models/competition.model';
+import { Player } from 'models/player.model';
+import { Point } from 'models/point.model';
+import { Year } from 'models/year.model';
+import { Players, Points, Years } from 'store/reducers';
+import { Competitions } from 'store/reducers/competitions.reducer';
 
 export type YearPointsDatum = {
   player: Player;
   totalPoints: number;
   successfulHunts: string[];
   successfulHuntsCount: number;
-}
+};
 
 export type YearPageViewModel = {
   competitions: Competition[];
   competitionCount: number;
-  year: Year|null;
+  year: Year | null;
   yearPointsData: YearPointsDatum[];
-}
+};
 
-const competitionHasStarted = (competition: Competition) => competition.startDate <= new Date
+const competitionHasStarted = (competition: Competition) =>
+  competition.startDate <= new Date();
 
 export const yearPageViewModel = createSelector(
   Competitions.selectCompetitionsForRoutedYear,
@@ -31,24 +32,30 @@ export const yearPageViewModel = createSelector(
     competitions: Competition[],
     players: Player[],
     points: Point[],
-    year: Year|null
-  ):YearPageViewModel => {
+    year: Year | null
+  ): YearPageViewModel => {
+    const yearPointsData: { [id: string]: YearPointsDatum } = {};
 
-    const yearPointsData:{[id:string]:YearPointsDatum} = {};
-
-    points.forEach((point:Point) => {
-      if(yearPointsData[point.playerID]) {
+    points.forEach((point: Point) => {
+      if (yearPointsData[point.playerID]) {
         yearPointsData[point.playerID].totalPoints += 1;
-        yearPointsData[point.playerID].successfulHunts.push(point.competitionID);
-        yearPointsData[point.playerID].successfulHunts = [...new Set(yearPointsData[point.playerID].successfulHunts)];
-        yearPointsData[point.playerID].successfulHuntsCount = yearPointsData[point.playerID].successfulHunts.length;
+        yearPointsData[point.playerID].successfulHunts.push(
+          point.competitionID
+        );
+        yearPointsData[point.playerID].successfulHunts = [
+          ...new Set(yearPointsData[point.playerID].successfulHunts),
+        ];
+        yearPointsData[point.playerID].successfulHuntsCount =
+          yearPointsData[point.playerID].successfulHunts.length;
       } else {
         yearPointsData[point.playerID] = {
-          player: players.find((player:Player) => player.id === point.playerID)!,
+          player: players.find(
+            (player: Player) => player.id === point.playerID
+          )!,
           totalPoints: 1,
           successfulHunts: [point.competitionID],
-          successfulHuntsCount: 1
-        }
+          successfulHuntsCount: 1,
+        };
       }
     });
 
@@ -56,7 +63,9 @@ export const yearPageViewModel = createSelector(
       competitions: competitions,
       competitionCount: competitions.filter(competitionHasStarted).length,
       year: year,
-      yearPointsData: Object.values(yearPointsData).sort((a, b) => b.totalPoints - a.totalPoints)
-    }
+      yearPointsData: Object.values(yearPointsData).sort(
+        (a, b) => b.totalPoints - a.totalPoints
+      ),
+    };
   }
 );

@@ -38,7 +38,6 @@ import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-poke
   templateUrl: './points-generator.component.html',
   styleUrls: ['./points-generator.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [
     InlineCompetitionComponent,
     InlinePlayerComponent,
@@ -80,6 +79,7 @@ export class PointsGeneratorComponent implements OnInit {
     method: [null],
     player: this.fb.control<Player | null>(null, [Validators.required]),
     pokemon: this.fb.control<Pokemon | null>(null, [Validators.required]),
+    value: this.fb.control<number>(1, [Validators.required]),
   });
 
   ngOnInit(): void {
@@ -181,6 +181,7 @@ export class PointsGeneratorComponent implements OnInit {
           game: this.pointForm.value.game || null,
           method: this.pointForm.value.method || null,
           oldSystemPoint: false,
+          value: this.pointForm.value.value ?? 1,
         },
         relationships: {
           competition: {

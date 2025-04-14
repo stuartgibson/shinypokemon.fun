@@ -10,7 +10,6 @@ import { InlinePlayerComponent } from "../../player/inline-player/inline-player.
     templateUrl: './most-wins.component.html',
     styleUrls: ['./most-wins.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PokemonStatComponent, InlinePlayerComponent]
 })
 export class MostWinsComponent implements OnInit{

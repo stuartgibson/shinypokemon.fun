@@ -21,7 +21,6 @@ import { CompetitionComponent } from '../competition/competition.component';
   templateUrl: './competition-page.component.html',
   styleUrls: ['./competition-page.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [CompetitionComponent, PointComponent, PokemonComponent, RouterLink],
 })
 export class CompetitionPageComponent implements OnDestroy {

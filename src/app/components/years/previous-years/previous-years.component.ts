@@ -9,7 +9,6 @@ import { RouterLink } from '@angular/router';
     templateUrl: './previous-years.component.html',
     styleUrls: ['./previous-years.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [RouterLink]
 })
 export class PreviousYearsComponent {

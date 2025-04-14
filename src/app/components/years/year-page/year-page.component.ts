@@ -8,7 +8,6 @@ import { InlinePlayerComponent } from '../../player/inline-player/inline-player.
     templateUrl: './year-page.component.html',
     styleUrls: ['./year-page.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [InlinePlayerComponent, CompetitionListComponent]
 })
 export class YearPageComponent {

@@ -10,7 +10,6 @@ import { InlinePlayerComponent } from "../../player/inline-player/inline-player.
     templateUrl: './most-points.component.html',
     styleUrls: ['./most-points.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [InlinePlayerComponent]
 })
 export class MostPointsComponent implements OnInit {

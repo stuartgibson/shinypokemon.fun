@@ -12,7 +12,6 @@ import { CompetitionComponent } from '../competition/competition.component';
     templateUrl: './current-competition.component.html',
     styleUrls: ['./current-competition.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [CompetitionComponent, PointComponent]
 })
 export class CurrentCompetitionComponent {

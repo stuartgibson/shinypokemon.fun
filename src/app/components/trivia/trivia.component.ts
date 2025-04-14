@@ -9,7 +9,6 @@ import { MostPointsComponent } from "./most-points/most-points.component";
     templateUrl: './trivia.component.html',
     styleUrls: ['./trivia.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [MostCaughtComponent, NotCaughtComponent, MostWinsComponent, MostPointsComponent]
 })
 export class TriviaComponent {

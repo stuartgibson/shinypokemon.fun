@@ -12,7 +12,6 @@ import { formatDateTime } from "../../../helpers/dates.helper";
     templateUrl: './player-page.component.html',
     styleUrls: ['./player-page.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PointComponent, NgStyle, InlinePlayerComponent, InlinePokemonComponent, DateRangeComponent]
 })
 export class PlayerPageComponent {

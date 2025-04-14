@@ -8,7 +8,6 @@ import { PokemonCaughtDatum, pokemonCaughtViewModel, PokemonCaughtViewModel } fr
     templateUrl: './not-caught.component.html',
     styleUrls: ['./not-caught.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [PokemonStatComponent]
 })
 export class NotCaughtComponent implements OnInit{

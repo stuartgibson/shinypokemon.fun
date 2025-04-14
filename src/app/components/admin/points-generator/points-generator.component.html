@@ -96,7 +96,7 @@
             type="text" />
         </div>
 
-        <div class="smart-layout-evenly">
+        <div class="smart-layout-evenly mb-3">
           <div class="mb-3">
             <label for="catchDate" class="form-label"> Date: </label>
             <div class="input-group">
@@ -116,21 +116,33 @@
             </div>
           </div>
 
-          <div class="mb-3">
-            <div class="form-check">
+          <div>
+            <label for="value" class="form-label"> Value: </label>
+            <div class="input-group">
               <input
-                class="form-check-input"
-                formControlName="firstCatch"
-                id="first-catch"
-                type="checkbox" />
-              <label class="form-check-label" for="first-catch">
-                First Catch?
-              </label>
+                class="form-control text-end"
+                formControlName="value"
+                name="value"
+                placeholder="1"
+                type="number"
+                step="1"
+                min="1" />
             </div>
           </div>
         </div>
 
-        <div class="smart-layout-end">
+        <div class="smart-layout-evenly align-items-center">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              formControlName="firstCatch"
+              id="first-catch"
+              type="checkbox" />
+            <label class="form-check-label" for="first-catch">
+              First Catch?
+            </label>
+          </div>
+
           <button
             type="submit"
             class="btn btn-outline-success"

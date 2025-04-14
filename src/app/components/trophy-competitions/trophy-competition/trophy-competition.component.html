@@ -1,0 +1,21 @@
+<h3 class="mb-3 text-warning text-uppercase">
+  Trophy Competition
+</h3>
+<h4>
+  <a [routerLink]="[trophyCompetition().link]">{{ trophyCompetition().theme }}</a>
+</h4>
+
+<div class="d-flex align-items-center justify-content-start mb-3 gap-1">
+
+  <sp-date-range
+    [startDate]="trophyCompetition().startDate"
+    [endDate]="trophyCompetition().endDate" />
+
+  <a [routerLink]="['/trophy-seasons', trophyCompetition().yearID]">
+    ({{ trophyCompetition().yearID }})
+  </a>
+</div>
+
+<p class="preserve-lines">
+  {{ trophyCompetition().description }}
+</p>

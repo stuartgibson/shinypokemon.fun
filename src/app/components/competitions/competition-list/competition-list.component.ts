@@ -8,7 +8,6 @@ import { RouterLink } from '@angular/router';
     templateUrl: './competition-list.component.html',
     styleUrls: ['./competition-list.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [RouterLink, DateRangeComponent]
 })
 export class CompetitionListComponent {
