@@ -48,7 +48,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
@@ -85,7 +85,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
@@ -122,7 +122,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
@@ -159,7 +159,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
@@ -196,7 +196,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
@@ -233,7 +233,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
@@ -270,7 +270,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
@@ -344,7 +344,7 @@ export const pointsData2025_08: IPointEntities = {
       attributes: {
         ball: null,
         catchDate: '2025-04-13',
-        firstCatch: true,
+        firstCatch: false,
         game: null,
         method: null,
         oldSystemPoint: false,
