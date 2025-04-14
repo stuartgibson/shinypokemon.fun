@@ -4,7 +4,7 @@ export const trophySeasonsData = {
       type: 'year' as 'year',
       id: 'spring-2025',
       attributes: {
-        name: 'Spring 2025',
+        name: 'Spring Shiny Competition 2025',
       },
     },
   },
