@@ -28,14 +28,14 @@ export class Competition extends AppModel implements ICompetition {
     this.selectedByID = this.relationshipID('selectedBy');
     this.startDate = new Date(this.attribute('startDate'));
     this.theme = this.attribute('theme');
-    this.trophyCompetition = this.attribute('trophyCompetition') || false;
+    this.trophyCompetition = this.attribute('isTrophyCompetition') || false;
     this.validPokemonIDs = this.relationshipIDs('validPokemon');
     this.yearID = this.relationshipID('year')!;
   }
 
   get link(): string {
     return this.trophyCompetition
-      ? `/competitions/${this.id}`
-      : `/trophy-competitions/${this.id}`;
+      ? `/trophy-competitions/${this.id}`
+      : `/competitions/${this.id}`;
   }
 }
