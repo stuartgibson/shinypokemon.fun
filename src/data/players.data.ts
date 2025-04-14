@@ -914,15 +914,4 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
-  // AverageSiege (@AverageSiege)
-  '9d02137d-43f9-4251-a671-592c8b09ae9f': {
-    data: {
-      type: 'player' as 'player',
-      id: '9d02137d-43f9-4251-a671-592c8b09ae9f',
-      attributes: {
-        realName: 'Stephen Decker (Dexter)',
-        displayName: 'Stephen',
-      },
-    },
-  },
 };

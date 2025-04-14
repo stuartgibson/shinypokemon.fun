@@ -298,6 +298,43 @@ export const pointsData2025_08: IPointEntities = {
     },
   },
   //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Stephen Decker (@stephen)
+  //  0223. Remoraid
+  '5d593209-88b2-452b-ba51-11a4cea81ed4': {
+    data: {
+      id: '5d593209-88b2-452b-ba51-11a4cea81ed4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7acf5596-0ed0-49b3-8241-1daf82694eff',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f9b78d2-1616-46a1-96d4-81d6bc3c9f3b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
   //  Keagan (@Keagan)
   //  0223. Remoraid
   '22e9483e-03b1-4067-ac42-c50100dd72b8': {
