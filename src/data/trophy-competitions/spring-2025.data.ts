@@ -13,6 +13,7 @@ export const trophyCompetitionsDataSpring2025: {
         endDate: '2025-04-20',
         startDate: '2025-04-14',
         theme: 'Female Only Pokémon',
+        isTrophyCompetition: true
       },
       relationships: {
         selectedBy: {

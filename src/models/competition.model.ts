@@ -6,7 +6,7 @@ interface ICompetition extends IAppModel {
   readonly selectedByID: string | null;
   readonly startDate: Date;
   readonly theme: string;
-  readonly trophyCompetition: boolean;
+  readonly isTrophyCompetition: boolean;
   readonly validPokemonIDs: string[];
   readonly yearID: string | null;
 }
@@ -17,7 +17,7 @@ export class Competition extends AppModel implements ICompetition {
   readonly selectedByID: string | null;
   readonly startDate: Date;
   readonly theme: string;
-  readonly trophyCompetition: boolean;
+  readonly isTrophyCompetition: boolean;
   readonly validPokemonIDs: string[];
   readonly yearID: string;
 
@@ -28,14 +28,14 @@ export class Competition extends AppModel implements ICompetition {
     this.selectedByID = this.relationshipID('selectedBy');
     this.startDate = new Date(this.attribute('startDate'));
     this.theme = this.attribute('theme');
-    this.trophyCompetition = this.attribute('trophyCompetition') || false;
+    this.isTrophyCompetition = this.attribute('isTrophyCompetition') || false;
     this.validPokemonIDs = this.relationshipIDs('validPokemon');
     this.yearID = this.relationshipID('year')!;
   }
 
   get link(): string {
-    return this.trophyCompetition
-      ? `/competitions/${this.id}`
-      : `/trophy-competitions/${this.id}`;
+    return this.isTrophyCompetition
+      ? `/trophy-competitions/${this.id}`
+      : `/competitions/${this.id}`;
   }
 }
