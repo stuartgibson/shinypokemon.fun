@@ -186,4 +186,79 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0958. Tinkatuff
+  '2ccf77cb-52bf-4600-8921-c06518763ed0': {
+    data: {
+      id: '2ccf77cb-52bf-4600-8921-c06518763ed0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8b3edd23-8250-4258-bb59-4f8b3c940585',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0671. Florges
+  'efa00ab1-51e2-47f8-a347-bf06154ab92a': {
+    data: {
+      id: 'efa00ab1-51e2-47f8-a347-bf06154ab92a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
