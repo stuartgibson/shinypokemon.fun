@@ -371,4 +371,264 @@ export const pointsData2025_08: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0054. Psyduck
+  '63c54527-5cca-46c6-a738-06ee5ded1d22': {
+    data: {
+      id: '63c54527-5cca-46c6-a738-06ee5ded1d22',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0fee26f0-8367-4d19-a22c-dd1bbf6dc400',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Stephen Decker (@stephen)
+  //  0103. Exeggutor (Alolan)
+  '6315b485-21de-4952-8e91-4b9b7b3d949c': {
+    data: {
+      id: '6315b485-21de-4952-8e91-4b9b7b3d949c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7acf5596-0ed0-49b3-8241-1daf82694eff',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4008313c-b38d-41c8-a8e1-7b9e5514ca73',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0215. Sneasel (Hisuian)
+  'feca00ec-fbd2-42ca-989d-64e97f70c8ae': {
+    data: {
+      id: 'feca00ec-fbd2-42ca-989d-64e97f70c8ae',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7e9b1bed-13c0-42fd-9da3-93757d8b8e4a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0125. Electabuzz
+  'cfc067c5-c9d8-4944-bc49-581f86ae0eee': {
+    data: {
+      id: 'cfc067c5-c9d8-4944-bc49-581f86ae0eee',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '38bb56ef-f998-44fd-9382-0b2ccc42f18e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Stephen Decker (@stephen)
+  //  0019. Rattata
+  'bf2bcd0a-1a9f-4de6-aa40-718feff7122b': {
+    data: {
+      id: 'bf2bcd0a-1a9f-4de6-aa40-718feff7122b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7acf5596-0ed0-49b3-8241-1daf82694eff',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a522c362-5189-4346-8947-4598b390affa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Keagan (@Keagan)
+  //  0113. Chansey
+  '12376c83-ff50-45a9-8852-66c2a4d206da': {
+    data: {
+      id: '12376c83-ff50-45a9-8852-66c2a4d206da',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Keagan (@Keagan)
+  //  0242. Blissey
+  'fba3afae-fa88-4b2d-ac15-635b57c6b481': {
+    data: {
+      id: 'fba3afae-fa88-4b2d-ac15-635b57c6b481',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a47d543b-3464-4b03-9eee-c5d73a94fd14',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
