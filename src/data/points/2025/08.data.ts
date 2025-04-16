@@ -631,4 +631,115 @@ export const pointsData2025_08: IPointEntities = {
       },
     },
   },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0113. Chansey
+  '07595919-ee9f-4e9d-9d4a-df54bdebffb8': {
+    data: {
+      id: '07595919-ee9f-4e9d-9d4a-df54bdebffb8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0113. Chansey
+  '3f50a3f8-76d3-438f-9d3f-54a5dc2b8729': {
+    data: {
+      id: '3f50a3f8-76d3-438f-9d3f-54a5dc2b8729',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Stephen Decker (@stephen)
+  //  0303. Mawile
+  'c6b5bb59-b43e-4980-8be4-5388d0592612': {
+    data: {
+      id: 'c6b5bb59-b43e-4980-8be4-5388d0592612',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7acf5596-0ed0-49b3-8241-1daf82694eff',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '963e95c9-a4b8-45a7-bdc3-4c4e56e6b307',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
