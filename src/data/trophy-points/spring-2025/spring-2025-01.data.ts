@@ -560,4 +560,43 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0238. Smoochum
+  '38b8d91a-5aae-4dad-a6c8-83ece5f48eb2': {
+    data: {
+      id: '38b8d91a-5aae-4dad-a6c8-83ece5f48eb2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fe4377b2-be91-4308-9401-9d337624ad45',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
