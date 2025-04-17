@@ -1,7 +1,7 @@
 import { createFeature, createReducer, createSelector, on } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
-import { databaseString } from 'src/app/helpers/dates.helper';
+import { officialCompetitionDate } from 'src/app/helpers/dates.helper';
 import { trophyCompetitionsData } from 'src/data/trophy-competitions.data';
 import { TrophyCompetitionActions } from 'store/actions';
 import { selectRouteParams } from 'store/selectors/router.selectors';
@@ -56,7 +56,7 @@ export const TrophyCompetitions = createFeature({
     selectCurrentCompetition: createSelector(
       selectEntities,
       (entities: ICompetitionEntities): Competition | null => {
-        const currentDate = databaseString(new Date());
+        const currentDate = officialCompetitionDate();
         const sortedCompetitions = sortCompetitionsByDate(entities);
         const competitionEntity = sortedCompetitions.filter(
           (competition) =>

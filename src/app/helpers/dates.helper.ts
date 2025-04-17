@@ -1,35 +1,52 @@
-import { DateTimeFormatterType } from "../../types/date-time-formatter.types";
+import { DateTimeFormatterType } from '../../types/date-time-formatter.types';
 
-export const MINUTE = 60000;    // 1000 * 60
-export const HOUR = 3600000;    // 1000 * 60 * 60
-export const DAY = 86400000;    // 1000 * 60 * 60 * 24
-export const WEEK = 604800000;  // 1000 * 60 * 60 * 24 * 7
+export const MINUTE = 60000; // 1000 * 60
+export const HOUR = 3600000; // 1000 * 60 * 60
+export const DAY = 86400000; // 1000 * 60 * 60 * 24
+export const WEEK = 604800000; // 1000 * 60 * 60 * 24 * 7
 
-export const dateTimeFormats:{[key in DateTimeFormatterType]: Intl.DateTimeFormatOptions} = {
-  date: {day: 'numeric', month: 'short', year: 'numeric'},
-  time: {hour: 'numeric', minute: '2-digit', hour12: true},
-  dateTime: {day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true },
-}
+export const dateTimeFormats: {
+  [key in DateTimeFormatterType]: Intl.DateTimeFormatOptions;
+} = {
+  date: { day: 'numeric', month: 'short', year: 'numeric' },
+  time: { hour: 'numeric', minute: '2-digit', hour12: true },
+  dateTime: {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+  },
+};
 
-export const databaseString = (date:Date|null):string =>
-  !date ? '' : date.toISOString().slice(0, 10)
+export const officialCompetitionDate = (): string =>
+  new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Los_Angeles' });
 
-export const formatDateTime = (date:Date|null, format:DateTimeFormatterType = 'date'):string =>
-  !date ? '' : new Intl.DateTimeFormat([], dateTimeFormats[format]).format(date)
+export const databaseString = (date: Date | null): string =>
+  !date ? '' : date.toISOString().slice(0, 10);
 
-export const timelessDate = (_:string|null):Date|null =>
-  !_ ? null : beginningOfDay(new Date(Date.parse(_)))
+export const formatDateTime = (
+  date: Date | null,
+  format: DateTimeFormatterType = 'date'
+): string =>
+  !date
+    ? ''
+    : new Intl.DateTimeFormat([], dateTimeFormats[format]).format(date);
 
-export const beginningOfDay = (_:Date):Date =>
-  new Date(_.setUTCHours(0, 0, 0, 0))
+export const timelessDate = (_: string | null): Date | null =>
+  !_ ? null : beginningOfDay(new Date(Date.parse(_)));
 
-export const beginningOfMonth = (_:Date):Date =>
-  new Date( Date.UTC(_.getFullYear(), _.getMonth(), 1))
+export const beginningOfDay = (_: Date): Date =>
+  new Date(_.setUTCHours(0, 0, 0, 0));
 
-export const beginningOfWeek = (_?:Date):Date => {
+export const beginningOfMonth = (_: Date): Date =>
+  new Date(Date.UTC(_.getFullYear(), _.getMonth(), 1));
+
+export const beginningOfWeek = (_?: Date): Date => {
   _ ||= new Date();
-  return new Date(beginningOfDay(_).getTime() - (DAY * ((_.getDay() + 6) % 7 )))
-}
+  return new Date(beginningOfDay(_).getTime() - DAY * ((_.getDay() + 6) % 7));
+};
 
-export const beginningOfYear = (_:Date):Date =>
-  new Date( Date.UTC(_.getFullYear(), 0, 1))
+export const beginningOfYear = (_: Date): Date =>
+  new Date(Date.UTC(_.getFullYear(), 0, 1));
