@@ -4,6 +4,8 @@
 /tmp
 /out-tsc
 /bazel-out
+src/assets/api/*.json
+dist
 
 # Node
 /node_modules
