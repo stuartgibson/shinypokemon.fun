@@ -33,11 +33,13 @@ function generateApi(data : {[x: string] : IJsonApiEntity}, model: any, name: st
   
 }
 
-generateApi(competitionsData, Competition, 'competitions');
-generateApi(playersData, Player, 'players');
-generateApi(pointsData, Point, 'points');
-generateApi(pokemonData, Pokemon, 'pokemon');
-generateApi(trophyCompetitionsData, Competition, 'trophy-competitions');
-generateApi(trophySeasonsData, Year, 'trophy-seasons');
-generateApi(trophyPointsData, Point, 'trophy-points');
-generateApi(yearsData, Year, 'years');
+export function generateApis() {
+  generateApi(competitionsData, Competition, 'competitions');
+  generateApi(playersData, Player, 'players');
+  generateApi(pointsData, Point, 'points');
+  generateApi(pokemonData, Pokemon, 'pokemon');
+  generateApi(trophyCompetitionsData, Competition, 'trophy-competitions');
+  generateApi(trophySeasonsData, Year, 'trophy-seasons');
+  generateApi(trophyPointsData, Point, 'trophy-points');
+  generateApi(yearsData, Year, 'years');
+}
