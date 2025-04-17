@@ -20,6 +20,7 @@
         method: {{ point.method ? '\'' + point.method + '\' as MethodType' : 'null' }},
         oldSystemPoint: false,
         firstCatch: {{ point.value }},
+        value: {{ point.value }}
       &#125;,
       relationships: {{ '{' }}
         competition: {{ '{' }}
