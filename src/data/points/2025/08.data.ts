@@ -742,4 +742,43 @@ export const pointsData2025_08: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0478. Froslass
+  '7dabe4c3-72c1-4214-8158-3b34b761ba41': {
+    data: {
+      id: '7dabe4c3-72c1-4214-8158-3b34b761ba41',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a560acfd-f044-4804-a740-7479789f9bd7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
