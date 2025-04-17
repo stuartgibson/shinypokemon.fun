@@ -18,7 +18,8 @@
         firstCatch: {{ point.firstCatch }},
         game: {{ point.game ? '\'' + point.game + '\' as GameType' : 'null' }},
         method: {{ point.method ? '\'' + point.method + '\' as MethodType' : 'null' }},
-        oldSystemPoint: false
+        oldSystemPoint: false,
+        firstCatch: {{ point.value }},
       &#125;,
       relationships: {{ '{' }}
         competition: {{ '{' }}
