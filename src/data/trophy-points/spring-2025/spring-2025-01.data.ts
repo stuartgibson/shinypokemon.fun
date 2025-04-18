@@ -599,4 +599,43 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Slipshockgaming (@Slipshockgaming)
+  //  0762. Steenee
+  '02986cfa-d8d9-428d-8573-9f700674d140': {
+    data: {
+      id: '02986cfa-d8d9-428d-8573-9f700674d140',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '477ec9e4-7529-4566-be97-3536cc63ea54',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '79652e74-f9a5-486a-af53-aaec0989354e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
