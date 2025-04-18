@@ -781,4 +781,43 @@ export const pointsData2025_08: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Tone (@Tone)
+  //  0025. Pikachu
+  '81af4911-aa24-40b2-a2e0-6fba5e264bf0': {
+    data: {
+      id: '81af4911-aa24-40b2-a2e0-6fba5e264bf0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

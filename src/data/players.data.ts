@@ -914,4 +914,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Slipshockgaming (@Slipshockgaming)
+  '477ec9e4-7529-4566-be97-3536cc63ea54': {
+    data: {
+      type: 'player' as 'player',
+      id: '477ec9e4-7529-4566-be97-3536cc63ea54',
+      attributes: {
+        realName: 'Slipshockgaming',
+        displayName: 'Slipshockgaming',
+      },
+    },
+  },
 };
