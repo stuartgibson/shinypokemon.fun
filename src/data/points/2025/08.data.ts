@@ -820,4 +820,423 @@ export const pointsData2025_08: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Stuart (@stuart)
+  //  0361. Snorunt
+  'd22b387b-ce60-48f1-ab79-5d4db2d745bb': {
+    data: {
+      id: 'd22b387b-ce60-48f1-ab79-5d4db2d745bb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Carbonmouse (@Carbonmouse)
+  //  0025. Pikachu
+  'ec68c83c-fead-407c-ac84-b0288e8e3801': {
+    data: {
+      id: 'ec68c83c-fead-407c-ac84-b0288e8e3801',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7af577f6-9fa7-464a-924a-1c333ae35946',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Carbonmouse (@Carbonmouse)
+  //  0193. Yanma
+  '952134b0-159f-4084-a531-0ad820a084dd': {
+    data: {
+      id: '952134b0-159f-4084-a531-0ad820a084dd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7af577f6-9fa7-464a-924a-1c333ae35946',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '123faf97-132f-4a74-b0ad-b5f8aa6b990c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Tone (@Tone)
+  //  0114. Tangela
+  '998fe99d-a1cb-4a49-970f-c7022e22f06f': {
+    data: {
+      id: '998fe99d-a1cb-4a49-970f-c7022e22f06f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '789dbd72-3aa0-4ee5-a2f6-fb5de2c32f8f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Keagan (@Keagan)
+  //  0296. Makuhita
+  '41f61ad3-f401-4fa6-89ca-0a125798b782': {
+    data: {
+      id: '41f61ad3-f401-4fa6-89ca-0a125798b782',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '40d7919e-766c-4109-a5d1-82444c0b63ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Keagan (@Keagan)
+  //  0107. Hitmonchan
+  'f3f865b2-230d-4b58-8043-34ea8bd12480': {
+    data: {
+      id: 'f3f865b2-230d-4b58-8043-34ea8bd12480',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '566d8940-0895-4650-bd18-8a40c3b62d11',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Keagan (@Keagan)
+  //  0106. Hitmonlee
+  '27ee3f0b-41a5-4ab6-a92e-b87835d50016': {
+    data: {
+      id: '27ee3f0b-41a5-4ab6-a92e-b87835d50016',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '89c759ee-3cda-416b-91de-a8360da73bb3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Keagan (@Keagan)
+  //  0236. Tyrogue
+  'e2598370-779e-4c9e-b02d-dead0af7afaa': {
+    data: {
+      id: 'e2598370-779e-4c9e-b02d-dead0af7afaa',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6c125504-587f-4831-a1e9-e5bb930859eb',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Joanna Ollikainen (@Joanna Ollikainen)
+  //  0361. Snorunt
+  '43fa6e76-37ad-4096-817e-0a99091d3cb4': {
+    data: {
+      id: '43fa6e76-37ad-4096-817e-0a99091d3cb4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '94956159-03c6-419f-9381-9ca6cbcfcf66',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Tone (@Tone)
+  //  0361. Snorunt
+  '86c69173-ee0f-4054-82cc-c87a9e3caab5': {
+    data: {
+      id: '86c69173-ee0f-4054-82cc-c87a9e3caab5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  sam (treecko) (@treeckonian)
+  //  0235. Smeargle
+  '5a565a25-8ad5-44d9-a610-1110845e9eed': {
+    data: {
+      id: '5a565a25-8ad5-44d9-a610-1110845e9eed',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '68fca39c-6481-479b-9ec7-0dcb994ac4fd',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd19a4e77-6a74-496b-b7f7-9ad96e80d6e7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
