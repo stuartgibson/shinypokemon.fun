@@ -925,4 +925,26 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Chrisopther (@Christopher)
+  '264f7da7-e6d0-4a18-a216-df7233d13260': {
+    data: {
+      type: 'player' as 'player',
+      id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+      attributes: {
+        realName: 'Christopher',
+        displayName: 'Christopher',
+      },
+    },
+  },
+  // MitchMortar (@MitchMortar)
+  '3de0db35-69f8-47db-84bd-10f3d0767666': {
+    data: {
+      type: 'player' as 'player',
+      id: '3de0db35-69f8-47db-84bd-10f3d0767666',
+      attributes: {
+        realName: 'MitchMortar',
+        displayName: 'MitchMortar',
+      },
+    },
+  },
 };
