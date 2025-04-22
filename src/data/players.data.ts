@@ -947,4 +947,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Carbonmouse (@Carbonmouse)
+  '7af577f6-9fa7-464a-924a-1c333ae35946': {
+    data: {
+      type: 'player' as 'player',
+      id: '7af577f6-9fa7-464a-924a-1c333ae35946',
+      attributes: {
+        realName: 'Carbonmouse',
+        displayName: 'Carbonmouse',
+      },
+    },
+  },
 };
