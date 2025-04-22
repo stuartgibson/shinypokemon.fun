@@ -284,7 +284,8 @@ export const trophyCompetitionsDataSpring2025: {
       type: 'competition',
       id: '9c6e5094-43d0-431b-bb4f-f9b255f20bce',
       attributes: {
-        description: 'Pokémon resurrected from fossils',
+        description:
+          'Pokémon resurrected from fossils\r\nBONUS: Arctovish, Arctozolt, Dracovish, and Dracozolt will give +1 bonus point, meaning you could end the week with 9 total points (assuming you caught all four)\r\nCHALLENGE: First person to catch Pokémon listed this week with a Jumbo Mark will get +3 bonus points.\r\n\r\nBONUS will only be valid for that said week of the competition.\r\nCHALLENGES will last the entire tournament until ONE person meets it to score these points, then a new CHALLENGE will start.',
         endDate: '2025-04-27',
         startDate: '2025-04-21',
         theme: 'Fossil Week',
