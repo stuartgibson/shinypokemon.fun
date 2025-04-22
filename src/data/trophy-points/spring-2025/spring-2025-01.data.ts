@@ -868,44 +868,6 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
     },
   },
   //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
-  //  Brandon Hero of Ice (@Brandon Heroice18)
-  //  0858. Hatterene
-  'd136ee1d-3a95-43dd-85a8-49fae41cbe31': {
-    data: {
-      id: 'd136ee1d-3a95-43dd-85a8-49fae41cbe31',
-      type: 'point',
-      attributes: {
-        ball: null,
-        catchDate: '2025-04-19',
-        firstCatch: false,
-        game: null,
-        method: null,
-        oldSystemPoint: false,
-        value: 1,
-      },
-      relationships: {
-        competition: {
-          data: {
-            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
-            type: 'competition',
-          },
-        },
-        player: {
-          data: {
-            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
-            type: 'player',
-          },
-        },
-        pokemon: {
-          data: {
-            id: 'f4c23a78-d318-478c-bacc-d2147e4259d5',
-            type: 'pokemon',
-          },
-        },
-      },
-    },
-  },
-  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
   //  Keagan (@Keagan)
   //  0958. Tinkatuff
   'a76acb11-c7f5-4a3c-98f0-b19a38ce168e': {
