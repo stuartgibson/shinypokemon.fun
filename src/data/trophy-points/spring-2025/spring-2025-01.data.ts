@@ -658,7 +658,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -696,7 +696,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -734,7 +734,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -772,7 +772,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -810,7 +810,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -848,7 +848,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -886,7 +886,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -924,7 +924,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -962,7 +962,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -1000,7 +1000,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -1038,7 +1038,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -1076,7 +1076,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -1114,7 +1114,7 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
             type: 'competition',
           },
         },
@@ -1127,6 +1127,272 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
         pokemon: {
           data: {
             id: 'fc360160-3e07-4c0a-ad04-05ff31ffada2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Christopher (@Christopher)
+  //  0958. Tinkatuff
+  'eb3f4ab1-e008-4c7f-9538-97f635e17dc0': {
+    data: {
+      id: 'eb3f4ab1-e008-4c7f-9538-97f635e17dc0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8b3edd23-8250-4258-bb59-4f8b3c940585',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Christopher (@Christopher)
+  //  0958. Tinkatuff
+  'a03c6a66-bfbf-4ca8-940f-d4d1f7f02769': {
+    data: {
+      id: 'a03c6a66-bfbf-4ca8-940f-d4d1f7f02769',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8b3edd23-8250-4258-bb59-4f8b3c940585',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  MitchMortar (@MitchMortar)
+  //  0113. Chansey
+  'c439ead8-8e8e-494d-bb9a-51a75f85bd80': {
+    data: {
+      id: 'c439ead8-8e8e-494d-bb9a-51a75f85bd80',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3de0db35-69f8-47db-84bd-10f3d0767666',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  MitchMortar (@MitchMortar)
+  //  0957. Tinkatink
+  'ea8a7fb1-6557-47cd-8da7-5f9c58499d87': {
+    data: {
+      id: 'ea8a7fb1-6557-47cd-8da7-5f9c58499d87',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3de0db35-69f8-47db-84bd-10f3d0767666',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9e8605f4-17fc-4649-ad7a-d9e9a009336f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  AverageSiege (@AverageSiege)
+  //  0761. Bounsweet
+  'c5db2724-85c9-4533-8645-d8826c29a0fb': {
+    data: {
+      id: 'c5db2724-85c9-4533-8645-d8826c29a0fb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '70dac14a-0f44-42a1-afb2-1846a6663d0c',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '07011066-6ca4-49cf-b3b1-aa3866480ef7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  AverageSiege (@AverageSiege)
+  //  0113. Chansey
+  '398f02b8-d42b-42cc-ab7c-64bcd5ba36ec': {
+    data: {
+      id: '398f02b8-d42b-42cc-ab7c-64bcd5ba36ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '70dac14a-0f44-42a1-afb2-1846a6663d0c',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0361. Snorunt
+  'bb680bcf-4178-454b-84bf-64efcd7c33e1': {
+    data: {
+      id: 'bb680bcf-4178-454b-84bf-64efcd7c33e1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
             type: 'pokemon',
           },
         },
