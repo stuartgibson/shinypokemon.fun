@@ -77,4 +77,43 @@ export const trophyPointsDataSpring2025_02: IPointEntities = {
       },
     },
   },
+
+  //  Nostalgia is a Prison! 13 Apr 2025  to 26 Apr 2025
+  //  Philip Starns (@Philip Starns)
+  //  0408. Cranidos
+  '61a9d393-bbc3-45cb-9b94-3740509bdc5f': {
+    data: {
+      id: '61a9d393-bbc3-45cb-9b94-3740509bdc5f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f26e85ab-e450-4daf-9240-e2aa569d4fda',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd1490924-fe95-4c28-81be-c2e98298b69c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
