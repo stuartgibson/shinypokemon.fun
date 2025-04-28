@@ -1361,4 +1361,157 @@ export const trophyPointsDataSpring2025_01: IPointEntities = {
       },
     },
   },
+
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0410. Shieldon
+  '060e49ea-bf8a-4731-956c-2c62ba458fe1': {
+    data: {
+      id: '060e49ea-bf8a-4731-956c-2c62ba458fe1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c5d23098-25f7-4494-a38c-33fccab7c90b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  sam (treecko) (@treeckonian)
+  //  0410. Shieldon
+  '5de6165c-a68e-4d1e-bbeb-680f29bb985f': {
+    data: {
+      id: '5de6165c-a68e-4d1e-bbeb-680f29bb985f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '68fca39c-6481-479b-9ec7-0dcb994ac4fd',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c5d23098-25f7-4494-a38c-33fccab7c90b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  AverageSiege (@AverageSiege)
+  //  0408. Cranidos
+  '6329fff8-7a37-4d70-a4a8-c5be8ba9832e': {
+    data: {
+      id: '6329fff8-7a37-4d70-a4a8-c5be8ba9832e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '70dac14a-0f44-42a1-afb2-1846a6663d0c',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd1490924-fe95-4c28-81be-c2e98298b69c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0408. Cranidos
+  '9f60f354-0988-45c7-81d8-693ebeb601f2': {
+    data: {
+      id: '9f60f354-0988-45c7-81d8-693ebeb601f2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-04-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f507698b-f438-4e76-8252-abe87de4fc0c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd1490924-fe95-4c28-81be-c2e98298b69c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
