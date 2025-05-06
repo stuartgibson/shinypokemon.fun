@@ -914,4 +914,119 @@ export const pointsData2025_09: IPointEntities = {
       },
     },
   },
+
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Jonathan (@kinoko Nelson)
+  //  0234. Stantler
+  'b15fda69-94cc-4aa1-9705-2f5ff665ed5f': {
+    data: {
+      id: 'b15fda69-94cc-4aa1-9705-2f5ff665ed5f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'f038b11b-539a-4850-ad61-19e4fce64c43',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6931874b-a4ce-4abb-a16c-c6183a1668ab',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Jonathan (@kinoko Nelson)
+  //  0087. Dewgong
+  '5ad5205f-3de3-45b7-a5dd-3a091e2da220': {
+    data: {
+      id: '5ad5205f-3de3-45b7-a5dd-3a091e2da220',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'f038b11b-539a-4850-ad61-19e4fce64c43',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'abc737b7-7b49-41d8-881d-7bb7dcfa3f8f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0554. Darumaka (Galarian)
+  '968fb395-51a6-4dde-b5d2-28e391400703': {
+    data: {
+      id: '968fb395-51a6-4dde-b5d2-28e391400703',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0f9d997d-62b3-49a7-b5c4-87cc9e2690aa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
