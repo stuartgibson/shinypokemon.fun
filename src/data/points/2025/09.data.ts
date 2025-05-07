@@ -1029,4 +1029,43 @@ export const pointsData2025_09: IPointEntities = {
       },
     },
   },
+
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Stuart (@stuart)
+  //  0239. Elekid
+  '5d97f23d-0d12-40eb-aba5-cafa4141c53c': {
+    data: {
+      id: '5d97f23d-0d12-40eb-aba5-cafa4141c53c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b974027f-18ef-4768-9dd0-21fe1037257f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
