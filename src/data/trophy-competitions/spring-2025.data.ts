@@ -495,6 +495,7 @@ export const trophyCompetitionsDataSpring2025: {
         endDate: '2025-05-13',
         startDate: '2025-05-06',
         theme: 'Fish Week!',
+        isTrophyCompetition: true,
       },
       relationships: {
         selectedBy: {
