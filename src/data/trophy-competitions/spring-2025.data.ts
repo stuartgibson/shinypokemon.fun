@@ -484,4 +484,244 @@ export const trophyCompetitionsDataSpring2025: {
       },
     },
   },
+
+  'ff06de8e-1ace-46b9-bf72-b424df00229e': {
+    data: {
+      type: 'competition',
+      id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
+      attributes: {
+        description:
+          'Any Pokémon FISHable in SwSh (Does not need caught in SwSh, or by a fishing method)\r\nEach Pokémon is worth base 1 point and you can only catch 5 a week.\r\nOnly one Pokémon per family line.\r\n\r\nBONUS: Dhelmise will give +1 bonus point\r\n\r\nCHALLENGE:  First person to catch a Shiny Pokémon listed this week with a Teensy Mark will get +3 bonus points\r\nFirst person to catch a Shiny Pokémon listed this week with a Catch of the Day will get +5 bonus points',
+        endDate: '2025-05-13',
+        startDate: '2025-05-06',
+        theme: 'Fish Week!',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+          {
+            data: {
+              // Magikarp remove
+              id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Gyarados remove
+              id: '9ee2c16a-577f-4cc8-8839-1a4116c7480b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Chewtle remove
+              id: 'dbed930c-3262-4fff-afca-dd52d4a02bd6',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Drednaw remove
+              id: '112a03cb-fe37-4aa4-9b7a-920a8b246339',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Arrokuda remove
+              id: '436b30c4-6730-4059-a447-cd5b3eb3a48a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Barraskewda remove
+              id: 'b5638d8e-d19b-470c-b04e-0bca946de8a9',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Feebas remove
+              id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Goldeen remove
+              id: 'ae0de176-5c64-4406-b3ba-1b2ef55c6150',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Remoraid remove
+              id: '1f9b78d2-1616-46a1-96d4-81d6bc3c9f3b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Octillery remove
+              id: '968ac154-1faa-4628-9364-03381d65b61a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Wishiwashi remove
+              id: 'e23fab77-2715-434d-b146-4d9664479ffb',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Pyukumuku remove
+              id: 'ef9ee286-c384-46fe-9d09-597af12cb074',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Lapras remove
+              id: 'eaf401e1-ddb3-4917-bda3-f7a6b3046ba3',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Mantyke remove
+              id: '843db6b2-bde6-484e-b3fb-0e813d320062',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Mantine remove
+              id: '90d58436-5903-4459-9e87-210b8b2d2750',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Wailmer remove
+              id: 'd8332cfc-5694-4ab2-9f85-bd3e0e44241b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Wailord remove
+              id: '07ff75e6-351d-46d2-9c12-50fc64cf9854',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Barboach remove
+              id: '8dce1004-e075-4ae7-abbe-7a3075864173',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Whiscash remove
+              id: 'bc9c4657-6a0e-43ae-a220-94f8c3fb75da',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Chinchou remove
+              id: '4b854817-7f27-4ee5-9dd0-b04a34b8256e',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Lanturn remove
+              id: 'd032e256-4fbf-44d0-bafd-98c2dc656d94',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Basculin remove
+              id: '7411e93e-127f-42ee-99fe-d44f31e7b60a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Shellder remove
+              id: '2b76c5cb-cf54-438f-be01-ba2dc3a283d9',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Mareanie remove
+              id: '77f390a4-0d38-434e-af28-8c858e060b3c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Qwilfish remove
+              id: 'd9865e99-9f5c-4598-b66e-bc0709208944',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Krabby remove
+              id: '09c4d189-ee58-44c1-b8c0-9bd51d39dd60',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Corphish remove
+              id: '5fd6660f-f631-41eb-a4c9-a437e062417c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Dhelmise remove
+              id: '5dc264bb-a2ef-4b69-b9bb-173bee44eea4',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Lileep remove
+              id: 'f04cfd6f-6779-43b0-8385-df734442989b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Dratini remove
+              id: '5209be64-7255-4973-b665-4734ae773e28',
+              type: 'pokemon',
+            },
+          },
+        ],
+        year: {
+          data: {
+            id: 'spring-2025',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };
