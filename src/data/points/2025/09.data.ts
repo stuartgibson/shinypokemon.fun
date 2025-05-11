@@ -1068,4 +1068,385 @@ export const pointsData2025_09: IPointEntities = {
       },
     },
   },
+
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Tone (@Tone)
+  //  0088. Grimer
+  '3bd3557d-56e9-465e-bfaa-00f56d9e40f5': {
+    data: {
+      id: '3bd3557d-56e9-465e-bfaa-00f56d9e40f5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f1339d6e-5bd4-4974-a746-2db83cfc5542',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Jonathan (@kinoko Nelson)
+  //  0140. Kabuto
+  '5d80d1ce-f275-4dad-9f6c-ce69b34e1b36': {
+    data: {
+      id: '5d80d1ce-f275-4dad-9f6c-ce69b34e1b36',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'f038b11b-539a-4850-ad61-19e4fce64c43',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '79fbda43-7ad3-4907-a8ba-0af028f4ae5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Tone (@Tone)
+  //  0089. Muk
+  '2a921ca4-59c3-42e5-9c42-854f134fc98c': {
+    data: {
+      id: '2a921ca4-59c3-42e5-9c42-854f134fc98c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3bb72469-4db2-4e94-9dd7-7647fed36c0d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0054. Psyduck
+  'b4e970a9-8a1e-44c9-bd14-7f1dead257d9': {
+    data: {
+      id: 'b4e970a9-8a1e-44c9-bd14-7f1dead257d9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0fee26f0-8367-4d19-a22c-dd1bbf6dc400',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0211. Qwilfish
+  '8482efc4-7354-471b-af86-3836c2b89cb5': {
+    data: {
+      id: '8482efc4-7354-471b-af86-3836c2b89cb5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd9865e99-9f5c-4598-b66e-bc0709208944',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0090. Shellder
+  '62f22b19-a4db-4185-9e52-9021ca9bfd86': {
+    data: {
+      id: '62f22b19-a4db-4185-9e52-9021ca9bfd86',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b76c5cb-cf54-438f-be01-ba2dc3a283d9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0345. Lileep
+  '2d396708-448c-4c71-9ed0-66e006294072': {
+    data: {
+      id: '2d396708-448c-4c71-9ed0-66e006294072',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f04cfd6f-6779-43b0-8385-df734442989b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Jonathan (@kinoko Nelson)
+  //  0422. Shellos
+  '4c4a536c-6ef0-48f3-8e98-01aedb3b9c13': {
+    data: {
+      id: '4c4a536c-6ef0-48f3-8e98-01aedb3b9c13',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'f038b11b-539a-4850-ad61-19e4fce64c43',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0091eadb-706c-40d1-ba11-5c95b383b46b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0223. Remoraid
+  '9f88d281-3edf-428d-b5f6-6eafce3d3429': {
+    data: {
+      id: '9f88d281-3edf-428d-b5f6-6eafce3d3429',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f9b78d2-1616-46a1-96d4-81d6bc3c9f3b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Christopher (@Christopher)
+  //  0079. Slowpoke
+  'e1ef5912-d77a-4038-8c84-4a79674770f3': {
+    data: {
+      id: 'e1ef5912-d77a-4038-8c84-4a79674770f3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7f941cdf-6dbb-4939-9dbf-684a92c38788',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
