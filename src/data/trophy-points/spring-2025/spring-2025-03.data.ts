@@ -1067,4 +1067,42 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       },
     },
   },
+  //  Version Exclusives 27 Apr 2025  to 10 May 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0223. Remoraid
+  '9f88d281-3edf-428d-b5f6-6eafce3d3429': {
+    data: {
+      id: '9f88d281-3edf-428d-b5f6-6eafce3d3429',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f9b78d2-1616-46a1-96d4-81d6bc3c9f3b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
