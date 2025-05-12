@@ -59,7 +59,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -97,7 +97,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -135,7 +135,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -173,7 +173,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -211,7 +211,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -249,7 +249,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -287,7 +287,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -325,7 +325,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -363,7 +363,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -401,7 +401,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -439,7 +439,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -477,7 +477,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -515,7 +515,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -553,7 +553,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -591,7 +591,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -629,7 +629,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -667,7 +667,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -705,7 +705,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -743,7 +743,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -781,7 +781,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -819,7 +819,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -857,7 +857,7 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
@@ -895,13 +895,166 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
             type: 'competition',
           },
         },
         player: {
           data: {
             id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5dc264bb-a2ef-4b69-b9bb-173bee44eea4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Devilish Inferno (@Alex)
+  //  0833. Chewtle
+  '5c0e17eb-3bbe-4939-afd6-065e0924059e': {
+    data: {
+      id: '5c0e17eb-3bbe-4939-afd6-065e0924059e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dbed930c-3262-4fff-afca-dd52d4a02bd6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Devilish Inferno (@Alex)
+  //  0131. Lapras
+  'ca633bf9-c132-45ff-b480-2bdf0cebca72': {
+    data: {
+      id: 'ca633bf9-c132-45ff-b480-2bdf0cebca72',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'eaf401e1-ddb3-4917-bda3-f7a6b3046ba3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Devilish Inferno (@Alex)
+  //  0747. Mareanie
+  '6da3806c-b509-4314-a6c3-056823b7d2e7': {
+    data: {
+      id: '6da3806c-b509-4314-a6c3-056823b7d2e7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '77f390a4-0d38-434e-af28-8c858e060b3c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Devilish Inferno (@Alex)
+  //  0781. Dhelmise
+  'a7bcb535-fce8-4983-b872-8f50d50b4f3e': {
+    data: {
+      id: 'a7bcb535-fce8-4983-b872-8f50d50b4f3e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 2,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
             type: 'player',
           },
         },
