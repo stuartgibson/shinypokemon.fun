@@ -77,4 +77,43 @@ export const pointsData2025_10: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0286. Breloom
+  '141415f3-9c1c-423e-9b45-390bd5f5228f': {
+    data: {
+      id: '141415f3-9c1c-423e-9b45-390bd5f5228f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '697d384b-63a8-48dc-8722-387534e52750',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
