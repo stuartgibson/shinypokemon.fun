@@ -1105,4 +1105,43 @@ export const trophyPointsDataSpring2025_03: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0781. Dhelmise
+  '062cccc6-fe70-4042-b6d5-c67d71bf6701': {
+    data: {
+      id: '062cccc6-fe70-4042-b6d5-c67d71bf6701',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 2,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'ff06de8e-1ace-46b9-bf72-b424df00229e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5dc264bb-a2ef-4b69-b9bb-173bee44eea4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

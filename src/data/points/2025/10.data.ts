@@ -116,4 +116,43 @@ export const pointsData2025_10: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Christopher (@Christopher)
+  //  0482. Azelf
+  'a0771ca2-8d8b-4ebc-a6ec-99e0c8ac2ff8': {
+    data: {
+      id: 'a0771ca2-8d8b-4ebc-a6ec-99e0c8ac2ff8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6bdec89a-de2c-455e-aefd-a84ce5db4947',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

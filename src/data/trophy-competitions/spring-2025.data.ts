@@ -725,4 +725,34 @@ export const trophyCompetitionsDataSpring2025: {
       },
     },
   },
+
+  'a5719e39-3f96-48d9-bb21-fe8169b65ee4': {
+    data: {
+      type: 'competition',
+      id: 'a5719e39-3f96-48d9-bb21-fe8169b65ee4',
+      attributes: {
+        description:
+          'You must catch Shiny Unown and spell a 4-6 letter word to score points. Only one word can be submitted and the points are based off Scramble scoring.\r\n\r\n* 1 point: A, E, I, O, U, L, N, R, S, T\r\n* 2 points: D, G\r\n* 3 points: B, C, M, P\r\n* 4 points: F, H, V, W, Y\r\n* 5 points: K\r\n* 8 points: J, X\r\n* 10 points: Q, Z\r\n\r\nCHALLENGE: First person to catch a Alpha Shiny Unown listed this week will get +3 bonus points.',
+        endDate: '2025-05-14',
+        startDate: '2025-05-20',
+        theme: 'Unown Week!',
+        isTrophyCompetition: true,
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: 'dc7bd870-037f-45d8-bf8d-3e98a361cf49',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: 'spring-2025',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };
