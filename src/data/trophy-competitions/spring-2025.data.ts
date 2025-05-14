@@ -745,7 +745,15 @@ export const trophyCompetitionsDataSpring2025: {
             type: 'player',
           },
         },
-        validPokemon: [],
+        validPokemon: [
+          {
+            data: {
+              // Unown remove
+              id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+              type: 'pokemon',
+            },
+          },
+        ],
         year: {
           data: {
             id: 'spring-2025',
