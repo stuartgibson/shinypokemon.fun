@@ -26,6 +26,7 @@ export interface IPointEntity extends IJsonApiEntity {
       firstCatch: boolean;
       game: GameType | null;
       method: MethodType | null;
+      notes?: string | null;
       oldSystemPoint?: boolean;
       value?: number;
     };

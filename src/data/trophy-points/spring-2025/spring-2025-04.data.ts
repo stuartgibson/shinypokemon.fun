@@ -14,6 +14,7 @@ export const trophyPointsDataSpring2025_04: IPointEntities = {
         firstCatch: false,
         game: null,
         method: null,
+        notes: 'Alpha Q',
         oldSystemPoint: false,
         value: 3,
       },

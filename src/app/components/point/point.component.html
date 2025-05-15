@@ -23,6 +23,15 @@
             {{ point.value}}
           </dd>
         </div>
+
+        @if (point.notes) {
+          <div class="d-flex align-items-center gap-3">
+            <dt>Notes:</dt>
+            <dd class="m-0">
+              {{ point.notes }}
+            </dd>
+          </div>
+        }
       </dl>
     </div>
   </div>

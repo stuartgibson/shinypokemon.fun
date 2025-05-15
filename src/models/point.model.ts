@@ -10,6 +10,7 @@ interface IPoint extends IAppModel {
   readonly firstCatch: boolean;
   readonly game: GameType | null;
   readonly method: MethodType | null;
+  readonly notes: string | null;
   readonly pokemonID: string;
   readonly playerID: string;
   readonly oldSystemPoint?: boolean;
@@ -23,6 +24,7 @@ export class Point extends AppModel implements IPoint {
   readonly firstCatch: boolean;
   readonly game: GameType | null;
   readonly method: MethodType | null;
+  readonly notes: string | null;
   readonly pokemonID: string;
   readonly playerID: string;
   readonly oldSystemPoint: boolean;
@@ -36,6 +38,7 @@ export class Point extends AppModel implements IPoint {
     this.firstCatch = !!this.attribute('firstCatch');
     this.game = this.attribute('game');
     this.method = this.attribute('method');
+    this.notes = this.attribute('notes') || null;
     this.pokemonID = this.relationshipID('pokemon')!;
     this.playerID = this.relationshipID('player')!;
     this.oldSystemPoint = this.attribute('oldSystemPoint') || false;
