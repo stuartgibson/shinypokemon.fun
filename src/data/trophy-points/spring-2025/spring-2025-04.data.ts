@@ -20,7 +20,7 @@ export const trophyPointsDataSpring2025_04: IPointEntities = {
       relationships: {
         competition: {
           data: {
-            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            id: 'a5719e39-3f96-48d9-bb21-fe8169b65ee4',
             type: 'competition',
           },
         },
