@@ -155,4 +155,81 @@ export const pointsData2025_10: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  AverageSiege (@AverageSiege)
+  //  0201. Unown
+  '5fae4c9e-3efd-40ca-95ee-1a845cd68566': {
+    data: {
+      id: '5fae4c9e-3efd-40ca-95ee-1a845cd68566',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '70dac14a-0f44-42a1-afb2-1846a6663d0c',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0155. Cyndaquil
+  'b29bf136-0d63-4cff-85dc-c0c87750be2d': {
+    data: {
+      id: 'b29bf136-0d63-4cff-85dc-c0c87750be2d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ae25232c-f906-4cbb-b8f9-da3a67345154',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
