@@ -956,4 +956,347 @@ export const pointsData2025_10: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '6cf66e6d-d57e-4f26-b48d-5d403fcac4b9': {
+    data: {
+      id: '6cf66e6d-d57e-4f26-b48d-5d403fcac4b9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  'ac15d91d-ae5e-40a1-8cf7-7b4853b80f71': {
+    data: {
+      id: 'ac15d91d-ae5e-40a1-8cf7-7b4853b80f71',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '60e36806-d0d5-42c5-bb67-6cae5dd40607': {
+    data: {
+      id: '60e36806-d0d5-42c5-bb67-6cae5dd40607',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '902d6a85-04b0-4465-bf5e-d96b53b62d54': {
+    data: {
+      id: '902d6a85-04b0-4465-bf5e-d96b53b62d54',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '5ddf65f2-6e56-44c3-bd37-7eb7629f11ba': {
+    data: {
+      id: '5ddf65f2-6e56-44c3-bd37-7eb7629f11ba',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  'ae73ecbf-3b55-44e5-8c4f-758fb87b1255': {
+    data: {
+      id: 'ae73ecbf-3b55-44e5-8c4f-758fb87b1255',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '329ea296-cead-4a4e-b8eb-5ee9116c8f82': {
+    data: {
+      id: '329ea296-cead-4a4e-b8eb-5ee9116c8f82',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '38c5847f-6700-4e5f-9d8d-6e588e00d13a': {
+    data: {
+      id: '38c5847f-6700-4e5f-9d8d-6e588e00d13a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '765cfd44-b46e-4cec-819b-a3050637ce70': {
+    data: {
+      id: '765cfd44-b46e-4cec-819b-a3050637ce70',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

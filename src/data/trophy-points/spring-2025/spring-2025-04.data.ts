@@ -119,4 +119,44 @@ export const trophyPointsDataSpring2025_04: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  'ef4c5826-6df5-4ce2-9015-03e880268f66': {
+    data: {
+      id: 'ef4c5826-6df5-4ce2-9015-03e880268f66',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        notes: 'PECKY',
+        oldSystemPoint: false,
+        value: 16,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'a5719e39-3f96-48d9-bb21-fe8169b65ee4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
