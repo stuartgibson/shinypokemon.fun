@@ -841,4 +841,119 @@ export const pointsData2025_10: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '6f3c6729-8abb-4d15-bcd8-f0abcc02ec45': {
+    data: {
+      id: '6f3c6729-8abb-4d15-bcd8-f0abcc02ec45',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '6c266c67-7633-466d-809b-2bf72bd5f2ea': {
+    data: {
+      id: '6c266c67-7633-466d-809b-2bf72bd5f2ea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '7b10e06d-e098-43e0-be18-fb4ac0646095': {
+    data: {
+      id: '7b10e06d-e098-43e0-be18-fb4ac0646095',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
