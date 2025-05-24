@@ -232,4 +232,613 @@ export const pointsData2025_10: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0866. Mr. Rime
+  '6a4b49f1-7287-448a-a71c-0474ac504dee': {
+    data: {
+      id: '6a4b49f1-7287-448a-a71c-0474ac504dee',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5b83f5c3-05ba-48c7-ac3e-9d18455c291a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0486. Regigigas
+  'a840cff4-7ec8-4aa5-af23-24a149480826': {
+    data: {
+      id: 'a840cff4-7ec8-4aa5-af23-24a149480826',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '527e4a6c-7e76-4e5b-b990-a63bed6f0d7c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  'ff74baea-4d91-4ce2-9a2f-cdbd36660820': {
+    data: {
+      id: 'ff74baea-4d91-4ce2-9a2f-cdbd36660820',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '6e624870-b287-49ee-a490-37decebfa91b': {
+    data: {
+      id: '6e624870-b287-49ee-a490-37decebfa91b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '00646a13-6cb3-4549-87be-c99bdcb38067': {
+    data: {
+      id: '00646a13-6cb3-4549-87be-c99bdcb38067',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '52e770d2-ac50-4199-9d0e-bc0a4dad9cd6': {
+    data: {
+      id: '52e770d2-ac50-4199-9d0e-bc0a4dad9cd6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '63ba606b-f2fa-46c3-85f0-5a6add4b4046': {
+    data: {
+      id: '63ba606b-f2fa-46c3-85f0-5a6add4b4046',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '51b8584a-1819-4fde-a5f4-e57a315993d9': {
+    data: {
+      id: '51b8584a-1819-4fde-a5f4-e57a315993d9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  'a4724165-f446-447a-b064-918e9838a9d8': {
+    data: {
+      id: 'a4724165-f446-447a-b064-918e9838a9d8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '7fd7c782-4520-4cd7-b013-3ce80b331390': {
+    data: {
+      id: '7fd7c782-4520-4cd7-b013-3ce80b331390',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Philip Starns (@Philip Starns)
+  //  0393. Piplup
+  '696cbe24-849e-44c8-b2fd-76f5f7fc8fd5': {
+    data: {
+      id: '696cbe24-849e-44c8-b2fd-76f5f7fc8fd5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e975c325-8eca-4252-aa82-8433064775c9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Devilish Inferno (@Alex)
+  //  0486. Regigigas
+  'e024e1a6-3001-46ff-88d1-deb0ddbbf592': {
+    data: {
+      id: 'e024e1a6-3001-46ff-88d1-deb0ddbbf592',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '527e4a6c-7e76-4e5b-b990-a63bed6f0d7c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0201. Unown
+  'b443af32-f0cb-41fc-9ff4-8c1bb1601e5f': {
+    data: {
+      id: 'b443af32-f0cb-41fc-9ff4-8c1bb1601e5f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0263. Zigzagoon (Galarian)
+  '2609b3cc-5645-4e7c-9d1e-d4c8c4aca71f': {
+    data: {
+      id: '2609b3cc-5645-4e7c-9d1e-d4c8c4aca71f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Tone (@Tone)
+  //  0263. Zigzagoon (Galarian)
+  '813b555e-f215-4472-82ac-9f4c8546382a': {
+    data: {
+      id: '813b555e-f215-4472-82ac-9f4c8546382a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Tone (@Tone)
+  //  0263. Zigzagoon (Galarian)
+  '179667db-78b4-427b-ab3e-159435d0c808': {
+    data: {
+      id: '179667db-78b4-427b-ab3e-159435d0c808',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
