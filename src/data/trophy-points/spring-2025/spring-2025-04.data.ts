@@ -40,4 +40,83 @@ export const trophyPointsDataSpring2025_04: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0201. Unown
+  'c992d377-ad8b-4f06-84a8-b2ddaf66ded2': {
+    data: {
+      id: 'c992d377-ad8b-4f06-84a8-b2ddaf66ded2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        notes: 'BLINKS',
+        oldSystemPoint: false,
+        value: 12,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'a5719e39-3f96-48d9-bb21-fe8169b65ee4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Keagan (@Keagan)
+  //  0201. Unown
+  '39786ec1-c5c9-4460-9678-55e909f76f50': {
+    data: {
+      id: '39786ec1-c5c9-4460-9678-55e909f76f50',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        notes: 'HUZZAS',
+        oldSystemPoint: false,
+        value: 27,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'a5719e39-3f96-48d9-bb21-fe8169b65ee4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
