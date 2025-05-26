@@ -1299,4 +1299,81 @@ export const pointsData2025_10: IPointEntities = {
       },
     },
   },
+
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0191. Sunkern
+  'c11dc7cf-38d6-4f0f-a1c1-91e5084a0750': {
+    data: {
+      id: 'c11dc7cf-38d6-4f0f-a1c1-91e5084a0750',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '509aa4ab-b4b6-4d73-a7f2-211f66aa3649',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Left on Read (by Game Freak) 11 May 2025  to 24 May 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0192. Sunflora
+  '9a389fa2-8a33-4d54-8741-36b69f9301ed': {
+    data: {
+      id: '9a389fa2-8a33-4d54-8741-36b69f9301ed',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c19ff84e-240e-46a6-87b5-896cd32f3b60',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '148a6ef8-5d26-42cf-bcfd-48dd25b4a54b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
