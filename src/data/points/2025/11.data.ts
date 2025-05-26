@@ -419,4 +419,43 @@ export const pointsData2025_11: IPointEntities = {
       },
     },
   },
+
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Stuart (@stuart)
+  //  0056. Mankey
+  'f29b5a5b-ee61-4647-ac9d-941363d7065d': {
+    data: {
+      id: 'f29b5a5b-ee61-4647-ac9d-941363d7065d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
