@@ -1903,4 +1903,157 @@ export const pointsData2025_11: IPointEntities = {
       },
     },
   },
+
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Keagan (@Keagan)
+  //  0022. Fearow
+  '40ac0dd2-eb86-4a8f-bd34-c7fb09dc33f4': {
+    data: {
+      id: '40ac0dd2-eb86-4a8f-bd34-c7fb09dc33f4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2c7aaaeb-3f85-4c13-a2af-b0bb988fc102',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0120. Staryu
+  '7752476e-30d1-4d82-8931-0701b4776c08': {
+    data: {
+      id: '7752476e-30d1-4d82-8931-0701b4776c08',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3caf5287-84ef-476a-9b3e-9e8a741fe4d3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Christopher (@Christopher)
+  //  0742. Cutiefly
+  '06fc8b70-67ca-42df-9d9d-988c5e116af0': {
+    data: {
+      id: '06fc8b70-67ca-42df-9d9d-988c5e116af0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f590d249-312f-409a-b606-bbadf1228aa2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Stuart (@stuart)
+  //  0137. Porygon
+  'c7be1bee-20b2-4d0d-b42e-d32d91af9af5': {
+    data: {
+      id: 'c7be1bee-20b2-4d0d-b42e-d32d91af9af5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '32db34f7-0c11-401c-8504-d399aa98e376',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
