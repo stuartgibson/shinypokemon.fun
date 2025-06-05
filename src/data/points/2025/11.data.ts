@@ -2056,4 +2056,119 @@ export const pointsData2025_11: IPointEntities = {
       },
     },
   },
+
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Keagan (@Keagan)
+  //  0079. Slowpoke
+  '89b56e6b-1ced-4221-aba4-7b28373d1cba': {
+    data: {
+      id: '89b56e6b-1ced-4221-aba4-7b28373d1cba',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7aeb9b9c-e12f-4729-bad4-708476bf0a5b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Stuart (@stuart)
+  //  0280. Ralts
+  '729f4af2-bdbb-449c-b2f8-32b47089645c': {
+    data: {
+      id: '729f4af2-bdbb-449c-b2f8-32b47089645c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3fd72417-b6f1-4130-abbb-55a0803e2b33',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Keagan (@Keagan)
+  //  0029. Nidoran♀
+  '9cc8d64c-019b-454c-8738-23ee597c737b': {
+    data: {
+      id: '9cc8d64c-019b-454c-8738-23ee597c737b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30f78841-c47a-4bd4-8ee1-f033a0fe758d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
