@@ -2171,4 +2171,385 @@ export const pointsData2025_11: IPointEntities = {
       },
     },
   },
+
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Christopher (@Christopher)
+  //  0048. Venonat
+  'c1772c20-f0ca-4c38-92e5-6c57a41a23f4': {
+    data: {
+      id: 'c1772c20-f0ca-4c38-92e5-6c57a41a23f4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cac2064e-9c81-4536-80d7-9c39af52113e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Christopher (@Christopher)
+  //  0048. Venonat
+  'bd6367f3-aa5b-4211-ba5c-ba5ad4062cb9': {
+    data: {
+      id: 'bd6367f3-aa5b-4211-ba5c-ba5ad4062cb9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cac2064e-9c81-4536-80d7-9c39af52113e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Devilish Inferno (@Alex)
+  //  0506. Lillipup
+  'dd2179ce-f95f-43dc-adcf-311d5f0a436c': {
+    data: {
+      id: 'dd2179ce-f95f-43dc-adcf-311d5f0a436c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c7cf3c2e-8184-44d1-be99-62b89f498865',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Devilish Inferno (@Alex)
+  //  0113. Chansey
+  '4f30fdf5-7c1e-417f-8a43-59970fb1d282': {
+    data: {
+      id: '4f30fdf5-7c1e-417f-8a43-59970fb1d282',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Devilish Inferno (@Alex)
+  //  0052. Meowth
+  '7b1aa20b-44e4-4975-b2d3-f023f5d875a9': {
+    data: {
+      id: '7b1aa20b-44e4-4975-b2d3-f023f5d875a9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-05-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '3be16e09-d7c4-4ea5-a5bc-8fb3366355b6',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9309bac4-a765-4e49-ae57-2dcacd543f20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0550. Basculin
+  'eacae1be-b90b-4cc1-8dd9-71be7a996718': {
+    data: {
+      id: 'eacae1be-b90b-4cc1-8dd9-71be7a996718',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7411e93e-127f-42ee-99fe-d44f31e7b60a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Christopher (@Christopher)
+  //  0174. Igglybuff
+  '72879909-8f49-48e4-9b9c-0c8f8db1b5db': {
+    data: {
+      id: '72879909-8f49-48e4-9b9c-0c8f8db1b5db',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'acc70f99-f706-45c5-8a58-989969a970a4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Christopher (@Christopher)
+  //  0821. Rookidee
+  'bc36c003-aeb9-4855-b604-eae11d3e965b': {
+    data: {
+      id: 'bc36c003-aeb9-4855-b604-eae11d3e965b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f52a7d08-b297-4564-89a7-a9548f2a00c3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Christopher (@Christopher)
+  //  0672. Skiddo
+  'a8718a1d-05bc-45b5-b5a2-5c2f86edacda': {
+    data: {
+      id: 'a8718a1d-05bc-45b5-b5a2-5c2f86edacda',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a099e42-ba65-4365-90d9-2a2bb4966efc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Switch 2 Launch Day! 25 May 2025  to 7 Jun 2025
+  //  Tone (@Tone)
+  //  0672. Skiddo
+  '87057dec-27f9-4d21-bb65-8622c35013f1': {
+    data: {
+      id: '87057dec-27f9-4d21-bb65-8622c35013f1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd7d55970-bdb8-4fd4-bce3-38601de9a365',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a099e42-ba65-4365-90d9-2a2bb4966efc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
