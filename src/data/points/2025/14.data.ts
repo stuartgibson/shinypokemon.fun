@@ -2,6 +2,44 @@ import { IPointEntities } from 'store/reducers';
 
 export const pointsData2025_14: IPointEntities = {
   //  Basic Single Stage Pokémon 6 Jul 2025  to 19 Jul 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0335. Zangoose
+  '843ec46c-8ede-435a-9897-2fbcf14748f1': {
+    data: {
+      id: '843ec46c-8ede-435a-9897-2fbcf14748f1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-07-06',
+        firstCatch: true,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '30825271-d468-4fac-88a4-3156f9cc1ccb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62d87f95-80cd-4313-9791-a7fd201c97d4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Basic Single Stage Pokémon 6 Jul 2025  to 19 Jul 2025
   //  Keagan (@Keagan)
   //  0142. Aerodactyl
   'e8811cb5-d7fd-4ab9-8c05-757a6947d35c': {
