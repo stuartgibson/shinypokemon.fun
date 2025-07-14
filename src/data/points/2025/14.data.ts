@@ -457,4 +457,195 @@ export const pointsData2025_14: IPointEntities = {
       },
     },
   },
+
+  //  Basic Single Stage Pokémon 6 Jul 2025  to 19 Jul 2025
+  //  Keagan (@Keagan)
+  //  0211. Qwilfish
+  'ba2b1f2f-2e42-4584-aa42-f49df566d0fc': {
+    data: {
+      id: 'ba2b1f2f-2e42-4584-aa42-f49df566d0fc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-07-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '30825271-d468-4fac-88a4-3156f9cc1ccb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd9865e99-9f5c-4598-b66e-bc0709208944',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Basic Single Stage Pokémon 6 Jul 2025  to 19 Jul 2025
+  //  Keagan (@Keagan)
+  //  0115. Kangaskhan
+  'fdb5781c-0e23-4af9-aa78-ac3a5b422af1': {
+    data: {
+      id: 'fdb5781c-0e23-4af9-aa78-ac3a5b422af1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '30825271-d468-4fac-88a4-3156f9cc1ccb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b0d49348-e3bb-42da-9153-999e3a5aa68b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Basic Single Stage Pokémon 6 Jul 2025  to 19 Jul 2025
+  //  Keagan (@Keagan)
+  //  0550. Basculin
+  '574bf34c-770a-4e69-810b-a18f6d45df2f': {
+    data: {
+      id: '574bf34c-770a-4e69-810b-a18f6d45df2f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '30825271-d468-4fac-88a4-3156f9cc1ccb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7411e93e-127f-42ee-99fe-d44f31e7b60a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Basic Single Stage Pokémon 6 Jul 2025  to 19 Jul 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  'f4f192cf-7006-45be-8a41-aca8d203cee2': {
+    data: {
+      id: 'f4f192cf-7006-45be-8a41-aca8d203cee2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '30825271-d468-4fac-88a4-3156f9cc1ccb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Basic Single Stage Pokémon 6 Jul 2025  to 19 Jul 2025
+  //  Philip Starns (@Philip Starns)
+  //  0201. Unown
+  '7c4c5092-6b78-4691-96d8-6aa76b981ce8': {
+    data: {
+      id: '7c4c5092-6b78-4691-96d8-6aa76b981ce8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '30825271-d468-4fac-88a4-3156f9cc1ccb',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
