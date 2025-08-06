@@ -685,4 +685,43 @@ export const pointsData2025_15: IPointEntities = {
       },
     },
   },
+
+  //  Ultra Typings! 20 Jul 2025  to 3 Aug 2025
+  //  Keagan (@Keagan)
+  //  0026. Raichu
+  '1516b2df-187e-4904-9ab0-565e78020493': {
+    data: {
+      id: '1516b2df-187e-4904-9ab0-565e78020493',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-08-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1f927ee1-2fc5-4134-9b3c-1815e120daae',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd8dc6dee-40f9-46dd-aff4-c471c7697cc8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
