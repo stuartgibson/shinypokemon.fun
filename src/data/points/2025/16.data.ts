@@ -77,4 +77,43 @@ export const pointsData2025_16: IPointEntities = {
       },
     },
   },
+
+  //  World Champions 3 Aug 2025  to 16 Aug 2025
+  //  Tone (@Tone)
+  //  0108. Lickitung
+  '0764dc8f-ce7a-4b28-94b3-628d9b63ee4d': {
+    data: {
+      id: '0764dc8f-ce7a-4b28-94b3-628d9b63ee4d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-08-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f8e70838-5963-4269-861e-44da14295d6d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cfe0414b-cb76-43dc-ad2b-aac363edc62c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
