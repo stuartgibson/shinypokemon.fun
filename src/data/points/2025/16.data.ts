@@ -231,4 +231,119 @@ export const pointsData2025_16: IPointEntities = {
       },
     },
   },
+
+  //  World Champions 3 Aug 2025  to 16 Aug 2025
+  //  Keagan (@Keagan)
+  //  0441. Chatot
+  '54c05d3c-c5eb-4ea2-8842-a1a02c00ecf1': {
+    data: {
+      id: '54c05d3c-c5eb-4ea2-8842-a1a02c00ecf1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-08-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f8e70838-5963-4269-861e-44da14295d6d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1a0b6846-d45a-4fd2-98a7-7a3946743e7f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World Champions 3 Aug 2025  to 16 Aug 2025
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0531. Audino
+  'e3faa7db-eead-444c-be42-29b99f30bbc4': {
+    data: {
+      id: 'e3faa7db-eead-444c-be42-29b99f30bbc4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-08-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f8e70838-5963-4269-861e-44da14295d6d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '93e005fa-ae64-4232-8cd7-898d5b46a827',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  World Champions 3 Aug 2025  to 16 Aug 2025
+  //  Tone (@Tone)
+  //  0025. Pikachu
+  '86298483-d5b2-4db4-962c-8e93bf8309eb': {
+    data: {
+      id: '86298483-d5b2-4db4-962c-8e93bf8309eb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-08-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f8e70838-5963-4269-861e-44da14295d6d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
