@@ -59,6 +59,8 @@ export const yearPageViewModel = createSelector(
       }
     });
 
+    console.log({ yearPointsData });
+
     return {
       competitions: competitions,
       competitionCount: competitions.filter(competitionHasStarted).length,

@@ -958,6 +958,17 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Philip Starns (@Philip Starns)
+  'e7e5548f-6d09-421f-8f37-966949fe41b9': {
+    data: {
+      type: 'player' as 'player',
+      id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+      attributes: {
+        realName: 'Philip Starns',
+        displayName: 'Philip Starns',
+      },
+    },
+  },
   // DeLa (DeLaJestyr) (@DeLa)
   'c311b375-ad76-441d-b227-473b3aeaf439': {
     data: {

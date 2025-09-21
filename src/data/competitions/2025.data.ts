@@ -22870,7 +22870,6 @@ export const competitionsData2025: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
-
   '264213a3-e456-40e5-b46c-802629f0ef10': {
     data: {
       type: 'competition',
