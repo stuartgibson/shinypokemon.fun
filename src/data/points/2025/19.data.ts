@@ -989,4 +989,118 @@ export const pointsData2025_19: IPointEntities = {
       },
     },
   },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Ary Luz (@Ary Luz)
+  //  0671. Florges
+  '8a2d1beb-03e7-4245-9994-4a066901c52f': {
+    data: {
+      id: '8a2d1beb-03e7-4245-9994-4a066901c52f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '9963bec2-20b6-4278-b473-d1b2da3a60d1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Stuart (@stuart)
+  //  0669. Flabébé
+  'f065c9f4-ce14-4601-b49f-be1f48c8aa5b': {
+    data: {
+      id: 'f065c9f4-ce14-4601-b49f-be1f48c8aa5b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Stuart (@stuart)
+  //  0669. Flabébé
+  'dbe1b85c-9bd8-452e-ad17-bae151855908': {
+    data: {
+      id: 'dbe1b85c-9bd8-452e-ad17-bae151855908',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
