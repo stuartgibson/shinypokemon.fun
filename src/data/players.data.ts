@@ -969,4 +969,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Ary Luz (@DAry Luz)
+  '9963bec2-20b6-4278-b473-d1b2da3a60d1': {
+    data: {
+      type: 'player' as 'player',
+      id: '9963bec2-20b6-4278-b473-d1b2da3a60d1',
+      attributes: {
+        realName: 'Ary Luz',
+        displayName: 'Ary Luz',
+      },
+    },
+  },
 };
