@@ -419,4 +419,43 @@ export const pointsData2025_17: IPointEntities = {
       },
     },
   },
+
+  //  Forgotten Ruinous Types 17 Aug 2025  to 30 Aug 2025
+  //  Keagan (@Keagan)
+  //  0686. Inkay
+  'ae1fe854-f2d9-4784-ad35-e84a1234bf2b': {
+    data: {
+      id: 'ae1fe854-f2d9-4784-ad35-e84a1234bf2b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-08-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '282f97f3-76ee-4bef-82b8-7eca92e62265',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ad5dbc4a-55a2-4da8-a8c5-8d596a14003d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
