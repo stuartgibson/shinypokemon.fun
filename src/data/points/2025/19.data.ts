@@ -1103,4 +1103,1487 @@ export const pointsData2025_19: IPointEntities = {
       },
     },
   },
+
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0551. Sandile
+  '30521754-7611-4c3b-81fe-d7972651c574': {
+    data: {
+      id: '30521754-7611-4c3b-81fe-d7972651c574',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fbd0d149-dbbe-4a22-a970-5821cb900ccc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  '2dd5bf76-8e47-4d11-a3e4-2c63c0980e63': {
+    data: {
+      id: '2dd5bf76-8e47-4d11-a3e4-2c63c0980e63',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  'a777771e-ad6f-412d-b263-8f0ba9b7f6fd': {
+    data: {
+      id: 'a777771e-ad6f-412d-b263-8f0ba9b7f6fd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  '480d52e5-a773-4439-98e5-f51510b0ddd9': {
+    data: {
+      id: '480d52e5-a773-4439-98e5-f51510b0ddd9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  'e0f9c008-d765-4520-a247-b4321edc3842': {
+    data: {
+      id: 'e0f9c008-d765-4520-a247-b4321edc3842',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  '4bd02a17-7a70-4872-aa87-018e2cb76df3': {
+    data: {
+      id: '4bd02a17-7a70-4872-aa87-018e2cb76df3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  '2731c731-7f61-4286-bd6b-be99898f0c96': {
+    data: {
+      id: '2731c731-7f61-4286-bd6b-be99898f0c96',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0669. Flabébé
+  '66e96bed-f536-434f-b9d4-bac1c70184ec': {
+    data: {
+      id: '66e96bed-f536-434f-b9d4-bac1c70184ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0671. Florges
+  'f49c1eb6-d8b9-4c27-9168-3a91723da80e': {
+    data: {
+      id: 'f49c1eb6-d8b9-4c27-9168-3a91723da80e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '60cbac1b-57e8-40af-8489-34c92c1c358b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0206. Dunsparce
+  '8b52ba73-10e8-450e-818e-69c70c195fd9': {
+    data: {
+      id: '8b52ba73-10e8-450e-818e-69c70c195fd9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '41115700-66dd-40bf-a5bf-a8b1949b537b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0212. Scizor
+  'e6522e87-e94f-4a02-8c1b-eca1506d5f67': {
+    data: {
+      id: 'e6522e87-e94f-4a02-8c1b-eca1506d5f67',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0874e9e6-f4a0-4114-83c1-fabc0dfa665c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0401. Kricketot
+  '73aaf7df-166d-421a-b5b4-bfebb0d0bcff': {
+    data: {
+      id: '73aaf7df-166d-421a-b5b4-bfebb0d0bcff',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '507242bb-e2ae-4035-ad7e-c181a256fd6d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0401. Kricketot
+  'e4029aff-33ad-429d-aa9c-dbe035f9532c': {
+    data: {
+      id: 'e4029aff-33ad-429d-aa9c-dbe035f9532c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '507242bb-e2ae-4035-ad7e-c181a256fd6d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0132. Ditto
+  '3fe6d764-f87a-4577-a023-bdd0737084ae': {
+    data: {
+      id: '3fe6d764-f87a-4577-a023-bdd0737084ae',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd6965153-289e-40ee-aab6-3cf769a1ce2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0819. Skwovet
+  '9f9ef1a3-101f-4795-be8d-f1a27d05f20c': {
+    data: {
+      id: '9f9ef1a3-101f-4795-be8d-f1a27d05f20c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2d6d959d-d951-464c-8a99-ebbd693ae643',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0928. Smoliv
+  '698c7272-d8f1-49c9-be7e-2926ea31b7cc': {
+    data: {
+      id: '698c7272-d8f1-49c9-be7e-2926ea31b7cc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '31b03b29-3173-4950-91e9-0e8aeb568952',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0928. Smoliv
+  '000ea8fb-3a91-4cfb-b747-ea5d483bf163': {
+    data: {
+      id: '000ea8fb-3a91-4cfb-b747-ea5d483bf163',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '31b03b29-3173-4950-91e9-0e8aeb568952',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0928. Smoliv
+  '42caeedb-ad70-4133-bb44-fb34b360cdad': {
+    data: {
+      id: '42caeedb-ad70-4133-bb44-fb34b360cdad',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '31b03b29-3173-4950-91e9-0e8aeb568952',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0234. Stantler
+  '7282e491-4a97-4252-88c6-bca58b878bf9': {
+    data: {
+      id: '7282e491-4a97-4252-88c6-bca58b878bf9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6931874b-a4ce-4abb-a16c-c6183a1668ab',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0191. Sunkern
+  'fe244e1a-4b13-49d7-acdd-d0d3286cde44': {
+    data: {
+      id: 'fe244e1a-4b13-49d7-acdd-d0d3286cde44',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '509aa4ab-b4b6-4d73-a7f2-211f66aa3649',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0704. Goomy
+  'e03267b8-9aaa-4fb7-a644-2138a5f3dcfa': {
+    data: {
+      id: 'e03267b8-9aaa-4fb7-a644-2138a5f3dcfa',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '56c95763-648b-4526-a580-e5f4487c0665',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0749. Mudbray
+  '2411f61c-f907-407c-8012-7961f84528bc': {
+    data: {
+      id: '2411f61c-f907-407c-8012-7961f84528bc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da630920-69c0-4c34-a96e-d39501ff7d1a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0749. Mudbray
+  '90c9fb2b-7c61-42a1-a7c6-5ceb79e5b188': {
+    data: {
+      id: '90c9fb2b-7c61-42a1-a7c6-5ceb79e5b188',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da630920-69c0-4c34-a96e-d39501ff7d1a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Tone (@Tone)
+  //  0769. Sandygast
+  'bedba591-f009-49f0-8d19-1ea3541c0172': {
+    data: {
+      id: 'bedba591-f009-49f0-8d19-1ea3541c0172',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '33cd3f2a-b8cb-48ca-9944-eb6b79418802',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0769. Sandygast
+  'c2183fd4-6aac-4a67-b52f-d080c8c424ac': {
+    data: {
+      id: 'c2183fd4-6aac-4a67-b52f-d080c8c424ac',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '33cd3f2a-b8cb-48ca-9944-eb6b79418802',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0928. Smoliv
+  '1ff68e11-b3dd-4164-9511-a4c9e2a35538': {
+    data: {
+      id: '1ff68e11-b3dd-4164-9511-a4c9e2a35538',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '31b03b29-3173-4950-91e9-0e8aeb568952',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0749. Mudbray
+  '9ca60bd5-ccc0-463b-a109-243e0c34e2ea': {
+    data: {
+      id: '9ca60bd5-ccc0-463b-a109-243e0c34e2ea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da630920-69c0-4c34-a96e-d39501ff7d1a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0234. Stantler
+  '3884f7c2-5eeb-4545-986b-005bf0ffcb02': {
+    data: {
+      id: '3884f7c2-5eeb-4545-986b-005bf0ffcb02',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6931874b-a4ce-4abb-a16c-c6183a1668ab',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0231. Phanpy
+  '9d171c4f-c563-468f-994c-3127727e71af': {
+    data: {
+      id: '9d171c4f-c563-468f-994c-3127727e71af',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5a1de7c3-bcb3-4eb9-8365-e45e404bb023',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0231. Phanpy
+  'afcf1e7b-0790-479e-9c00-5756f9771baf': {
+    data: {
+      id: 'afcf1e7b-0790-479e-9c00-5756f9771baf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5a1de7c3-bcb3-4eb9-8365-e45e404bb023',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Morgan (Leaf) (@Leaf)
+  //  0056. Mankey
+  'b635803a-f9f0-498b-b455-2eb2d56b51f0': {
+    data: {
+      id: 'b635803a-f9f0-498b-b455-2eb2d56b51f0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0837. Rolycoly
+  '91f82261-482d-4eed-90ca-6b66c5ed5d49': {
+    data: {
+      id: '91f82261-482d-4eed-90ca-6b66c5ed5d49',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0533fdcd-5e70-4c97-92a0-b1a5ca46af2f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0838. Carkol
+  '7cd40c4a-e51e-4f91-bb4f-18b5a7936ed5': {
+    data: {
+      id: '7cd40c4a-e51e-4f91-bb4f-18b5a7936ed5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7910d776-0f57-4c7e-a254-c242013db56c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0839. Coalossal
+  '25354acd-37e9-4a18-9a37-80461208f216': {
+    data: {
+      id: '25354acd-37e9-4a18-9a37-80461208f216',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '10b5a001-5bd8-4b31-a03a-823be1ffa0ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Christopher (@Christopher)
+  //  0848. Toxel
+  '2ace5d03-553a-46b9-a42e-75b76ac11d04': {
+    data: {
+      id: '2ace5d03-553a-46b9-a42e-75b76ac11d04',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fd557cfa-39b0-4fe4-9d39-131beb026c53',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0859. Impidimp
+  '1ff3b3ac-a74e-4067-bee1-10254e981404': {
+    data: {
+      id: '1ff3b3ac-a74e-4067-bee1-10254e981404',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '54deb667-a45a-4afc-898e-392d98b33e33',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0860. Morgrem
+  '6855ca6d-1967-419f-8a1e-591696de5082': {
+    data: {
+      id: '6855ca6d-1967-419f-8a1e-591696de5082',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1cb1ac9a-1239-4467-9697-cea9fd1ddde2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0861. Grimmsnarl
+  '070e5dd4-5d26-461e-95ba-d08b84b9a414': {
+    data: {
+      id: '070e5dd4-5d26-461e-95ba-d08b84b9a414',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f47e8fa-7a54-4ed1-bf39-ce20e4fdaf3e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Keagan (@Keagan)
+  //  0945. Grafaiai
+  '90089362-87e8-4df5-b1ba-b482c1e6aa53': {
+    data: {
+      id: '90089362-87e8-4df5-b1ba-b482c1e6aa53',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b26bad43-0180-44d5-809a-fac35f92c24f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
