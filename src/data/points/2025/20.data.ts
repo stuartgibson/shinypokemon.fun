@@ -495,4 +495,309 @@ export const pointsData2025_20: IPointEntities = {
       },
     },
   },
+
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Stuart (@stuart)
+  //  0736. Grubbin
+  '59f2a680-0002-497c-9a85-12db33a88b13': {
+    data: {
+      id: '59f2a680-0002-497c-9a85-12db33a88b13',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '509fa83d-48c9-441f-9896-143a602e2454',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Keagan (@Keagan)
+  //  0375. Metang
+  '7feaeff4-7a41-4eff-a779-9f6d51876db5': {
+    data: {
+      id: '7feaeff4-7a41-4eff-a779-9f6d51876db5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '92ceeed3-7543-4241-9a5f-eac4f97fbb75',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Stuart (@stuart)
+  //  0234. Stantler
+  '35eb7830-5a27-4135-8759-1a493c3d8766': {
+    data: {
+      id: '35eb7830-5a27-4135-8759-1a493c3d8766',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6931874b-a4ce-4abb-a16c-c6183a1668ab',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Keagan (@Keagan)
+  //  0066. Machop
+  '18f545a8-40a8-4898-8340-4520a120254a': {
+    data: {
+      id: '18f545a8-40a8-4898-8340-4520a120254a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a890ca5-12f0-4d54-b1bd-70fe694ea803',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0374. Beldum
+  'c11f98cd-e0ff-4b2c-9fe7-5affe44f14eb': {
+    data: {
+      id: 'c11f98cd-e0ff-4b2c-9fe7-5affe44f14eb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'efe1c7a0-9333-40cf-8017-6a04a9a4187d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0376. Metagross
+  'f0aab6ce-87a5-4c52-96ea-8f95834e6251': {
+    data: {
+      id: 'f0aab6ce-87a5-4c52-96ea-8f95834e6251',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4ba7f825-c1f4-4a92-9cd8-57d97a31ec0f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  1007. Koraidon
+  '300628e0-138f-4249-b448-359bbef33138': {
+    data: {
+      id: '300628e0-138f-4249-b448-359bbef33138',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5225adea-9aa5-4d0c-94fd-dcf00ea83999',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Transport Pokémon 28 Sep 2025  to 11 Oct 2025
+  //  Keagan (@Keagan)
+  //  0375. Metang
+  '68250968-9fa3-46a5-af3e-4a35a0deabda': {
+    data: {
+      id: '68250968-9fa3-46a5-af3e-4a35a0deabda',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '55965841-cb3e-4fe0-a349-5263937512b4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1cf8acbd-c839-4319-9be7-3b7e8659bdf2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '92ceeed3-7543-4241-9a5f-eac4f97fbb75',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
