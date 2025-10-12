@@ -2586,4 +2586,347 @@ export const pointsData2025_19: IPointEntities = {
       },
     },
   },
+
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0206. Dunsparce
+  'c86655cd-64a2-4aff-ad9d-ecb2f651f7e3': {
+    data: {
+      id: 'c86655cd-64a2-4aff-ad9d-ecb2f651f7e3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '41115700-66dd-40bf-a5bf-a8b1949b537b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0982. Dudunsparce
+  '49fbd2a6-38da-4427-9d28-4ba4453f87d4': {
+    data: {
+      id: '49fbd2a6-38da-4427-9d28-4ba4453f87d4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f838a0f2-c614-40b7-b3ad-c09e5b0e77be',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0448. Lucario
+  'e16c6bf7-80ca-4fc2-84bc-0209dc648502': {
+    data: {
+      id: 'e16c6bf7-80ca-4fc2-84bc-0209dc648502',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4de46c79-b0e0-4bc0-a686-f877f21fe6df',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0669. Flabébé
+  'f0e92a39-ebb1-4a66-8ca3-8dd46ec5f8fd': {
+    data: {
+      id: 'f0e92a39-ebb1-4a66-8ca3-8dd46ec5f8fd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0669. Flabébé
+  '4168a252-f49e-44b7-8ab3-6fd76a964d97': {
+    data: {
+      id: '4168a252-f49e-44b7-8ab3-6fd76a964d97',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0670. Floette
+  'bfe3642a-bd47-4bb0-af19-8a129c7c97eb': {
+    data: {
+      id: 'bfe3642a-bd47-4bb0-af19-8a129c7c97eb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0670. Floette
+  '972d69d8-53ef-4124-869a-8d3e15b1b256': {
+    data: {
+      id: '972d69d8-53ef-4124-869a-8d3e15b1b256',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0670. Floette
+  'c43e2d9f-1885-43bf-ab1e-e0ad32f6a1e0': {
+    data: {
+      id: 'c43e2d9f-1885-43bf-ab1e-e0ad32f6a1e0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Don't Cry for Me, Paldea 14 Sep 2025  to 27 Sep 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0670. Floette
+  '76dba750-13ba-49a1-ad7a-0321a2a4eac9': {
+    data: {
+      id: '76dba750-13ba-49a1-ad7a-0321a2a4eac9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '264213a3-e456-40e5-b46c-802629f0ef10',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
