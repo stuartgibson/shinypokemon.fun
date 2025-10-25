@@ -192,4 +192,157 @@ export const pointsData2025_21: IPointEntities = {
       },
     },
   },
+
+  //  Catch Fliers, Not Feelings. 12 Oct 2025  to 25 Oct 2025
+  //  Tone (@Tone)
+  //  0629. Vullaby
+  '171dbf9c-d8fe-4faf-94b2-25d6d8590273': {
+    data: {
+      id: '171dbf9c-d8fe-4faf-94b2-25d6d8590273',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '002a91b3-a2f3-465a-a2f6-062b4539583c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a646d513-ed8b-415b-b371-7653681bebbd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Catch Fliers, Not Feelings. 12 Oct 2025  to 25 Oct 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0581. Swanna
+  'c69d4226-b2f7-4dcc-abd1-ea9046c319ea': {
+    data: {
+      id: 'c69d4226-b2f7-4dcc-abd1-ea9046c319ea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '002a91b3-a2f3-465a-a2f6-062b4539583c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f677f96c-df1d-414d-8040-3c286aecc7cd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Catch Fliers, Not Feelings. 12 Oct 2025  to 25 Oct 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0041. Zubat
+  '2632c43b-88a2-49ba-8144-8163f4882540': {
+    data: {
+      id: '2632c43b-88a2-49ba-8144-8163f4882540',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '002a91b3-a2f3-465a-a2f6-062b4539583c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7702c983-82e2-4133-b77f-720fdd1a3187',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Catch Fliers, Not Feelings. 12 Oct 2025  to 25 Oct 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0629. Vullaby
+  'c7786b2c-e50e-4f33-8493-63998fec01f2': {
+    data: {
+      id: 'c7786b2c-e50e-4f33-8493-63998fec01f2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-10-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '002a91b3-a2f3-465a-a2f6-062b4539583c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a646d513-ed8b-415b-b371-7653681bebbd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
