@@ -305,4 +305,81 @@ export const pointsData2025_22: IPointEntities = {
       },
     },
   },
+
+  //  Spooky Season 26 Oct 2025  to 8 Nov 2025
+  //  Tone (@Tone)
+  //  0722. Rowlet
+  '042f7bb5-4952-43fc-93cd-837db6e9c5e0': {
+    data: {
+      id: '042f7bb5-4952-43fc-93cd-837db6e9c5e0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-11-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b538dca6-57f3-4cd5-90bf-3a465542df76',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5e001d3-94f1-4b6f-b7b7-d7a9ebb20ee1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spooky Season 26 Oct 2025  to 8 Nov 2025
+  //  Tone (@Tone)
+  //  0656. Froakie
+  '44990c15-efa0-4d5e-83ae-7d689f74193e': {
+    data: {
+      id: '44990c15-efa0-4d5e-83ae-7d689f74193e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-11-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b538dca6-57f3-4cd5-90bf-3a465542df76',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
