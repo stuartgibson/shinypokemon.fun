@@ -29088,7 +29088,6 @@ export const competitionsData2025: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
-
   '41d0c8e7-5768-47d0-a4b5-72d32f049efd': {
     data: {
       type: 'competition',
