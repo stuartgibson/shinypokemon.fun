@@ -30405,4 +30405,33 @@ export const competitionsData2025: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
+
+  '0238c9e3-11ce-4b25-8822-84a621918dd0': {
+    data: {
+      type: 'competition',
+      id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+      attributes: {
+        description:
+          'End of year, any Pokémon counts (usual rules around uniqueness)',
+        endDate: '2025-12-20',
+        startDate: '2025-12-07',
+        theme: 'Free For All',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2025',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };
