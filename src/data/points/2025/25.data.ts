@@ -1635,4 +1635,537 @@ export const pointsData2025_25: IPointEntities = {
       },
     },
   },
+
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0532. Timburr
+  '36bf8b78-ae81-48a4-bc37-b8d553456eff': {
+    data: {
+      id: '36bf8b78-ae81-48a4-bc37-b8d553456eff',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0060. Poliwag
+  '79c19044-6b57-4c8a-a18c-2caf5e6f752e': {
+    data: {
+      id: '79c19044-6b57-4c8a-a18c-2caf5e6f752e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0506. Lillipup
+  'e35c2a66-4215-4fac-b302-e9b7fc1fe508': {
+    data: {
+      id: 'e35c2a66-4215-4fac-b302-e9b7fc1fe508',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c7cf3c2e-8184-44d1-be99-62b89f498865',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0361. Snorunt
+  '7f9786cc-caaf-44a3-aea0-ef0e7534a07d': {
+    data: {
+      id: '7f9786cc-caaf-44a3-aea0-ef0e7534a07d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0509. Purrloin
+  '2cd9f426-e37a-4049-97aa-e5bbe7ffb162': {
+    data: {
+      id: '2cd9f426-e37a-4049-97aa-e5bbe7ffb162',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6b0dea8a-3f3b-4bd6-af64-8d84649625cd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0504. Patrat
+  'c3c45867-5595-4d39-9939-a2920c308675': {
+    data: {
+      id: 'c3c45867-5595-4d39-9939-a2920c308675',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b139d84a-aff0-4c49-abc7-c59372cfaab8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0083. Farfetch'd
+  'e8afb337-de64-4119-bbce-18a242022699': {
+    data: {
+      id: 'e8afb337-de64-4119-bbce-18a242022699',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f58c0893-6bb3-4a25-9575-58e62d5d2ccf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0512. Simisage
+  '7afee60e-c072-482f-8243-45cb369053c5': {
+    data: {
+      id: '7afee60e-c072-482f-8243-45cb369053c5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9edae28b-42df-45ee-b38e-5197bcbb8062',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0167. Spinarak
+  'c32f791b-e4b0-4004-896e-9c1cae8d10a8': {
+    data: {
+      id: 'c32f791b-e4b0-4004-896e-9c1cae8d10a8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '16b77d80-6e39-4faf-a51d-0f218fbdc1d0',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0511. Pansage
+  'e90b32e0-9916-4053-87be-58a2c1b6a3cd': {
+    data: {
+      id: 'e90b32e0-9916-4053-87be-58a2c1b6a3cd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ab32e387-5435-4bc4-86d5-462a8867f1bf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0427. Buneary
+  '8ead6410-acc1-450a-aa6e-274e1c95a421': {
+    data: {
+      id: '8ead6410-acc1-450a-aa6e-274e1c95a421',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a269af69-71bb-472d-87b7-195e46062ba3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0498. Tepig
+  'b7832731-33fb-45a9-b1f0-1c7858a2a7ac': {
+    data: {
+      id: 'b7832731-33fb-45a9-b1f0-1c7858a2a7ac',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6f4622b1-d9c5-41a9-b83b-970743131a7c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0302. Sableye
+  'e503ca90-e565-4d50-906d-017c1cfa5a15': {
+    data: {
+      id: 'e503ca90-e565-4d50-906d-017c1cfa5a15',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '660c3b60-e28f-4639-be49-39889334c531',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Free For All 7 Dec 2025  to 20 Dec 2025
+  //  Lewis Dobie (@Lewthelegend)
+  //  0559. Scraggy
+  '73c9d5e6-bc59-4156-9231-69188fc97193': {
+    data: {
+      id: '73c9d5e6-bc59-4156-9231-69188fc97193',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2025-12-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '0238c9e3-11ce-4b25-8822-84a621918dd0',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3b77cf43-32e8-4e19-96ec-00a6afd6906f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
