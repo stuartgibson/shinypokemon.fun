@@ -30405,7 +30405,6 @@ export const competitionsData2025: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
-
   '0238c9e3-11ce-4b25-8822-84a621918dd0': {
     data: {
       type: 'competition',
