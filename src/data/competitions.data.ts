@@ -8,6 +8,7 @@ import { competitionsData2022 } from './competitions/2022.data';
 import { competitionsData2023 } from './competitions/2023.data';
 import { competitionsData2024 } from './competitions/2024.data';
 import { competitionsData2025 } from './competitions/2025.data';
+import { competitionsData2026 } from './competitions/2026.data';
 
 export const competitionsData: { [id: string]: ICompetitionEntity } = {
   ...competitionsData2017,
@@ -19,4 +20,5 @@ export const competitionsData: { [id: string]: ICompetitionEntity } = {
   ...competitionsData2023,
   ...competitionsData2024,
   ...competitionsData2025,
+  ...competitionsData2026,
 };
