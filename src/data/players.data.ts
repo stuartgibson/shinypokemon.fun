@@ -991,4 +991,26 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Eden (@FlusherBore)
+  '85ea4741-ecd3-4493-a24d-88aaf8cd2253': {
+    data: {
+      type: 'player' as 'player',
+      id: '85ea4741-ecd3-4493-a24d-88aaf8cd2253',
+      attributes: {
+        realName: 'Eden',
+        displayName: 'FlusherBore',
+      },
+    },
+  },
+  // Alex Benary-Mann (@Alex Benary-Mann)
+  '942c90db-ca72-4d25-8c2f-e75a197e5004': {
+    data: {
+      type: 'player' as 'player',
+      id: '942c90db-ca72-4d25-8c2f-e75a197e5004',
+      attributes: {
+        realName: 'Alex Benary-Mann',
+        displayName: 'Alex Benary-Mann',
+      },
+    },
+  },
 };
