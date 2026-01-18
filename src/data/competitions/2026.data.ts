@@ -1255,4 +1255,215 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
+  '38511f37-e4dd-4f26-b075-669d7df189ba': {
+    data: {
+      type: 'competition',
+      id: '38511f37-e4dd-4f26-b075-669d7df189ba',
+      attributes: {
+        description:
+          'All monkey/primate Pokemon (With Tropius as a bonus).\r\n\r\nYou may claim one point from Grookey Community Day for this theme.',
+        endDate: '2026-01-31',
+        startDate: '2026-01-18',
+        theme: 'All out Bananas!',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+          {
+            data: {
+              // Mankey remove
+              id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Primeape remove
+              id: '8b96d379-f31b-4c69-84f0-66f6df3e397f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Annihilape remove
+              id: '8833b9a4-399e-4a43-a864-3e1b0393fd01',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Aipom remove
+              id: 'b47d4a57-6547-4a1c-a2bc-4e4aca095d46',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Ambipom remove
+              id: '0c43aed8-0b5b-4052-9435-713e64a279ac',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Slakoth remove
+              id: '41c73fdf-60f6-4139-b418-b226f76199e4',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Vigoroth remove
+              id: '5315b47d-b3ca-4175-afeb-7020049d70a4',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Slaking remove
+              id: '8f4452fb-da3a-423e-a0c4-64bed59f5173',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Chimchar remove
+              id: '27c6fafd-8273-4951-a5e1-8c7727a16333',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Monferno remove
+              id: 'd7efade3-58f8-4789-b7b1-aeb4f070156b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Infernape remove
+              id: '13c65177-38fd-4987-822f-f76671a94e5a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Pansage remove
+              id: 'ab32e387-5435-4bc4-86d5-462a8867f1bf',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Simisage remove
+              id: '9edae28b-42df-45ee-b38e-5197bcbb8062',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Panpour remove
+              id: 'dfd21c51-0564-4745-b017-61b1733962b9',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Simipour remove
+              id: 'd4e169c2-c775-4c51-97bc-420980939766',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Pansear remove
+              id: 'c4ecec83-9656-4194-8c47-5a5b00c10628',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Simisear remove
+              id: '556e90c1-1fe0-404d-81cf-108d7ed193a5',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Darumaka remove
+              id: '1bbbb3da-d90e-4cbe-83f1-807358a6d35c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Darmanitan remove
+              id: '7b16a8cc-41ec-41d5-b04e-69e77765777e',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Oranguru remove
+              id: '65cb7a97-ff74-4733-932b-a0e4ac7cdfdf',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Passimian remove
+              id: '81d0f9f3-c739-4b44-acd5-f76b00152f1f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Grookey remove
+              id: '3ca532e9-3cb5-44f4-b157-08ce4b3bf578',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Thwackey remove
+              id: '9b7fb41a-f2a7-4a05-b484-8152e50ac922',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Rillaboom remove
+              id: '81f20cbc-e206-46cb-8114-65e6a5637fbb',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Munkidori remove
+              id: '16706316-ea5d-46d7-9200-af7da0f0d265',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Tropius remove
+              id: 'd89bcb1c-7129-483b-9ff4-6de0b5566505',
+              type: 'pokemon',
+            },
+          },
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };

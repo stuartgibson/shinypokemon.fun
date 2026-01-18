@@ -1013,4 +1013,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Deathrite (@Deathrite)
+  '2123e057-079c-42d2-b9d6-a15dfef99a51': {
+    data: {
+      type: 'player' as 'player',
+      id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+      attributes: {
+        realName: 'Deathrite',
+        displayName: 'Deathrite',
+      },
+    },
+  },
 };
