@@ -572,4 +572,81 @@ export const pointsData2026_02: IPointEntities = {
       },
     },
   },
+
+  //  All out Bananas! 18 Jan 2026  to 31 Jan 2026
+  //  Deathrite (@Deathrite)
+  //  0514. Simisear
+  '44a4ae8f-6841-48b0-afc7-2336c6f1a309': {
+    data: {
+      id: '44a4ae8f-6841-48b0-afc7-2336c6f1a309',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-01-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '38511f37-e4dd-4f26-b075-669d7df189ba',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '556e90c1-1fe0-404d-81cf-108d7ed193a5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  All out Bananas! 18 Jan 2026  to 31 Jan 2026
+  //  Deathrite (@Deathrite)
+  //  0513. Pansear
+  'c4a7d6c8-8904-41c6-9ded-b973d2ef4e43': {
+    data: {
+      id: 'c4a7d6c8-8904-41c6-9ded-b973d2ef4e43',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-01-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '38511f37-e4dd-4f26-b075-669d7df189ba',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c4ecec83-9656-4194-8c47-5a5b00c10628',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
