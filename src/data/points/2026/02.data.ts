@@ -649,4 +649,81 @@ export const pointsData2026_02: IPointEntities = {
       },
     },
   },
+
+  //  All out Bananas! 18 Jan 2026  to 31 Jan 2026
+  //  Philip Starns (@Philip Starns)
+  //  0288. Vigoroth
+  '20ff41fc-84c8-41b2-be63-edc17d8f27a3': {
+    data: {
+      id: '20ff41fc-84c8-41b2-be63-edc17d8f27a3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-01-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '38511f37-e4dd-4f26-b075-669d7df189ba',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5315b47d-b3ca-4175-afeb-7020049d70a4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  All out Bananas! 18 Jan 2026  to 31 Jan 2026
+  //  Philip Starns (@Philip Starns)
+  //  0289. Slaking
+  'c60c4dfb-4fb9-4726-a973-dddd63efa759': {
+    data: {
+      id: 'c60c4dfb-4fb9-4726-a973-dddd63efa759',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-01-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '38511f37-e4dd-4f26-b075-669d7df189ba',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8f4452fb-da3a-423e-a0c4-64bed59f5173',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
