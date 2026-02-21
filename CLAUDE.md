@@ -24,7 +24,7 @@ Search for the pokemon by name in `src/data/pokemon/gen*.data.ts` (and `regional
 
 Search the current competition's points data file to see if any other player has already scored a point for this same pokemon. If no one has, set `firstCatch: true` — **with one exception**:
 
-**The theme chooser exception:** The player who selected the competition theme (listed in `relationships.selectedBy` on the competition) cannot receive `firstCatch: true`. If they are the first person to catch a pokemon, set their `firstCatch: false`. The next player to catch that same pokemon gets `firstCatch: true` instead. (The firstCatch winner chooses the next theme, but you cannot choose a theme twice in a row.)
+**The theme chooser exception:** The player who selected the competition theme (listed in `relationships.selectedBy` on the competition) cannot receive `firstCatch: true`. If they are the first person to catch a pokemon, set their `firstCatch: false`. The next player to score any point in the competition gets `firstCatch: true` instead. (The firstCatch winner chooses the next theme, but you cannot choose a theme twice in a row.)
 
 ## 6. Add the entry
 
