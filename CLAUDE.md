@@ -31,7 +31,7 @@ Search the current competition's points data file to see if any other player has
 Generate a new UUID for the entry. The format is:
 
 ```typescript
-  //  [Competition Theme] [Start Date D Mon YYYY]  to [End Date D Mon YYYY]
+  //  [Competition Theme] [Start Date D Mon YYYY] to [End Date D Mon YYYY]
   //  [Player Real Name] (@[Display Name])
   //  [Dex Number]. [Pokemon Name]
   '[new-uuid]': {
@@ -83,6 +83,6 @@ If a new `XX.data.ts` file is needed:
 - `ball`, `game`, and `method` are always `null` — we no longer track these
 - `oldSystemPoint` is always `false` for new entries
 - `value` is always `1` unless told otherwise
-- The comment date format uses a double space before "to" (e.g. `15 Feb 2026  to 7 Mar 2026`)
+- The comment date format uses a single space before "to" (e.g. `15 Feb 2026 to 7 Mar 2026`)
 - Dex numbers in comments are zero-padded to 4 digits (e.g. `0001`)
 - Never guess at ambiguous information from screenshots — always ask
