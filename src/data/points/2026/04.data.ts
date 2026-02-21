@@ -115,7 +115,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026  to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
   //  Philip Starns (@Philip Starns)
   //  0300. Skitty
   'f25a540f-1f30-43aa-bbba-78dcd5b0a1bf': {
@@ -126,8 +126,8 @@ export const pointsData2026_04: IPointEntities = {
         ball: null,
         catchDate: '2026-02-21',
         firstCatch: false,
-        game: 'brilliantDiamond',
-        method: 'radarDPPt',
+        game: null,
+        method: null,
         oldSystemPoint: false,
         value: 1,
       },
