@@ -153,4 +153,80 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
+  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Tone (@Tone)
+  //  0659. Bunnelby
+  '1c4b1922-2541-4e9c-b7a4-569fbbda2234': {
+    data: {
+      id: '1c4b1922-2541-4e9c-b7a4-569fbbda2234',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-02-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2749d135-2007-4c12-9046-a7bbcf8116d5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Tone (@Tone)
+  //  0690. Skrelp
+  'f95d7bf4-87ad-469d-9a8e-b61d6d76fac5': {
+    data: {
+      id: 'f95d7bf4-87ad-469d-9a8e-b61d6d76fac5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-02-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0b4905b3-bd2f-4714-bbdb-c88474d52b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
