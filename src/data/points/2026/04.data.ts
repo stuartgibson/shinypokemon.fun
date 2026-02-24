@@ -229,4 +229,42 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
+  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0690. Skrelp
+  'c40ebfed-936d-4728-b8f7-e5686428cff2': {
+    data: {
+      id: 'c40ebfed-936d-4728-b8f7-e5686428cff2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-02-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0b4905b3-bd2f-4714-bbdb-c88474d52b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
