@@ -726,4 +726,42 @@ export const pointsData2026_02: IPointEntities = {
       },
     },
   },
+  //  All out Bananas! 18 Jan 2026 to 31 Jan 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0810. Grookey
+  '6d44a927-b6c9-4765-8c87-f813ee3a2547': {
+    data: {
+      id: '6d44a927-b6c9-4765-8c87-f813ee3a2547',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-01-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '38511f37-e4dd-4f26-b075-669d7df189ba',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3ca532e9-3cb5-44f4-b157-08ce4b3bf578',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
