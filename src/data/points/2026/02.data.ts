@@ -764,4 +764,42 @@ export const pointsData2026_02: IPointEntities = {
       },
     },
   },
+  //  All out Bananas! 18 Jan 2026 to 31 Jan 2026
+  //  Christopher (@Christopher)
+  //  0810. Grookey
+  '94a5f8e1-9e14-4604-8317-5ccfe083b15d': {
+    data: {
+      id: '94a5f8e1-9e14-4604-8317-5ccfe083b15d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-01-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '38511f37-e4dd-4f26-b075-669d7df189ba',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3ca532e9-3cb5-44f4-b157-08ce4b3bf578',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
