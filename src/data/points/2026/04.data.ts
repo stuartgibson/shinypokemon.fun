@@ -267,4 +267,80 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
+  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0659. Bunnelby
+  '7de0a490-4292-4dac-bb3f-837fd517227b': {
+    data: {
+      id: '7de0a490-4292-4dac-bb3f-837fd517227b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-02-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2749d135-2007-4c12-9046-a7bbcf8116d5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0690. Skrelp
+  '56a8d059-b957-4a7b-9256-7b05adc88a55': {
+    data: {
+      id: '56a8d059-b957-4a7b-9256-7b05adc88a55',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-02-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0b4905b3-bd2f-4714-bbdb-c88474d52b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
