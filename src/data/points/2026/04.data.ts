@@ -343,4 +343,42 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
+  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Stuart (@stuart)
+  //  0510. Liepard
+  '1f6e24dc-e713-482e-8dfb-4b5af10e3ae3': {
+    data: {
+      id: '1f6e24dc-e713-482e-8dfb-4b5af10e3ae3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-02-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a1fd01be-9555-4bf6-a231-68bd6f50250b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
