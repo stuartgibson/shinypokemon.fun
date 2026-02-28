@@ -1,6 +1,6 @@
 import { provideZonelessChangeDetection, isDevMode } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideAnimations } from '@angular/platform-browser/animations';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideRouter, withInMemoryScrolling } from '@angular/router';
 import { provideRouterStore, routerReducer } from '@ngrx/router-store';
 import { provideStore } from '@ngrx/store';
@@ -15,7 +15,7 @@ bootstrapApplication(
     providers: [
       provideZonelessChangeDetection(),
       ...stateProviders,
-      provideAnimations(),
+      provideAnimationsAsync(),
       provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: 'enabled'})),
       provideRouterStore(),
       provideStore({router: routerReducer}),

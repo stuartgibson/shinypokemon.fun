@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, ElementRef, Signal, ViewChild, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ElementRef, Signal, viewChild, inject, signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
 import { PokemonActions } from 'store/actions';
@@ -22,7 +22,7 @@ type ParsedPokemon = {
 export class PokemonListGeneratorComponent {
   private readonly store: Store = inject(Store);
 
-  @ViewChild('pokemonTextArea') pokemonTextArea!: ElementRef;
+  readonly pokemonTextArea = viewChild.required<ElementRef>('pokemonTextArea');
 
   selectedPokemon:Signal<Pokemon[]> = this.store.selectSignal(Pokemons.selectSelectedPokemon);
   unselectedPokemon:Signal<Pokemon[]> = this.store.selectSignal(Pokemons.selectUnselectedPokemon);
@@ -63,7 +63,7 @@ export class PokemonListGeneratorComponent {
   onParse() : void {
     this.parsedPokemon = signal([]);
 
-    const textArea = this.pokemonTextArea.nativeElement.value;
+    const textArea = this.pokemonTextArea().nativeElement.value;
     for (const row of textArea.split('\n')) {
       const parsedPokemon = {
         text : row,
