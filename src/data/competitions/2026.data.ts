@@ -1725,10 +1725,10 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
       id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
       attributes: {
         description:
-          'Pokemon whose national pokédex number is a multiple of 30 (to celebrate Pokémon’s 30 anniversary this month)',
-        endDate: ‘2026-02-28’,
-        startDate: ‘2026-02-15’,
-        theme: ‘Pokémon 30’s’,
+          'Pokemon whose national pokédex number is a multiple of 30 (to celebrate Pokémon\'s 30 anniversary this month)',
+        endDate: '2026-02-28',
+        startDate: '2026-02-15',
+        theme: 'Pokémon 30\'s',
       },
       relationships: {
         selectedBy: {
