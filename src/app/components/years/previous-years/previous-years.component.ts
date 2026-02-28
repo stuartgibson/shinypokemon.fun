@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
 @Component({
     selector: 'sp-previous-years',
     templateUrl: './previous-years.component.html',
-    styleUrls: ['./previous-years.component.sass'],
+    styleUrl: './previous-years.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink]
 })

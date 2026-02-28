@@ -5,7 +5,7 @@ import { CurrentYearComponent } from '../../years/current-year/current-year.comp
 @Component({
     selector: 'sp-competition-nav',
     templateUrl: './competition-nav.component.html',
-    styleUrls: ['./competition-nav.component.sass'],
+    styleUrl: './competition-nav.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [CurrentYearComponent, PreviousYearsComponent]
 })

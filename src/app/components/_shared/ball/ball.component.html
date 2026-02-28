@@ -1,11 +1,11 @@
 
-@if(!!ball) {
+@if(ball(); as ball) {
   <span class="d-flex align-items-center">
     <span class="img-box">
       <img
         src="assets/images/balls.png"
-        [alt]="ball!.name"
-        style="object-position: {{ -24 * ball!.xOffset }}px {{ -24 * ball!.yOffset }}px;">
+        [alt]="ball.name"
+        style="object-position: {{ -24 * ball.xOffset }}px {{ -24 * ball.yOffset }}px;">
     </span>
   </span>
 } @else {

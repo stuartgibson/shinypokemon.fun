@@ -8,7 +8,7 @@ import { InlinePlayerComponent } from "../../player/inline-player/inline-player.
 @Component({
     selector: 'sp-most-points',
     templateUrl: './most-points.component.html',
-    styleUrls: ['./most-points.component.sass'],
+    styleUrl: './most-points.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent]
 })

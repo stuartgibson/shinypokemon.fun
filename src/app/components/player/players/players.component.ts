@@ -5,7 +5,7 @@ import { InlinePlayerComponent } from '../inline-player/inline-player.component'
 
 @Component({
     templateUrl: './players.component.html',
-    styleUrls: ['./players.component.sass'],
+    styleUrl: './players.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent]
 })

@@ -12,7 +12,7 @@ import { NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavC
 
 @Component({
     templateUrl: './generators.component.html',
-    styleUrls: ['./generators.component.sass'],
+    styleUrl: './generators.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavContent, PointsGeneratorComponent, CompetitionGeneratorComponent, PokemonListGeneratorComponent, NgbNavOutlet]
 })

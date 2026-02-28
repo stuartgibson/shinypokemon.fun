@@ -1,27 +1,17 @@
-import { ChangeDetectionStrategy, Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { Method } from 'models/method.model';
+import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { getMethod } from 'src/app/helpers/methods.helper';
 import { MethodType } from 'types/method.types';
 
 @Component({
     selector: 'sp-method',
     templateUrl: './method.component.html',
-    styleUrls: ['./method.component.sass'],
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true
+    styleUrl: './method.component.sass',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class MethodComponent implements OnChanges {
-  @Input() methodType:MethodType|null = null;
-
-  method:Method|null = null;
-
-  constructor() {}
-
-  ngOnChanges(changes: SimpleChanges): void {
-    if( this.methodType ) {
-      this.method = getMethod(this.methodType);
-    } else {
-      this.method = null;
-    }
-  }
+export class MethodComponent {
+  readonly methodType = input<MethodType | null>(null);
+  readonly method = computed(() => {
+    const mt = this.methodType();
+    return mt ? getMethod(mt) : null;
+  });
 }

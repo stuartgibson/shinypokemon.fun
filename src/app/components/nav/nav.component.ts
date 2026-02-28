@@ -4,7 +4,7 @@ import { RouterLink } from '@angular/router';
 @Component({
     selector: 'sp-nav',
     templateUrl: './nav.component.html',
-    styleUrls: ['./nav.component.sass'],
+    styleUrl: './nav.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink]
 })

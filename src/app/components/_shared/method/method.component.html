@@ -1,4 +1,4 @@
 <span>
-  @if(!!method) { {{ method!.name }} }
+  @if(method(); as method) { {{ method.name }} }
   @else { &mdash; }
 </span>

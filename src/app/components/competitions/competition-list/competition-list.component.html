@@ -1,6 +1,6 @@
-@if (competitions.length) {
+@if (competitions().length) {
   <ol class="list-unstyled">
-    @for (competition of competitions; track competition; let isLast = $last) {
+    @for (competition of competitions(); track competition; let isLast = $last) {
       <li>
         <div class="smart-layout-evenly align-items-center">
           <a

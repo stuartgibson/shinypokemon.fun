@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -16,10 +15,9 @@ import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competi
 @Component({
   selector: 'sp-trophy-competition-page-infographic',
   templateUrl: './trophy-competition-page-infographic.component.html',
-  styleUrls: ['./trophy-competition-page-infographic.component.sass'],
+  styleUrl: './trophy-competition-page-infographic.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [CommonModule, TrophyCompetitionComponent, RouterLink],
+  imports: [TrophyCompetitionComponent, RouterLink],
 })
 export class TrophyCompetitionPageInfographicComponent {
   private readonly store: Store = inject(Store);

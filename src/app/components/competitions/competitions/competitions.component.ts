@@ -14,7 +14,7 @@ import {
 @Component({
   selector: 'sp-competitions',
   templateUrl: './competitions.component.html',
-  styleUrls: ['./competitions.component.sass'],
+  styleUrl: './competitions.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink],
 })

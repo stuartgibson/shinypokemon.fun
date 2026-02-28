@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import {
   ChangeDetectionStrategy,
   Component,
@@ -17,15 +17,14 @@ import { CurrentCompetitionComponent } from '../competitions/current-competition
 @Component({
   selector: 'sp-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.sass'],
+  styleUrl: './home.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
-    CommonModule,
     CurrentCompetitionComponent,
     CompetitionComponent,
     CompetitionNavComponent,
-    RouterLink,
-  ],
+    RouterLink
+],
 })
 export class HomeComponent {
   private readonly store: Store = inject(Store);

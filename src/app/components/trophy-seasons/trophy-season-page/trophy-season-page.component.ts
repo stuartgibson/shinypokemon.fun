@@ -15,7 +15,7 @@ import { InlinePlayerComponent } from '../../player/inline-player/inline-player.
 
 @Component({
   templateUrl: './trophy-season-page.component.html',
-  styleUrls: ['./trophy-season-page.component.sass'],
+  styleUrl: './trophy-season-page.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CompetitionListComponent, InlinePlayerComponent],
 })

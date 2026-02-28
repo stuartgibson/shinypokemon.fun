@@ -1,25 +1,17 @@
-import { ChangeDetectionStrategy, Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { Ball } from 'models/ball.model';
+import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { getBall } from 'src/app/helpers/balls.helper';
 import { BallType } from 'types/ball.types';
 
 @Component({
     selector: 'sp-ball',
     templateUrl: './ball.component.html',
-    styleUrls: ['./ball.component.sass'],
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true
+    styleUrl: './ball.component.sass',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class BallComponent implements OnChanges {
-  @Input() ballType:BallType|null = null;
-
-  ball:Ball|null = null;
-
-  ngOnChanges(changes: SimpleChanges): void {
-    if( this.ballType ) {
-      this.ball = getBall(this.ballType);
-    } else {
-      this.ball = null;
-    }
-  }
+export class BallComponent {
+  readonly ballType = input<BallType | null>(null);
+  readonly ball = computed(() => {
+    const bt = this.ballType();
+    return bt ? getBall(bt) : null;
+  });
 }

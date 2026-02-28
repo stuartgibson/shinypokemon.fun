@@ -1,11 +1,9 @@
 import {
   ChangeDetectionStrategy,
-  ChangeDetectorRef,
   Component,
-  inject,
-  Input,
+  signal,
+  input
 } from '@angular/core';
-import { timer } from 'rxjs';
 
 const COPY_TEXT = 'Copy To Clipboard';
 const COPIED_TEXT = '✓ Copied!';
@@ -13,22 +11,15 @@ const COPIED_TEXT = '✓ Copied!';
 @Component({
     selector: 'sp-copy-to-clipboard',
     templateUrl: './copy-to-clipboard.component.html',
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    imports: []
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CopyToClipboardComponent {
-  @Input() sourceElement!: HTMLElement;
-  text: string = COPY_TEXT;
-
-  private readonly changeDetector: ChangeDetectorRef =
-    inject(ChangeDetectorRef);
+  readonly sourceElement = input.required<HTMLElement>();
+  text = signal(COPY_TEXT);
 
   copyText(): void {
-    navigator.clipboard.writeText(this.sourceElement.innerText);
-    this.text = COPIED_TEXT;
-    timer(2000).subscribe(() => {
-      this.text = COPY_TEXT;
-      this.changeDetector.detectChanges();
-    });
+    navigator.clipboard.writeText(this.sourceElement().innerText);
+    this.text.set(COPIED_TEXT);
+    setTimeout(() => this.text.set(COPY_TEXT), 2000);
   }
 }

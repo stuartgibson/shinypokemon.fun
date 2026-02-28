@@ -14,7 +14,7 @@ import {
 @Component({
   selector: 'sp-trophy-seasons',
   templateUrl: './trophy-seasons.component.html',
-  styleUrls: ['./trophy-seasons.component.sass'],
+  styleUrl: './trophy-seasons.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink],
 })

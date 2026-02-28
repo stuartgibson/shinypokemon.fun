@@ -2,9 +2,9 @@ import {
   ChangeDetectionStrategy,
   Component,
   inject,
-  Input,
   OnInit,
   Signal,
+  input
 } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import {
@@ -36,7 +36,7 @@ import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-poke
 @Component({
   selector: 'sp-points-generator',
   templateUrl: './points-generator.component.html',
-  styleUrls: ['./points-generator.component.sass'],
+  styleUrl: './points-generator.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     InlineCompetitionComponent,
@@ -50,10 +50,10 @@ import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-poke
   ],
 })
 export class PointsGeneratorComponent implements OnInit {
-  @Input() allPokemon: Pokemon[] = [];
-  @Input() competitions: Competition[] = [];
-  @Input() currentCompetition: Competition | null = null;
-  @Input() players: Player[] = [];
+  readonly allPokemon = input<Pokemon[]>([]);
+  readonly competitions = input<Competition[]>([]);
+  readonly currentCompetition = input<Competition | null>(null);
+  readonly players = input<Player[]>([]);
 
   private readonly store: Store = inject(Store);
   private readonly fb: FormBuilder = inject(FormBuilder);
@@ -91,7 +91,7 @@ export class PointsGeneratorComponent implements OnInit {
 
     this.pointForm.patchValue({
       catchDate: date,
-      competition: this.currentCompetition,
+      competition: this.currentCompetition(),
     });
   }
 
@@ -113,8 +113,8 @@ export class PointsGeneratorComponent implements OnInit {
       debounceTime(200),
       map((term) =>
         term === ''
-          ? this.competitions
-          : this.competitions
+          ? this.competitions()
+          : this.competitions()
               .filter(
                 (competition) =>
                   competition.theme.toLowerCase().indexOf(term.toLowerCase()) >
@@ -132,8 +132,8 @@ export class PointsGeneratorComponent implements OnInit {
       debounceTime(200),
       map((term) =>
         term === ''
-          ? this.players
-          : this.players
+          ? this.players()
+          : this.players()
               .filter(
                 (player) =>
                   player.formattedName
@@ -152,8 +152,8 @@ export class PointsGeneratorComponent implements OnInit {
       debounceTime(200),
       map((term) =>
         term === ''
-          ? this.allPokemon
-          : this.allPokemon
+          ? this.allPokemon()
+          : this.allPokemon()
               .filter(
                 (pokemon) =>
                   pokemon.name.toLowerCase().indexOf(term.toLowerCase()) > -1

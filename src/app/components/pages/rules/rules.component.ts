@@ -4,7 +4,7 @@ import { NgbPopover } from '@ng-bootstrap/ng-bootstrap';
 @Component({
     selector: 'sp-rules',
     templateUrl: './rules.component.html',
-    styleUrls: ['./rules.component.sass'],
+    styleUrl: './rules.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [NgbPopover]
 })

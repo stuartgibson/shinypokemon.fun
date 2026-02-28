@@ -19,7 +19,7 @@ import { CompetitionComponent } from '../competition/competition.component';
 @Component({
   selector: 'sp-competition-page',
   templateUrl: './competition-page.component.html',
-  styleUrls: ['./competition-page.component.sass'],
+  styleUrl: './competition-page.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CompetitionComponent, PointComponent, PokemonComponent, RouterLink],
 })
