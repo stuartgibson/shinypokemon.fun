@@ -1,8 +1,8 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  DestroyRef,
   inject,
-  OnDestroy,
   Signal,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -23,20 +23,22 @@ import { CompetitionComponent } from '../competition/competition.component';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CompetitionComponent, PointComponent, PokemonComponent, RouterLink],
 })
-export class CompetitionPageComponent implements OnDestroy {
+export class CompetitionPageComponent {
   private readonly store: Store = inject(Store);
 
   vm: Signal<CompetitionPageViewModel> = this.store.selectSignal(
     competitionPageViewModel
   );
 
+  constructor() {
+    inject(DestroyRef).onDestroy(() => {
+      this.store.dispatch(CompetitionActions.clear());
+    });
+  }
+
   filterPokemon(event: any): void {
     this.store.dispatch(
       CompetitionActions.filter({ query: event.target.value })
     );
-  }
-
-  ngOnDestroy(): void {
-    this.store.dispatch(CompetitionActions.clear());
   }
 }

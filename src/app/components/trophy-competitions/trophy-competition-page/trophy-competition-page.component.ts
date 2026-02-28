@@ -1,8 +1,8 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  DestroyRef,
   inject,
-  OnDestroy,
   Signal,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -28,20 +28,22 @@ import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competi
     RouterLink,
   ],
 })
-export class TrophyCompetitionPageComponent implements OnDestroy {
+export class TrophyCompetitionPageComponent {
   private readonly store: Store = inject(Store);
 
   vm: Signal<TrophyCompetitionPageViewModel> = this.store.selectSignal(
     trophyCompetitionPageViewModel
   );
 
+  constructor() {
+    inject(DestroyRef).onDestroy(() => {
+      this.store.dispatch(TrophyCompetitionActions.clear());
+    });
+  }
+
   filterPokemon(event: any): void {
     this.store.dispatch(
       TrophyCompetitionActions.filter({ query: event.target.value })
     );
-  }
-
-  ngOnDestroy(): void {
-    this.store.dispatch(TrophyCompetitionActions.clear());
   }
 }
