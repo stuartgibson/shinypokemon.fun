@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, Input, OnInit, Signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnInit, Signal, input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Player } from 'models/player.model';
 import { Players } from 'store/reducers';
@@ -12,17 +12,18 @@ import { RouterLink } from '@angular/router';
     imports: [RouterLink]
 })
 export class InlinePlayerComponent implements OnInit {
-  @Input() id!:string|null;
+  readonly id = input.required<string | null>();
 
   private readonly store:Store = inject(Store);
 
   player!:Signal<Player|null>;
 
   ngOnInit():void {
-    if(!this.id) return;
+    const id = this.id();
+    if(!id) return;
 
     this.player = this.store.selectSignal(
-      Players.selectByID(this.id)
+      Players.selectByID(id)
     );
   }
 }

@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { GeneratorsComponent } from './components/admin/generators/generators.component';
 import { CompetitionPageInfographicComponent } from './components/competitions/competition-page/competition-page-infographic.component';
 import { CompetitionPageComponent } from './components/competitions/competition-page/competition-page.component';
 import { CompetitionsComponent } from './components/competitions/competitions/competitions.component';
@@ -45,7 +44,7 @@ export const routes: Routes = [
   },
   {
     path: 'admin/generators',
-    component: GeneratorsComponent,
+    loadComponent: () => import('./components/admin/generators/generators.component').then(m => m.GeneratorsComponent),
   },
   {
     path: 'players',

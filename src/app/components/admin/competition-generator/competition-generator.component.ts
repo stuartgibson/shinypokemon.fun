@@ -2,8 +2,8 @@ import {
   ChangeDetectionStrategy,
   Component,
   inject,
-  Input,
   Signal,
+  input
 } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import {
@@ -33,7 +33,7 @@ import { CopyToClipboardComponent } from '../../_shared/copy-to-clipboard/copy-t
     ]
 })
 export class CompetitionGeneratorComponent {
-  @Input() players: Player[] = [];
+  readonly players = input<Player[]>([]);
 
   private readonly store: Store = inject(Store);
   private readonly fb: FormBuilder = inject(FormBuilder);
@@ -77,8 +77,8 @@ export class CompetitionGeneratorComponent {
       debounceTime(200),
       map((term) =>
         term === ''
-          ? this.players
-          : this.players
+          ? this.players()
+          : this.players()
               .filter(
                 (player) =>
                   player.formattedName

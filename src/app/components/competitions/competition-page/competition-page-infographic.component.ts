@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -18,7 +17,7 @@ import { CompetitionComponent } from '../competition/competition.component';
     templateUrl: './competition-page-infographic.component.html',
     styleUrls: ['./competition-page-infographic.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
-    imports: [CommonModule, CompetitionComponent, RouterLink]
+    imports: [CompetitionComponent, RouterLink]
 })
 export class CompetitionPageInfographicComponent {
   private readonly store: Store = inject(Store);

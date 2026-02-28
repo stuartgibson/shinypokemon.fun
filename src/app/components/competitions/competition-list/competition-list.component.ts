@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { Competition } from 'models/competition.model';
 import { DateRangeComponent } from '../../_shared/date-range/date-range.component';
 import { RouterLink } from '@angular/router';
@@ -11,5 +11,5 @@ import { RouterLink } from '@angular/router';
     imports: [RouterLink, DateRangeComponent]
 })
 export class CompetitionListComponent {
-  @Input() competitions!:Competition[];
+  readonly competitions = input.required<Competition[]>();
 }

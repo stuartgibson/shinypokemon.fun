@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { DateTimeFormatterType } from 'src/types/date-time-formatter.types';
 import { DateComponent } from '../date/date.component';
 
@@ -10,9 +10,9 @@ import { DateComponent } from '../date/date.component';
     imports: [DateComponent]
 })
 export class DateRangeComponent {
-  @Input() startDate:Date|null = null;
-  @Input() endDate:Date|null = null;
-  @Input() format?:DateTimeFormatterType;
+  readonly startDate = input<Date | null>(null);
+  readonly endDate = input<Date | null>(null);
+  readonly format = input<DateTimeFormatterType>('date');
 
   constructor() {}
 }

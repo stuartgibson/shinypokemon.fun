@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnChanges, SimpleChanges, input } from '@angular/core';
 import { Method } from 'models/method.model';
 import { getMethod } from 'src/app/helpers/methods.helper';
 import { MethodType } from 'types/method.types';
@@ -7,19 +7,19 @@ import { MethodType } from 'types/method.types';
     selector: 'sp-method',
     templateUrl: './method.component.html',
     styleUrls: ['./method.component.sass'],
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MethodComponent implements OnChanges {
-  @Input() methodType:MethodType|null = null;
+  readonly methodType = input<MethodType | null>(null);
 
   method:Method|null = null;
 
   constructor() {}
 
   ngOnChanges(changes: SimpleChanges): void {
-    if( this.methodType ) {
-      this.method = getMethod(this.methodType);
+    const methodType = this.methodType();
+    if( methodType ) {
+      this.method = getMethod(methodType);
     } else {
       this.method = null;
     }

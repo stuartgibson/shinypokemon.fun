@@ -8,7 +8,6 @@ import { DateRangeComponent } from '../../_shared/date-range/date-range.componen
   templateUrl: './trophy-competition.component.html',
   styleUrls: ['./trophy-competition.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [RouterLink, DateRangeComponent],
 })
 export class TrophyCompetitionComponent {

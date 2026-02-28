@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { formatDateTime } from 'src/app/helpers/dates.helper';
 import { DateTimeFormatterType } from 'src/types/date-time-formatter.types';
 
@@ -6,19 +6,14 @@ import { DateTimeFormatterType } from 'src/types/date-time-formatter.types';
     selector: 'sp-date',
     templateUrl: './date.component.html',
     styleUrls: ['./date.component.sass'],
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class DateComponent implements OnInit {
-  @Input() date:Date|null = null;
-  @Input() format?:DateTimeFormatterType;
+export class DateComponent {
+  readonly date = input<Date | null>(null);
+  readonly format = input<DateTimeFormatterType>('date');
 
-  constructor() {}
-
-  ngOnInit(): void {
-    this.format ||= 'date';
+  dateFormatted = (): string | null => {
+    const date = this.date();
+    return date ? formatDateTime(date, this.format()) : null;
   }
-
-  dateFormatted = ():string|null =>
-    this.date ? formatDateTime(this.date, this.format) : null
 }

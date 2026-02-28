@@ -1,6 +1,6 @@
 
 
-import { enableProdMode, provideZoneChangeDetection } from '@angular/core';
+import { enableProdMode, provideZonelessChangeDetection } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideRouter, withInMemoryScrolling } from '@angular/router';
@@ -20,7 +20,7 @@ bootstrapApplication(
   AppComponent,
   {
     providers: [
-      provideZoneChangeDetection(),...stateProviders,
+      provideZonelessChangeDetection(),...stateProviders,
       provideAnimations(),
       provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: 'enabled'})),
       provideRouterStore(),

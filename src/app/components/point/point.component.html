@@ -1,34 +1,34 @@
-@if (!!point) {
+@if (!!point()) {
   <div class="card">
-    <div class="bg-image" [ngStyle]="{'background-image': pokemon()?.artwork}"></div>
+    <div class="bg-image" [style.background-image]="pokemon()?.artwork"></div>
     <div class="card-body">
       <div class="d-flex mb-3 gap-1">
-        @if (point.firstCatch) {
+        @if (point().firstCatch) {
           <span title="First Catch!">🏆</span>
         }
-        <sp-inline-player [id]="point.playerID" />
+        <sp-inline-player [id]="point().playerID" />
       </div>
 
       <dl>
         <div class="d-flex align-items-center gap-3">
           <dt>Pokémon:</dt>
           <dd class="m-0">
-            <sp-inline-pokemon [id]="point.pokemonID" />
+            <sp-inline-pokemon [id]="point().pokemonID" />
           </dd>
         </div>
 
         <div class="d-flex align-items-center gap-3">
           <dt>Points:</dt>
           <dd class="m-0">
-            {{ point.value}}
+            {{ point().value}}
           </dd>
         </div>
 
-        @if (point.notes) {
+        @if (point().notes) {
           <div class="d-flex align-items-center gap-3">
             <dt>Notes:</dt>
             <dd class="m-0">
-              {{ point.notes }}
+              {{ point().notes }}
             </dd>
           </div>
         }

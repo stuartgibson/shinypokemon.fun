@@ -1,19 +1,19 @@
-@if (!!id) {
+@if (!!id()) {
   <div class="card">
-    <div class="bg-image" [ngStyle]="{'background-image': pokemon()?.artwork}"></div>
+    <div class="bg-image" [style.background-image]="pokemon()?.artwork"></div>
     <div class="card-body">
       <div class="d-flex flex-wrap">
         <dl class="d-flex flex-even" style="flex-basis: 15rem">
           <div class="flex-even">
             <dt>Pokémon:</dt>
             <dd class="d-flex gap-1">
-              <sp-inline-pokemon [id]="id" />
+              <sp-inline-pokemon [id]="id()" />
             </dd>
           </div>
           <div class="flex-even">
             <dt>Count:</dt>
             <dd class="d-flex gap-1">
-              {{value}}
+              {{value()}}
             </dd>
           </div>
         </dl>

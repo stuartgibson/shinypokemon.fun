@@ -21,7 +21,6 @@ import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competi
   templateUrl: './trophy-competition-page.component.html',
   styleUrls: ['./trophy-competition-page.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
   imports: [
     TrophyCompetitionComponent,
     PointComponent,

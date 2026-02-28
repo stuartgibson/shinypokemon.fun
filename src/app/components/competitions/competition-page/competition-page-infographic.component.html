@@ -17,7 +17,7 @@
     @for (pokemon of vm().validPokemon; track pokemon.id) {
       <div class="pokemon-box card">
         <div class="card-body d-flex flex-column align-items-middle justify-content-between">
-          <div class="pokemon-image bg-image flex-grow-1" [ngStyle]="{'background-image': pokemon.artwork}">
+          <div class="pokemon-image bg-image flex-grow-1" [style.background-image]="pokemon.artwork">
 
           </div>
           <span class="pokemon-name align-self-center text-center">
