@@ -1,7 +1,7 @@
 import { IPointEntities } from 'store/reducers';
 
 export const pointsData2026_04: IPointEntities = {
-  //  Pokémon 30‘s 15 Feb 2026  to 7 Mar 2026
+  //  Pokémon 30‘s 15 Feb 2026 to 28 Feb 2026
   //  Tone (@Tone)
   //  0629. Vullaby
   'a1f2907d-0524-4e5f-b83f-455b0fcc5c60': {
@@ -39,7 +39,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30‘s 15 Feb 2026  to 7 Mar 2026
+  //  Pokémon 30‘s 15 Feb 2026 to 28 Feb 2026
   //  Brandon Hero of Ice (@Brandon Heroice18)
   //  0660. Diggersby
   '52810181-a95e-4f64-a162-39aa332ecd3f': {
@@ -77,7 +77,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30‘s 15 Feb 2026  to 7 Mar 2026
+  //  Pokémon 30‘s 15 Feb 2026 to 28 Feb 2026
   //  Deathrite (@Deathrite)
   //  0120. Staryu
   '15fd759d-7d96-4724-812e-b1f12d3e9756': {
@@ -115,7 +115,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
   //  Philip Starns (@Philip Starns)
   //  0300. Skitty
   'f25a540f-1f30-43aa-bbba-78dcd5b0a1bf': {
@@ -153,7 +153,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
   //  Tone (@Tone)
   //  0659. Bunnelby
   '1c4b1922-2541-4e9c-b7a4-569fbbda2234': {
@@ -191,7 +191,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
   //  Tone (@Tone)
   //  0690. Skrelp
   'f95d7bf4-87ad-469d-9a8e-b61d6d76fac5': {
@@ -229,7 +229,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
   //  Deathrite (@Deathrite)
   //  0690. Skrelp
   'c40ebfed-936d-4728-b8f7-e5686428cff2': {
@@ -267,7 +267,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
   //  Lewis Dobie (@Lewthelegend)
   //  0659. Bunnelby
   '7de0a490-4292-4dac-bb3f-837fd517227b': {
@@ -305,7 +305,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
   //  Lewis Dobie (@Lewthelegend)
   //  0690. Skrelp
   '56a8d059-b957-4a7b-9256-7b05adc88a55': {
@@ -343,7 +343,7 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
-  //  Pokémon 30's 15 Feb 2026 to 7 Mar 2026
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
   //  Stuart (@stuart)
   //  0510. Liepard
   '1f6e24dc-e713-482e-8dfb-4b5af10e3ae3': {
