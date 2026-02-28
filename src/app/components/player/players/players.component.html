@@ -3,23 +3,51 @@
 <hr>
 
 @if (vm().playersData.length > 0) {
+  <div class="card mb-3 sticky-top">
+    <div class="card-body smart-layout-evenly align-items-center">
+      <button class="btn btn-link text-decoration-none p-0 text-start" [class.text-body]="sortColumn() === 'name'" [class.text-muted]="sortColumn() !== 'name'" (click)="sort('name')">
+        <span class="fw-semibold">Name</span>
+        @if (sortColumn() === 'name') {
+          <small>{{ sortDirection() === 'asc' ? '▲' : '▼' }}</small>
+        }
+      </button>
+      <div class="d-flex">
+        <div class="flex-even text-end">
+          <button class="btn btn-link text-decoration-none p-0" [class.text-body]="sortColumn() === 'totalPoints'" [class.text-muted]="sortColumn() !== 'totalPoints'" (click)="sort('totalPoints')">
+            <span class="fw-semibold">Lifetime Points</span>
+            @if (sortColumn() === 'totalPoints') {
+              <small>{{ sortDirection() === 'asc' ? '▲' : '▼' }}</small>
+            }
+          </button>
+        </div>
+
+        <div class="flex-even text-end">
+          <button class="btn btn-link text-decoration-none p-0" [class.text-body]="sortColumn() === 'totalWins'" [class.text-muted]="sortColumn() !== 'totalWins'" (click)="sort('totalWins')">
+            <span class="fw-semibold">Times Won</span>
+            @if (sortColumn() === 'totalWins') {
+              <small>{{ sortDirection() === 'asc' ? '▲' : '▼' }}</small>
+            }
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <ul class="list-unstyled">
     @for(playerDatum of vm().playersData; track playerDatum.player.id) {
       <li>
         <div class="card mb-3">
           <div class="card-body smart-layout-evenly align-items-center">
             <sp-inline-player [id]="playerDatum.player.id" />
-            <dl class="d-flex">
+            <div class="d-flex">
               <div class="flex-even text-end">
-                <dt>Lifetime Points</dt>
-                <dd class="mb-0">{{ playerDatum.totalPoints }}</dd>
+                {{ playerDatum.totalPoints }}
               </div>
 
               <div class="flex-even text-end">
-                <dt>Times Won</dt>
-                <dd class="mb-0">{{ playerDatum.totalWins }}</dd>
+                {{ playerDatum.totalWins }}
               </div>
-            </dl>
+            </div>
           </div>
         </div>
       </li>
