@@ -381,4 +381,42 @@ export const pointsData2026_04: IPointEntities = {
       },
     },
   },
+  //  Pokémon 30's 15 Feb 2026 to 28 Feb 2026
+  //  Deathrite (@Deathrite)
+  //  0870. Falinks
+  'dc4e8097-a520-403e-b22c-c07a651c7c89': {
+    data: {
+      id: 'dc4e8097-a520-403e-b22c-c07a651c7c89',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-02-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '50cdc4fb-4be4-4b6e-93b5-dd497b1f47c4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a47be34b-890b-4260-b54f-565162e3300d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
