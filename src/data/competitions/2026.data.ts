@@ -1986,4 +1986,32 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
       },
     },
   },
+  '93762b92-6891-44fa-af8a-db2ac80160f6': {
+    data: {
+      type: 'competition',
+      id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+      attributes: {
+        description:
+          'Pokémon that appeared in this years Pokémon Day Presents. Since they showed all of them, this is a free for all. You can only get one point per line for Pokémon caught on Sunday in Kalos Tour',
+        endDate: '2026-03-14',
+        startDate: '2026-03-01',
+        theme: 'Pokémon Presents',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
 };
