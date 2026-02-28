@@ -15,7 +15,7 @@ type ParsedPokemon = {
 @Component({
     selector: 'sp-pokemon-list-generator',
     templateUrl: './pokemon-list-generator.component.html',
-    styleUrls: ['./pokemon-list-generator.component.sass'],
+    styleUrl: './pokemon-list-generator.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [PokemonComponent, CopyToClipboardComponent, NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavContent, NgbNavOutlet]
 })

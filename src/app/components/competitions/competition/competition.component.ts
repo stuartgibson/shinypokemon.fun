@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
 @Component({
     selector: 'sp-competition',
     templateUrl: './competition.component.html',
-    styleUrls: ['./competition.component.sass'],
+    styleUrl: './competition.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink, DateRangeComponent, InlinePlayerComponent]
 })

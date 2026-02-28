@@ -8,7 +8,7 @@ import { InlinePlayerComponent } from "../../player/inline-player/inline-player.
 @Component({
     selector: 'sp-most-wins',
     templateUrl: './most-wins.component.html',
-    styleUrls: ['./most-wins.component.sass'],
+    styleUrl: './most-wins.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [PokemonStatComponent, InlinePlayerComponent]
 })

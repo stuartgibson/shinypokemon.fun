@@ -36,7 +36,7 @@ import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-poke
 @Component({
   selector: 'sp-points-generator',
   templateUrl: './points-generator.component.html',
-  styleUrls: ['./points-generator.component.sass'],
+  styleUrl: './points-generator.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     InlineCompetitionComponent,

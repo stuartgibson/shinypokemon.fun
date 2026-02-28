@@ -19,7 +19,7 @@ import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competi
 @Component({
   selector: 'sp-trophy-competition-page',
   templateUrl: './trophy-competition-page.component.html',
-  styleUrls: ['./trophy-competition-page.component.sass'],
+  styleUrl: './trophy-competition-page.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     TrophyCompetitionComponent,

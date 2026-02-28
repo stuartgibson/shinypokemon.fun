@@ -6,7 +6,7 @@ import { PokemonCaughtDatum, pokemonCaughtViewModel, PokemonCaughtViewModel } fr
 @Component({
     selector: 'sp-not-caught',
     templateUrl: './not-caught.component.html',
-    styleUrls: ['./not-caught.component.sass'],
+    styleUrl: './not-caught.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [PokemonStatComponent]
 })

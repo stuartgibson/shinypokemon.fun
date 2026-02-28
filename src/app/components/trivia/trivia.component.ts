@@ -7,7 +7,7 @@ import { MostPointsComponent } from "./most-points/most-points.component";
 @Component({
     selector: 'sp-trivia',
     templateUrl: './trivia.component.html',
-    styleUrls: ['./trivia.component.sass'],
+    styleUrl: './trivia.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [MostCaughtComponent, NotCaughtComponent, MostWinsComponent, MostPointsComponent]
 })

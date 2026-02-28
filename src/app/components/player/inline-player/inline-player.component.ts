@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
 @Component({
     selector: 'sp-inline-player',
     templateUrl: './inline-player.component.html',
-    styleUrls: ['./inline-player.component.sass'],
+    styleUrl: './inline-player.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink]
 })

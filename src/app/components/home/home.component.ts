@@ -17,7 +17,7 @@ import { CurrentCompetitionComponent } from '../competitions/current-competition
 @Component({
   selector: 'sp-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.sass'],
+  styleUrl: './home.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     CurrentCompetitionComponent,

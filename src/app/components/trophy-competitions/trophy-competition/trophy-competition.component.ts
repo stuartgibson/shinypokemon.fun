@@ -6,7 +6,7 @@ import { DateRangeComponent } from '../../_shared/date-range/date-range.componen
 @Component({
   selector: 'sp-trophy-competition',
   templateUrl: './trophy-competition.component.html',
-  styleUrls: ['./trophy-competition.component.sass'],
+  styleUrl: './trophy-competition.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink, DateRangeComponent],
 })

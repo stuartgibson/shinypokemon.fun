@@ -10,7 +10,7 @@ import { CompetitionComponent } from '../competition/competition.component';
 @Component({
     selector: 'sp-current-competition',
     templateUrl: './current-competition.component.html',
-    styleUrls: ['./current-competition.component.sass'],
+    styleUrl: './current-competition.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [CompetitionComponent, PointComponent]
 })

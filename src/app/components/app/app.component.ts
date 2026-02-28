@@ -5,7 +5,7 @@ import { NavComponent } from '../nav/nav.component';
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.sass'],
+    styleUrl: './app.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [NavComponent, RouterOutlet]
 })

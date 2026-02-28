@@ -23,7 +23,7 @@ import { CopyToClipboardComponent } from '../../_shared/copy-to-clipboard/copy-t
 @Component({
     selector: 'sp-competition-generator',
     templateUrl: './competition-generator.component.html',
-    styleUrls: ['./competition-generator.component.sass'],
+    styleUrl: './competition-generator.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [
         ReactiveFormsModule,

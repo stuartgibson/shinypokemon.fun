@@ -15,7 +15,7 @@ import { CompetitionComponent } from '../competition/competition.component';
 @Component({
     selector: 'sp-competition-page-infographic',
     templateUrl: './competition-page-infographic.component.html',
-    styleUrls: ['./competition-page-infographic.component.sass'],
+    styleUrl: './competition-page-infographic.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [CompetitionComponent, RouterLink]
 })

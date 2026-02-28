@@ -1,6 +1,4 @@
-
-
-import { enableProdMode, provideZonelessChangeDetection } from '@angular/core';
+import { provideZonelessChangeDetection, isDevMode } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideRouter, withInMemoryScrolling } from '@angular/router';
@@ -9,25 +7,21 @@ import { provideStore } from '@ngrx/store';
 import { provideStoreDevtools } from '@ngrx/store-devtools';
 import { AppComponent } from './app/components/app/app.component';
 import { routes } from './app/routes';
-import { environment } from './environments/environment';
 import { stateProviders } from './store';
-
-if (environment.production) {
-  enableProdMode();
-}
 
 bootstrapApplication(
   AppComponent,
   {
     providers: [
-      provideZonelessChangeDetection(),...stateProviders,
+      provideZonelessChangeDetection(),
+      ...stateProviders,
       provideAnimations(),
       provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: 'enabled'})),
       provideRouterStore(),
       provideStore({router: routerReducer}),
       provideStoreDevtools({
         maxAge: 25,
-        logOnly: environment.production,
+        logOnly: !isDevMode(),
         autoPause: false,
         trace: true,
         traceLimit: 75

@@ -15,7 +15,7 @@ import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competi
 @Component({
   selector: 'sp-trophy-competition-page-infographic',
   templateUrl: './trophy-competition-page-infographic.component.html',
-  styleUrls: ['./trophy-competition-page-infographic.component.sass'],
+  styleUrl: './trophy-competition-page-infographic.component.sass',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [TrophyCompetitionComponent, RouterLink],
 })

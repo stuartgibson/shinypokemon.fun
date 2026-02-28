@@ -13,7 +13,7 @@ import { InlinePlayerComponent } from '../player/inline-player/inline-player.com
 @Component({
     selector: 'sp-point',
     templateUrl: './point.component.html',
-    styleUrls: ['./point.component.sass'],
+    styleUrl: './point.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent, BallComponent, InlinePokemonComponent, DateComponent, GameComponent, MethodComponent]
 })

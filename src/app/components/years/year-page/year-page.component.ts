@@ -6,7 +6,7 @@ import { InlinePlayerComponent } from '../../player/inline-player/inline-player.
 
 @Component({
     templateUrl: './year-page.component.html',
-    styleUrls: ['./year-page.component.sass'],
+    styleUrl: './year-page.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent, CompetitionListComponent]
 })

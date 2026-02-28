@@ -9,7 +9,7 @@ import { formatDateTime } from "../../../helpers/dates.helper";
 
 @Component({
     templateUrl: './player-page.component.html',
-    styleUrls: ['./player-page.component.sass'],
+    styleUrl: './player-page.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [PointComponent, InlinePlayerComponent, InlinePokemonComponent, DateRangeComponent]
 })

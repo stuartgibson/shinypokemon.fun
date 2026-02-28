@@ -1,4 +1,4 @@
 <span>
-  @if(!!game) { {{ game!.name }} }
+  @if(game(); as game) { {{ game.name }} }
   @else { &mdash; }
 </span>

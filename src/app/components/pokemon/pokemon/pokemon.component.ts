@@ -4,7 +4,7 @@ import { Pokemon } from 'models/pokemon.model';
 @Component({
     selector: 'sp-pokemon',
     templateUrl: './pokemon.component.html',
-    styleUrls: ['./pokemon.component.sass'],
+    styleUrl: './pokemon.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PokemonComponent {

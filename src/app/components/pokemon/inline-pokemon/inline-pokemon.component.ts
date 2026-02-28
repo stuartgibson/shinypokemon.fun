@@ -6,7 +6,7 @@ import { Pokemons } from 'store/reducers';
 @Component({
     selector: 'sp-inline-pokemon',
     templateUrl: './inline-pokemon.component.html',
-    styleUrls: ['./inline-pokemon.component.sass'],
+    styleUrl: './inline-pokemon.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class InlinePokemonComponent implements OnInit {

@@ -7,7 +7,7 @@ import { InlinePokemonComponent } from "../../pokemon/inline-pokemon/inline-poke
 @Component({
     selector: 'sp-pokemon-stat',
     templateUrl: './pokemon-stat.component.html',
-    styleUrls: ['./pokemon-stat.component.sass'],
+    styleUrl: './pokemon-stat.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePokemonComponent]
 })

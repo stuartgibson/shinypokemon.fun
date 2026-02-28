@@ -6,7 +6,7 @@ import { RouterLink } from '@angular/router';
 @Component({
     selector: 'sp-competition-list',
     templateUrl: './competition-list.component.html',
-    styleUrls: ['./competition-list.component.sass'],
+    styleUrl: './competition-list.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink, DateRangeComponent]
 })

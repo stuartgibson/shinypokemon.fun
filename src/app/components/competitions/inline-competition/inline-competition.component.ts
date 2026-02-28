@@ -7,7 +7,7 @@ import { DateRangeComponent } from '../../_shared/date-range/date-range.componen
 @Component({
     selector: 'sp-inline-competition',
     templateUrl: './inline-competition.component.html',
-    styleUrls: ['./inline-competition.component.sass'],
+    styleUrl: './inline-competition.component.sass',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [DateRangeComponent]
 })
