@@ -343,4 +343,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Philip Starns (@Philip Starns)
+  //  0123. Scyther
+  '8827d5e5-c226-412c-bfed-91ab84fed56c': {
+    data: {
+      id: '8827d5e5-c226-412c-bfed-91ab84fed56c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
