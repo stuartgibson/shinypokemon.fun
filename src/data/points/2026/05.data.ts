@@ -39,4 +39,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Stuart (@stuart)
+  //  0007. Squirtle
+  '8bbe5bf6-4421-47c0-b220-efc5aecb3fea': {
+    data: {
+      id: '8bbe5bf6-4421-47c0-b220-efc5aecb3fea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '75c0ff1b-c295-427c-87fc-e3d95d9baa2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
