@@ -153,4 +153,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Philip Starns (@Philip Starns)
+  //  0710. Pumpkaboo
+  '7e27ad2e-b302-4728-a644-82712d6def3b': {
+    data: {
+      id: '7e27ad2e-b302-4728-a644-82712d6def3b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '92f1c2b5-7a27-41e3-98f5-ae7f8ca98d2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
