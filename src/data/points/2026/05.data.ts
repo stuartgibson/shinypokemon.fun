@@ -191,4 +191,118 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0252. Treecko
+  'f140695d-4ae5-428a-bd80-9e32d1a48380': {
+    data: {
+      id: 'f140695d-4ae5-428a-bd80-9e32d1a48380',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fb117d92-c93d-4a16-ad9f-ac2062325fa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0702. Dedenne
+  '31ef5c51-a11b-4c5c-b771-ebc36489aed6': {
+    data: {
+      id: '31ef5c51-a11b-4c5c-b771-ebc36489aed6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '55cf5dc5-d8cd-4a8f-a278-7b5eb0d691d6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0650. Chespin
+  '3f3465a6-11e0-43a6-87ae-ef1efd2466d4': {
+    data: {
+      id: '3f3465a6-11e0-43a6-87ae-ef1efd2466d4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '87b11db9-8aeb-44d3-80e1-dd4716d0b705',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
