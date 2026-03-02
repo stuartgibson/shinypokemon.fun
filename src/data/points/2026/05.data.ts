@@ -609,4 +609,80 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0471. Glaceon
+  '1824c16e-8a53-4395-bd19-e2338c6cdc74': {
+    data: {
+      id: '1824c16e-8a53-4395-bd19-e2338c6cdc74',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd233e99a-725f-410a-9cf1-a90835321d20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0090. Shellder
+  '000f74b9-ce52-41be-9708-706e94358ad8': {
+    data: {
+      id: '000f74b9-ce52-41be-9708-706e94358ad8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b76c5cb-cf54-438f-be01-ba2dc3a283d9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
