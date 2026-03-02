@@ -381,4 +381,80 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0041. Zubat
+  '55111035-57c4-4705-81f7-7465689c55d6': {
+    data: {
+      id: '55111035-57c4-4705-81f7-7465689c55d6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7702c983-82e2-4133-b77f-720fdd1a3187',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0627. Rufflet
+  'ef184d27-9821-4a03-b0a1-76cc45b6061c': {
+    data: {
+      id: 'ef184d27-9821-4a03-b0a1-76cc45b6061c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '01346e6f-94e0-41a3-8248-3e6b7f784a04',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
