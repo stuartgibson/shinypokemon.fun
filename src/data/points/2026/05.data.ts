@@ -649,6 +649,44 @@ export const pointsData2026_05: IPointEntities = {
   },
   //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
   //  Deathrite (@Deathrite)
+  //  0744. Rockruff
+  '080e86ad-b149-44d5-8505-255d3042e340': {
+    data: {
+      id: '080e86ad-b149-44d5-8505-255d3042e340',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e06311f7-1452-49e3-8660-2c9e4cc98aa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
   //  0090. Shellder
   '000f74b9-ce52-41be-9708-706e94358ad8': {
     data: {
