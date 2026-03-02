@@ -457,4 +457,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0025. Pikachu
+  'e4b7cbeb-f8dc-479e-8c09-95ca6c4a9d92': {
+    data: {
+      id: 'e4b7cbeb-f8dc-479e-8c09-95ca6c4a9d92',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
