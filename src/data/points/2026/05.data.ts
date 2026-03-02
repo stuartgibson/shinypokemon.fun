@@ -533,4 +533,80 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0052. Meowth
+  '607351c9-8235-4aef-9bce-1d507b1b341b': {
+    data: {
+      id: '607351c9-8235-4aef-9bce-1d507b1b341b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9309bac4-a765-4e49-ae57-2dcacd543f20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0092. Gastly
+  '36b8fde0-18c8-4065-9d99-c897ea02cce5': {
+    data: {
+      id: '36b8fde0-18c8-4065-9d99-c897ea02cce5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c0a46fea-95bc-4747-bb39-7f1479ba7456',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
