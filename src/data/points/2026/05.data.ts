@@ -837,4 +837,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Jacob K (CarChaser) (@Jacob K)
+  //  0781. Dhelmise
+  '837af402-b195-4ef8-a371-5b3d16580ce7': {
+    data: {
+      id: '837af402-b195-4ef8-a371-5b3d16580ce7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '82313de1-b54b-44b5-831d-0c66e3522af1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5dc264bb-a2ef-4b69-b9bb-173bee44eea4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
