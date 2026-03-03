@@ -723,4 +723,118 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0263. Zigzagoon (Galarian)
+  '1056da14-915a-4683-a225-7667415d7851': {
+    data: {
+      id: '1056da14-915a-4683-a225-7667415d7851',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8fea1dc6-e4a7-437b-8411-872c8158c939',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0111. Rhyhorn
+  'c98217d6-3bcc-4f05-89ab-69715767dbbc': {
+    data: {
+      id: 'c98217d6-3bcc-4f05-89ab-69715767dbbc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '10ce9769-3d89-4403-af38-de246b9d68b5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Stuart (@stuart)
+  //  0543. Venipede
+  'a74af841-653d-488e-89f2-7cd339a17e04': {
+    data: {
+      id: 'a74af841-653d-488e-89f2-7cd339a17e04',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'aef1ff76-200a-4e31-b4fb-eb1d5815a3c7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
