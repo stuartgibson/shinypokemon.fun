@@ -914,6 +914,44 @@ export const pointsData2026_05: IPointEntities = {
     },
   },
   //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0426. Drifblim
+  '58d95eae-97ea-46a4-ae82-95ccb0ab0bdb': {
+    data: {
+      id: '58d95eae-97ea-46a4-ae82-95ccb0ab0bdb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '38e9e1c0-2a92-4ab9-ab1c-aabfb75f8fed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
   //  Tone (@Tone)
   //  0058. Growlithe
   'dfcd1666-c9d5-4ac1-9954-c216c8c572c9': {
