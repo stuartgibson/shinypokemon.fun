@@ -913,4 +913,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0058. Growlithe
+  'dfcd1666-c9d5-4ac1-9954-c216c8c572c9': {
+    data: {
+      id: 'dfcd1666-c9d5-4ac1-9954-c216c8c572c9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ceabbc48-23a8-45a8-be14-959184bfbb0b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
