@@ -989,4 +989,80 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0653. Fennekin
+  'cb9fe47a-ce5a-4a7d-98ec-63fe8b17a7f3': {
+    data: {
+      id: 'cb9fe47a-ce5a-4a7d-98ec-63fe8b17a7f3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Hennimore (@Hennimore)
+  //  0046. Paras
+  '83b9519d-d3c0-4256-882d-063f2268d879': {
+    data: {
+      id: '83b9519d-d3c0-4256-882d-063f2268d879',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '61d0fa39-7573-4459-bdc5-69dbbf378bb4',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd5a53a34-f2a8-4ba9-af97-005b34807cb6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

@@ -1024,4 +1024,26 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Ashley Marie (@Ashley Marie)
+  '07cd2582-5f57-47b0-a63c-6ddf26af8892': {
+    data: {
+      type: 'player' as 'player',
+      id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+      attributes: {
+        realName: 'Ashley Marie',
+        displayName: 'Ashley Marie',
+      },
+    },
+  },
+  // Hennimore (@Hennimore)
+  '61d0fa39-7573-4459-bdc5-69dbbf378bb4': {
+    data: {
+      type: 'player' as 'player',
+      id: '61d0fa39-7573-4459-bdc5-69dbbf378bb4',
+      attributes: {
+        realName: 'Hennimore',
+        displayName: 'Hennimore',
+      },
+    },
+  },
 };
