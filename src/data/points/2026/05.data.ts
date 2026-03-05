@@ -1711,4 +1711,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Sean G (@lostlemon)
+  //  0707. Klefki
+  'b66c1d9b-6f0d-457d-846c-b92631806886': {
+    data: {
+      id: 'b66c1d9b-6f0d-457d-846c-b92631806886',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6efa30ac-52ee-43e5-ba44-6de796148def',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

@@ -1046,4 +1046,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Sean G (@lostlemon)
+  '0e59368f-37ea-44c9-bc7a-8ce047a1447f': {
+    data: {
+      type: 'player' as 'player',
+      id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+      attributes: {
+        realName: 'Sean G',
+        displayName: 'lostlemon',
+      },
+    },
+  },
 };
