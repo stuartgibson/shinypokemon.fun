@@ -1103,4 +1103,612 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0653. Fennekin
+  '25b97ff8-6d6f-40eb-a2ef-b375b8de82f1': {
+    data: {
+      id: '25b97ff8-6d6f-40eb-a2ef-b375b8de82f1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e23bb748-74bb-43e4-80a5-98e4707c0c27',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0201. Unown
+  '72c20193-2c60-49c6-a093-ae1d137f69cd': {
+    data: {
+      id: '72c20193-2c60-49c6-a093-ae1d137f69cd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0115. Kangaskhan
+  '8bd6f379-8ec3-4865-85d5-de120d1217d8': {
+    data: {
+      id: '8bd6f379-8ec3-4865-85d5-de120d1217d8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b0d49348-e3bb-42da-9153-999e3a5aa68b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0559. Scraggy
+  '51f52d69-3cee-4bb0-a8f2-ce0d013c8ff7': {
+    data: {
+      id: '51f52d69-3cee-4bb0-a8f2-ce0d013c8ff7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3b77cf43-32e8-4e19-96ec-00a6afd6906f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0716. Xerneas
+  '8db167e5-6a77-4264-acb4-a7fa80d12f78': {
+    data: {
+      id: '8db167e5-6a77-4264-acb4-a7fa80d12f78',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '394ee517-c117-4570-84d1-b539a4c81e2d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0252. Treecko
+  '1db743ee-d3a1-40e0-8b2e-2fa073efbcd0': {
+    data: {
+      id: '1db743ee-d3a1-40e0-8b2e-2fa073efbcd0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fb117d92-c93d-4a16-ad9f-ac2062325fa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0676. Furfrou
+  'e6493873-0967-4c66-8f17-8fc2e7f4edf1': {
+    data: {
+      id: 'e6493873-0967-4c66-8f17-8fc2e7f4edf1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '97ac9b43-d8ce-4dfe-a7de-928e87bd9f0a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0707. Klefki
+  '1dcf9567-669e-40e3-bfa0-b50012945a0f': {
+    data: {
+      id: '1dcf9567-669e-40e3-bfa0-b50012945a0f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6efa30ac-52ee-43e5-ba44-6de796148def',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0686. Inkay
+  '84a67ccf-37ad-49ff-87be-65f45a7c749e': {
+    data: {
+      id: '84a67ccf-37ad-49ff-87be-65f45a7c749e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ad5dbc4a-55a2-4da8-a8c5-8d596a14003d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0674. Pancham
+  'f38f8856-4149-4ca5-b805-2cd6de0d807f': {
+    data: {
+      id: 'f38f8856-4149-4ca5-b805-2cd6de0d807f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30331ad5-c767-4a20-a5c1-cb10c53979c6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0359. Absol
+  '224ee625-ccba-463a-a3f6-86086a8b5fb3': {
+    data: {
+      id: '224ee625-ccba-463a-a3f6-86086a8b5fb3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b25d8f50-aa81-42bb-8274-81b65833fa08',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0690. Skrelp
+  'c12a78f6-8d98-4801-a808-310e85424849': {
+    data: {
+      id: 'c12a78f6-8d98-4801-a808-310e85424849',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0b4905b3-bd2f-4714-bbdb-c88474d52b6f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0025. Pikachu
+  '2781fffc-ab4a-4c12-8c5f-2db8997d2188': {
+    data: {
+      id: '2781fffc-ab4a-4c12-8c5f-2db8997d2188',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0016. Pidgey
+  '82d9b46f-e31a-42b4-9c76-6b8559eacaa0': {
+    data: {
+      id: '82d9b46f-e31a-42b4-9c76-6b8559eacaa0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d2eb67b-06bb-41a3-936c-654a2fa1e475',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0258. Mudkip
+  '8afd6f3e-3f41-484a-8b25-d907044edec6': {
+    data: {
+      id: '8afd6f3e-3f41-484a-8b25-d907044edec6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a2a015a4-24b5-4ad2-87be-ce8817a8329e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0669. Flabébé
+  'f5518bf7-25dd-4444-a051-7c7a32f9bf7d': {
+    data: {
+      id: 'f5518bf7-25dd-4444-a051-7c7a32f9bf7d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
