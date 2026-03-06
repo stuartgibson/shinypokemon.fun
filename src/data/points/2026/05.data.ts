@@ -1749,4 +1749,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0133. Eevee
+  '722646e6-1a89-4d91-b70e-5fd0adbee9c6': {
+    data: {
+      id: '722646e6-1a89-4d91-b70e-5fd0adbee9c6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
