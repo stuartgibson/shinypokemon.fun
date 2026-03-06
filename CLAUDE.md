@@ -28,7 +28,7 @@ Only one player per competition receives `firstCatch: true` — the first player
 
 ## 6. Add the entry
 
-Generate a new UUID for the entry. The format is:
+Generate a new UUID for the entry using `python3 -c "import uuid; print(uuid.uuid4())"` (`uuidgen` is not available in this environment). The format is:
 
 ```typescript
   //  [Competition Theme] [Start Date D Mon YYYY] to [End Date D Mon YYYY]
