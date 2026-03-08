@@ -1939,4 +1939,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Ary Luz (@Ary Luz)
+  //  0336. Seviper
+  'aa6878a7-1cf0-4ffc-b25a-5ef910751f5a': {
+    data: {
+      id: 'aa6878a7-1cf0-4ffc-b25a-5ef910751f5a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '9963bec2-20b6-4278-b473-d1b2da3a60d1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cad9deea-0d7d-4932-ab18-4c9e699079f6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
