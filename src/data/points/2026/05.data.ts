@@ -1901,4 +1901,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0143. Snorlax
+  '4f6b7716-1625-4792-b13d-9799a9fa99f8': {
+    data: {
+      id: '4f6b7716-1625-4792-b13d-9799a9fa99f8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '27194e95-3472-4247-8cc2-6dfa1eb42e46',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
