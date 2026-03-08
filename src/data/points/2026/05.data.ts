@@ -1787,4 +1787,118 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0086. Seel
+  'e4000727-7493-48f3-9cc0-fed1f949eb41': {
+    data: {
+      id: 'e4000727-7493-48f3-9cc0-fed1f949eb41',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3a3d7a26-b94e-49e6-98d7-3d4ba82fb7da',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0595. Joltik
+  'cf090b28-5e7a-4188-abc0-b0062f5d7945': {
+    data: {
+      id: 'cf090b28-5e7a-4188-abc0-b0062f5d7945',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '71c6b9df-1cdb-49e2-b157-a3df7bcf68ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Deathrite (@Deathrite)
+  //  0111. Rhyhorn
+  '521a5d51-6611-4f53-a9cc-64e370939c69': {
+    data: {
+      id: '521a5d51-6611-4f53-a9cc-64e370939c69',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '10ce9769-3d89-4403-af38-de246b9d68b5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
