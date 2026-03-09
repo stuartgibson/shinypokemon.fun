@@ -1977,4 +1977,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0915. Lechonk
+  '2fce4fdc-b34b-42e0-bd29-0a62f451fdf8': {
+    data: {
+      id: '2fce4fdc-b34b-42e0-bd29-0a62f451fdf8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '90a0c67a-ea66-4b05-a603-b1a625e21f64',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
