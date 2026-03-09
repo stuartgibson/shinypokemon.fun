@@ -2053,4 +2053,156 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Ary Luz (@Ary Luz)
+  //  0143. Snorlax
+  '3b7938da-8190-4353-b2a6-5117123ee865': {
+    data: {
+      id: '3b7938da-8190-4353-b2a6-5117123ee865',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '9963bec2-20b6-4278-b473-d1b2da3a60d1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '27194e95-3472-4247-8cc2-6dfa1eb42e46',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Ary Luz (@Ary Luz)
+  //  0056. Mankey
+  'e6a80ad2-d100-4418-99ba-b83a7648ac9f': {
+    data: {
+      id: 'e6a80ad2-d100-4418-99ba-b83a7648ac9f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '9963bec2-20b6-4278-b473-d1b2da3a60d1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Stuart (@stuart)
+  //  0509. Purrloin
+  'acad5cb3-0e85-49db-bfd0-a85bec14bfe6': {
+    data: {
+      id: 'acad5cb3-0e85-49db-bfd0-a85bec14bfe6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6b0dea8a-3f3b-4bd6-af64-8d84649625cd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Stuart (@stuart)
+  //  0044. Gloom
+  '0eea69cf-978a-40b6-8949-83852aa000c4': {
+    data: {
+      id: '0eea69cf-978a-40b6-8949-83852aa000c4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'eada1550-419b-4cc8-b18b-10b66e59911b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
