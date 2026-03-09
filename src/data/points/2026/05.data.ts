@@ -2015,4 +2015,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Sean G (@lostlemon)
+  //  0352. Kecleon
+  'ea12bd4c-419e-45dd-80ec-4f025599167e': {
+    data: {
+      id: 'ea12bd4c-419e-45dd-80ec-4f025599167e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ab0ddce9-051f-425c-8685-824e18f96727',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
