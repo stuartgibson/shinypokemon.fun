@@ -2205,4 +2205,80 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0351. Castform
+  '3cf3d388-690f-475f-86d1-a0ec5b0e8342': {
+    data: {
+      id: '3cf3d388-690f-475f-86d1-a0ec5b0e8342',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '638589a0-9404-460e-bd21-05469e268d6b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0509. Purrloin
+  '306ff6ed-77da-4ea9-a9b6-f1d1cb35e6e3': {
+    data: {
+      id: '306ff6ed-77da-4ea9-a9b6-f1d1cb35e6e3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6b0dea8a-3f3b-4bd6-af64-8d84649625cd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
