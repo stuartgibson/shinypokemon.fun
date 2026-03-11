@@ -2319,4 +2319,156 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0957. Tinkatink
+  '442dfed6-5769-442b-81e7-84609dd1ebcd': {
+    data: {
+      id: '442dfed6-5769-442b-81e7-84609dd1ebcd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9e8605f4-17fc-4649-ad7a-d9e9a009336f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0144. Articuno
+  '0e87a071-0534-42d5-a8d9-47b8a915eb86': {
+    data: {
+      id: '0e87a071-0534-42d5-a8d9-47b8a915eb86',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2f8e8786-b56c-4df7-8eea-5d081803dbdc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0539. Sawk
+  'b3a5f660-1faa-4612-b788-da4f9557c361': {
+    data: {
+      id: 'b3a5f660-1faa-4612-b788-da4f9557c361',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '22c654ac-baba-42a6-bc06-49eb9c04029b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0029. Nidoran♀
+  '92f06394-0184-445e-b983-f08b59365720': {
+    data: {
+      id: '92f06394-0184-445e-b983-f08b59365720',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30f78841-c47a-4bd4-8ee1-f033a0fe758d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
