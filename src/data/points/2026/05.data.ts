@@ -2509,4 +2509,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0928. Smoliv
+  'c7d1a75c-e3d3-4934-9c8f-90db2ec8b3cb': {
+    data: {
+      id: 'c7d1a75c-e3d3-4934-9c8f-90db2ec8b3cb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '31b03b29-3173-4950-91e9-0e8aeb568952',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
