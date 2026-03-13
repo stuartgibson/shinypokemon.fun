@@ -2547,4 +2547,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Tone (@Tone)
+  //  0053. Persian
+  'a8311d7f-1fd3-4064-b5d7-5f9f589192f3': {
+    data: {
+      id: 'a8311d7f-1fd3-4064-b5d7-5f9f589192f3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f63e1d1-d6ca-49ba-a3fa-bc54678b99bd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
