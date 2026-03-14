@@ -2585,4 +2585,460 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0001. Bulbasaur
+  'abea2c39-e93e-4987-844a-0dc455bfc141': {
+    data: {
+      id: 'abea2c39-e93e-4987-844a-0dc455bfc141',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64201a6d-a65c-4ada-8fb9-90c2ba65b294',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0659. Bunnelby
+  '268495c4-fc62-44a6-8ae3-bc8264003b9a': {
+    data: {
+      id: '268495c4-fc62-44a6-8ae3-bc8264003b9a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2749d135-2007-4c12-9046-a7bbcf8116d5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0694. Helioptile
+  '63cc23db-735a-4c49-9b23-9305106188a4': {
+    data: {
+      id: '63cc23db-735a-4c49-9b23-9305106188a4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f80c2650-1a54-4f56-ab46-c32cd59ef146',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0672. Skiddo
+  '3f83f70a-1497-4018-bc0a-56277d0f2116': {
+    data: {
+      id: '3f83f70a-1497-4018-bc0a-56277d0f2116',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a099e42-ba65-4365-90d9-2a2bb4966efc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0679. Honedge
+  '998f03ca-e80d-4b10-b31f-8b0497466456': {
+    data: {
+      id: '998f03ca-e80d-4b10-b31f-8b0497466456',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0633d25c-8f26-4049-8403-407ff49b7a1d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0149. Dragonite
+  'f0360575-035d-4e9a-b3c7-4796a8255774': {
+    data: {
+      id: 'f0360575-035d-4e9a-b3c7-4796a8255774',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '19f943c0-200f-4b6b-aff3-e2df242bfa99',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0669. Flabébé
+  '6d1576a2-053e-4fa9-807f-c9bb2027a148': {
+    data: {
+      id: '6d1576a2-053e-4fa9-807f-c9bb2027a148',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd750fb34-d294-4862-9c8d-8d04a72570a1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0677. Espurr
+  'a9270660-c7d6-475b-9cdf-f39ff7765dcc': {
+    data: {
+      id: 'a9270660-c7d6-475b-9cdf-f39ff7765dcc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2705b76d-489d-4846-b798-0ded376629df',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0201. Unown
+  'dc11c0ba-a5f0-412d-862c-7b0fa4fe20b8': {
+    data: {
+      id: 'dc11c0ba-a5f0-412d-862c-7b0fa4fe20b8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c47787a9-7b74-4f4b-93e9-e0836ef7cd28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0656. Froakie
+  '5dbfb373-e41c-453d-8d16-6dae3568eca1': {
+    data: {
+      id: '5dbfb373-e41c-453d-8d16-6dae3568eca1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0134. Vaporeon
+  '16d2b9a0-2f07-4479-90b3-89e242c5efba': {
+    data: {
+      id: '16d2b9a0-2f07-4479-90b3-89e242c5efba',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd008fb97-c343-4f85-86ce-7bd7dcf27094',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0081. Magnemite
+  '52b4d73c-f874-4297-9e84-d22489c15a90': {
+    data: {
+      id: '52b4d73c-f874-4297-9e84-d22489c15a90',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
