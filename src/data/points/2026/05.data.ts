@@ -3041,4 +3041,80 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0813. Scorbunny
+  'e079fbad-4d7b-4540-ab9a-f9454a98675a': {
+    data: {
+      id: 'e079fbad-4d7b-4540-ab9a-f9454a98675a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '04182a98-03e1-4072-84c5-e3c84a6891dd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Stuart (@stuart)
+  //  0813. Scorbunny
+  'fb87d43c-f8bf-4e88-86c3-6751437c63d5': {
+    data: {
+      id: 'fb87d43c-f8bf-4e88-86c3-6751437c63d5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '04182a98-03e1-4072-84c5-e3c84a6891dd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
