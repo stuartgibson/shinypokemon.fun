@@ -3155,4 +3155,42 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Jacob K (CarChaser) (@Jacob K)
+  //  0813. Scorbunny
+  '4ae6318b-b41c-4857-b2f1-026c5468f62b': {
+    data: {
+      id: '4ae6318b-b41c-4857-b2f1-026c5468f62b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '82313de1-b54b-44b5-831d-0c66e3522af1',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '04182a98-03e1-4072-84c5-e3c84a6891dd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
