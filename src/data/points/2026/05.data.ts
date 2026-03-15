@@ -3193,4 +3193,118 @@ export const pointsData2026_05: IPointEntities = {
       },
     },
   },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Christopher (@Christopher)
+  //  0813. Scorbunny
+  '59531519-b241-46d6-b3c2-11b6bbf3f332': {
+    data: {
+      id: '59531519-b241-46d6-b3c2-11b6bbf3f332',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '04182a98-03e1-4072-84c5-e3c84a6891dd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0815. Cinderace
+  '71c64f86-2046-4a7c-a3e1-b638b2b36832': {
+    data: {
+      id: '71c64f86-2046-4a7c-a3e1-b638b2b36832',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f88e70fc-6101-49cd-a6b3-570bc4bf4342',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokémon Presents 1 Mar 2026 to 14 Mar 2026
+  //  Sean G (@lostlemon)
+  //  0132. Ditto
+  '2de9456c-69e8-4eb1-89b7-9695079cce35': {
+    data: {
+      id: '2de9456c-69e8-4eb1-89b7-9695079cce35',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '93762b92-6891-44fa-af8a-db2ac80160f6',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd6965153-289e-40ee-aab6-3cf769a1ce2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
