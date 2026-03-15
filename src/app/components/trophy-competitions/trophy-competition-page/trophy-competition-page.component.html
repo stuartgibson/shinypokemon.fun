@@ -20,9 +20,9 @@
       </p>
 
       @if (vm().points.length === 0) {
-        <p>
+        <div class="alert alert-warning">
           No points have been scored yet.
-        </p>
+        </div>
       }
 
       @for (point of vm().points; track point.id) {
