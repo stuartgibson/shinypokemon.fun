@@ -77,6 +77,18 @@ If a new `XX.data.ts` file is needed:
 1. Create it in `src/data/points/YYYY/`
 2. Add its import and spread to `src/data/points/YYYY.data.ts`
 
+## Reading large data files
+
+Many data files in this project exceed the token limit for reading whole files. **Never try to read an entire large data file.** Instead:
+
+- **Competition files** (`competitions/YYYY.data.ts`): Use `Grep` to search for the relevant `startDate` or `endDate` to find the active competition, then read just that section with `offset` and `limit`.
+- **Player files** (`players.data.ts`): Use `Grep` to search for the player's name or display name.
+- **Pokemon files** (`pokemon/gen*.data.ts`, etc.): Use `Grep` to search for the pokemon name.
+- **Points files** (`points/YYYY/XX.data.ts`): Use `Grep` to check for `firstCatch: true` entries. When appending a new entry, read the last ~10 lines to find the insertion point.
+- **Counting competitions**: Use `Grep` to search for `startDate` in the competitions file and count the matches to determine competition numbering.
+
+General rule: **use `Grep` to locate what you need, then read only the surrounding lines** with `offset`/`limit` parameters.
+
 ## Notes
 
 - `catchDate` is when the user tells you it was caught, or today's date if not specified
