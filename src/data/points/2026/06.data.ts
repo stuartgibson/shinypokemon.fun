@@ -153,4 +153,42 @@ export const pointsData2026_06: IPointEntities = {
       },
     },
   },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Tone (@Tone)
+  //  0123. Scyther
+  '67ffdecd-ffb4-436a-a158-5f46c6a7bf98': {
+    data: {
+      id: '67ffdecd-ffb4-436a-a158-5f46c6a7bf98',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
