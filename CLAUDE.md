@@ -98,3 +98,4 @@ General rule: **use `Grep` to locate what you need, then read only the surroundi
 - The comment date format uses a single space before "to" (e.g. `15 Feb 2026 to 7 Mar 2026`)
 - Dex numbers in comments are zero-padded to 4 digits (e.g. `0001`)
 - Never guess at ambiguous information from screenshots — always ask
+- You cannot create pull requests in this environment. If the user says the PR button is missing, give them the GitHub compare link to create one manually: `https://github.com/stuartgibson/shinypokemon.fun/compare/<branch-name>`
