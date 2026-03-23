@@ -191,4 +191,118 @@ export const pointsData2026_06: IPointEntities = {
       },
     },
   },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0207. Gligar
+  'e57fdb44-9994-40f6-a6bf-fc405c72ccab': {
+    data: {
+      id: 'e57fdb44-9994-40f6-a6bf-fc405c72ccab',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8d04330d-3e11-4191-ab8d-9a5137f8e659',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0451. Skorupi
+  'e6c2de52-b81a-4409-8f85-16998c38736b': {
+    data: {
+      id: 'e6c2de52-b81a-4409-8f85-16998c38736b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '187c9d4c-0291-4e01-bca2-0ecab809dae9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0401. Kricketot
+  '5dbc7348-a30f-4788-aa9e-7e161ccf6622': {
+    data: {
+      id: '5dbc7348-a30f-4788-aa9e-7e161ccf6622',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '507242bb-e2ae-4035-ad7e-c181a256fd6d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
