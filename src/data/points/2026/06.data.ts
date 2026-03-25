@@ -305,4 +305,42 @@ export const pointsData2026_06: IPointEntities = {
       },
     },
   },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Sean G (@lostlemon)
+  //  0123. Scyther
+  'ce985e5b-389a-4529-8f0d-c3030c76b988': {
+    data: {
+      id: 'ce985e5b-389a-4529-8f0d-c3030c76b988',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
