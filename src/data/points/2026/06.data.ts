@@ -305,4 +305,80 @@ export const pointsData2026_06: IPointEntities = {
       },
     },
   },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Sean G (@lostlemon)
+  //  0052. Meowth (Alolan)
+  'bb9e2cda-ae5d-404e-a883-818a8a4d41bc': {
+    data: {
+      id: 'bb9e2cda-ae5d-404e-a883-818a8a4d41bc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '52a6f371-58db-451b-bcad-414fbda4ae75',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Sean G (@lostlemon)
+  //  0396. Starly
+  '848f98e9-aa57-47ae-bdb5-1c3932152a40': {
+    data: {
+      id: '848f98e9-aa57-47ae-bdb5-1c3932152a40',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '782c12a1-fdf5-45a2-81a5-88f8a508f67c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
