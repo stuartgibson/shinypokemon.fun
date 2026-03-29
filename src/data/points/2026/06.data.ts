@@ -381,4 +381,42 @@ export const pointsData2026_06: IPointEntities = {
       },
     },
   },
+  //  Beware the Ides of March 15 Mar 2026 to 28 Mar 2026
+  //  Stuart (@stuart)
+  //  0052. Meowth (Galarian)
+  '9378d23f-051b-4f9c-9c2f-6fe3860019c0': {
+    data: {
+      id: '9378d23f-051b-4f9c-9c2f-6fe3860019c0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f1bd38c6-211e-4696-a53f-fee0e8ac1953',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '03d8378d-b4e5-427a-99f7-d6a561b83bb2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
