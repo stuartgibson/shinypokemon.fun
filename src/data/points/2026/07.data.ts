@@ -77,4 +77,43 @@ export const pointsData2026_07: IPointEntities = {
       },
     },
   },
+
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Christopher (@Christopher)
+  //  0572. Minccino
+  '9db113d6-c22a-4651-a4ad-9f0e2b0cf59e': {
+    data: {
+      id: '9db113d6-c22a-4651-a4ad-9f0e2b0cf59e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '02e23458-11c2-4351-8669-c60a1948a39a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
