@@ -116,4 +116,42 @@ export const pointsData2026_07: IPointEntities = {
       },
     },
   },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Sean G (@lostlemon)
+  //  0333. Swablu
+  'a5a7730d-42f2-4a9f-95c6-b6db195ee611': {
+    data: {
+      id: 'a5a7730d-42f2-4a9f-95c6-b6db195ee611',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-03-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9c6a7a1e-296d-447e-9293-713645a435bf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
