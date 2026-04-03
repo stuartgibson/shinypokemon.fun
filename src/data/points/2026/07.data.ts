@@ -154,4 +154,118 @@ export const pointsData2026_07: IPointEntities = {
       },
     },
   },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Tone (@Tone)
+  //  0113. Chansey
+  'fd86fd79-0c88-4450-b03c-0edf64cc14d1': {
+    data: {
+      id: 'fd86fd79-0c88-4450-b03c-0edf64cc14d1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Tone (@Tone)
+  //  0113. Chansey
+  'a83cebeb-a415-4cd7-b969-1021ee3690c1': {
+    data: {
+      id: 'a83cebeb-a415-4cd7-b969-1021ee3690c1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f8758c3-7a15-4661-9519-c151b4fe6dae',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0931. Squawkabilly
+  'b7d9864b-52d3-4324-b6fe-3986fe2f228a': {
+    data: {
+      id: 'b7d9864b-52d3-4324-b6fe-3986fe2f228a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '02307d61-3bd9-426c-8906-1d05ea1eac86',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
