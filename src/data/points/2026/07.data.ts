@@ -344,4 +344,42 @@ export const pointsData2026_07: IPointEntities = {
       },
     },
   },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0916. Oinkologne
+  '1afdcc6c-a443-4ac8-9482-300a40302568': {
+    data: {
+      id: '1afdcc6c-a443-4ac8-9482-300a40302568',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e2ff75ab-d514-4317-99f9-889a1814c6f5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
