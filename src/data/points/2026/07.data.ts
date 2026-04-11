@@ -382,4 +382,42 @@ export const pointsData2026_07: IPointEntities = {
       },
     },
   },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Tone (@Tone)
+  //  0694. Helioptile
+  'dd1d5de1-47f1-46d0-bf64-f3bfe321b926': {
+    data: {
+      id: 'dd1d5de1-47f1-46d0-bf64-f3bfe321b926',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f80c2650-1a54-4f56-ab46-c32cd59ef146',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
