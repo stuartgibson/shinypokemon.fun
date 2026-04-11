@@ -420,4 +420,42 @@ export const pointsData2026_07: IPointEntities = {
       },
     },
   },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Philip Starns (@Philip Starns)
+  //  0398. Staraptor
+  '9f819480-5638-44b9-9280-733ccf615f39': {
+    data: {
+      id: '9f819480-5638-44b9-9280-733ccf615f39',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a57ba1c4-7bb7-44cb-89ed-5d6877bee767',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
