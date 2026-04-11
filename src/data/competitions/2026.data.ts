@@ -5413,4 +5413,34 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b': {
+    data: {
+      type: 'competition',
+      id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+      attributes: {
+        description:
+          'Pokémon available in Pokémon Champion',
+        endDate: '2026-04-25',
+        startDate: '2026-04-12',
+        theme: 'We are the Champions',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
