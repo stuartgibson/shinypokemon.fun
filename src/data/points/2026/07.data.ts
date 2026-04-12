@@ -458,4 +458,42 @@ export const pointsData2026_07: IPointEntities = {
       },
     },
   },
+  //  A perfectly Normal Easter 29 Mar 2026 to 11 Apr 2026
+  //  Tone (@Tone)
+  //  0327. Spinda
+  '0e770e8c-9db9-4dfc-8848-89a5455a096c': {
+    data: {
+      id: '0e770e8c-9db9-4dfc-8848-89a5455a096c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'f523cd66-eb97-4523-9a20-a90b4b63989c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b09d741-e957-4185-baa4-c0e922f26380',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
