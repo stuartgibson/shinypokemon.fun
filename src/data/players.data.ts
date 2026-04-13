@@ -1057,4 +1057,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Silent0123 (@Silent0123)
+  '6703130b-8728-490b-87dc-d66e097583d5': {
+    data: {
+      type: 'player' as 'player',
+      id: '6703130b-8728-490b-87dc-d66e097583d5',
+      attributes: {
+        realName: 'Silent0123',
+        displayName: 'Silent0123',
+      },
+    },
+  },
 };
