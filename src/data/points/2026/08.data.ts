@@ -312,4 +312,42 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Deathrite (@Deathrite)
+  //  0092. Gastly
+  '2db39130-eea1-4d01-9858-1d747e38826f': {
+    data: {
+      id: '2db39130-eea1-4d01-9858-1d747e38826f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c0a46fea-95bc-4747-bb39-7f1479ba7456',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
