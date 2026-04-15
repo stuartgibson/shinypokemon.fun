@@ -426,4 +426,42 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Sean G (@lostlemon)
+  //  0351. Castform
+  'e6dfd5a7-bb60-42f5-b404-4a3325792749': {
+    data: {
+      id: 'e6dfd5a7-bb60-42f5-b404-4a3325792749',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '638589a0-9404-460e-bd21-05469e268d6b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
