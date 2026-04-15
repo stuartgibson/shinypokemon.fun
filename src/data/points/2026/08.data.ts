@@ -388,4 +388,42 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0004. Charmander
+  '8dd3adbc-d125-480e-a7e0-6e68a7042d1c': {
+    data: {
+      id: '8dd3adbc-d125-480e-a7e0-6e68a7042d1c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '558462e3-65d4-4440-9617-63fae7d395e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
