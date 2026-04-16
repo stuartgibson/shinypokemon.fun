@@ -464,4 +464,80 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Sean G (@lostlemon)
+  //  0955. Flittle
+  '8da2a86d-2460-48c8-9011-c4a8f196d57b': {
+    data: {
+      id: '8da2a86d-2460-48c8-9011-c4a8f196d57b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fb4d3a7e-46b9-4698-ad01-ff1f71563ea6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Sean G (@lostlemon)
+  //  0196. Espeon
+  'ba114cae-7c5d-40b8-a562-432a00f97a4a': {
+    data: {
+      id: 'ba114cae-7c5d-40b8-a562-432a00f97a4a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6723a6c-bd0f-4c8e-8a3f-c64824e9a9b1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
