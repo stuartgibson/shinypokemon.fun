@@ -618,4 +618,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Tone (@Tone)
+  //  0701. Hawlucha
+  'b80da7e7-9533-49a2-a979-ccd3dea7319c': {
+    data: {
+      id: 'b80da7e7-9533-49a2-a979-ccd3dea7319c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'bf992efa-c8dc-4eee-a2bd-5ba86e2d7feb',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
