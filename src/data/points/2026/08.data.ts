@@ -579,4 +579,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0449. Hippopotas
+  '0c074b57-a8bb-454e-aec0-70cd66dd6c33': {
+    data: {
+      id: '0c074b57-a8bb-454e-aec0-70cd66dd6c33',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1a0682c6-6045-4a09-8ced-17c4a60211b0',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
