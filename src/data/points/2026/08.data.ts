@@ -774,4 +774,82 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Deathrite (@Deathrite)
+  //  1012. Poltchageist
+  '4cbd004f-9173-4cfd-ad14-a566f93a17fe': {
+    data: {
+      id: '4cbd004f-9173-4cfd-ad14-a566f93a17fe',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1e1957a8-49bd-49e6-ab63-0ce298dabaca',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Deathrite (@Deathrite)
+  //  0281. Kirlia
+  '7c325b85-c465-4a8b-af3a-7a3427a88051': {
+    data: {
+      id: '7c325b85-c465-4a8b-af3a-7a3427a88051',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0691d3ef-a4d8-4974-8065-413757871b80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
