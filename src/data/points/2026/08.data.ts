@@ -735,4 +735,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Tone (@Tone)
+  //  0679. Honedge
+  'f40f91c7-7d2b-4a27-a2d4-860569263949': {
+    data: {
+      id: 'f40f91c7-7d2b-4a27-a2d4-860569263949',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0633d25c-8f26-4049-8403-407ff49b7a1d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
