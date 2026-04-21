@@ -852,4 +852,82 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Tone (@Tone)
+  //  0551. Sandile
+  '023a7c56-e730-4984-9403-00e4a829f928': {
+    data: {
+      id: '023a7c56-e730-4984-9403-00e4a829f928',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fbd0d149-dbbe-4a22-a970-5821cb900ccc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Tone (@Tone)
+  //  0406. Budew
+  'ba7db280-84b5-4ee5-9aa4-7b8836d10817': {
+    data: {
+      id: 'ba7db280-84b5-4ee5-9aa4-7b8836d10817',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1c163023-ac99-4cec-bf9a-75e7bc69fef2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
