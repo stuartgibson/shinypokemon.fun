@@ -852,4 +852,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Christopher (@Christopher)
+  //  0129. Magikarp
+  'c54d5fd9-6b57-44bb-8fd3-17cd4237b596': {
+    data: {
+      id: 'c54d5fd9-6b57-44bb-8fd3-17cd4237b596',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
