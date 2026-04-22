@@ -891,4 +891,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Philip Starns (@Philip Starns)
+  //  0349. Feebas
+  'ea545521-1f99-42f9-8cb6-05c5361873e5': {
+    data: {
+      id: 'ea545521-1f99-42f9-8cb6-05c5361873e5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
