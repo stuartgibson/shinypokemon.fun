@@ -930,4 +930,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Sean G (@lostlemon)
+  //  0670. Floette
+  'e7d1afc8-894d-4a4a-b5d9-058af8cb5e6d': {
+    data: {
+      id: 'e7d1afc8-894d-4a4a-b5d9-058af8cb5e6d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
