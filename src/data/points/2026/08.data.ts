@@ -969,4 +969,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Tone (@Tone)
+  //  0333. Swablu
+  '7d030057-d521-4500-a262-081d397409a8': {
+    data: {
+      id: '7d030057-d521-4500-a262-081d397409a8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9c6a7a1e-296d-447e-9293-713645a435bf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
