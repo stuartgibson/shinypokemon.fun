@@ -20,6 +20,8 @@ Look up the player by name or Slack display name in `src/data/players.data.ts`. 
 
 Search for the pokemon by name in `src/data/pokemon/gen*.data.ts` (and `regionals.data.ts` / `other.data.ts`). Use their UUID for the relationship. Note the `dexNo` for the comment.
 
+**Evolution rule:** A pokemon counts for a competition if any of its evolutions appears in the competition's `validPokemon` list. Do not flag this as a problem — if you find a pre-evolution of a listed pokemon, just add the entry. Use the UUID of the pokemon that was actually caught (the pre-evolution), not its evolution.
+
 ## 5. Determine firstCatch
 
 Only one player per competition receives `firstCatch: true` — the first player to score any point in the competition. Check the existing entries in the points data file: if any entry already has `firstCatch: true`, set `firstCatch: false` for the new entry.
