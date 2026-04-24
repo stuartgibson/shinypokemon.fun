@@ -1008,4 +1008,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Tone (@Tone)
+  //  0705. Sliggoo (Hisuian)
+  '5b368e26-e8de-4313-bd2c-b0767964fe48': {
+    data: {
+      id: '5b368e26-e8de-4313-bd2c-b0767964fe48',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2b18d998-c1aa-4428-bd2a-11d866ecca18',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
