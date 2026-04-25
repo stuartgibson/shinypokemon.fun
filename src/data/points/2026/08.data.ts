@@ -1047,4 +1047,43 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Stuart (@stuart)
+  //  0676. Furfrou
+  '300d2744-ff07-429f-b37a-dad7bfdc6f10': {
+    data: {
+      id: '300d2744-ff07-429f-b37a-dad7bfdc6f10',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '97ac9b43-d8ce-4dfe-a7de-928e87bd9f0a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
