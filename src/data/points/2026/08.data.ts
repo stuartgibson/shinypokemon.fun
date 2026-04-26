@@ -1163,4 +1163,42 @@ export const pointsData2026_08: IPointEntities = {
       },
     },
   },
+  //  We are the Champions 12 Apr 2026 to 25 Apr 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0515. Panpour
+  '28e31295-ec0a-4959-b7bb-5f8237820b52': {
+    data: {
+      id: '28e31295-ec0a-4959-b7bb-5f8237820b52',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6c77db3f-9ccf-4c42-b0e2-8860f561ca7b',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dfd21c51-0564-4745-b017-61b1733962b9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
