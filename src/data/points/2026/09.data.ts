@@ -191,4 +191,43 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0313. Volbeat
+  '3693a079-a2f1-494c-a9ad-5e8a4402fdc9': {
+    data: {
+      id: '3693a079-a2f1-494c-a9ad-5e8a4402fdc9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c0e1b0e4-2b2a-43b8-8d4c-c21c31635bbf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
