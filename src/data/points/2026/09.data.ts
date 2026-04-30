@@ -230,4 +230,42 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Stuart (@stuart)
+  //  0132. Ditto
+  'd1ce25f5-2fe7-42b8-a6b1-85e4c673ce7a': {
+    data: {
+      id: 'd1ce25f5-2fe7-42b8-a6b1-85e4c673ce7a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-04-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd6965153-289e-40ee-aab6-3cf769a1ce2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
