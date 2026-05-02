@@ -268,4 +268,42 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Shawn Carpenter (@Shawn)
+  //  0066. Machop
+  'cac6bcac-b8cc-4c47-9019-5b16be8b723b': {
+    data: {
+      id: 'cac6bcac-b8cc-4c47-9019-5b16be8b723b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '81069d3f-aa1f-43b1-bc9b-952920f02d88',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a890ca5-12f0-4d54-b1bd-70fe694ea803',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };

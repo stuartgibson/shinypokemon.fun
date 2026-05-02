@@ -1068,4 +1068,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Shawn Carpenter (@Shawn)
+  '81069d3f-aa1f-43b1-bc9b-952920f02d88': {
+    data: {
+      type: 'player' as 'player',
+      id: '81069d3f-aa1f-43b1-bc9b-952920f02d88',
+      attributes: {
+        realName: 'Shawn Carpenter',
+        displayName: 'Shawn',
+      },
+    },
+  },
 };
