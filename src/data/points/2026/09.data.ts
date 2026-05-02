@@ -306,4 +306,42 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Tone (@Tone)
+  //  0244. Entei
+  'c6ae8842-1d80-4197-bf80-18d692fa4384': {
+    data: {
+      id: 'c6ae8842-1d80-4197-bf80-18d692fa4384',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ecd419f7-0259-4d1d-8bca-2887ca913ffd',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
