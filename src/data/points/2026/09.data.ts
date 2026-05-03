@@ -344,4 +344,42 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0410. Shieldon
+  '4aed4cad-6fea-44c3-9c01-ef3e206d87a7': {
+    data: {
+      id: '4aed4cad-6fea-44c3-9c01-ef3e206d87a7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c5d23098-25f7-4494-a38c-33fccab7c90b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
