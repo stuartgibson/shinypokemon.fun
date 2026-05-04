@@ -382,4 +382,121 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Philip Starns (@Philip Starns)
+  //  0532. Timburr
+  'ac9c7600-b526-4b27-b437-8c0bc9f69c18': {
+    data: {
+      id: 'ac9c7600-b526-4b27-b437-8c0bc9f69c18',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Philip Starns (@Philip Starns)
+  //  0532. Timburr
+  '3fd8d087-4531-4d37-92f0-8e481bbb7c1c': {
+    data: {
+      id: '3fd8d087-4531-4d37-92f0-8e481bbb7c1c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Philip Starns (@Philip Starns)
+  //  0532. Timburr
+  '0ee398f6-59e7-465f-b014-b9549db4a8d5': {
+    data: {
+      id: '0ee398f6-59e7-465f-b014-b9549db4a8d5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f41d0de3-8989-49fc-a56a-57bf68e9e42c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
