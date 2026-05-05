@@ -499,4 +499,80 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Deathrite (@Deathrite)
+  //  0016. Pidgey
+  '8b06d9fb-036e-4a20-a133-da36778e2b45': {
+    data: {
+      id: '8b06d9fb-036e-4a20-a133-da36778e2b45',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d2eb67b-06bb-41a3-936c-654a2fa1e475',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Deathrite (@Deathrite)
+  //  0016. Pidgey
+  '555ebdef-2964-4c3a-8313-655362ca88de': {
+    data: {
+      id: '555ebdef-2964-4c3a-8313-655362ca88de',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d2eb67b-06bb-41a3-936c-654a2fa1e475',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
