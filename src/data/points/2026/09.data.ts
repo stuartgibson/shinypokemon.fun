@@ -575,4 +575,42 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Philip Starns (@Philip Starns)
+  //  0714. Noibat
+  '8f6f8411-69f2-4c6d-8b26-44d4caba9475': {
+    data: {
+      id: '8f6f8411-69f2-4c6d-8b26-44d4caba9475',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-05',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '187dfec5-b0cb-4157-a4aa-4738241e0864',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
