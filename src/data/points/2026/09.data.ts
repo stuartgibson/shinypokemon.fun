@@ -613,4 +613,43 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Philip Starns (@Philip Starns)
+  //  0331. Cacnea
+  '0ef53faf-dd02-4f3f-93f1-0a230073efab': {
+    data: {
+      id: '0ef53faf-dd02-4f3f-93f1-0a230073efab',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '40ae3055-bca5-4c88-9313-34b563d7e8cc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
