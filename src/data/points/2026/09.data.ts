@@ -690,4 +690,43 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0016. Pidgey
+  'bf458601-d6be-4e0b-98dc-683ce40cfa7e': {
+    data: {
+      id: 'bf458601-d6be-4e0b-98dc-683ce40cfa7e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9d2eb67b-06bb-41a3-936c-654a2fa1e475',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
