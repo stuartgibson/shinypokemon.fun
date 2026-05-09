@@ -652,4 +652,42 @@ export const pointsData2026_09: IPointEntities = {
       },
     },
   },
+  //  Pokopia 26 Apr 2026 to 9 May 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0208. Steelix
+  '6a24c2ac-1688-4417-bf44-2c11c68748c5': {
+    data: {
+      id: '6a24c2ac-1688-4417-bf44-2c11c68748c5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '77546964-8743-4092-9de8-4f84823adc2d',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '09476a48-454e-4a36-88a8-192abacbcf7c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
