@@ -8980,4 +8980,34 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '1bd06e9b-4ea2-451a-ab4c-352ef8af2448': {
+    data: {
+      type: 'competition',
+      id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+      attributes: {
+        description:
+          'Pokemon whose name start with the letter M',
+        endDate: '2026-05-23',
+        startDate: '2026-05-10',
+        theme: 'It\'s gonna be M (ay)',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
