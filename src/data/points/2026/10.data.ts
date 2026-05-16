@@ -39,4 +39,82 @@ export const pointsData2026_10: IPointEntities = {
       },
     },
   },
+
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Tone (@Tone)
+  //  0866. Mr. Rime
+  '1bb6f18d-bc1b-4c19-9f79-ebcfda59bc7f': {
+    data: {
+      id: '1bb6f18d-bc1b-4c19-9f79-ebcfda59bc7f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5b83f5c3-05ba-48c7-ac3e-9d18455c291a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Tone (@Tone)
+  //  0122. Mr. Mime (Galarian)
+  '2760736e-8be4-44ca-be53-753735b598ce': {
+    data: {
+      id: '2760736e-8be4-44ca-be53-753735b598ce',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '98edd436-162e-4e9d-ab09-2657ed54052d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
