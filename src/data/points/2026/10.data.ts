@@ -156,4 +156,43 @@ export const pointsData2026_10: IPointEntities = {
       },
     },
   },
+
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0943. Mabosstiff
+  '4367d900-163e-4c29-87b1-f8898fe91dfe': {
+    data: {
+      id: '4367d900-163e-4c29-87b1-f8898fe91dfe',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd186901b-7433-45ec-abf6-2b4e6cd748c1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
