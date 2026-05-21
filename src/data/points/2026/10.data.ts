@@ -117,4 +117,43 @@ export const pointsData2026_10: IPointEntities = {
       },
     },
   },
+
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Sean G (@lostlemon)
+  //  0859. Impidimp
+  'afdcc96b-9e65-4ed8-b312-8f98d8b25ba2': {
+    data: {
+      id: 'afdcc96b-9e65-4ed8-b312-8f98d8b25ba2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '54deb667-a45a-4afc-898e-392d98b33e33',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
