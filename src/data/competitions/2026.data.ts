@@ -12340,6 +12340,132 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
               type: 'pokemon',
             },
           },
+          {
+            data: {
+              // Rattata (Alolan)
+              id: '1a636f2b-e354-496d-9ae1-07de7d69ec7e',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Raticate (Alolan)
+              id: '69f8a248-6531-4f35-88bb-d069d22964b2',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Sandshrew (Alolan)
+              id: '1dc0b2ae-31d4-4759-9908-28efae57fc79',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Sandslash (Alolan)
+              id: '0ec6abba-7891-4bae-a6e5-7d9091ba0389',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Vulpix (Alolan)
+              id: '85969679-9e0c-459a-a9aa-4b7cbcebedce',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Ninetales (Alolan)
+              id: 'fac6c3a8-996e-49ed-ba3e-50b028e169ef',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Diglett (Alolan)
+              id: 'b6d62454-b853-4731-a020-d810f536d7fa',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Dugtrio (Alolan)
+              id: '9bbbe3e3-fc68-41da-9148-edecd340a189',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Meowth (Alolan)
+              id: '52a6f371-58db-451b-bcad-414fbda4ae75',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Persian (Alolan)
+              id: '7d8daf9c-d263-4e36-9d57-702e175ef60a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Geodude (Alolan)
+              id: 'df82c137-ce8e-45ec-9856-3ba2854d3e3f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Graveller (Alolan)
+              id: '64be93c6-3d42-4ec5-a5f7-90e0345eb6ba',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Golem (Alolan)
+              id: '802f9f76-877e-4a27-866a-fe0273c31c82',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Farfetch'd (Galarian)
+              id: 'b6af61b9-ea70-4cd5-9c39-b901a94ced0c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Grimer (Alolan)
+              id: '37ea2628-3ebc-4a61-a93b-c5bf024db889',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Muk (Alolan)
+              id: '7843e17c-1b09-4ea8-9984-8ef8976a342f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Marowak (Alolan)
+              id: 'f9345b0f-cb75-4347-9be4-bb07233c760b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Weezing (Galarian)
+              id: '55efe1e8-e5fa-4bbe-9c3b-22e710318845',
+              type: 'pokemon',
+            },
+          },
         ],
         year: {
           data: {
