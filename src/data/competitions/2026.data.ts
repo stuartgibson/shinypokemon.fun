@@ -9563,4 +9563,33 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '56698df4-51ba-46bc-8529-126296528314': {
+    data: {
+      type: 'competition',
+      id: '56698df4-51ba-46bc-8529-126296528314',
+      attributes: {
+        description:
+          'All Pokémon in the wild that can have a a held item when caught',
+        endDate: '2026-06-06',
+        startDate: '2026-05-24',
+        theme: 'Holding Out for a Shiny',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
