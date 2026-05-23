@@ -234,4 +234,42 @@ export const pointsData2026_10: IPointEntities = {
       },
     },
   },
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Philip Starns (@Philip Starns)
+  //  0517. Munna
+  'cd6ad56a-790c-4623-b232-455f3968985c': {
+    data: {
+      id: 'cd6ad56a-790c-4623-b232-455f3968985c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7bf836b2-54e2-456b-9239-08f496fece30',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
