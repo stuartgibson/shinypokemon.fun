@@ -272,4 +272,82 @@ export const pointsData2026_10: IPointEntities = {
       },
     },
   },
+
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Stuart (@stuart)
+  //  0296. Makuhita
+  '1007daec-670a-4ebc-a6ba-55b69d21f729': {
+    data: {
+      id: '1007daec-670a-4ebc-a6ba-55b69d21f729',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '40d7919e-766c-4109-a5d1-82444c0b63ed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Stuart (@stuart)
+  //  0056. Mankey
+  'f35477bc-176c-443f-8ea5-349804599f3f': {
+    data: {
+      id: 'f35477bc-176c-443f-8ea5-349804599f3f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e07a9ffb-7f01-4691-a8c0-a05aabbedb20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
