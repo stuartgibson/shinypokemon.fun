@@ -195,4 +195,43 @@ export const pointsData2026_10: IPointEntities = {
       },
     },
   },
+
+  //  It's gonna be M (ay) 10 May 2026 to 23 May 2026
+  //  Philip Starns (@Philip Starns)
+  //  0122. Mr. Mime (Galarian)
+  '47f7acd8-1566-45eb-87fc-c778b5ca05a9': {
+    data: {
+      id: '47f7acd8-1566-45eb-87fc-c778b5ca05a9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '1bd06e9b-4ea2-451a-ab4c-352ef8af2448',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '98edd436-162e-4e9d-ab09-2657ed54052d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
