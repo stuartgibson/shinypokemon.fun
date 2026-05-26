@@ -39,4 +39,43 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0311. Plusle
+  'aae0e382-7177-4474-a829-8f57a84c42ea': {
+    data: {
+      id: 'aae0e382-7177-4474-a829-8f57a84c42ea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c8d27ce2-34e2-42fe-8f9f-0f9298f1a3f7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
