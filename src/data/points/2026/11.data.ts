@@ -78,4 +78,42 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Tone (@Tone)
+  //  0120. Staryu
+  '278f22e6-1bef-46bf-9f8f-ae8a8d051ea5': {
+    data: {
+      id: '278f22e6-1bef-46bf-9f8f-ae8a8d051ea5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3caf5287-84ef-476a-9b3e-9e8a741fe4d3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
