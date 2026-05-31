@@ -116,4 +116,43 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0086. Seel
+  'ddbe1877-7b64-40ef-98ae-91c7e4664f20': {
+    data: {
+      id: 'ddbe1877-7b64-40ef-98ae-91c7e4664f20',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3a3d7a26-b94e-49e6-98d7-3d4ba82fb7da',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
