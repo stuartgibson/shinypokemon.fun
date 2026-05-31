@@ -155,4 +155,43 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0084. Doduo
+  'eed12d5c-5bab-47a2-bd62-bb4a7fe9b9d1': {
+    data: {
+      id: 'eed12d5c-5bab-47a2-bd62-bb4a7fe9b9d1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-05-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ff3fc630-2a66-40b0-8a1e-e080951984ff',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
