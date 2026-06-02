@@ -194,4 +194,80 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0088. Grimer (Alolan)
+  '692bc1aa-e3cc-4336-aa7c-9b55db1af3f4': {
+    data: {
+      id: '692bc1aa-e3cc-4336-aa7c-9b55db1af3f4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '37ea2628-3ebc-4a61-a93b-c5bf024db889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Sean G (@lostlemon)
+  //  0088. Grimer (Alolan)
+  'b1fb78d2-5c66-4eb8-bf19-7f2d8bb5f4d9': {
+    data: {
+      id: 'b1fb78d2-5c66-4eb8-bf19-7f2d8bb5f4d9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '37ea2628-3ebc-4a61-a93b-c5bf024db889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
