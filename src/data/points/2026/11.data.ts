@@ -270,4 +270,82 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Tone (@Tone)
+  //  0415. Combee
+  '9d7f2bff-f4eb-4d9c-a037-fd93fa89bbeb': {
+    data: {
+      id: '9d7f2bff-f4eb-4d9c-a037-fd93fa89bbeb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d583683-c220-41fd-9175-281a26207a83',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Tone (@Tone)
+  //  0415. Combee
+  'adeb65ad-c229-482a-968b-3c5d8af928e0': {
+    data: {
+      id: 'adeb65ad-c229-482a-968b-3c5d8af928e0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d583683-c220-41fd-9175-281a26207a83',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
