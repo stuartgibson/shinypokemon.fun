@@ -424,4 +424,42 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0043. Oddish
+  '484c7e36-5d06-4f57-aa2e-c6162440c62a': {
+    data: {
+      id: '484c7e36-5d06-4f57-aa2e-c6162440c62a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '639f5cf6-3c4c-410e-abe6-5fda5c9cc39b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
