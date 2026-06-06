@@ -462,4 +462,80 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0147. Dratini
+  'dc34ba57-1e3a-4015-805a-d1c60a224f5b': {
+    data: {
+      id: 'dc34ba57-1e3a-4015-805a-d1c60a224f5b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5209be64-7255-4973-b665-4734ae773e28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0345. Lileep
+  'ba37de45-bf01-4057-9665-8fe4b9928775': {
+    data: {
+      id: 'ba37de45-bf01-4057-9665-8fe4b9928775',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f04cfd6f-6779-43b0-8385-df734442989b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
