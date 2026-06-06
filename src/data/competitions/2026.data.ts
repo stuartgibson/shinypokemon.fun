@@ -12477,4 +12477,33 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  'cd955abc-9d99-46db-9512-b48e11fd5988': {
+    data: {
+      type: 'competition',
+      id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+      attributes: {
+        description: "Anything that's got a bug type (pure or half)",
+        endDate: '2026-06-20',
+        startDate: '2026-06-07',
+        theme: 'Bug Hunting Competition',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
