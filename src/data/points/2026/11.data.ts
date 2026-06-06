@@ -538,4 +538,355 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0749. Mudbray
+  'c5b1639b-f845-4c3a-9ca9-e9eea38288dd': {
+    data: {
+      id: 'c5b1639b-f845-4c3a-9ca9-e9eea38288dd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da630920-69c0-4c34-a96e-d39501ff7d1a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0749. Mudbray
+  '8d45086e-53bc-48be-9ac7-b11b31d96887': {
+    data: {
+      id: '8d45086e-53bc-48be-9ac7-b11b31d96887',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da630920-69c0-4c34-a96e-d39501ff7d1a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0415. Combee
+  '5acfadae-4ed2-4f8e-865b-a2bbd0a1b7b7': {
+    data: {
+      id: '5acfadae-4ed2-4f8e-865b-a2bbd0a1b7b7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d583683-c220-41fd-9175-281a26207a83',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0050. Diglett (Alolan)
+  '13cad3c4-ffb4-4fc0-a224-0ff5933eff90': {
+    data: {
+      id: '13cad3c4-ffb4-4fc0-a224-0ff5933eff90',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b6d62454-b853-4731-a020-d810f536d7fa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0358. Chimecho
+  '3bb08e34-bf42-4421-9f0f-0095debce4c6': {
+    data: {
+      id: '3bb08e34-bf42-4421-9f0f-0095debce4c6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1b2d34e5-43cb-4b4e-ab6d-a876c8b038f1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0110. Weezing
+  'e45e721e-d01a-4208-80b8-d8baffaace4f': {
+    data: {
+      id: 'e45e721e-d01a-4208-80b8-d8baffaace4f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c5884c42-d169-4c42-b24a-cd35d9ee482a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0060. Poliwag
+  '764cb6d7-726e-4108-af28-c72b2ec33b7c': {
+    data: {
+      id: '764cb6d7-726e-4108-af28-c72b2ec33b7c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0311. Plusle
+  '4a6a67b7-3a24-48dd-bc6e-f26721ef9cc0': {
+    data: {
+      id: '4a6a67b7-3a24-48dd-bc6e-f26721ef9cc0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c8d27ce2-34e2-42fe-8f9f-0f9298f1a3f7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Stuart (@stuart)
+  //  0109. Koffing
+  '4815040b-3b6d-49eb-b148-71bf7d1fca55': {
+    data: {
+      id: '4815040b-3b6d-49eb-b148-71bf7d1fca55',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6cbfb9db-915f-4874-879a-e4a49ca6144c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
