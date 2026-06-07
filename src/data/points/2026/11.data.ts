@@ -889,4 +889,979 @@ export const pointsData2026_11: IPointEntities = {
       },
     },
   },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0001. Bulbasaur
+  '8912124f-d374-4efd-b80f-1fc237740904': {
+    data: {
+      id: '8912124f-d374-4efd-b80f-1fc237740904',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64201a6d-a65c-4ada-8fb9-90c2ba65b294',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0025. Pikachu
+  '5d306197-21c7-418d-8c0c-b7f7592569f0': {
+    data: {
+      id: '5d306197-21c7-418d-8c0c-b7f7592569f0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0025. Pikachu
+  'f103f54b-bef4-450a-b527-f3c6ed24063b': {
+    data: {
+      id: 'f103f54b-bef4-450a-b527-f3c6ed24063b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0050. Diglett (Alolan)
+  'b1f55efa-6390-41e1-8103-3b05a906af17': {
+    data: {
+      id: 'b1f55efa-6390-41e1-8103-3b05a906af17',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b6d62454-b853-4731-a020-d810f536d7fa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0050. Diglett (Alolan)
+  '7c477bb0-3607-405b-af74-393b7164f69a': {
+    data: {
+      id: '7c477bb0-3607-405b-af74-393b7164f69a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b6d62454-b853-4731-a020-d810f536d7fa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0060. Poliwag
+  '78153cc7-123b-4ae0-8bb0-ea562187fddf': {
+    data: {
+      id: '78153cc7-123b-4ae0-8bb0-ea562187fddf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f28cf959-bd7f-481d-ba9b-6fb475c4233b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0081. Magnemite
+  '15024624-21f0-4e1d-aa3c-a82dff6f6424': {
+    data: {
+      id: '15024624-21f0-4e1d-aa3c-a82dff6f6424',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62831452-5f0d-4836-b608-3c0f052b9889',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0110. Weezing
+  'c54b08e3-1f0f-4334-83ac-4526877f4726': {
+    data: {
+      id: 'c54b08e3-1f0f-4334-83ac-4526877f4726',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c5884c42-d169-4c42-b24a-cd35d9ee482a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0125. Electabuzz
+  '242ecb03-c3b9-405d-9747-2225c86f7d1c': {
+    data: {
+      id: '242ecb03-c3b9-405d-9747-2225c86f7d1c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '38bb56ef-f998-44fd-9382-0b2ccc42f18e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0125. Electabuzz
+  '153a2cea-b4bb-4258-89f4-c8706676b9d5': {
+    data: {
+      id: '153a2cea-b4bb-4258-89f4-c8706676b9d5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '38bb56ef-f998-44fd-9382-0b2ccc42f18e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0147. Dratini
+  '11757b77-390a-496d-8582-ceaa85890477': {
+    data: {
+      id: '11757b77-390a-496d-8582-ceaa85890477',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5209be64-7255-4973-b665-4734ae773e28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0147. Dratini
+  '3edd6607-6dbe-4b8f-b401-7fcbdeb3f8b2': {
+    data: {
+      id: '3edd6607-6dbe-4b8f-b401-7fcbdeb3f8b2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5209be64-7255-4973-b665-4734ae773e28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0239. Elekid
+  '5e75e9c1-b638-4837-8737-1f50e3bf568f': {
+    data: {
+      id: '5e75e9c1-b638-4837-8737-1f50e3bf568f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b974027f-18ef-4768-9dd0-21fe1037257f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0302. Sableye
+  '3964d177-1af8-4126-97fc-6258d9975a6e': {
+    data: {
+      id: '3964d177-1af8-4126-97fc-6258d9975a6e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '660c3b60-e28f-4639-be49-39889334c531',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0311. Plusle
+  '48db82cf-5d2a-4e17-9d6a-3c06db2c5d56': {
+    data: {
+      id: '48db82cf-5d2a-4e17-9d6a-3c06db2c5d56',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c8d27ce2-34e2-42fe-8f9f-0f9298f1a3f7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0345. Lileep
+  'a9350a28-6d1d-4379-a65a-7b9d80e08f2e': {
+    data: {
+      id: 'a9350a28-6d1d-4379-a65a-7b9d80e08f2e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f04cfd6f-6779-43b0-8385-df734442989b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0345. Lileep
+  '2c6a7714-2fe8-4300-b8c9-1a4c307f970d': {
+    data: {
+      id: '2c6a7714-2fe8-4300-b8c9-1a4c307f970d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f04cfd6f-6779-43b0-8385-df734442989b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0358. Chimecho
+  '0f096799-5176-40d2-9fdd-d07a887b9fb7': {
+    data: {
+      id: '0f096799-5176-40d2-9fdd-d07a887b9fb7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1b2d34e5-43cb-4b4e-ab6d-a876c8b038f1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0359. Absol
+  '76480600-6b47-4955-a19b-dc8ebf3d6a05': {
+    data: {
+      id: '76480600-6b47-4955-a19b-dc8ebf3d6a05',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b25d8f50-aa81-42bb-8274-81b65833fa08',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0361. Snorunt
+  '591deb84-53bc-4cd6-91bc-20abd04f4e0f': {
+    data: {
+      id: '591deb84-53bc-4cd6-91bc-20abd04f4e0f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f95826ab-e534-4503-934c-fb4dd898b6b7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0415. Combee
+  '94e494dc-4d84-4c54-b3bc-153f0905372f': {
+    data: {
+      id: '94e494dc-4d84-4c54-b3bc-153f0905372f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d583683-c220-41fd-9175-281a26207a83',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Christopher (@Christopher)
+  //  0749. Mudbray
+  'd9010fd0-6e78-428c-86dc-70e89443712b': {
+    data: {
+      id: 'd9010fd0-6e78-428c-86dc-70e89443712b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da630920-69c0-4c34-a96e-d39501ff7d1a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0025. Pikachu
+  '3a9b9a75-13e8-4ed7-a741-b4656d3e817b': {
+    data: {
+      id: '3a9b9a75-13e8-4ed7-a741-b4656d3e817b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0025. Pikachu
+  '34800304-a21c-4b35-934f-589d5984b137': {
+    data: {
+      id: '34800304-a21c-4b35-934f-589d5984b137',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Holding Out for a Shiny 24 May 2026 to 6 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0239. Elekid
+  '48903b4d-592b-4882-9844-be05ee3b2ef6': {
+    data: {
+      id: '48903b4d-592b-4882-9844-be05ee3b2ef6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '56698df4-51ba-46bc-8529-126296528314',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b974027f-18ef-4768-9dd0-21fe1037257f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
