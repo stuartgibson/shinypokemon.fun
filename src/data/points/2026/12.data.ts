@@ -117,4 +117,43 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Christopher (@Christopher)
+  //  0010. Caterpie
+  'e7fe0135-65bb-47cf-9eb1-c95f23a8a2b7': {
+    data: {
+      id: 'e7fe0135-65bb-47cf-9eb1-c95f23a8a2b7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2558897e-fbf9-462e-b298-99d41d104263',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
