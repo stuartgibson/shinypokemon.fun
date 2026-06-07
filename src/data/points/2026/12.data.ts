@@ -156,4 +156,42 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Tone (@Tone)
+  //  0824. Blipbug
+  '33a37c64-77e0-406f-b04f-16fd623fe776': {
+    data: {
+      id: '33a37c64-77e0-406f-b04f-16fd623fe776',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5da2230d-4843-47e8-8ac0-f877f1814a58',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
