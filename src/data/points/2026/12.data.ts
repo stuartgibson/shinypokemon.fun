@@ -194,4 +194,121 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Sean G (@lostlemon)
+  //  0123. Scyther
+  '8f6ab937-3404-4500-83b7-5b7bc365cdff': {
+    data: {
+      id: '8f6ab937-3404-4500-83b7-5b7bc365cdff',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Sean G (@lostlemon)
+  //  0123. Scyther
+  '408641cc-81d6-475e-ad03-b3bd2a244966': {
+    data: {
+      id: '408641cc-81d6-475e-ad03-b3bd2a244966',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Sean G (@lostlemon)
+  //  0123. Scyther
+  'e7075ba4-431e-4749-8f8c-af99c9d369c1': {
+    data: {
+      id: 'e7075ba4-431e-4749-8f8c-af99c9d369c1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
