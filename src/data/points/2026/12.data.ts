@@ -311,4 +311,42 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0664. Scatterbug
+  '4015f22f-1e70-4618-8138-42bcacc3159d': {
+    data: {
+      id: '4015f22f-1e70-4618-8138-42bcacc3159d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de189ff7-1bf7-45ae-a49d-92c28217d44e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
