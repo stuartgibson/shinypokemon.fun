@@ -349,4 +349,43 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Sean G (@lostlemon)
+  //  0214. Heracross
+  '6fe6f504-8f55-4b6c-9f1b-4c75f8ddac39': {
+    data: {
+      id: '6fe6f504-8f55-4b6c-9f1b-4c75f8ddac39',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ca1230a9-d936-4410-a015-7fac682cf2cf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
