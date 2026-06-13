@@ -388,4 +388,43 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Philip Starns (@Philip Starns)
+  //  0415. Combee
+  '065181e6-57d8-419d-b6f2-23df65ac8bc3': {
+    data: {
+      id: '065181e6-57d8-419d-b6f2-23df65ac8bc3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d583683-c220-41fd-9175-281a26207a83',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
