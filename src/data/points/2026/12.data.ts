@@ -427,4 +427,199 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Philip Starns (@Philip Starns)
+  //  0540. Sewaddle
+  'b5ada786-3486-4c23-96be-9c8ffe0fee72': {
+    data: {
+      id: 'b5ada786-3486-4c23-96be-9c8ffe0fee72',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dc27c553-3e13-4dc5-b6d6-241335e5f8d9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Tone (@Tone)
+  //  0010. Caterpie
+  '4c9e2387-67a7-45bd-b1f4-efcdf5ff3242': {
+    data: {
+      id: '4c9e2387-67a7-45bd-b1f4-efcdf5ff3242',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2558897e-fbf9-462e-b298-99d41d104263',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Tone (@Tone)
+  //  0204. Pineco
+  '8030a3c6-a7e1-4ded-be3c-64f3c2b46167': {
+    data: {
+      id: '8030a3c6-a7e1-4ded-be3c-64f3c2b46167',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da602af9-4a1d-40bf-9042-f943f7241a9d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Tone (@Tone)
+  //  0415. Combee
+  '6fa02c81-73c8-4c7c-8bfc-dc5b281cc3cf': {
+    data: {
+      id: '6fa02c81-73c8-4c7c-8bfc-dc5b281cc3cf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1d583683-c220-41fd-9175-281a26207a83',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Tone (@Tone)
+  //  0123. Scyther
+  '879a1b8e-7588-4afb-ac0c-2bdc179be648': {
+    data: {
+      id: '879a1b8e-7588-4afb-ac0c-2bdc179be648',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f6e13a94-bcb0-4747-8c0e-cf45331cff80',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
