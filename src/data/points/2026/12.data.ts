@@ -622,4 +622,80 @@ export const pointsData2026_12: IPointEntities = {
       },
     },
   },
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Philip Starns (@Philip Starns)
+  //  0540. Sewaddle
+  '6fe3c4c2-598f-4882-a51b-f786d958072d': {
+    data: {
+      id: '6fe3c4c2-598f-4882-a51b-f786d958072d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dc27c553-3e13-4dc5-b6d6-241335e5f8d9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Bug Hunting Competition 7 Jun 2026 to 20 Jun 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0632. Durant
+  '381c581c-b5f6-4aa0-aa3e-69729b454598': {
+    data: {
+      id: '381c581c-b5f6-4aa0-aa3e-69729b454598',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'cd955abc-9d99-46db-9512-b48e11fd5988',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ed4bac1b-ff50-4e13-90c2-7173c9f6493a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
