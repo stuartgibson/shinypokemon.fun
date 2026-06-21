@@ -13164,4 +13164,390 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '76b12b25-0dfa-4838-8b1e-c9d65bf10b48': {
+    data: {
+      type: 'competition',
+      id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+      attributes: {
+        description: 'All Pokémon that can learn Explosion by level up',
+        endDate: '2026-07-04',
+        startDate: '2026-06-21',
+        theme: 'Tick Tick BOOM!',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+          {
+            data: {
+              // Geodude
+              id: 'fad511fd-a126-4a39-b926-b3b519343992',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Graveler
+              id: '85a703ab-af6c-484a-9260-3300916af26d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Golem
+              id: '09a002b1-b0be-4ca3-82bc-cd26c1bf166f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Magnemite
+              id: '62831452-5f0d-4836-b608-3c0f052b9889',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Voltorb
+              id: 'a7ea779c-7360-4fae-a051-3db40f8cbf45',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Electrode
+              id: '0a3ba008-f8b7-46e4-884c-058c94d9bcf6',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Koffing
+              id: '6cbfb9db-915f-4874-879a-e4a49ca6144c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Weezing
+              id: 'c5884c42-d169-4c42-b24a-cd35d9ee482a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Pineco
+              id: 'da602af9-4a1d-40bf-9042-f943f7241a9d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Forretress
+              id: '34eb38f2-8d9c-459c-919e-e31ea735695b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Seedot
+              id: '791964e7-c59a-4cfe-8f13-caf2c6be8b50',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Nuzleaf
+              id: '986c888a-af44-475a-b4c0-98ae73d9c48d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Shiftry
+              id: '17fcfde4-cf74-439f-b708-31a9994a0fab',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Lunatone
+              id: 'bf708485-a15c-4b56-9c9a-e93731114db0',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Solrock
+              id: 'd71dc002-63ff-4fb6-ad1d-527f48c929d0',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Gulpin
+              id: 'de4cd6ab-6981-4062-ba93-19b285c9baa9',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Swalot
+              id: 'ab2974ee-a499-423b-95b2-1237e6b420dd',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Glalie
+              id: 'a4b7fc43-7daa-4a87-bc5c-672f8ba0cf8f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Baltoy
+              id: 'aa88be52-a660-4253-ba00-dd6a84e4f73c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Claydol
+              id: '63e0a668-2ce5-458b-9549-8e1181e2c6b5',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Beldum
+              id: 'efe1c7a0-9333-40cf-8017-6a04a9a4187d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Metang
+              id: '92ceeed3-7543-4241-9a5f-eac4f97fbb75',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Metagross
+              id: '4ba7f825-c1f4-4a92-9cd8-57d97a31ec0f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Drifloon
+              id: '279b1e2e-4145-4829-9f39-d5e8d2e25a31',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Drifblim
+              id: '38e9e1c0-2a92-4ab9-ab1c-aabfb75f8fed',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Stunky
+              id: 'ba3459b2-c4bc-48a7-99fc-ebe206b07017',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Skuntank
+              id: '7fc75ee8-810f-4cee-830f-e24f1c2b3ba4',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Roggenrola
+              id: 'cc0af826-8ee8-426a-bd0b-45bc81f50a1c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Boldore
+              id: '772d2854-7a6d-4625-a711-5d23aa419dbe',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Gigalith
+              id: 'cf123990-642b-4761-a494-fd297b0c1c7f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Trubbish
+              id: 'd3dfc5c5-d610-431e-8d99-8575aca5606e',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Garbodor
+              id: 'd828c652-ee3e-4c12-8efb-28b39c06bf52',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Vanillite
+              id: '0d326685-c757-4a11-bd85-7c8c63e084e3',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Vanillish
+              id: '31bd302b-7a8c-42f7-a5c4-c1320ec30f2e',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Vanilluxe
+              id: 'aeebded8-2b5f-4b4a-8afb-1d0e780d6f29',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Cryogonal
+              id: 'e798e439-2d71-4e85-8c9b-1c1e99fe331d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Ferroseed
+              id: 'fbcc31c1-78be-49ee-80a3-a4777eb6b528',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Ferrothorn
+              id: '0b80d2e6-a425-47b7-baba-b7109da9e17b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Pumpkaboo
+              id: '92f1c2b5-7a27-41e3-98f5-ae7f8ca98d2b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Gourgeist
+              id: '8efb8e70-779f-43f6-b884-e11073accd58',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Turtonator
+              id: '3193a867-b51e-407d-9476-5dd9fbe17a6c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Regirock
+              id: '8fb21e0a-dda9-4abe-9ce8-ee01ce0ff7c5',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Registeel
+              id: 'dd83ad95-5524-4d5c-9a9b-dce9210777b0',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Regice
+              id: 'bc9d6986-f768-4988-a37c-f7437709c9d8',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Regidrago
+              id: '386a9dc0-4cb7-4888-a41f-2a05d7718e65',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Regieleki
+              id: '1d12f572-4220-40c6-a5ce-fd19e9eeaa84',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Nacli
+              id: '5a857c69-3a7f-425a-82eb-a0a9fc0187f3',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Naclstack
+              id: 'ae6caff7-62a2-4d8c-92f2-49dd456e3089',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Garganacl
+              id: '7e441215-4c6e-431f-81dd-f7ed8c35ccba',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Glimmet
+              id: '448daffc-668f-4476-b6e4-19111c496573',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Glimmora
+              id: '94e3ad92-d4e9-4e65-9165-b5b6d7eabfcd',
+              type: 'pokemon',
+            },
+          },
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
