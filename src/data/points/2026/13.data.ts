@@ -267,4 +267,42 @@ export const pointsData2026_13: IPointEntities = {
       },
     },
   },
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Philip Starns (@Philip Starns)
+  //  0526. Gigalith
+  '6b3dd3a2-48bc-490e-ac74-23fe713312c6': {
+    data: {
+      id: '6b3dd3a2-48bc-490e-ac74-23fe713312c6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cf123990-642b-4761-a494-fd297b0c1c7f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
