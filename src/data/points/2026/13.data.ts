@@ -419,4 +419,42 @@ export const pointsData2026_13: IPointEntities = {
       },
     },
   },
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Tone (@Tone)
+  //  0582. Vanillite
+  'caa04774-1fcc-493c-9c22-1f41a048567f': {
+    data: {
+      id: 'caa04774-1fcc-493c-9c22-1f41a048567f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0d326685-c757-4a11-bd85-7c8c63e084e3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
