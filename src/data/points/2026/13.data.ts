@@ -305,4 +305,118 @@ export const pointsData2026_13: IPointEntities = {
       },
     },
   },
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Philip Starns (@Philip Starns)
+  //  0316. Gulpin
+  '42a84a41-5cd7-4edb-a737-084d61aaf279': {
+    data: {
+      id: '42a84a41-5cd7-4edb-a737-084d61aaf279',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de4cd6ab-6981-4062-ba93-19b285c9baa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Philip Starns (@Philip Starns)
+  //  0316. Gulpin
+  '150dc548-7121-4c41-9243-fedd93c10092': {
+    data: {
+      id: '150dc548-7121-4c41-9243-fedd93c10092',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de4cd6ab-6981-4062-ba93-19b285c9baa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Philip Starns (@Philip Starns)
+  //  0568. Trubbish
+  '3a690dd8-c310-40e1-ad41-1152e37bd221': {
+    data: {
+      id: '3a690dd8-c310-40e1-ad41-1152e37bd221',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd3dfc5c5-d610-431e-8d99-8575aca5606e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
