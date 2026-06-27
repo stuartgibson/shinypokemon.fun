@@ -457,4 +457,43 @@ export const pointsData2026_13: IPointEntities = {
       },
     },
   },
+
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Stuart (@stuart)
+  //  0273. Seedot
+  'add7167d-8e83-4042-9d9c-1fb15f768032': {
+    data: {
+      id: 'add7167d-8e83-4042-9d9c-1fb15f768032',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '791964e7-c59a-4cfe-8f13-caf2c6be8b50',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
