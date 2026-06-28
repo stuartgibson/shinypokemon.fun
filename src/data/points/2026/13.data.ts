@@ -496,4 +496,42 @@ export const pointsData2026_13: IPointEntities = {
       },
     },
   },
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0316. Gulpin
+  'e7f5bc9a-cfec-4c71-b263-ddfec7be293b': {
+    data: {
+      id: 'e7f5bc9a-cfec-4c71-b263-ddfec7be293b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-28',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de4cd6ab-6981-4062-ba93-19b285c9baa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
