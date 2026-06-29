@@ -534,4 +534,42 @@ export const pointsData2026_13: IPointEntities = {
       },
     },
   },
+  //  Tick Tick BOOM! 21 Jun 2026 to 4 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0074. Geodude
+  '36a970b3-8889-4c85-aebe-683522e6745f': {
+    data: {
+      id: '36a970b3-8889-4c85-aebe-683522e6745f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-06-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '76b12b25-0dfa-4838-8b1e-c9d65bf10b48',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fad511fd-a126-4a39-b926-b3b519343992',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
