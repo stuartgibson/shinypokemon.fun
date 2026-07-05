@@ -22,11 +22,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single build & deploy job since we're pretty simple
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # Build job: produces the Pages artifact exactly once
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,7 +31,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-            node-version: '20'
+            node-version: '24'
             cache: 'npm'
       - run: npm ci
       - run: npm run build-prod
@@ -45,6 +42,16 @@ jobs:
         with:
           # Upload entire repository
           path: 'dist/shinypokemon.fun/browser'
+
+  # Deploy job: only deploys the already-built artifact, so it can be
+  # re-run safely without producing a second "github-pages" artifact.
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
