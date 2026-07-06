@@ -115,4 +115,80 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0133. Eevee
+  'd2405216-a8e7-4c0f-9199-3b0cfd023a62': {
+    data: {
+      id: 'd2405216-a8e7-4c0f-9199-3b0cfd023a62',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Christopher (@Christopher)
+  //  0816. Sobble
+  'e63d207b-20bf-45b6-b523-55d61e651f58': {
+    data: {
+      id: 'e63d207b-20bf-45b6-b523-55d61e651f58',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a829996d-61ac-4a55-beac-8197735e7687',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
