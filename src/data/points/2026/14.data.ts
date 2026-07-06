@@ -191,4 +191,42 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Christopher (@Christopher)
+  //  0133. Eevee
+  'bc17d0de-2ead-43fe-b96e-0bceba1b7f9e': {
+    data: {
+      id: 'bc17d0de-2ead-43fe-b96e-0bceba1b7f9e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
