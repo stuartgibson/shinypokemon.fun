@@ -229,4 +229,43 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Sean G (@lostlemon)
+  //  0007. Squirtle
+  'c11c771d-6013-42db-b5a6-84f43a8a9283': {
+    data: {
+      id: 'c11c771d-6013-42db-b5a6-84f43a8a9283',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '75c0ff1b-c295-427c-87fc-e3d95d9baa2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
