@@ -268,4 +268,42 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0001. Bulbasaur
+  '5d7d28f9-60dd-4509-8440-031cedf44454': {
+    data: {
+      id: '5d7d28f9-60dd-4509-8440-031cedf44454',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64201a6d-a65c-4ada-8fb9-90c2ba65b294',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
