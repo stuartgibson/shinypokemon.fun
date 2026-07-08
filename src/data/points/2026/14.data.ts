@@ -268,4 +268,43 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Philip Starns (@Philip Starns)
+  //  0328. Trapinch
+  '2c6ff1d8-047a-4aa5-b68b-0071136f4509': {
+    data: {
+      id: '2c6ff1d8-047a-4aa5-b68b-0071136f4509',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-08',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ef0701b3-2577-4444-820d-a6ac2412db63',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
