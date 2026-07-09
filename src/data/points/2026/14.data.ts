@@ -346,4 +346,42 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0656. Froakie
+  'c3e5b850-3179-4a22-a6b2-b26bf8d790e0': {
+    data: {
+      id: 'c3e5b850-3179-4a22-a6b2-b26bf8d790e0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
