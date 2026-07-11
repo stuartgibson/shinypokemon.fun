@@ -384,4 +384,121 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Stuart (@stuart)
+  //  0258. Mudkip
+  '744cda94-6768-4e0d-b74a-2e73da4f65df': {
+    data: {
+      id: '744cda94-6768-4e0d-b74a-2e73da4f65df',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a2a015a4-24b5-4ad2-87be-ce8817a8329e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Stuart (@stuart)
+  //  0607. Litwick
+  'da6e2b89-dadc-4bcd-836c-93286a94f8b8': {
+    data: {
+      id: 'da6e2b89-dadc-4bcd-836c-93286a94f8b8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Stuart (@stuart)
+  //  0027. Sandshrew (Alolan)
+  '5b7c26bf-759b-4ff1-bbfa-d55a0b725538': {
+    data: {
+      id: '5b7c26bf-759b-4ff1-bbfa-d55a0b725538',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1dc0b2ae-31d4-4759-9908-28efae57fc79',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
