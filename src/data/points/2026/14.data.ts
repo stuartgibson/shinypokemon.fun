@@ -501,4 +501,43 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Philip Starns (@Philip Starns)
+  //  0027. Sandshrew (Alolan)
+  '997131b7-3be4-43f5-9e1a-207c8606ece5': {
+    data: {
+      id: '997131b7-3be4-43f5-9e1a-207c8606ece5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1dc0b2ae-31d4-4759-9908-28efae57fc79',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
