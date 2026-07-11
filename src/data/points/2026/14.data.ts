@@ -540,4 +540,42 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0258. Mudkip
+  '9aeff505-f570-4461-a624-db84422dc61e': {
+    data: {
+      id: '9aeff505-f570-4461-a624-db84422dc61e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a2a015a4-24b5-4ad2-87be-ce8817a8329e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
