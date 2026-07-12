@@ -578,4 +578,575 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0782. Jangmo-o
+  'ee23568c-413c-457c-be48-5079a5c12b6b': {
+    data: {
+      id: 'ee23568c-413c-457c-be48-5079a5c12b6b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3ef6183e-c053-4b59-9be4-194a784c21a8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0007. Squirtle
+  '7590467a-ba26-4d84-bcbb-f1379b563eba': {
+    data: {
+      id: '7590467a-ba26-4d84-bcbb-f1379b563eba',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '75c0ff1b-c295-427c-87fc-e3d95d9baa2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0004. Charmander
+  '86589323-710a-4bc7-9fe3-dfc01c4e879f': {
+    data: {
+      id: '86589323-710a-4bc7-9fe3-dfc01c4e879f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '558462e3-65d4-4440-9617-63fae7d395e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0126. Magmar
+  '7c9667c0-4a76-4c52-ae02-8336add513ea': {
+    data: {
+      id: '7c9667c0-4a76-4c52-ae02-8336add513ea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9356e54c-96fb-4b1e-bd29-eb772f8056ac',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0714. Noibat
+  'e01eced5-a1b0-4251-aac3-b0a6c3a59ef1': {
+    data: {
+      id: 'e01eced5-a1b0-4251-aac3-b0a6c3a59ef1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '187dfec5-b0cb-4157-a4aa-4738241e0864',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0633. Deino
+  '33c3c11c-fac5-4d05-a29c-4b6c3700e8c4': {
+    data: {
+      id: '33c3c11c-fac5-4d05-a29c-4b6c3700e8c4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd5ba5779-ab90-42e5-b841-200d9bf4cfba',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0371. Bagon
+  '8674d81e-686b-4a37-b4a5-676a241814de': {
+    data: {
+      id: '8674d81e-686b-4a37-b4a5-676a241814de',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6aa962cb-3176-426d-9a74-f257c805b641',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0074. Geodude (Alolan)
+  '95f1169d-e909-41c5-a090-5a750fa02d87': {
+    data: {
+      id: '95f1169d-e909-41c5-a090-5a750fa02d87',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'df82c137-ce8e-45ec-9856-3ba2854d3e3f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0147. Dratini
+  '25c4f319-f160-4b7b-89c8-210891bd7a08': {
+    data: {
+      id: '25c4f319-f160-4b7b-89c8-210891bd7a08',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5209be64-7255-4973-b665-4734ae773e28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Philip Starns (@Philip Starns)
+  //  0704. Goomy
+  '4051c3ff-d5f9-47aa-80e6-e72ede777061': {
+    data: {
+      id: '4051c3ff-d5f9-47aa-80e6-e72ede777061',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '56c95763-648b-4526-a580-e5f4487c0665',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0004. Charmander
+  '1017e028-55dc-4434-8f89-d34c79c28992': {
+    data: {
+      id: '1017e028-55dc-4434-8f89-d34c79c28992',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '558462e3-65d4-4440-9617-63fae7d395e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Sean G (@lostlemon)
+  //  0258. Mudkip
+  'e3a815c2-d022-4f7b-97f2-689fcc3ed907': {
+    data: {
+      id: 'e3a815c2-d022-4f7b-97f2-689fcc3ed907',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a2a015a4-24b5-4ad2-87be-ce8817a8329e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Sean G (@lostlemon)
+  //  0063. Abra
+  '51ed3feb-483b-4aef-bb2f-e51406837682': {
+    data: {
+      id: '51ed3feb-483b-4aef-bb2f-e51406837682',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c6423ee0-03a5-4202-ab14-eea098c00593',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  DeLa (DeLaJestyr) (@DeLa)
+  //  0403. Shinx
+  'ecfcd9a7-fd68-43f6-88c7-4abcd7630394': {
+    data: {
+      id: 'ecfcd9a7-fd68-43f6-88c7-4abcd7630394',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c311b375-ad76-441d-b227-473b3aeaf439',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8faec058-51ec-472d-80f5-53b37449795c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  DeLa (DeLaJestyr) (@DeLa)
+  //  0821. Rookidee
+  '71f02dc4-a23d-487c-a42d-73acb6b01dfb': {
+    data: {
+      id: '71f02dc4-a23d-487c-a42d-73acb6b01dfb',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c311b375-ad76-441d-b227-473b3aeaf439',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f52a7d08-b297-4564-89a7-a9548f2a00c3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
