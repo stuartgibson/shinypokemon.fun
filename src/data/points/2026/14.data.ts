@@ -1149,4 +1149,43 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Stuart (@stuart)
+  //  0194. Wooper
+  '1e673676-7b68-4c33-8ec6-961d6790f173': {
+    data: {
+      id: '1e673676-7b68-4c33-8ec6-961d6790f173',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6c0bcd91-3e28-4ac2-b0a7-d1c7fde3c87e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
