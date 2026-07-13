@@ -2100,4 +2100,80 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Silent0123 (@Silent0123)
+  //  0633. Deino
+  'e2878d9b-fa69-409f-bfba-5398e890a3ec': {
+    data: {
+      id: 'e2878d9b-fa69-409f-bfba-5398e890a3ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6703130b-8728-490b-87dc-d66e097583d5',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd5ba5779-ab90-42e5-b841-200d9bf4cfba',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Stuart (@stuart)
+  //  0025. Pikachu
+  '7bcc08cf-30cd-4c61-9b86-9c778c647c0d': {
+    data: {
+      id: '7bcc08cf-30cd-4c61-9b86-9c778c647c0d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
