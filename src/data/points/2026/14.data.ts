@@ -2176,4 +2176,460 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Tone (@Tone)
+  //  0025. Pikachu
+  'cf5f485a-b8de-4e67-97f0-cf4214fd8316': {
+    data: {
+      id: 'cf5f485a-b8de-4e67-97f0-cf4214fd8316',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  DeLa (DeLaJestyr) (@DeLa)
+  //  0280. Ralts
+  'c745f3f8-1303-408d-86ff-8e847ff5cb87': {
+    data: {
+      id: 'c745f3f8-1303-408d-86ff-8e847ff5cb87',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'c311b375-ad76-441d-b227-473b3aeaf439',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3fd72417-b6f1-4130-abbb-55a0803e2b33',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Christopher (@Christopher)
+  //  0025. Pikachu
+  'f944a56d-1047-409a-bd9e-042384e1698e': {
+    data: {
+      id: 'f944a56d-1047-409a-bd9e-042384e1698e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Sean G (@lostlemon)
+  //  0025. Pikachu
+  '369aef8a-f9fe-4f1e-aaeb-526cfdfce208': {
+    data: {
+      id: '369aef8a-f9fe-4f1e-aaeb-526cfdfce208',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Ashley Marie (@Ashley Marie)
+  //  0066. Machop
+  'd94ce781-9346-4b3b-9e0d-fdd7e0a91d73': {
+    data: {
+      id: 'd94ce781-9346-4b3b-9e0d-fdd7e0a91d73',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '07cd2582-5f57-47b0-a63c-6ddf26af8892',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8a890ca5-12f0-4d54-b1bd-70fe694ea803',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0443. Gible
+  '914dfc76-2746-4fa2-8b51-dcfdc655eedf': {
+    data: {
+      id: '914dfc76-2746-4fa2-8b51-dcfdc655eedf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0363. Spheal
+  '78be929c-3235-47dd-9e6e-fa42697cf756': {
+    data: {
+      id: '78be929c-3235-47dd-9e6e-fa42697cf756',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '63e50f1c-ae9d-4b7b-932d-17f9bafee222',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0246. Larvitar
+  'a0f4db8e-3e37-437a-8a8e-670c22229cee': {
+    data: {
+      id: 'a0f4db8e-3e37-437a-8a8e-670c22229cee',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '14338c64-e7d5-4cfb-8719-bb5f4b1ebace',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0194. Wooper
+  '8df52cc0-7d12-4621-92cd-71ba7c18a506': {
+    data: {
+      id: '8df52cc0-7d12-4621-92cd-71ba7c18a506',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6c0bcd91-3e28-4ac2-b0a7-d1c7fde3c87e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0025. Pikachu
+  '8a30d3bd-e7b6-4ef5-96bb-04d24f3b83e6': {
+    data: {
+      id: '8a30d3bd-e7b6-4ef5-96bb-04d24f3b83e6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0004. Charmander
+  'f18bc09a-2970-4999-8324-a96261e2a800': {
+    data: {
+      id: 'f18bc09a-2970-4999-8324-a96261e2a800',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '558462e3-65d4-4440-9617-63fae7d395e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0001. Bulbasaur
+  'f7cc2203-717c-4439-aa3c-6b22e104348e': {
+    data: {
+      id: 'f7cc2203-717c-4439-aa3c-6b22e104348e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64201a6d-a65c-4ada-8fb9-90c2ba65b294',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
