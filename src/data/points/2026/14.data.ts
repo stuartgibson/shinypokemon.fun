@@ -2710,4 +2710,43 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0179. Mareep
+  '49c0d022-6573-4c9c-9e67-e01a24d13ce4': {
+    data: {
+      id: '49c0d022-6573-4c9c-9e67-e01a24d13ce4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2d3f45a9-8f6b-4540-9171-037c8a0dac74',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
