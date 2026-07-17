@@ -2671,4 +2671,43 @@ export const pointsData2026_14: IPointEntities = {
       },
     },
   },
+
+  //  PoGo-versary 5 Jul 2026 to 18 Jul 2026
+  //  Stuart (@stuart)
+  //  0025. Pikachu
+  'bdcdf594-4a84-4175-839c-62140461d895': {
+    data: {
+      id: 'bdcdf594-4a84-4175-839c-62140461d895',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '80e74992-cb80-418c-a744-c44d276c3f32',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
