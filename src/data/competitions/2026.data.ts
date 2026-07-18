@@ -14286,4 +14286,222 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '18379b8f-2081-4fae-a1b4-56a56cf16194': {
+    data: {
+      type: 'competition',
+      id: '18379b8f-2081-4fae-a1b4-56a56cf16194',
+      attributes: {
+        description: 'Pokémon with additional evolution requirements in GO',
+        endDate: '2026-08-01',
+        startDate: '2026-07-19',
+        theme: 'Complicated Evolution',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+          {
+            data: {
+              // Eevee
+              id: 'b5ad7979-4d15-453e-b1a0-a4fcf1ba0120',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Ursaring
+              id: 'a1621c75-95db-477d-9f4e-8c01a287709e',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Tyrunt
+              id: 'f28eb08d-4823-4019-bb92-3a0dde9e0e98',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Amaura
+              id: 'abdf6272-a4b8-4395-8493-20745dfb1830',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Sliggoo
+              id: '9623145b-b828-4d6a-8d81-856502affcf7',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Yungoos
+              id: 'd1185462-764d-4cd3-90cb-932c34cca0e8',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Rockruff
+              id: 'e06311f7-1452-49e3-8660-2c9e4cc98aa9',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Fomantis
+              id: 'fafe02ee-5ac0-4117-8c76-205ca1f645fb',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Cosmoem
+              id: '09144faa-0d83-4276-a7a5-641dfca95c99',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Sneasel (Hisuian)
+              id: '7e9b1bed-13c0-42fd-9da3-93757d8b8e4a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Pancham
+              id: '30331ad5-c767-4a20-a5c1-cb10c53979c6',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Swirlix
+              id: '2f107c3d-5278-4c2d-b6a1-7a4a476402c7',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Spritzee
+              id: '9d449555-1595-4472-91db-6752abd6722f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Floette
+              id: '0e7e4c84-f130-46d1-bb9d-946f829e20ad',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Slowpoke (Galarian)
+              id: '11bb00ef-40ed-47ae-9b04-e543c60e48fc',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Farfetch'd (Galarian)
+              id: 'b6af61b9-ea70-4cd5-9c39-b901a94ced0c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Yamask (Galarian)
+              id: 'acc5d5b0-04bf-40e9-9636-80c7fd7a44da',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Qwilfish (Hisuian)
+              id: '97308d9e-46b4-42f5-8c19-f4ea556d4c9f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Primeape
+              id: '8b96d379-f31b-4c69-84f0-66f6df3e397f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Charcadet
+              id: 'cf3736c5-0795-49e3-b1e0-bb464936465d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Bisharp
+              id: '699b6e0f-4d02-41ff-a2a9-0f562153861e',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Kubfu
+              id: 'c0e921ba-51a4-49e5-8740-c56ef5e1ebac',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Snom
+              id: '1a26f50f-4b43-4e37-81cf-c10d3f0c0126',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Tyrogue
+              id: '6c125504-587f-4831-a1e9-e5bb930859eb',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Inkay
+              id: 'ad5dbc4a-55a2-4da8-a8c5-8d596a14003d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Wurmple
+              id: 'c36f780b-5769-407b-9600-921d57ace904',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Clamperl
+              id: '227c8795-30d6-4275-8310-81c7445affb9',
+              type: 'pokemon',
+            },
+          },
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
