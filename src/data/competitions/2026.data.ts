@@ -15194,6 +15194,62 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
               type: 'pokemon',
             },
           },
+          {
+            data: {
+              // Raichu (Alolan)
+              id: '6ad9fd99-caf8-4209-8d27-c594f71a4016',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Tauros (Paldean)
+              id: '3954858f-5c36-44ad-bb21-6f45febc1821',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Typhlosion (Hisuian)
+              id: 'b4815779-2e56-405d-99ef-04258d643f47',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Qwilfish (Hisuian)
+              id: '97308d9e-46b4-42f5-8c19-f4ea556d4c9f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Samurott (Hisuian)
+              id: 'a48d213f-9d60-4e56-8386-65a68a3da15c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Zoroark (Hisuian)
+              id: '97157714-21db-4cde-8e19-bf2cbd11f91a',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Avalugg (Hisuian)
+              id: 'aa2f0102-1198-44ea-a665-207887d20052',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Overqwil
+              id: '139fef89-4f9f-4313-8896-e8890c09c937',
+              type: 'pokemon',
+            },
+          },
         ],
         year: {
           data: {
