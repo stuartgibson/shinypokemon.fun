@@ -39,4 +39,80 @@ export const pointsData2026_15: IPointEntities = {
       },
     },
   },
+  //  Complicated Evolution 19 Jul 2026 to 1 Aug 2026
+  //  Tone (@Tone)
+  //  0349. Feebas
+  '6ef1c86f-6f25-457b-bdf8-f28f22252bc4': {
+    data: {
+      id: '6ef1c86f-6f25-457b-bdf8-f28f22252bc4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '18379b8f-2081-4fae-a1b4-56a56cf16194',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Complicated Evolution 19 Jul 2026 to 1 Aug 2026
+  //  Stuart (@stuart)
+  //  0083. Farfetch'd (Galarian)
+  'ccf24e4e-2af0-4a06-bb45-3d6b245137e6': {
+    data: {
+      id: 'ccf24e4e-2af0-4a06-bb45-3d6b245137e6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '18379b8f-2081-4fae-a1b4-56a56cf16194',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b6af61b9-ea70-4cd5-9c39-b901a94ced0c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
