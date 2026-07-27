@@ -115,4 +115,42 @@ export const pointsData2026_15: IPointEntities = {
       },
     },
   },
+  //  Complicated Evolution 19 Jul 2026 to 1 Aug 2026
+  //  Sean G (@lostlemon)
+  //  0082. Magneton
+  'b1823921-2fe4-4603-b2fb-5e981364613a': {
+    data: {
+      id: 'b1823921-2fe4-4603-b2fb-5e981364613a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '18379b8f-2081-4fae-a1b4-56a56cf16194',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c8f5a634-7717-4355-b995-aeabcad506f5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
