@@ -191,4 +191,42 @@ export const pointsData2026_15: IPointEntities = {
       },
     },
   },
+  //  Complicated Evolution 19 Jul 2026 to 1 Aug 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0684. Swirlix
+  'a5f9eaab-82da-4910-9625-cd5cbdfc7761': {
+    data: {
+      id: 'a5f9eaab-82da-4910-9625-cd5cbdfc7761',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-07-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '18379b8f-2081-4fae-a1b4-56a56cf16194',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2f107c3d-5278-4c2d-b6a1-7a4a476402c7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
