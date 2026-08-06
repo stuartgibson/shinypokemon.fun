@@ -39,4 +39,43 @@ export const pointsData2026_16: IPointEntities = {
       },
     },
   },
+
+  //  Bottom Rung 2 Aug 2026 to 15 Aug 2026
+  //  Stuart (@stuart)
+  //  0766. Passimian
+  'd807ffe0-1a38-46dd-a8e8-4cdc79af3860': {
+    data: {
+      id: 'd807ffe0-1a38-46dd-a8e8-4cdc79af3860',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'edfc5e06-b7b4-4193-b46b-86283dd22d9e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '81d0f9f3-c739-4b44-acd5-f76b00152f1f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
