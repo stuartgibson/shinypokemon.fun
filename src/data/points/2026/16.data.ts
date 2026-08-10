@@ -78,4 +78,42 @@ export const pointsData2026_16: IPointEntities = {
       },
     },
   },
+  //  Bottom Rung 2 Aug 2026 to 15 Aug 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0968. Orthworm
+  '3f680396-e586-402d-a33a-a3e2c969db22': {
+    data: {
+      id: '3f680396-e586-402d-a33a-a3e2c969db22',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'edfc5e06-b7b4-4193-b46b-86283dd22d9e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4fff0c25-e12a-4d29-8880-a76dc2b1cc77',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
