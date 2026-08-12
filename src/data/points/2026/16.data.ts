@@ -116,4 +116,42 @@ export const pointsData2026_16: IPointEntities = {
       },
     },
   },
+  //  Bottom Rung 2 Aug 2026 to 15 Aug 2026
+  //  Philip Starns (@Philip Starns)
+  //  0409. Rampardos
+  'eccf76a8-a83d-4ba9-9586-c35ee6b0b811': {
+    data: {
+      id: 'eccf76a8-a83d-4ba9-9586-c35ee6b0b811',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'edfc5e06-b7b4-4193-b46b-86283dd22d9e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b591dc28-40ad-48fd-853f-6862161b6a8d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
