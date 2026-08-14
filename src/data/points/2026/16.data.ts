@@ -154,4 +154,43 @@ export const pointsData2026_16: IPointEntities = {
       },
     },
   },
+
+  //  Bottom Rung 2 Aug 2026 to 15 Aug 2026
+  //  Tone (@Tone)
+  //  0511. Pansage
+  'a2ff8a20-6a0c-4653-8fec-04215c5f81f4': {
+    data: {
+      id: 'a2ff8a20-6a0c-4653-8fec-04215c5f81f4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'edfc5e06-b7b4-4193-b46b-86283dd22d9e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ab32e387-5435-4bc4-86d5-462a8867f1bf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
