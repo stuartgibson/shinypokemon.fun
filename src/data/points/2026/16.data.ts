@@ -193,4 +193,43 @@ export const pointsData2026_16: IPointEntities = {
       },
     },
   },
+
+  //  Bottom Rung 2 Aug 2026 to 15 Aug 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0674. Pancham
+  '87913e39-da37-4b97-a1e2-b8194543db62': {
+    data: {
+      id: '87913e39-da37-4b97-a1e2-b8194543db62',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'edfc5e06-b7b4-4193-b46b-86283dd22d9e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30331ad5-c767-4a20-a5c1-cb10c53979c6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
