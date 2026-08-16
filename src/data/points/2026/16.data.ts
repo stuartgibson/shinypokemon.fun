@@ -232,4 +232,43 @@ export const pointsData2026_16: IPointEntities = {
       },
     },
   },
+
+  //  Bottom Rung 2 Aug 2026 to 15 Aug 2026
+  //  Tone (@Tone)
+  //  0702. Dedenne
+  '9f4efee7-6835-4c15-b278-7937178edf6a': {
+    data: {
+      id: '9f4efee7-6835-4c15-b278-7937178edf6a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'edfc5e06-b7b4-4193-b46b-86283dd22d9e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '55cf5dc5-d8cd-4a8f-a278-7b5eb0d691d6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
