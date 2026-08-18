@@ -1079,4 +1079,15 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
+  // Your Seraph RJ (@Rj)
+  'a65d08c9-25e7-47b3-a15d-2f945d6a029f': {
+    data: {
+      type: 'player' as 'player',
+      id: 'a65d08c9-25e7-47b3-a15d-2f945d6a029f',
+      attributes: {
+        realName: 'Your Seraph RJ',
+        displayName: 'Rj',
+      },
+    },
+  },
 };
