@@ -115,4 +115,81 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Tone (@Tone)
+  //  0129. Magikarp
+  '85c58009-06e5-4925-b3ac-903bc67ea8f7': {
+    data: {
+      id: '85c58009-06e5-4925-b3ac-903bc67ea8f7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '494c864d-773a-4707-8aec-a26e87c8f3a6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Tone (@Tone)
+  //  0580. Ducklett
+  'ea3cf20a-c0e6-4233-9ad3-581ce8354927': {
+    data: {
+      id: 'ea3cf20a-c0e6-4233-9ad3-581ce8354927',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '583cf1b3-ece5-4a89-b07c-24416a748d1c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
