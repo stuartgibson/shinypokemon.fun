@@ -192,4 +192,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Sean G (@lostlemon)
+  //  0438. Bonsly
+  'a6a25fba-85ec-4a7e-abf6-23d484a1d20a': {
+    data: {
+      id: 'a6a25fba-85ec-4a7e-abf6-23d484a1d20a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '507c9298-b5c6-4314-8f49-10dc43e7ba64',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
