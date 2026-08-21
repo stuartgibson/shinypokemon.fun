@@ -230,4 +230,80 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Sean G (@lostlemon)
+  //  0580. Ducklett
+  'f2b50122-79a0-4242-8f94-b2b46c1d7cfc': {
+    data: {
+      id: 'f2b50122-79a0-4242-8f94-b2b46c1d7cfc',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '583cf1b3-ece5-4a89-b07c-24416a748d1c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Philip Starns (@Philip Starns)
+  //  0981. Farigiraf
+  '08a12e85-4ac4-4dcc-b465-681c2075e917': {
+    data: {
+      id: '08a12e85-4ac4-4dcc-b465-681c2075e917',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '39fd1682-083c-46f3-934c-9230888b388a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
