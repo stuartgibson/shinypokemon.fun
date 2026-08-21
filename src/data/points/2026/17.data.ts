@@ -306,4 +306,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Stuart (@stuart)
+  //  0740. Crabominable
+  '9e7fcfde-ef67-4382-a18a-dfd6bd158f80': {
+    data: {
+      id: '9e7fcfde-ef67-4382-a18a-dfd6bd158f80',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7071a8b0-e642-46b9-a6ab-e063ffd3ce91',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
