@@ -420,4 +420,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0580. Ducklett
+  '92f28d7c-c99c-49e6-ad88-1a58c4120816': {
+    data: {
+      id: '92f28d7c-c99c-49e6-ad88-1a58c4120816',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '583cf1b3-ece5-4a89-b07c-24416a748d1c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
