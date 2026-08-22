@@ -344,4 +344,80 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Tone (@Tone)
+  //  0118. Goldeen
+  'a899a955-a46a-46dd-b6c0-4b8af53bfc6e': {
+    data: {
+      id: 'a899a955-a46a-46dd-b6c0-4b8af53bfc6e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ae0de176-5c64-4406-b3ba-1b2ef55c6150',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Tone (@Tone)
+  //  0121. Starmie
+  'e624cbfa-f75c-4b4b-a1e9-2a140184650f': {
+    data: {
+      id: 'e624cbfa-f75c-4b4b-a1e9-2a140184650f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f81cf39-3ecb-48ad-8646-da59e0f58988',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
