@@ -458,4 +458,80 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Christopher (@Christopher)
+  //  0121. Starmie
+  '35e939e5-31b1-490e-9818-0208148a1368': {
+    data: {
+      id: '35e939e5-31b1-490e-9818-0208148a1368',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f81cf39-3ecb-48ad-8646-da59e0f58988',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Christopher (@Christopher)
+  //  0054. Psyduck
+  'af8a4c4f-2e16-463d-8675-d7800f294db6': {
+    data: {
+      id: 'af8a4c4f-2e16-463d-8675-d7800f294db6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-22',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0fee26f0-8367-4d19-a22c-dd1bbf6dc400',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
