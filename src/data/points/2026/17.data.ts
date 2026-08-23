@@ -687,4 +687,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Stephanie (@Reine)
+  //  0404. Luxio
+  'f47bb5d6-9aab-45b5-8a21-1607f98ba42e': {
+    data: {
+      id: 'f47bb5d6-9aab-45b5-8a21-1607f98ba42e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c497bf5b-aff0-477d-984d-42172d973126',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
