@@ -688,7 +688,7 @@ export const pointsData2026_17: IPointEntities = {
     },
   },
   //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
-  //  Stephanie (@Reine)
+  //  Stephanie (Reine) (@Stephanie (Reine))
   //  0404. Luxio
   'f47bb5d6-9aab-45b5-8a21-1607f98ba42e': {
     data: {
