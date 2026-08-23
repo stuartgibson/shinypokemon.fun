@@ -1090,14 +1090,14 @@ export const playersData: IPlayerEntities = {
       },
     },
   },
-  // Stephanie (@Reine)
+  // Stephanie (@Stephanie (Reine))
   '39d7cd0a-6213-4de4-9d5c-a47dc583cea9': {
     data: {
       type: 'player' as 'player',
       id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
       attributes: {
         realName: 'Stephanie',
-        displayName: 'Reine',
+        displayName: 'Stephanie (Reine)',
       },
     },
   },
