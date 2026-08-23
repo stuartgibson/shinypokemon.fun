@@ -610,4 +610,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Tone (@Tone)
+  //  0592. Frillish
+  '175108af-608f-4c89-903e-a4127776b545': {
+    data: {
+      id: '175108af-608f-4c89-903e-a4127776b545',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '57c806ec-5047-47ae-be92-d57ac98903b8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
