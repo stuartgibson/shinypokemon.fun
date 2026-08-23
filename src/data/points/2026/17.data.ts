@@ -648,4 +648,43 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Sean G (@lostlemon)
+  //  0187. Hoppip
+  '9a724afa-b685-4829-95bb-eb5fb41c5331': {
+    data: {
+      id: '9a724afa-b685-4829-95bb-eb5fb41c5331',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '45458f0f-3118-4b87-a148-bee667717bc2',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
