@@ -572,4 +572,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Stuart (@stuart)
+  //  0118. Goldeen
+  'c3dbf8ee-8e26-4839-8e0c-43e490aa24b2': {
+    data: {
+      id: 'c3dbf8ee-8e26-4839-8e0c-43e490aa24b2',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ae0de176-5c64-4406-b3ba-1b2ef55c6150',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
