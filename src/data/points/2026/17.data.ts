@@ -534,4 +534,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Philip Starns (@Philip Starns)
+  //  0418. Buizel
+  '730eda89-0f94-49be-b637-883423c99851': {
+    data: {
+      id: '730eda89-0f94-49be-b637-883423c99851',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dd322a58-8977-4cfd-b028-8df24f401acf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
