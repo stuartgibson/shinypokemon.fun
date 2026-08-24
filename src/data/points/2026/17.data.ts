@@ -763,4 +763,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Sean G (@lostlemon)
+  //  0333. Swablu
+  '58b30033-bf38-4e9a-bfd2-1504a22378f1': {
+    data: {
+      id: '58b30033-bf38-4e9a-bfd2-1504a22378f1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9c6a7a1e-296d-447e-9293-713645a435bf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
