@@ -915,4 +915,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Sean G (@lostlemon)
+  //  0287. Slakoth
+  'e43c8c4a-8cbc-4a04-a7e3-7ead5d41b94d': {
+    data: {
+      id: 'e43c8c4a-8cbc-4a04-a7e3-7ead5d41b94d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '41c73fdf-60f6-4139-b418-b226f76199e4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
