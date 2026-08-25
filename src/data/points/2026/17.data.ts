@@ -801,4 +801,118 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0664. Scatterbug
+  'a0053645-cfb9-45bc-8c8c-0229e11ecec4': {
+    data: {
+      id: 'a0053645-cfb9-45bc-8c8c-0229e11ecec4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'de189ff7-1bf7-45ae-a49d-92c28217d44e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0121. Starmie
+  '76e4572f-7276-4c6c-b87c-5e7d476e8385': {
+    data: {
+      id: '76e4572f-7276-4c6c-b87c-5e7d476e8385',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f81cf39-3ecb-48ad-8646-da59e0f58988',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0751. Dewpider
+  'fe2ca42e-9aa7-4c7d-93d3-4d6f0e81597b': {
+    data: {
+      id: 'fe2ca42e-9aa7-4c7d-93d3-4d6f0e81597b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8186274b-5267-4752-824a-5fe3233bafbc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
