@@ -1067,4 +1067,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Stephanie (Reine) (@Stephanie (Reine))
+  //  0320. Wailmer
+  'fb08b98b-7d39-42e8-a0a5-17e3c5767914': {
+    data: {
+      id: 'fb08b98b-7d39-42e8-a0a5-17e3c5767914',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd8332cfc-5694-4ab2-9f85-bd3e0e44241b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
