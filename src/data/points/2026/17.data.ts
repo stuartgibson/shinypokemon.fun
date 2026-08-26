@@ -953,4 +953,118 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0320. Wailmer
+  '97ff2e0c-a7d8-4d6a-9f88-0fd1325559b6': {
+    data: {
+      id: '97ff2e0c-a7d8-4d6a-9f88-0fd1325559b6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd8332cfc-5694-4ab2-9f85-bd3e0e44241b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0121. Starmie
+  '22814a4e-596d-4438-b407-6081975991cf': {
+    data: {
+      id: '22814a4e-596d-4438-b407-6081975991cf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '1f81cf39-3ecb-48ad-8646-da59e0f58988',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Morgan (Leaf) (@Leaf)
+  //  0580. Ducklett
+  '612e843a-0370-4c1a-a96a-bcfb14327395': {
+    data: {
+      id: '612e843a-0370-4c1a-a96a-bcfb14327395',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'fa7f7600-5379-4166-8e3f-5ccfe683bd91',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '583cf1b3-ece5-4a89-b07c-24416a748d1c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
