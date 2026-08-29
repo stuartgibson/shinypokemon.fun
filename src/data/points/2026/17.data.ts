@@ -1067,4 +1067,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Tone (@Tone)
+  //  0032. Nidoran♂
+  'bd9044f8-f727-42cb-a76d-3231638e52e3': {
+    data: {
+      id: 'bd9044f8-f727-42cb-a76d-3231638e52e3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'bdfe11f4-c8ee-4445-90b5-ea86ac6a4c85',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
