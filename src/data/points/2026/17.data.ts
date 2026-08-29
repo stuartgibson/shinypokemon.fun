@@ -1105,4 +1105,42 @@ export const pointsData2026_17: IPointEntities = {
       },
     },
   },
+  //  Hit the Gym 16 Aug 2026 to 29 Aug 2026
+  //  Tone (@Tone)
+  //  0439. Mime Jr.
+  '69dc0609-2b91-4315-8b3f-700d2faa7b07': {
+    data: {
+      id: '69dc0609-2b91-4315-8b3f-700d2faa7b07',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-08-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '7736f1b3-c21b-4192-b766-b42881bc1e67',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '758c86f7-e08f-4aa7-ac55-a345669ad53a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
