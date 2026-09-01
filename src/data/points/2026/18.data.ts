@@ -39,4 +39,42 @@ export const pointsData2026_18: IPointEntities = {
       },
     },
   },
+  //  Pink! 30 Aug 2026 to 12 Sep 2026
+  //  Christopher (@Christopher)
+  //  0147. Dratini
+  '371b89fe-1c26-4380-9ea8-ebe1715d497c': {
+    data: {
+      id: '371b89fe-1c26-4380-9ea8-ebe1715d497c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c76a16a1-fa9a-4db5-80c8-e3e49055a04e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5209be64-7255-4973-b665-4734ae773e28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
