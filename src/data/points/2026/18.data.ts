@@ -77,4 +77,42 @@ export const pointsData2026_18: IPointEntities = {
       },
     },
   },
+  //  Pink! 30 Aug 2026 to 12 Sep 2026
+  //  Tone (@Tone)
+  //  0829. Gossifleur
+  '8ab8f9b8-cebe-4cb0-b5ba-45fa0814b016': {
+    data: {
+      id: '8ab8f9b8-cebe-4cb0-b5ba-45fa0814b016',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c76a16a1-fa9a-4db5-80c8-e3e49055a04e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4b50a13b-39db-41f5-ba0f-9dc65a8c8011',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
