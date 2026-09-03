@@ -115,4 +115,43 @@ export const pointsData2026_18: IPointEntities = {
       },
     },
   },
+
+  //  Pink! 30 Aug 2026 to 12 Sep 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0147. Dratini
+  'c495c842-94cd-4958-8d71-7d28cf2d8214': {
+    data: {
+      id: 'c495c842-94cd-4958-8d71-7d28cf2d8214',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c76a16a1-fa9a-4db5-80c8-e3e49055a04e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5209be64-7255-4973-b665-4734ae773e28',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
