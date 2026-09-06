@@ -154,4 +154,43 @@ export const pointsData2026_18: IPointEntities = {
       },
     },
   },
+
+  //  Pink! 30 Aug 2026 to 12 Sep 2026
+  //  Philip Starns (@Philip Starns)
+  //  0363. Spheal
+  '330b9f66-33b1-4f94-aa7f-f0279cd0516c': {
+    data: {
+      id: '330b9f66-33b1-4f94-aa7f-f0279cd0516c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c76a16a1-fa9a-4db5-80c8-e3e49055a04e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '63e50f1c-ae9d-4b7b-932d-17f9bafee222',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
