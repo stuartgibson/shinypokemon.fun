@@ -232,4 +232,82 @@ export const pointsData2026_18: IPointEntities = {
       },
     },
   },
+
+  //  Pink! 30 Aug 2026 to 12 Sep 2026
+  //  Stuart (@stuart)
+  //  0214. Heracross
+  '1de3578e-1e11-4f9e-af76-c3bca3db5bfd': {
+    data: {
+      id: '1de3578e-1e11-4f9e-af76-c3bca3db5bfd',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c76a16a1-fa9a-4db5-80c8-e3e49055a04e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ca1230a9-d936-4410-a015-7fac682cf2cf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Pink! 30 Aug 2026 to 12 Sep 2026
+  //  Stuart (@stuart)
+  //  0214. Heracross
+  '707e5cd4-e37c-4eb9-92a1-0a13b2ee8f45': {
+    data: {
+      id: '707e5cd4-e37c-4eb9-92a1-0a13b2ee8f45',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c76a16a1-fa9a-4db5-80c8-e3e49055a04e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ca1230a9-d936-4410-a015-7fac682cf2cf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
