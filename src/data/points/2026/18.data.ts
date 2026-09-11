@@ -310,4 +310,42 @@ export const pointsData2026_18: IPointEntities = {
       },
     },
   },
+  //  Pink! 30 Aug 2026 to 12 Sep 2026
+  //  Sean G (@lostlemon)
+  //  0875. Eiscue
+  '7edae4cf-33ee-4c40-9798-95581d3c7da3': {
+    data: {
+      id: '7edae4cf-33ee-4c40-9798-95581d3c7da3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-11',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'c76a16a1-fa9a-4db5-80c8-e3e49055a04e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '8f2a29b1-fefc-46f4-95ef-d9ecca5ff167',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
