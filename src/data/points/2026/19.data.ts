@@ -115,4 +115,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0983. Kingambit
+  '292c5f50-55b9-4936-8628-dc537fa57cff': {
+    data: {
+      id: '292c5f50-55b9-4936-8628-dc537fa57cff',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b57bc54a-4f8f-4c36-82d5-57493b6fe376',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
