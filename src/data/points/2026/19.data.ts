@@ -1,3 +1,118 @@
 import { IPointEntities } from 'store/reducers';
 
-export const pointsData2026_19: IPointEntities = {};
+export const pointsData2026_19: IPointEntities = {
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stuart (@stuart)
+  //  0193. Yanma
+  '617daebd-abd8-41f2-9803-78274222aa6d': {
+    data: {
+      id: '617daebd-abd8-41f2-9803-78274222aa6d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-13',
+        firstCatch: true,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '123faf97-132f-4a74-b0ad-b5f8aa6b990c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stuart (@stuart)
+  //  0048. Venonat
+  'a3be8bb8-2657-47f9-9f1e-86c220f564c3': {
+    data: {
+      id: 'a3be8bb8-2657-47f9-9f1e-86c220f564c3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cac2064e-9c81-4536-80d7-9c39af52113e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stuart (@stuart)
+  //  0917. Tarountula
+  '4de945f0-d502-4d62-a794-7f4fab9f3c86': {
+    data: {
+      id: '4de945f0-d502-4d62-a794-7f4fab9f3c86',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-13',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ff315a13-b4dc-4601-aca3-13a16fda7a22',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+};
