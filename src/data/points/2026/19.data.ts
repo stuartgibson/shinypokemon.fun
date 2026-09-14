@@ -153,4 +153,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Philip Starns (@Philip Starns)
+  //  0019. Rattata
+  '56428c0e-c9eb-450b-8b72-2eb6758cb2ab': {
+    data: {
+      id: '56428c0e-c9eb-450b-8b72-2eb6758cb2ab',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-14',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a522c362-5189-4346-8947-4598b390affa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
