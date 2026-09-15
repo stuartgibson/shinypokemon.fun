@@ -229,4 +229,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stephanie (Reine) (@Stephanie (Reine))
+  //  0915. Lechonk
+  'ee29226a-9f69-44b5-b25c-c50c92b03d77': {
+    data: {
+      id: 'ee29226a-9f69-44b5-b25c-c50c92b03d77',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '90a0c67a-ea66-4b05-a603-b1a625e21f64',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
