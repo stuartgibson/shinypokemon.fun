@@ -267,4 +267,43 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Sean G (@lostlemon)
+  //  0679. Honedge
+  'a3613959-f3a9-460c-995c-1d246f9e15e8': {
+    data: {
+      id: 'a3613959-f3a9-460c-995c-1d246f9e15e8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '0633d25c-8f26-4049-8403-407ff49b7a1d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
