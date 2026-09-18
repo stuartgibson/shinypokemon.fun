@@ -423,4 +423,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stuart (@stuart)
+  //  0957. Tinkatink
+  'a615deae-11ed-4b4f-bc99-9ec134230f99': {
+    data: {
+      id: 'a615deae-11ed-4b4f-bc99-9ec134230f99',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9e8605f4-17fc-4649-ad7a-d9e9a009336f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
