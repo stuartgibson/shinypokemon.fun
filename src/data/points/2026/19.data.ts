@@ -306,4 +306,121 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stephanie (Reine) (@Stephanie (Reine))
+  //  0932. Nacli
+  '45bcd3e8-2307-453b-80ff-6f8c4c50a231': {
+    data: {
+      id: '45bcd3e8-2307-453b-80ff-6f8c4c50a231',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5a857c69-3a7f-425a-82eb-a0a9fc0187f3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Philip Starns (@Philip Starns)
+  //  0429. Mismagius
+  '9e9d6d7f-36fa-44b3-852b-624a43108d92': {
+    data: {
+      id: '9e9d6d7f-36fa-44b3-852b-624a43108d92',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '44f1c66e-20ec-472b-bb43-daf348daa9bf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Sean G (@lostlemon)
+  //  0927. Dachsbun
+  '868e1666-2c25-44c6-98b1-676511efb1db': {
+    data: {
+      id: '868e1666-2c25-44c6-98b1-676511efb1db',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '37ee9aab-6af8-41a7-99bc-768219c57c60',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
