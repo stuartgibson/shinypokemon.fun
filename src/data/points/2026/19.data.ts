@@ -387,7 +387,7 @@ export const pointsData2026_19: IPointEntities = {
 
   //  9/9 13 Sep 2026 to 26 Sep 2026
   //  Sean G (@lostlemon)
-  //  0927. Dachsbun
+  //  0926. Fidough
   '868e1666-2c25-44c6-98b1-676511efb1db': {
     data: {
       id: '868e1666-2c25-44c6-98b1-676511efb1db',
@@ -416,7 +416,7 @@ export const pointsData2026_19: IPointEntities = {
         },
         pokemon: {
           data: {
-            id: '37ee9aab-6af8-41a7-99bc-768219c57c60',
+            id: 'd55926ec-f0f9-478b-858a-83fe3a68be4d',
             type: 'pokemon',
           },
         },
