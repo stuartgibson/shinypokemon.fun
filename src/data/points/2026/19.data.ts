@@ -461,4 +461,120 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Sean G (@lostlemon)
+  //  0942. Maschiff
+  '67b675ba-890a-45ef-866a-12ea14aac4ec': {
+    data: {
+      id: '67b675ba-890a-45ef-866a-12ea14aac4ec',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '6bd0e7ce-85ac-459a-b37d-426a0ffe2dc4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Sean G (@lostlemon)
+  //  0387. Turtwig
+  '2ccc4d4d-724c-49cc-88cf-f76b7eb55a48': {
+    data: {
+      id: '2ccc4d4d-724c-49cc-88cf-f76b7eb55a48',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '744a3eb6-8697-4e2d-a813-27ef655491c0',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stephanie (Reine) (@Stephanie (Reine))
+  //  0953. Rellor
+  '1869b0b1-0bbb-4c1c-8185-f9592512fa3c': {
+    data: {
+      id: '1869b0b1-0bbb-4c1c-8185-f9592512fa3c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2107fb19-996e-40ad-bae7-55c098ad3857',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
