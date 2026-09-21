@@ -577,4 +577,82 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Sean G (@lostlemon)
+  //  0398. Staraptor
+  '9b323bdd-4909-40a4-a97d-18ed201f0d8e': {
+    data: {
+      id: '9b323bdd-4909-40a4-a97d-18ed201f0d8e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a57ba1c4-7bb7-44cb-89ed-5d6877bee767',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Tone (@Tone)
+  //  0398. Staraptor
+  '68294603-a97d-4c45-a9f3-4097064085d7': {
+    data: {
+      id: '68294603-a97d-4c45-a9f3-4097064085d7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a57ba1c4-7bb7-44cb-89ed-5d6877bee767',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
