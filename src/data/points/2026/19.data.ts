@@ -655,4 +655,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Sean G (@lostlemon)
+  //  0906. Sprigatito
+  '4e0104a6-cde5-49a1-86de-45afec47e085': {
+    data: {
+      id: '4e0104a6-cde5-49a1-86de-45afec47e085',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd2afec9f-2011-4679-ae35-b024aa418958',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
