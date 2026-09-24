@@ -731,4 +731,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Tone (@Tone)
+  //  0921. Pawmi
+  '4de094cb-56d3-41bd-babd-b82e346699ee': {
+    data: {
+      id: '4de094cb-56d3-41bd-babd-b82e346699ee',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '73f482cc-0ea4-4c43-bd42-43ad868cf90a',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
