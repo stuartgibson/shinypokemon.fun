@@ -693,4 +693,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stuart (@stuart)
+  //  0915. Lechonk
+  '4c03ed60-6bbf-445b-8dc7-dd984e28c828': {
+    data: {
+      id: '4c03ed60-6bbf-445b-8dc7-dd984e28c828',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '90a0c67a-ea66-4b05-a603-b1a625e21f64',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
