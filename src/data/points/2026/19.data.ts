@@ -769,4 +769,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stuart (@stuart)
+  //  0708. Phantump
+  '88e6a737-07e3-4cda-9047-747c0e5587ea': {
+    data: {
+      id: '88e6a737-07e3-4cda-9047-747c0e5587ea',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '4bd98ba2-8bc2-4336-b96a-f4565bc34cc6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
