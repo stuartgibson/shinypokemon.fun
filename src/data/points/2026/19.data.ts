@@ -807,4 +807,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Stephanie (Reine) (@Stephanie (Reine))
+  //  0190. Aipom
+  '3dce861d-e3eb-42da-bdaf-9c67116d25aa': {
+    data: {
+      id: '3dce861d-e3eb-42da-bdaf-9c67116d25aa',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b47d4a57-6547-4a1c-a2bc-4e4aca095d46',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
