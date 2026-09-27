@@ -19682,4 +19682,32 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  'b1588b95-6cf1-4f9d-b4c4-8476f849ed59': {
+    data: {
+      type: 'competition',
+      id: 'b1588b95-6cf1-4f9d-b4c4-8476f849ed59',
+      attributes: {
+        description: 'In honour of World Space Week, any pokemon related to space, the moon, etc. Only Space Suit Pikachu counts',
+        endDate: '2026-10-10',
+        startDate: '2026-09-27',
+        theme: 'Spaaaaaaccceeeeeee!',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
