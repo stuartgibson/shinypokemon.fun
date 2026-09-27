@@ -20512,6 +20512,34 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
               type: 'pokemon',
             },
           },
+          {
+            data: {
+              // Rellor
+              id: '2107fb19-996e-40ad-bae7-55c098ad3857',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Rabsca
+              id: 'efaff519-b533-4104-b228-2b0b8570f639',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Roaring Moon
+              id: 'c291dd7a-074f-4a64-831d-e759beedb893',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Terapagos
+              id: '847aef18-fc51-4894-927e-f8348dc8773f',
+              type: 'pokemon',
+            },
+          },
         ],
         year: {
           data: {
