@@ -20108,6 +20108,13 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
           },
           {
             data: {
+              // Porygon-Z
+              id: '55eeff70-26ed-49ec-bcbc-06445a241da7',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
               // Uxie
               id: 'da1d58bf-7628-4951-bea4-afff5003bf2f',
               type: 'pokemon',
