@@ -845,4 +845,42 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  9/9 13 Sep 2026 to 26 Sep 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0769. Sandygast
+  'd73f4104-69d7-4965-a919-7a15bd10dd87': {
+    data: {
+      id: 'd73f4104-69d7-4965-a919-7a15bd10dd87',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '60849054-cbb5-4063-97fe-11b7b34ec88c',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '33cd3f2a-b8cb-48ca-9944-eb6b79418802',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
