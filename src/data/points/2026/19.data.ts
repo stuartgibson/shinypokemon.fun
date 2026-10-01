@@ -883,4 +883,80 @@ export const pointsData2026_19: IPointEntities = {
       },
     },
   },
+  //  Spaaaaaaccceeeeeee! 27 Sep 2026 to 10 Oct 2026
+  //  Tone (@Tone)
+  //  0333. Swablu
+  'f0821161-719d-4300-9c48-d3be874b97d6': {
+    data: {
+      id: 'f0821161-719d-4300-9c48-d3be874b97d6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b1588b95-6cf1-4f9d-b4c4-8476f849ed59',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9c6a7a1e-296d-447e-9293-713645a435bf',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Spaaaaaaccceeeeeee! 27 Sep 2026 to 10 Oct 2026
+  //  Tone (@Tone)
+  //  0517. Munna
+  '3445f55c-c4f5-415c-8f0b-e47ebd530694': {
+    data: {
+      id: '3445f55c-c4f5-415c-8f0b-e47ebd530694',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-09-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b1588b95-6cf1-4f9d-b4c4-8476f849ed59',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7bf836b2-54e2-456b-9239-08f496fece30',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
