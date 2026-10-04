@@ -153,4 +153,42 @@ export const pointsData2026_20: IPointEntities = {
       },
     },
   },
+  //  Spaaaaaaccceeeeeee! 27 Sep 2026 to 10 Oct 2026
+  //  Tone (@Tone)
+  //  0025. Pikachu
+  '71a23feb-71f3-4bd2-8736-6bf72331fd55': {
+    data: {
+      id: '71a23feb-71f3-4bd2-8736-6bf72331fd55',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b1588b95-6cf1-4f9d-b4c4-8476f849ed59',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '230abe97-6933-45e0-b351-d8bd2e7c0543',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
