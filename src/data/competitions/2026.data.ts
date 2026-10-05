@@ -20551,4 +20551,278 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '6252e9b4-d427-4505-aa90-ff991b36b1d4': {
+    data: {
+      type: 'competition',
+      id: '6252e9b4-d427-4505-aa90-ff991b36b1d4',
+      attributes: {
+        description: 'All Pokemon I want to get off of the DS/3DS before Bank shuts down',
+        endDate: '2026-10-24',
+        startDate: '2026-10-11',
+        theme: 'Bank Shutdown',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+          {
+            data: {
+              // Kabutops
+              id: 'c05e94e7-7718-4520-b94b-df4c70274bdc',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Ledyba
+              id: '87e6d3f7-97a0-4117-ada9-4dcb9d718b6f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Raikou
+              id: 'd35f25f0-1bd7-4e77-98ea-79b6058568e9',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Skitty
+              id: '89d387dd-40b4-4323-9511-05bf19ec2c6c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Wynaut
+              id: 'd5686b2f-d1c5-4d35-b701-6cba7951b314',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Turtwig
+              id: '744a3eb6-8697-4e2d-a813-27ef655491c0',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Grotle
+              id: '259a773b-f770-47ec-9459-59bd20cc2711',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Chimchar
+              id: '27c6fafd-8273-4951-a5e1-8c7727a16333',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Monferno
+              id: 'd7efade3-58f8-4789-b7b1-aeb4f070156b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Shieldon
+              id: 'c5d23098-25f7-4494-a38c-33fccab7c90b',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Bastiodon
+              id: '754ae45a-c41b-4004-9cc9-f93638145b79',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Bonsly
+              id: '507c9298-b5c6-4314-8f49-10dc43e7ba64',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Finneon
+              id: 'dae80cde-8a92-4a23-b9fb-9b0218b34b51',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Mantyke
+              id: '843db6b2-bde6-484e-b3fb-0e813d320062',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Uxie
+              id: 'da1d58bf-7628-4951-bea4-afff5003bf2f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Shaymin
+              id: '8ec0d8ac-e8a0-410e-9476-78636256eb1f',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Arceus
+              id: 'b35607d9-2dce-4ee6-a203-b5c57641297c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Simisear
+              id: '556e90c1-1fe0-404d-81cf-108d7ed193a5',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Woobat
+              id: '90e005cf-a344-477c-974d-a7b9c4888ddb',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Maractus
+              id: '7af0e968-d555-4acb-b030-8fdd64600615',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Dwebble
+              id: '30741c01-f409-4f02-93e7-e8356a8565c6',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Carracosta
+              id: '13f93610-2645-4179-aacc-f4b19858f606',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Gothorita
+              id: '1cda7264-f4aa-4304-86ba-a1cd79ae30cb',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Deerling
+              id: 'de2252f6-ba8f-40f9-98de-c4b725e7bffe',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Sawsbuck
+              id: '147eebec-bc96-4ee9-b4dd-3f0a3fc93d91',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Klang
+              id: 'f8022844-958c-46b8-8371-f01195d0701d',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Beheeyem
+              id: 'be89181f-2d4f-4d03-bb5b-9129351385dc',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Mienfoo
+              id: '09657459-fdbb-4e9e-a968-bfef9dc2a5ca',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Bouffalant
+              id: '423f263c-aed0-4b24-be99-11de2ac70290',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Braviary
+              id: '9b2be3c5-ab6b-4e00-bfaa-6618820b7bde',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Volcarona
+              id: '149043bb-0730-4320-bdc6-fa219e308223',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Tornadus
+              id: '5fba772a-8abf-4c0d-9955-9544ff27a2d9',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Turtonator
+              id: '3193a867-b51e-407d-9476-5dd9fbe17a6c',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Kartana
+              id: '46afaa00-9080-461c-bb0c-c8ec974b4931',
+              type: 'pokemon',
+            },
+          },
+          {
+            data: {
+              // Naganadel
+              id: '9d07d1ca-ac0c-4356-be4d-b692f136101e',
+              type: 'pokemon',
+            },
+          },
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
