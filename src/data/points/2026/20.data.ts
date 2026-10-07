@@ -191,4 +191,42 @@ export const pointsData2026_20: IPointEntities = {
       },
     },
   },
+  //  Spaaaaaaccceeeeeee! 27 Sep 2026 to 10 Oct 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0641. Tornadus
+  '60cad4f9-8a06-4f08-a48e-7d0bb45cf812': {
+    data: {
+      id: '60cad4f9-8a06-4f08-a48e-7d0bb45cf812',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b1588b95-6cf1-4f9d-b4c4-8476f849ed59',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5fba772a-8abf-4c0d-9955-9544ff27a2d9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
