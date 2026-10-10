@@ -229,4 +229,43 @@ export const pointsData2026_20: IPointEntities = {
       },
     },
   },
+
+  //  Spaaaaaaccceeeeeee! 27 Sep 2026 to 10 Oct 2026
+  //  Sean G (@lostlemon)
+  //  0744. Rockruff
+  'cb0ccda2-44d5-42c0-bd2c-58c2d895aa51': {
+    data: {
+      id: 'cb0ccda2-44d5-42c0-bd2c-58c2d895aa51',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'b1588b95-6cf1-4f9d-b4c4-8476f849ed59',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e06311f7-1452-49e3-8660-2c9e4cc98aa9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
