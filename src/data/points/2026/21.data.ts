@@ -39,4 +39,42 @@ export const pointsData2026_21: IPointEntities = {
       },
     },
   },
+  //  Bank Shutdown 11 Oct 2026 to 24 Oct 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0456. Finneon
+  '490047dc-6480-4356-8c56-f65f3fb11384': {
+    data: {
+      id: '490047dc-6480-4356-8c56-f65f3fb11384',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-15',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6252e9b4-d427-4505-aa90-ff991b36b1d4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'dae80cde-8a92-4a23-b9fb-9b0218b34b51',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
