@@ -77,4 +77,42 @@ export const pointsData2026_21: IPointEntities = {
       },
     },
   },
+  //  Bank Shutdown 11 Oct 2026 to 24 Oct 2026
+  //  Tone (@Tone)
+  //  0514. Simisear
+  'df4b99fb-c948-43b8-8ba7-af9d3ebab71e': {
+    data: {
+      id: 'df4b99fb-c948-43b8-8ba7-af9d3ebab71e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6252e9b4-d427-4505-aa90-ff991b36b1d4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '556e90c1-1fe0-404d-81cf-108d7ed193a5',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
