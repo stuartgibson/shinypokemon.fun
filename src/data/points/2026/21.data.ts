@@ -115,4 +115,42 @@ export const pointsData2026_21: IPointEntities = {
       },
     },
   },
+  //  Bank Shutdown 11 Oct 2026 to 24 Oct 2026
+  //  Deathrite (@Deathrite)
+  //  0803. Poipole
+  '84a0c0cd-892c-4e70-b772-4e013828399c': {
+    data: {
+      id: '84a0c0cd-892c-4e70-b772-4e013828399c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6252e9b4-d427-4505-aa90-ff991b36b1d4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '2123e057-079c-42d2-b9d6-a15dfef99a51',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '14347d15-749b-4dc8-8a19-71da2eabeeb3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
