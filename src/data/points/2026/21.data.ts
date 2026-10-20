@@ -153,4 +153,42 @@ export const pointsData2026_21: IPointEntities = {
       },
     },
   },
+  //  Bank Shutdown 11 Oct 2026 to 24 Oct 2026
+  //  Sean G (@lostlemon)
+  //  0636. Larvesta
+  '57380b82-0a06-40d3-8d29-bcb1853cb05e': {
+    data: {
+      id: '57380b82-0a06-40d3-8d29-bcb1853cb05e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6252e9b4-d427-4505-aa90-ff991b36b1d4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f3f2667e-99f3-4b9f-ba31-61c03aceb378',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
