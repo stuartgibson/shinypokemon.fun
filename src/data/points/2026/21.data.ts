@@ -191,4 +191,42 @@ export const pointsData2026_21: IPointEntities = {
       },
     },
   },
+  //  Bank Shutdown 11 Oct 2026 to 24 Oct 2026
+  //  Tone (@Tone)
+  //  0574. Gothita
+  'a7b8f9b0-f794-49a5-9935-4cc887ea44b6': {
+    data: {
+      id: 'a7b8f9b0-f794-49a5-9935-4cc887ea44b6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-24',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6252e9b4-d427-4505-aa90-ff991b36b1d4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '571e8806-a993-449a-9d8e-11ce979ca911',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
