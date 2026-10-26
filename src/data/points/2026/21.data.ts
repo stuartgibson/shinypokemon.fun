@@ -229,4 +229,43 @@ export const pointsData2026_21: IPointEntities = {
       },
     },
   },
+
+  //  Bank Shutdown 11 Oct 2026 to 24 Oct 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0574. Gothita
+  'a2379eda-ec67-4459-97e9-4a41ba90a1d7': {
+    data: {
+      id: 'a2379eda-ec67-4459-97e9-4a41ba90a1d7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-19',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '6252e9b4-d427-4505-aa90-ff991b36b1d4',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '571e8806-a993-449a-9d8e-11ce979ca911',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
