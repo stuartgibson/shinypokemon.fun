@@ -1,0 +1,120 @@
+import { IPointEntities } from 'store/reducers';
+
+export const pointsData2026_22: IPointEntities = {
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0607. Litwick
+  'af88c65d-142b-4abf-a8b5-d283757e4379': {
+    data: {
+      id: 'af88c65d-142b-4abf-a8b5-d283757e4379',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-25',
+        firstCatch: true,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0607. Litwick
+  'e46f349c-8026-4fc6-bf21-7653d3c37c0d': {
+    data: {
+      id: 'e46f349c-8026-4fc6-bf21-7653d3c37c0d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0353. Shuppet
+  '18a798cc-ba72-48bc-93a2-9f5877cac4ca': {
+    data: {
+      id: '18a798cc-ba72-48bc-93a2-9f5877cac4ca',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '01045994-15ba-4f43-9b6c-abfed6a0d7f4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+};
