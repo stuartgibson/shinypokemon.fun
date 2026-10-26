@@ -20825,4 +20825,32 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '5a11f602-0d6d-496f-9bcc-3f984cfc02af': {
+    data: {
+      type: 'competition',
+      id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+      attributes: {
+        description: 'Any ghost or dark type Pokemon',
+        endDate: '2026-11-07',
+        startDate: '2026-10-25',
+        theme: 'Halloween',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        validPokemon: [],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
