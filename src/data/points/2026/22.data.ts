@@ -156,4 +156,82 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0200. Misdreavus
+  'fa3f3bd6-90ab-471c-bcb4-c9a0344d4788': {
+    data: {
+      id: 'fa3f3bd6-90ab-471c-bcb4-c9a0344d4788',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c01cf54a-6bcd-43dc-ab72-2f215e20a269',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0355. Duskull
+  '6d084486-678d-440d-8081-adb701065e6c': {
+    data: {
+      id: '6d084486-678d-440d-8081-adb701065e6c',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-29',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c374583a-36a8-4325-bf6f-74edbb419845',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
