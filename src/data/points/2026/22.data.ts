@@ -234,4 +234,42 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0426. Drifblim
+  'c31cd4c3-01ef-44cc-bbfc-983cc5594ee1': {
+    data: {
+      id: 'c31cd4c3-01ef-44cc-bbfc-983cc5594ee1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-30',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '38e9e1c0-2a92-4ab9-ab1c-aabfb75f8fed',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
