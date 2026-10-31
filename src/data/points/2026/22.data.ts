@@ -348,4 +348,42 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Stephen Decker (@stephen)
+  //  0200. Misdreavus
+  '68ea2ad3-79dd-4a79-8e7e-47cb8b00e3ae': {
+    data: {
+      id: '68ea2ad3-79dd-4a79-8e7e-47cb8b00e3ae',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7acf5596-0ed0-49b3-8241-1daf82694eff',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c01cf54a-6bcd-43dc-ab72-2f215e20a269',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
