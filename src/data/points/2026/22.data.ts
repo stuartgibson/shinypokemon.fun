@@ -272,4 +272,42 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0359. Absol
+  '00050b5b-a499-4749-9e60-e83f09210414': {
+    data: {
+      id: '00050b5b-a499-4749-9e60-e83f09210414',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-10-31',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b25d8f50-aa81-42bb-8274-81b65833fa08',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
