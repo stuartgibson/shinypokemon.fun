@@ -386,4 +386,42 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0710. Pumpkaboo
+  '9c75996a-ded3-4f54-8742-ce7b9728529f': {
+    data: {
+      id: '9c75996a-ded3-4f54-8742-ce7b9728529f',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-01',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '92f1c2b5-7a27-41e3-98f5-ae7f8ca98d2b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
