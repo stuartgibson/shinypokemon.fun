@@ -424,4 +424,80 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0353. Shuppet
+  '3b825f77-d0f7-4dd9-9ff9-56643f2c05c9': {
+    data: {
+      id: '3b825f77-d0f7-4dd9-9ff9-56643f2c05c9',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '01045994-15ba-4f43-9b6c-abfed6a0d7f4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0722. Rowlet
+  '0e76973f-9bf3-4f69-996d-737f460e0df3': {
+    data: {
+      id: '0e76973f-9bf3-4f69-996d-737f460e0df3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-02',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5e001d3-94f1-4b6f-b7b7-d7a9ebb20ee1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
