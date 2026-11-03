@@ -500,4 +500,80 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Sean G (@lostlemon)
+  //  0094. Gengar
+  '48a92f75-f37d-4124-add7-1ede3a8f2d73': {
+    data: {
+      id: '48a92f75-f37d-4124-add7-1ede3a8f2d73',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'aeebb5d0-0e9c-4627-8b94-0c6205b112a6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0656. Froakie
+  'ae2d1c34-d345-4eed-8045-4fe0e061b8ce': {
+    data: {
+      id: 'ae2d1c34-d345-4eed-8045-4fe0e061b8ce',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-03',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
