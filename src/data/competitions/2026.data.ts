@@ -21932,4 +21932,33 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  '4c55cf38-67ff-49f6-9d79-2ae7818de66e': {
+    data: {
+      type: 'competition',
+      id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+      attributes: {
+        description: 'Pokemon with the number 5 in their national pokedex number',
+        endDate: '2026-11-21',
+        startDate: '2026-11-08',
+        theme: 'Listen up Fivers, a shiny is speaking',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
