@@ -576,4 +576,80 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  dexter0846 (@dexter0846)
+  //  0607. Litwick
+  'e757499b-a308-4af4-9526-8af5133e09b6': {
+    data: {
+      id: 'e757499b-a308-4af4-9526-8af5133e09b6',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'bdf0c732-eec9-43be-891f-57bee8c2c27b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e4b4cdf9-bc1a-426e-845f-9346d3346b71',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Sean G (@lostlemon)
+  //  0656. Froakie
+  '138fa14d-adc4-4516-9107-fbb715310a6a': {
+    data: {
+      id: '138fa14d-adc4-4516-9107-fbb715310a6a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-04',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
