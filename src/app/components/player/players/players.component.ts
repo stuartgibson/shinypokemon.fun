@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Signal, computed, inject, signal } from '@angular/core';
+import { Component, Signal, computed, inject, signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { PlayerDatum, playersPageViewModel } from 'store/view-models/players-page.view-model';
 import { InlinePlayerComponent } from '../inline-player/inline-player.component';
@@ -9,7 +9,6 @@ export type SortDirection = 'asc' | 'desc';
 @Component({
     templateUrl: './players.component.html',
     styleUrl: './players.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent]
 })
 export class PlayersComponent {

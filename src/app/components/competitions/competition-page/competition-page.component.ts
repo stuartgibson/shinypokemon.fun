@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   DestroyRef,
   inject,
@@ -20,7 +19,6 @@ import { CompetitionComponent } from '../competition/competition.component';
   selector: 'sp-competition-page',
   templateUrl: './competition-page.component.html',
   styleUrl: './competition-page.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CompetitionComponent, PointComponent, PokemonComponent, RouterLink],
 })
 export class CompetitionPageComponent {

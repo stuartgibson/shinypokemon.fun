@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   inject,
   Signal,
@@ -15,7 +14,6 @@ import {
   selector: 'sp-trophy-seasons',
   templateUrl: './trophy-seasons.component.html',
   styleUrl: './trophy-seasons.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink],
 })
 export class TrophySeasonsComponent {

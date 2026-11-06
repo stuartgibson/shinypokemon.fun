@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
+import { Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Player } from 'models/player.model';
@@ -13,7 +13,6 @@ import { NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavC
 @Component({
     templateUrl: './generators.component.html',
     styleUrl: './generators.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavContent, PointsGeneratorComponent, CompetitionGeneratorComponent, PokemonListGeneratorComponent, NgbNavOutlet]
 })
 export class GeneratorsComponent {

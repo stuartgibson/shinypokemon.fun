@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit, Signal } from '@angular/core';
+import { Component, inject, OnInit, Signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { PokemonStatComponent } from "../pokemon-stat/pokemon-stat.component";
 import { PokemonCaughtDatum, pokemonCaughtViewModel, PokemonCaughtViewModel } from 'store/view-models/pokemon-caught.view-model';
@@ -7,7 +7,6 @@ import { PokemonCaughtDatum, pokemonCaughtViewModel, PokemonCaughtViewModel } fr
     selector: 'sp-most-caught',
     templateUrl: './most-caught.component.html',
     styleUrl: './most-caught.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [PokemonStatComponent]
 })
 export class MostCaughtComponent implements OnInit{

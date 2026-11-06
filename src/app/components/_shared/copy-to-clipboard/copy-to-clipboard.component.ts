@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   signal,
   input
@@ -10,8 +9,7 @@ const COPIED_TEXT = '✓ Copied!';
 
 @Component({
     selector: 'sp-copy-to-clipboard',
-    templateUrl: './copy-to-clipboard.component.html',
-    changeDetection: ChangeDetectionStrategy.OnPush
+    templateUrl: './copy-to-clipboard.component.html'
 })
 export class CopyToClipboardComponent {
   readonly sourceElement = input.required<HTMLElement>();

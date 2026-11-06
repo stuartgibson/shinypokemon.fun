@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
+import { Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Year } from 'models/year.model';
 import { selectPreviousYears } from 'store/reducers';
@@ -8,7 +8,6 @@ import { RouterLink } from '@angular/router';
     selector: 'sp-previous-years',
     templateUrl: './previous-years.component.html',
     styleUrl: './previous-years.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink]
 })
 export class PreviousYearsComponent {

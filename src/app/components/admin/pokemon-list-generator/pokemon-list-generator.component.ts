@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, ElementRef, Signal, viewChild, inject, signal } from '@angular/core';
+import { Component, ElementRef, Signal, viewChild, inject, signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
 import { PokemonActions } from 'store/actions';
@@ -16,7 +16,6 @@ type ParsedPokemon = {
     selector: 'sp-pokemon-list-generator',
     templateUrl: './pokemon-list-generator.component.html',
     styleUrl: './pokemon-list-generator.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [PokemonComponent, CopyToClipboardComponent, NgbNav, NgbNavItem, NgbNavItemRole, NgbNavLink, NgbNavLinkBase, NgbNavContent, NgbNavOutlet]
 })
 export class PokemonListGeneratorComponent {

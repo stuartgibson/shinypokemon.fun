@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit, Signal, input } from '@angular/core';
+import { Component, inject, OnInit, Signal, input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Player } from 'models/player.model';
 import { Players } from 'store/reducers';
@@ -8,7 +8,6 @@ import { RouterLink } from '@angular/router';
     selector: 'sp-inline-player',
     templateUrl: './inline-player.component.html',
     styleUrl: './inline-player.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink]
 })
 export class InlinePlayerComponent implements OnInit {

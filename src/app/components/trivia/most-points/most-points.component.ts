@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit, Signal } from '@angular/core';
+import { Component, inject, OnInit, Signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { PokemonStatComponent } from "../pokemon-stat/pokemon-stat.component";
 import { PokemonCaughtDatum, pokemonCaughtViewModel, PokemonCaughtViewModel } from 'store/view-models/pokemon-caught.view-model';
@@ -9,7 +9,6 @@ import { InlinePlayerComponent } from "../../player/inline-player/inline-player.
     selector: 'sp-most-points',
     templateUrl: './most-points.component.html',
     styleUrl: './most-points.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent]
 })
 export class MostPointsComponent implements OnInit {

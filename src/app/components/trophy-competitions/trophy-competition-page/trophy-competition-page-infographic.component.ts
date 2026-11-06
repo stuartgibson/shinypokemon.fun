@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   inject,
   Signal,
@@ -16,7 +15,6 @@ import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competi
   selector: 'sp-trophy-competition-page-infographic',
   templateUrl: './trophy-competition-page-infographic.component.html',
   styleUrl: './trophy-competition-page-infographic.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [TrophyCompetitionComponent, RouterLink],
 })
 export class TrophyCompetitionPageInfographicComponent {

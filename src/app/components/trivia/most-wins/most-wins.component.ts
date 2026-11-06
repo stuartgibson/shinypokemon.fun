@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit, Signal } from '@angular/core';
+import { Component, inject, OnInit, Signal } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { PlayerDatum, playersPageViewModel, PlayersPageViewModel } from 'store/view-models/players-page.view-model';
 import { InlinePlayerComponent } from "../../player/inline-player/inline-player.component";
@@ -7,7 +7,6 @@ import { InlinePlayerComponent } from "../../player/inline-player/inline-player.
     selector: 'sp-most-wins',
     templateUrl: './most-wins.component.html',
     styleUrl: './most-wins.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent]
 })
 export class MostWinsComponent implements OnInit{

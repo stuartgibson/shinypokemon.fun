@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit, Signal, input } from '@angular/core';
+import { Component, inject, OnInit, Signal, input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Pokemon } from 'models/pokemon.model';
 import { Pokemons } from 'store/reducers';
@@ -6,8 +6,7 @@ import { Pokemons } from 'store/reducers';
 @Component({
     selector: 'sp-inline-pokemon',
     templateUrl: './inline-pokemon.component.html',
-    styleUrl: './inline-pokemon.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrl: './inline-pokemon.component.sass'
 })
 export class InlinePokemonComponent implements OnInit {
   readonly id = input.required<string | null>();
