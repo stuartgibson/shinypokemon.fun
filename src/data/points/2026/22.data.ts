@@ -652,4 +652,156 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Sean G (@lostlemon)
+  //  0971. Greavard
+  'e51ebeca-b966-4cf2-b9ec-f893877253f5': {
+    data: {
+      id: 'e51ebeca-b966-4cf2-b9ec-f893877253f5',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cc565cf4-fd40-4f76-accb-bcf8cd051fdc',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0935. Charcadet
+  'cc91f0b2-5202-4285-8bd5-ae67212d4caf': {
+    data: {
+      id: 'cc91f0b2-5202-4285-8bd5-ae67212d4caf',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'cf3736c5-0795-49e3-b1e0-bb464936465d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0741. Oricorio
+  '740f08d0-1677-4bd9-849d-2da211b6a466': {
+    data: {
+      id: '740f08d0-1677-4bd9-849d-2da211b6a466',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ded7e96b-b368-4269-aeb9-22934ffe30c9',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0770. Palossand
+  '1d31975b-d432-4f37-bee7-cd19d6cdd8b0': {
+    data: {
+      id: '1d31975b-d432-4f37-bee7-cd19d6cdd8b0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'c7ffe447-807d-4a54-8358-3e50a066430c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
