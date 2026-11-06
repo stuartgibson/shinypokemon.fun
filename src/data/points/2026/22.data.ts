@@ -804,4 +804,160 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Tone (@Tone)
+  //  0052. Meowth (Alolan)
+  '07c25b31-ebef-44c9-8ee7-17f303d9919b': {
+    data: {
+      id: '07c25b31-ebef-44c9-8ee7-17f303d9919b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '52a6f371-58db-451b-bcad-414fbda4ae75',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Christopher (@Christopher)
+  //  0353. Shuppet
+  '8171076d-fca6-46ff-b10f-aba0918eea9e': {
+    data: {
+      id: '8171076d-fca6-46ff-b10f-aba0918eea9e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '01045994-15ba-4f43-9b6c-abfed6a0d7f4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Christopher (@Christopher)
+  //  0656. Froakie
+  '2f42a43b-c373-4909-98b1-bacda7e06818': {
+    data: {
+      id: '2f42a43b-c373-4909-98b1-bacda7e06818',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9086e1d6-b646-466d-afad-5dcdbb61654e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Sean G (@lostlemon)
+  //  0722. Rowlet
+  '13c3285c-a22b-44e4-b4cc-f849f605ed6a': {
+    data: {
+      id: '13c3285c-a22b-44e4-b4cc-f849f605ed6a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-06',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b5e001d3-94f1-4b6f-b7b7-d7a9ebb20ee1',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
