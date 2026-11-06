@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   inject,
   Signal,
@@ -16,7 +15,6 @@ import { CompetitionComponent } from '../competition/competition.component';
     selector: 'sp-competition-page-infographic',
     templateUrl: './competition-page-infographic.component.html',
     styleUrl: './competition-page-infographic.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [CompetitionComponent, RouterLink]
 })
 export class CompetitionPageInfographicComponent {

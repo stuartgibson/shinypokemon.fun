@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { DateTimeFormatterType } from 'src/types/date-time-formatter.types';
 import { DateComponent } from '../date/date.component';
 
@@ -6,7 +6,6 @@ import { DateComponent } from '../date/date.component';
     selector: 'sp-date-range',
     templateUrl: './date-range.component.html',
     styleUrl: './date-range.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [DateComponent]
 })
 export class DateRangeComponent {

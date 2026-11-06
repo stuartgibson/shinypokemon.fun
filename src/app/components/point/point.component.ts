@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit, Signal, input } from '@angular/core';
+import { Component, inject, OnInit, Signal, input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Point } from 'models/point.model';
 import { Pokemon } from 'models/pokemon.model';
@@ -10,7 +10,6 @@ import { InlinePlayerComponent } from '../player/inline-player/inline-player.com
     selector: 'sp-point',
     templateUrl: './point.component.html',
     styleUrl: './point.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [InlinePlayerComponent, InlinePokemonComponent]
 })
 export class PointComponent implements OnInit {

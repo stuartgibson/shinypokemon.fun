@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
+import { Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
@@ -11,7 +11,6 @@ import { RouterLink } from '@angular/router';
     selector: 'sp-current-year',
     templateUrl: './current-year.component.html',
     styleUrl: './current-year.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [RouterLink, CompetitionListComponent]
 })
 export class CurrentYearComponent {

@@ -1,12 +1,11 @@
-import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 import { getGame } from 'src/app/helpers/games.helper';
 import { GameType } from 'types/game.types';
 
 @Component({
     selector: 'sp-game',
     templateUrl: './game.component.html',
-    styleUrl: './game.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrl: './game.component.sass'
 })
 export class GameComponent {
   readonly gameType = input<GameType | null>(null);

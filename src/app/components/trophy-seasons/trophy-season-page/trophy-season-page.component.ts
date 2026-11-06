@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   inject,
   Signal,
@@ -16,7 +15,6 @@ import { InlinePlayerComponent } from '../../player/inline-player/inline-player.
 @Component({
   templateUrl: './trophy-season-page.component.html',
   styleUrl: './trophy-season-page.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CompetitionListComponent, InlinePlayerComponent],
 })
 export class TrophySeasonPageComponent {

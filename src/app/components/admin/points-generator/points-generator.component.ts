@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   inject,
   OnInit,
@@ -37,7 +36,6 @@ import { InlinePokemonComponent } from '../../pokemon/inline-pokemon/inline-poke
   selector: 'sp-points-generator',
   templateUrl: './points-generator.component.html',
   styleUrl: './points-generator.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     InlineCompetitionComponent,
     InlinePlayerComponent,

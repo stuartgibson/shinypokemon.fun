@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Signal, inject } from '@angular/core';
+import { Component, Signal, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Point } from 'models/point.model';
@@ -11,7 +11,6 @@ import { CompetitionComponent } from '../competition/competition.component';
     selector: 'sp-current-competition',
     templateUrl: './current-competition.component.html',
     styleUrl: './current-competition.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [CompetitionComponent, PointComponent]
 })
 export class CurrentCompetitionComponent {

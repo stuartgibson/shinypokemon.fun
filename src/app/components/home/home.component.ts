@@ -1,6 +1,5 @@
 
 import {
-  ChangeDetectionStrategy,
   Component,
   Signal,
   inject,
@@ -18,7 +17,6 @@ import { CurrentCompetitionComponent } from '../competitions/current-competition
   selector: 'sp-home',
   templateUrl: './home.component.html',
   styleUrl: './home.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     CurrentCompetitionComponent,
     CompetitionComponent,

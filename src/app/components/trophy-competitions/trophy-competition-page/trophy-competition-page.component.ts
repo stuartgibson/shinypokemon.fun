@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   DestroyRef,
   inject,
@@ -20,7 +19,6 @@ import { TrophyCompetitionComponent } from '../trophy-competition/trophy-competi
   selector: 'sp-trophy-competition-page',
   templateUrl: './trophy-competition-page.component.html',
   styleUrl: './trophy-competition-page.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     TrophyCompetitionComponent,
     PointComponent,

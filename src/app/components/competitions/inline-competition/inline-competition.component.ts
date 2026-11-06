@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit, Signal, input } from '@angular/core';
+import { Component, inject, OnInit, Signal, input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Competitions } from 'store/reducers/competitions.reducer';
@@ -8,7 +8,6 @@ import { DateRangeComponent } from '../../_shared/date-range/date-range.componen
     selector: 'sp-inline-competition',
     templateUrl: './inline-competition.component.html',
     styleUrl: './inline-competition.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [DateRangeComponent]
 })
 export class InlineCompetitionComponent implements OnInit {

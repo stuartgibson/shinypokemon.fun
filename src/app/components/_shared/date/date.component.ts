@@ -1,12 +1,11 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { formatDateTime } from 'src/app/helpers/dates.helper';
 import { DateTimeFormatterType } from 'src/types/date-time-formatter.types';
 
 @Component({
     selector: 'sp-date',
     templateUrl: './date.component.html',
-    styleUrl: './date.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush
+    styleUrl: './date.component.sass'
 })
 export class DateComponent {
   readonly date = input<Date | null>(null);

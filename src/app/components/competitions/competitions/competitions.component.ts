@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   inject,
   Signal,
@@ -15,7 +14,6 @@ import {
   selector: 'sp-competitions',
   templateUrl: './competitions.component.html',
   styleUrl: './competitions.component.sass',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink],
 })
 export class CompetitionsComponent {

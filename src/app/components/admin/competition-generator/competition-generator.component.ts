@@ -1,5 +1,4 @@
 import {
-  ChangeDetectionStrategy,
   Component,
   inject,
   Signal,
@@ -24,7 +23,6 @@ import { CopyToClipboardComponent } from '../../_shared/copy-to-clipboard/copy-t
     selector: 'sp-competition-generator',
     templateUrl: './competition-generator.component.html',
     styleUrl: './competition-generator.component.sass',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [
         ReactiveFormsModule,
         NgbTypeahead,
