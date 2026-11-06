@@ -2,7 +2,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
@@ -21,14 +20,17 @@
       "@angular/localize"
     ],
     "paths": {
+      "src/*": [
+        "./src/*"
+      ],
       "models/*": [
-        "src/models/*"
+        "./src/models/*"
       ],
       "store/*": [
-        "src/store/*"
+        "./src/store/*"
       ],
       "types/*": [
-        "src/types/*"
+        "./src/types/*"
       ]
     }
   },
