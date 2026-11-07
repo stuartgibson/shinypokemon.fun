@@ -960,4 +960,42 @@ export const pointsData2026_22: IPointEntities = {
       },
     },
   },
+  //  Halloween 25 Oct 2026 to 7 Nov 2026
+  //  Philip Starns (@Philip Starns)
+  //  0674. Pancham
+  '4e57f7e5-ed78-41fd-9288-dd11f3a81493': {
+    data: {
+      id: '4e57f7e5-ed78-41fd-9288-dd11f3a81493',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-07',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '5a11f602-0d6d-496f-9bcc-3f984cfc02af',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '30331ad5-c767-4a20-a5c1-cb10c53979c6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
