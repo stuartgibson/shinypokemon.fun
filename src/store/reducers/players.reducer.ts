@@ -1,6 +1,6 @@
 import { createFeature, createReducer, createSelector } from '@ngrx/store';
 import { Player } from 'models/player.model';
-import { playersData } from 'src/data/players.data';
+import { appData } from 'src/app-data';
 import { IJsonApiEntity } from 'src/interfaces/json-api.interfaces';
 import { selectRouteParams } from 'store/selectors/router.selectors';
 
@@ -24,7 +24,7 @@ export interface PlayerState {
 }
 
 const initialState:PlayerState = {
-  entities: playersData
+  entities: appData.players
 }
 
 export const Players = createFeature({

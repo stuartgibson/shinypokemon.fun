@@ -1,7 +1,7 @@
 import { createFeature, createReducer, createSelector, on } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Pokemon } from 'models/pokemon.model';
-import { pokemonData } from 'src/data/pokemon.data';
+import { appData } from 'src/app-data';
 import { IJsonApiEntity } from 'src/interfaces/json-api.interfaces';
 import { PokemonActions } from 'store/actions';
 import { Competitions } from './competitions.reducer';
@@ -31,7 +31,7 @@ export interface PokemonState {
 }
 
 const initialState: PokemonState = {
-  entities: pokemonData,
+  entities: appData.pokemon,
   selectedPokemonIDs: [],
   searchQuery: '',
 };

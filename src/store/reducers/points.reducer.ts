@@ -3,7 +3,7 @@ import { Competition } from 'models/competition.model';
 import { Player } from 'models/player.model';
 import { Point } from 'models/point.model';
 import { Year } from 'models/year.model';
-import { pointsData } from 'src/data/points.data';
+import { appData } from 'src/app-data';
 import {
   IJsonApiEntity,
   IJsonApiRelationship,
@@ -48,7 +48,7 @@ export interface PointsState {
 }
 
 const initialState: PointsState = {
-  entities: pointsData,
+  entities: appData.points,
   newPoints: {},
 };
 

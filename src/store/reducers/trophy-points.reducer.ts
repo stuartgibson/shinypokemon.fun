@@ -2,7 +2,7 @@ import { createFeature, createReducer, createSelector } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Point } from 'models/point.model';
 import { Year } from 'models/year.model';
-import { trophyPointsData } from 'src/data/trophy-points.data';
+import { appData } from 'src/app-data';
 import { IPointEntities, IPointEntity } from './points.reducer';
 import { TrophyCompetitions } from './trophy-competitions.reducer';
 import { TrophySeasons } from './trophy-seasons.reducer';
@@ -17,7 +17,7 @@ export interface TrophyPointsState {
 }
 
 const initialState: TrophyPointsState = {
-  entities: trophyPointsData,
+  entities: appData.trophyPoints,
   newPoints: {},
 };
 

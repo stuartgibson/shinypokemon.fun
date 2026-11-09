@@ -4,7 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+The site's data (`src/data`) isn't bundled into the app: it's generated into `src/assets/data.json`, which the app loads at startup. `npm start` generates it first; after changing data, run `npm run data` (or restart `npm start`) to regenerate it.
 
 ## Code scaffolding
 
@@ -12,7 +14,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build-prod` for a production build. The build artifacts will be stored in the `dist/` directory. This runs `npm run build-app` (the Angular app) then `npm run build-data` (`data.json` and the public JSON API). The deploy workflow reuses the previous app build when only data has changed.
 
 ## Running unit tests
 

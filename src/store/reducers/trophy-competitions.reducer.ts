@@ -2,7 +2,7 @@ import { createFeature, createReducer, createSelector, on } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
 import { officialCompetitionDate } from 'src/app/helpers/dates.helper';
-import { trophyCompetitionsData } from 'src/data/trophy-competitions.data';
+import { appData } from 'src/app-data';
 import { TrophyCompetitionActions } from 'store/actions';
 import { selectRouteParams } from 'store/selectors/router.selectors';
 import {
@@ -17,7 +17,7 @@ export interface TrophyCompetitionsState {
 }
 
 const initialState: TrophyCompetitionsState = {
-  entities: trophyCompetitionsData,
+  entities: appData.trophyCompetitions,
   searchQuery: '',
 };
 

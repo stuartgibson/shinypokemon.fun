@@ -1,6 +1,6 @@
 import { createFeature, createReducer, createSelector } from '@ngrx/store';
 import { Year } from 'models/year.model';
-import { yearsData } from 'src/data/years.data';
+import { appData } from 'src/app-data';
 import { IJsonApiEntity } from 'src/interfaces/json-api.interfaces';
 import { selectRouteParams } from 'store/selectors/router.selectors';
 
@@ -23,7 +23,7 @@ interface YearsState {
 }
 
 const initialState: YearsState = {
-  entities: yearsData,
+  entities: appData.years,
 };
 
 export const Years = createFeature({

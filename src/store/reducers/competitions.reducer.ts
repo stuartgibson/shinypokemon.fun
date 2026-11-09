@@ -2,7 +2,7 @@ import { createFeature, createReducer, createSelector, on } from '@ngrx/store';
 import { Competition } from 'models/competition.model';
 import { Year } from 'models/year.model';
 import { officialCompetitionDate } from 'src/app/helpers/dates.helper';
-import { competitionsData } from 'src/data/competitions.data';
+import { appData } from 'src/app-data';
 import {
   IJsonApiEntity,
   IJsonApiRelationship,
@@ -41,7 +41,7 @@ export interface CompetitionsState {
 }
 
 const initialState: CompetitionsState = {
-  entities: competitionsData,
+  entities: appData.competitions,
   newCompetition: null,
   searchQuery: '',
 };

@@ -5,6 +5,14 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+    # Changes to these files don't affect the site, so don't deploy for them
+    paths-ignore:
+      - "CLAUDE.md"
+      - "README.md"
+      - "LICENSE"
+      - ".editorconfig"
+      - ".mcp.json"
+      - ".vscode/**"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,7 +43,26 @@ jobs:
           node-version: '24'
           cache: 'npm'
       - run: npm ci
-      - run: npm run build-prod
+      # The app build doesn't include the site's data (src/data), which is
+      # generated separately into assets/data.json. So when only data has
+      # changed, reuse the previous app build instead of rebuilding it.
+      # Assets aren't cached: they're copied from src/assets instead.
+      - name: Restore app build
+        id: app-build
+        uses: actions/cache@v6
+        with:
+          path: |
+            dist/shinypokemon.fun/browser
+            !dist/shinypokemon.fun/browser/assets
+          key: app-build-${{ hashFiles('src/**', '!src/data/**', '!src/assets/**', 'angular.json', 'package.json', 'package-lock.json', 'tsconfig*.json', 'scripts/build-app.ts') }}
+      - name: Build app
+        if: steps.app-build.outputs.cache-hit != 'true'
+        run: npm run build-app
+      - name: Copy assets into reused app build
+        if: steps.app-build.outputs.cache-hit == 'true'
+        run: cp -r src/assets dist/shinypokemon.fun/browser/
+      - name: Build data
+        run: npm run build-data
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact

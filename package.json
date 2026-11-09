@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build-prod": "npx tsx ./scripts/build-prod.ts",
-    "watch": "ng build --watch --configuration development"
+    "data": "tsx scripts/build-data.ts src/assets",
+    "start": "npm run data && ng serve",
+    "build": "npm run data && ng build",
+    "build-prod": "tsx scripts/build-prod.ts",
+    "build-app": "tsx scripts/build-app.ts",
+    "build-data": "tsx scripts/build-data.ts",
+    "watch": "npm run data && ng build --watch --configuration development"
   },
   "private": true,
   "dependencies": {
