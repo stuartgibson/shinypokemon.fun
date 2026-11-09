@@ -23879,4 +23879,33 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
     },
   },
 
+  'd5bdfed7-ee97-44d8-9d8f-8a653cf92ed3': {
+    data: {
+      type: 'competition',
+      id: 'd5bdfed7-ee97-44d8-9d8f-8a653cf92ed3',
+      attributes: {
+        description: 'Pokémon who\'s Pokédex number is a multiple of 10',
+        endDate: '2026-12-05',
+        startDate: '2026-11-22',
+        theme: 'Double it and give it to the next guy',
+      },
+      relationships: {
+        selectedBy: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        validPokemon: [
+        ],
+        year: {
+          data: {
+            id: '2026',
+            type: 'year',
+          },
+        },
+      },
+    },
+  },
+
 };
