@@ -23884,7 +23884,7 @@ export const competitionsData2026: { [id: string]: ICompetitionEntity } = {
       type: 'competition',
       id: 'd5bdfed7-ee97-44d8-9d8f-8a653cf92ed3',
       attributes: {
-        description: 'Pokémon who\'s Pokédex number is a multiple of 10',
+        description: 'Pokémon whose Pokédex number is a multiple of 10',
         endDate: '2026-12-05',
         startDate: '2026-11-22',
         theme: 'Double it and give it to the next guy',
