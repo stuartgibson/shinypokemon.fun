@@ -1,6 +1,6 @@
 import { createFeature, createReducer, createSelector } from '@ngrx/store';
 import { Year } from 'models/year.model';
-import { trophySeasonsData } from 'src/data/tophy-seasons.data';
+import { appData } from 'src/app-data';
 import { selectRouteParams } from 'store/selectors/router.selectors';
 import { IYearEntities } from './years.reducer';
 
@@ -9,7 +9,7 @@ interface TrophySeasonsState {
 }
 
 const initialState: TrophySeasonsState = {
-  entities: trophySeasonsData,
+  entities: appData.trophySeasons,
 };
 
 export const TrophySeasons = createFeature({
