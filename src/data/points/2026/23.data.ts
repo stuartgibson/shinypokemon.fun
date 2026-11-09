@@ -1,4 +1,80 @@
 import { IPointEntities } from 'store/reducers';
 
 export const pointsData2026_23: IPointEntities = {
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Philip Starns (@Philip Starns)
+  //  0559. Scraggy
+  '1e5f4b0e-903e-4a24-b2d8-f1b080c9e4d1': {
+    data: {
+      id: '1e5f4b0e-903e-4a24-b2d8-f1b080c9e4d1',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-09',
+        firstCatch: true,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3b77cf43-32e8-4e19-96ec-00a6afd6906f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Philip Starns (@Philip Starns)
+  //  0052. Meowth
+  '1b32d46b-7890-4976-929f-bc6023c05a05': {
+    data: {
+      id: '1b32d46b-7890-4976-929f-bc6023c05a05',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-09',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'e7e5548f-6d09-421f-8f37-966949fe41b9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '9309bac4-a765-4e49-ae57-2dcacd543f20',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
