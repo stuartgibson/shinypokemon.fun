@@ -77,4 +77,42 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0325. Spoink
+  '64bda7b8-6318-4498-9504-94a105a45d6d': {
+    data: {
+      id: '64bda7b8-6318-4498-9504-94a105a45d6d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '032e251c-554a-4ee0-ac29-ccee98d5b32d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
