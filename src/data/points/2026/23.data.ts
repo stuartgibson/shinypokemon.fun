@@ -115,4 +115,43 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Stuart (@stuart)
+  //  0255. Torchic
+  '70b85069-8678-42fd-962f-96c3f374f39e': {
+    data: {
+      id: '70b85069-8678-42fd-962f-96c3f374f39e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-10',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da4d8b9a-edbc-4521-a783-ce83551a912e',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
