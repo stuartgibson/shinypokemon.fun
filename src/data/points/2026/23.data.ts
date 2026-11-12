@@ -192,4 +192,42 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Silent0123 (@Silent0123)
+  //  0665. Spewpa
+  '82be16e8-b029-4572-932c-6b42e4d0cd63': {
+    data: {
+      id: '82be16e8-b029-4572-932c-6b42e4d0cd63',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-12',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6703130b-8728-490b-87dc-d66e097583d5',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'f9d462b2-7ddd-4789-8c30-75e2bf7fb457',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
