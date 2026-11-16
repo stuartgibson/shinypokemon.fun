@@ -230,4 +230,232 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Tone (@Tone)
+  //  0597. Ferroseed
+  '7c466ddd-25a4-4a49-81dc-fd81e06907d0': {
+    data: {
+      id: '7c466ddd-25a4-4a49-81dc-fd81e06907d0',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fbcc31c1-78be-49ee-80a3-a4777eb6b528',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Tone (@Tone)
+  //  0714. Noibat
+  'dea0cec7-1db7-4f49-b2fd-545bbf0d1665': {
+    data: {
+      id: 'dea0cec7-1db7-4f49-b2fd-545bbf0d1665',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '187dfec5-b0cb-4157-a4aa-4738241e0864',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Tone (@Tone)
+  //  0004. Charmander
+  '25694e5e-7847-433d-9967-3ed8e87f5d07': {
+    data: {
+      id: '25694e5e-7847-433d-9967-3ed8e87f5d07',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '558462e3-65d4-4440-9617-63fae7d395e8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Tone (@Tone)
+  //  0050. Diglett (Alolan)
+  'a143dd74-fe3a-4e00-b724-553d871f7d33': {
+    data: {
+      id: 'a143dd74-fe3a-4e00-b724-553d871f7d33',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'b6d62454-b853-4731-a020-d810f536d7fa',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Christopher (@Christopher)
+  //  0704. Goomy
+  '2808669a-72b8-4a9c-8fa9-2e2c314fe223': {
+    data: {
+      id: '2808669a-72b8-4a9c-8fa9-2e2c314fe223',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '56c95763-648b-4526-a580-e5f4487c0665',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Christopher (@Christopher)
+  //  0597. Ferroseed
+  '5b74a839-44f9-416c-a932-2b4290c65c46': {
+    data: {
+      id: '5b74a839-44f9-416c-a932-2b4290c65c46',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-16',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '264f7da7-e6d0-4a18-a216-df7233d13260',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'fbcc31c1-78be-49ee-80a3-a4777eb6b528',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
