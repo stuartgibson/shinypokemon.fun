@@ -458,4 +458,42 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Tone (@Tone)
+  //  0349. Feebas
+  '538011be-73dd-4a28-8da7-3bfed52ccb88': {
+    data: {
+      id: '538011be-73dd-4a28-8da7-3bfed52ccb88',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'ea6870c3-3563-4882-b997-7f64aeeea8a8',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
