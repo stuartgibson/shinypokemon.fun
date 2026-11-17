@@ -100,4 +100,5 @@ General rule: **use `Grep` to locate what you need, then read only the surroundi
 - The comment date format uses a single space before "to" (e.g. `15 Feb 2026 to 7 Mar 2026`)
 - Dex numbers in comments are zero-padded to 4 digits (e.g. `0001`)
 - Never guess at ambiguous information from screenshots — always ask
-- Pull requests can be created and merged with the GitHub MCP tools (`create_pull_request`, `merge_pull_request`) when the user asks. If those tools are unavailable, give the user the GitHub compare link to create one manually: `https://github.com/stuartgibson/shinypokemon.fun/compare/<branch-name>`
+- Pull requests can be created and merged with the GitHub MCP tools (`create_pull_request`, `merge_pull_request`) when the user asks.
+- When adding points, if there is no ambiguity and no questions need asking, commit, push, create the PR and merge it immediately without waiting for the user to ask. If those tools are unavailable, give the user the GitHub compare link to create one manually: `https://github.com/stuartgibson/shinypokemon.fun/compare/<branch-name>`
