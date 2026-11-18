@@ -496,4 +496,232 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0714. Noibat
+  '7e5bed11-a9a3-4e9a-94f7-2a11797c660e': {
+    data: {
+      id: '7e5bed11-a9a3-4e9a-94f7-2a11797c660e',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '187dfec5-b0cb-4157-a4aa-4738241e0864',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0704. Goomy
+  '2ffdf8f8-d391-42d4-8f35-58a2ac194834': {
+    data: {
+      id: '2ffdf8f8-d391-42d4-8f35-58a2ac194834',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '56c95763-648b-4526-a580-e5f4487c0665',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0850. Sizzlipede
+  'd248072b-25aa-4b10-9279-a0f998934d43': {
+    data: {
+      id: 'd248072b-25aa-4b10-9279-a0f998934d43',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '5b9ca90f-7ad2-45a0-9fe2-e3843323bda6',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0304. Aron
+  'cd9f4f93-5266-4ca2-afca-e2431ede1ef4': {
+    data: {
+      id: 'cd9f4f93-5266-4ca2-afca-e2431ede1ef4',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '149b201e-9b77-4c3e-8722-a0be17a89106',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0395. Empoleon
+  'a81236c6-6d7c-4c03-9387-726797fb9079': {
+    data: {
+      id: 'a81236c6-6d7c-4c03-9387-726797fb9079',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '2097e1f6-3330-4663-8a56-fef5995b075c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Lewis Dobie (@Lewthelegend)
+  //  0443. Gible
+  '94da1d40-4548-4ea5-b918-ba19010d2fe3': {
+    data: {
+      id: '94da1d40-4548-4ea5-b918-ba19010d2fe3',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-18',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '7d054896-a0ea-4368-bff1-856b6abf8419',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '64abb33e-69da-4e81-8468-ed2348ca2369',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
