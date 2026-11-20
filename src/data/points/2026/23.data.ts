@@ -763,4 +763,42 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Sean G (@lostlemon)
+  //  0335. Zangoose
+  '49548cb3-bce9-4dc6-b98d-8bbaedda92ed': {
+    data: {
+      id: '49548cb3-bce9-4dc6-b98d-8bbaedda92ed',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '0e59368f-37ea-44c9-bc7a-8ce047a1447f',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '62d87f95-80cd-4313-9791-a7fd201c97d4',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
