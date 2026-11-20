@@ -724,4 +724,43 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Stuart (@stuart)
+  //  0529. Drilbur
+  '66ae1c5d-f2fa-46fe-ae36-1e74c5ec3f4b': {
+    data: {
+      id: '66ae1c5d-f2fa-46fe-ae36-1e74c5ec3f4b',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-20',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '7d21369d-ef48-4b87-94da-66c0456b60c7',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
