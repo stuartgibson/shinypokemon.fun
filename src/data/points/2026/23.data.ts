@@ -801,4 +801,82 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Tone (@Tone)
+  //  0624. Pawniard
+  '2877ab8f-969e-418c-97cb-372c74508bb8': {
+    data: {
+      id: '2877ab8f-969e-418c-97cb-372c74508bb8',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd5555901-dada-408a-9f19-f402adf9419c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Tone (@Tone)
+  //  0615. Cryogonal
+  '794675ad-9c5a-4cce-8f3e-d2014f88f162': {
+    data: {
+      id: '794675ad-9c5a-4cce-8f3e-d2014f88f162',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '6b7a4cdb-fd7b-448c-9f03-2b49b4ab3b9d',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'e798e439-2d71-4e85-8c9b-1c1e99fe331d',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
