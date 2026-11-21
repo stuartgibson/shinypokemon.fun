@@ -917,4 +917,42 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  Stephanie (Reine) (@Stephanie (Reine))
+  //  0624. Pawniard
+  '95a9613a-24ce-408e-8bb4-b7a08514b701': {
+    data: {
+      id: '95a9613a-24ce-408e-8bb4-b7a08514b701',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-21',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '39d7cd0a-6213-4de4-9d5c-a47dc583cea9',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'd5555901-dada-408a-9f19-f402adf9419c',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
