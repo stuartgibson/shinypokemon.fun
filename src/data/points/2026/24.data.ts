@@ -77,4 +77,42 @@ export const pointsData2026_24: IPointEntities = {
       },
     },
   },
+  //  Double it and give it to the next guy 22 Nov 2026 to 5 Dec 2026
+  //  Stuart (@stuart)
+  //  0909. Fuecoco
+  '5a6b022d-eb87-4895-aa3b-d8890c53b982': {
+    data: {
+      id: '5a6b022d-eb87-4895-aa3b-d8890c53b982',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-25',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd5bdfed7-ee97-44d8-9d8f-8a653cf92ed3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '80cfecae-ef2e-437b-bb94-f0309ee3b3d2',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '68da5324-8f1b-448a-a4ed-c80b23fcdcbe',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
