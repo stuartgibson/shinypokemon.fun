@@ -191,4 +191,42 @@ export const pointsData2026_24: IPointEntities = {
       },
     },
   },
+  //  Double it and give it to the next guy 22 Nov 2026 to 5 Dec 2026
+  //  Brandon Hero of Ice (@Brandon Heroice18)
+  //  0390. Chimchar
+  '15164add-23a5-48aa-928e-a6dcebb58ed7': {
+    data: {
+      id: '15164add-23a5-48aa-928e-a6dcebb58ed7',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-27',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd5bdfed7-ee97-44d8-9d8f-8a653cf92ed3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: '1e665730-88cd-4ca3-b03c-961c3a71e749',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '27c6fafd-8273-4951-a5e1-8c7727a16333',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
