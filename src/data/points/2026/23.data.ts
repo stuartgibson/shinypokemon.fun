@@ -955,4 +955,42 @@ export const pointsData2026_23: IPointEntities = {
       },
     },
   },
+  //  Listen up Fivers, a shiny is speaking 8 Nov 2026 to 21 Nov 2026
+  //  dexter0846 (@dexter0846)
+  //  0510. Liepard
+  '37fc5e97-2686-4774-8552-a2bbf9206c4a': {
+    data: {
+      id: '37fc5e97-2686-4774-8552-a2bbf9206c4a',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-17',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: '4c55cf38-67ff-49f6-9d79-2ae7818de66e',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'bdf0c732-eec9-43be-891f-57bee8c2c27b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'a1fd01be-9555-4bf6-a231-68bd6f50250b',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
