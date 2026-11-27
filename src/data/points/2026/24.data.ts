@@ -115,4 +115,80 @@ export const pointsData2026_24: IPointEntities = {
       },
     },
   },
+  //  Double it and give it to the next guy 22 Nov 2026 to 5 Dec 2026
+  //  dexter0846 (@dexter0846)
+  //  0480. Uxie
+  '31f68011-0cdc-4315-b7cc-4a625a285a43': {
+    data: {
+      id: '31f68011-0cdc-4315-b7cc-4a625a285a43',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-23',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd5bdfed7-ee97-44d8-9d8f-8a653cf92ed3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'bdf0c732-eec9-43be-891f-57bee8c2c27b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: 'da1d58bf-7628-4951-bea4-afff5003bf2f',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
+  //  Double it and give it to the next guy 22 Nov 2026 to 5 Dec 2026
+  //  dexter0846 (@dexter0846)
+  //  0120. Staryu
+  '992f66b1-b8aa-4e76-86e9-abc02bfd691d': {
+    data: {
+      id: '992f66b1-b8aa-4e76-86e9-abc02bfd691d',
+      type: 'point',
+      attributes: {
+        ball: null,
+        catchDate: '2026-11-26',
+        firstCatch: false,
+        game: null,
+        method: null,
+        oldSystemPoint: false,
+        value: 1,
+      },
+      relationships: {
+        competition: {
+          data: {
+            id: 'd5bdfed7-ee97-44d8-9d8f-8a653cf92ed3',
+            type: 'competition',
+          },
+        },
+        player: {
+          data: {
+            id: 'bdf0c732-eec9-43be-891f-57bee8c2c27b',
+            type: 'player',
+          },
+        },
+        pokemon: {
+          data: {
+            id: '3caf5287-84ef-476a-9b3e-9e8a741fe4d3',
+            type: 'pokemon',
+          },
+        },
+      },
+    },
+  },
 };
